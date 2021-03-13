@@ -1,0 +1,15 @@
+{
+    "name": "org.kde.alligator",
+    "description": "RSS Feed Reader",
+    "architecture": "$ENV{ARCH}",
+    "title": "Alligator",
+    "hooks": {
+        "alligator": {
+            "apparmor": "alligator.apparmor",
+            "desktop":  "share/applications/org.kde.alligator.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "KDE <nicolas.fella@kde.org>",
+    "framework" : "$ENV{SDK_FRAMEWORK}"
+}

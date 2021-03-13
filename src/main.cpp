@@ -11,7 +11,7 @@
 #include <QQuickView>
 #include <QQuickStyle>
 
-#ifdef Q_OS_ANDROID
+#if defined(Q_OS_ANDROID) || defined(UBUNTU_TOUCH)
 #include <QGuiApplication>
 #else
 #include <QApplication>
@@ -28,6 +28,8 @@
 #include "feedsmodel.h"
 #include "fetcher.h"
 
+#include <QLibraryInfo>
+
 #ifdef Q_OS_ANDROID
 Q_DECL_EXPORT
 #endif
@@ -36,13 +38,14 @@ int main(int argc, char *argv[])
 #ifdef Q_OS_ANDROID
     QGuiApplication app(argc, argv);
     QQuickStyle::setStyle(QStringLiteral("Material"));
+#elif defined(UBUNTU_TOUCH)
+    QGuiApplication app(argc, argv);
+    QIcon::setThemeSearchPaths(QIcon::themeSearchPaths() << QStringLiteral("/usr/share/icons") << QStringLiteral("share/icons"));
+    QIcon::setThemeName(QStringLiteral("suru"));
+    QIcon::setFallbackThemeName(QStringLiteral("breeze"));
 #else
     QApplication app(argc, argv);
 #endif
-
-    QCoreApplication::setOrganizationName(QStringLiteral("KDE"));
-    QCoreApplication::setOrganizationDomain(QStringLiteral("kde.org"));
-    QCoreApplication::setApplicationName(QStringLiteral("Alligator"));
 
     qmlRegisterType<FeedsModel>("org.kde.alligator", 1, 0, "FeedsModel");
     qmlRegisterUncreatableType<EntriesModel>("org.kde.alligator", 1, 0, "EntriesModel", QStringLiteral("Get from Feed"));
@@ -69,6 +72,11 @@ int main(int argc, char *argv[])
     about.setupCommandLine(&parser);
     parser.process(app);
     about.processCommandLine(&parser);
+
+#ifdef UBUNTU_TOUCH
+    QCoreApplication::setApplicationName(QStringLiteral("org.kde.alligator"));
+    QCoreApplication::setOrganizationName(QString());
+#endif
 
     engine.rootContext()->setContextProperty(QStringLiteral("_aboutData"), QVariant::fromValue(about));
 

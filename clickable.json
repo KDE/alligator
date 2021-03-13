@@ -1,0 +1,479 @@
+{
+  "builder": "cmake",
+  "dependencies_ppa": [
+            "https://apt.kitware.com/ubuntu/"
+        ],
+        "dependencies_host": [
+            "cmake"
+        ],
+  "kill": "alligator",
+  "build_args": [
+    "-DCMAKE_PREFIX_PATH='${ROOT}/qt;${ROOT}/ecmprefix;${ROOT}/kcoreaddonsprefix;${ROOT}/kconfigprefix;${ROOT}/ki18nprefix;${ROOT}/syndicationprefix'",
+    "-DKF5_HOST_TOOLING='${ROOT}/kf5host/lib/x86_64-linux-gnu/cmake'",
+    "-DCMAKE_SYSTEM_NAME=Linux",
+    "-DUBUNTU_TOUCH=ON",
+    "-DCMAKE_INSTALL_BINDIR=."
+    ],
+    "install_lib": [
+        "${ROOT}/*/lib/${ARCH_TRIPLET}/*.so*",
+        "${ROOT}/*/lib/*.so*"
+    ],
+    "install_qml": [
+        "${ROOT}/qt/qml/**",
+        "${ROOT}/*/lib/${ARCH_TRIPLET}/qml/*"
+    ],
+    "install_data": {
+        "${INSTALL_DIR}/share/applications/*": "share/applications",
+        "${ROOT}/breeze-iconsprefix/share/icons/*": "share/icons",
+        "${ROOT}/*/plugins/*": "plugins"
+    },
+  "libraries": {
+
+     "openssl": {
+
+        "builder": "custom",
+        "build": "cd ${SRC_DIR} && ./Configure linux-aarch64 --prefix=${ROOT}/openssl-install && make build_libs -j`nproc` SHLIB_VERSION_NUMBER= SHLIB_EXT=_1_1.so && make install_sw SHLIB_VERSION_NUMBER= SHLIB_EXT=_1_1.so",
+        "prebuild": "git clone https://github.com/openssl/openssl.git --branch OpenSSL_1_1_1i libs/openssl || true"
+
+     },
+
+
+     "qtbase": {
+       "builder": "custom",
+        "dependencies_host": [
+            "crossbuild-essential-armhf",
+            "libfontconfig-dev"
+        ],
+        "dependencies_target": [
+            "freetds-common",
+            "freetds-dev",
+            "gettext",
+            "gettext-base",
+            "groff-base",
+            "icu-devtools",
+            "iso-codes",
+            "krb5-multidev",
+            "libasan2",
+            "libasn1-8-heimdal",
+            "libasound2",
+            "libasound2-data",
+            "libasound2-dev",
+            "libasprintf0v5",
+            "libasyncns0",
+            "libatk1.0-0",
+            "libatk1.0-data",
+            "libatk1.0-dev",
+            "libatomic1",
+            "libatspi2.0-0",
+            "libatspi2.0-dev",
+            "libavahi-client3",
+            "libavahi-common-data",
+            "libavahi-common3",
+            "libbabeltrace-ctf1",
+            "libbabeltrace1",
+            "libboost-filesystem1.58.0",
+            "libboost-system1.58.0",
+            "libbsd0",
+            "libc-dev-bin",
+            "libc6-dev",
+            "libdrm-amdgpu1",
+            "libdrm-common",
+            "libdrm-dev",
+            "libdrm-nouveau2",
+            "libdrm-radeon1",
+            "libdrm2",
+            "libegl1-mesa",
+            "libegl1-mesa-dev",
+            "libelf1",
+            "libgbm-dev",
+            "libgbm1",
+            "libgcc-5-dev",
+            "libgdbm3",
+            "libgl1-mesa-dev",
+            "libgl1-mesa-dri",
+            "libgl1-mesa-glx",
+            "libglapi-mesa",
+            "libgles2-mesa-dev",
+            "libglib2.0-0",
+            "libglib2.0-bin",
+            "libglib2.0-data",
+            "libglib2.0-dev",
+            "libglu1-mesa",
+            "libglu1-mesa-dev",
+            "libgmp10",
+            "libgnutls30",
+            "libgomp1",
+            "libgraphite2-3",
+            "libgssapi-krb5-2",
+            "libgssapi3-heimdal",
+            "libgssrpc4",
+            "libgstreamer-plugins-base1.0-0",
+            "libgstreamer-plugins-base1.0-dev",
+            "libgstreamer1.0-0",
+            "libgstreamer1.0-dev",
+            "libgudev-1.0-0",
+            "libhcrypto4-heimdal",
+            "libheimbase1-heimdal",
+            "libheimntlm0-heimdal",
+            "libhogweed4",
+            "libhx509-5-heimdal",
+            "libice-dev",
+            "libice6",
+            "libicu-dev",
+            "libicu55",
+            "libidn11",
+            "libinput-bin",
+            "libinput10",
+            "libisl15",
+            "libjbig0",
+            "libjpeg-dev",
+            "libjpeg-turbo8",
+            "libjpeg-turbo8-dev",
+            "libjpeg8",
+            "libjpeg8-dev",
+            "libjson-c2",
+            "libk5crypto3",
+            "libkadm5clnt-mit9",
+            "libkadm5srv-mit9",
+            "libkdb5-8",
+            "libkeyutils1",
+            "libkrb5-26-heimdal",
+            "libkrb5-3",
+            "libkrb5support0",
+            "libldap-2.4-2",
+            "libllvm6.0",
+            "libltdl-dev",
+            "libltdl7",
+            "liblzo2-2",
+            "libmagic1",
+            "libmirclient-dev",
+            "libmirclient9",
+            "libmircommon-dev",
+            "libmircommon7",
+            "libmircookie-dev",
+            "libmircookie2",
+            "libmircore-dev",
+            "libmircore1",
+            "libmirprotobuf3",
+            "libmpc3",
+            "libmpdec2",
+            "libmpfr4",
+            "libmtdev-dev",
+            "libmtdev1",
+            "libmysqlclient-dev",
+            "libmysqlclient20",
+            "libnettle6",
+            "libodbc1",
+            "libogg0",
+            "liborc-0.4-0",
+            "libp11-kit0",
+            "libpango-1.0-0",
+            "libpango1.0-dev",
+            "libpangocairo-1.0-0",
+            "libpangoft2-1.0-0",
+            "libpangoxft-1.0-0",
+            "libpciaccess0",
+            "libpcre16-3",
+            "libpcre3-dev",
+            "libpcre32-3",
+            "libpcrecpp0v5",
+            "libpipeline1",
+            "libpixman-1-0",
+            "libpixman-1-dev",
+            "libpng12-0",
+            "libpng12-dev",
+            "libpq-dev",
+            "libpq5",
+            "libprotobuf-dev",
+            "libprotobuf-lite9v5",
+            "libprotobuf9v5",
+            "libproxy-dev",
+            "libproxy1v5",
+            "libpthread-stubs0-dev",
+            "libpulse-dev",
+            "libpulse-mainloop-glib0",
+            "libpulse0",
+            "libpython-stdlib",
+            "libpython2.7-minimal",
+            "libpython2.7-stdlib",
+            "libpython3.5",
+            "libpython3.5-minimal",
+            "libpython3.5-stdlib",
+            "libroken18-heimdal",
+            "libsasl2-2",
+            "libsasl2-modules-db",
+            "libsensors4",
+            "libsm-dev",
+            "libsm6",
+            "libsndfile1",
+            "libsqlite3-0",
+            "libsqlite3-dev",
+            "libssl-dev",
+            "libssl1.0.0",
+            "libstdc++-5-dev",
+            "libsybdb5",
+            "libtasn1-6",
+            "libthai-data",
+            "libthai0",
+            "libtiff5",
+            "libubsan0",
+            "libudev-dev",
+            "libunistring0",
+            "libvorbis0a",
+            "libvorbisenc2",
+            "libwacom-common",
+            "libwacom2",
+            "libwayland-bin",
+            "libwayland-client0",
+            "libwayland-cursor0",
+            "libwayland-dev",
+            "libwayland-egl1-mesa",
+            "libwayland-server0",
+            "libwind0-heimdal",
+            "libwrap0",
+            "libxkbcommon-dev",
+            "libxkbcommon-x11-0",
+            "libxkbcommon-x11-dev",
+            "libxkbcommon0",
+            "libxkbfile1",
+            "libxml2",
+            "libxml2-dev",
+            "libxml2-utils",
+            "libxmu6",
+            "libxmuu1",
+            "libxpm4",
+            "libxshmfence-dev",
+            "libxshmfence1",
+            "linux-libc-dev",
+            "mesa-common-dev",
+            "t1utils",
+            "ucf",
+            "unixodbc",
+            "unixodbc-dev",
+            "libfontconfig-dev"
+        ],
+       "build": "cd ${SRC_DIR} && export OPENSSL_LIBS='-L${ROOT}/openssl-install/lib -lssl -lcrypto' && ./configure -v -prefix ${ROOT}/qt -opensource -confirm-license -nomake examples -nomake tests -opengl es2 -xplatform linux-aarch64-gnu-g++ -qt-harfbuzz -qt-zlib -fontconfig -no-eglfs -no-directfb -no-linuxfb -no-widgets -I${ROOT}/openssl-install/include && make -j24 && make install",
+
+       "build_args": [
+       ],
+       "prebuild": "git clone git://code.qt.io/qt/qtbase.git --branch 5.15.2 libs/qtbase || true"
+    },
+    "qtwayland": {
+        "dependencies_target": [
+            "libfontconfig-dev"
+        ],
+        "builder": "custom",
+        "build": "cd ${SRC_DIR} && ${ROOT}/qt/bin/qmake -- -no-feature-wayland-server && make -j24 && make install",
+        "prebuild": "git clone git://code.qt.io/qt/qtwayland.git --branch 5.15.2 libs/qtwayland || true"
+
+    },
+    "qtdeclarative": {
+        "builder": "custom",
+        "build": "cd ${SRC_DIR} && ${ROOT}/qt/bin/qmake && make -j24 && make install",
+        "prebuild": "git clone git://code.qt.io/qt/qtdeclarative.git --branch 5.15.2 libs/qtdeclarative || true"
+
+    },
+    "qtsvg": {
+        "builder": "custom",
+        "build": "cd ${SRC_DIR} && ${ROOT}/qt/bin/qmake && make -j24 && make install",
+        "prebuild": "git clone git://code.qt.io/qt/qtsvg.git --branch 5.15.2 libs/qtsvg || true"
+    },
+    "qtquickcontrols2": {
+        "builder": "custom",
+        "build": "cd ${SRC_DIR} && ${ROOT}/qt/bin/qmake -- -no-feature-quickcontrols2-fusion -no-feature-quickcontrols2-imagine -no-feature-quickcontrols2-material -no-feature-quickcontrols2-universal && make -j24 && make install",
+        "prebuild": "git clone git://code.qt.io/qt/qtquickcontrols2.git --branch 5.15.2 libs/qtquickcontrols2 || true"
+    },
+    "qtgraphicaleffects": {
+        "builder": "custom",
+        "build": "cd ${SRC_DIR} && ${ROOT}/qt/bin/qmake && make -j24 && make install",
+        "prebuild": "git clone git://code.qt.io/qt/qtgraphicaleffects.git --branch 5.15.2 libs/qtgraphicaleffects || true"
+    },
+    "qqc2-suru-style": {
+        "builder": "custom",
+        "build": "cd ${SRC_DIR} && ${ROOT}/qt/bin/qmake && make -j24 && make install",
+        "prebuild": "git clone https://github.com/ubports/qqc2-suru-style libs/qqc2-suru-style || true"
+    },
+    "extra-cmake-modules": {
+       "builder": "cmake",
+       "build_args": [],
+       "prebuild": "git clone https://anongit.kde.org/extra-cmake-modules.git libs/extra-cmake-modules || true",
+       "install_dir": "ecmprefix"
+     },
+    "kirigami": {
+       "builder": "cmake",
+       "dependencies_ppa": [
+            "https://apt.kitware.com/ubuntu/"
+        ],
+        "dependencies_host": [
+            "cmake"
+        ],
+       "build_args": [
+        "-DCMAKE_PREFIX_PATH='${ROOT}/qt;${ROOT}/ecmprefix'",
+        "-DUBUNTU_TOUCH=ON"
+       ],
+       "prebuild": "cmake --version && git clone https://anongit.kde.org/kirigami.git libs/kirigami || true",
+       "install_dir": "kirigamiprefix"
+     },
+    "kitemmodels": {
+       "builder": "cmake",
+       "dependencies_ppa": [
+            "https://apt.kitware.com/ubuntu/"
+        ],
+        "dependencies_host": [
+            "cmake"
+        ],
+       "build_args": [
+        "-DCMAKE_PREFIX_PATH='${ROOT}/qt;${ROOT}/ecmprefix'",
+        "-DBUILD_TESTING=OFF"
+       ],
+       "prebuild": "git clone https://anongit.kde.org/kitemmodels.git libs/kitemmodels || true",
+       "install_dir": "kitemmodelsprefix"
+     },
+    "breeze-icons": {
+       "builder": "cmake",
+       "dependencies_ppa": [
+            "https://apt.kitware.com/ubuntu/",
+            "ppa:deadsnakes/ppa"
+        ],
+        "dependencies_host": [
+            "cmake",
+            "python3.9"
+        ],
+       "build_args": [
+        "-DCMAKE_PREFIX_PATH='${ROOT}/qt;${ROOT}/ecmprefix'",
+        "-DCMAKE_SYSTEM_NAME=Linux"
+       ],
+       "prebuild": "git clone https://anongit.kde.org/breeze-icons.git libs/breeze-icons || true",
+       "install_dir": "breeze-iconsprefix"
+     },
+    "kcoreaddons": {
+       "builder": "cmake",
+       "dependencies_ppa": [
+            "https://apt.kitware.com/ubuntu/"
+        ],
+        "dependencies_host": [
+            "cmake"
+        ],
+       "build_args": [
+        "-DCMAKE_PREFIX_PATH='${ROOT}/qt;${ROOT}/ecmprefix'"
+       ],
+       "prebuild": "git clone https://anongit.kde.org/kcoreaddons.git libs/kcoreaddons || true",
+       "install_dir": "kcoreaddonsprefix"
+     },
+    "kcodecs": {
+       "builder": "cmake",
+       "dependencies_ppa": [
+            "https://apt.kitware.com/ubuntu/"
+        ],
+        "dependencies_host": [
+            "cmake",
+            "gperf"
+        ],
+       "build_args": [
+        "-DCMAKE_PREFIX_PATH='${ROOT}/qt;${ROOT}/ecmprefix'"
+       ],
+       "prebuild": "git clone https://anongit.kde.org/kcodecs.git libs/kcodecs || true",
+       "install_dir": "kcodecsprefix"
+     },
+    "syndication": {
+       "builder": "cmake",
+       "dependencies_ppa": [
+            "https://apt.kitware.com/ubuntu/"
+        ],
+        "dependencies_host": [
+            "cmake"
+        ],
+       "build_args": [
+        "-DCMAKE_PREFIX_PATH='${ROOT}/qt;${ROOT}/ecmprefix;${ROOT}/kcodecsprefix'",
+        "-DBUILD_TESTING=OFF"
+       ],
+       "prebuild": "git clone https://anongit.kde.org/syndication.git libs/syndication || true",
+       "install_dir": "syndicationprefix"
+     },
+    "ki18n": {
+       "builder": "cmake",
+       "dependencies_ppa": [
+            "https://apt.kitware.com/ubuntu/"
+        ],
+        "dependencies_host": [
+            "cmake"
+        ],
+       "build_args": [
+        "-DCMAKE_PREFIX_PATH='${ROOT}/qt;${ROOT}/ecmprefix'"
+       ],
+       "prebuild": "git clone https://anongit.kde.org/ki18n.git libs/ki18n || true",
+       "install_dir": "ki18nprefix"
+     },
+     "qtbase-host": {
+        "builder": "custom",
+        "dependencies_host": [
+            "libgl1-mesa-dev",
+            "libgl1-mesa-glx",
+            "libglu1-mesa-dev",
+            "libgl1-mesa-dri",
+            "libegl1-x11"
+        ],
+        "build": "cd ${SRC_DIR} && ./configure -v -prefix ${ROOT}/qt-host -opensource -confirm-license -nomake examples -nomake tests -no-widgets && make -j24 && make install",
+        "prebuild": "git clone git://code.qt.io/qt/qtbase.git --branch 5.15.2 libs/qtbase-host || true"
+     },
+    "kconfig-host": {
+       "builder": "custom",
+       "dependencies_ppa": [
+            "https://apt.kitware.com/ubuntu/"
+        ],
+        "dependencies_host": [
+            "cmake"
+        ],
+       "build": "cd ${BUILD_DIR} && cmake -DCMAKE_CXX_COMPILER=g++ -DCMAKE_PREFIX_PATH='${ROOT}/qt-host;${ROOT}/ecmprefix' -DCMAKE_INSTALL_PREFIX='${ROOT}/kf5host' ${SRC_DIR} && make -j24 && make install",
+       "prebuild": "git clone https://anongit.kde.org/kconfig.git libs/kconfig-host || true"
+     },
+     "kcoreaddons-host": {
+       "builder": "custom",
+       "dependencies_ppa": [
+            "https://apt.kitware.com/ubuntu/"
+        ],
+        "dependencies_host": [
+            "cmake"
+        ],
+       "build": "cd ${BUILD_DIR} && cmake -DCMAKE_CXX_COMPILER=g++ -DCMAKE_PREFIX_PATH='${ROOT}/qt-host;${ROOT}/ecmprefix' -DCMAKE_INSTALL_PREFIX='${ROOT}/kf5host' ${SRC_DIR} && make -j24 && make install",
+       "prebuild": "git clone https://anongit.kde.org/kcoreaddons.git libs/kcoreaddons-host || true"
+     },
+    "kconfig": {
+       "builder": "cmake",
+       "dependencies_ppa": [
+            "https://apt.kitware.com/ubuntu/"
+        ],
+        "dependencies_host": [
+            "cmake"
+        ],
+       "build_args": [
+        "-DCMAKE_PREFIX_PATH='${ROOT}/qt;${ROOT}/ecmprefix' -DBUILD_TESTING=Off -DCMAKE_CROSSCOMPILING=ON"
+       ],
+       "prebuild": "git clone https://anongit.kde.org/kconfig.git libs/kconfig || true",
+       "install_dir": "kconfigprefix"
+     },
+    "maliit-framework": {
+       "builder": "cmake",
+       "dependencies_ppa": [
+            "https://apt.kitware.com/ubuntu/"
+        ],
+        "dependencies_host": [
+            "cmake"
+        ],
+       "build_args": [
+        "-DCMAKE_PREFIX_PATH='${ROOT}/qt'",
+        "-Denable-tests=OFF",
+        "-Denable-docs=OFF",
+        "-Denable-examples=OFF",
+        "-Denable-glib=OFF",
+
+        "-Denable-wayland=OFF",
+        "-Denable-hwkeyboard=OFF",
+        "-Denable-dbus-activation=OFF",
+        "-DQT5_PLUGINS_INSTALL_DIR=plugins"
+       ],
+       "prebuild": "git clone https://github.com/maliit/framework/ libs/maliit-framework || true",
+       "install_dir": "maliitprefix"
+     }
+    }
+}

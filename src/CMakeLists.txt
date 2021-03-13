@@ -38,6 +38,8 @@ if(ANDROID)
         document-import
         document-export
     )
+elseif(UBUNTU_TOUCH)
+    target_compile_definitions(alligator PRIVATE -DUBUNTU_TOUCH)
 else()
     target_link_libraries(alligator PRIVATE Qt5::Widgets)
 endif()

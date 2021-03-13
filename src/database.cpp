@@ -17,6 +17,8 @@
 #include "database.h"
 #include "fetcher.h"
 
+#include <QFileInfo>
+
 #define TRUE_OR_RETURN(x)                                                                                                                                                                                                                      \
     if (!x)                                                                                                                                                                                                                                    \
         return false;
@@ -25,6 +27,8 @@ Database::Database()
 {
     QSqlDatabase db = QSqlDatabase::addDatabase(QStringLiteral("QSQLITE"));
     QString databasePath = QStandardPaths::writableLocation(QStandardPaths::AppDataLocation);
+    qDebug() << "DB is at" << databasePath;
+    qDebug() << "writable" << QFileInfo(databasePath).isWritable();
     QDir(databasePath).mkpath(databasePath);
     db.setDatabaseName(databasePath + QStringLiteral("/database.db3"));
     db.open();
