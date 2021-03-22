@@ -23,14 +23,16 @@ ColumnLayout {
         text: i18n("Error (%1): %2", page.feed.errorId, page.feed.errorString)
         visible: page.feed.errorId !== 0
     }
+
     RowLayout {
-        width: parent.width
-        height: root.height * 0.2
+        Layout.fillWidth: true
+        Layout.margins: Kirigami.Units.smallSpacing
+        spacing: Kirigami.Units.smallSpacing
 
         Kirigami.Icon {
             source: Fetcher.image(page.feed.image)
             width: height
-            height: parent.height
+            height: Kirigami.Units.gridUnit * 5
         }
 
         ColumnLayout {
@@ -38,9 +40,11 @@ ColumnLayout {
                 text: page.feed.name
             }
             Controls.Label {
+                visible: text.length > 0
                 text: page.feed.description
             }
             Controls.Label {
+                visible: text.length > 0
                 text: page.feed.authors.length === 0 ? "" : " " + i18nc("by <author(s)>", "by") + " " + page.feed.authors[0].name
             }
         }
