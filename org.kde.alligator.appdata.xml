@@ -131,6 +131,7 @@
   <developer_name xml:lang="nl">De KDE gemeenschap</developer_name>
   <developer_name xml:lang="pt">A Comunidade do KDE</developer_name>
   <developer_name xml:lang="pt-BR">A comunidade KDE</developer_name>
+  <developer_name xml:lang="sl">Skupnost KDE</developer_name>
   <developer_name xml:lang="sv">KDE-gemenskapen</developer_name>
   <developer_name xml:lang="uk">Спільнота KDE</developer_name>
   <developer_name xml:lang="x-test">xxThe KDE Communityxx</developer_name>
@@ -142,6 +143,7 @@
       <caption xml:lang="ia">Lista de syndication de Alligator sur le scriptorio</caption>
       <caption xml:lang="nl">Alligator feed-lijst op het bureaublad</caption>
       <caption xml:lang="pt">A lista de fontes do Alligator num computador</caption>
+      <caption xml:lang="sl">Alligator seznam virov na namizju</caption>
       <caption xml:lang="sv">Alligator kanallista på skrivbordet</caption>
       <caption xml:lang="uk">Список подач Alligator на стільниці</caption>
       <caption xml:lang="x-test">xxAlligator feed list on the desktopxx</caption>
@@ -154,6 +156,7 @@
       <caption xml:lang="ia">Alligator sur un telephono</caption>
       <caption xml:lang="nl">Alligator op een telefoon</caption>
       <caption xml:lang="pt">O Alligator no telefone</caption>
+      <caption xml:lang="sl">Alligator na telefonu</caption>
       <caption xml:lang="sv">Alligator på en telefon</caption>
       <caption xml:lang="uk">Alligator на телефоні</caption>
       <caption xml:lang="x-test">xxAlligator on a phonexx</caption>
