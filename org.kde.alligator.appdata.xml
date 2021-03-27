@@ -126,6 +126,7 @@
   </provides>
   <developer_name>The KDE Community</developer_name>
   <developer_name xml:lang="ca">La comunitat KDE</developer_name>
+  <developer_name xml:lang="cs">Komunita KDE</developer_name>
   <developer_name xml:lang="es">La Comunidad KDE</developer_name>
   <developer_name xml:lang="ia">Le communitate de KDE</developer_name>
   <developer_name xml:lang="nl">De KDE gemeenschap</developer_name>
