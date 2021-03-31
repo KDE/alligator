@@ -38,7 +38,7 @@
   <summary xml:lang="en-GB">Feed reader for mobile devices</summary>
   <summary xml:lang="es">Lector de emisiones web para dispositivos móviles</summary>
   <summary xml:lang="et">Mobiilseadmete uudistelugeja</summary>
-  <summary xml:lang="eu">Gailu mugikorretako web-jario irakurlea</summary>
+  <summary xml:lang="eu">Gailu mugikorretarako web-jario irakurlea</summary>
   <summary xml:lang="fi">Syötelukija mobiililaitteille</summary>
   <summary xml:lang="fr">Lecteur de fils d'actualité pour les périphériques mobiles</summary>
   <summary xml:lang="hi">मोबाइल उपकरणो के लिए फ़ीड रीडर</summary>
@@ -129,6 +129,7 @@
   <developer_name xml:lang="ca-valencia">La comunitat KDE</developer_name>
   <developer_name xml:lang="cs">Komunita KDE</developer_name>
   <developer_name xml:lang="es">La Comunidad KDE</developer_name>
+  <developer_name xml:lang="eu">KDE komunitatea</developer_name>
   <developer_name xml:lang="ia">Le communitate de KDE</developer_name>
   <developer_name xml:lang="nl">De KDE gemeenschap</developer_name>
   <developer_name xml:lang="nn">KDE-fellesskapet</developer_name>
@@ -143,7 +144,9 @@
       <caption>Alligator feed list on the desktop</caption>
       <caption xml:lang="ca">Llista de fonts a l'Alligator a l'escriptori</caption>
       <caption xml:lang="ca-valencia">Llista de fonts a l'Alligator a l'escriptori</caption>
+      <caption xml:lang="cs">Seznam kanálů Alligatoru na počítači</caption>
       <caption xml:lang="es">Lista de emisiones de Alligator en el escritorio</caption>
+      <caption xml:lang="eu">Alligatorreko jario-zerrenda mahaigainean</caption>
       <caption xml:lang="ia">Lista de syndication de Alligator sur le scriptorio</caption>
       <caption xml:lang="nl">Alligator feed-lijst op het bureaublad</caption>
       <caption xml:lang="nn">Kjeldelista i Alligator på ein PC</caption>
@@ -158,7 +161,9 @@
       <caption>Alligator on a phone</caption>
       <caption xml:lang="ca">Alligator a un telèfon</caption>
       <caption xml:lang="ca-valencia">Alligator a un telèfon</caption>
+      <caption xml:lang="cs">Alligator na telefonu</caption>
       <caption xml:lang="es">Alligator para móviles</caption>
+      <caption xml:lang="eu">Alligator telefono batean</caption>
       <caption xml:lang="ia">Alligator sur un telephono</caption>
       <caption xml:lang="nl">Alligator op een telefoon</caption>
       <caption xml:lang="nn">Alligator på ein telefon</caption>
