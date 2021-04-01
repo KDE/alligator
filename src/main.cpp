@@ -4,12 +4,14 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-
+#include <QCommandLineOption>
 #include <QCommandLineParser>
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
 #include <QQuickView>
 #include <QQuickStyle>
+#include <QString>
+#include <QStringList>
 
 #ifdef Q_OS_ANDROID
 #include <QGuiApplication>
@@ -31,6 +33,7 @@
 #ifdef Q_OS_ANDROID
 Q_DECL_EXPORT
 #endif
+
 int main(int argc, char *argv[])
 {
 #ifdef Q_OS_ANDROID
@@ -61,6 +64,11 @@ int main(int argc, char *argv[])
 
     QCommandLineParser parser;
     parser.setApplicationDescription(i18n("RSS/Atom Feed Reader"));
+    QCommandLineOption addFeedOption(QStringList() << QStringLiteral("a") << QStringLiteral("addfeed")
+                                   , i18n("Adds a new feed to database.")
+                                   , i18n("feed URL")
+                                   , QStringLiteral("none"));
+    parser.addOption(addFeedOption);
 
     KAboutData about(QStringLiteral("alligator"), i18n("Alligator"), QStringLiteral(ALLIGATOR_VERSION_STRING), i18n("Feed Reader"), KAboutLicense::GPL, i18n("© 2020 KDE Community"));
     about.addAuthor(i18n("Tobias Fella"), QString(), QStringLiteral("fella@posteo.de"));
@@ -68,6 +76,9 @@ int main(int argc, char *argv[])
 
     about.setupCommandLine(&parser);
     parser.process(app);
+    QString feedURL = parser.value(addFeedOption);
+    if(feedURL != QStringLiteral("none"))
+        Database::instance().addFeed(feedURL);
     about.processCommandLine(&parser);
 
     engine.rootContext()->setContextProperty(QStringLiteral("_aboutData"), QVariant::fromValue(about));
