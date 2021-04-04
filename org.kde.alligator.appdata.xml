@@ -128,6 +128,7 @@
   <developer_name xml:lang="ca">La comunitat KDE</developer_name>
   <developer_name xml:lang="ca-valencia">La comunitat KDE</developer_name>
   <developer_name xml:lang="cs">Komunita KDE</developer_name>
+  <developer_name xml:lang="en-GB">The KDE Community</developer_name>
   <developer_name xml:lang="es">La Comunidad KDE</developer_name>
   <developer_name xml:lang="eu">KDE komunitatea</developer_name>
   <developer_name xml:lang="fr">La communauté de KDE</developer_name>
@@ -147,6 +148,7 @@
       <caption xml:lang="ca">Llista de fonts a l'Alligator a l'escriptori</caption>
       <caption xml:lang="ca-valencia">Llista de fonts a l'Alligator a l'escriptori</caption>
       <caption xml:lang="cs">Seznam kanálů Alligatoru na počítači</caption>
+      <caption xml:lang="en-GB">Alligator feed list on the desktop</caption>
       <caption xml:lang="es">Lista de emisiones de Alligator en el escritorio</caption>
       <caption xml:lang="eu">Alligatorreko jario-zerrenda mahaigainean</caption>
       <caption xml:lang="fr">Liste de fils d'actualités Alligator sur le bureau</caption>
@@ -166,6 +168,7 @@
       <caption xml:lang="ca">Alligator a un telèfon</caption>
       <caption xml:lang="ca-valencia">Alligator a un telèfon</caption>
       <caption xml:lang="cs">Alligator na telefonu</caption>
+      <caption xml:lang="en-GB">Alligator on a phone</caption>
       <caption xml:lang="es">Alligator para móviles</caption>
       <caption xml:lang="eu">Alligator telefono batean</caption>
       <caption xml:lang="fr">Alligator sur un téléphone</caption>
