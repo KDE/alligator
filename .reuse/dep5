@@ -1,0 +1,11 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Alligator
+Upstream-Contact: Tobias Fella <fella@posteo.de>
+
+Files: src/qtquickcontrols2.conf README.md src/alligatorsettings.kcfgc
+Copyright: 2020 Tobias Fella <fella@posteo.de>
+License: CC0-1.0
+
+Files: android/res/drawable/splash.xml
+Copyright: 2020 Tobias Fella <fella@posteo.de>
+License: BSD-2-Clause

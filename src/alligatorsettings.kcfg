@@ -1,3 +1,5 @@
+<!-- SPDX-FileCopyrightText: 2020 Tobias Fella <fella@posteo.de> -->
+<!-- SPDX-License-Identifier: BSD-2-Clause -->
 <?xml version="1.0" encoding="UTF-8"?>
 <kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
