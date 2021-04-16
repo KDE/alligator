@@ -21,7 +21,8 @@ FeedsModel::FeedsModel(QObject *parent)
         beginInsertRows(QModelIndex(), rowCount(QModelIndex()) - 1, rowCount(QModelIndex()) - 1);
         endInsertRows();
     });
-    connect(&Fetcher::instance(), &Fetcher::feedDetailsUpdated, this, [this](const QString &url, const QString &name, const QString &image, const QString &link, const QString &description, const QDateTime &lastUpdated) {
+
+    connect(&Fetcher::instance(), &Fetcher::feedDetailsUpdated, this, [this](const QString & url, const QString & name, const QString & image, const QString & link, const QString & description, const QDateTime & lastUpdated) {
         for (int i = 0; i < m_feeds.length(); i++) {
             if (m_feeds[i]->url() == url) {
                 m_feeds[i]->setName(name);
@@ -34,6 +35,28 @@ FeedsModel::FeedsModel(QObject *parent)
             }
         }
     });
+
+    connect(&Database::instance(), &Database::feedDetailsUpdated, [this](const QString & url, const QString & displayName, const QString & groupName) {
+        for (int i = 0; i < m_feeds.length(); i++) {
+            if (m_feeds[i]->url() == url) {
+                m_feeds[i]->setDisplayName(displayName);
+                m_feeds[i]->setGroupName(groupName);
+                Q_EMIT dataChanged(createIndex(i, 0), createIndex(i, 0));
+                break;
+            }
+        }
+    });
+
+    connect(&Database::instance(), &Database::feedGroupRemoved, [this](const QString & groupName) {
+        for (int i = 0; i < m_feeds.length(); i++) {
+            if (m_feeds[i]->groupName() == groupName) {
+                m_feeds[i]->setGroupName(QString());
+                Q_EMIT dataChanged(createIndex(i, 0), createIndex(i, 0));
+                break;
+            }
+        }
+    });
+
 }
 
 QHash<int, QByteArray> FeedsModel::roleNames() const
@@ -49,17 +72,20 @@ int FeedsModel::rowCount(const QModelIndex &parent) const
     QSqlQuery query;
     query.prepare(QStringLiteral("SELECT COUNT() FROM Feeds;"));
     Database::instance().execute(query);
-    if (!query.next())
+    if (!query.next()) {
         qWarning() << "Failed to query feed count";
+    }
     return query.value(0).toInt();
 }
 
 QVariant FeedsModel::data(const QModelIndex &index, int role) const
 {
-    if (role != 0)
+    if (role != 0) {
         return QVariant();
-    if (m_feeds.length() <= index.row())
+    }
+    if (m_feeds.length() <= index.row()) {
         loadFeed(index.row());
+    }
     return QVariant::fromValue(m_feeds[index.row()]);
 }
 
@@ -68,13 +94,17 @@ void FeedsModel::loadFeed(int index) const
     m_feeds += new Feed(index);
 }
 
-void FeedsModel::removeFeed(int index)
+void FeedsModel::removeFeed(const QString &url)
 {
-    m_feeds[index]->remove();
-    delete m_feeds[index];
-    beginRemoveRows(QModelIndex(), index, index);
-    m_feeds.removeAt(index);
-    endRemoveRows();
+    for (int i = 0; i < m_feeds.length(); i++) {
+        if (m_feeds[i]->url() == url) {
+            m_feeds[i]->remove();
+            delete m_feeds[i];
+            beginRemoveRows(QModelIndex(), i, i);
+            m_feeds.removeAt(i);
+            endRemoveRows();
+        }
+    }
 }
 
 void FeedsModel::refreshAll()

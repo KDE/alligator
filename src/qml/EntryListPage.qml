@@ -17,7 +17,7 @@ Kirigami.ScrollablePage {
 
     property var feed
 
-    title: feed.name
+    title: feed.displayName || feed.name
     supportsRefreshing: true
 
     onRefreshingChanged:

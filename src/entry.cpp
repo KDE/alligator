@@ -21,8 +21,9 @@ Entry::Entry(Feed *feed, int index)
     entryQuery.bindValue(QStringLiteral(":feed"), m_feed->url());
     entryQuery.bindValue(QStringLiteral(":index"), index);
     Database::instance().execute(entryQuery);
-    if (!entryQuery.next())
+    if (!entryQuery.next()) {
         qWarning() << "No element with index" << index << "found in feed" << m_feed->url();
+    }
 
     QSqlQuery authorQuery;
     authorQuery.prepare(QStringLiteral("SELECT * FROM Authors WHERE id=:id"));
@@ -116,14 +117,16 @@ QString Entry::adjustedContent(int width, int fontSize)
         QRegularExpressionMatch match = i.next();
 
         QString imgTag(match.captured());
-        if (imgTag.contains(QStringLiteral("wp-smiley")))
+        if (imgTag.contains(QStringLiteral("wp-smiley"))) {
             imgTag.insert(4, QStringLiteral(" width=\"%1\"").arg(fontSize));
+        }
 
         QString widthParameter = match.captured(4);
 
         if (widthParameter.length() != 0) {
-            if (widthParameter.toInt() > width)
+            if (widthParameter.toInt() > width) {
                 imgTag.replace(match.captured(3), QStringLiteral("width=\"%1\"").arg(width));
+            }
         } else {
             imgTag.insert(4, QStringLiteral(" width=\"%1\"").arg(width));
         }

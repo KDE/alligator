@@ -17,7 +17,7 @@ Kirigami.ScrollablePage {
 
     property QtObject feed;
 
-    title: i18nc("<Feed Name> - Details", "%1 - Details", feed.name)
+    title: i18nc("<Feed Name> - Details", "%1 - Details", feed.displayName || feed.name)
 
     ColumnLayout {
         Kirigami.Icon {
@@ -26,7 +26,7 @@ Kirigami.ScrollablePage {
             width: height
         }
         Kirigami.Heading {
-            text: feed.name
+            text: feed.displayName || feed.name
         }
         Kirigami.Heading {
             text: feed.description;

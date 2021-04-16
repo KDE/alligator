@@ -14,9 +14,13 @@ import org.kde.kirigami 2.12 as Kirigami
 import org.kde.alligator 1.0
 
 Kirigami.ScrollablePage {
-    title: "Alligator"
+    id: root
+
+    title: groupFilter ? groupFilter : "Alligator"
 
     property var lastFeed: ""
+    property alias groupFilter: proxyModel.groupName
+
 
     supportsRefreshing: true
     onRefreshingChanged:
@@ -35,17 +39,24 @@ Kirigami.ScrollablePage {
         Kirigami.Action {
             text: i18n("Import Feeds...")
             iconName: "document-import"
+            visible: root.groupFilter === ""
             onTriggered: importDialog.open()
         },
         Kirigami.Action {
             text: i18n("Export Feeds...")
             iconName: "document-export"
+            visible: root.groupFilter === ""
             onTriggered: exportDialog.open()
         }
     ]
 
     AddFeedSheet {
         id: addSheet
+        groupName: root.groupFilter
+    }
+
+    EditFeedSheet {
+        id: editSheet
     }
 
     actions.main: Kirigami.Action {
@@ -60,6 +71,7 @@ Kirigami.ScrollablePage {
         visible: feedList.count === 0
 
         width: Kirigami.Units.gridUnit * 20
+        icon.name: "rss"
         anchors.centerIn: parent
 
         text: i18n("No Feeds added yet")
@@ -67,13 +79,25 @@ Kirigami.ScrollablePage {
 
     ListView {
         id: feedList
-        visible: count !== 0
+
         anchors.fill: parent
-        model: FeedsModel {
-            id: feedsModel
+
+        model: FeedsProxyModel {
+            id: proxyModel
+            groupName: ""
+            sourceModel: feedsModel
         }
 
-        delegate: FeedListDelegate { }
+        delegate: FeedListDelegate {
+            onEditFeed: {
+                editSheet.feed = feedObj
+                editSheet.open()
+            }
+        }
+
+        FeedsModel {
+            id: feedsModel
+        }
     }
 
     FileDialog {

@@ -37,7 +37,7 @@ ColumnLayout {
 
         ColumnLayout {
             Kirigami.Heading {
-                text: page.feed.name
+                text: page.feed.displayName || page.feed.name
             }
             Controls.Label {
                 visible: text.length > 0

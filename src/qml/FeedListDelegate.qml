@@ -17,10 +17,12 @@ Kirigami.SwipeListItem {
     leftPadding: 0
     rightPadding: 0
 
+    signal editFeed(var feedObj)
+
     contentItem: Kirigami.BasicListItem {
         anchors.top: parent.top
         anchors.bottom: parent.bottom
-        text: model.feed.name
+        text: model.feed.displayName || model.feed.name
         icon: model.feed.refreshing ? "view-refresh" : model.feed.image === "" ? "rss" : Fetcher.image(model.feed.image)
         subtitle: i18np("%1 unread entry", "%1 unread entries", model.feed.unreadEntryCount)
 
@@ -38,10 +40,14 @@ Kirigami.SwipeListItem {
             onTriggered: {
                 if(pageStack.depth > 1 && model.feed.url === lastFeed)
                     pageStack.pop()
-                feedsModel.removeFeed(index)
+                feedsModel.removeFeed(model.feed.url)
             }
+        },
+        Kirigami.Action {
+            icon.name: "editor"
+            text: i18n("Edit")
+
+            onTriggered: editFeed(model.feed)
         }
-
     ]
-
 }

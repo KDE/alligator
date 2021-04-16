@@ -36,7 +36,7 @@ void Fetcher::fetch(const QString &url)
     QNetworkRequest request((QUrl(url)));
     QNetworkReply *reply = get(request);
     connect(reply, &QNetworkReply::finished, this, [this, url, reply]() {
-        if(reply->error()) {
+        if (reply->error()) {
             qWarning() << "Error fetching feed";
             qWarning() << reply->errorString();
             Q_EMIT error(url, reply->error(), reply->errorString());
@@ -62,8 +62,9 @@ void Fetcher::fetchAll()
 
 void Fetcher::processFeed(Syndication::FeedPtr feed, const QString &url)
 {
-    if (feed.isNull())
+    if (feed.isNull()) {
         return;
+    }
 
     QSqlQuery query;
     query.prepare(QStringLiteral("UPDATE Feeds SET name=:name, image=:image, link=:link, description=:description, lastUpdated=:lastUpdated WHERE url=:url;"));
@@ -80,10 +81,11 @@ void Fetcher::processFeed(Syndication::FeedPtr feed, const QString &url)
     }
 
     QString image;
-    if (feed->image()->url().startsWith(QStringLiteral("/")))
+    if (feed->image()->url().startsWith(QStringLiteral("/"))) {
         image = QUrl(url).adjusted(QUrl::RemovePath).toString() + feed->image()->url();
-    else
+    } else {
         image = feed->image()->url();
+    }
     query.bindValue(QStringLiteral(":image"), image);
     Database::instance().execute(query);
 
@@ -107,8 +109,9 @@ void Fetcher::processEntry(Syndication::ItemPtr entry, const QString &url)
     Database::instance().execute(query);
     query.next();
 
-    if (query.value(0).toInt() != 0)
+    if (query.value(0).toInt() != 0) {
         return;
+    }
 
     query.prepare(QStringLiteral("INSERT INTO Entries VALUES (:feed, :id, :title, :content, :created, :updated, :link, 0);"));
     query.bindValue(QStringLiteral(":feed"), url);
@@ -118,10 +121,11 @@ void Fetcher::processEntry(Syndication::ItemPtr entry, const QString &url)
     query.bindValue(QStringLiteral(":updated"), static_cast<int>(entry->dateUpdated()));
     query.bindValue(QStringLiteral(":link"), entry->link());
 
-    if (!entry->content().isEmpty())
+    if (!entry->content().isEmpty()) {
         query.bindValue(QStringLiteral(":content"), entry->content());
-    else
+    } else {
         query.bindValue(QStringLiteral(":content"), entry->description());
+    }
 
     Database::instance().execute(query);
 

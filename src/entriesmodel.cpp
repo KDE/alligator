@@ -16,7 +16,7 @@ EntriesModel::EntriesModel(Feed *feed)
     : QAbstractListModel(feed)
     , m_feed(feed)
 {
-    connect(&Fetcher::instance(), &Fetcher::feedUpdated, this, [this](const QString &url) {
+    connect(&Fetcher::instance(), &Fetcher::feedUpdated, this, [this](const QString & url) {
         if (m_feed->url() == url) {
             beginResetModel();
             for (auto &entry : m_entries) {
@@ -35,10 +35,12 @@ EntriesModel::~EntriesModel()
 
 QVariant EntriesModel::data(const QModelIndex &index, int role) const
 {
-    if (role != 0)
+    if (role != 0) {
         return QVariant();
-    if (m_entries[index.row()] == nullptr)
+    }
+    if (m_entries[index.row()] == nullptr) {
         loadEntry(index.row());
+    }
     return QVariant::fromValue(m_entries[index.row()]);
 }
 
@@ -56,8 +58,9 @@ int EntriesModel::rowCount(const QModelIndex &parent) const
     query.prepare(QStringLiteral("SELECT COUNT() FROM Entries WHERE feed=:feed;"));
     query.bindValue(QStringLiteral(":feed"), m_feed->url());
     Database::instance().execute(query);
-    if (!query.next())
+    if (!query.next()) {
         qWarning() << "Failed to query feed count";
+    }
     return query.value(0).toInt();
 }
 

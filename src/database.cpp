@@ -12,6 +12,7 @@
 #include <QUrl>
 #include <QXmlStreamReader>
 #include <QXmlStreamWriter>
+#include <KLocalizedString>
 
 #include "alligatorsettings.h"
 #include "database.h"
@@ -29,17 +30,44 @@ Database::Database()
     db.setDatabaseName(databasePath + QStringLiteral("/database.db3"));
     db.open();
 
-    if (!migrate()) {
+    if (!migrateTo(2)) {
         qCritical() << "Failed to migrate the database";
     }
 
     cleanup();
 }
 
-bool Database::migrate()
+bool Database::migrateTo(const int targetVersion)
 {
-    if (version() < 1)
-        TRUE_OR_RETURN(migrateTo1());
+    if (version() >= targetVersion) {
+        qDebug() << "Database already in version" << targetVersion;
+        return true;
+    }
+
+    switch (targetVersion) {
+    case 1:
+        return migrateTo1();
+    case 2:
+        return migrateTo2();
+    default:
+        return true;
+    }
+
+}
+
+bool Database::migrateTo2()
+{
+    migrateTo(1);
+
+    qDebug() << "Migrating database to version 2";
+    TRUE_OR_RETURN(execute(QStringLiteral("CREATE TABLE IF NOT EXISTS FeedGroups (name TEXT NOT NULL, description TEXT, defaultGroup INTEGER);")));
+    TRUE_OR_RETURN(execute(QStringLiteral("ALTER TABLE Feeds ADD COLUMN groupName TEXT;")));
+    TRUE_OR_RETURN(execute(QStringLiteral("ALTER TABLE Feeds ADD COLUMN displayName TEXT;")));
+    auto dg = i18n("Default");
+    TRUE_OR_RETURN(execute(QStringLiteral("INSERT INTO FeedGroups VALUES ('%1', '%2', 1);").arg(dg, i18n("Default Feed Group"))));
+    TRUE_OR_RETURN(execute(QStringLiteral("UPDATE Feeds SET groupName = '%1';").arg(dg)));
+    TRUE_OR_RETURN(execute(QStringLiteral("PRAGMA user_version = 2;")));
+
     return true;
 }
 
@@ -81,8 +109,9 @@ int Database::version()
         bool ok;
         int value = query.value(0).toInt(&ok);
         qDebug() << "Database version " << value;
-        if (ok)
+        if (ok) {
             return value;
+        }
     } else {
         qCritical() << "Failed to check database version";
     }
@@ -100,15 +129,16 @@ void Database::cleanup()
     }
 
     if (type == 1) { // Delete after <count> posts per feed
-                     // TODO
+        // TODO
     } else {
         QDateTime dateTime = QDateTime::currentDateTime();
-        if (type == 2)
+        if (type == 2) {
             dateTime = dateTime.addDays(-count);
-        else if (type == 3)
+        } else if (type == 3) {
             dateTime = dateTime.addDays(-7 * count);
-        else if (type == 4)
+        } else if (type == 4) {
             dateTime = dateTime.addMonths(-count);
+        }
         qint64 sinceEpoch = dateTime.toSecsSinceEpoch();
 
         QSqlQuery query;
@@ -128,7 +158,7 @@ bool Database::feedExists(const QString &url)
     return query.value(0).toInt() != 0;
 }
 
-void Database::addFeed(const QString &url)
+void Database::addFeed(const QString &url, const QString &groupName)
 {
     qDebug() << "Adding feed";
     if (feedExists(url)) {
@@ -139,7 +169,7 @@ void Database::addFeed(const QString &url)
 
     QUrl urlFromInput = QUrl::fromUserInput(url);
     QSqlQuery query;
-    query.prepare(QStringLiteral("INSERT INTO Feeds VALUES (:name, :url, :image, :link, :description, :deleteAfterCount, :deleteAfterType, :subscribed, :lastUpdated, :notify);"));
+    query.prepare(QStringLiteral("INSERT INTO Feeds VALUES (:name, :url, :image, :link, :description, :deleteAfterCount, :deleteAfterType, :subscribed, :lastUpdated, :notify, :groupName, :displayName);"));
     query.bindValue(QStringLiteral(":name"), urlFromInput.toString());
     query.bindValue(QStringLiteral(":url"), urlFromInput.toString());
     query.bindValue(QStringLiteral(":image"), QLatin1String(""));
@@ -150,6 +180,8 @@ void Database::addFeed(const QString &url)
     query.bindValue(QStringLiteral(":subscribed"), QDateTime::currentDateTime().toSecsSinceEpoch());
     query.bindValue(QStringLiteral(":lastUpdated"), 0);
     query.bindValue(QStringLiteral(":notify"), false);
+    query.bindValue(QStringLiteral(":groupName"), groupName.isEmpty() ? defaultGroup() : groupName);
+    query.bindValue(QStringLiteral(":displayName"), QLatin1String(""));
     execute(query);
 
     Q_EMIT feedAdded(urlFromInput.toString());
@@ -164,9 +196,9 @@ void Database::importFeeds(const QString &path)
     file.open(QIODevice::ReadOnly);
 
     QXmlStreamReader xmlReader(&file);
-    while(!xmlReader.atEnd()) {
+    while (!xmlReader.atEnd()) {
         xmlReader.readNext();
-        if(xmlReader.tokenType() == 4 &&  xmlReader.attributes().hasAttribute(QStringLiteral("xmlUrl"))) {
+        if (xmlReader.tokenType() == 4 &&  xmlReader.attributes().hasAttribute(QStringLiteral("xmlUrl"))) {
             addFeed(xmlReader.attributes().value(QStringLiteral("xmlUrl")).toString());
         }
     }
@@ -189,7 +221,7 @@ void Database::exportFeeds(const QString &path)
     QSqlQuery query;
     query.prepare(QStringLiteral("SELECT url, name FROM Feeds;"));
     execute(query);
-    while(query.next()) {
+    while (query.next()) {
         xmlWriter.writeEmptyElement(QStringLiteral("outline"));
         xmlWriter.writeAttribute(QStringLiteral("xmlUrl"), query.value(0).toString());
         xmlWriter.writeAttribute(QStringLiteral("title"), query.value(1).toString());
@@ -198,4 +230,91 @@ void Database::exportFeeds(const QString &path)
     xmlWriter.writeEndElement();
     xmlWriter.writeEndDocument();
 
+}
+
+void Database::addFeedGroup(const QString &name, const QString &description, const int isDefault)
+{
+    if (feedGroupExists(name)) {
+        qDebug() << "Feed group already exists, nothing to add";
+        return;
+    }
+
+    QSqlQuery query;
+    query.prepare(QStringLiteral("INSERT INTO FeedGroups VALUES (:name, :desc, :isDefault);"));
+    query.bindValue(QStringLiteral(":name"), name);
+    query.bindValue(QStringLiteral(":desc"), description);
+    query.bindValue(QStringLiteral(":isDefault"), isDefault);
+    execute(query);
+
+    Q_EMIT feedGroupsUpdated();
+}
+
+void Database::editFeed(const QString &url, const QString &displayName, const QString &groupName)
+{
+    QSqlQuery query;
+    query.prepare(QStringLiteral("UPDATE Feeds SET displayName = :displayName, groupName = :groupName WHERE url = :url;"));
+    query.bindValue(QStringLiteral(":displayName"), displayName);
+    query.bindValue(QStringLiteral(":groupName"), groupName);
+    query.bindValue(QStringLiteral(":url"), url);
+    execute(query);
+
+    Q_EMIT feedDetailsUpdated(url, displayName, groupName);
+}
+
+void Database::removeFeedGroup(const QString &name)
+{
+    clearFeedGroup(name);
+
+    QSqlQuery query;
+    query.prepare(QStringLiteral("DELETE FROM FeedGroups WHERE name = :name;"));
+    query.bindValue(QStringLiteral(":name"), name);
+    execute(query);
+
+    Q_EMIT feedGroupRemoved(name);
+}
+
+bool Database::feedGroupExists(const QString &name)
+{
+    QSqlQuery query;
+    query.prepare(QStringLiteral("SELECT COUNT (1) FROM FeedGroups WHERE name = :name;"));
+    query.bindValue(QStringLiteral(":name"), name);
+    Database::instance().execute(query);
+    query.next();
+    return (query.value(0).toInt() != 0);
+}
+
+void Database::clearFeedGroup(const QString &name)
+{
+    QSqlQuery query;
+    query.prepare(QStringLiteral("UPDATE Feeds SET groupName = NULL WHERE groupName = :name;"));
+    query.bindValue(QStringLiteral(":name"), name);
+    execute(query);
+}
+
+QString Database::defaultGroup()
+{
+    QSqlQuery query;
+    query.prepare(QStringLiteral("SELECT Name FROM FeedGroups WHERE defaultGroup = 1"));
+    execute(query);
+
+    if (query.next()) {
+        return query.value(0).toString();
+    } else {
+        auto dg = i18n("Default");
+        addFeedGroup(dg, i18n("Default Feed Group"), 1);
+        return dg;
+    }
+}
+
+
+void Database::setDefaultGroup(const QString& name)
+{
+    if(execute(QStringLiteral("UPDATE FeedGroups SET defaultGroup = 0;"))) {
+        QSqlQuery query;
+        query.prepare(QStringLiteral("UPDATE FeedGroups SET defaultGroup = 1 WHERE name = :name ;"));
+        query.bindValue(QStringLiteral(":name"), name);
+        execute(query);
+
+        Q_EMIT feedGroupsUpdated();
+    }
 }

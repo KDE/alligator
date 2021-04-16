@@ -29,6 +29,8 @@
 #include "entriesmodel.h"
 #include "feedsmodel.h"
 #include "fetcher.h"
+#include "feedgroupsmodel.h"
+#include "feedsproxymodel.h"
 
 #ifdef Q_OS_ANDROID
 Q_DECL_EXPORT
@@ -49,14 +51,17 @@ int main(int argc, char *argv[])
 
     qmlRegisterType<FeedsModel>("org.kde.alligator", 1, 0, "FeedsModel");
     qmlRegisterUncreatableType<EntriesModel>("org.kde.alligator", 1, 0, "EntriesModel", QStringLiteral("Get from Feed"));
-    qmlRegisterSingletonType<Fetcher>("org.kde.alligator", 1, 0, "Fetcher", [](QQmlEngine *engine, QJSEngine *) -> QObject * {
+    qmlRegisterSingletonType<Fetcher>("org.kde.alligator", 1, 0, "Fetcher", [](QQmlEngine * engine, QJSEngine *) -> QObject * {
         engine->setObjectOwnership(&Fetcher::instance(), QQmlEngine::CppOwnership);
         return &Fetcher::instance();
     });
-    qmlRegisterSingletonType<Database>("org.kde.alligator", 1, 0, "Database", [](QQmlEngine *engine, QJSEngine *) -> QObject * {
+    qmlRegisterSingletonType<Database>("org.kde.alligator", 1, 0, "Database", [](QQmlEngine * engine, QJSEngine *) -> QObject * {
         engine->setObjectOwnership(&Database::instance(), QQmlEngine::CppOwnership);
         return &Database::instance();
     });
+
+    qmlRegisterType<FeedGroupsModel>("org.kde.alligator", 1, 0, "FeedGroupsModel");
+    qmlRegisterType<FeedsProxyModel>("org.kde.alligator", 1, 0, "FeedsProxyModel");
 
     QQmlApplicationEngine engine;
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));

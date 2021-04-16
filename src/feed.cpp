@@ -19,8 +19,9 @@ Feed::Feed(int index)
     query.prepare(QStringLiteral("SELECT * FROM Feeds LIMIT 1 OFFSET :index;"));
     query.bindValue(QStringLiteral(":index"), index);
     Database::instance().execute(query);
-    if (!query.next())
+    if (!query.next()) {
         qWarning() << "Failed to load feed" << index;
+    }
 
     QSqlQuery authorQuery;
     authorQuery.prepare(QStringLiteral("SELECT * FROM Authors WHERE id='' AND feed=:feed"));
@@ -36,9 +37,11 @@ Feed::Feed(int index)
 
     m_url = query.value(QStringLiteral("url")).toString();
     m_name = query.value(QStringLiteral("name")).toString();
+    m_display_name = query.value(QStringLiteral("displayName")).toString();
     m_image = query.value(QStringLiteral("image")).toString();
     m_link = query.value(QStringLiteral("link")).toString();
     m_description = query.value(QStringLiteral("description")).toString();
+    m_group_name = query.value(QStringLiteral("groupName")).toString();
     m_deleteAfterCount = query.value(QStringLiteral("deleteAfterCount")).toInt();
     m_deleteAfterType = query.value(QStringLiteral("deleteAfterType")).toInt();
     m_notify = query.value(QStringLiteral("notify")).toBool();
@@ -46,12 +49,12 @@ Feed::Feed(int index)
     m_errorId = 0;
     m_errorString = QLatin1String("");
 
-    connect(&Fetcher::instance(), &Fetcher::startedFetchingFeed, this, [this](const QString &url) {
+    connect(&Fetcher::instance(), &Fetcher::startedFetchingFeed, this, [this](const QString & url) {
         if (url == m_url) {
             setRefreshing(true);
         }
     });
-    connect(&Fetcher::instance(), &Fetcher::feedUpdated, this, [this](const QString &url) {
+    connect(&Fetcher::instance(), &Fetcher::feedUpdated, this, [this](const QString & url) {
         if (url == m_url) {
             setRefreshing(false);
             Q_EMIT entryCountChanged();
@@ -60,16 +63,17 @@ Feed::Feed(int index)
             setErrorString(QLatin1String(""));
         }
     });
-    connect(&Fetcher::instance(), &Fetcher::error, this, [this](const QString &url, int errorId, const QString &errorString) {
-        if(url == m_url) {
+    connect(&Fetcher::instance(), &Fetcher::error, this, [this](const QString & url, int errorId, const QString & errorString) {
+        if (url == m_url) {
             setErrorId(errorId);
             setErrorString(errorString);
             setRefreshing(false);
         }
     });
-    connect(&Fetcher::instance(), &Fetcher::imageDownloadFinished, this, [this](const QString &url) {
-        if(url == m_image)
+    connect(&Fetcher::instance(), &Fetcher::imageDownloadFinished, this, [this](const QString & url) {
+        if (url == m_image) {
             Q_EMIT imageChanged(url);
+        }
     });
 
     m_entries = new EntriesModel(this);
@@ -89,6 +93,11 @@ QString Feed::name() const
     return m_name;
 }
 
+QString Feed::displayName() const
+{
+    return m_display_name;
+}
+
 QString Feed::image() const
 {
     return m_image;
@@ -102,6 +111,11 @@ QString Feed::link() const
 QString Feed::description() const
 {
     return m_description;
+}
+
+QString Feed::groupName() const
+{
+    return m_group_name;
 }
 
 QVector<Author *> Feed::authors() const
@@ -140,8 +154,9 @@ int Feed::entryCount() const
     query.prepare(QStringLiteral("SELECT COUNT (id) FROM Entries where feed=:feed;"));
     query.bindValue(QStringLiteral(":feed"), m_url);
     Database::instance().execute(query);
-    if (!query.next())
+    if (!query.next()) {
         return -1;
+    }
     return query.value(0).toInt();
 }
 
@@ -151,8 +166,9 @@ int Feed::unreadEntryCount() const
     query.prepare(QStringLiteral("SELECT COUNT (id) FROM Entries where feed=:feed AND read=0;"));
     query.bindValue(QStringLiteral(":feed"), m_url);
     Database::instance().execute(query);
-    if (!query.next())
+    if (!query.next()) {
         return -1;
+    }
     return query.value(0).toInt();
 }
 
@@ -177,6 +193,15 @@ void Feed::setName(const QString &name)
     Q_EMIT nameChanged(m_name);
 }
 
+void Feed::setDisplayName(const QString &displayName)
+{
+    if (m_display_name != displayName) {
+        m_display_name = displayName;
+
+        Q_EMIT displayNameChanged(m_display_name);
+    }
+}
+
 void Feed::setImage(const QString &image)
 {
     m_image = image;
@@ -193,6 +218,15 @@ void Feed::setDescription(const QString &description)
 {
     m_description = description;
     Q_EMIT descriptionChanged(m_description);
+}
+
+void Feed::setGroupName(const QString &groupName)
+{
+    if (m_group_name != groupName) {
+        m_group_name = groupName;
+
+        Q_EMIT groupNameChanged(groupName);
+    }
 }
 
 void Feed::setAuthors(const QVector<Author *> &authors)

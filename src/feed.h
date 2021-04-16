@@ -20,9 +20,11 @@ class Feed : public QObject
 
     Q_PROPERTY(QString url READ url CONSTANT)
     Q_PROPERTY(QString name READ name WRITE setName NOTIFY nameChanged)
+    Q_PROPERTY(QString displayName READ displayName WRITE setDisplayName NOTIFY displayNameChanged)
     Q_PROPERTY(QString image READ image WRITE setImage NOTIFY imageChanged)
     Q_PROPERTY(QString link READ link WRITE setLink NOTIFY linkChanged)
     Q_PROPERTY(QString description READ description WRITE setDescription NOTIFY descriptionChanged)
+    Q_PROPERTY(QString groupName READ groupName WRITE setGroupName NOTIFY groupNameChanged)
     Q_PROPERTY(QVector<Author *> authors READ authors WRITE setAuthors NOTIFY authorsChanged)
     Q_PROPERTY(bool refreshing READ refreshing WRITE setRefreshing NOTIFY refreshingChanged)
     Q_PROPERTY(int deleteAfterCount READ deleteAfterCount WRITE setDeleteAfterCount NOTIFY deleteAfterCountChanged)
@@ -43,9 +45,11 @@ public:
 
     QString url() const;
     QString name() const;
+    QString displayName() const;
     QString image() const;
     QString link() const;
     QString description() const;
+    QString groupName() const;
     QVector<Author *> authors() const;
     int deleteAfterCount() const;
     int deleteAfterType() const;
@@ -61,9 +65,11 @@ public:
     bool refreshing() const;
 
     void setName(const QString &name);
+    void setDisplayName(const QString &displayName);
     void setImage(const QString &image);
     void setLink(const QString &link);
     void setDescription(const QString &description);
+    void setGroupName(const QString &groupName);
     void setAuthors(const QVector<Author *> &authors);
     void setDeleteAfterCount(int count);
     void setDeleteAfterType(int type);
@@ -78,9 +84,11 @@ public:
 
 Q_SIGNALS:
     void nameChanged(const QString &name);
+    void displayNameChanged(const QString &displayName);
     void imageChanged(const QString &image);
     void linkChanged(const QString &link);
     void descriptionChanged(const QString &description);
+    void groupNameChanged(const QString &groupName);
     void authorsChanged(const QVector<Author *> &authors);
     void deleteAfterCountChanged(int count);
     void deleteAfterTypeChanged(int type);
@@ -96,9 +104,11 @@ Q_SIGNALS:
 private:
     QString m_url;
     QString m_name;
+    QString m_display_name;
     QString m_image;
     QString m_link;
     QString m_description;
+    QString m_group_name;
     QVector<Author *> m_authors;
     int m_deleteAfterCount;
     int m_deleteAfterType;

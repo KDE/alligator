@@ -10,6 +10,8 @@ add_executable(alligator
     entry.cpp
     feed.cpp
     author.cpp
+    feedgroupsmodel.cpp
+    feedsproxymodel.cpp
     resources.qrc
 )
 
@@ -40,6 +42,7 @@ if(ANDROID)
         rss
         document-import
         document-export
+        edit-group
     )
 else()
     target_link_libraries(alligator PRIVATE Qt5::Widgets)

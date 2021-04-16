@@ -14,9 +14,10 @@ import org.kde.alligator 1.0
 
 Kirigami.OverlaySheet {
     id: addSheet
+    property string groupName: ""
     parent: applicationWindow().overlay
     header: Kirigami.Heading {
-        text: i18n("Add new Feed")
+        text: i18n("Add Feed")
     }
 
     contentItem: ColumnLayout {
@@ -30,12 +31,25 @@ Kirigami.OverlaySheet {
         }
     }
 
-    footer: Controls.Button {
-        text: i18n("Add Feed")
-        enabled: urlField.text
-        onClicked: {
-            Database.addFeed(urlField.text)
-            addSheet.close()
+    footer: RowLayout {
+        Item {
+            Layout.fillWidth: true
+        }
+
+        Controls.ToolButton {
+            text: i18n("OK")
+            enabled: urlField.text
+
+            onClicked: {
+                Database.addFeed(urlField.text, addSheet.groupName)
+                addSheet.close()
+            }
+        }
+
+        Controls.ToolButton {
+            text: i18n("Cancel")
+
+            onClicked: addSheet.close()
         }
     }
 }
