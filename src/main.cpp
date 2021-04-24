@@ -73,7 +73,6 @@ int main(int argc, char *argv[])
     qmlRegisterType<FeedsProxyModel>("org.kde.alligator", 1, 0, "FeedsProxyModel");
 
     qmlRegisterUncreatableType<EntriesModel>("org.kde.alligator", 1, 0, "EntriesModel", QStringLiteral("Get from Feed"));
-    qmlRegisterUncreatableType<Enclosure>("org.kde.alligator", 1, 0, "Enclosure", QStringLiteral("Only for enums"));
 
     qmlRegisterSingletonInstance("org.kde.alligator", 1, 0, "Fetcher", &Fetcher::instance());
     qmlRegisterSingletonInstance("org.kde.alligator", 1, 0, "Database", &Database::instance());
