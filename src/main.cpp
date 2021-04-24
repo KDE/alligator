@@ -64,19 +64,19 @@ int main(int argc, char *argv[])
     QCoreApplication::setOrganizationDomain(QStringLiteral("kde.org"));
     QCoreApplication::setApplicationName(QStringLiteral("Alligator"));
 
-    qmlRegisterType<FeedsModel>("org.kde.alligator", 1, 0, "FeedsModel");
-    qmlRegisterUncreatableType<EntriesModel>("org.kde.alligator", 1, 0, "EntriesModel", QStringLiteral("Get from Feed"));
-    qmlRegisterSingletonType<Fetcher>("org.kde.alligator", 1, 0, "Fetcher", [](QQmlEngine * engine, QJSEngine *) -> QObject * {
-        engine->setObjectOwnership(&Fetcher::instance(), QQmlEngine::CppOwnership);
-        return &Fetcher::instance();
-    });
-    qmlRegisterSingletonType<Database>("org.kde.alligator", 1, 0, "Database", [](QQmlEngine * engine, QJSEngine *) -> QObject * {
-        engine->setObjectOwnership(&Database::instance(), QQmlEngine::CppOwnership);
-        return &Database::instance();
-    });
+    KAboutData about(QStringLiteral("alligator"), i18n("Alligator"), QStringLiteral(ALLIGATOR_VERSION_STRING), i18n("Feed Reader"), KAboutLicense::GPL, i18n("© 2020 KDE Community"));
+    about.addAuthor(i18n("Tobias Fella"), QString(), QStringLiteral("fella@posteo.de"));
+    KAboutData::setApplicationData(about);
 
+    qmlRegisterType<FeedsModel>("org.kde.alligator", 1, 0, "FeedsModel");
     qmlRegisterType<FeedGroupsModel>("org.kde.alligator", 1, 0, "FeedGroupsModel");
     qmlRegisterType<FeedsProxyModel>("org.kde.alligator", 1, 0, "FeedsProxyModel");
+
+    qmlRegisterUncreatableType<EntriesModel>("org.kde.alligator", 1, 0, "EntriesModel", QStringLiteral("Get from Feed"));
+    qmlRegisterUncreatableType<Enclosure>("org.kde.alligator", 1, 0, "Enclosure", QStringLiteral("Only for enums"));
+
+    qmlRegisterSingletonInstance("org.kde.alligator", 1, 0, "Fetcher", &Fetcher::instance());
+    qmlRegisterSingletonInstance("org.kde.alligator", 1, 0, "Database", &Database::instance());
 
     QQmlApplicationEngine engine;
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
@@ -89,10 +89,6 @@ int main(int argc, char *argv[])
                                    , i18n("feed URL")
                                    , QStringLiteral("none"));
     parser.addOption(addFeedOption);
-
-    KAboutData about(QStringLiteral("alligator"), i18n("Alligator"), QStringLiteral(ALLIGATOR_VERSION_STRING), i18n("Feed Reader"), KAboutLicense::GPL, i18n("© 2020 KDE Community"));
-    about.addAuthor(i18n("Tobias Fella"), QString(), QStringLiteral("fella@posteo.de"));
-    KAboutData::setApplicationData(about);
 
     about.setupCommandLine(&parser);
     parser.process(app);
