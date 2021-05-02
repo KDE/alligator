@@ -63,6 +63,7 @@
   <summary xml:lang="x-test">xxFeed reader for mobile devicesxx</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0+</project_license>
+  <url type="bugtracker">https://invent.kde.org/plasma-mobile/alligator/-/issues</url>
   <developer_name>KDE Community</developer_name>
   <developer_name xml:lang="ca">La comunitat KDE</developer_name>
   <developer_name xml:lang="ca-valencia">La comunitat KDE</developer_name>
