@@ -143,6 +143,7 @@
   <developer_name xml:lang="it">La comunità KDE</developer_name>
   <developer_name xml:lang="nl">De KDE gemeenschap</developer_name>
   <developer_name xml:lang="nn">KDE-fellesskapet</developer_name>
+  <developer_name xml:lang="pa">ਕੇਡੀਈ ਕਮਿਊਨਟੀ</developer_name>
   <developer_name xml:lang="pl">Społeczność KDE</developer_name>
   <developer_name xml:lang="pt">A Comunidade do KDE</developer_name>
   <developer_name xml:lang="pt-BR">A comunidade KDE</developer_name>
@@ -166,6 +167,7 @@
       <caption xml:lang="it">Elenco delle fonti di Alligator sul desktop </caption>
       <caption xml:lang="nl">Alligator feed-lijst op het bureaublad</caption>
       <caption xml:lang="nn">Kjeldelista i Alligator på ein PC</caption>
+      <caption xml:lang="pa">ਡੈਸਕਟਾਪ ਉੱਤੇ ਐਲੀਗੇਟਰ ਫੀਡ ਸੂਚੀ</caption>
       <caption xml:lang="pl">Lista kanałów Alligator na pulpicie</caption>
       <caption xml:lang="pt">A lista de fontes do Alligator num computador</caption>
       <caption xml:lang="pt-BR">Lista de fontes do Alligator na área de trabalho</caption>
@@ -190,6 +192,7 @@
       <caption xml:lang="it">Alligator su un telefono</caption>
       <caption xml:lang="nl">Alligator op een telefoon</caption>
       <caption xml:lang="nn">Alligator på ein telefon</caption>
+      <caption xml:lang="pa">ਫ਼ੋਨ ਉੱਤੇ ਐਲੀਗੇਟਰ</caption>
       <caption xml:lang="pl">Alligator na telefonie</caption>
       <caption xml:lang="pt">O Alligator no telefone</caption>
       <caption xml:lang="pt-BR">Alligator no celular</caption>
