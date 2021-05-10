@@ -5,6 +5,7 @@
 cmake_minimum_required(VERSION 3.14)
 
 project(Alligator)
+set(PROJECT_VERSION "21.05")
 
 set(KF5_MIN_VERSION "5.75.0")
 set(QT_MIN_VERSION "5.15.0")
@@ -20,7 +21,7 @@ include(KDEClangFormat)
 include(KDECMakeSettings)
 include(KDECompilerSettings NO_POLICY_SCOPE)
 
-ecm_setup_version(0.1.0
+ecm_setup_version(${PROJECT_VERSION}
     VARIABLE_PREFIX ALLIGATOR
     VERSION_HEADER ${CMAKE_CURRENT_BINARY_DIR}/alligator-version.h
 )
