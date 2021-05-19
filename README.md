@@ -2,7 +2,7 @@
 
 Alligator is a convergent RSS/Atom feed reader.
 
-# Get it
+<a href='https://flathub.org/apps/details/org.kde.alligator'><img width='190px' alt='Download on Flathub' src='https://flathub.org/assets/badges/flathub-badge-i-en.png'/></a>
 
 Nightly Android APKs are available at [KDE's Binary Factory](https://binary-factory.kde.org/view/Android/job/Alligator_android/).
 
@@ -31,7 +31,7 @@ sudo make install
 This assumes all dependencies are installed. If your distribution does not provide
 them, you can use [kdesrc-build](https://kdesrc-build.kde.org/) to build all of them.
 
-## Android 
+## Android
 
 You can build Alligator for Android using KDE's [Docker-based build environment](https://community.kde.org/Android/Environment_via_Container).
 
