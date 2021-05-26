@@ -2,10 +2,14 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Alligator
 Upstream-Contact: Tobias Fella <fella@posteo.de>
 
-Files: src/qtquickcontrols2.conf README.md src/alligatorsettings.kcfgc
+Files: src/qtquickcontrols2.conf README.md src/alligatorsettings.kcfgc src/alligatorsettings.kcfg
 Copyright: 2020 Tobias Fella <fella@posteo.de>
 License: CC0-1.0
 
 Files: android/res/drawable/splash.xml
 Copyright: 2020 Tobias Fella <fella@posteo.de>
 License: BSD-2-Clause
+
+Files: alligator.svg android/res/drawable/alligator.png logo.png android/res/mipmap-xxxhdpi/ic_launcher.png android/res/mipmap-xxhdpi/ic_launcher.png android/res/mipmap-xhdpi/ic_launcher.png android/res/mipmap-hdpi/ic_launcher.png android/res/mipmap-mdpi/ic_launcher.png android/ic_launcher-playstore.png
+Copyright: 2020 Mathis Brüchert <mbblp@protonmail.ch>
+License: CC-BY-SA-4.0
