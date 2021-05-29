@@ -11,7 +11,9 @@
 #include <QFileInfo>
 #include <QNetworkAccessManager>
 #include <QNetworkReply>
+#include <QRegularExpression>
 #include <QStandardPaths>
+#include <QTextCodec>
 #include <QTextDocumentFragment>
 
 #include <Syndication/Syndication>
@@ -126,6 +128,38 @@ void Fetcher::processEntry(Syndication::ItemPtr entry, const QString &url)
     } else {
         query.bindValue(QStringLiteral(":content"), entry->description());
     }
+
+    // many feeds do not contain complete article, fetch content from link
+    // TODO: make configurable
+    QNetworkRequest request((QUrl(entry->link())));
+    QNetworkReply *reply = get(request);
+    connect(reply, &QNetworkReply::finished, this, [this, url, reply]() {
+        if (reply->error()) {
+            qWarning() << "Error fetching feed content";
+            qWarning() << reply->errorString();
+            Q_EMIT error(url, reply->error(), reply->errorString());
+        } else {
+            QString fetchedContent = QTextCodec::codecForMib(106)->toUnicode(reply->readAll());
+            qDebug() << "Fetched content " << fetchedContent;
+
+            // TODO: get text only
+            // original: https://github.com/mozilla/readability
+            // comparison to other solutions: https://github.com/awendland/readable-web-extractor-comparison
+            // see https://github.com/dankito/Readability4J as used in https://github.com/FredJul/Flym/blob/171af1778a8cb14004dcc00ed04093862d8c154e/app/src/main/java/net/frju/flym/service/FetcherService.kt#L291
+            //
+            // While there are implementations in JS, Kotlin and Python, I couldn't find a library in C/C++.
+            // possibilities:
+            // - call JS from C++ (https://forum.qt.io/topic/79614/is-possible-to-call-from-c-a-javascript-function-inside-js-file/3, https://doc.qt.io/qt-5/qwebenginepage.html#runJavaScript)
+            // - call https://github.com/eafer/rdrview in a subprocess
+            // - extract a library from https://github.com/eafer/rdrview
+
+            // TODO: improve html
+            // see https://github.com/FredJul/Flym/blob/master/app/src/main/java/net/frju/flym/utils/HtmlUtils.kt
+            
+            // TODO: query.bindValue(QStringLiteral(":content"), final QString);
+        }
+        delete reply;
+    });
 
     Database::instance().execute(query);
 
