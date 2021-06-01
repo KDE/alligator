@@ -10,6 +10,10 @@ Files: android/res/drawable/splash.xml
 Copyright: 2020 Tobias Fella <fella@posteo.de>
 License: BSD-2-Clause
 
-Files: alligator.svg android/res/drawable/alligator.png logo.png android/res/mipmap-xxxhdpi/ic_launcher.png android/res/mipmap-xxhdpi/ic_launcher.png android/res/mipmap-xhdpi/ic_launcher.png android/res/mipmap-hdpi/ic_launcher.png android/res/mipmap-mdpi/ic_launcher.png android/ic_launcher-playstore.png
+Files: alligator.svg android/res/drawable/alligator.png logo.png android/res/mipmap-xxxhdpi/ic_launcher.png android/res/mipmap-xxhdpi/ic_launcher.png android/res/mipmap-xhdpi/ic_launcher.png android/res/mipmap-hdpi/ic_launcher.png android/res/mipmap-mdpi/ic_launcher.png android/ic_launcher-playstore.png android/res/drawable-v24/*
 Copyright: 2020 Mathis Brüchert <mbblp@protonmail.ch>
 License: CC-BY-SA-4.0
+
+Files: android/res/mipmap-anydpi-v26/ic_launcher.xml
+Copyright: None
+License: CC0-1.0
