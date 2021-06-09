@@ -5,7 +5,7 @@
 cmake_minimum_required(VERSION 3.14)
 
 project(Alligator)
-set(PROJECT_VERSION "21.05")
+set(PROJECT_VERSION "21.06")
 
 set(KF5_MIN_VERSION "5.75.0")
 set(QT_MIN_VERSION "5.15.0")
