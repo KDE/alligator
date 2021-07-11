@@ -16,18 +16,25 @@ Kirigami.ScrollablePage {
     id: page
 
     property QtObject entry
+    property string feedTitle
 
-    title: entry.title
+    title: feedTitle
 
-    Controls.Label {
-        text: page.entry.content
-        baseUrl: page.entry.baseUrl
-        textFormat: Text.RichText
-        wrapMode: Text.WordWrap
-        Layout.fillWidth: true
-        onLinkActivated: Qt.openUrlExternally(link)
-        onWidthChanged: text = entry.adjustedContent(width, font.pixelSize)
-        font.pointSize: _settings && !(_settings.articleFontUseSystem) ? _settings.articleFontSize : Kirigami.Units.fontMetrics.font.pointSize
+    ColumnLayout {
+        Kirigami.Heading {
+            text: entry.title
+        }
+
+        Controls.Label {
+            text: page.entry.content
+            baseUrl: page.entry.baseUrl
+            textFormat: Text.RichText
+            wrapMode: Text.WordWrap
+            Layout.fillWidth: true
+            onLinkActivated: Qt.openUrlExternally(link)
+            onWidthChanged: text = entry.adjustedContent(width, font.pixelSize)
+            font.pointSize: _settings && !(_settings.articleFontUseSystem) ? _settings.articleFontSize : Kirigami.Units.fontMetrics.font.pointSize
+        }
     }
 
     actions.main: Kirigami.Action {

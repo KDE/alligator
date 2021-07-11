@@ -67,6 +67,6 @@ Kirigami.ScrollablePage {
         visible: count !== 0
         model: page.feed.entries
 
-        delegate: EntryListDelegate { }
+        delegate: EntryListDelegate { feedTitle : feed.displayName || feed.name }
     }
 }

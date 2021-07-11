@@ -14,6 +14,8 @@ import org.kde.alligator 1.0
 
 Kirigami.SwipeListItem {
 
+    property string feedTitle
+
     leftPadding: 0
     rightPadding: 0
 
@@ -29,7 +31,7 @@ Kirigami.SwipeListItem {
             while(pageStack.depth > 2)
                 pageStack.pop()
             model.entry.read = true
-            pageStack.push("qrc:/EntryPage.qml", {"entry": model.entry})
+            pageStack.push("qrc:/EntryPage.qml", {"entry": model.entry, "feedTitle" : feedTitle})
         }
     }
 }
