@@ -42,8 +42,8 @@ void Fetcher::fetch(const QString &url)
             Q_EMIT error(url, reply->error(), reply->errorString());
         } else {
             QByteArray data = reply->readAll();
-            Syndication::DocumentSource *document = new Syndication::DocumentSource(data, url);
-            Syndication::FeedPtr feed = Syndication::parserCollection()->parse(*document, QStringLiteral("Atom"));
+            Syndication::DocumentSource document(data, url);
+            Syndication::FeedPtr feed = Syndication::parserCollection()->parse(document, QStringLiteral("Atom"));
             processFeed(feed, url);
         }
         delete reply;
