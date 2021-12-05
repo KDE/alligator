@@ -200,6 +200,14 @@
   </screenshots>
   <launchable type="desktop-id">org.kde.alligator.desktop</launchable>
   <releases>
+    <release version="21.12" date="2021-12-07">
+      <url>https://www.plasma-mobile.org/2021/12/07/plasma-mobile-gear-21-12/</url>
+      <description>
+        <ul>
+          <li>Fix memory leak when fetching feeds</li>
+        </ul>
+      </description>
+    </release>
     <release version="21.08" date="2021-08-31">
       <url>https://www.plasma-mobile.org/2021/08/31/plasma-mobile-gear-21-08/</url>
     </release>
