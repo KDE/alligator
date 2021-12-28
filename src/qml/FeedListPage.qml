@@ -116,4 +116,6 @@ Kirigami.ScrollablePage {
         onAccepted: Database.exportFeeds(file)
         fileMode: FileDialog.SaveFile
     }
+
+    Component.onCompleted: Fetcher.fetchAll()
 }
