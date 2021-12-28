@@ -23,6 +23,8 @@ Kirigami.ScrollablePage {
     ColumnLayout {
         Kirigami.Heading {
             text: entry.title
+            wrapMode: Text.WordWrap
+            Layout.fillWidth: true
         }
 
         Controls.Label {
