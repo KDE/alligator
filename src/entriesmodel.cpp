@@ -55,8 +55,12 @@ int EntriesModel::rowCount(const QModelIndex &parent) const
 {
     Q_UNUSED(parent)
     QSqlQuery query;
-    query.prepare(QStringLiteral("SELECT COUNT() FROM Entries WHERE feed=:feed;"));
-    query.bindValue(QStringLiteral(":feed"), m_feed->url());
+    if (m_feed) {
+        query.prepare(QStringLiteral("SELECT COUNT() FROM Entries WHERE feed=:feed;"));
+        query.bindValue(QStringLiteral(":feed"), m_feed->url());
+    } else {
+        query.prepare(QStringLiteral("SELECT COUNT() FROM Entries;"));
+    }
     Database::instance().execute(query);
     if (!query.next()) {
         qWarning() << "Failed to query feed count";

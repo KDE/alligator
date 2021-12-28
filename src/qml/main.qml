@@ -15,9 +15,10 @@ Kirigami.ApplicationWindow {
 
     title: "Alligator"
 
-    pageStack.initialPage: feedList
+    pageStack.initialPage: entryList
 
     globalDrawer: AlligatorGlobalDrawer {
+        entriesPage: entryList
         feedsPage: feedList
     }
 
@@ -30,6 +31,10 @@ Kirigami.ApplicationWindow {
 
     contextDrawer: Kirigami.ContextDrawer {
         id: contextDrawer
+    }
+
+    EntryListPage {
+        id: entryList
     }
 
     FeedListPage  {

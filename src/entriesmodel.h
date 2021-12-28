@@ -21,7 +21,7 @@ class EntriesModel : public QAbstractListModel
     Q_PROPERTY(Feed *feed READ feed CONSTANT)
 
 public:
-    explicit EntriesModel(Feed *feed);
+    explicit EntriesModel(Feed *feed = nullptr);
     ~EntriesModel() override;
     QVariant data(const QModelIndex &index, int role = Qt::DisplayRole) const override;
     QHash<int, QByteArray> roleNames() const override;

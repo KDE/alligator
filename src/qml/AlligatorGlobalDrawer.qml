@@ -13,10 +13,21 @@ import org.kde.alligator 1.0 as Alligator
 Kirigami.GlobalDrawer {
     id: root
 
+    property var entriesPage
     property var feedsPage
 
     isMenu: true
     actions: [
+        Kirigami.Action {
+            text: i18n("All Entries")
+            iconName: "rss"
+            onTriggered: {
+                pageStack.layers.clear()
+                pageStack.clear()
+                pageStack.push(root.entriesPage)
+            }
+        },
+
         Kirigami.Action {
             text: i18n("All Feeds")
             iconName: "rss"

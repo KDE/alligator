@@ -72,7 +72,7 @@ int main(int argc, char *argv[])
     qmlRegisterType<FeedGroupsModel>("org.kde.alligator", 1, 0, "FeedGroupsModel");
     qmlRegisterType<FeedsProxyModel>("org.kde.alligator", 1, 0, "FeedsProxyModel");
 
-    qmlRegisterUncreatableType<EntriesModel>("org.kde.alligator", 1, 0, "EntriesModel", QStringLiteral("Get from Feed"));
+    qmlRegisterType<EntriesModel>("org.kde.alligator", 1, 0, "EntriesModel");
 
     qmlRegisterSingletonInstance("org.kde.alligator", 1, 0, "Fetcher", &Fetcher::instance());
     qmlRegisterSingletonInstance("org.kde.alligator", 1, 0, "Database", &Database::instance());
