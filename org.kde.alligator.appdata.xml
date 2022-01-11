@@ -61,6 +61,7 @@
   <summary xml:lang="pt">Leitor de fontes para dispositivos móveis</summary>
   <summary xml:lang="pt-BR">Leitor de fonte de notícias para dispositivos móveis</summary>
   <summary xml:lang="ro">Cititor de fluxuri pentru dispozitive mobile</summary>
+  <summary xml:lang="ru">Чтение лент новостей для мобильных устройств</summary>
   <summary xml:lang="sl">Bralnik novic za mobilne naprave</summary>
   <summary xml:lang="sv">Kanalläsare för mobila apparater</summary>
   <summary xml:lang="tr">Mobil cihazlar için besleme okuyucu</summary>
@@ -130,6 +131,7 @@
     <p xml:lang="pt">O Alligator é um leitor móvel de fontes de notícias</p>
     <p xml:lang="pt-BR">O Alligator é um leitor de fonte de notícias móvel</p>
     <p xml:lang="ro">Alligator e un cititor mobil de fluxuri</p>
+    <p xml:lang="ru">Alligator — программа чтения лент новостей для мобильных устройств</p>
     <p xml:lang="sl">Alligator je mobilni bralnik novic</p>
     <p xml:lang="sv">Alligator är en mobil kanalläsare</p>
     <p xml:lang="tr">Alligator bir mobil besleme okuyucusudur</p>
@@ -162,6 +164,7 @@
       <caption xml:lang="pl">Lista kanałów Alligator na pulpicie</caption>
       <caption xml:lang="pt">A lista de fontes do Alligator num computador</caption>
       <caption xml:lang="pt-BR">Lista de fontes do Alligator na área de trabalho</caption>
+      <caption xml:lang="ru">Список лент новостей Alligator на рабочем столе</caption>
       <caption xml:lang="sl">Alligator seznam virov na namizju</caption>
       <caption xml:lang="sv">Alligator kanallista på skrivbordet</caption>
       <caption xml:lang="uk">Список подач Alligator на стільниці</caption>
@@ -190,6 +193,7 @@
       <caption xml:lang="pl">Alligator na telefonie</caption>
       <caption xml:lang="pt">O Alligator no telefone</caption>
       <caption xml:lang="pt-BR">Alligator no celular</caption>
+      <caption xml:lang="ru">Alligator на телефоне</caption>
       <caption xml:lang="sl">Alligator na telefonu</caption>
       <caption xml:lang="sv">Alligator på en telefon</caption>
       <caption xml:lang="uk">Alligator на телефоні</caption>
