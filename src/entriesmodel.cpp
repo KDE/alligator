@@ -17,7 +17,7 @@ EntriesModel::EntriesModel(Feed *feed)
     , m_feed(feed)
 {
     connect(&Fetcher::instance(), &Fetcher::feedUpdated, this, [this](const QString & url) {
-        if (m_feed->url() == url) {
+        if (!m_feed || m_feed->url() == url) {
             beginResetModel();
             for (auto &entry : m_entries) {
                 delete entry;
