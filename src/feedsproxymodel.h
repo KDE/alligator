@@ -4,8 +4,7 @@
 * SPDX-License-Identifier: GPL-3.0-or-later
 */
 
-#ifndef FEEDS_PROXY_MODEL_H
-#define FEEDS_PROXY_MODEL_H
+#pragma once
 
 #include <QSortFilterProxyModel>
 
@@ -34,4 +33,3 @@ Q_SIGNALS:
 private:
     QString m_group_name;
 };
-#endif

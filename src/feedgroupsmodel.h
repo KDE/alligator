@@ -4,8 +4,7 @@
 * SPDX-License-Identifier: GPL-3.0-or-later
 */
 
-#ifndef FEED_GROUPS_MODEL_H
-#define FEED_GROUPS_MODEL_H
+#pragma once
 
 #include <QAbstractListModel>
 
@@ -44,4 +43,3 @@ private:
     void loadFromDatabase();
     QVector<FeedGroup> m_feed_groups;
 };
-#endif
