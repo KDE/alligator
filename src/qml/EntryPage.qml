@@ -44,4 +44,6 @@ Kirigami.ScrollablePage {
         icon.name: "globe"
         onTriggered: Qt.openUrlExternally(entry.link)
     }
+
+    Component.onDestruction: page.entry.read = true
 }

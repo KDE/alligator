@@ -273,6 +273,17 @@ void Database::removeFeedGroup(const QString &name)
     Q_EMIT feedGroupRemoved(name);
 }
 
+void Database::setRead(const QString &entryId, bool read)
+{
+    QSqlQuery query;
+    query.prepare(QStringLiteral("UPDATE Entries SET read=:read WHERE id=:id"));
+    query.bindValue(QStringLiteral(":id"), entryId);
+    query.bindValue(QStringLiteral(":read"), read);
+    execute(query);
+
+    Q_EMIT entryReadChanged(entryId, read);
+}
+
 bool Database::feedGroupExists(const QString &name)
 {
     QSqlQuery query;

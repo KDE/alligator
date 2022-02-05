@@ -105,11 +105,7 @@ void Entry::setRead(bool read)
 {
     m_read = read;
     Q_EMIT readChanged(m_read);
-    QSqlQuery query;
-    query.prepare(QStringLiteral("UPDATE Entries SET read=:read WHERE id=:id"));
-    query.bindValue(QStringLiteral(":id"), m_id);
-    query.bindValue(QStringLiteral(":read"), m_read);
-    Database::instance().execute(query);
+    Database::instance().setRead(m_id, m_read);
     if (m_feed) {
         Q_EMIT m_feed->unreadEntryCountChanged();
     }

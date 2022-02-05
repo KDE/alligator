@@ -27,6 +27,7 @@
 #include "alligatorsettings.h"
 #include "database.h"
 #include "entriesmodel.h"
+#include "entriesproxymodel.h"
 #include "feedsmodel.h"
 #include "fetcher.h"
 #include "feedgroupsmodel.h"
@@ -73,6 +74,7 @@ int main(int argc, char *argv[])
     qmlRegisterType<FeedsProxyModel>("org.kde.alligator", 1, 0, "FeedsProxyModel");
 
     qmlRegisterType<EntriesModel>("org.kde.alligator", 1, 0, "EntriesModel");
+    qmlRegisterType<EntriesProxyModel>("org.kde.alligator", 1, 0, "EntriesProxyModel");
 
     qmlRegisterSingletonInstance("org.kde.alligator", 1, 0, "Fetcher", &Fetcher::instance());
     qmlRegisterSingletonInstance("org.kde.alligator", 1, 0, "Database", &Database::instance());

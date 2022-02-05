@@ -30,7 +30,6 @@ Kirigami.SwipeListItem {
         onClicked: {
             while(pageStack.depth > 2)
                 pageStack.pop()
-            model.entry.read = true
             pageStack.push("qrc:/EntryPage.qml", {"entry": model.entry, "feedTitle" : feedTitle})
         }
     }

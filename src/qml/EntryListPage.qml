@@ -16,6 +16,7 @@ Kirigami.ScrollablePage {
     id: page
 
     property var feed
+    property bool onlyUnread: onlyUnreadAction.checked
 
     title: feed === undefined ? i18n("All Entries") : feed.displayName || feed.name
     supportsRefreshing: true
@@ -35,6 +36,13 @@ Kirigami.ScrollablePage {
     }
 
     contextualActions: [
+        Kirigami.Action {
+            id: onlyUnreadAction
+            text: i18n("Only unread")
+            checkable: true
+            checked: true // TODO: store in settings
+            onToggled: page.onlyUnread = checked
+        },
         Kirigami.Action {
             visible: feed !== undefined
             iconName: "help-about-symbolic"
@@ -67,9 +75,15 @@ Kirigami.ScrollablePage {
     ListView {
         id: entryList
         visible: count !== 0
-        model: page.feed === undefined ? allEntriesModel : page.feed.entries
+        model: proxyModel
 
         delegate: EntryListDelegate { feedTitle : feed === undefined ? i18n("All Entries") : feed.displayName || feed.name }
+    }
+
+    EntriesProxyModel {
+        id: proxyModel
+        onlyUnread: page.onlyUnread
+        sourceModel: page.feed === undefined ? allEntriesModel : page.feed.entries
     }
 
     EntriesModel {

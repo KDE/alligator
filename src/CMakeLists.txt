@@ -5,6 +5,7 @@ add_executable(alligator
     main.cpp
     feedsmodel.cpp
     entriesmodel.cpp
+    entriesproxymodel.cpp
     fetcher.cpp
     database.cpp
     entry.cpp

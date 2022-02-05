@@ -27,12 +27,14 @@ public:
     Q_INVOKABLE void removeFeedGroup(const QString &name);
     Q_INVOKABLE void setDefaultGroup(const QString &name);
     Q_INVOKABLE void editFeed(const QString &url, const QString &displayName, const QString &groupName);
+    Q_INVOKABLE void setRead(const QString &entryId, bool read);
 
 Q_SIGNALS:
     void feedAdded(const QString &url);
     void feedDetailsUpdated(const QString &url, const QString &displayName, const QString &description);
     void feedGroupsUpdated();
     void feedGroupRemoved(const QString &groupName);
+    void entryReadChanged(const QString &entryId, bool read);
 private:
     bool feedGroupExists(const QString &name);
     void clearFeedGroup(const QString &name);
