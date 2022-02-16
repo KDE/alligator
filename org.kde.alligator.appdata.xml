@@ -67,7 +67,7 @@
   <summary xml:lang="tr">Mobil cihazlar için besleme okuyucu</summary>
   <summary xml:lang="uk">Програма для читання подач на мобільних пристроях</summary>
   <summary xml:lang="x-test">xxFeed reader for mobile devicesxx</summary>
-  <summary xml:lang="zh-CN">移动设备的新闻源阅读器</summary>
+  <summary xml:lang="zh-CN">针对移动设备设计的新闻源阅读器</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0-or-later</project_license>
   <url type="homepage">https://apps.kde.org/alligator</url>
@@ -137,7 +137,7 @@
     <p xml:lang="tr">Alligator bir mobil besleme okuyucusudur</p>
     <p xml:lang="uk">Alligator — програма для читання подач на мобільних пристроях</p>
     <p xml:lang="x-test">xxAlligator is a mobile feed readerxx</p>
-    <p xml:lang="zh-CN">Alligator 是一个移动新闻源阅读器</p>
+    <p xml:lang="zh-CN">Alligator 是一款手机新闻源阅读器</p>
   </description>
   <provides>
     <binary>alligator</binary>
@@ -169,7 +169,7 @@
       <caption xml:lang="sv">Alligator kanallista på skrivbordet</caption>
       <caption xml:lang="uk">Список подач Alligator на стільниці</caption>
       <caption xml:lang="x-test">xxAlligator feed list on the desktopxx</caption>
-      <caption xml:lang="zh-CN">桌面上的Alligator 新闻源列表</caption>
+      <caption xml:lang="zh-CN">桌面上的 Alligator 新闻源列表</caption>
       <image>https://cdn.kde.org/screenshots/alligator/alligator-desktop.png</image>
     </screenshot>
     <screenshot type="default">
@@ -198,7 +198,7 @@
       <caption xml:lang="sv">Alligator på en telefon</caption>
       <caption xml:lang="uk">Alligator на телефоні</caption>
       <caption xml:lang="x-test">xxAlligator on a phonexx</caption>
-      <caption xml:lang="zh-CN">手机上的Aligator</caption>
+      <caption xml:lang="zh-CN">手机上的 Aligator</caption>
       <image>https://cdn.kde.org/screenshots/alligator/alligator-mobile.png</image>
     </screenshot>
   </screenshots>
