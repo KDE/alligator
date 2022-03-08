@@ -25,7 +25,7 @@ Kirigami.ApplicationWindow {
     Component {
         id: aboutPage
         Kirigami.AboutPage {
-            aboutData: _aboutData
+            aboutData: Alligator.AboutType.aboutData
         }
     }
 

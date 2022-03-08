@@ -25,6 +25,7 @@
 
 #include "alligator-version.h"
 #include "alligatorsettings.h"
+#include "about.h"
 #include "database.h"
 #include "entriesmodel.h"
 #include "entriesproxymodel.h"
@@ -76,6 +77,7 @@ int main(int argc, char *argv[])
     qmlRegisterType<EntriesModel>("org.kde.alligator", 1, 0, "EntriesModel");
     qmlRegisterType<EntriesProxyModel>("org.kde.alligator", 1, 0, "EntriesProxyModel");
 
+    qmlRegisterSingletonInstance("org.kde.alligator", 1, 0, "AboutType", &AboutType::instance());
     qmlRegisterSingletonInstance("org.kde.alligator", 1, 0, "Fetcher", &Fetcher::instance());
     qmlRegisterSingletonInstance("org.kde.alligator", 1, 0, "Database", &Database::instance());
 
@@ -97,8 +99,6 @@ int main(int argc, char *argv[])
     if(feedURL != QStringLiteral("none"))
         Database::instance().addFeed(feedURL);
     about.processCommandLine(&parser);
-
-    engine.rootContext()->setContextProperty(QStringLiteral("_aboutData"), QVariant::fromValue(about));
 
     AlligatorSettings settings;
 
