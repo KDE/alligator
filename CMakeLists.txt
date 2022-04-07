@@ -45,6 +45,8 @@ add_definitions(-DQT_NO_CAST_FROM_ASCII
                 -DQT_DISABLE_DEPRECATED_BEFORE=0x050d00
 )
 
+ki18n_install(po)
+
 install(PROGRAMS org.kde.alligator.desktop DESTINATION ${KDE_INSTALL_APPDIR})
 install(FILES org.kde.alligator.appdata.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
 install(FILES alligator.svg DESTINATION ${KDE_INSTALL_FULL_ICONDIR}/hicolor/scalable/apps)
