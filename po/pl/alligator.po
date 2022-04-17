@@ -1,0 +1,372 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the alligator package.
+#
+# Marcin Stanclik <mstanclik@yahoo.com>, 2021.
+# Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2021, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: alligator\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-03-09 00:47+0000\n"
+"PO-Revision-Date: 2022-03-13 11:16+0100\n"
+"Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
+"Language-Team: Polish <kde-i18n-doc@kde.org>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 22.03.70\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Marcin Stanclik, Łukasz Wojniłowicz"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "mstanclik@yahoo.com"
+
+#: database.cpp:66 database.cpp:314
+#, kde-format
+msgid "Default"
+msgstr "Domyślna"
+
+#: database.cpp:67 database.cpp:315
+#, kde-format
+msgid "Default Feed Group"
+msgstr "Domyślna grupa kanałów"
+
+#: main.cpp:69
+#, kde-format
+msgid "Alligator"
+msgstr "Alligator"
+
+#: main.cpp:69
+#, kde-format
+msgid "Feed Reader"
+msgstr "Czytnik kanałów"
+
+#: main.cpp:69
+#, kde-format
+msgid "© 2020 KDE Community"
+msgstr "© 2020 Społeczność KDE"
+
+#: main.cpp:70
+#, kde-format
+msgid "Tobias Fella"
+msgstr "Tobias Fella"
+
+#: main.cpp:89
+#, kde-format
+msgid "RSS/Atom Feed Reader"
+msgstr "Czytnik kanałów RSS/Atom"
+
+#: main.cpp:91
+#, kde-format
+msgid "Adds a new feed to database."
+msgstr "Dodaje nowy kanał do bazy danych."
+
+#: main.cpp:92
+#, kde-format
+msgid "feed URL"
+msgstr "adres URL kanału"
+
+#: qml/AddFeedSheet.qml:20
+#, kde-format
+msgid "Add Feed"
+msgstr "Dodaj kanał"
+
+#: qml/AddFeedSheet.qml:25
+#, kde-format
+msgid "Url:"
+msgstr "Url:"
+
+#: qml/AddFeedSheet.qml:40 qml/EditFeedSheet.qml:50 qml/FeedGroupSheet.qml:49
+#, kde-format
+msgid "OK"
+msgstr "OK"
+
+#: qml/AddFeedSheet.qml:50 qml/EditFeedSheet.qml:59 qml/FeedGroupSheet.qml:60
+#, kde-format
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: qml/AlligatorGlobalDrawer.qml:22 qml/EntryListPage.qml:21
+#: qml/EntryListPage.qml:80
+#, kde-format
+msgid "All Entries"
+msgstr "Wszystkie wpisy"
+
+#: qml/AlligatorGlobalDrawer.qml:32
+#, kde-format
+msgid "All Feeds"
+msgstr "Wszystkie kanały RSS"
+
+#: qml/AlligatorGlobalDrawer.qml:44
+#, kde-format
+msgid "Feed Groups"
+msgstr "Grupy kanałów"
+
+#: qml/AlligatorGlobalDrawer.qml:48 qml/AlligatorGlobalDrawer.qml:51
+#: qml/SettingsPage.qml:14
+#, kde-format
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: qml/AlligatorGlobalDrawer.qml:54 qml/AlligatorGlobalDrawer.qml:57
+#, kde-format
+msgid "About"
+msgstr "O programie"
+
+#: qml/AlligatorGlobalDrawer.qml:64
+#, kde-format
+msgid "Configure Groups"
+msgstr "Ustawienia grup"
+
+#: qml/EditFeedSheet.qml:19
+#, kde-format
+msgid "Edit Feed"
+msgstr "Edytuj kanał"
+
+#: qml/EditFeedSheet.qml:30
+#, kde-format
+msgid "Display Name:"
+msgstr "Wyświetlana nazwa:"
+
+#: qml/EditFeedSheet.qml:40
+#, kde-format
+msgid "Group:"
+msgstr "Grupa:"
+
+#: qml/EntryListDelegate.qml:26
+#, kde-format
+msgctxt "by <author(s)>"
+msgid "by"
+msgstr "przez"
+
+#: qml/EntryListPage.qml:41
+#, kde-format
+msgid "Only unread"
+msgstr "Tylko nieprzeczytane"
+
+#: qml/EntryListPage.qml:49
+#, kde-format
+msgid "Details"
+msgstr "Szczegóły"
+
+#: qml/EntryListPage.qml:60
+#, kde-format
+msgid "Refresh"
+msgstr "Odśwież"
+
+#: qml/EntryListPage.qml:71
+#, kde-format
+msgid "No Entries available"
+msgstr "Brak dostępnych wpisów"
+
+#: qml/EntryListPage.qml:71
+#, kde-format
+msgid "Error (%1): %2"
+msgstr "Błąd (%1): %2"
+
+#: qml/EntryPage.qml:43
+#, kde-format
+msgid "Open in Browser"
+msgstr "Otwórz w przeglądarce"
+
+#: qml/FeedDetailsPage.qml:20
+#, kde-format
+msgctxt "<Feed Name> - Details"
+msgid "%1 - Details"
+msgstr "%1 - Szczegóły"
+
+#: qml/FeedDetailsPage.qml:36
+#, kde-format
+msgctxt "by <author(s)>"
+msgid "by %1"
+msgstr "przez %1"
+
+#: qml/FeedDetailsPage.qml:44
+#, kde-format
+msgid "Subscribed since: %1"
+msgstr "Zasubskrybowane od: %1"
+
+#: qml/FeedDetailsPage.qml:47
+#, kde-format
+msgid "last updated: %1"
+msgstr "ostatnio uaktualniono: %1"
+
+#: qml/FeedDetailsPage.qml:50
+#, kde-format
+msgid "%1 posts, %2 unread"
+msgstr "%1 postów, %2 nieprzeczytanych"
+
+#: qml/FeedGroupSheet.qml:24
+#, kde-format
+msgid "Feed group"
+msgstr "Grupa kanałów"
+
+#: qml/FeedGroupSheet.qml:32
+#, kde-format
+msgid "Name:"
+msgstr "Nazwa:"
+
+#: qml/FeedGroupSheet.qml:39
+#, kde-format
+msgid "Description:"
+msgstr "Opis:"
+
+#: qml/FeedListDelegate.qml:27
+#, kde-format
+msgid "%1 unread entry"
+msgid_plural "%1 unread entries"
+msgstr[0] "%1 nieprzeczytany wpis"
+msgstr[1] "%1 nieprzeczytane wpisy"
+msgstr[2] "%1 nieprzeczytanych wpisów"
+
+#: qml/FeedListDelegate.qml:48
+#, kde-format
+msgid "Edit"
+msgstr "Edytuj"
+
+#: qml/FeedListPage.qml:34
+#, kde-format
+msgid "Refresh all feeds"
+msgstr "Odśwież wszystkie kanały"
+
+#: qml/FeedListPage.qml:40
+#, kde-format
+msgid "Import Feeds..."
+msgstr "Zaimportuj kanały..."
+
+#: qml/FeedListPage.qml:46
+#, kde-format
+msgid "Export Feeds..."
+msgstr "Wyeksportuj kanały..."
+
+#: qml/FeedListPage.qml:63
+#, kde-format
+msgid "Add feed"
+msgstr "Dodaj kanał"
+
+#: qml/FeedListPage.qml:77
+#, kde-format
+msgid "No Feeds added yet"
+msgstr "Nie dodano jeszcze żadnych kanałów"
+
+#: qml/FeedListPage.qml:105
+#, kde-format
+msgid "Import Feeds"
+msgstr "Zaimportuj kanały"
+
+#: qml/FeedListPage.qml:107
+#, kde-format
+msgid "All Files (*)"
+msgstr "Wszystkie pliki (*)"
+
+#: qml/FeedListPage.qml:107
+#, kde-format
+msgid "XML Files (*.xml)"
+msgstr "Pliki XML (*.xml)"
+
+#: qml/FeedListPage.qml:107
+#, kde-format
+msgid "OPML Files (*.opml)"
+msgstr "Pliki OPML (*.opml)"
+
+#: qml/FeedListPage.qml:113
+#, kde-format
+msgid "Export Feeds"
+msgstr "Wyeksportuj kanały"
+
+#: qml/FeedListPage.qml:115
+#, kde-format
+msgid "All Files"
+msgstr "Wszystkie pliki"
+
+#: qml/GroupsListPage.qml:18
+#, kde-format
+msgid "Groups"
+msgstr "Grupy"
+
+#: qml/GroupsListPage.qml:22 qml/GroupsListPage.qml:70
+#, kde-format
+msgid "Add Group"
+msgstr "Dodaj grupę"
+
+#: qml/GroupsListPage.qml:48
+#, kde-format
+msgid "Remove"
+msgstr "Usuń"
+
+#: qml/GroupsListPage.qml:56
+#, kde-format
+msgid "Set as default"
+msgstr "Ustaw jako domyślną"
+
+#: qml/GroupsListPage.qml:65
+#, kde-format
+msgid "No groups created yet"
+msgstr "Nie utworzono jeszcze żadnych grup"
+
+#: qml/SettingsPage.qml:20
+#, kde-format
+msgid "Article List"
+msgstr "Lista artykułów"
+
+#: qml/SettingsPage.qml:24
+#, kde-format
+msgid "Delete after:"
+msgstr "Usuń po:"
+
+#: qml/SettingsPage.qml:37
+#, kde-format
+msgid "Never"
+msgstr "Nigdy"
+
+#: qml/SettingsPage.qml:37
+#, kde-format
+msgid "Articles"
+msgstr "Artykuły"
+
+#: qml/SettingsPage.qml:37
+#, kde-format
+msgid "Days"
+msgstr "Dni"
+
+#: qml/SettingsPage.qml:37
+#, kde-format
+msgid "Weeks"
+msgstr "Tygodnie"
+
+#: qml/SettingsPage.qml:37
+#, kde-format
+msgid "Months"
+msgstr "Miesiące"
+
+#: qml/SettingsPage.qml:45
+#, kde-format
+msgid "Article"
+msgstr "Artykuł"
+
+#: qml/SettingsPage.qml:53
+#, kde-format
+msgid "Font size:"
+msgstr "Rozmiar czcionki:"
+
+#: qml/SettingsPage.qml:64
+#, kde-format
+msgid "Use system default"
+msgstr "Użyj domyślnej systemu"
+
+#~ msgid "Add new Feed"
+#~ msgstr "Dodaj nowy kanał"
+
+#~ msgid "Posts"
+#~ msgstr "Posty"
+
+#~ msgid "Save"
+#~ msgstr "Zapisz"

@@ -1,0 +1,365 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the alligator package.
+#
+# Alexander Yavorsky <kekcuha@gmail.com>, 2020.
+# Alexander Potashev <aspotashev@gmail.com>, 2020.
+# Olesya Gerasimenko <translation-team@basealt.ru>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: alligator\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-03-09 00:47+0000\n"
+"PO-Revision-Date: 2022-02-16 11:33+0300\n"
+"Last-Translator: Olesya Gerasimenko <translation-team@basealt.ru>\n"
+"Language-Team: Basealt Translation Team\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Lokalize 21.12.1\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Олеся Герасименко"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "translation-team@basealt.ru"
+
+#: database.cpp:66 database.cpp:314
+#, kde-format
+msgid "Default"
+msgstr "По умолчанию"
+
+#: database.cpp:67 database.cpp:315
+#, kde-format
+msgid "Default Feed Group"
+msgstr "Группа лент по умолчанию"
+
+#: main.cpp:69
+#, kde-format
+msgid "Alligator"
+msgstr "Alligator"
+
+#: main.cpp:69
+#, kde-format
+msgid "Feed Reader"
+msgstr "Чтение лент новостей"
+
+#: main.cpp:69
+#, kde-format
+msgid "© 2020 KDE Community"
+msgstr "© 2020 Сообщество KDE"
+
+#: main.cpp:70
+#, kde-format
+msgid "Tobias Fella"
+msgstr "Tobias Fella"
+
+#: main.cpp:89
+#, kde-format
+msgid "RSS/Atom Feed Reader"
+msgstr "Чтение лент новостей RSS/Atom"
+
+#: main.cpp:91
+#, kde-format
+msgid "Adds a new feed to database."
+msgstr "Добавляет в базу данных новую ленту."
+
+#: main.cpp:92
+#, kde-format
+msgid "feed URL"
+msgstr "URL-адрес ленты новостей"
+
+#: qml/AddFeedSheet.qml:20
+#, kde-format
+msgid "Add Feed"
+msgstr "Добавление ленты новостей"
+
+#: qml/AddFeedSheet.qml:25
+#, kde-format
+msgid "Url:"
+msgstr "URL-адрес:"
+
+#: qml/AddFeedSheet.qml:40 qml/EditFeedSheet.qml:50 qml/FeedGroupSheet.qml:49
+#, kde-format
+msgid "OK"
+msgstr "OK"
+
+#: qml/AddFeedSheet.qml:50 qml/EditFeedSheet.qml:59 qml/FeedGroupSheet.qml:60
+#, kde-format
+msgid "Cancel"
+msgstr "Отмена"
+
+#: qml/AlligatorGlobalDrawer.qml:22 qml/EntryListPage.qml:21
+#: qml/EntryListPage.qml:80
+#, kde-format
+msgid "All Entries"
+msgstr "Все записи"
+
+#: qml/AlligatorGlobalDrawer.qml:32
+#, kde-format
+msgid "All Feeds"
+msgstr "Все ленты"
+
+#: qml/AlligatorGlobalDrawer.qml:44
+#, kde-format
+msgid "Feed Groups"
+msgstr "Группы лент новостей"
+
+#: qml/AlligatorGlobalDrawer.qml:48 qml/AlligatorGlobalDrawer.qml:51
+#: qml/SettingsPage.qml:14
+#, kde-format
+msgid "Settings"
+msgstr "Параметры"
+
+#: qml/AlligatorGlobalDrawer.qml:54 qml/AlligatorGlobalDrawer.qml:57
+#, kde-format
+msgid "About"
+msgstr "О программе"
+
+#: qml/AlligatorGlobalDrawer.qml:64
+#, kde-format
+msgid "Configure Groups"
+msgstr "Настройка групп"
+
+#: qml/EditFeedSheet.qml:19
+#, kde-format
+msgid "Edit Feed"
+msgstr "Редактирование ленты"
+
+#: qml/EditFeedSheet.qml:30
+#, kde-format
+msgid "Display Name:"
+msgstr "Отображаемое имя:"
+
+#: qml/EditFeedSheet.qml:40
+#, kde-format
+msgid "Group:"
+msgstr "Группа:"
+
+#: qml/EntryListDelegate.qml:26
+#, kde-format
+msgctxt "by <author(s)>"
+msgid "by"
+msgstr " "
+
+#: qml/EntryListPage.qml:41
+#, kde-format
+msgid "Only unread"
+msgstr "Только непрочитанные"
+
+#: qml/EntryListPage.qml:49
+#, kde-format
+msgid "Details"
+msgstr "Подробности"
+
+#: qml/EntryListPage.qml:60
+#, kde-format
+msgid "Refresh"
+msgstr "Обновить"
+
+#: qml/EntryListPage.qml:71
+#, kde-format
+msgid "No Entries available"
+msgstr "Нет доступных записей"
+
+#: qml/EntryListPage.qml:71
+#, kde-format
+msgid "Error (%1): %2"
+msgstr "Ошибка (%1): %2"
+
+#: qml/EntryPage.qml:43
+#, kde-format
+msgid "Open in Browser"
+msgstr "Открыть в браузере"
+
+#: qml/FeedDetailsPage.qml:20
+#, kde-format
+msgctxt "<Feed Name> - Details"
+msgid "%1 - Details"
+msgstr "%1 — Подробности"
+
+#: qml/FeedDetailsPage.qml:36
+#, kde-format
+msgctxt "by <author(s)>"
+msgid "by %1"
+msgstr "%1"
+
+#: qml/FeedDetailsPage.qml:44
+#, kde-format
+msgid "Subscribed since: %1"
+msgstr "Дата подписки: %1"
+
+#: qml/FeedDetailsPage.qml:47
+#, kde-format
+msgid "last updated: %1"
+msgstr "Последнее обновление: %1"
+
+#: qml/FeedDetailsPage.qml:50
+#, kde-format
+msgid "%1 posts, %2 unread"
+msgstr "Записей — %1, не прочитано — %2"
+
+#: qml/FeedGroupSheet.qml:24
+#, kde-format
+msgid "Feed group"
+msgstr "Группа лент новостей"
+
+#: qml/FeedGroupSheet.qml:32
+#, kde-format
+msgid "Name:"
+msgstr "Название:"
+
+#: qml/FeedGroupSheet.qml:39
+#, kde-format
+msgid "Description:"
+msgstr "Описание:"
+
+#: qml/FeedListDelegate.qml:27
+#, kde-format
+msgid "%1 unread entry"
+msgid_plural "%1 unread entries"
+msgstr[0] "%1 непрочитанная запись"
+msgstr[1] "%1 непрочитанные записи"
+msgstr[2] "%1 непрочитанных записей"
+msgstr[3] "%1 непрочитанная запись"
+
+#: qml/FeedListDelegate.qml:48
+#, kde-format
+msgid "Edit"
+msgstr "Изменить"
+
+#: qml/FeedListPage.qml:34
+#, kde-format
+msgid "Refresh all feeds"
+msgstr "Обновить все ленты"
+
+#: qml/FeedListPage.qml:40
+#, kde-format
+msgid "Import Feeds..."
+msgstr "Импорт лент…"
+
+#: qml/FeedListPage.qml:46
+#, kde-format
+msgid "Export Feeds..."
+msgstr "Экспорт лент…"
+
+#: qml/FeedListPage.qml:63
+#, kde-format
+msgid "Add feed"
+msgstr "Добавить ленту"
+
+#: qml/FeedListPage.qml:77
+#, kde-format
+msgid "No Feeds added yet"
+msgstr "Ленты новостей ещё не добавлены"
+
+#: qml/FeedListPage.qml:105
+#, kde-format
+msgid "Import Feeds"
+msgstr "Импорт лент"
+
+#: qml/FeedListPage.qml:107
+#, kde-format
+msgid "All Files (*)"
+msgstr "Все файлы (*)"
+
+#: qml/FeedListPage.qml:107
+#, kde-format
+msgid "XML Files (*.xml)"
+msgstr "Файлы XML (*.xml)"
+
+#: qml/FeedListPage.qml:107
+#, kde-format
+msgid "OPML Files (*.opml)"
+msgstr "Файлы OPML (*.opml)"
+
+#: qml/FeedListPage.qml:113
+#, kde-format
+msgid "Export Feeds"
+msgstr "Экспорт лент"
+
+#: qml/FeedListPage.qml:115
+#, kde-format
+msgid "All Files"
+msgstr "Все файлы"
+
+#: qml/GroupsListPage.qml:18
+#, kde-format
+msgid "Groups"
+msgstr "Группы"
+
+#: qml/GroupsListPage.qml:22 qml/GroupsListPage.qml:70
+#, kde-format
+msgid "Add Group"
+msgstr "Добавить группу"
+
+#: qml/GroupsListPage.qml:48
+#, kde-format
+msgid "Remove"
+msgstr "Удалить"
+
+#: qml/GroupsListPage.qml:56
+#, kde-format
+msgid "Set as default"
+msgstr "Установить по умолчанию"
+
+#: qml/GroupsListPage.qml:65
+#, kde-format
+msgid "No groups created yet"
+msgstr "Группы ещё не созданы"
+
+#: qml/SettingsPage.qml:20
+#, kde-format
+msgid "Article List"
+msgstr "Список статей"
+
+#: qml/SettingsPage.qml:24
+#, kde-format
+msgid "Delete after:"
+msgstr "Удалить через:"
+
+#: qml/SettingsPage.qml:37
+#, kde-format
+msgid "Never"
+msgstr "не удалять"
+
+#: qml/SettingsPage.qml:37
+#, kde-format
+msgid "Articles"
+msgstr "(статьи)"
+
+#: qml/SettingsPage.qml:37
+#, kde-format
+msgid "Days"
+msgstr "(дни)"
+
+#: qml/SettingsPage.qml:37
+#, kde-format
+msgid "Weeks"
+msgstr "(недели)"
+
+#: qml/SettingsPage.qml:37
+#, kde-format
+msgid "Months"
+msgstr "(месяцы)"
+
+#: qml/SettingsPage.qml:45
+#, kde-format
+msgid "Article"
+msgstr "Статья"
+
+#: qml/SettingsPage.qml:53
+#, kde-format
+msgid "Font size:"
+msgstr "Размер шрифта:"
+
+#: qml/SettingsPage.qml:64
+#, kde-format
+msgid "Use system default"
+msgstr "Использовать системные параметры по умолчанию"

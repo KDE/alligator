@@ -1,0 +1,370 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the alligator package.
+#
+# Kristóf Kiszel <kiszel.kristof@gmail.com>, 2020, 2021.
+# Kristof Kiszel <ulysses@fsf.hu>, 2021, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: alligator\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-03-09 00:47+0000\n"
+"PO-Revision-Date: 2022-02-07 14:08+0100\n"
+"Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
+"Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 21.07.70\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Kiszel Kristóf"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ulysses@fsf.hu"
+
+#: database.cpp:66 database.cpp:314
+#, kde-format
+msgid "Default"
+msgstr "Alapértelmezett"
+
+#: database.cpp:67 database.cpp:315
+#, kde-format
+msgid "Default Feed Group"
+msgstr "Alapértelmezett hírcsoport"
+
+#: main.cpp:69
+#, kde-format
+msgid "Alligator"
+msgstr "Alligator"
+
+#: main.cpp:69
+#, kde-format
+msgid "Feed Reader"
+msgstr "Hírolvasó"
+
+#: main.cpp:69
+#, kde-format
+msgid "© 2020 KDE Community"
+msgstr "© A KDE közösség, 2020."
+
+#: main.cpp:70
+#, kde-format
+msgid "Tobias Fella"
+msgstr "Tobias Fella"
+
+#: main.cpp:89
+#, kde-format
+msgid "RSS/Atom Feed Reader"
+msgstr "RSS/Atom hírolvasó"
+
+#: main.cpp:91
+#, kde-format
+msgid "Adds a new feed to database."
+msgstr "Új hírforrás hozzáadása az adatbázishoz."
+
+#: main.cpp:92
+#, kde-format
+msgid "feed URL"
+msgstr "Csatorna URL"
+
+#: qml/AddFeedSheet.qml:20
+#, kde-format
+msgid "Add Feed"
+msgstr "Hírcsatorna hozzáadása"
+
+#: qml/AddFeedSheet.qml:25
+#, kde-format
+msgid "Url:"
+msgstr "URL-cím:"
+
+#: qml/AddFeedSheet.qml:40 qml/EditFeedSheet.qml:50 qml/FeedGroupSheet.qml:49
+#, kde-format
+msgid "OK"
+msgstr "OK"
+
+#: qml/AddFeedSheet.qml:50 qml/EditFeedSheet.qml:59 qml/FeedGroupSheet.qml:60
+#, kde-format
+msgid "Cancel"
+msgstr "Mégsem"
+
+#: qml/AlligatorGlobalDrawer.qml:22 qml/EntryListPage.qml:21
+#: qml/EntryListPage.qml:80
+#, kde-format
+msgid "All Entries"
+msgstr "Minden bejegyzés"
+
+#: qml/AlligatorGlobalDrawer.qml:32
+#, kde-format
+msgid "All Feeds"
+msgstr "Minden csatorna"
+
+#: qml/AlligatorGlobalDrawer.qml:44
+#, kde-format
+msgid "Feed Groups"
+msgstr "Csatornacsoportok"
+
+#: qml/AlligatorGlobalDrawer.qml:48 qml/AlligatorGlobalDrawer.qml:51
+#: qml/SettingsPage.qml:14
+#, kde-format
+msgid "Settings"
+msgstr "Beállítások"
+
+#: qml/AlligatorGlobalDrawer.qml:54 qml/AlligatorGlobalDrawer.qml:57
+#, kde-format
+msgid "About"
+msgstr "Névjegy"
+
+#: qml/AlligatorGlobalDrawer.qml:64
+#, kde-format
+msgid "Configure Groups"
+msgstr "Csoportok beállítása"
+
+#: qml/EditFeedSheet.qml:19
+#, kde-format
+msgid "Edit Feed"
+msgstr "Csatorna szerkesztése"
+
+#: qml/EditFeedSheet.qml:30
+#, kde-format
+msgid "Display Name:"
+msgstr "Megjelenítendő név:"
+
+#: qml/EditFeedSheet.qml:40
+#, kde-format
+msgid "Group:"
+msgstr "Csoport:"
+
+#: qml/EntryListDelegate.qml:26
+#, kde-format
+msgctxt "by <author(s)>"
+msgid "by"
+msgstr ", szerző:"
+
+#: qml/EntryListPage.qml:41
+#, kde-format
+msgid "Only unread"
+msgstr "Csak olvasatlanok"
+
+#: qml/EntryListPage.qml:49
+#, kde-format
+msgid "Details"
+msgstr "Részletek"
+
+#: qml/EntryListPage.qml:60
+#, kde-format
+msgid "Refresh"
+msgstr "Frissítés"
+
+#: qml/EntryListPage.qml:71
+#, kde-format
+msgid "No Entries available"
+msgstr "Nincsenek bejegyzések"
+
+#: qml/EntryListPage.qml:71
+#, kde-format
+msgid "Error (%1): %2"
+msgstr "Hiba (%1): %2"
+
+#: qml/EntryPage.qml:43
+#, kde-format
+msgid "Open in Browser"
+msgstr "Megnyitás böngészőben"
+
+#: qml/FeedDetailsPage.qml:20
+#, kde-format
+msgctxt "<Feed Name> - Details"
+msgid "%1 - Details"
+msgstr "%1 - részletek"
+
+#: qml/FeedDetailsPage.qml:36
+#, kde-format
+msgctxt "by <author(s)>"
+msgid "by %1"
+msgstr ", szerző: %1"
+
+#: qml/FeedDetailsPage.qml:44
+#, kde-format
+msgid "Subscribed since: %1"
+msgstr "Feliratkozás kezdete: %1"
+
+#: qml/FeedDetailsPage.qml:47
+#, kde-format
+msgid "last updated: %1"
+msgstr "utolsó frissítés: %1"
+
+#: qml/FeedDetailsPage.qml:50
+#, kde-format
+msgid "%1 posts, %2 unread"
+msgstr "%1 bejegyzés, %2 olvasatlan"
+
+#: qml/FeedGroupSheet.qml:24
+#, kde-format
+msgid "Feed group"
+msgstr "Hírcsoport"
+
+#: qml/FeedGroupSheet.qml:32
+#, kde-format
+msgid "Name:"
+msgstr "Név:"
+
+#: qml/FeedGroupSheet.qml:39
+#, kde-format
+msgid "Description:"
+msgstr "Leírás:"
+
+#: qml/FeedListDelegate.qml:27
+#, kde-format
+msgid "%1 unread entry"
+msgid_plural "%1 unread entries"
+msgstr[0] "%1 olvasatlan bejegyzés"
+msgstr[1] "%1 olvasatlan bejegyzés"
+
+#: qml/FeedListDelegate.qml:48
+#, kde-format
+msgid "Edit"
+msgstr "Szerkesztés"
+
+#: qml/FeedListPage.qml:34
+#, kde-format
+msgid "Refresh all feeds"
+msgstr "Összes frissítése"
+
+#: qml/FeedListPage.qml:40
+#, kde-format
+msgid "Import Feeds..."
+msgstr "Hírcsatornák importálása…"
+
+#: qml/FeedListPage.qml:46
+#, kde-format
+msgid "Export Feeds..."
+msgstr "Hírcsatorna exportálása…"
+
+#: qml/FeedListPage.qml:63
+#, kde-format
+msgid "Add feed"
+msgstr "Hírcsatorna hozzáadása"
+
+#: qml/FeedListPage.qml:77
+#, kde-format
+msgid "No Feeds added yet"
+msgstr "Nincsenek hírcsatornák"
+
+#: qml/FeedListPage.qml:105
+#, kde-format
+msgid "Import Feeds"
+msgstr "Hírcsatornák importálása"
+
+#: qml/FeedListPage.qml:107
+#, kde-format
+msgid "All Files (*)"
+msgstr "Minden fájl (*)"
+
+#: qml/FeedListPage.qml:107
+#, kde-format
+msgid "XML Files (*.xml)"
+msgstr "XML-fájlok (*.xml)"
+
+#: qml/FeedListPage.qml:107
+#, kde-format
+msgid "OPML Files (*.opml)"
+msgstr "OPML-fájlok (*.opml)"
+
+#: qml/FeedListPage.qml:113
+#, kde-format
+msgid "Export Feeds"
+msgstr "Hírcsatornák exportálása"
+
+#: qml/FeedListPage.qml:115
+#, kde-format
+msgid "All Files"
+msgstr "Minden fájl"
+
+#: qml/GroupsListPage.qml:18
+#, kde-format
+msgid "Groups"
+msgstr "Csoportok"
+
+#: qml/GroupsListPage.qml:22 qml/GroupsListPage.qml:70
+#, kde-format
+msgid "Add Group"
+msgstr "Csoport hozzáadása"
+
+#: qml/GroupsListPage.qml:48
+#, kde-format
+msgid "Remove"
+msgstr "Eltávolítás"
+
+#: qml/GroupsListPage.qml:56
+#, kde-format
+msgid "Set as default"
+msgstr "Beállítás alapértelmezettként"
+
+#: qml/GroupsListPage.qml:65
+#, kde-format
+msgid "No groups created yet"
+msgstr "Nincsenek még csoportok"
+
+#: qml/SettingsPage.qml:20
+#, kde-format
+msgid "Article List"
+msgstr "Cikklista"
+
+#: qml/SettingsPage.qml:24
+#, kde-format
+msgid "Delete after:"
+msgstr "Törlés ennyi idő után:"
+
+#: qml/SettingsPage.qml:37
+#, kde-format
+msgid "Never"
+msgstr "Soha"
+
+#: qml/SettingsPage.qml:37
+#, kde-format
+msgid "Articles"
+msgstr "Cikkek"
+
+#: qml/SettingsPage.qml:37
+#, kde-format
+msgid "Days"
+msgstr "nap után"
+
+#: qml/SettingsPage.qml:37
+#, kde-format
+msgid "Weeks"
+msgstr "hét után"
+
+#: qml/SettingsPage.qml:37
+#, kde-format
+msgid "Months"
+msgstr "hónap után"
+
+#: qml/SettingsPage.qml:45
+#, kde-format
+msgid "Article"
+msgstr "Cikk"
+
+#: qml/SettingsPage.qml:53
+#, kde-format
+msgid "Font size:"
+msgstr "Betűméret:"
+
+#: qml/SettingsPage.qml:64
+#, kde-format
+msgid "Use system default"
+msgstr "Rendszer alapértelmezése"
+
+#~ msgid "Add new Feed"
+#~ msgstr "Új hírcsatorna"
+
+#~ msgid "Posts"
+#~ msgstr "Bejegyzések"
+
+#~ msgid "Save"
+#~ msgstr "Mentés"

@@ -1,0 +1,372 @@
+# Xavier Besnard <xavier.besnard@neuf.fr>, 2020, 2021, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: alligator\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-03-09 00:47+0000\n"
+"PO-Revision-Date: 2022-02-07 08:34+0100\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
+"Language-Team: French <kde-francophone@kde.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 21.12.2\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Xavier Besnard"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "Xavier.besnard@neuf.fr"
+
+#: database.cpp:66 database.cpp:314
+#, kde-format
+msgid "Default"
+msgstr "Par défaut"
+
+#: database.cpp:67 database.cpp:315
+#, kde-format
+msgid "Default Feed Group"
+msgstr "Groupe de fil d'actualité par défaut"
+
+#: main.cpp:69
+#, kde-format
+msgid "Alligator"
+msgstr "Alligator"
+
+#: main.cpp:69
+#, kde-format
+msgid "Feed Reader"
+msgstr "Lecteur de fil d'actualité"
+
+#: main.cpp:69
+#, kde-format
+msgid "© 2020 KDE Community"
+msgstr "© 2020 Communauté KDE"
+
+#: main.cpp:70
+#, kde-format
+msgid "Tobias Fella"
+msgstr "Tobias Fella"
+
+#: main.cpp:89
+#, kde-format
+msgid "RSS/Atom Feed Reader"
+msgstr "Lecteur de fil d'actualités (RSS)"
+
+#: main.cpp:91
+#, kde-format
+msgid "Adds a new feed to database."
+msgstr "Ajoute un nouveau fil de discussions à la base de données."
+
+#: main.cpp:92
+#, kde-format
+msgid "feed URL"
+msgstr "URL du fil de discussions"
+
+#: qml/AddFeedSheet.qml:20
+#, kde-format
+msgid "Add Feed"
+msgstr "Ajouter un flux"
+
+#: qml/AddFeedSheet.qml:25
+#, kde-format
+msgid "Url:"
+msgstr "URL :"
+
+#: qml/AddFeedSheet.qml:40 qml/EditFeedSheet.qml:50 qml/FeedGroupSheet.qml:49
+#, kde-format
+msgid "OK"
+msgstr "Ok"
+
+#: qml/AddFeedSheet.qml:50 qml/EditFeedSheet.qml:59 qml/FeedGroupSheet.qml:60
+#, kde-format
+msgid "Cancel"
+msgstr "Annuler"
+
+#: qml/AlligatorGlobalDrawer.qml:22 qml/EntryListPage.qml:21
+#: qml/EntryListPage.qml:80
+#, kde-format
+msgid "All Entries"
+msgstr "Toutes les entrées"
+
+#: qml/AlligatorGlobalDrawer.qml:32
+#, kde-format
+msgid "All Feeds"
+msgstr "Tous les fils d'actualité"
+
+#: qml/AlligatorGlobalDrawer.qml:44
+#, kde-format
+msgid "Feed Groups"
+msgstr "Groupes de fils d'actualité"
+
+#: qml/AlligatorGlobalDrawer.qml:48 qml/AlligatorGlobalDrawer.qml:51
+#: qml/SettingsPage.qml:14
+#, kde-format
+msgid "Settings"
+msgstr "Configuration"
+
+#: qml/AlligatorGlobalDrawer.qml:54 qml/AlligatorGlobalDrawer.qml:57
+#, kde-format
+msgid "About"
+msgstr "A propos"
+
+#: qml/AlligatorGlobalDrawer.qml:64
+#, kde-format
+msgid "Configure Groups"
+msgstr "Configurer les groupes"
+
+#: qml/EditFeedSheet.qml:19
+#, kde-format
+msgid "Edit Feed"
+msgstr "Modifier un fil d'actualité"
+
+#: qml/EditFeedSheet.qml:30
+#, kde-format
+msgid "Display Name:"
+msgstr "Nom d'affichage :"
+
+#: qml/EditFeedSheet.qml:40
+#, kde-format
+msgid "Group:"
+msgstr "Groupe :"
+
+#: qml/EntryListDelegate.qml:26
+#, kde-format
+msgctxt "by <author(s)>"
+msgid "by"
+msgstr "par"
+
+#: qml/EntryListPage.qml:41
+#, kde-format
+msgid "Only unread"
+msgstr "Uniquement non lu"
+
+#: qml/EntryListPage.qml:49
+#, kde-format
+msgid "Details"
+msgstr "Détails"
+
+#: qml/EntryListPage.qml:60
+#, kde-format
+msgid "Refresh"
+msgstr "Rafraîchir"
+
+#: qml/EntryListPage.qml:71
+#, kde-format
+msgid "No Entries available"
+msgstr "Aucune entrée disponible."
+
+#: qml/EntryListPage.qml:71
+#, kde-format
+msgid "Error (%1): %2"
+msgstr "Erreur (%1) : %2"
+
+#: qml/EntryPage.qml:43
+#, kde-format
+msgid "Open in Browser"
+msgstr "Ouvrir dans un navigateur"
+
+#: qml/FeedDetailsPage.qml:20
+#, kde-format
+msgctxt "<Feed Name> - Details"
+msgid "%1 - Details"
+msgstr "%1 - Détails"
+
+#: qml/FeedDetailsPage.qml:36
+#, kde-format
+msgctxt "by <author(s)>"
+msgid "by %1"
+msgstr "par %1"
+
+#: qml/FeedDetailsPage.qml:44
+#, kde-format
+msgid "Subscribed since: %1"
+msgstr "Abonné depuis : %1"
+
+#: qml/FeedDetailsPage.qml:47
+#, kde-format
+msgid "last updated: %1"
+msgstr "Mis à jour depuis : %1"
+
+#: qml/FeedDetailsPage.qml:50
+#, kde-format
+msgid "%1 posts, %2 unread"
+msgstr "%1 messages, %2 non lus"
+
+#: qml/FeedGroupSheet.qml:24
+#, kde-format
+msgid "Feed group"
+msgstr "Groupe de fils d'actualité"
+
+#: qml/FeedGroupSheet.qml:32
+#, kde-format
+msgid "Name:"
+msgstr "Nom :"
+
+#: qml/FeedGroupSheet.qml:39
+#, kde-format
+msgid "Description:"
+msgstr "Description :"
+
+#: qml/FeedListDelegate.qml:27
+#, kde-format
+msgid "%1 unread entry"
+msgid_plural "%1 unread entries"
+msgstr[0] "Entrée %1 non lue"
+msgstr[1] "Entrées %1 non lues"
+
+#: qml/FeedListDelegate.qml:48
+#, kde-format
+msgid "Edit"
+msgstr "Modifier"
+
+#: qml/FeedListPage.qml:34
+#, kde-format
+msgid "Refresh all feeds"
+msgstr "Actualiser tous les fils d'actualité"
+
+#: qml/FeedListPage.qml:40
+#, kde-format
+msgid "Import Feeds..."
+msgstr "Importer des flux..."
+
+#: qml/FeedListPage.qml:46
+#, kde-format
+msgid "Export Feeds..."
+msgstr "Exporter des flux..."
+
+#: qml/FeedListPage.qml:63
+#, kde-format
+msgid "Add feed"
+msgstr "Ajouter un fil d'actualité"
+
+#: qml/FeedListPage.qml:77
+#, kde-format
+msgid "No Feeds added yet"
+msgstr "Aucun fil d'actualité ajouté pour l'instant."
+
+#: qml/FeedListPage.qml:105
+#, kde-format
+msgid "Import Feeds"
+msgstr "Importer des flux"
+
+#: qml/FeedListPage.qml:107
+#, kde-format
+msgid "All Files (*)"
+msgstr "Tous les fichiers (*)"
+
+#: qml/FeedListPage.qml:107
+#, kde-format
+msgid "XML Files (*.xml)"
+msgstr "Fichiers « XML » (*.xml)"
+
+#: qml/FeedListPage.qml:107
+#, kde-format
+msgid "OPML Files (*.opml)"
+msgstr "Fichiers « OPML » (*.opml)"
+
+#: qml/FeedListPage.qml:113
+#, kde-format
+msgid "Export Feeds"
+msgstr "Exporter des flux"
+
+#: qml/FeedListPage.qml:115
+#, kde-format
+msgid "All Files"
+msgstr "Tous les fichiers"
+
+#: qml/GroupsListPage.qml:18
+#, kde-format
+msgid "Groups"
+msgstr "Groupes"
+
+#: qml/GroupsListPage.qml:22 qml/GroupsListPage.qml:70
+#, kde-format
+msgid "Add Group"
+msgstr "Ajouter un groupe"
+
+#: qml/GroupsListPage.qml:48
+#, kde-format
+msgid "Remove"
+msgstr "Supprimer"
+
+#: qml/GroupsListPage.qml:56
+#, kde-format
+msgid "Set as default"
+msgstr "Définir comme défaut"
+
+#: qml/GroupsListPage.qml:65
+#, kde-format
+msgid "No groups created yet"
+msgstr "Aucun fil d'actualité créé pour l'instant."
+
+#: qml/SettingsPage.qml:20
+#, kde-format
+msgid "Article List"
+msgstr "Liste des articles"
+
+#: qml/SettingsPage.qml:24
+#, kde-format
+msgid "Delete after:"
+msgstr "Supprimer après :"
+
+#: qml/SettingsPage.qml:37
+#, kde-format
+msgid "Never"
+msgstr "Jamais"
+
+#: qml/SettingsPage.qml:37
+#, kde-format
+msgid "Articles"
+msgstr "Articles"
+
+#: qml/SettingsPage.qml:37
+#, kde-format
+msgid "Days"
+msgstr "Jours"
+
+#: qml/SettingsPage.qml:37
+#, kde-format
+msgid "Weeks"
+msgstr "Semaines"
+
+#: qml/SettingsPage.qml:37
+#, kde-format
+msgid "Months"
+msgstr "Mois"
+
+#: qml/SettingsPage.qml:45
+#, kde-format
+msgid "Article"
+msgstr "Article"
+
+#: qml/SettingsPage.qml:53
+#, kde-format
+msgid "Font size:"
+msgstr "Taille de la police :"
+
+#: qml/SettingsPage.qml:64
+#, kde-format
+msgid "Use system default"
+msgstr "Utiliser la valeur par défaut du système"
+
+#~ msgid "Add new Feed"
+#~ msgstr "Ajouter un fil d'actualité"
+
+#~ msgid "Posts"
+#~ msgstr "Messages"
+
+#~ msgid "Save"
+#~ msgstr "Enregistrer"
+
+#~ msgid "Url to add to the subscriptions"
+#~ msgstr "URL à ajouter aux abonnements"
+
+#~ msgid "Add"
+#~ msgstr "Ajouter"
