@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the alligator package.
-# Tommi Nieminen <translator@legisign.org>, 2020, 2021.
+# Tommi Nieminen <translator@legisign.org>, 2020, 2021, 2022.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-03-09 00:47+0000\n"
-"PO-Revision-Date: 2021-01-10 20:41+0200\n"
+"PO-Revision-Date: 2022-05-18 18:55+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -30,12 +30,12 @@ msgstr "translator@legisign.org"
 #: database.cpp:66 database.cpp:314
 #, kde-format
 msgid "Default"
-msgstr ""
+msgstr "Oletus"
 
 #: database.cpp:67 database.cpp:315
 #, kde-format
 msgid "Default Feed Group"
-msgstr ""
+msgstr "Oletussyöteryhmä"
 
 #: main.cpp:69
 #, kde-format
@@ -65,12 +65,12 @@ msgstr "RSS/Atom-syötelukija"
 #: main.cpp:91
 #, kde-format
 msgid "Adds a new feed to database."
-msgstr ""
+msgstr "Lisää tietokantaan uuden syötteen."
 
 #: main.cpp:92
 #, kde-format
 msgid "feed URL"
-msgstr ""
+msgstr "syötteen verkko-osoite"
 
 #: qml/AddFeedSheet.qml:20
 #, kde-format
@@ -85,30 +85,28 @@ msgstr "Verkko-osoite:"
 #: qml/AddFeedSheet.qml:40 qml/EditFeedSheet.qml:50 qml/FeedGroupSheet.qml:49
 #, kde-format
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: qml/AddFeedSheet.qml:50 qml/EditFeedSheet.qml:59 qml/FeedGroupSheet.qml:60
 #, kde-format
 msgid "Cancel"
-msgstr ""
+msgstr "Peru"
 
 #: qml/AlligatorGlobalDrawer.qml:22 qml/EntryListPage.qml:21
 #: qml/EntryListPage.qml:80
-#, fuzzy, kde-format
-#| msgid "All Files"
+#, kde-format
 msgid "All Entries"
-msgstr "Kaikki tiedostot"
+msgstr "Kaikki kohteet"
 
 #: qml/AlligatorGlobalDrawer.qml:32
-#, fuzzy, kde-format
-#| msgid "All Files"
+#, kde-format
 msgid "All Feeds"
-msgstr "Kaikki tiedostot"
+msgstr "Kaikki syötteet"
 
 #: qml/AlligatorGlobalDrawer.qml:44
 #, kde-format
 msgid "Feed Groups"
-msgstr ""
+msgstr "Syöteryhmät"
 
 #: qml/AlligatorGlobalDrawer.qml:48 qml/AlligatorGlobalDrawer.qml:51
 #: qml/SettingsPage.qml:14
@@ -124,23 +122,22 @@ msgstr "Tietoa"
 #: qml/AlligatorGlobalDrawer.qml:64
 #, kde-format
 msgid "Configure Groups"
-msgstr ""
+msgstr "Ryhmäasetukset"
 
 #: qml/EditFeedSheet.qml:19
-#, fuzzy, kde-format
-#| msgid "Add Feed"
+#, kde-format
 msgid "Edit Feed"
-msgstr "Lisää syöte"
+msgstr "Muokkaa syötettä"
 
 #: qml/EditFeedSheet.qml:30
 #, kde-format
 msgid "Display Name:"
-msgstr ""
+msgstr "Näyttönimi:"
 
 #: qml/EditFeedSheet.qml:40
 #, kde-format
 msgid "Group:"
-msgstr ""
+msgstr "Ryhmä:"
 
 #: qml/EntryListDelegate.qml:26
 #, kde-format
@@ -151,7 +148,7 @@ msgstr "tekijältä"
 #: qml/EntryListPage.qml:41
 #, kde-format
 msgid "Only unread"
-msgstr ""
+msgstr "Vain lukemattomat"
 
 #: qml/EntryListPage.qml:49
 #, kde-format
@@ -159,10 +156,9 @@ msgid "Details"
 msgstr "Tiedot"
 
 #: qml/EntryListPage.qml:60
-#, fuzzy, kde-format
-#| msgid "Refresh Feed"
+#, kde-format
 msgid "Refresh"
-msgstr "Virkistä syöte"
+msgstr "Virkistä"
 
 #: qml/EntryListPage.qml:71
 #, kde-format
@@ -209,17 +205,17 @@ msgstr "%1 julkaisua, %2 lukematta"
 #: qml/FeedGroupSheet.qml:24
 #, kde-format
 msgid "Feed group"
-msgstr ""
+msgstr "Syöteryhmä"
 
 #: qml/FeedGroupSheet.qml:32
 #, kde-format
 msgid "Name:"
-msgstr ""
+msgstr "Nimi:"
 
 #: qml/FeedGroupSheet.qml:39
 #, kde-format
 msgid "Description:"
-msgstr ""
+msgstr "Kuvaus:"
 
 #: qml/FeedListDelegate.qml:27
 #, kde-format
@@ -231,7 +227,7 @@ msgstr[1] "Lukematta %1 tietuetta"
 #: qml/FeedListDelegate.qml:48
 #, kde-format
 msgid "Edit"
-msgstr ""
+msgstr "Muokkaa"
 
 #: qml/FeedListPage.qml:34
 #, kde-format
@@ -291,39 +287,37 @@ msgstr "Kaikki tiedostot"
 #: qml/GroupsListPage.qml:18
 #, kde-format
 msgid "Groups"
-msgstr ""
+msgstr "Ryhmät"
 
 #: qml/GroupsListPage.qml:22 qml/GroupsListPage.qml:70
 #, kde-format
 msgid "Add Group"
-msgstr ""
+msgstr "Lisää ryhmä"
 
 #: qml/GroupsListPage.qml:48
 #, kde-format
 msgid "Remove"
-msgstr ""
+msgstr "Poista"
 
 #: qml/GroupsListPage.qml:56
 #, kde-format
 msgid "Set as default"
-msgstr ""
+msgstr "Aseta oletukseksi"
 
 #: qml/GroupsListPage.qml:65
-#, fuzzy, kde-format
-#| msgid "No Feeds added yet"
+#, kde-format
 msgid "No groups created yet"
-msgstr "Ei vielä lisättyjä syötteitä"
+msgstr "Ryhmiä ei toistaiseksi ole"
 
 #: qml/SettingsPage.qml:20
 #, kde-format
 msgid "Article List"
-msgstr ""
+msgstr "Artikkeliluettelo"
 
 #: qml/SettingsPage.qml:24
-#, fuzzy, kde-format
-#| msgid "Delete posts after:"
+#, kde-format
 msgid "Delete after:"
-msgstr "Poista julkaisut ajassa:"
+msgstr "Poista ajassa:"
 
 #: qml/SettingsPage.qml:37
 #, kde-format
@@ -333,7 +327,7 @@ msgstr "Ei koskaan"
 #: qml/SettingsPage.qml:37
 #, kde-format
 msgid "Articles"
-msgstr ""
+msgstr "Artikkelit"
 
 #: qml/SettingsPage.qml:37
 #, kde-format
@@ -353,17 +347,17 @@ msgstr "kuukautta"
 #: qml/SettingsPage.qml:45
 #, kde-format
 msgid "Article"
-msgstr ""
+msgstr "Artikkeli"
 
 #: qml/SettingsPage.qml:53
 #, kde-format
 msgid "Font size:"
-msgstr ""
+msgstr "Fonttikoko:"
 
 #: qml/SettingsPage.qml:64
 #, kde-format
 msgid "Use system default"
-msgstr ""
+msgstr "Käytä järjestelmän oletusta"
 
 #~ msgid "Add new Feed"
 #~ msgstr "Lisää uusi syöte"
