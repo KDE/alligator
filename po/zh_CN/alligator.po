@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-03-09 00:47+0000\n"
-"PO-Revision-Date: 2022-05-15 15:44\n"
+"PO-Revision-Date: 2022-05-28 06:18\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -36,7 +36,7 @@ msgstr "默认"
 #: database.cpp:67 database.cpp:315
 #, kde-format
 msgid "Default Feed Group"
-msgstr "默认群组"
+msgstr "默认源分组"
 
 #: main.cpp:69
 #, kde-format
