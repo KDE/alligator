@@ -200,7 +200,7 @@ msgstr "Subscrit des de: %1"
 #: qml/FeedDetailsPage.qml:47
 #, kde-format
 msgid "last updated: %1"
-msgstr "última actualització: %1"
+msgstr "última actualisació: %1"
 
 #: qml/FeedDetailsPage.qml:50
 #, kde-format
@@ -307,7 +307,7 @@ msgstr "Elimina"
 #: qml/GroupsListPage.qml:56
 #, kde-format
 msgid "Set as default"
-msgstr "Estableix com a predeterminat"
+msgstr "Establix com a predeterminat"
 
 #: qml/GroupsListPage.qml:65
 #, kde-format
