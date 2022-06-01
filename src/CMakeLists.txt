@@ -28,6 +28,9 @@ if(ANDROID)
         Qt5::Svg
         OpenSSL::SSL
     )
+    if(SQLite3_FOUND)
+        target_link_libraries(alligator PRIVATE SQLite::SQLite3)
+    endif()
 
     kirigami_package_breeze_icons(ICONS
         bookmark-remove
