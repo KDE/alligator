@@ -94,7 +94,7 @@ msgstr "D'acord"
 #: qml/AddFeedSheet.qml:50 qml/EditFeedSheet.qml:59 qml/FeedGroupSheet.qml:60
 #, kde-format
 msgid "Cancel"
-msgstr "Cancela"
+msgstr "Cancel·la"
 
 #: qml/AlligatorGlobalDrawer.qml:22 qml/EntryListPage.qml:21
 #: qml/EntryListPage.qml:80
@@ -200,7 +200,7 @@ msgstr "Subscrit des de: %1"
 #: qml/FeedDetailsPage.qml:47
 #, kde-format
 msgid "last updated: %1"
-msgstr "última actualisació: %1"
+msgstr "última actualització: %1"
 
 #: qml/FeedDetailsPage.qml:50
 #, kde-format
@@ -362,4 +362,4 @@ msgstr "Mida del tipus de lletra:"
 #: qml/SettingsPage.qml:64
 #, kde-format
 msgid "Use system default"
-msgstr "Utilisa la predeterminada del sistema"
+msgstr "Utilitza la predeterminada del sistema"
