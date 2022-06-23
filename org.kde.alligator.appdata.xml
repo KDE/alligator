@@ -208,6 +208,14 @@
   </screenshots>
   <launchable type="desktop-id">org.kde.alligator.desktop</launchable>
   <releases>
+    <release version="22.06" date="2022-06-28">
+      <url>https://www.plasma-mobile.org/2022/06/24/plasma-mobile-gear-22-06/</url>
+      <description>
+        <ul>
+          <li>Support for Qt6 based build</li>
+        </ul>
+      </description>
+    </release>
     <release version="22.04" date="2022-04-26">
       <url>https://www.plasma-mobile.org/2022/04/26/plasma-mobile-gear-22-04/</url>
       <description>
