@@ -38,7 +38,7 @@ Kirigami.ScrollablePage {
     contextualActions: [
         Kirigami.Action {
             id: onlyUnreadAction
-            text: i18n("Only unread")
+            text: i18n("Only Unread")
             checkable: true
             checked: true // TODO: store in settings
             onToggled: page.onlyUnread = checked
@@ -68,7 +68,7 @@ Kirigami.ScrollablePage {
         width: Kirigami.Units.gridUnit * 20
         anchors.centerIn: parent
 
-        text: feed === undefined || feed.errorId === 0 ? i18n("No Entries available") : i18n("Error (%1): %2", feed.errorId, feed.errorString)
+        text: feed === undefined || feed.errorId === 0 ? i18n("No entries available") : i18n("Error (%1): %2", feed.errorId, feed.errorString)
         icon.name: feed === undefined || feed.errorId === 0 ? "" : "data-error"
     }
 

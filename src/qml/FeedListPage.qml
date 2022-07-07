@@ -31,7 +31,7 @@ Kirigami.ScrollablePage {
 
     contextualActions: [
         Kirigami.Action {
-            text: i18n("Refresh all feeds")
+            text: i18n("Refresh All Feeds")
             iconName: "view-refresh"
             onTriggered: refreshing = true
             visible: !Kirigami.Settings.isMobile
@@ -60,7 +60,7 @@ Kirigami.ScrollablePage {
     }
 
     actions.main: Kirigami.Action {
-        text: i18n("Add feed")
+        text: i18n("Add Feed…")
         iconName: "list-add"
         onTriggered: {
             addSheet.open()
@@ -74,7 +74,7 @@ Kirigami.ScrollablePage {
         icon.name: "rss"
         anchors.centerIn: parent
 
-        text: i18n("No Feeds added yet")
+        text: i18n("No feeds added yet")
     }
 
     ListView {

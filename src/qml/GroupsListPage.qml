@@ -19,7 +19,7 @@ Kirigami.ScrollablePage {
 
     actions.main: Kirigami.Action {
         iconName: "list-add"
-        text: i18n("Add Group")
+        text: i18n("Add Group…")
 
         onTriggered: feedGroupSheet.open()
     }
@@ -53,7 +53,7 @@ Kirigami.ScrollablePage {
                 },
                 Kirigami.Action {
                     icon.name: "emblem-default-symbolic"
-                    text: i18n("Set as default")
+                    text: i18n("Set as Default")
                     enabled: !model.isDefault
                     onTriggered: Alligator.Database.setDefaultGroup(model.name)
                 }

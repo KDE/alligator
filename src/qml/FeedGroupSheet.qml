@@ -21,7 +21,7 @@ Kirigami.OverlaySheet {
     }
 
     header: Kirigami.Heading {
-        text: i18n("Feed group")
+        text: i18n("Feed Group")
     }
 
     contentItem: Kirigami.FormLayout {
