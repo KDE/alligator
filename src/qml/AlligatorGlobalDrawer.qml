@@ -42,7 +42,18 @@ Kirigami.GlobalDrawer {
             id: feedGroups
             iconName: "edit-group"
             text: i18n("Feed Groups")
-            children: [configureGroupsAction]
+            Kirigami.Action {
+                id: configureGroupsAction
+
+                text: i18n("Configure Groups")
+                iconName: "settings-configure"
+                onTriggered: {
+                    pageStack.clear()
+                    pageStack.insertPage(0, root.feedsPage, {groupFilter: ""})
+                    pageStack.layers.clear()
+                    pageStack.layers.push(groupsList)
+                }
+            }
         },
         Kirigami.Action {
             text: i18n("Settings")
@@ -57,19 +68,6 @@ Kirigami.GlobalDrawer {
             enabled: pageStack.layers.currentItem.title !== i18n("About")
         }
     ]
-
-    Kirigami.Action {
-        id: configureGroupsAction
-
-        text: i18n("Configure Groups")
-        iconName: "settings-configure"
-        onTriggered: {
-            pageStack.clear()
-            pageStack.insertPage(0, root.feedsPage, {groupFilter: ""})
-            pageStack.layers.clear()
-            pageStack.layers.push(groupsList)
-        }
-    }
 
     Instantiator {
         model: groupsModel
@@ -89,8 +87,7 @@ Kirigami.GlobalDrawer {
         }
 
         onObjectRemoved: {
-            feedGroups.children = [];
-            feedGroups.children.push(configureGroupsAction);
+            feedGroups.children = [configureGroupsAction];
         }
     }
 
