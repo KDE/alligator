@@ -16,9 +16,6 @@ Kirigami.SwipeListItem {
 
     property string feedTitle
 
-    leftPadding: 0
-    rightPadding: 0
-
     contentItem: Kirigami.BasicListItem {
         anchors.top: parent.top
         anchors.bottom: parent.bottom

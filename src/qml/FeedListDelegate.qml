@@ -14,9 +14,6 @@ import org.kde.alligator 1.0
 
 Kirigami.SwipeListItem {
 
-    leftPadding: 0
-    rightPadding: 0
-
     signal editFeed(var feedObj)
 
     contentItem: Kirigami.BasicListItem {

@@ -35,6 +35,7 @@ private:
     void processEntry(Syndication::ItemPtr entry, const QString &url);
     void processAuthor(Syndication::PersonPtr author, const QString &entryId, const QString &url);
     void processEnclosure(Syndication::EnclosurePtr enclosure, Syndication::ItemPtr entry, const QString &feedUrl);
+    QString syndicationErrorToString(Syndication::ErrorCode errorCode);
 
     QNetworkAccessManager *manager;
 

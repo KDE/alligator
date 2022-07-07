@@ -8,7 +8,7 @@ import QtQuick 2.14
 import QtQuick.Controls 2.14 as Controls
 import QtQuick.Layouts 1.14
 
-import org.kde.kirigami 2.12 as Kirigami
+import org.kde.kirigami 2.20 as Kirigami
 
 import org.kde.alligator 1.0
 
@@ -60,6 +60,14 @@ Kirigami.ScrollablePage {
         text: i18n("Refresh")
         onTriggered: page.refreshing = true
         visible: !Kirigami.Settings.isMobile || entryList.count === 0
+    }
+
+    Kirigami.PromptDialog {
+        // Show this dialog only if we can not show the error in the placeholder.
+        // This is eg. the case if the feed worked so far, but refreshing fails for some reason
+        visible: entryList.count !== 0 && feed !== undefined && feed.errorId !== 0
+        title: i18n("Error")
+        subtitle: i18n("Error (%1): %2", feed.errorId, feed.errorString)
     }
 
     Kirigami.PlaceholderMessage {

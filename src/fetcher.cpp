@@ -13,6 +13,7 @@
 #include <QNetworkReply>
 #include <QStandardPaths>
 #include <QTextDocumentFragment>
+#include <KLocalizedString>
 
 #include <Syndication/Syndication>
 
@@ -63,6 +64,9 @@ void Fetcher::fetchAll()
 void Fetcher::processFeed(Syndication::FeedPtr feed, const QString &url)
 {
     if (feed.isNull()) {
+        Syndication::ErrorCode errorCode = Syndication::parserCollection()->lastError();
+        QString errorString = syndicationErrorToString(errorCode);
+        Q_EMIT error(url, errorCode, errorString);
         return;
     }
 
@@ -207,4 +211,15 @@ QNetworkReply *Fetcher::get(QNetworkRequest &request)
 {
     request.setRawHeader("User-Agent", "Alligator/0.1; Syndication");
     return manager->get(request);
+}
+
+QString Fetcher::syndicationErrorToString(Syndication::ErrorCode errorCode) {
+    switch(errorCode) {
+        case Syndication::InvalidXml:
+            return i18n("Invalid XML");
+        case Syndication::XmlNotAccepted:
+            return i18n ("No parser accepted the XML");
+        default:
+            return i18n("Error while parsing feed");
+    }
 }
