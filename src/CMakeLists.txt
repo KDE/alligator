@@ -41,6 +41,8 @@ if(ANDROID)
         list-add
         view-refresh
         alligator
+        mail-mark-read
+        mail-mark-unread
         mail-sent
         globe
         data-error

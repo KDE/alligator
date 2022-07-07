@@ -33,4 +33,12 @@ Kirigami.SwipeListItem {
             pageStack.push("qrc:/EntryPage.qml", {"entry": model.entry, "feedTitle" : feedTitle})
         }
     }
+
+    actions: [
+        Kirigami.Action {
+            icon.name: model.entry.read ? "mail-mark-unread" : "mail-mark-read"
+            tooltip: model.entry.read ? i18n("Mark as unread") : i18n("Mark as read")
+            onTriggered: model.entry.read = !model.entry.read
+        }
+    ]
 }
