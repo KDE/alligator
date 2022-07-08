@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-09 00:47+0000\n"
+"POT-Creation-Date: 2022-07-08 00:48+0000\n"
 "PO-Revision-Date: 2022-04-20 15:34+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -40,6 +40,21 @@ msgstr "Predeterminat"
 #, kde-format
 msgid "Default Feed Group"
 msgstr "Grup predeterminat de fonts"
+
+#: fetcher.cpp:219
+#, kde-format
+msgid "Invalid XML"
+msgstr ""
+
+#: fetcher.cpp:221
+#, kde-format
+msgid "No parser accepted the XML"
+msgstr ""
+
+#: fetcher.cpp:223
+#, kde-format
+msgid "Error while parsing feed"
+msgstr ""
 
 #: main.cpp:69
 #, kde-format
@@ -97,7 +112,7 @@ msgid "Cancel"
 msgstr "Cancel·la"
 
 #: qml/AlligatorGlobalDrawer.qml:22 qml/EntryListPage.qml:21
-#: qml/EntryListPage.qml:80
+#: qml/EntryListPage.qml:88
 #, kde-format
 msgid "All Entries"
 msgstr "Totes les entrades"
@@ -144,15 +159,26 @@ msgstr "Nom a mostrar:"
 msgid "Group:"
 msgstr "Grup:"
 
-#: qml/EntryListDelegate.qml:26
+#: qml/EntryListDelegate.qml:23
 #, kde-format
 msgctxt "by <author(s)>"
 msgid "by"
 msgstr "per"
 
-#: qml/EntryListPage.qml:41
+#: qml/EntryListDelegate.qml:37
 #, kde-format
-msgid "Only unread"
+msgid "Mark as unread"
+msgstr ""
+
+#: qml/EntryListDelegate.qml:37
+#, kde-format
+msgid "Mark as read"
+msgstr ""
+
+#: qml/EntryListPage.qml:41
+#, fuzzy, kde-format
+#| msgid "Only unread"
+msgid "Only Unread"
 msgstr "Només sense llegir"
 
 #: qml/EntryListPage.qml:49
@@ -165,15 +191,21 @@ msgstr "Detalls"
 msgid "Refresh"
 msgstr "Refresca"
 
-#: qml/EntryListPage.qml:71
+#: qml/EntryListPage.qml:69
 #, kde-format
-msgid "No Entries available"
-msgstr "No hi ha cap entrada disponible"
+msgid "Error"
+msgstr ""
 
-#: qml/EntryListPage.qml:71
+#: qml/EntryListPage.qml:70 qml/EntryListPage.qml:79
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "Error (%1): %2"
+
+#: qml/EntryListPage.qml:79
+#, fuzzy, kde-format
+#| msgid "No Entries available"
+msgid "No entries available"
+msgstr "No hi ha cap entrada disponible"
 
 #: qml/EntryPage.qml:43
 #, kde-format
@@ -208,9 +240,10 @@ msgid "%1 posts, %2 unread"
 msgstr "%1 publicacions, %2 sense llegir"
 
 #: qml/FeedGroupSheet.qml:24
-#, kde-format
-msgid "Feed group"
-msgstr "Grup de fonts"
+#, fuzzy, kde-format
+#| msgid "Feed Groups"
+msgid "Feed Group"
+msgstr "Grups de fonts"
 
 #: qml/FeedGroupSheet.qml:32
 #, kde-format
@@ -222,21 +255,22 @@ msgstr "Nom:"
 msgid "Description:"
 msgstr "Descripció:"
 
-#: qml/FeedListDelegate.qml:27
+#: qml/FeedListDelegate.qml:24
 #, kde-format
 msgid "%1 unread entry"
 msgid_plural "%1 unread entries"
 msgstr[0] "%1 entrada sense llegir"
 msgstr[1] "%1 entrades sense llegir"
 
-#: qml/FeedListDelegate.qml:48
+#: qml/FeedListDelegate.qml:45
 #, kde-format
 msgid "Edit"
 msgstr "Edita"
 
 #: qml/FeedListPage.qml:34
-#, kde-format
-msgid "Refresh all feeds"
+#, fuzzy, kde-format
+#| msgid "Refresh all feeds"
+msgid "Refresh All Feeds"
 msgstr "Refresca totes les fonts"
 
 #: qml/FeedListPage.qml:40
@@ -250,13 +284,15 @@ msgid "Export Feeds..."
 msgstr "Exporta les fonts..."
 
 #: qml/FeedListPage.qml:63
-#, kde-format
-msgid "Add feed"
+#, fuzzy, kde-format
+#| msgid "Add Feed"
+msgid "Add Feed…"
 msgstr "Afig una font"
 
 #: qml/FeedListPage.qml:77
-#, kde-format
-msgid "No Feeds added yet"
+#, fuzzy, kde-format
+#| msgid "No Feeds added yet"
+msgid "No feeds added yet"
 msgstr "Encara no s'ha afegit cap font"
 
 #: qml/FeedListPage.qml:105
@@ -294,9 +330,10 @@ msgstr "Tots els fitxers"
 msgid "Groups"
 msgstr "Grups"
 
-#: qml/GroupsListPage.qml:22 qml/GroupsListPage.qml:70
-#, kde-format
-msgid "Add Group"
+#: qml/GroupsListPage.qml:22
+#, fuzzy, kde-format
+#| msgid "Add Group"
+msgid "Add Group…"
 msgstr "Afig un grup"
 
 #: qml/GroupsListPage.qml:48
@@ -305,14 +342,20 @@ msgid "Remove"
 msgstr "Elimina"
 
 #: qml/GroupsListPage.qml:56
-#, kde-format
-msgid "Set as default"
+#, fuzzy, kde-format
+#| msgid "Set as default"
+msgid "Set as Default"
 msgstr "Establix com a predeterminat"
 
 #: qml/GroupsListPage.qml:65
 #, kde-format
 msgid "No groups created yet"
 msgstr "Encara no s'ha afegit cap grup"
+
+#: qml/GroupsListPage.qml:70
+#, kde-format
+msgid "Add Group"
+msgstr "Afig un grup"
 
 #: qml/SettingsPage.qml:20
 #, kde-format
@@ -363,3 +406,9 @@ msgstr "Mida del tipus de lletra:"
 #, kde-format
 msgid "Use system default"
 msgstr "Utilitza la predeterminada del sistema"
+
+#~ msgid "Feed group"
+#~ msgstr "Grup de fonts"
+
+#~ msgid "Add feed"
+#~ msgstr "Afig una font"

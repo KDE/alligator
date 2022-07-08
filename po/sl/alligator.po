@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-09 00:47+0000\n"
+"POT-Creation-Date: 2022-07-08 00:48+0000\n"
 "PO-Revision-Date: 2022-02-08 20:18+0100\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -37,6 +37,21 @@ msgstr "Privzeto"
 #, kde-format
 msgid "Default Feed Group"
 msgstr "Privzeta skupina virov"
+
+#: fetcher.cpp:219
+#, kde-format
+msgid "Invalid XML"
+msgstr ""
+
+#: fetcher.cpp:221
+#, kde-format
+msgid "No parser accepted the XML"
+msgstr ""
+
+#: fetcher.cpp:223
+#, kde-format
+msgid "Error while parsing feed"
+msgstr ""
 
 #: main.cpp:69
 #, kde-format
@@ -94,7 +109,7 @@ msgid "Cancel"
 msgstr "Prekliči"
 
 #: qml/AlligatorGlobalDrawer.qml:22 qml/EntryListPage.qml:21
-#: qml/EntryListPage.qml:80
+#: qml/EntryListPage.qml:88
 #, kde-format
 msgid "All Entries"
 msgstr "Vsi vnosi"
@@ -140,15 +155,26 @@ msgstr "Prikaži ime:"
 msgid "Group:"
 msgstr "Skupina:"
 
-#: qml/EntryListDelegate.qml:26
+#: qml/EntryListDelegate.qml:23
 #, kde-format
 msgctxt "by <author(s)>"
 msgid "by"
 msgstr "od"
 
-#: qml/EntryListPage.qml:41
+#: qml/EntryListDelegate.qml:37
 #, kde-format
-msgid "Only unread"
+msgid "Mark as unread"
+msgstr ""
+
+#: qml/EntryListDelegate.qml:37
+#, kde-format
+msgid "Mark as read"
+msgstr ""
+
+#: qml/EntryListPage.qml:41
+#, fuzzy, kde-format
+#| msgid "Only unread"
+msgid "Only Unread"
 msgstr "Samo neprebrane"
 
 #: qml/EntryListPage.qml:49
@@ -161,15 +187,21 @@ msgstr "Podrobnosti"
 msgid "Refresh"
 msgstr "Osveži"
 
-#: qml/EntryListPage.qml:71
+#: qml/EntryListPage.qml:69
 #, kde-format
-msgid "No Entries available"
-msgstr "Ni nobenega vnosa"
+msgid "Error"
+msgstr ""
 
-#: qml/EntryListPage.qml:71
+#: qml/EntryListPage.qml:70 qml/EntryListPage.qml:79
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "Napaka (%1): %2"
+
+#: qml/EntryListPage.qml:79
+#, fuzzy, kde-format
+#| msgid "No Entries available"
+msgid "No entries available"
+msgstr "Ni nobenega vnosa"
 
 #: qml/EntryPage.qml:43
 #, kde-format
@@ -204,9 +236,10 @@ msgid "%1 posts, %2 unread"
 msgstr "%1 objav, %2 neprebranih"
 
 #: qml/FeedGroupSheet.qml:24
-#, kde-format
-msgid "Feed group"
-msgstr "Skupina virov"
+#, fuzzy, kde-format
+#| msgid "Feed Groups"
+msgid "Feed Group"
+msgstr "Skupine virov"
 
 #: qml/FeedGroupSheet.qml:32
 #, kde-format
@@ -218,7 +251,7 @@ msgstr "Ime:"
 msgid "Description:"
 msgstr "Opis:"
 
-#: qml/FeedListDelegate.qml:27
+#: qml/FeedListDelegate.qml:24
 #, kde-format
 msgid "%1 unread entry"
 msgid_plural "%1 unread entries"
@@ -227,14 +260,15 @@ msgstr[1] "%1 neprebrana vnosa"
 msgstr[2] "%1 neprebrani vnosi"
 msgstr[3] "%1 neprebranih vnosov"
 
-#: qml/FeedListDelegate.qml:48
+#: qml/FeedListDelegate.qml:45
 #, kde-format
 msgid "Edit"
 msgstr "Uredi"
 
 #: qml/FeedListPage.qml:34
-#, kde-format
-msgid "Refresh all feeds"
+#, fuzzy, kde-format
+#| msgid "Refresh all feeds"
+msgid "Refresh All Feeds"
 msgstr "Osveži vse vire"
 
 #: qml/FeedListPage.qml:40
@@ -248,13 +282,15 @@ msgid "Export Feeds..."
 msgstr "Izvozi vire..."
 
 #: qml/FeedListPage.qml:63
-#, kde-format
-msgid "Add feed"
+#, fuzzy, kde-format
+#| msgid "Add Feed"
+msgid "Add Feed…"
 msgstr "Dodaj vir"
 
 #: qml/FeedListPage.qml:77
-#, kde-format
-msgid "No Feeds added yet"
+#, fuzzy, kde-format
+#| msgid "No Feeds added yet"
+msgid "No feeds added yet"
 msgstr "Še ni nobenih virov"
 
 #: qml/FeedListPage.qml:105
@@ -292,9 +328,10 @@ msgstr "Vse datoteke"
 msgid "Groups"
 msgstr "Skupine"
 
-#: qml/GroupsListPage.qml:22 qml/GroupsListPage.qml:70
-#, kde-format
-msgid "Add Group"
+#: qml/GroupsListPage.qml:22
+#, fuzzy, kde-format
+#| msgid "Add Group"
+msgid "Add Group…"
 msgstr "Dodaj skupino"
 
 #: qml/GroupsListPage.qml:48
@@ -303,14 +340,20 @@ msgid "Remove"
 msgstr "Odstrani"
 
 #: qml/GroupsListPage.qml:56
-#, kde-format
-msgid "Set as default"
+#, fuzzy, kde-format
+#| msgid "Set as default"
+msgid "Set as Default"
 msgstr "Nastavi kot privzeto"
 
 #: qml/GroupsListPage.qml:65
 #, kde-format
 msgid "No groups created yet"
 msgstr "Še ni ustvarjene nobene skupine"
+
+#: qml/GroupsListPage.qml:70
+#, kde-format
+msgid "Add Group"
+msgstr "Dodaj skupino"
 
 #: qml/SettingsPage.qml:20
 #, kde-format
@@ -361,6 +404,12 @@ msgstr "Velikost pisave:"
 #, kde-format
 msgid "Use system default"
 msgstr "Uporabi sistemsko privzeto"
+
+#~ msgid "Feed group"
+#~ msgstr "Skupina virov"
+
+#~ msgid "Add feed"
+#~ msgstr "Dodaj vir"
 
 #~ msgid "Add new Feed"
 #~ msgstr "Dodaj novo napajanje"

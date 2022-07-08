@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-09 00:47+0000\n"
+"POT-Creation-Date: 2022-07-08 00:48+0000\n"
 "PO-Revision-Date: 2022-07-02 10:58\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -37,6 +37,21 @@ msgstr "默认"
 #, kde-format
 msgid "Default Feed Group"
 msgstr "默认源分组"
+
+#: fetcher.cpp:219
+#, kde-format
+msgid "Invalid XML"
+msgstr ""
+
+#: fetcher.cpp:221
+#, kde-format
+msgid "No parser accepted the XML"
+msgstr ""
+
+#: fetcher.cpp:223
+#, kde-format
+msgid "Error while parsing feed"
+msgstr ""
 
 #: main.cpp:69
 #, kde-format
@@ -94,7 +109,7 @@ msgid "Cancel"
 msgstr "取消"
 
 #: qml/AlligatorGlobalDrawer.qml:22 qml/EntryListPage.qml:21
-#: qml/EntryListPage.qml:80
+#: qml/EntryListPage.qml:88
 #, kde-format
 msgid "All Entries"
 msgstr "全部新闻"
@@ -140,15 +155,26 @@ msgstr "显示名称："
 msgid "Group:"
 msgstr "分组："
 
-#: qml/EntryListDelegate.qml:26
+#: qml/EntryListDelegate.qml:23
 #, kde-format
 msgctxt "by <author(s)>"
 msgid "by"
 msgstr "作者："
 
-#: qml/EntryListPage.qml:41
+#: qml/EntryListDelegate.qml:37
 #, kde-format
-msgid "Only unread"
+msgid "Mark as unread"
+msgstr ""
+
+#: qml/EntryListDelegate.qml:37
+#, kde-format
+msgid "Mark as read"
+msgstr ""
+
+#: qml/EntryListPage.qml:41
+#, fuzzy, kde-format
+#| msgid "Only unread"
+msgid "Only Unread"
 msgstr "仅未读项"
 
 #: qml/EntryListPage.qml:49
@@ -161,15 +187,21 @@ msgstr "详细信息"
 msgid "Refresh"
 msgstr "刷新"
 
-#: qml/EntryListPage.qml:71
+#: qml/EntryListPage.qml:69
 #, kde-format
-msgid "No Entries available"
-msgstr "无可用新闻"
+msgid "Error"
+msgstr ""
 
-#: qml/EntryListPage.qml:71
+#: qml/EntryListPage.qml:70 qml/EntryListPage.qml:79
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "错误 (%1)：%2"
+
+#: qml/EntryListPage.qml:79
+#, fuzzy, kde-format
+#| msgid "No Entries available"
+msgid "No entries available"
+msgstr "无可用新闻"
 
 #: qml/EntryPage.qml:43
 #, kde-format
@@ -204,8 +236,9 @@ msgid "%1 posts, %2 unread"
 msgstr "%1 篇文章，%2 篇未读"
 
 #: qml/FeedGroupSheet.qml:24
-#, kde-format
-msgid "Feed group"
+#, fuzzy, kde-format
+#| msgid "Feed Groups"
+msgid "Feed Group"
 msgstr "新闻源分组"
 
 #: qml/FeedGroupSheet.qml:32
@@ -218,20 +251,21 @@ msgstr "名称："
 msgid "Description:"
 msgstr "描述："
 
-#: qml/FeedListDelegate.qml:27
+#: qml/FeedListDelegate.qml:24
 #, kde-format
 msgid "%1 unread entry"
 msgid_plural "%1 unread entries"
 msgstr[0] "%1 条未读新闻"
 
-#: qml/FeedListDelegate.qml:48
+#: qml/FeedListDelegate.qml:45
 #, kde-format
 msgid "Edit"
 msgstr "编辑"
 
 #: qml/FeedListPage.qml:34
-#, kde-format
-msgid "Refresh all feeds"
+#, fuzzy, kde-format
+#| msgid "Refresh all feeds"
+msgid "Refresh All Feeds"
 msgstr "刷新全部新闻源"
 
 #: qml/FeedListPage.qml:40
@@ -245,13 +279,15 @@ msgid "Export Feeds..."
 msgstr "导出新闻源..."
 
 #: qml/FeedListPage.qml:63
-#, kde-format
-msgid "Add feed"
+#, fuzzy, kde-format
+#| msgid "Add Feed"
+msgid "Add Feed…"
 msgstr "添加新闻源"
 
 #: qml/FeedListPage.qml:77
-#, kde-format
-msgid "No Feeds added yet"
+#, fuzzy, kde-format
+#| msgid "No Feeds added yet"
+msgid "No feeds added yet"
 msgstr "尚未添加新闻源"
 
 #: qml/FeedListPage.qml:105
@@ -289,9 +325,10 @@ msgstr "所有文件"
 msgid "Groups"
 msgstr "分组"
 
-#: qml/GroupsListPage.qml:22 qml/GroupsListPage.qml:70
-#, kde-format
-msgid "Add Group"
+#: qml/GroupsListPage.qml:22
+#, fuzzy, kde-format
+#| msgid "Add Group"
+msgid "Add Group…"
 msgstr "添加分组"
 
 #: qml/GroupsListPage.qml:48
@@ -300,14 +337,20 @@ msgid "Remove"
 msgstr "移除"
 
 #: qml/GroupsListPage.qml:56
-#, kde-format
-msgid "Set as default"
+#, fuzzy, kde-format
+#| msgid "Set as default"
+msgid "Set as Default"
 msgstr "设为默认"
 
 #: qml/GroupsListPage.qml:65
 #, kde-format
 msgid "No groups created yet"
 msgstr "尚未创建分组"
+
+#: qml/GroupsListPage.qml:70
+#, kde-format
+msgid "Add Group"
+msgstr "添加分组"
 
 #: qml/SettingsPage.qml:20
 #, kde-format
@@ -358,3 +401,9 @@ msgstr "字体大小："
 #, kde-format
 msgid "Use system default"
 msgstr "使用系统默认值"
+
+#~ msgid "Feed group"
+#~ msgstr "新闻源分组"
+
+#~ msgid "Add feed"
+#~ msgstr "添加新闻源"

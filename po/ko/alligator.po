@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-09 00:47+0000\n"
+"POT-Creation-Date: 2022-07-08 00:48+0000\n"
 "PO-Revision-Date: 2022-02-20 21:42+0100\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -36,6 +36,21 @@ msgstr "기본값"
 #, kde-format
 msgid "Default Feed Group"
 msgstr "기본 피드 그룹"
+
+#: fetcher.cpp:219
+#, kde-format
+msgid "Invalid XML"
+msgstr ""
+
+#: fetcher.cpp:221
+#, kde-format
+msgid "No parser accepted the XML"
+msgstr ""
+
+#: fetcher.cpp:223
+#, kde-format
+msgid "Error while parsing feed"
+msgstr ""
 
 #: main.cpp:69
 #, kde-format
@@ -93,7 +108,7 @@ msgid "Cancel"
 msgstr "취소"
 
 #: qml/AlligatorGlobalDrawer.qml:22 qml/EntryListPage.qml:21
-#: qml/EntryListPage.qml:80
+#: qml/EntryListPage.qml:88
 #, kde-format
 msgid "All Entries"
 msgstr "모든 항목"
@@ -139,15 +154,26 @@ msgstr "표시 이름:"
 msgid "Group:"
 msgstr "그룹:"
 
-#: qml/EntryListDelegate.qml:26
+#: qml/EntryListDelegate.qml:23
 #, kde-format
 msgctxt "by <author(s)>"
 msgid "by"
 msgstr "작성:"
 
-#: qml/EntryListPage.qml:41
+#: qml/EntryListDelegate.qml:37
 #, kde-format
-msgid "Only unread"
+msgid "Mark as unread"
+msgstr ""
+
+#: qml/EntryListDelegate.qml:37
+#, kde-format
+msgid "Mark as read"
+msgstr ""
+
+#: qml/EntryListPage.qml:41
+#, fuzzy, kde-format
+#| msgid "Only unread"
+msgid "Only Unread"
 msgstr "읽지 않은 항목만"
 
 #: qml/EntryListPage.qml:49
@@ -160,15 +186,21 @@ msgstr "자세히"
 msgid "Refresh"
 msgstr "새로 고침"
 
-#: qml/EntryListPage.qml:71
+#: qml/EntryListPage.qml:69
 #, kde-format
-msgid "No Entries available"
-msgstr "항목 없음"
+msgid "Error"
+msgstr ""
 
-#: qml/EntryListPage.qml:71
+#: qml/EntryListPage.qml:70 qml/EntryListPage.qml:79
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "오류 (%1): %2"
+
+#: qml/EntryListPage.qml:79
+#, fuzzy, kde-format
+#| msgid "No Entries available"
+msgid "No entries available"
+msgstr "항목 없음"
 
 #: qml/EntryPage.qml:43
 #, kde-format
@@ -203,8 +235,9 @@ msgid "%1 posts, %2 unread"
 msgstr "글 %1개, %2개 읽지 않음"
 
 #: qml/FeedGroupSheet.qml:24
-#, kde-format
-msgid "Feed group"
+#, fuzzy, kde-format
+#| msgid "Feed Groups"
+msgid "Feed Group"
 msgstr "피드 그룹"
 
 #: qml/FeedGroupSheet.qml:32
@@ -217,20 +250,21 @@ msgstr "이름:"
 msgid "Description:"
 msgstr "설명:"
 
-#: qml/FeedListDelegate.qml:27
+#: qml/FeedListDelegate.qml:24
 #, kde-format
 msgid "%1 unread entry"
 msgid_plural "%1 unread entries"
 msgstr[0] "읽지 않은 항목 %1개"
 
-#: qml/FeedListDelegate.qml:48
+#: qml/FeedListDelegate.qml:45
 #, kde-format
 msgid "Edit"
 msgstr "편집"
 
 #: qml/FeedListPage.qml:34
-#, kde-format
-msgid "Refresh all feeds"
+#, fuzzy, kde-format
+#| msgid "Refresh all feeds"
+msgid "Refresh All Feeds"
 msgstr "모든 피드 새로 고침"
 
 #: qml/FeedListPage.qml:40
@@ -244,13 +278,15 @@ msgid "Export Feeds..."
 msgstr "피드 내보내기..."
 
 #: qml/FeedListPage.qml:63
-#, kde-format
-msgid "Add feed"
+#, fuzzy, kde-format
+#| msgid "Add Feed"
+msgid "Add Feed…"
 msgstr "피드 추가"
 
 #: qml/FeedListPage.qml:77
-#, kde-format
-msgid "No Feeds added yet"
+#, fuzzy, kde-format
+#| msgid "No Feeds added yet"
+msgid "No feeds added yet"
 msgstr "추가한 피드 없음"
 
 #: qml/FeedListPage.qml:105
@@ -288,9 +324,10 @@ msgstr "모든 파일"
 msgid "Groups"
 msgstr "그룹"
 
-#: qml/GroupsListPage.qml:22 qml/GroupsListPage.qml:70
-#, kde-format
-msgid "Add Group"
+#: qml/GroupsListPage.qml:22
+#, fuzzy, kde-format
+#| msgid "Add Group"
+msgid "Add Group…"
 msgstr "그룹 추가"
 
 #: qml/GroupsListPage.qml:48
@@ -299,14 +336,20 @@ msgid "Remove"
 msgstr "삭제"
 
 #: qml/GroupsListPage.qml:56
-#, kde-format
-msgid "Set as default"
+#, fuzzy, kde-format
+#| msgid "Set as default"
+msgid "Set as Default"
 msgstr "기본값으로 설정"
 
 #: qml/GroupsListPage.qml:65
 #, kde-format
 msgid "No groups created yet"
 msgstr "생성한 그룹이 없음"
+
+#: qml/GroupsListPage.qml:70
+#, kde-format
+msgid "Add Group"
+msgstr "그룹 추가"
 
 #: qml/SettingsPage.qml:20
 #, kde-format
@@ -357,6 +400,12 @@ msgstr "글꼴 크기:"
 #, kde-format
 msgid "Use system default"
 msgstr "시스템 기본값 사용"
+
+#~ msgid "Feed group"
+#~ msgstr "피드 그룹"
+
+#~ msgid "Add feed"
+#~ msgstr "피드 추가"
 
 #~ msgid "Add new Feed"
 #~ msgstr "새 피드 추가"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-09 00:47+0000\n"
+"POT-Creation-Date: 2022-07-08 00:48+0000\n"
 "PO-Revision-Date: 2020-10-23 02:33+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -36,6 +36,21 @@ msgstr ""
 #: database.cpp:67 database.cpp:315
 #, kde-format
 msgid "Default Feed Group"
+msgstr ""
+
+#: fetcher.cpp:219
+#, kde-format
+msgid "Invalid XML"
+msgstr ""
+
+#: fetcher.cpp:221
+#, kde-format
+msgid "No parser accepted the XML"
+msgstr ""
+
+#: fetcher.cpp:223
+#, kde-format
+msgid "Error while parsing feed"
 msgstr ""
 
 #: main.cpp:69
@@ -94,7 +109,7 @@ msgid "Cancel"
 msgstr ""
 
 #: qml/AlligatorGlobalDrawer.qml:22 qml/EntryListPage.qml:21
-#: qml/EntryListPage.qml:80
+#: qml/EntryListPage.qml:88
 #, kde-format
 msgid "All Entries"
 msgstr ""
@@ -140,15 +155,25 @@ msgstr ""
 msgid "Group:"
 msgstr ""
 
-#: qml/EntryListDelegate.qml:26
+#: qml/EntryListDelegate.qml:23
 #, kde-format
 msgctxt "by <author(s)>"
 msgid "by"
 msgstr ""
 
+#: qml/EntryListDelegate.qml:37
+#, kde-format
+msgid "Mark as unread"
+msgstr ""
+
+#: qml/EntryListDelegate.qml:37
+#, kde-format
+msgid "Mark as read"
+msgstr ""
+
 #: qml/EntryListPage.qml:41
 #, kde-format
-msgid "Only unread"
+msgid "Only Unread"
 msgstr ""
 
 #: qml/EntryListPage.qml:49
@@ -161,14 +186,19 @@ msgstr ""
 msgid "Refresh"
 msgstr ""
 
-#: qml/EntryListPage.qml:71
+#: qml/EntryListPage.qml:69
 #, kde-format
-msgid "No Entries available"
+msgid "Error"
 msgstr ""
 
-#: qml/EntryListPage.qml:71
+#: qml/EntryListPage.qml:70 qml/EntryListPage.qml:79
 #, kde-format
 msgid "Error (%1): %2"
+msgstr ""
+
+#: qml/EntryListPage.qml:79
+#, kde-format
+msgid "No entries available"
 msgstr ""
 
 #: qml/EntryPage.qml:43
@@ -205,7 +235,7 @@ msgstr ""
 
 #: qml/FeedGroupSheet.qml:24
 #, kde-format
-msgid "Feed group"
+msgid "Feed Group"
 msgstr ""
 
 #: qml/FeedGroupSheet.qml:32
@@ -218,7 +248,7 @@ msgstr ""
 msgid "Description:"
 msgstr ""
 
-#: qml/FeedListDelegate.qml:27
+#: qml/FeedListDelegate.qml:24
 #, kde-format
 msgid "%1 unread entry"
 msgid_plural "%1 unread entries"
@@ -226,14 +256,14 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: qml/FeedListDelegate.qml:48
+#: qml/FeedListDelegate.qml:45
 #, kde-format
 msgid "Edit"
 msgstr ""
 
 #: qml/FeedListPage.qml:34
 #, kde-format
-msgid "Refresh all feeds"
+msgid "Refresh All Feeds"
 msgstr ""
 
 #: qml/FeedListPage.qml:40
@@ -248,12 +278,12 @@ msgstr ""
 
 #: qml/FeedListPage.qml:63
 #, kde-format
-msgid "Add feed"
+msgid "Add Feed…"
 msgstr ""
 
 #: qml/FeedListPage.qml:77
 #, kde-format
-msgid "No Feeds added yet"
+msgid "No feeds added yet"
 msgstr ""
 
 #: qml/FeedListPage.qml:105
@@ -291,9 +321,9 @@ msgstr ""
 msgid "Groups"
 msgstr ""
 
-#: qml/GroupsListPage.qml:22 qml/GroupsListPage.qml:70
+#: qml/GroupsListPage.qml:22
 #, kde-format
-msgid "Add Group"
+msgid "Add Group…"
 msgstr ""
 
 #: qml/GroupsListPage.qml:48
@@ -303,12 +333,17 @@ msgstr ""
 
 #: qml/GroupsListPage.qml:56
 #, kde-format
-msgid "Set as default"
+msgid "Set as Default"
 msgstr ""
 
 #: qml/GroupsListPage.qml:65
 #, kde-format
 msgid "No groups created yet"
+msgstr ""
+
+#: qml/GroupsListPage.qml:70
+#, kde-format
+msgid "Add Group"
 msgstr ""
 
 #: qml/SettingsPage.qml:20

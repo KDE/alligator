@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-09 00:47+0000\n"
+"POT-Creation-Date: 2022-07-08 00:48+0000\n"
 "PO-Revision-Date: 2022-02-20 10:15+0100\n"
 "Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
 "Language-Team: German <kde-i18n-doc@kde.org>\n"
@@ -37,6 +37,21 @@ msgstr "Standard"
 #, kde-format
 msgid "Default Feed Group"
 msgstr "Standard-Nachrichtenquelle"
+
+#: fetcher.cpp:219
+#, kde-format
+msgid "Invalid XML"
+msgstr ""
+
+#: fetcher.cpp:221
+#, kde-format
+msgid "No parser accepted the XML"
+msgstr ""
+
+#: fetcher.cpp:223
+#, kde-format
+msgid "Error while parsing feed"
+msgstr ""
 
 #: main.cpp:69
 #, kde-format
@@ -94,7 +109,7 @@ msgid "Cancel"
 msgstr "Abbrechen"
 
 #: qml/AlligatorGlobalDrawer.qml:22 qml/EntryListPage.qml:21
-#: qml/EntryListPage.qml:80
+#: qml/EntryListPage.qml:88
 #, kde-format
 msgid "All Entries"
 msgstr "Alle Einträge"
@@ -140,15 +155,26 @@ msgstr "Anzeigename:"
 msgid "Group:"
 msgstr "Gruppe:"
 
-#: qml/EntryListDelegate.qml:26
+#: qml/EntryListDelegate.qml:23
 #, kde-format
 msgctxt "by <author(s)>"
 msgid "by"
 msgstr "von"
 
-#: qml/EntryListPage.qml:41
+#: qml/EntryListDelegate.qml:37
 #, kde-format
-msgid "Only unread"
+msgid "Mark as unread"
+msgstr ""
+
+#: qml/EntryListDelegate.qml:37
+#, kde-format
+msgid "Mark as read"
+msgstr ""
+
+#: qml/EntryListPage.qml:41
+#, fuzzy, kde-format
+#| msgid "Only unread"
+msgid "Only Unread"
 msgstr "Nur Ungelesene"
 
 #: qml/EntryListPage.qml:49
@@ -161,15 +187,21 @@ msgstr "Details"
 msgid "Refresh"
 msgstr "Aktualisieren"
 
-#: qml/EntryListPage.qml:71
+#: qml/EntryListPage.qml:69
 #, kde-format
-msgid "No Entries available"
-msgstr "Keine Einträge verfügbar"
+msgid "Error"
+msgstr ""
 
-#: qml/EntryListPage.qml:71
+#: qml/EntryListPage.qml:70 qml/EntryListPage.qml:79
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "Fehler (%1): %2"
+
+#: qml/EntryListPage.qml:79
+#, fuzzy, kde-format
+#| msgid "No Entries available"
+msgid "No entries available"
+msgstr "Keine Einträge verfügbar"
 
 #: qml/EntryPage.qml:43
 #, kde-format
@@ -204,9 +236,10 @@ msgid "%1 posts, %2 unread"
 msgstr "%1 Artikel, %2 ungelesen"
 
 #: qml/FeedGroupSheet.qml:24
-#, kde-format
-msgid "Feed group"
-msgstr "Nachrichtenquellen-Gruppe"
+#, fuzzy, kde-format
+#| msgid "Feed Groups"
+msgid "Feed Group"
+msgstr "Nachrichtenquellen-Gruppen"
 
 #: qml/FeedGroupSheet.qml:32
 #, kde-format
@@ -218,21 +251,22 @@ msgstr "Name:"
 msgid "Description:"
 msgstr "Beschreibung:"
 
-#: qml/FeedListDelegate.qml:27
+#: qml/FeedListDelegate.qml:24
 #, kde-format
 msgid "%1 unread entry"
 msgid_plural "%1 unread entries"
 msgstr[0] "%1 ungelesener Eintrag"
 msgstr[1] "%1 ungelesene Einträge"
 
-#: qml/FeedListDelegate.qml:48
+#: qml/FeedListDelegate.qml:45
 #, kde-format
 msgid "Edit"
 msgstr "Bearbeiten"
 
 #: qml/FeedListPage.qml:34
-#, kde-format
-msgid "Refresh all feeds"
+#, fuzzy, kde-format
+#| msgid "Refresh all feeds"
+msgid "Refresh All Feeds"
 msgstr "Alle Nachrichtenquellen aktualisieren"
 
 #: qml/FeedListPage.qml:40
@@ -246,13 +280,15 @@ msgid "Export Feeds..."
 msgstr "Nachrichtenquellen exportieren ..."
 
 #: qml/FeedListPage.qml:63
-#, kde-format
-msgid "Add feed"
+#, fuzzy, kde-format
+#| msgid "Add Feed"
+msgid "Add Feed…"
 msgstr "Nachrichtenquelle hinzufügen"
 
 #: qml/FeedListPage.qml:77
-#, kde-format
-msgid "No Feeds added yet"
+#, fuzzy, kde-format
+#| msgid "No Feeds added yet"
+msgid "No feeds added yet"
 msgstr "Noch keine Nachrichtenquellen hinzugefügt"
 
 #: qml/FeedListPage.qml:105
@@ -290,9 +326,10 @@ msgstr "Alle Dateien"
 msgid "Groups"
 msgstr "Gruppen"
 
-#: qml/GroupsListPage.qml:22 qml/GroupsListPage.qml:70
-#, kde-format
-msgid "Add Group"
+#: qml/GroupsListPage.qml:22
+#, fuzzy, kde-format
+#| msgid "Add Group"
+msgid "Add Group…"
 msgstr "Gruppe hinzufügen"
 
 #: qml/GroupsListPage.qml:48
@@ -301,14 +338,20 @@ msgid "Remove"
 msgstr "Entfernen"
 
 #: qml/GroupsListPage.qml:56
-#, kde-format
-msgid "Set as default"
+#, fuzzy, kde-format
+#| msgid "Set as default"
+msgid "Set as Default"
 msgstr "Als Standard verwenden"
 
 #: qml/GroupsListPage.qml:65
 #, kde-format
 msgid "No groups created yet"
 msgstr "Noch keine Gruppen erstellt"
+
+#: qml/GroupsListPage.qml:70
+#, kde-format
+msgid "Add Group"
+msgstr "Gruppe hinzufügen"
 
 #: qml/SettingsPage.qml:20
 #, kde-format
@@ -359,6 +402,12 @@ msgstr "Schriftgröße:"
 #, kde-format
 msgid "Use system default"
 msgstr "Voreinstellungen des Systems verwenden"
+
+#~ msgid "Feed group"
+#~ msgstr "Nachrichtenquellen-Gruppe"
+
+#~ msgid "Add feed"
+#~ msgstr "Nachrichtenquelle hinzufügen"
 
 #~ msgid "Add new Feed"
 #~ msgstr "Neue Nachrichtenquelle hinzufügen"
