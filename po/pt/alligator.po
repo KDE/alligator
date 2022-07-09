@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-07-08 00:48+0000\n"
-"PO-Revision-Date: 2022-03-27 00:44+0000\n"
+"PO-Revision-Date: 2022-07-08 11:59+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -36,17 +36,17 @@ msgstr "Grupo de Fontes Predefinido"
 #: fetcher.cpp:219
 #, kde-format
 msgid "Invalid XML"
-msgstr ""
+msgstr "XML Inválido"
 
 #: fetcher.cpp:221
 #, kde-format
 msgid "No parser accepted the XML"
-msgstr ""
+msgstr "Não foi possível processar o XML de nenhuma forma"
 
 #: fetcher.cpp:223
 #, kde-format
 msgid "Error while parsing feed"
-msgstr ""
+msgstr "Erro ao processar a fonte"
 
 #: main.cpp:69
 #, kde-format
@@ -159,18 +159,17 @@ msgstr "de"
 #: qml/EntryListDelegate.qml:37
 #, kde-format
 msgid "Mark as unread"
-msgstr ""
+msgstr "Marcar como não-lida"
 
 #: qml/EntryListDelegate.qml:37
 #, kde-format
 msgid "Mark as read"
-msgstr ""
+msgstr "Marcar como não-lida"
 
 #: qml/EntryListPage.qml:41
-#, fuzzy, kde-format
-#| msgid "Only unread"
+#, kde-format
 msgid "Only Unread"
-msgstr "Apenas as não-lidas"
+msgstr "Apenas as Não-Lidas"
 
 #: qml/EntryListPage.qml:49
 #, kde-format
@@ -185,7 +184,7 @@ msgstr "Actualizar"
 #: qml/EntryListPage.qml:69
 #, kde-format
 msgid "Error"
-msgstr ""
+msgstr "Erro"
 
 #: qml/EntryListPage.qml:70 qml/EntryListPage.qml:79
 #, kde-format
@@ -193,8 +192,7 @@ msgid "Error (%1): %2"
 msgstr "Erro (%1): %2"
 
 #: qml/EntryListPage.qml:79
-#, fuzzy, kde-format
-#| msgid "No Entries available"
+#, kde-format
 msgid "No entries available"
 msgstr "Sem itens disponíveis"
 
@@ -231,10 +229,9 @@ msgid "%1 posts, %2 unread"
 msgstr "%1 publicações, %2 não-lidas"
 
 #: qml/FeedGroupSheet.qml:24
-#, fuzzy, kde-format
-#| msgid "Feed Groups"
+#, kde-format
 msgid "Feed Group"
-msgstr "Grupos de Fontes"
+msgstr "Grupo de Fontes"
 
 #: qml/FeedGroupSheet.qml:32
 #, kde-format
@@ -259,10 +256,9 @@ msgid "Edit"
 msgstr "Editar"
 
 #: qml/FeedListPage.qml:34
-#, fuzzy, kde-format
-#| msgid "Refresh all feeds"
+#, kde-format
 msgid "Refresh All Feeds"
-msgstr "Actualizar todas as fontes"
+msgstr "Actualizar Todas as Fontes"
 
 #: qml/FeedListPage.qml:40
 #, kde-format
@@ -275,14 +271,12 @@ msgid "Export Feeds..."
 msgstr "Exportar as Fontes..."
 
 #: qml/FeedListPage.qml:63
-#, fuzzy, kde-format
-#| msgid "Add Feed"
+#, kde-format
 msgid "Add Feed…"
-msgstr "Adicionar uma Fonte"
+msgstr "Adicionar uma Fonte…"
 
 #: qml/FeedListPage.qml:77
-#, fuzzy, kde-format
-#| msgid "No Feeds added yet"
+#, kde-format
 msgid "No feeds added yet"
 msgstr "Nenhuma fonte ainda adicionada"
 
@@ -322,10 +316,9 @@ msgid "Groups"
 msgstr "Grupos"
 
 #: qml/GroupsListPage.qml:22
-#, fuzzy, kde-format
-#| msgid "Add Group"
+#, kde-format
 msgid "Add Group…"
-msgstr "Adicionar um Grupo"
+msgstr "Adicionar um Grupo…"
 
 #: qml/GroupsListPage.qml:48
 #, kde-format
@@ -333,10 +326,9 @@ msgid "Remove"
 msgstr "Remover"
 
 #: qml/GroupsListPage.qml:56
-#, fuzzy, kde-format
-#| msgid "Set as default"
+#, kde-format
 msgid "Set as Default"
-msgstr "Configurar como predefinido"
+msgstr "Escolher por Omissão"
 
 #: qml/GroupsListPage.qml:65
 #, kde-format
@@ -397,9 +389,3 @@ msgstr "Tamanho da letra:"
 #, kde-format
 msgid "Use system default"
 msgstr "Usar a predefinição do sistema"
-
-#~ msgid "Feed group"
-#~ msgstr "Grupo de fontes"
-
-#~ msgid "Add feed"
-#~ msgstr "Adicionar uma fonte"

@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-07-08 00:48+0000\n"
-"PO-Revision-Date: 2022-02-06 12:03+0100\n"
+"PO-Revision-Date: 2022-07-09 00:09+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 21.12.2\n"
+"X-Generator: Lokalize 22.04.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -40,17 +40,17 @@ msgstr "Standaard feed-groep"
 #: fetcher.cpp:219
 #, kde-format
 msgid "Invalid XML"
-msgstr ""
+msgstr "Ongeldige XML"
 
 #: fetcher.cpp:221
 #, kde-format
 msgid "No parser accepted the XML"
-msgstr ""
+msgstr "Geen ontleder accepteerde de XML"
 
 #: fetcher.cpp:223
 #, kde-format
 msgid "Error while parsing feed"
-msgstr ""
+msgstr "Fout bij het ontleden van de feed"
 
 #: main.cpp:69
 #, kde-format
@@ -163,16 +163,15 @@ msgstr "door"
 #: qml/EntryListDelegate.qml:37
 #, kde-format
 msgid "Mark as unread"
-msgstr ""
+msgstr "Markeren als ongelezen"
 
 #: qml/EntryListDelegate.qml:37
 #, kde-format
 msgid "Mark as read"
-msgstr ""
+msgstr "Markeren als gelezen"
 
 #: qml/EntryListPage.qml:41
-#, fuzzy, kde-format
-#| msgid "Only unread"
+#, kde-format
 msgid "Only Unread"
 msgstr "Alleen ongelezen"
 
@@ -189,7 +188,7 @@ msgstr "Vernieuwen"
 #: qml/EntryListPage.qml:69
 #, kde-format
 msgid "Error"
-msgstr ""
+msgstr "Fout"
 
 #: qml/EntryListPage.qml:70 qml/EntryListPage.qml:79
 #, kde-format
@@ -197,8 +196,7 @@ msgid "Error (%1): %2"
 msgstr "Fout (%1): %2"
 
 #: qml/EntryListPage.qml:79
-#, fuzzy, kde-format
-#| msgid "No Entries available"
+#, kde-format
 msgid "No entries available"
 msgstr "Geen items beschikbaar"
 
@@ -235,10 +233,9 @@ msgid "%1 posts, %2 unread"
 msgstr "%1 posts, %2 ongelezen"
 
 #: qml/FeedGroupSheet.qml:24
-#, fuzzy, kde-format
-#| msgid "Feed Groups"
+#, kde-format
 msgid "Feed Group"
-msgstr "Feed-groepen"
+msgstr "Feed-groep"
 
 #: qml/FeedGroupSheet.qml:32
 #, kde-format
@@ -263,8 +260,7 @@ msgid "Edit"
 msgstr "Bewerken"
 
 #: qml/FeedListPage.qml:34
-#, fuzzy, kde-format
-#| msgid "Refresh all feeds"
+#, kde-format
 msgid "Refresh All Feeds"
 msgstr "Alle feeds vernieuwen"
 
@@ -279,16 +275,14 @@ msgid "Export Feeds..."
 msgstr "Feeds exporteren..."
 
 #: qml/FeedListPage.qml:63
-#, fuzzy, kde-format
-#| msgid "Add Feed"
+#, kde-format
 msgid "Add Feed…"
-msgstr "Feed toevoegen"
+msgstr "Feed toevoegen…"
 
 #: qml/FeedListPage.qml:77
-#, fuzzy, kde-format
-#| msgid "No Feeds added yet"
+#, kde-format
 msgid "No feeds added yet"
-msgstr "Nog geen feeds toegevoegd."
+msgstr "Nog geen feeds toegevoegd"
 
 #: qml/FeedListPage.qml:105
 #, kde-format
@@ -326,10 +320,9 @@ msgid "Groups"
 msgstr "Groepen"
 
 #: qml/GroupsListPage.qml:22
-#, fuzzy, kde-format
-#| msgid "Add Group"
+#, kde-format
 msgid "Add Group…"
-msgstr "Groep toevoegen"
+msgstr "Groep toevoegen…"
 
 #: qml/GroupsListPage.qml:48
 #, kde-format
@@ -337,8 +330,7 @@ msgid "Remove"
 msgstr "Verwijderen"
 
 #: qml/GroupsListPage.qml:56
-#, fuzzy, kde-format
-#| msgid "Set as default"
+#, kde-format
 msgid "Set as Default"
 msgstr "Als standaard instellen"
 

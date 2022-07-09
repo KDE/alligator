@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-07-08 00:48+0000\n"
-"PO-Revision-Date: 2022-05-02 13:42+0300\n"
+"PO-Revision-Date: 2022-07-08 12:03+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 22.04.0\n"
+"X-Generator: Lokalize 22.04.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -42,17 +42,17 @@ msgstr "Öntanımlı Besleme Grubu"
 #: fetcher.cpp:219
 #, kde-format
 msgid "Invalid XML"
-msgstr ""
+msgstr "Geçersiz XML"
 
 #: fetcher.cpp:221
 #, kde-format
 msgid "No parser accepted the XML"
-msgstr ""
+msgstr "XML'yi hiçbir ayrıştırıcı kabul etmedi"
 
 #: fetcher.cpp:223
 #, kde-format
 msgid "Error while parsing feed"
-msgstr ""
+msgstr "Besleme ayrıştırılırken hata"
 
 #: main.cpp:69
 #, kde-format
@@ -165,18 +165,17 @@ msgstr "yazar:"
 #: qml/EntryListDelegate.qml:37
 #, kde-format
 msgid "Mark as unread"
-msgstr ""
+msgstr "Okunmadı olarak imle"
 
 #: qml/EntryListDelegate.qml:37
 #, kde-format
 msgid "Mark as read"
-msgstr ""
+msgstr "Okundu olarak imle"
 
 #: qml/EntryListPage.qml:41
-#, fuzzy, kde-format
-#| msgid "Only unread"
+#, kde-format
 msgid "Only Unread"
-msgstr "Yalnızca okunmamışlar"
+msgstr "Yalnızca Okunmamışlar"
 
 #: qml/EntryListPage.qml:49
 #, kde-format
@@ -191,7 +190,7 @@ msgstr "Yenile"
 #: qml/EntryListPage.qml:69
 #, kde-format
 msgid "Error"
-msgstr ""
+msgstr "Hata"
 
 #: qml/EntryListPage.qml:70 qml/EntryListPage.qml:79
 #, kde-format
@@ -199,10 +198,9 @@ msgid "Error (%1): %2"
 msgstr "Hata (%1): %2"
 
 #: qml/EntryListPage.qml:79
-#, fuzzy, kde-format
-#| msgid "No Entries available"
+#, kde-format
 msgid "No entries available"
-msgstr "Giriş yok"
+msgstr "Kullanılabilir girdi yok"
 
 #: qml/EntryPage.qml:43
 #, kde-format
@@ -237,10 +235,9 @@ msgid "%1 posts, %2 unread"
 msgstr "%1 gönderiler, %2 okunmamış"
 
 #: qml/FeedGroupSheet.qml:24
-#, fuzzy, kde-format
-#| msgid "Feed Groups"
+#, kde-format
 msgid "Feed Group"
-msgstr "Besleme Grupları"
+msgstr "Besleme Grubu"
 
 #: qml/FeedGroupSheet.qml:32
 #, kde-format
@@ -265,10 +262,9 @@ msgid "Edit"
 msgstr "Düzenle"
 
 #: qml/FeedListPage.qml:34
-#, fuzzy, kde-format
-#| msgid "Refresh all feeds"
+#, kde-format
 msgid "Refresh All Feeds"
-msgstr "Tüm beslemeleri yenile"
+msgstr "Tüm Beslemeleri Yenile"
 
 #: qml/FeedListPage.qml:40
 #, kde-format
@@ -281,14 +277,12 @@ msgid "Export Feeds..."
 msgstr "Beslemeleri Dışa Aktar..."
 
 #: qml/FeedListPage.qml:63
-#, fuzzy, kde-format
-#| msgid "Add Feed"
+#, kde-format
 msgid "Add Feed…"
-msgstr "Besleme Ekle"
+msgstr "Besleme Ekle…"
 
 #: qml/FeedListPage.qml:77
-#, fuzzy, kde-format
-#| msgid "No Feeds added yet"
+#, kde-format
 msgid "No feeds added yet"
 msgstr "Henüz beslenme eklenmedi"
 
@@ -328,10 +322,9 @@ msgid "Groups"
 msgstr "Gruplar"
 
 #: qml/GroupsListPage.qml:22
-#, fuzzy, kde-format
-#| msgid "Add Group"
+#, kde-format
 msgid "Add Group…"
-msgstr "Grup Ekle"
+msgstr "Grup Ekle…"
 
 #: qml/GroupsListPage.qml:48
 #, kde-format
@@ -339,10 +332,9 @@ msgid "Remove"
 msgstr "Kaldır"
 
 #: qml/GroupsListPage.qml:56
-#, fuzzy, kde-format
-#| msgid "Set as default"
+#, kde-format
 msgid "Set as Default"
-msgstr "Öntanımlı olarak ayarla"
+msgstr "Öntanımlı Olarak Ayarla"
 
 #: qml/GroupsListPage.qml:65
 #, kde-format

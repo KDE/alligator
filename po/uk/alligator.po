@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-07-08 00:48+0000\n"
-"PO-Revision-Date: 2022-02-06 08:39+0200\n"
+"PO-Revision-Date: 2022-07-08 08:14+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -43,17 +43,17 @@ msgstr "Типова група подач"
 #: fetcher.cpp:219
 #, kde-format
 msgid "Invalid XML"
-msgstr ""
+msgstr "Некоректний XML"
 
 #: fetcher.cpp:221
 #, kde-format
 msgid "No parser accepted the XML"
-msgstr ""
+msgstr "Жоден із обробників не зміг обробити XML"
 
 #: fetcher.cpp:223
 #, kde-format
 msgid "Error while parsing feed"
-msgstr ""
+msgstr "Помилка під час обробки подачі"
 
 #: main.cpp:69
 #, kde-format
@@ -166,16 +166,15 @@ msgstr " "
 #: qml/EntryListDelegate.qml:37
 #, kde-format
 msgid "Mark as unread"
-msgstr ""
+msgstr "Позначити як непрочитане"
 
 #: qml/EntryListDelegate.qml:37
 #, kde-format
 msgid "Mark as read"
-msgstr ""
+msgstr "Позначити як прочитане"
 
 #: qml/EntryListPage.qml:41
-#, fuzzy, kde-format
-#| msgid "Only unread"
+#, kde-format
 msgid "Only Unread"
 msgstr "Лише непрочитані"
 
@@ -192,7 +191,7 @@ msgstr "Оновити"
 #: qml/EntryListPage.qml:69
 #, kde-format
 msgid "Error"
-msgstr ""
+msgstr "Помилка"
 
 #: qml/EntryListPage.qml:70 qml/EntryListPage.qml:79
 #, kde-format
@@ -200,8 +199,7 @@ msgid "Error (%1): %2"
 msgstr "Помилка (%1): %2"
 
 #: qml/EntryListPage.qml:79
-#, fuzzy, kde-format
-#| msgid "No Entries available"
+#, kde-format
 msgid "No entries available"
 msgstr "Немає доступних записів"
 
@@ -238,10 +236,9 @@ msgid "%1 posts, %2 unread"
 msgstr "%1 дописів, %2 не прочитано"
 
 #: qml/FeedGroupSheet.qml:24
-#, fuzzy, kde-format
-#| msgid "Feed Groups"
+#, kde-format
 msgid "Feed Group"
-msgstr "Групи подач"
+msgstr "Група подач"
 
 #: qml/FeedGroupSheet.qml:32
 #, kde-format
@@ -268,8 +265,7 @@ msgid "Edit"
 msgstr "Змінити"
 
 #: qml/FeedListPage.qml:34
-#, fuzzy, kde-format
-#| msgid "Refresh all feeds"
+#, kde-format
 msgid "Refresh All Feeds"
 msgstr "Оновити усі подачі"
 
@@ -284,14 +280,12 @@ msgid "Export Feeds..."
 msgstr "Експортувати подачі…"
 
 #: qml/FeedListPage.qml:63
-#, fuzzy, kde-format
-#| msgid "Add Feed"
+#, kde-format
 msgid "Add Feed…"
-msgstr "Додати подачу"
+msgstr "Додати подачу…"
 
 #: qml/FeedListPage.qml:77
-#, fuzzy, kde-format
-#| msgid "No Feeds added yet"
+#, kde-format
 msgid "No feeds added yet"
 msgstr "Подач ще не додано"
 
@@ -331,10 +325,9 @@ msgid "Groups"
 msgstr "Групи"
 
 #: qml/GroupsListPage.qml:22
-#, fuzzy, kde-format
-#| msgid "Add Group"
+#, kde-format
 msgid "Add Group…"
-msgstr "Додати групу"
+msgstr "Додати групу…"
 
 #: qml/GroupsListPage.qml:48
 #, kde-format
@@ -342,8 +335,7 @@ msgid "Remove"
 msgstr "Вилучити"
 
 #: qml/GroupsListPage.qml:56
-#, fuzzy, kde-format
-#| msgid "Set as default"
+#, kde-format
 msgid "Set as Default"
 msgstr "Зробити типовою"
 
