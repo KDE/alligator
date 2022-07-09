@@ -9,6 +9,7 @@
 #include <QRegularExpression>
 #include <QSqlQuery>
 #include <QUrl>
+#include <QDesktopServices>
 
 #include "database.h"
 
@@ -99,6 +100,16 @@ bool Entry::read() const
 QString Entry::baseUrl() const
 {
     return QUrl(m_link).adjusted(QUrl::RemovePath).toString();
+}
+
+void Entry::openLink(const QString &link)
+{
+    QUrl url(link);
+    if (link.startsWith(QStringLiteral("//"))) {
+        // we a protocol-relative, see https://en.wikipedia.org/wiki/Wikipedia:Protocol-relative_URL
+        url.setScheme(QUrl(m_link).scheme());
+    }
+    QDesktopServices::openUrl(url);
 }
 
 void Entry::setRead(bool read)

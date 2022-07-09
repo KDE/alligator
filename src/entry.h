@@ -42,6 +42,8 @@ public:
     QString link() const;
     bool read() const;
 
+    Q_INVOKABLE void openLink(const QString &link);
+
     QString baseUrl() const;
 
     void setRead(bool read);
