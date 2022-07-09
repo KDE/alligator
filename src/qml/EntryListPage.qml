@@ -23,12 +23,15 @@ Kirigami.ScrollablePage {
 
     onRefreshingChanged:
         if(refreshing) {
-            feed.refresh()
+            if (feed === undefined) {
+                Fetcher.fetchAll()
+            } else {
+                feed.refresh()
+            }
         }
 
     Connections {
-        enabled: feed !== undefined
-        target: feed !== undefined ? feed : null
+        target: feed !== undefined ? feed : Fetcher
         function onRefreshingChanged(refreshing) {
             if(!refreshing)
                 page.refreshing = refreshing

@@ -14,6 +14,9 @@
 class Fetcher : public QObject
 {
     Q_OBJECT
+
+    Q_PROPERTY(bool refreshing READ refreshing NOTIFY refreshingChanged)
+
 public:
     static Fetcher &instance()
     {
@@ -37,6 +40,11 @@ private:
     void processEnclosure(Syndication::EnclosurePtr enclosure, Syndication::ItemPtr entry, const QString &feedUrl);
     QString syndicationErrorToString(Syndication::ErrorCode errorCode);
 
+    bool refreshing() const { return m_fetchCount > 0; };
+    void setFetchCount(int count);
+
+    int m_fetchCount;
+
     QNetworkAccessManager *manager;
 
 Q_SIGNALS:
@@ -45,4 +53,5 @@ Q_SIGNALS:
     void feedDetailsUpdated(const QString &url, const QString &name, const QString &image, const QString &link, const QString &description, const QDateTime &lastUpdated);
     void error(const QString &url, int errorId, const QString &errorString);
     void imageDownloadFinished(const QString &url);
+    void refreshingChanged(bool refreshing);
 };

@@ -21,6 +21,7 @@
 #include "fetcher.h"
 
 Fetcher::Fetcher()
+    : m_fetchCount(0)
 {
     manager = new QNetworkAccessManager(this);
     manager->setRedirectPolicy(QNetworkRequest::NoLessSafeRedirectPolicy);
@@ -33,10 +34,12 @@ void Fetcher::fetch(const QString &url)
     qDebug() << "Starting to fetch" << url;
 
     Q_EMIT startedFetchingFeed(url);
+    setFetchCount(m_fetchCount+1);
 
     QNetworkRequest request((QUrl(url)));
     QNetworkReply *reply = get(request);
     connect(reply, &QNetworkReply::finished, this, [this, url, reply]() {
+        setFetchCount(m_fetchCount-1);
         if (reply->error()) {
             qWarning() << "Error fetching feed";
             qWarning() << reply->errorString();
@@ -59,6 +62,12 @@ void Fetcher::fetchAll()
     while (query.next()) {
         fetch(query.value(0).toString());
     }
+}
+
+void Fetcher::setFetchCount(int count)
+{
+    m_fetchCount = count;
+    Q_EMIT refreshingChanged(refreshing());
 }
 
 void Fetcher::processFeed(Syndication::FeedPtr feed, const QString &url)

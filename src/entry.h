@@ -27,7 +27,7 @@ class Entry : public QObject
     Q_PROPERTY(QDateTime updated READ updated CONSTANT)
     Q_PROPERTY(QString link READ link CONSTANT)
     Q_PROPERTY(QString baseUrl READ baseUrl CONSTANT)
-    Q_PROPERTY(bool read READ read WRITE setRead NOTIFY readChanged);
+    Q_PROPERTY(bool read READ read WRITE setRead NOTIFY readChanged)
 
 public:
     Entry(Feed *feed, int index);
