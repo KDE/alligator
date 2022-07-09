@@ -38,7 +38,7 @@ class Feed : public QObject
     Q_PROPERTY(EntriesModel *entries MEMBER m_entries CONSTANT)
 
 public:
-    Feed(int index);
+    explicit Feed(int index);
 
     ~Feed();
 

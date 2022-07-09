@@ -28,7 +28,9 @@ Database::Database()
     QString databasePath = QStandardPaths::writableLocation(QStandardPaths::AppDataLocation);
     QDir(databasePath).mkpath(databasePath);
     db.setDatabaseName(databasePath + QStringLiteral("/database.db3"));
-    db.open();
+    if (!db.open()) {
+        qCritical() << "Failed to open the database";
+    }
 
     if (!migrateTo(2)) {
         qCritical() << "Failed to migrate the database";
@@ -88,8 +90,11 @@ bool Database::migrateTo1()
 bool Database::execute(const QString &query)
 {
     QSqlQuery q;
-    q.prepare(query);
-    return execute(q);
+    if (q.prepare(query)) {
+        return execute(q);
+    } else {
+        return false;
+    }
 }
 
 bool Database::execute(QSqlQuery &query)
@@ -106,18 +111,18 @@ bool Database::execute(QSqlQuery &query)
 int Database::version()
 {
     QSqlQuery query;
-    query.prepare(QStringLiteral("PRAGMA user_version;"));
-    execute(query);
-    if (query.next()) {
-        bool ok;
-        int value = query.value(0).toInt(&ok);
-        qDebug() << "Database version " << value;
-        if (ok) {
-            return value;
+    if (query.prepare(QStringLiteral("PRAGMA user_version;"))) {
+        execute(query);
+        if (query.next()) {
+            bool ok;
+            int value = query.value(0).toInt(&ok);
+            qDebug() << "Database version " << value;
+            if (ok) {
+                return value;
+            }
         }
-    } else {
-        qCritical() << "Failed to check database version";
     }
+    qCritical() << "Failed to check database version";
     return -1;
 }
 
@@ -145,20 +150,24 @@ void Database::cleanup()
         qint64 sinceEpoch = dateTime.toSecsSinceEpoch();
 
         QSqlQuery query;
-        query.prepare(QStringLiteral("DELETE FROM Entries WHERE updated < :sinceEpoch;"));
-        query.bindValue(QStringLiteral(":sinceEpoch"), sinceEpoch);
-        execute(query);
+        if (query.prepare(QStringLiteral("DELETE FROM Entries WHERE updated < :sinceEpoch;"))) {
+            query.bindValue(QStringLiteral(":sinceEpoch"), sinceEpoch);
+            execute(query);
+        }
     }
 }
 
 bool Database::feedExists(const QString &url)
 {
     QSqlQuery query;
-    query.prepare(QStringLiteral("SELECT COUNT (url) FROM Feeds WHERE url=:url;"));
-    query.bindValue(QStringLiteral(":url"), url);
-    Database::instance().execute(query);
-    query.next();
-    return query.value(0).toInt() != 0;
+    if (query.prepare(QStringLiteral("SELECT COUNT (url) FROM Feeds WHERE url=:url;"))) {
+        query.bindValue(QStringLiteral(":url"), url);
+        Database::instance().execute(query);
+        query.next();
+        return query.value(0).toInt() != 0;
+    } else {
+        return false;
+    }
 }
 
 void Database::addFeed(const QString &url, const QString &groupName, const bool markEntriesRead)
@@ -172,26 +181,24 @@ void Database::addFeed(const QString &url, const QString &groupName, const bool 
 
     QUrl urlFromInput = QUrl::fromUserInput(url);
     QSqlQuery query;
-    query.prepare(
-        QStringLiteral("INSERT INTO Feeds VALUES (:name, :url, :image, :link, :description, :deleteAfterCount, :deleteAfterType, :subscribed, :lastUpdated, "
-                       ":notify, :groupName, :displayName);"));
-    query.bindValue(QStringLiteral(":name"), urlFromInput.toString());
-    query.bindValue(QStringLiteral(":url"), urlFromInput.toString());
-    query.bindValue(QStringLiteral(":image"), QLatin1String(""));
-    query.bindValue(QStringLiteral(":link"), QLatin1String(""));
-    query.bindValue(QStringLiteral(":description"), QLatin1String(""));
-    query.bindValue(QStringLiteral(":deleteAfterCount"), 0);
-    query.bindValue(QStringLiteral(":deleteAfterType"), 0);
-    query.bindValue(QStringLiteral(":subscribed"), QDateTime::currentDateTime().toSecsSinceEpoch());
-    query.bindValue(QStringLiteral(":lastUpdated"), 0);
-    query.bindValue(QStringLiteral(":notify"), false);
-    query.bindValue(QStringLiteral(":groupName"), groupName.isEmpty() ? defaultGroup() : groupName);
-    query.bindValue(QStringLiteral(":displayName"), QLatin1String(""));
-    execute(query);
-
-    Q_EMIT feedAdded(urlFromInput.toString());
-
-    Fetcher::instance().fetch(urlFromInput.toString(), markEntriesRead);
+    if (query.prepare(QStringLiteral("INSERT INTO Feeds VALUES (:name, :url, :image, :link, :description, :deleteAfterCount, :deleteAfterType, :subscribed, "
+                                     ":lastUpdated, :notify, :groupName, :displayName);"))) {
+        query.bindValue(QStringLiteral(":name"), urlFromInput.toString());
+        query.bindValue(QStringLiteral(":url"), urlFromInput.toString());
+        query.bindValue(QStringLiteral(":image"), QLatin1String(""));
+        query.bindValue(QStringLiteral(":link"), QLatin1String(""));
+        query.bindValue(QStringLiteral(":description"), QLatin1String(""));
+        query.bindValue(QStringLiteral(":deleteAfterCount"), 0);
+        query.bindValue(QStringLiteral(":deleteAfterType"), 0);
+        query.bindValue(QStringLiteral(":subscribed"), QDateTime::currentDateTime().toSecsSinceEpoch());
+        query.bindValue(QStringLiteral(":lastUpdated"), 0);
+        query.bindValue(QStringLiteral(":notify"), false);
+        query.bindValue(QStringLiteral(":groupName"), groupName.isEmpty() ? defaultGroup() : groupName);
+        query.bindValue(QStringLiteral(":displayName"), QLatin1String(""));
+        execute(query);
+        Q_EMIT feedAdded(urlFromInput.toString());
+        Fetcher::instance().fetch(urlFromInput.toString(), markEntriesRead);
+    }
 }
 
 void Database::importFeeds(const QString &path)
@@ -224,16 +231,17 @@ void Database::exportFeeds(const QString &path)
     xmlWriter.writeStartElement(QStringLiteral("body"));
     xmlWriter.writeAttribute(QStringLiteral("version"), QStringLiteral("1.0"));
     QSqlQuery query;
-    query.prepare(QStringLiteral("SELECT url, name FROM Feeds;"));
-    execute(query);
-    while (query.next()) {
-        xmlWriter.writeEmptyElement(QStringLiteral("outline"));
-        xmlWriter.writeAttribute(QStringLiteral("xmlUrl"), query.value(0).toString());
-        xmlWriter.writeAttribute(QStringLiteral("title"), query.value(1).toString());
+    if (query.prepare(QStringLiteral("SELECT url, name FROM Feeds;"))) {
+        execute(query);
+        while (query.next()) {
+            xmlWriter.writeEmptyElement(QStringLiteral("outline"));
+            xmlWriter.writeAttribute(QStringLiteral("xmlUrl"), query.value(0).toString());
+            xmlWriter.writeAttribute(QStringLiteral("title"), query.value(1).toString());
+        }
+        xmlWriter.writeEndElement();
+        xmlWriter.writeEndElement();
+        xmlWriter.writeEndDocument();
     }
-    xmlWriter.writeEndElement();
-    xmlWriter.writeEndElement();
-    xmlWriter.writeEndDocument();
 }
 
 void Database::addFeedGroup(const QString &name, const QString &description, const int isDefault)
@@ -244,25 +252,27 @@ void Database::addFeedGroup(const QString &name, const QString &description, con
     }
 
     QSqlQuery query;
-    query.prepare(QStringLiteral("INSERT INTO FeedGroups VALUES (:name, :desc, :isDefault);"));
-    query.bindValue(QStringLiteral(":name"), name);
-    query.bindValue(QStringLiteral(":desc"), description);
-    query.bindValue(QStringLiteral(":isDefault"), isDefault);
-    execute(query);
+    if (query.prepare(QStringLiteral("INSERT INTO FeedGroups VALUES (:name, :desc, :isDefault);"))) {
+        query.bindValue(QStringLiteral(":name"), name);
+        query.bindValue(QStringLiteral(":desc"), description);
+        query.bindValue(QStringLiteral(":isDefault"), isDefault);
+        execute(query);
 
-    Q_EMIT feedGroupsUpdated();
+        Q_EMIT feedGroupsUpdated();
+    }
 }
 
 void Database::editFeed(const QString &url, const QString &displayName, const QString &groupName)
 {
     QSqlQuery query;
-    query.prepare(QStringLiteral("UPDATE Feeds SET displayName = :displayName, groupName = :groupName WHERE url = :url;"));
-    query.bindValue(QStringLiteral(":displayName"), displayName);
-    query.bindValue(QStringLiteral(":groupName"), groupName);
-    query.bindValue(QStringLiteral(":url"), url);
-    execute(query);
+    if (query.prepare(QStringLiteral("UPDATE Feeds SET displayName = :displayName, groupName = :groupName WHERE url = :url;"))) {
+        query.bindValue(QStringLiteral(":displayName"), displayName);
+        query.bindValue(QStringLiteral(":groupName"), groupName);
+        query.bindValue(QStringLiteral(":url"), url);
+        execute(query);
 
-    Q_EMIT feedDetailsUpdated(url, displayName, groupName);
+        Q_EMIT feedDetailsUpdated(url, displayName, groupName);
+    }
 }
 
 void Database::removeFeedGroup(const QString &name)
@@ -270,65 +280,72 @@ void Database::removeFeedGroup(const QString &name)
     clearFeedGroup(name);
 
     QSqlQuery query;
-    query.prepare(QStringLiteral("DELETE FROM FeedGroups WHERE name = :name;"));
-    query.bindValue(QStringLiteral(":name"), name);
-    execute(query);
+    if (query.prepare(QStringLiteral("DELETE FROM FeedGroups WHERE name = :name;"))) {
+        query.bindValue(QStringLiteral(":name"), name);
+        execute(query);
 
-    Q_EMIT feedGroupRemoved(name);
+        Q_EMIT feedGroupRemoved(name);
+    }
 }
 
 void Database::setRead(const QString &entryId, bool read)
 {
     QSqlQuery query;
-    query.prepare(QStringLiteral("UPDATE Entries SET read=:read WHERE id=:id"));
-    query.bindValue(QStringLiteral(":id"), entryId);
-    query.bindValue(QStringLiteral(":read"), read);
-    execute(query);
+    if (query.prepare(QStringLiteral("UPDATE Entries SET read=:read WHERE id=:id"))) {
+        query.bindValue(QStringLiteral(":id"), entryId);
+        query.bindValue(QStringLiteral(":read"), read);
+        execute(query);
 
-    Q_EMIT entryReadChanged(entryId, read);
+        Q_EMIT entryReadChanged(entryId, read);
+    }
 }
 
 bool Database::feedGroupExists(const QString &name)
 {
     QSqlQuery query;
-    query.prepare(QStringLiteral("SELECT COUNT (1) FROM FeedGroups WHERE name = :name;"));
-    query.bindValue(QStringLiteral(":name"), name);
-    Database::instance().execute(query);
-    query.next();
-    return (query.value(0).toInt() != 0);
+    if (query.prepare(QStringLiteral("SELECT COUNT (1) FROM FeedGroups WHERE name = :name;"))) {
+        query.bindValue(QStringLiteral(":name"), name);
+        Database::instance().execute(query);
+        query.next();
+        return (query.value(0).toInt() != 0);
+    } else {
+        return false;
+    }
 }
 
 void Database::clearFeedGroup(const QString &name)
 {
     QSqlQuery query;
-    query.prepare(QStringLiteral("UPDATE Feeds SET groupName = NULL WHERE groupName = :name;"));
-    query.bindValue(QStringLiteral(":name"), name);
-    execute(query);
+    if (query.prepare(QStringLiteral("UPDATE Feeds SET groupName = NULL WHERE groupName = :name;"))) {
+        query.bindValue(QStringLiteral(":name"), name);
+        execute(query);
+    }
 }
 
 QString Database::defaultGroup()
 {
     QSqlQuery query;
-    query.prepare(QStringLiteral("SELECT Name FROM FeedGroups WHERE defaultGroup = 1"));
-    execute(query);
+    if (query.prepare(QStringLiteral("SELECT Name FROM FeedGroups WHERE defaultGroup = 1"))) {
+        execute(query);
 
-    if (query.next()) {
-        return query.value(0).toString();
-    } else {
-        auto dg = i18n("Default");
-        addFeedGroup(dg, i18n("Default Feed Group"), 1);
-        return dg;
+        if (query.next()) {
+            return query.value(0).toString();
+        }
     }
+    auto dg = i18n("Default");
+    addFeedGroup(dg, i18n("Default Feed Group"), 1);
+    return dg;
 }
 
 void Database::setDefaultGroup(const QString &name)
 {
     if (execute(QStringLiteral("UPDATE FeedGroups SET defaultGroup = 0;"))) {
         QSqlQuery query;
-        query.prepare(QStringLiteral("UPDATE FeedGroups SET defaultGroup = 1 WHERE name = :name ;"));
-        query.bindValue(QStringLiteral(":name"), name);
-        execute(query);
+        if (query.prepare(QStringLiteral("UPDATE FeedGroups SET defaultGroup = 1 WHERE name = :name ;"))) {
+            query.bindValue(QStringLiteral(":name"), name);
+            execute(query);
 
-        Q_EMIT feedGroupsUpdated();
+            Q_EMIT feedGroupsUpdated();
+        }
     }
 }
