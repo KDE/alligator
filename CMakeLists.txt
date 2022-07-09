@@ -19,6 +19,7 @@ include(ECMSetupVersion)
 include(KDEInstallDirs)
 include(KDEClangFormat)
 include(KDECMakeSettings)
+include(KDEGitCommitHooks)
 include(KDECompilerSettings NO_POLICY_SCOPE)
 
 ecm_setup_version(${PROJECT_VERSION}
@@ -59,6 +60,8 @@ install(FILES alligator.svg DESTINATION ${KDE_INSTALL_FULL_ICONDIR}/hicolor/scal
 add_subdirectory(src)
 
 feature_summary(WHAT ALL INCLUDE_QUIET_PACKAGES FATAL_ON_MISSING_REQUIRED_PACKAGES)
+
+kde_configure_git_pre_commit_hook(CHECKS CLANG_FORMAT)
 
 file(GLOB_RECURSE ALL_CLANG_FORMAT_SOURCE_FILES src/*.cpp src/*.h)
 kde_clang_format(${ALL_CLANG_FORMAT_SOURCE_FILES})
