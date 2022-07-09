@@ -1,14 +1,16 @@
 /*
-* SPDX-FileCopyrightText: 2021 Dimitris Kardarakos <dimkard@posteo.net>
-*
-* SPDX-License-Identifier: GPL-3.0-or-later
-*/
+ * SPDX-FileCopyrightText: 2021 Dimitris Kardarakos <dimkard@posteo.net>
+ *
+ * SPDX-License-Identifier: GPL-3.0-or-later
+ */
 
 #include "entriesproxymodel.h"
-#include "entry.h"
 #include "database.h"
+#include "entry.h"
 
-EntriesProxyModel::EntriesProxyModel(QObject *parent) : QSortFilterProxyModel(parent), m_onlyUnread(false)
+EntriesProxyModel::EntriesProxyModel(QObject *parent)
+    : QSortFilterProxyModel(parent)
+    , m_onlyUnread(false)
 {
     connect(&Database::instance(), &Database::entryReadChanged, this, [this]() {
         invalidateFilter();
@@ -16,7 +18,8 @@ EntriesProxyModel::EntriesProxyModel(QObject *parent) : QSortFilterProxyModel(pa
 }
 
 EntriesProxyModel::~EntriesProxyModel()
-{}
+{
+}
 
 void EntriesProxyModel::setOnlyUnread(bool onlyUnread)
 {

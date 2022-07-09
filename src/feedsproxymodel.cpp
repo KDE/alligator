@@ -1,15 +1,17 @@
 /*
-* SPDX-FileCopyrightText: 2021 Dimitris Kardarakos <dimkard@posteo.net>
-*
-* SPDX-License-Identifier: GPL-3.0-or-later
-*/
+ * SPDX-FileCopyrightText: 2021 Dimitris Kardarakos <dimkard@posteo.net>
+ *
+ * SPDX-License-Identifier: GPL-3.0-or-later
+ */
 
 #include "feedsproxymodel.h"
-#include "feedsmodel.h"
-#include "feed.h"
 #include "database.h"
+#include "feed.h"
+#include "feedsmodel.h"
 
-FeedsProxyModel::FeedsProxyModel(QObject *parent) : QSortFilterProxyModel(parent), m_group_name {}
+FeedsProxyModel::FeedsProxyModel(QObject *parent)
+    : QSortFilterProxyModel(parent)
+    , m_group_name{}
 {
     connect(&Database::instance(), &Database::feedDetailsUpdated, [this]() {
         invalidateFilter();
@@ -17,7 +19,8 @@ FeedsProxyModel::FeedsProxyModel(QObject *parent) : QSortFilterProxyModel(parent
 }
 
 FeedsProxyModel::~FeedsProxyModel()
-{}
+{
+}
 
 void FeedsProxyModel::setGroupName(const QString &name)
 {

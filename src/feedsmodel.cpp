@@ -22,21 +22,25 @@ FeedsModel::FeedsModel(QObject *parent)
         endInsertRows();
     });
 
-    connect(&Fetcher::instance(), &Fetcher::feedDetailsUpdated, this, [this](const QString & url, const QString & name, const QString & image, const QString & link, const QString & description, const QDateTime & lastUpdated) {
-        for (int i = 0; i < m_feeds.length(); i++) {
-            if (m_feeds[i]->url() == url) {
-                m_feeds[i]->setName(name);
-                m_feeds[i]->setImage(image);
-                m_feeds[i]->setLink(link);
-                m_feeds[i]->setDescription(description);
-                m_feeds[i]->setLastUpdated(lastUpdated);
-                Q_EMIT dataChanged(createIndex(i, 0), createIndex(i, 0));
-                break;
+    connect(
+        &Fetcher::instance(),
+        &Fetcher::feedDetailsUpdated,
+        this,
+        [this](const QString &url, const QString &name, const QString &image, const QString &link, const QString &description, const QDateTime &lastUpdated) {
+            for (int i = 0; i < m_feeds.length(); i++) {
+                if (m_feeds[i]->url() == url) {
+                    m_feeds[i]->setName(name);
+                    m_feeds[i]->setImage(image);
+                    m_feeds[i]->setLink(link);
+                    m_feeds[i]->setDescription(description);
+                    m_feeds[i]->setLastUpdated(lastUpdated);
+                    Q_EMIT dataChanged(createIndex(i, 0), createIndex(i, 0));
+                    break;
+                }
             }
-        }
-    });
+        });
 
-    connect(&Database::instance(), &Database::feedDetailsUpdated, [this](const QString & url, const QString & displayName, const QString & groupName) {
+    connect(&Database::instance(), &Database::feedDetailsUpdated, [this](const QString &url, const QString &displayName, const QString &groupName) {
         for (int i = 0; i < m_feeds.length(); i++) {
             if (m_feeds[i]->url() == url) {
                 m_feeds[i]->setDisplayName(displayName);
@@ -47,7 +51,7 @@ FeedsModel::FeedsModel(QObject *parent)
         }
     });
 
-    connect(&Database::instance(), &Database::feedGroupRemoved, [this](const QString & groupName) {
+    connect(&Database::instance(), &Database::feedGroupRemoved, [this](const QString &groupName) {
         for (int i = 0; i < m_feeds.length(); i++) {
             if (m_feeds[i]->groupName() == groupName) {
                 m_feeds[i]->setGroupName(QString());
@@ -56,7 +60,6 @@ FeedsModel::FeedsModel(QObject *parent)
             }
         }
     });
-
 }
 
 QHash<int, QByteArray> FeedsModel::roleNames() const

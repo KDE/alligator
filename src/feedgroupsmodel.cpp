@@ -1,14 +1,16 @@
 /*
-* SPDX-FileCopyrightText: 2021 Dimitris Kardarakos <dimkard@posteo.net>
-*
-* SPDX-License-Identifier: GPL-3.0-or-later
-*/
+ * SPDX-FileCopyrightText: 2021 Dimitris Kardarakos <dimkard@posteo.net>
+ *
+ * SPDX-License-Identifier: GPL-3.0-or-later
+ */
 
 #include "feedgroupsmodel.h"
 #include "database.h"
 #include <QSqlQuery>
 
-FeedGroupsModel::FeedGroupsModel(QObject *parent) : QAbstractListModel {parent}, m_feed_groups {}
+FeedGroupsModel::FeedGroupsModel(QObject *parent)
+    : QAbstractListModel{parent}
+    , m_feed_groups{}
 {
     loadFromDatabase();
 
@@ -23,11 +25,7 @@ FeedGroupsModel::FeedGroupsModel(QObject *parent) : QAbstractListModel {parent},
 
 QHash<int, QByteArray> FeedGroupsModel::roleNames() const
 {
-    return {
-        { GroupName, "name" },
-        { GroupDescription, "description" },
-        { IsDefault, "isDefault" }
-    };
+    return {{GroupName, "name"}, {GroupDescription, "description"}, {IsDefault, "isDefault"}};
 }
 
 int FeedGroupsModel::rowCount(const QModelIndex &parent) const
@@ -70,7 +68,7 @@ void FeedGroupsModel::loadFromDatabase()
     q.prepare(QStringLiteral("SELECT * FROM FeedGroups;"));
     Database::instance().execute(q);
     while (q.next()) {
-        FeedGroup group {};
+        FeedGroup group{};
         group.name = q.value(QStringLiteral("name")).toString();
         group.description = q.value(QStringLiteral("description")).toString();
         group.isDefault = (q.value(QStringLiteral("defaultGroup")).toInt() == 1);

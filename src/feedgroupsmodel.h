@@ -1,8 +1,8 @@
 /*
-* SPDX-FileCopyrightText: 2021 Dimitris Kardarakos <dimkard@posteo.net>
-*
-* SPDX-License-Identifier: GPL-3.0-or-later
-*/
+ * SPDX-FileCopyrightText: 2021 Dimitris Kardarakos <dimkard@posteo.net>
+ *
+ * SPDX-License-Identifier: GPL-3.0-or-later
+ */
 
 #pragma once
 
@@ -29,11 +29,7 @@ class FeedGroupsModel : public QAbstractListModel
 public:
     explicit FeedGroupsModel(QObject *parent = nullptr);
 
-    enum RoleNames {
-        GroupName = Qt::UserRole + 1,
-        GroupDescription,
-        IsDefault
-    };
+    enum RoleNames { GroupName = Qt::UserRole + 1, GroupDescription, IsDefault };
 
     QVariant data(const QModelIndex &index, int role = Qt::DisplayRole) const override;
     QHash<int, QByteArray> roleNames() const override;

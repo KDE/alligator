@@ -4,6 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
+#include <KLocalizedString>
 #include <QDateTime>
 #include <QDir>
 #include <QSqlDatabase>
@@ -12,14 +13,13 @@
 #include <QUrl>
 #include <QXmlStreamReader>
 #include <QXmlStreamWriter>
-#include <KLocalizedString>
 
 #include "alligatorsettings.h"
 #include "database.h"
 #include "fetcher.h"
 
-#define TRUE_OR_RETURN(x)                                                                                                                                                                                                                      \
-    if (!x)                                                                                                                                                                                                                                    \
+#define TRUE_OR_RETURN(x)                                                                                                                                      \
+    if (!x)                                                                                                                                                    \
         return false;
 
 Database::Database()
@@ -52,7 +52,6 @@ bool Database::migrateTo(const int targetVersion)
     default:
         return true;
     }
-
 }
 
 bool Database::migrateTo2()
@@ -74,10 +73,14 @@ bool Database::migrateTo2()
 bool Database::migrateTo1()
 {
     qDebug() << "Migrating database to version 1";
-    TRUE_OR_RETURN(execute(QStringLiteral("CREATE TABLE IF NOT EXISTS Feeds (name TEXT, url TEXT, image TEXT, link TEXT, description TEXT, deleteAfterCount INTEGER, deleteAfterType INTEGER, subscribed INTEGER, lastUpdated INTEGER, notify BOOL);")));
-    TRUE_OR_RETURN(execute(QStringLiteral("CREATE TABLE IF NOT EXISTS Entries (feed TEXT, id TEXT UNIQUE, title TEXT, content TEXT, created INTEGER, updated INTEGER, link TEXT, read bool);")));
+    TRUE_OR_RETURN(
+        execute(QStringLiteral("CREATE TABLE IF NOT EXISTS Feeds (name TEXT, url TEXT, image TEXT, link TEXT, description TEXT, deleteAfterCount INTEGER, "
+                               "deleteAfterType INTEGER, subscribed INTEGER, lastUpdated INTEGER, notify BOOL);")));
+    TRUE_OR_RETURN(execute(QStringLiteral(
+        "CREATE TABLE IF NOT EXISTS Entries (feed TEXT, id TEXT UNIQUE, title TEXT, content TEXT, created INTEGER, updated INTEGER, link TEXT, read bool);")));
     TRUE_OR_RETURN(execute(QStringLiteral("CREATE TABLE IF NOT EXISTS Authors (feed TEXT, id TEXT, name TEXT, uri TEXT, email TEXT);")));
-    TRUE_OR_RETURN(execute(QStringLiteral("CREATE TABLE IF NOT EXISTS Enclosures (feed TEXT, id TEXT, duration INTEGER, size INTEGER, title TEXT, type STRING, url STRING);")));
+    TRUE_OR_RETURN(execute(
+        QStringLiteral("CREATE TABLE IF NOT EXISTS Enclosures (feed TEXT, id TEXT, duration INTEGER, size INTEGER, title TEXT, type STRING, url STRING);")));
     TRUE_OR_RETURN(execute(QStringLiteral("PRAGMA user_version = 1;")));
     return true;
 }
@@ -169,7 +172,9 @@ void Database::addFeed(const QString &url, const QString &groupName)
 
     QUrl urlFromInput = QUrl::fromUserInput(url);
     QSqlQuery query;
-    query.prepare(QStringLiteral("INSERT INTO Feeds VALUES (:name, :url, :image, :link, :description, :deleteAfterCount, :deleteAfterType, :subscribed, :lastUpdated, :notify, :groupName, :displayName);"));
+    query.prepare(
+        QStringLiteral("INSERT INTO Feeds VALUES (:name, :url, :image, :link, :description, :deleteAfterCount, :deleteAfterType, :subscribed, :lastUpdated, "
+                       ":notify, :groupName, :displayName);"));
     query.bindValue(QStringLiteral(":name"), urlFromInput.toString());
     query.bindValue(QStringLiteral(":url"), urlFromInput.toString());
     query.bindValue(QStringLiteral(":image"), QLatin1String(""));
@@ -198,7 +203,7 @@ void Database::importFeeds(const QString &path)
     QXmlStreamReader xmlReader(&file);
     while (!xmlReader.atEnd()) {
         xmlReader.readNext();
-        if (xmlReader.tokenType() == 4 &&  xmlReader.attributes().hasAttribute(QStringLiteral("xmlUrl"))) {
+        if (xmlReader.tokenType() == 4 && xmlReader.attributes().hasAttribute(QStringLiteral("xmlUrl"))) {
             addFeed(xmlReader.attributes().value(QStringLiteral("xmlUrl")).toString());
         }
     }
@@ -229,7 +234,6 @@ void Database::exportFeeds(const QString &path)
     xmlWriter.writeEndElement();
     xmlWriter.writeEndElement();
     xmlWriter.writeEndDocument();
-
 }
 
 void Database::addFeedGroup(const QString &name, const QString &description, const int isDefault)
@@ -317,10 +321,9 @@ QString Database::defaultGroup()
     }
 }
 
-
-void Database::setDefaultGroup(const QString& name)
+void Database::setDefaultGroup(const QString &name)
 {
-    if(execute(QStringLiteral("UPDATE FeedGroups SET defaultGroup = 0;"))) {
+    if (execute(QStringLiteral("UPDATE FeedGroups SET defaultGroup = 0;"))) {
         QSqlQuery query;
         query.prepare(QStringLiteral("UPDATE FeedGroups SET defaultGroup = 1 WHERE name = :name ;"));
         query.bindValue(QStringLiteral(":name"), name);

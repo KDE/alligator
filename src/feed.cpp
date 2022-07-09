@@ -14,7 +14,6 @@
 Feed::Feed(int index)
     : QObject(nullptr)
 {
-
     QSqlQuery query;
     query.prepare(QStringLiteral("SELECT * FROM Feeds LIMIT 1 OFFSET :index;"));
     query.bindValue(QStringLiteral(":index"), index);
@@ -28,7 +27,10 @@ Feed::Feed(int index)
     authorQuery.bindValue(QStringLiteral(":feed"), query.value(QStringLiteral("url")).toString());
     Database::instance().execute(authorQuery);
     while (authorQuery.next()) {
-        m_authors += new Author(authorQuery.value(QStringLiteral("name")).toString(), authorQuery.value(QStringLiteral("email")).toString(), authorQuery.value(QStringLiteral("uri")).toString(), nullptr);
+        m_authors += new Author(authorQuery.value(QStringLiteral("name")).toString(),
+                                authorQuery.value(QStringLiteral("email")).toString(),
+                                authorQuery.value(QStringLiteral("uri")).toString(),
+                                nullptr);
     }
 
     m_subscribed.setSecsSinceEpoch(query.value(QStringLiteral("subscribed")).toInt());
@@ -49,12 +51,12 @@ Feed::Feed(int index)
     m_errorId = 0;
     m_errorString = QLatin1String("");
 
-    connect(&Fetcher::instance(), &Fetcher::startedFetchingFeed, this, [this](const QString & url) {
+    connect(&Fetcher::instance(), &Fetcher::startedFetchingFeed, this, [this](const QString &url) {
         if (url == m_url) {
             setRefreshing(true);
         }
     });
-    connect(&Fetcher::instance(), &Fetcher::feedUpdated, this, [this](const QString & url) {
+    connect(&Fetcher::instance(), &Fetcher::feedUpdated, this, [this](const QString &url) {
         if (url == m_url) {
             setRefreshing(false);
             Q_EMIT entryCountChanged();
@@ -63,14 +65,14 @@ Feed::Feed(int index)
             setErrorString(QLatin1String(""));
         }
     });
-    connect(&Fetcher::instance(), &Fetcher::error, this, [this](const QString & url, int errorId, const QString & errorString) {
+    connect(&Fetcher::instance(), &Fetcher::error, this, [this](const QString &url, int errorId, const QString &errorString) {
         if (url == m_url) {
             setErrorId(errorId);
             setErrorString(errorString);
             setRefreshing(false);
         }
     });
-    connect(&Fetcher::instance(), &Fetcher::imageDownloadFinished, this, [this](const QString & url) {
+    connect(&Fetcher::instance(), &Fetcher::imageDownloadFinished, this, [this](const QString &url) {
         if (url == m_image) {
             Q_EMIT imageChanged(url);
         }

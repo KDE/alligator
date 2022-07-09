@@ -8,8 +8,8 @@
 #include <QCommandLineParser>
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
-#include <QQuickView>
 #include <QQuickStyle>
+#include <QQuickView>
 #include <QString>
 #include <QStringList>
 
@@ -23,16 +23,16 @@
 #include <KLocalizedContext>
 #include <KLocalizedString>
 
+#include "about.h"
 #include "alligator-version.h"
 #include "alligatorsettings.h"
-#include "about.h"
 #include "database.h"
 #include "entriesmodel.h"
 #include "entriesproxymodel.h"
-#include "feedsmodel.h"
-#include "fetcher.h"
 #include "feedgroupsmodel.h"
+#include "feedsmodel.h"
 #include "feedsproxymodel.h"
+#include "fetcher.h"
 
 #ifdef Q_OS_ANDROID
 Q_DECL_EXPORT
@@ -45,7 +45,7 @@ int main(int argc, char *argv[])
     QQuickStyle::setStyle(QStringLiteral("Material"));
 #else
     QApplication app(argc, argv);
-    if(qEnvironmentVariableIsEmpty("QT_QUICK_CONTROLS_STYLE")) {
+    if (qEnvironmentVariableIsEmpty("QT_QUICK_CONTROLS_STYLE")) {
         QQuickStyle::setStyle(QStringLiteral("org.kde.desktop"));
     }
 #endif
@@ -66,7 +66,12 @@ int main(int argc, char *argv[])
     QCoreApplication::setOrganizationDomain(QStringLiteral("kde.org"));
     QCoreApplication::setApplicationName(QStringLiteral("Alligator"));
 
-    KAboutData about(QStringLiteral("alligator"), i18n("Alligator"), QStringLiteral(ALLIGATOR_VERSION_STRING), i18n("Feed Reader"), KAboutLicense::GPL, i18n("© 2020 KDE Community"));
+    KAboutData about(QStringLiteral("alligator"),
+                     i18n("Alligator"),
+                     QStringLiteral(ALLIGATOR_VERSION_STRING),
+                     i18n("Feed Reader"),
+                     KAboutLicense::GPL,
+                     i18n("© 2020 KDE Community"));
     about.addAuthor(i18n("Tobias Fella"), QString(), QStringLiteral("fella@posteo.de"));
     KAboutData::setApplicationData(about);
 
@@ -87,16 +92,16 @@ int main(int argc, char *argv[])
 
     QCommandLineParser parser;
     parser.setApplicationDescription(i18n("RSS/Atom Feed Reader"));
-    QCommandLineOption addFeedOption(QStringList() << QStringLiteral("a") << QStringLiteral("addfeed")
-                                   , i18n("Adds a new feed to database.")
-                                   , i18n("feed URL")
-                                   , QStringLiteral("none"));
+    QCommandLineOption addFeedOption(QStringList() << QStringLiteral("a") << QStringLiteral("addfeed"),
+                                     i18n("Adds a new feed to database."),
+                                     i18n("feed URL"),
+                                     QStringLiteral("none"));
     parser.addOption(addFeedOption);
 
     about.setupCommandLine(&parser);
     parser.process(app);
     QString feedURL = parser.value(addFeedOption);
-    if(feedURL != QStringLiteral("none"))
+    if (feedURL != QStringLiteral("none"))
         Database::instance().addFeed(feedURL);
     about.processCommandLine(&parser);
 

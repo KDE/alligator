@@ -5,8 +5,8 @@
 
 #pragma once
 
-#include <QObject>
 #include <KAboutData>
+#include <QObject>
 
 class AboutType : public QObject
 {

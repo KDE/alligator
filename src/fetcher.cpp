@@ -4,6 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
+#include <KLocalizedString>
 #include <QCryptographicHash>
 #include <QDateTime>
 #include <QDebug>
@@ -13,7 +14,6 @@
 #include <QNetworkReply>
 #include <QStandardPaths>
 #include <QTextDocumentFragment>
-#include <KLocalizedString>
 
 #include <Syndication/Syndication>
 
@@ -213,7 +213,8 @@ void Fetcher::removeImage(const QString &url)
 
 QString Fetcher::filePath(const QString &url)
 {
-    return QStandardPaths::writableLocation(QStandardPaths::AppDataLocation) + QStringLiteral("/") + QString::fromStdString(QCryptographicHash::hash(url.toUtf8(), QCryptographicHash::Md5).toHex().toStdString());
+    return QStandardPaths::writableLocation(QStandardPaths::AppDataLocation) + QStringLiteral("/")
+        + QString::fromStdString(QCryptographicHash::hash(url.toUtf8(), QCryptographicHash::Md5).toHex().toStdString());
 }
 
 QNetworkReply *Fetcher::get(QNetworkRequest &request)
@@ -222,13 +223,14 @@ QNetworkReply *Fetcher::get(QNetworkRequest &request)
     return manager->get(request);
 }
 
-QString Fetcher::syndicationErrorToString(Syndication::ErrorCode errorCode) {
-    switch(errorCode) {
-        case Syndication::InvalidXml:
-            return i18n("Invalid XML");
-        case Syndication::XmlNotAccepted:
-            return i18n ("No parser accepted the XML");
-        default:
-            return i18n("Error while parsing feed");
+QString Fetcher::syndicationErrorToString(Syndication::ErrorCode errorCode)
+{
+    switch (errorCode) {
+    case Syndication::InvalidXml:
+        return i18n("Invalid XML");
+    case Syndication::XmlNotAccepted:
+        return i18n("No parser accepted the XML");
+    default:
+        return i18n("Error while parsing feed");
     }
 }

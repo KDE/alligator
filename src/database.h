@@ -35,6 +35,7 @@ Q_SIGNALS:
     void feedGroupsUpdated();
     void feedGroupRemoved(const QString &groupName);
     void entryReadChanged(const QString &entryId, bool read);
+
 private:
     bool feedGroupExists(const QString &name);
     void clearFeedGroup(const QString &name);

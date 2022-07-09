@@ -39,7 +39,10 @@ Entry::Entry(Feed *feed, int index)
     Database::instance().execute(authorQuery);
 
     while (authorQuery.next()) {
-        m_authors += new Author(authorQuery.value(QStringLiteral("name")).toString(), authorQuery.value(QStringLiteral("email")).toString(), authorQuery.value(QStringLiteral("uri")).toString(), nullptr);
+        m_authors += new Author(authorQuery.value(QStringLiteral("name")).toString(),
+                                authorQuery.value(QStringLiteral("email")).toString(),
+                                authorQuery.value(QStringLiteral("uri")).toString(),
+                                nullptr);
     }
 
     m_created.setSecsSinceEpoch(entryQuery.value(QStringLiteral("created")).toInt());

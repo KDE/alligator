@@ -50,7 +50,12 @@ private:
 Q_SIGNALS:
     void startedFetchingFeed(const QString &url);
     void feedUpdated(const QString &url);
-    void feedDetailsUpdated(const QString &url, const QString &name, const QString &image, const QString &link, const QString &description, const QDateTime &lastUpdated);
+    void feedDetailsUpdated(const QString &url,
+                            const QString &name,
+                            const QString &image,
+                            const QString &link,
+                            const QString &description,
+                            const QDateTime &lastUpdated);
     void error(const QString &url, int errorId, const QString &errorString);
     void imageDownloadFinished(const QString &url);
     void refreshingChanged(bool refreshing);

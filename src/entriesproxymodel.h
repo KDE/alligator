@@ -1,8 +1,8 @@
 /*
-* SPDX-FileCopyrightText: 2021 Dimitris Kardarakos <dimkard@posteo.net>
-*
-* SPDX-License-Identifier: GPL-3.0-or-later
-*/
+ * SPDX-FileCopyrightText: 2021 Dimitris Kardarakos <dimkard@posteo.net>
+ *
+ * SPDX-License-Identifier: GPL-3.0-or-later
+ */
 
 #pragma once
 
