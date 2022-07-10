@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-08 00:48+0000\n"
+"POT-Creation-Date: 2022-07-10 00:49+0000\n"
 "PO-Revision-Date: 2022-07-09 00:09+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
@@ -27,62 +27,62 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "freekdekruijf@kde.nl"
 
-#: database.cpp:66 database.cpp:314
+#: database.cpp:65 database.cpp:318
 #, kde-format
 msgid "Default"
 msgstr "Standaard"
 
-#: database.cpp:67 database.cpp:315
+#: database.cpp:66 database.cpp:319
 #, kde-format
 msgid "Default Feed Group"
 msgstr "Standaard feed-groep"
 
-#: fetcher.cpp:219
+#: fetcher.cpp:230
 #, kde-format
 msgid "Invalid XML"
 msgstr "Ongeldige XML"
 
-#: fetcher.cpp:221
+#: fetcher.cpp:232
 #, kde-format
 msgid "No parser accepted the XML"
 msgstr "Geen ontleder accepteerde de XML"
 
-#: fetcher.cpp:223
+#: fetcher.cpp:234
 #, kde-format
 msgid "Error while parsing feed"
 msgstr "Fout bij het ontleden van de feed"
 
-#: main.cpp:69
+#: main.cpp:70
 #, kde-format
 msgid "Alligator"
 msgstr "Alligator"
 
-#: main.cpp:69
+#: main.cpp:72
 #, kde-format
 msgid "Feed Reader"
 msgstr "Feedlezer"
 
-#: main.cpp:69
+#: main.cpp:74
 #, kde-format
 msgid "© 2020 KDE Community"
 msgstr "© 2020 KDE gemeenschap"
 
-#: main.cpp:70
+#: main.cpp:75
 #, kde-format
 msgid "Tobias Fella"
 msgstr "Tobias Fella"
 
-#: main.cpp:89
+#: main.cpp:94
 #, kde-format
 msgid "RSS/Atom Feed Reader"
 msgstr "RSS/Atom-feedlezer"
 
-#: main.cpp:91
+#: main.cpp:96
 #, kde-format
 msgid "Adds a new feed to database."
 msgstr "Voegt een nieuwe feed toe aan de database."
 
-#: main.cpp:92
+#: main.cpp:97
 #, kde-format
 msgid "feed URL"
 msgstr "Feed-URL"
@@ -108,7 +108,7 @@ msgid "Cancel"
 msgstr "Annuleren"
 
 #: qml/AlligatorGlobalDrawer.qml:22 qml/EntryListPage.qml:21
-#: qml/EntryListPage.qml:88
+#: qml/EntryListPage.qml:91
 #, kde-format
 msgid "All Entries"
 msgstr "Alle items"
@@ -170,32 +170,32 @@ msgstr "Markeren als ongelezen"
 msgid "Mark as read"
 msgstr "Markeren als gelezen"
 
-#: qml/EntryListPage.qml:41
+#: qml/EntryListPage.qml:44
 #, kde-format
 msgid "Only Unread"
 msgstr "Alleen ongelezen"
 
-#: qml/EntryListPage.qml:49
+#: qml/EntryListPage.qml:52
 #, kde-format
 msgid "Details"
 msgstr "Details"
 
-#: qml/EntryListPage.qml:60
+#: qml/EntryListPage.qml:63
 #, kde-format
 msgid "Refresh"
 msgstr "Vernieuwen"
 
-#: qml/EntryListPage.qml:69
+#: qml/EntryListPage.qml:72
 #, kde-format
 msgid "Error"
 msgstr "Fout"
 
-#: qml/EntryListPage.qml:70 qml/EntryListPage.qml:79
+#: qml/EntryListPage.qml:73 qml/EntryListPage.qml:82
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "Fout (%1): %2"
 
-#: qml/EntryListPage.qml:79
+#: qml/EntryListPage.qml:82
 #, kde-format
 msgid "No entries available"
 msgstr "Geen items beschikbaar"

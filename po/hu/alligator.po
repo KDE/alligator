@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-08 00:48+0000\n"
+"POT-Creation-Date: 2022-07-10 00:49+0000\n"
 "PO-Revision-Date: 2022-02-07 14:08+0100\n"
 "Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -28,62 +28,62 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ulysses@fsf.hu"
 
-#: database.cpp:66 database.cpp:314
+#: database.cpp:65 database.cpp:318
 #, kde-format
 msgid "Default"
 msgstr "Alapértelmezett"
 
-#: database.cpp:67 database.cpp:315
+#: database.cpp:66 database.cpp:319
 #, kde-format
 msgid "Default Feed Group"
 msgstr "Alapértelmezett hírcsoport"
 
-#: fetcher.cpp:219
+#: fetcher.cpp:230
 #, kde-format
 msgid "Invalid XML"
 msgstr ""
 
-#: fetcher.cpp:221
+#: fetcher.cpp:232
 #, kde-format
 msgid "No parser accepted the XML"
 msgstr ""
 
-#: fetcher.cpp:223
+#: fetcher.cpp:234
 #, kde-format
 msgid "Error while parsing feed"
 msgstr ""
 
-#: main.cpp:69
+#: main.cpp:70
 #, kde-format
 msgid "Alligator"
 msgstr "Alligator"
 
-#: main.cpp:69
+#: main.cpp:72
 #, kde-format
 msgid "Feed Reader"
 msgstr "Hírolvasó"
 
-#: main.cpp:69
+#: main.cpp:74
 #, kde-format
 msgid "© 2020 KDE Community"
 msgstr "© A KDE közösség, 2020."
 
-#: main.cpp:70
+#: main.cpp:75
 #, kde-format
 msgid "Tobias Fella"
 msgstr "Tobias Fella"
 
-#: main.cpp:89
+#: main.cpp:94
 #, kde-format
 msgid "RSS/Atom Feed Reader"
 msgstr "RSS/Atom hírolvasó"
 
-#: main.cpp:91
+#: main.cpp:96
 #, kde-format
 msgid "Adds a new feed to database."
 msgstr "Új hírforrás hozzáadása az adatbázishoz."
 
-#: main.cpp:92
+#: main.cpp:97
 #, kde-format
 msgid "feed URL"
 msgstr "Csatorna URL"
@@ -109,7 +109,7 @@ msgid "Cancel"
 msgstr "Mégsem"
 
 #: qml/AlligatorGlobalDrawer.qml:22 qml/EntryListPage.qml:21
-#: qml/EntryListPage.qml:88
+#: qml/EntryListPage.qml:91
 #, kde-format
 msgid "All Entries"
 msgstr "Minden bejegyzés"
@@ -171,33 +171,33 @@ msgstr ""
 msgid "Mark as read"
 msgstr ""
 
-#: qml/EntryListPage.qml:41
+#: qml/EntryListPage.qml:44
 #, fuzzy, kde-format
 #| msgid "Only unread"
 msgid "Only Unread"
 msgstr "Csak olvasatlanok"
 
-#: qml/EntryListPage.qml:49
+#: qml/EntryListPage.qml:52
 #, kde-format
 msgid "Details"
 msgstr "Részletek"
 
-#: qml/EntryListPage.qml:60
+#: qml/EntryListPage.qml:63
 #, kde-format
 msgid "Refresh"
 msgstr "Frissítés"
 
-#: qml/EntryListPage.qml:69
+#: qml/EntryListPage.qml:72
 #, kde-format
 msgid "Error"
 msgstr ""
 
-#: qml/EntryListPage.qml:70 qml/EntryListPage.qml:79
+#: qml/EntryListPage.qml:73 qml/EntryListPage.qml:82
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "Hiba (%1): %2"
 
-#: qml/EntryListPage.qml:79
+#: qml/EntryListPage.qml:82
 #, fuzzy, kde-format
 #| msgid "No Entries available"
 msgid "No entries available"

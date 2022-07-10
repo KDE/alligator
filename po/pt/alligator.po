@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-08 00:48+0000\n"
+"POT-Creation-Date: 2022-07-10 00:49+0000\n"
 "PO-Revision-Date: 2022-07-08 11:59+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -23,62 +23,62 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "zepires@gmail.com"
 
-#: database.cpp:66 database.cpp:314
+#: database.cpp:65 database.cpp:318
 #, kde-format
 msgid "Default"
 msgstr "Predefinição"
 
-#: database.cpp:67 database.cpp:315
+#: database.cpp:66 database.cpp:319
 #, kde-format
 msgid "Default Feed Group"
 msgstr "Grupo de Fontes Predefinido"
 
-#: fetcher.cpp:219
+#: fetcher.cpp:230
 #, kde-format
 msgid "Invalid XML"
 msgstr "XML Inválido"
 
-#: fetcher.cpp:221
+#: fetcher.cpp:232
 #, kde-format
 msgid "No parser accepted the XML"
 msgstr "Não foi possível processar o XML de nenhuma forma"
 
-#: fetcher.cpp:223
+#: fetcher.cpp:234
 #, kde-format
 msgid "Error while parsing feed"
 msgstr "Erro ao processar a fonte"
 
-#: main.cpp:69
+#: main.cpp:70
 #, kde-format
 msgid "Alligator"
 msgstr "Alligator"
 
-#: main.cpp:69
+#: main.cpp:72
 #, kde-format
 msgid "Feed Reader"
 msgstr "Leitor de Fontes"
 
-#: main.cpp:69
+#: main.cpp:74
 #, kde-format
 msgid "© 2020 KDE Community"
 msgstr "© 2020 da Comunidade do KDE"
 
-#: main.cpp:70
+#: main.cpp:75
 #, kde-format
 msgid "Tobias Fella"
 msgstr "Tobias Fella"
 
-#: main.cpp:89
+#: main.cpp:94
 #, kde-format
 msgid "RSS/Atom Feed Reader"
 msgstr "Leitor de Fontes RSS/Atom"
 
-#: main.cpp:91
+#: main.cpp:96
 #, kde-format
 msgid "Adds a new feed to database."
 msgstr "Adiciona uma nova fonte à base de dados."
 
-#: main.cpp:92
+#: main.cpp:97
 #, kde-format
 msgid "feed URL"
 msgstr "URL da fonte"
@@ -104,7 +104,7 @@ msgid "Cancel"
 msgstr "Cancelar"
 
 #: qml/AlligatorGlobalDrawer.qml:22 qml/EntryListPage.qml:21
-#: qml/EntryListPage.qml:88
+#: qml/EntryListPage.qml:91
 #, kde-format
 msgid "All Entries"
 msgstr "Todos os Itens"
@@ -166,32 +166,32 @@ msgstr "Marcar como não-lida"
 msgid "Mark as read"
 msgstr "Marcar como não-lida"
 
-#: qml/EntryListPage.qml:41
+#: qml/EntryListPage.qml:44
 #, kde-format
 msgid "Only Unread"
 msgstr "Apenas as Não-Lidas"
 
-#: qml/EntryListPage.qml:49
+#: qml/EntryListPage.qml:52
 #, kde-format
 msgid "Details"
 msgstr "Detalhes"
 
-#: qml/EntryListPage.qml:60
+#: qml/EntryListPage.qml:63
 #, kde-format
 msgid "Refresh"
 msgstr "Actualizar"
 
-#: qml/EntryListPage.qml:69
+#: qml/EntryListPage.qml:72
 #, kde-format
 msgid "Error"
 msgstr "Erro"
 
-#: qml/EntryListPage.qml:70 qml/EntryListPage.qml:79
+#: qml/EntryListPage.qml:73 qml/EntryListPage.qml:82
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "Erro (%1): %2"
 
-#: qml/EntryListPage.qml:79
+#: qml/EntryListPage.qml:82
 #, kde-format
 msgid "No entries available"
 msgstr "Sem itens disponíveis"

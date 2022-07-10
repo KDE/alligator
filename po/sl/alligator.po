@@ -6,17 +6,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-08 00:48+0000\n"
-"PO-Revision-Date: 2022-02-08 20:18+0100\n"
+"POT-Creation-Date: 2022-07-10 00:49+0000\n"
+"PO-Revision-Date: 2022-07-09 15:24+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
-"%100==4 ? 3 : 0);\n"
-"X-Generator: Poedit 3.0.1\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100>=3 && n"
+"%100<=4 ? 2 : 3);\n"
+"X-Generator: Poedit 3.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -28,62 +28,62 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "matjaz.jeran@amis.net"
 
-#: database.cpp:66 database.cpp:314
+#: database.cpp:65 database.cpp:318
 #, kde-format
 msgid "Default"
 msgstr "Privzeto"
 
-#: database.cpp:67 database.cpp:315
+#: database.cpp:66 database.cpp:319
 #, kde-format
 msgid "Default Feed Group"
-msgstr "Privzeta skupina virov"
+msgstr "Privzeta grupa virov"
 
-#: fetcher.cpp:219
+#: fetcher.cpp:230
 #, kde-format
 msgid "Invalid XML"
-msgstr ""
+msgstr "Neveljaven XML"
 
-#: fetcher.cpp:221
+#: fetcher.cpp:232
 #, kde-format
 msgid "No parser accepted the XML"
-msgstr ""
+msgstr "Noben razčlenjevalnik ni sprejel XML"
 
-#: fetcher.cpp:223
+#: fetcher.cpp:234
 #, kde-format
 msgid "Error while parsing feed"
-msgstr ""
+msgstr "Napaka pri razčlenjevanju vira"
 
-#: main.cpp:69
+#: main.cpp:70
 #, kde-format
 msgid "Alligator"
 msgstr "Alligator"
 
-#: main.cpp:69
+#: main.cpp:72
 #, kde-format
 msgid "Feed Reader"
-msgstr "Bralnik novic"
+msgstr "Bralnik virov"
 
-#: main.cpp:69
+#: main.cpp:74
 #, kde-format
 msgid "© 2020 KDE Community"
 msgstr "© 2020 skupnost KDE"
 
-#: main.cpp:70
+#: main.cpp:75
 #, kde-format
 msgid "Tobias Fella"
 msgstr "Tobias Fella"
 
-#: main.cpp:89
+#: main.cpp:94
 #, kde-format
 msgid "RSS/Atom Feed Reader"
 msgstr "Bralnik novic RSS/Atom"
 
-#: main.cpp:91
+#: main.cpp:96
 #, kde-format
 msgid "Adds a new feed to database."
 msgstr "Dodaj nov vir v podatkovno bazo."
 
-#: main.cpp:92
+#: main.cpp:97
 #, kde-format
 msgid "feed URL"
 msgstr "naslov vira"
@@ -109,7 +109,7 @@ msgid "Cancel"
 msgstr "Prekliči"
 
 #: qml/AlligatorGlobalDrawer.qml:22 qml/EntryListPage.qml:21
-#: qml/EntryListPage.qml:88
+#: qml/EntryListPage.qml:91
 #, kde-format
 msgid "All Entries"
 msgstr "Vsi vnosi"
@@ -122,7 +122,7 @@ msgstr "Vsi viri"
 #: qml/AlligatorGlobalDrawer.qml:44
 #, kde-format
 msgid "Feed Groups"
-msgstr "Skupine virov"
+msgstr "Grupe virov"
 
 #: qml/AlligatorGlobalDrawer.qml:48 qml/AlligatorGlobalDrawer.qml:51
 #: qml/SettingsPage.qml:14
@@ -138,7 +138,7 @@ msgstr "O programu"
 #: qml/AlligatorGlobalDrawer.qml:64
 #, kde-format
 msgid "Configure Groups"
-msgstr "Sestavi skupine"
+msgstr "Konfiguriraj grupe"
 
 #: qml/EditFeedSheet.qml:19
 #, kde-format
@@ -153,7 +153,7 @@ msgstr "Prikaži ime:"
 #: qml/EditFeedSheet.qml:40
 #, kde-format
 msgid "Group:"
-msgstr "Skupina:"
+msgstr "Grupa:"
 
 #: qml/EntryListDelegate.qml:23
 #, kde-format
@@ -164,44 +164,42 @@ msgstr "od"
 #: qml/EntryListDelegate.qml:37
 #, kde-format
 msgid "Mark as unread"
-msgstr ""
+msgstr "Označi kot neprebrano"
 
 #: qml/EntryListDelegate.qml:37
 #, kde-format
 msgid "Mark as read"
-msgstr ""
+msgstr "Označi kot prebrano"
 
-#: qml/EntryListPage.qml:41
-#, fuzzy, kde-format
-#| msgid "Only unread"
+#: qml/EntryListPage.qml:44
+#, kde-format
 msgid "Only Unread"
-msgstr "Samo neprebrane"
+msgstr "Samo neprebrano"
 
-#: qml/EntryListPage.qml:49
+#: qml/EntryListPage.qml:52
 #, kde-format
 msgid "Details"
 msgstr "Podrobnosti"
 
-#: qml/EntryListPage.qml:60
+#: qml/EntryListPage.qml:63
 #, kde-format
 msgid "Refresh"
 msgstr "Osveži"
 
-#: qml/EntryListPage.qml:69
+#: qml/EntryListPage.qml:72
 #, kde-format
 msgid "Error"
-msgstr ""
+msgstr "Napaka"
 
-#: qml/EntryListPage.qml:70 qml/EntryListPage.qml:79
+#: qml/EntryListPage.qml:73 qml/EntryListPage.qml:82
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "Napaka (%1): %2"
 
-#: qml/EntryListPage.qml:79
-#, fuzzy, kde-format
-#| msgid "No Entries available"
+#: qml/EntryListPage.qml:82
+#, kde-format
 msgid "No entries available"
-msgstr "Ni nobenega vnosa"
+msgstr "Nobenega vnosa ni na voljo"
 
 #: qml/EntryPage.qml:43
 #, kde-format
@@ -236,10 +234,9 @@ msgid "%1 posts, %2 unread"
 msgstr "%1 objav, %2 neprebranih"
 
 #: qml/FeedGroupSheet.qml:24
-#, fuzzy, kde-format
-#| msgid "Feed Groups"
+#, kde-format
 msgid "Feed Group"
-msgstr "Skupine virov"
+msgstr "Vir grupe"
 
 #: qml/FeedGroupSheet.qml:32
 #, kde-format
@@ -266,8 +263,7 @@ msgid "Edit"
 msgstr "Uredi"
 
 #: qml/FeedListPage.qml:34
-#, fuzzy, kde-format
-#| msgid "Refresh all feeds"
+#, kde-format
 msgid "Refresh All Feeds"
 msgstr "Osveži vse vire"
 
@@ -282,16 +278,14 @@ msgid "Export Feeds..."
 msgstr "Izvozi vire..."
 
 #: qml/FeedListPage.qml:63
-#, fuzzy, kde-format
-#| msgid "Add Feed"
+#, kde-format
 msgid "Add Feed…"
-msgstr "Dodaj vir"
+msgstr "Dodaj vir…"
 
 #: qml/FeedListPage.qml:77
-#, fuzzy, kde-format
-#| msgid "No Feeds added yet"
+#, kde-format
 msgid "No feeds added yet"
-msgstr "Še ni nobenih virov"
+msgstr "Ni dodanih nobenih virov"
 
 #: qml/FeedListPage.qml:105
 #, kde-format
@@ -329,10 +323,9 @@ msgid "Groups"
 msgstr "Skupine"
 
 #: qml/GroupsListPage.qml:22
-#, fuzzy, kde-format
-#| msgid "Add Group"
+#, kde-format
 msgid "Add Group…"
-msgstr "Dodaj skupino"
+msgstr "Dodaj grupo…"
 
 #: qml/GroupsListPage.qml:48
 #, kde-format
@@ -340,8 +333,7 @@ msgid "Remove"
 msgstr "Odstrani"
 
 #: qml/GroupsListPage.qml:56
-#, fuzzy, kde-format
-#| msgid "Set as default"
+#, kde-format
 msgid "Set as Default"
 msgstr "Nastavi kot privzeto"
 

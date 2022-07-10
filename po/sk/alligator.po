@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-08 00:48+0000\n"
+"POT-Creation-Date: 2022-07-10 00:49+0000\n"
 "PO-Revision-Date: 2022-04-07 17:50+0200\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
@@ -25,63 +25,63 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "wizzardsk@gmail.com"
 
-#: database.cpp:66 database.cpp:314
+#: database.cpp:65 database.cpp:318
 #, fuzzy, kde-format
 msgid "Default"
 msgstr "Predvolené"
 
-#: database.cpp:67 database.cpp:315
+#: database.cpp:66 database.cpp:319
 #, kde-format
 msgid "Default Feed Group"
 msgstr ""
 
-#: fetcher.cpp:219
+#: fetcher.cpp:230
 #, kde-format
 msgid "Invalid XML"
 msgstr ""
 
-#: fetcher.cpp:221
+#: fetcher.cpp:232
 #, kde-format
 msgid "No parser accepted the XML"
 msgstr ""
 
-#: fetcher.cpp:223
+#: fetcher.cpp:234
 #, kde-format
 msgid "Error while parsing feed"
 msgstr ""
 
-#: main.cpp:69
+#: main.cpp:70
 #, kde-format
 msgid "Alligator"
 msgstr "Alligator"
 
-#: main.cpp:69
+#: main.cpp:72
 #, kde-format
 msgid "Feed Reader"
 msgstr "Čítačka RSS kanálov"
 
-#: main.cpp:69
+#: main.cpp:74
 #, kde-format
 msgid "© 2020 KDE Community"
 msgstr "© 2020 KDE komunita"
 
-#: main.cpp:70
+#: main.cpp:75
 #, kde-format
 msgid "Tobias Fella"
 msgstr "Tobias Fella"
 
-#: main.cpp:89
+#: main.cpp:94
 #, fuzzy, kde-format
 #| msgid "Feed Reader"
 msgid "RSS/Atom Feed Reader"
 msgstr "Čítačka RSS kanálov"
 
-#: main.cpp:91
+#: main.cpp:96
 #, kde-format
 msgid "Adds a new feed to database."
 msgstr ""
 
-#: main.cpp:92
+#: main.cpp:97
 #, fuzzy, kde-format
 msgid "feed URL"
 msgstr "&URL kanálu:"
@@ -107,7 +107,7 @@ msgid "Cancel"
 msgstr "Zrušiť"
 
 #: qml/AlligatorGlobalDrawer.qml:22 qml/EntryListPage.qml:21
-#: qml/EntryListPage.qml:88
+#: qml/EntryListPage.qml:91
 #, kde-format
 msgid "All Entries"
 msgstr "Zobraziť položky"
@@ -170,32 +170,32 @@ msgstr ""
 msgid "Mark as read"
 msgstr ""
 
-#: qml/EntryListPage.qml:41
+#: qml/EntryListPage.qml:44
 #, kde-format
 msgid "Only Unread"
 msgstr ""
 
-#: qml/EntryListPage.qml:49
+#: qml/EntryListPage.qml:52
 #, kde-format
 msgid "Details"
 msgstr "Podrobnosti"
 
-#: qml/EntryListPage.qml:60
+#: qml/EntryListPage.qml:63
 #, fuzzy, kde-format
 msgid "Refresh"
 msgstr "Obnoviť"
 
-#: qml/EntryListPage.qml:69
+#: qml/EntryListPage.qml:72
 #, kde-format
 msgid "Error"
 msgstr ""
 
-#: qml/EntryListPage.qml:70 qml/EntryListPage.qml:79
+#: qml/EntryListPage.qml:73 qml/EntryListPage.qml:82
 #, fuzzy, kde-format
 msgid "Error (%1): %2"
 msgstr "Chyba"
 
-#: qml/EntryListPage.qml:79
+#: qml/EntryListPage.qml:82
 #, kde-format
 msgid "No entries available"
 msgstr ""
