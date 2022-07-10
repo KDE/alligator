@@ -6,10 +6,10 @@
 
 #include "entry.h"
 
+#include <QDesktopServices>
 #include <QRegularExpression>
 #include <QSqlQuery>
 #include <QUrl>
-#include <QDesktopServices>
 
 #include "database.h"
 

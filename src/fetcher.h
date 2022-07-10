@@ -40,7 +40,10 @@ private:
     void processEnclosure(Syndication::EnclosurePtr enclosure, Syndication::ItemPtr entry, const QString &feedUrl);
     QString syndicationErrorToString(Syndication::ErrorCode errorCode);
 
-    bool refreshing() const { return m_fetchCount > 0; };
+    bool refreshing() const
+    {
+        return m_fetchCount > 0;
+    };
     void setFetchCount(int count);
 
     int m_fetchCount;

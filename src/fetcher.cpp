@@ -34,12 +34,12 @@ void Fetcher::fetch(const QString &url)
     qDebug() << "Starting to fetch" << url;
 
     Q_EMIT startedFetchingFeed(url);
-    setFetchCount(m_fetchCount+1);
+    setFetchCount(m_fetchCount + 1);
 
     QNetworkRequest request((QUrl(url)));
     QNetworkReply *reply = get(request);
     connect(reply, &QNetworkReply::finished, this, [this, url, reply]() {
-        setFetchCount(m_fetchCount-1);
+        setFetchCount(m_fetchCount - 1);
         if (reply->error()) {
             qWarning() << "Error fetching feed";
             qWarning() << reply->errorString();
