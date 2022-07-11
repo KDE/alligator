@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-07-10 00:49+0000\n"
-"PO-Revision-Date: 2022-07-02 10:58\n"
+"PO-Revision-Date: 2022-07-10 09:18\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -172,10 +172,9 @@ msgid "Mark as read"
 msgstr ""
 
 #: qml/EntryListPage.qml:44
-#, fuzzy, kde-format
-#| msgid "Only unread"
+#, kde-format
 msgid "Only Unread"
-msgstr "仅未读项"
+msgstr ""
 
 #: qml/EntryListPage.qml:52
 #, kde-format
@@ -198,10 +197,9 @@ msgid "Error (%1): %2"
 msgstr "错误 (%1)：%2"
 
 #: qml/EntryListPage.qml:82
-#, fuzzy, kde-format
-#| msgid "No Entries available"
+#, kde-format
 msgid "No entries available"
-msgstr "无可用新闻"
+msgstr ""
 
 #: qml/EntryPage.qml:43
 #, kde-format
@@ -236,10 +234,9 @@ msgid "%1 posts, %2 unread"
 msgstr "%1 篇文章，%2 篇未读"
 
 #: qml/FeedGroupSheet.qml:24
-#, fuzzy, kde-format
-#| msgid "Feed Groups"
+#, kde-format
 msgid "Feed Group"
-msgstr "新闻源分组"
+msgstr ""
 
 #: qml/FeedGroupSheet.qml:32
 #, kde-format
@@ -263,10 +260,9 @@ msgid "Edit"
 msgstr "编辑"
 
 #: qml/FeedListPage.qml:34
-#, fuzzy, kde-format
-#| msgid "Refresh all feeds"
+#, kde-format
 msgid "Refresh All Feeds"
-msgstr "刷新全部新闻源"
+msgstr ""
 
 #: qml/FeedListPage.qml:40
 #, kde-format
@@ -279,16 +275,14 @@ msgid "Export Feeds..."
 msgstr "导出新闻源..."
 
 #: qml/FeedListPage.qml:63
-#, fuzzy, kde-format
-#| msgid "Add Feed"
+#, kde-format
 msgid "Add Feed…"
-msgstr "添加新闻源"
+msgstr ""
 
 #: qml/FeedListPage.qml:77
-#, fuzzy, kde-format
-#| msgid "No Feeds added yet"
+#, kde-format
 msgid "No feeds added yet"
-msgstr "尚未添加新闻源"
+msgstr ""
 
 #: qml/FeedListPage.qml:105
 #, kde-format
@@ -326,10 +320,9 @@ msgid "Groups"
 msgstr "分组"
 
 #: qml/GroupsListPage.qml:22
-#, fuzzy, kde-format
-#| msgid "Add Group"
+#, kde-format
 msgid "Add Group…"
-msgstr "添加分组"
+msgstr ""
 
 #: qml/GroupsListPage.qml:48
 #, kde-format
@@ -337,10 +330,9 @@ msgid "Remove"
 msgstr "移除"
 
 #: qml/GroupsListPage.qml:56
-#, fuzzy, kde-format
-#| msgid "Set as default"
+#, kde-format
 msgid "Set as Default"
-msgstr "设为默认"
+msgstr ""
 
 #: qml/GroupsListPage.qml:65
 #, kde-format
@@ -401,9 +393,3 @@ msgstr "字体大小："
 #, kde-format
 msgid "Use system default"
 msgstr "使用系统默认值"
-
-#~ msgid "Feed group"
-#~ msgstr "新闻源分组"
-
-#~ msgid "Add feed"
-#~ msgstr "添加新闻源"
