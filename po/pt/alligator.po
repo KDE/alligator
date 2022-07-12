@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-07-10 00:49+0000\n"
-"PO-Revision-Date: 2022-07-08 11:59+0100\n"
+"PO-Revision-Date: 2022-07-11 14:43+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -164,7 +164,7 @@ msgstr "Marcar como não-lida"
 #: qml/EntryListDelegate.qml:37
 #, kde-format
 msgid "Mark as read"
-msgstr "Marcar como não-lida"
+msgstr "Marcar como lida"
 
 #: qml/EntryListPage.qml:44
 #, kde-format
