@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-07-10 00:49+0000\n"
-"PO-Revision-Date: 2022-02-16 22:09+0100\n"
+"PO-Revision-Date: 2022-07-14 22:44+0200\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 21.12.2\n"
+"X-Generator: Lokalize 22.04.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -40,17 +40,17 @@ msgstr "Gruppo predefinite de syndication"
 #: fetcher.cpp:230
 #, kde-format
 msgid "Invalid XML"
-msgstr ""
+msgstr "XML invalide"
 
 #: fetcher.cpp:232
 #, kde-format
 msgid "No parser accepted the XML"
-msgstr ""
+msgstr "Necun analysator acceptava le XML"
 
 #: fetcher.cpp:234
 #, kde-format
 msgid "Error while parsing feed"
-msgstr ""
+msgstr "Error durante que analysava syndication"
 
 #: main.cpp:70
 #, kde-format
@@ -163,16 +163,15 @@ msgstr "per"
 #: qml/EntryListDelegate.qml:37
 #, kde-format
 msgid "Mark as unread"
-msgstr ""
+msgstr "Marca como non legite"
 
 #: qml/EntryListDelegate.qml:37
 #, kde-format
 msgid "Mark as read"
-msgstr ""
+msgstr "Marca como legite"
 
 #: qml/EntryListPage.qml:44
-#, fuzzy, kde-format
-#| msgid "Only unread"
+#, kde-format
 msgid "Only Unread"
 msgstr "Solmente Non Legite"
 
@@ -189,7 +188,7 @@ msgstr "Refresca"
 #: qml/EntryListPage.qml:72
 #, kde-format
 msgid "Error"
-msgstr ""
+msgstr "Error"
 
 #: qml/EntryListPage.qml:73 qml/EntryListPage.qml:82
 #, kde-format
@@ -197,8 +196,7 @@ msgid "Error (%1): %2"
 msgstr "Error (%1): %2"
 
 #: qml/EntryListPage.qml:82
-#, fuzzy, kde-format
-#| msgid "No Entries available"
+#, kde-format
 msgid "No entries available"
 msgstr "Necun entratas disponibile."
 
@@ -235,10 +233,9 @@ msgid "%1 posts, %2 unread"
 msgstr "%1 posts (messages public), %2 non legite"
 
 #: qml/FeedGroupSheet.qml:24
-#, fuzzy, kde-format
-#| msgid "Feed Groups"
+#, kde-format
 msgid "Feed Group"
-msgstr "Gruppos de syndication"
+msgstr "Gruppo de syndication"
 
 #: qml/FeedGroupSheet.qml:32
 #, kde-format
@@ -263,8 +260,7 @@ msgid "Edit"
 msgstr "Modifica"
 
 #: qml/FeedListPage.qml:34
-#, fuzzy, kde-format
-#| msgid "Refresh all feeds"
+#, kde-format
 msgid "Refresh All Feeds"
 msgstr "Refresca omne syndicationes"
 
@@ -279,14 +275,12 @@ msgid "Export Feeds..."
 msgstr "Exporta syndicationes..."
 
 #: qml/FeedListPage.qml:63
-#, fuzzy, kde-format
-#| msgid "Add Feed"
+#, kde-format
 msgid "Add Feed…"
-msgstr "Adde syndication"
+msgstr "Adde syndication ..."
 
 #: qml/FeedListPage.qml:77
-#, fuzzy, kde-format
-#| msgid "No Feeds added yet"
+#, kde-format
 msgid "No feeds added yet"
 msgstr "Necun syndication addite totevia."
 
@@ -326,10 +320,9 @@ msgid "Groups"
 msgstr "Gruppos"
 
 #: qml/GroupsListPage.qml:22
-#, fuzzy, kde-format
-#| msgid "Add Group"
+#, kde-format
 msgid "Add Group…"
-msgstr "Adde Gruppo"
+msgstr "Adde Gruppo..."
 
 #: qml/GroupsListPage.qml:48
 #, kde-format
@@ -337,10 +330,9 @@ msgid "Remove"
 msgstr "Remove"
 
 #: qml/GroupsListPage.qml:56
-#, fuzzy, kde-format
-#| msgid "Set as default"
+#, kde-format
 msgid "Set as Default"
-msgstr "Fixa como predefinite"
+msgstr "Marca como Predefinite"
 
 #: qml/GroupsListPage.qml:65
 #, kde-format
