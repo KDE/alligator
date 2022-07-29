@@ -152,7 +152,7 @@ msgstr "Edita la font"
 #: qml/EditFeedSheet.qml:30
 #, kde-format
 msgid "Display Name:"
-msgstr "Nom a mostrar:"
+msgstr "Nom que es mostrarà:"
 
 #: qml/EditFeedSheet.qml:40
 #, kde-format
