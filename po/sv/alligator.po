@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-07-10 00:49+0000\n"
-"PO-Revision-Date: 2022-02-10 17:57+0100\n"
+"PO-Revision-Date: 2022-08-03 13:24+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -40,17 +40,17 @@ msgstr "Förvald kanalgrupp"
 #: fetcher.cpp:230
 #, kde-format
 msgid "Invalid XML"
-msgstr ""
+msgstr "Ogiltig XML-data"
 
 #: fetcher.cpp:232
 #, kde-format
 msgid "No parser accepted the XML"
-msgstr ""
+msgstr "Ingen tolk accepterade XML-data"
 
 #: fetcher.cpp:234
 #, kde-format
 msgid "Error while parsing feed"
-msgstr ""
+msgstr "Fel vid tolkning av kanal"
 
 #: main.cpp:70
 #, kde-format
@@ -163,16 +163,15 @@ msgstr "av"
 #: qml/EntryListDelegate.qml:37
 #, kde-format
 msgid "Mark as unread"
-msgstr ""
+msgstr "Markera som oläst"
 
 #: qml/EntryListDelegate.qml:37
 #, kde-format
 msgid "Mark as read"
-msgstr ""
+msgstr "Markera som läst"
 
 #: qml/EntryListPage.qml:44
-#, fuzzy, kde-format
-#| msgid "Only unread"
+#, kde-format
 msgid "Only Unread"
 msgstr "Bara olästa"
 
@@ -189,7 +188,7 @@ msgstr "Uppdatera"
 #: qml/EntryListPage.qml:72
 #, kde-format
 msgid "Error"
-msgstr ""
+msgstr "Fel"
 
 #: qml/EntryListPage.qml:73 qml/EntryListPage.qml:82
 #, kde-format
@@ -197,8 +196,7 @@ msgid "Error (%1): %2"
 msgstr "Fel (%1): %2"
 
 #: qml/EntryListPage.qml:82
-#, fuzzy, kde-format
-#| msgid "No Entries available"
+#, kde-format
 msgid "No entries available"
 msgstr "Inga artiklar tillgängliga"
 
@@ -235,10 +233,9 @@ msgid "%1 posts, %2 unread"
 msgstr "%1 inlägg, %2 olästa"
 
 #: qml/FeedGroupSheet.qml:24
-#, fuzzy, kde-format
-#| msgid "Feed Groups"
+#, kde-format
 msgid "Feed Group"
-msgstr "Kanalgrupper"
+msgstr "Kanalgrupp"
 
 #: qml/FeedGroupSheet.qml:32
 #, kde-format
@@ -263,8 +260,7 @@ msgid "Edit"
 msgstr "Redigera"
 
 #: qml/FeedListPage.qml:34
-#, fuzzy, kde-format
-#| msgid "Refresh all feeds"
+#, kde-format
 msgid "Refresh All Feeds"
 msgstr "Uppdatera alla kanaler"
 
@@ -279,14 +275,12 @@ msgid "Export Feeds..."
 msgstr "Exportera kanaler..."
 
 #: qml/FeedListPage.qml:63
-#, fuzzy, kde-format
-#| msgid "Add Feed"
+#, kde-format
 msgid "Add Feed…"
-msgstr "Lägg till kanal"
+msgstr "Lägg till kanal…"
 
 #: qml/FeedListPage.qml:77
-#, fuzzy, kde-format
-#| msgid "No Feeds added yet"
+#, kde-format
 msgid "No feeds added yet"
 msgstr "Inga kanaler tillagda ännu"
 
@@ -326,10 +320,9 @@ msgid "Groups"
 msgstr "Grupper"
 
 #: qml/GroupsListPage.qml:22
-#, fuzzy, kde-format
-#| msgid "Add Group"
+#, kde-format
 msgid "Add Group…"
-msgstr "Lägg till grupp"
+msgstr "Lägg till grupp…"
 
 #: qml/GroupsListPage.qml:48
 #, kde-format
@@ -337,8 +330,7 @@ msgid "Remove"
 msgstr "Ta bort"
 
 #: qml/GroupsListPage.qml:56
-#, fuzzy, kde-format
-#| msgid "Set as default"
+#, kde-format
 msgid "Set as Default"
 msgstr "Använd som förval"
 
