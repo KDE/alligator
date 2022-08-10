@@ -23,7 +23,7 @@ public:
         static Fetcher _instance;
         return _instance;
     }
-    Q_INVOKABLE void fetch(const QString &url);
+    Q_INVOKABLE void fetch(const QString &url, const bool markEntriesRead = false);
     Q_INVOKABLE void fetchAll();
     Q_INVOKABLE QString image(const QString &url);
     void removeImage(const QString &url);
@@ -34,8 +34,8 @@ private:
     Fetcher();
 
     QString filePath(const QString &url);
-    void processFeed(Syndication::FeedPtr feed, const QString &url);
-    void processEntry(Syndication::ItemPtr entry, const QString &url);
+    void processFeed(Syndication::FeedPtr feed, const QString &url, const bool markEntriesRead = false);
+    void processEntry(Syndication::ItemPtr entry, const QString &url, const bool markEntriesRead = false);
     void processAuthor(Syndication::PersonPtr author, const QString &entryId, const QString &url);
     void processEnclosure(Syndication::EnclosurePtr enclosure, Syndication::ItemPtr entry, const QString &feedUrl);
     QString syndicationErrorToString(Syndication::ErrorCode errorCode);

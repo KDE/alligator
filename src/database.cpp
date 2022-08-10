@@ -161,7 +161,7 @@ bool Database::feedExists(const QString &url)
     return query.value(0).toInt() != 0;
 }
 
-void Database::addFeed(const QString &url, const QString &groupName)
+void Database::addFeed(const QString &url, const QString &groupName, const bool markEntriesRead)
 {
     qDebug() << "Adding feed";
     if (feedExists(url)) {
@@ -191,7 +191,7 @@ void Database::addFeed(const QString &url, const QString &groupName)
 
     Q_EMIT feedAdded(urlFromInput.toString());
 
-    Fetcher::instance().fetch(urlFromInput.toString());
+    Fetcher::instance().fetch(urlFromInput.toString(), markEntriesRead);
 }
 
 void Database::importFeeds(const QString &path)

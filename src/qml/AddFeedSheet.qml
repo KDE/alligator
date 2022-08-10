@@ -29,6 +29,11 @@ Kirigami.OverlaySheet {
             Layout.fillWidth: true
             text: "https://planet.kde.org/global/atom.xml/"
         }
+        Controls.CheckBox {
+            id: markFeedAsRead
+            checked: false
+            text: i18n("Mark entries as read")
+        }
     }
 
     footer: RowLayout {
@@ -41,7 +46,7 @@ Kirigami.OverlaySheet {
             enabled: urlField.text
 
             onClicked: {
-                Database.addFeed(urlField.text, addSheet.groupName)
+                Database.addFeed(urlField.text, addSheet.groupName, markFeedAsRead.checked)
                 addSheet.close()
             }
         }

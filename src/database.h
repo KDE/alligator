@@ -20,7 +20,7 @@ public:
     }
     bool execute(QSqlQuery &query);
     bool execute(const QString &query);
-    Q_INVOKABLE void addFeed(const QString &url, const QString &groupName = QString());
+    Q_INVOKABLE void addFeed(const QString &url, const QString &groupName = QString(), const bool markEntriesRead = false);
     Q_INVOKABLE void importFeeds(const QString &path);
     Q_INVOKABLE void exportFeeds(const QString &path);
     Q_INVOKABLE void addFeedGroup(const QString &name, const QString &description, const int isDefault = 0);

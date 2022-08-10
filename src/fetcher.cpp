@@ -29,7 +29,7 @@ Fetcher::Fetcher()
     manager->enableStrictTransportSecurityStore(true);
 }
 
-void Fetcher::fetch(const QString &url)
+void Fetcher::fetch(const QString &url, const bool markEntriesRead)
 {
     qDebug() << "Starting to fetch" << url;
 
@@ -38,7 +38,7 @@ void Fetcher::fetch(const QString &url)
 
     QNetworkRequest request((QUrl(url)));
     QNetworkReply *reply = get(request);
-    connect(reply, &QNetworkReply::finished, this, [this, url, reply]() {
+    connect(reply, &QNetworkReply::finished, this, [this, url, reply, markEntriesRead]() {
         setFetchCount(m_fetchCount - 1);
         if (reply->error()) {
             qWarning() << "Error fetching feed";
@@ -48,7 +48,7 @@ void Fetcher::fetch(const QString &url)
             QByteArray data = reply->readAll();
             Syndication::DocumentSource document(data, url);
             Syndication::FeedPtr feed = Syndication::parserCollection()->parse(document, QStringLiteral("Atom"));
-            processFeed(feed, url);
+            processFeed(feed, url, markEntriesRead);
         }
         delete reply;
     });
@@ -70,7 +70,7 @@ void Fetcher::setFetchCount(int count)
     Q_EMIT refreshingChanged(refreshing());
 }
 
-void Fetcher::processFeed(Syndication::FeedPtr feed, const QString &url)
+void Fetcher::processFeed(Syndication::FeedPtr feed, const QString &url, const bool markEntriesRead)
 {
     if (feed.isNull()) {
         Syndication::ErrorCode errorCode = Syndication::parserCollection()->lastError();
@@ -107,13 +107,13 @@ void Fetcher::processFeed(Syndication::FeedPtr feed, const QString &url)
     Q_EMIT feedDetailsUpdated(url, feed->title(), image, feed->link(), feed->description(), current);
 
     for (const auto &entry : feed->items()) {
-        processEntry(entry, url);
+        processEntry(entry, url, markEntriesRead);
     }
 
     Q_EMIT feedUpdated(url);
 }
 
-void Fetcher::processEntry(Syndication::ItemPtr entry, const QString &url)
+void Fetcher::processEntry(Syndication::ItemPtr entry, const QString &url, const bool markEntriesRead)
 {
     qDebug() << "Processing" << entry->title();
     QSqlQuery query;
@@ -126,13 +126,14 @@ void Fetcher::processEntry(Syndication::ItemPtr entry, const QString &url)
         return;
     }
 
-    query.prepare(QStringLiteral("INSERT INTO Entries VALUES (:feed, :id, :title, :content, :created, :updated, :link, 0);"));
+    query.prepare(QStringLiteral("INSERT INTO Entries VALUES (:feed, :id, :title, :content, :created, :updated, :link, :read);"));
     query.bindValue(QStringLiteral(":feed"), url);
     query.bindValue(QStringLiteral(":id"), entry->id());
     query.bindValue(QStringLiteral(":title"), QTextDocumentFragment::fromHtml(entry->title()).toPlainText());
     query.bindValue(QStringLiteral(":created"), static_cast<int>(entry->datePublished()));
     query.bindValue(QStringLiteral(":updated"), static_cast<int>(entry->dateUpdated()));
     query.bindValue(QStringLiteral(":link"), entry->link());
+    query.bindValue(QStringLiteral(":read"), markEntriesRead);
 
     if (!entry->content().isEmpty()) {
         query.bindValue(QStringLiteral(":content"), entry->content());
