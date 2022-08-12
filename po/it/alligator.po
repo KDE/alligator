@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-10 00:49+0000\n"
+"POT-Creation-Date: 2022-08-12 00:47+0000\n"
 "PO-Revision-Date: 2022-07-10 22:57+0200\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
@@ -37,17 +37,17 @@ msgstr "Predefinito"
 msgid "Default Feed Group"
 msgstr "Gruppo di fonti predefinito"
 
-#: fetcher.cpp:230
+#: fetcher.cpp:231
 #, kde-format
 msgid "Invalid XML"
 msgstr "XML non valido"
 
-#: fetcher.cpp:232
+#: fetcher.cpp:233
 #, kde-format
 msgid "No parser accepted the XML"
 msgstr "Nessun parser ha accettato l'XML"
 
-#: fetcher.cpp:234
+#: fetcher.cpp:235
 #, kde-format
 msgid "Error while parsing feed"
 msgstr "Errore durante l'analisi della fonte"
@@ -97,18 +97,24 @@ msgstr "Aggiungi fonte"
 msgid "Url:"
 msgstr "Url:"
 
-#: qml/AddFeedSheet.qml:40 qml/EditFeedSheet.qml:50 qml/FeedGroupSheet.qml:49
+#: qml/AddFeedSheet.qml:35
+#, fuzzy, kde-format
+#| msgid "Mark as read"
+msgid "Mark entries as read"
+msgstr "Marca come letto"
+
+#: qml/AddFeedSheet.qml:45 qml/EditFeedSheet.qml:50 qml/FeedGroupSheet.qml:49
 #, kde-format
 msgid "OK"
 msgstr "OK"
 
-#: qml/AddFeedSheet.qml:50 qml/EditFeedSheet.qml:59 qml/FeedGroupSheet.qml:60
+#: qml/AddFeedSheet.qml:55 qml/EditFeedSheet.qml:59 qml/FeedGroupSheet.qml:60
 #, kde-format
 msgid "Cancel"
 msgstr "Annulla"
 
 #: qml/AlligatorGlobalDrawer.qml:22 qml/EntryListPage.qml:21
-#: qml/EntryListPage.qml:91
+#: qml/EntryListPage.qml:95
 #, kde-format
 msgid "All Entries"
 msgstr "Tutte le voci"
@@ -190,12 +196,18 @@ msgstr "Aggiorna"
 msgid "Error"
 msgstr "Errore"
 
-#: qml/EntryListPage.qml:73 qml/EntryListPage.qml:82
+#: qml/EntryListPage.qml:73 qml/EntryListPage.qml:85
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "Errore (%1): %2"
 
-#: qml/EntryListPage.qml:82
+#: qml/EntryListPage.qml:83
+#, fuzzy, kde-format
+#| msgid "No entries available"
+msgid "No unread entries available"
+msgstr "Nessuna voce disponibile"
+
+#: qml/EntryListPage.qml:83
 #, kde-format
 msgid "No entries available"
 msgstr "Nessuna voce disponibile"

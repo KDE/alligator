@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-10 00:49+0000\n"
+"POT-Creation-Date: 2022-08-12 00:47+0000\n"
 "PO-Revision-Date: 2022-07-15 14:30+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -40,17 +40,17 @@ msgstr "Lehenetsia"
 msgid "Default Feed Group"
 msgstr "Jario-talde lehenetsia"
 
-#: fetcher.cpp:230
+#: fetcher.cpp:231
 #, kde-format
 msgid "Invalid XML"
 msgstr "XML baliogabea"
 
-#: fetcher.cpp:232
+#: fetcher.cpp:233
 #, kde-format
 msgid "No parser accepted the XML"
 msgstr "Ez dago XMLa onartu duen aztertzaile sintaktikorik"
 
-#: fetcher.cpp:234
+#: fetcher.cpp:235
 #, kde-format
 msgid "Error while parsing feed"
 msgstr "Errorea jarioaren sintaxia aztertzean"
@@ -100,18 +100,24 @@ msgstr "Gehitu jarioa"
 msgid "Url:"
 msgstr "URL:"
 
-#: qml/AddFeedSheet.qml:40 qml/EditFeedSheet.qml:50 qml/FeedGroupSheet.qml:49
+#: qml/AddFeedSheet.qml:35
+#, fuzzy, kde-format
+#| msgid "Mark as read"
+msgid "Mark entries as read"
+msgstr "Markatu irakurritako gisa"
+
+#: qml/AddFeedSheet.qml:45 qml/EditFeedSheet.qml:50 qml/FeedGroupSheet.qml:49
 #, kde-format
 msgid "OK"
 msgstr "Ados"
 
-#: qml/AddFeedSheet.qml:50 qml/EditFeedSheet.qml:59 qml/FeedGroupSheet.qml:60
+#: qml/AddFeedSheet.qml:55 qml/EditFeedSheet.qml:59 qml/FeedGroupSheet.qml:60
 #, kde-format
 msgid "Cancel"
 msgstr "Utzi"
 
 #: qml/AlligatorGlobalDrawer.qml:22 qml/EntryListPage.qml:21
-#: qml/EntryListPage.qml:91
+#: qml/EntryListPage.qml:95
 #, kde-format
 msgid "All Entries"
 msgstr "Sarrera guztiak"
@@ -193,12 +199,18 @@ msgstr "Freskatu"
 msgid "Error"
 msgstr "Errorea"
 
-#: qml/EntryListPage.qml:73 qml/EntryListPage.qml:82
+#: qml/EntryListPage.qml:73 qml/EntryListPage.qml:85
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "Errorea (%1): %2"
 
-#: qml/EntryListPage.qml:82
+#: qml/EntryListPage.qml:83
+#, fuzzy, kde-format
+#| msgid "No entries available"
+msgid "No unread entries available"
+msgstr "Ez dago sarrera erabilgarririk"
+
+#: qml/EntryListPage.qml:83
 #, kde-format
 msgid "No entries available"
 msgstr "Ez dago sarrera erabilgarririk"

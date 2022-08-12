@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-10 00:49+0000\n"
+"POT-Creation-Date: 2022-08-12 00:47+0000\n"
 "PO-Revision-Date: 2022-02-20 10:15+0100\n"
 "Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
 "Language-Team: German <kde-i18n-doc@kde.org>\n"
@@ -38,17 +38,17 @@ msgstr "Standard"
 msgid "Default Feed Group"
 msgstr "Standard-Nachrichtenquelle"
 
-#: fetcher.cpp:230
+#: fetcher.cpp:231
 #, kde-format
 msgid "Invalid XML"
 msgstr ""
 
-#: fetcher.cpp:232
+#: fetcher.cpp:233
 #, kde-format
 msgid "No parser accepted the XML"
 msgstr ""
 
-#: fetcher.cpp:234
+#: fetcher.cpp:235
 #, kde-format
 msgid "Error while parsing feed"
 msgstr ""
@@ -98,18 +98,23 @@ msgstr "Nachrichtenquelle hinzufügen"
 msgid "Url:"
 msgstr "Url:"
 
-#: qml/AddFeedSheet.qml:40 qml/EditFeedSheet.qml:50 qml/FeedGroupSheet.qml:49
+#: qml/AddFeedSheet.qml:35
+#, kde-format
+msgid "Mark entries as read"
+msgstr ""
+
+#: qml/AddFeedSheet.qml:45 qml/EditFeedSheet.qml:50 qml/FeedGroupSheet.qml:49
 #, kde-format
 msgid "OK"
 msgstr "OK"
 
-#: qml/AddFeedSheet.qml:50 qml/EditFeedSheet.qml:59 qml/FeedGroupSheet.qml:60
+#: qml/AddFeedSheet.qml:55 qml/EditFeedSheet.qml:59 qml/FeedGroupSheet.qml:60
 #, kde-format
 msgid "Cancel"
 msgstr "Abbrechen"
 
 #: qml/AlligatorGlobalDrawer.qml:22 qml/EntryListPage.qml:21
-#: qml/EntryListPage.qml:91
+#: qml/EntryListPage.qml:95
 #, kde-format
 msgid "All Entries"
 msgstr "Alle Einträge"
@@ -192,12 +197,18 @@ msgstr "Aktualisieren"
 msgid "Error"
 msgstr ""
 
-#: qml/EntryListPage.qml:73 qml/EntryListPage.qml:82
+#: qml/EntryListPage.qml:73 qml/EntryListPage.qml:85
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "Fehler (%1): %2"
 
-#: qml/EntryListPage.qml:82
+#: qml/EntryListPage.qml:83
+#, fuzzy, kde-format
+#| msgid "No Entries available"
+msgid "No unread entries available"
+msgstr "Keine Einträge verfügbar"
+
+#: qml/EntryListPage.qml:83
 #, fuzzy, kde-format
 #| msgid "No Entries available"
 msgid "No entries available"
