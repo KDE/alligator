@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-08-12 00:47+0000\n"
-"PO-Revision-Date: 2022-07-15 14:30+0200\n"
+"PO-Revision-Date: 2022-08-14 21:33+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -101,10 +101,9 @@ msgid "Url:"
 msgstr "URL:"
 
 #: qml/AddFeedSheet.qml:35
-#, fuzzy, kde-format
-#| msgid "Mark as read"
+#, kde-format
 msgid "Mark entries as read"
-msgstr "Markatu irakurritako gisa"
+msgstr "Markatu sarrerak irakurritako gisa"
 
 #: qml/AddFeedSheet.qml:45 qml/EditFeedSheet.qml:50 qml/FeedGroupSheet.qml:49
 #, kde-format
@@ -205,10 +204,9 @@ msgid "Error (%1): %2"
 msgstr "Errorea (%1): %2"
 
 #: qml/EntryListPage.qml:83
-#, fuzzy, kde-format
-#| msgid "No entries available"
+#, kde-format
 msgid "No unread entries available"
-msgstr "Ez dago sarrera erabilgarririk"
+msgstr "Ez dago irakurri gabeko sarrerarik"
 
 #: qml/EntryListPage.qml:83
 #, kde-format
