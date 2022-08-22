@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-08-12 00:47+0000\n"
-"PO-Revision-Date: 2022-02-20 10:15+0100\n"
+"PO-Revision-Date: 2022-08-20 20:33+0200\n"
 "Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
-"Language-Team: German <kde-i18n-doc@kde.org>\n"
+"Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 21.08.0\n"
+"X-Generator: Lokalize 21.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -41,17 +41,17 @@ msgstr "Standard-Nachrichtenquelle"
 #: fetcher.cpp:231
 #, kde-format
 msgid "Invalid XML"
-msgstr ""
+msgstr "Ungültiges XML"
 
 #: fetcher.cpp:233
 #, kde-format
 msgid "No parser accepted the XML"
-msgstr ""
+msgstr "Kein Parser hat das XML akzeptiert"
 
 #: fetcher.cpp:235
 #, kde-format
 msgid "Error while parsing feed"
-msgstr ""
+msgstr "Fehler beim Einlesen der Nachrichtenquelle"
 
 #: main.cpp:70
 #, kde-format
@@ -101,7 +101,7 @@ msgstr "Url:"
 #: qml/AddFeedSheet.qml:35
 #, kde-format
 msgid "Mark entries as read"
-msgstr ""
+msgstr "Einträge als gelesen markieren"
 
 #: qml/AddFeedSheet.qml:45 qml/EditFeedSheet.qml:50 qml/FeedGroupSheet.qml:49
 #, kde-format
@@ -169,16 +169,15 @@ msgstr "von"
 #: qml/EntryListDelegate.qml:37
 #, kde-format
 msgid "Mark as unread"
-msgstr ""
+msgstr "Als ungelesen markieren"
 
 #: qml/EntryListDelegate.qml:37
 #, kde-format
 msgid "Mark as read"
-msgstr ""
+msgstr "Als gelesen markieren"
 
 #: qml/EntryListPage.qml:44
-#, fuzzy, kde-format
-#| msgid "Only unread"
+#, kde-format
 msgid "Only Unread"
 msgstr "Nur Ungelesene"
 
@@ -195,7 +194,7 @@ msgstr "Aktualisieren"
 #: qml/EntryListPage.qml:72
 #, kde-format
 msgid "Error"
-msgstr ""
+msgstr "Fehler"
 
 #: qml/EntryListPage.qml:73 qml/EntryListPage.qml:85
 #, kde-format
@@ -203,14 +202,12 @@ msgid "Error (%1): %2"
 msgstr "Fehler (%1): %2"
 
 #: qml/EntryListPage.qml:83
-#, fuzzy, kde-format
-#| msgid "No Entries available"
+#, kde-format
 msgid "No unread entries available"
-msgstr "Keine Einträge verfügbar"
+msgstr "Keine ungelesenen Einträge verfügbar"
 
 #: qml/EntryListPage.qml:83
-#, fuzzy, kde-format
-#| msgid "No Entries available"
+#, kde-format
 msgid "No entries available"
 msgstr "Keine Einträge verfügbar"
 
@@ -247,8 +244,7 @@ msgid "%1 posts, %2 unread"
 msgstr "%1 Artikel, %2 ungelesen"
 
 #: qml/FeedGroupSheet.qml:24
-#, fuzzy, kde-format
-#| msgid "Feed Groups"
+#, kde-format
 msgid "Feed Group"
 msgstr "Nachrichtenquellen-Gruppen"
 
@@ -275,8 +271,7 @@ msgid "Edit"
 msgstr "Bearbeiten"
 
 #: qml/FeedListPage.qml:34
-#, fuzzy, kde-format
-#| msgid "Refresh all feeds"
+#, kde-format
 msgid "Refresh All Feeds"
 msgstr "Alle Nachrichtenquellen aktualisieren"
 
@@ -291,14 +286,12 @@ msgid "Export Feeds..."
 msgstr "Nachrichtenquellen exportieren ..."
 
 #: qml/FeedListPage.qml:63
-#, fuzzy, kde-format
-#| msgid "Add Feed"
+#, kde-format
 msgid "Add Feed…"
-msgstr "Nachrichtenquelle hinzufügen"
+msgstr "Nachrichtenquelle hinzufügen ..."
 
 #: qml/FeedListPage.qml:77
-#, fuzzy, kde-format
-#| msgid "No Feeds added yet"
+#, kde-format
 msgid "No feeds added yet"
 msgstr "Noch keine Nachrichtenquellen hinzugefügt"
 
@@ -338,10 +331,9 @@ msgid "Groups"
 msgstr "Gruppen"
 
 #: qml/GroupsListPage.qml:22
-#, fuzzy, kde-format
-#| msgid "Add Group"
+#, kde-format
 msgid "Add Group…"
-msgstr "Gruppe hinzufügen"
+msgstr "Gruppe hinzufügen ..."
 
 #: qml/GroupsListPage.qml:48
 #, kde-format
@@ -349,8 +341,7 @@ msgid "Remove"
 msgstr "Entfernen"
 
 #: qml/GroupsListPage.qml:56
-#, fuzzy, kde-format
-#| msgid "Set as default"
+#, kde-format
 msgid "Set as Default"
 msgstr "Als Standard verwenden"
 
