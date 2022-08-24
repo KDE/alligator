@@ -7,7 +7,6 @@
 #include <QDebug>
 #include <QModelIndex>
 #include <QSqlQuery>
-#include <QUrl>
 #include <QVariant>
 
 #include "database.h"

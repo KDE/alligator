@@ -10,12 +10,9 @@
 #include <QDebug>
 #include <QFile>
 #include <QFileInfo>
-#include <QNetworkAccessManager>
 #include <QNetworkReply>
 #include <QStandardPaths>
 #include <QTextDocumentFragment>
-
-#include <Syndication/Syndication>
 
 #include "database.h"
 #include "fetcher.h"
