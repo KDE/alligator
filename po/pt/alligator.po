@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-08-12 00:47+0000\n"
+"POT-Creation-Date: 2022-08-25 00:49+0000\n"
 "PO-Revision-Date: 2022-08-14 12:13+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -33,17 +33,17 @@ msgstr "Predefinição"
 msgid "Default Feed Group"
 msgstr "Grupo de Fontes Predefinido"
 
-#: fetcher.cpp:231
+#: fetcher.cpp:228
 #, kde-format
 msgid "Invalid XML"
 msgstr "XML Inválido"
 
-#: fetcher.cpp:233
+#: fetcher.cpp:230
 #, kde-format
 msgid "No parser accepted the XML"
 msgstr "Não foi possível processar o XML de nenhuma forma"
 
-#: fetcher.cpp:235
+#: fetcher.cpp:232
 #, kde-format
 msgid "Error while parsing feed"
 msgstr "Erro ao processar a fonte"

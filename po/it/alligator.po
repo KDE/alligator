@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-08-12 00:47+0000\n"
-"PO-Revision-Date: 2022-07-10 22:57+0200\n"
+"POT-Creation-Date: 2022-08-25 00:49+0000\n"
+"PO-Revision-Date: 2022-08-14 02:10+0200\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -37,17 +37,17 @@ msgstr "Predefinito"
 msgid "Default Feed Group"
 msgstr "Gruppo di fonti predefinito"
 
-#: fetcher.cpp:231
+#: fetcher.cpp:228
 #, kde-format
 msgid "Invalid XML"
 msgstr "XML non valido"
 
-#: fetcher.cpp:233
+#: fetcher.cpp:230
 #, kde-format
 msgid "No parser accepted the XML"
 msgstr "Nessun parser ha accettato l'XML"
 
-#: fetcher.cpp:235
+#: fetcher.cpp:232
 #, kde-format
 msgid "Error while parsing feed"
 msgstr "Errore durante l'analisi della fonte"
@@ -98,10 +98,9 @@ msgid "Url:"
 msgstr "Url:"
 
 #: qml/AddFeedSheet.qml:35
-#, fuzzy, kde-format
-#| msgid "Mark as read"
+#, kde-format
 msgid "Mark entries as read"
-msgstr "Marca come letto"
+msgstr "Marca le voci come lette"
 
 #: qml/AddFeedSheet.qml:45 qml/EditFeedSheet.qml:50 qml/FeedGroupSheet.qml:49
 #, kde-format
@@ -202,10 +201,9 @@ msgid "Error (%1): %2"
 msgstr "Errore (%1): %2"
 
 #: qml/EntryListPage.qml:83
-#, fuzzy, kde-format
-#| msgid "No entries available"
+#, kde-format
 msgid "No unread entries available"
-msgstr "Nessuna voce disponibile"
+msgstr "Nessuna voce non letta disponibile"
 
 #: qml/EntryListPage.qml:83
 #, kde-format
