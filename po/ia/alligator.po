@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-08-25 00:49+0000\n"
-"PO-Revision-Date: 2022-07-14 22:44+0200\n"
+"PO-Revision-Date: 2022-08-31 22:30+0200\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -98,10 +98,9 @@ msgid "Url:"
 msgstr "Url:"
 
 #: qml/AddFeedSheet.qml:35
-#, fuzzy, kde-format
-#| msgid "Mark as read"
+#, kde-format
 msgid "Mark entries as read"
-msgstr "Marca como legite"
+msgstr "Marca entratas como legite"
 
 #: qml/AddFeedSheet.qml:45 qml/EditFeedSheet.qml:50 qml/FeedGroupSheet.qml:49
 #, kde-format
@@ -202,10 +201,9 @@ msgid "Error (%1): %2"
 msgstr "Error (%1): %2"
 
 #: qml/EntryListPage.qml:83
-#, fuzzy, kde-format
-#| msgid "No entries available"
+#, kde-format
 msgid "No unread entries available"
-msgstr "Necun entratas disponibile."
+msgstr "Necun entratas non legite disponibile."
 
 #: qml/EntryListPage.qml:83
 #, kde-format
