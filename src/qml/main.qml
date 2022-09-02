@@ -33,12 +33,15 @@ Kirigami.ApplicationWindow {
         id: contextDrawer
     }
 
-    EntryListPage {
+    Component {
         id: entryList
+
+        EntryListPage {}
     }
 
-    FeedListPage  {
+    Component {
         id: feedList
-    }
 
+        FeedListPage  {}
+    }
 }
