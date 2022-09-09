@@ -98,10 +98,9 @@ msgid "Url:"
 msgstr "Url:"
 
 #: qml/AddFeedSheet.qml:35
-#, fuzzy, kde-format
-#| msgid "Mark as read"
+#, kde-format
 msgid "Mark entries as read"
-msgstr "Označit jako přečtené"
+msgstr ""
 
 #: qml/AddFeedSheet.qml:45 qml/EditFeedSheet.qml:50 qml/FeedGroupSheet.qml:49
 #, kde-format
