@@ -15,7 +15,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.1.1\n"
 
 #, kde-format
@@ -259,7 +259,7 @@ msgid "Description:"
 msgstr "აღწერა:"
 
 #: qml/FeedListDelegate.qml:24
-#, kde-format
+#, fuzzy, kde-format
 msgid "%1 unread entry"
 msgid_plural "%1 unread entries"
 msgstr[0] "%1 წაუკითხავი ჩანაწერი"

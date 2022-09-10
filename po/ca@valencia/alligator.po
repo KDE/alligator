@@ -198,7 +198,7 @@ msgstr "Actualitza"
 #: qml/EntryListPage.qml:72
 #, kde-format
 msgid "Error"
-msgstr "Error"
+msgstr "S'ha produït un error"
 
 #: qml/EntryListPage.qml:73 qml/EntryListPage.qml:85
 #, kde-format
