@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-08-25 00:49+0000\n"
-"PO-Revision-Date: 2022-09-01 07:02+0200\n"
+"PO-Revision-Date: 2022-09-12 20:36+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -259,10 +259,11 @@ msgid "Description:"
 msgstr "აღწერა:"
 
 #: qml/FeedListDelegate.qml:24
-#, fuzzy, kde-format
+#, kde-format
 msgid "%1 unread entry"
 msgid_plural "%1 unread entries"
 msgstr[0] "%1 წაუკითხავი ჩანაწერი"
+msgstr[1] "%1 წაუკითხავი ჩანაწერი"
 
 #: qml/FeedListDelegate.qml:45
 #, kde-format
