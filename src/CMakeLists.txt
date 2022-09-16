@@ -55,4 +55,4 @@ else()
     target_link_libraries(alligator PRIVATE Qt::Widgets)
 endif()
 
-install(TARGETS alligator ${KF5_INSTALL_TARGETS_DEFAULT_ARGS})
+install(TARGETS alligator ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
