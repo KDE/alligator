@@ -203,7 +203,7 @@ msgstr "S'ha produït un error"
 #: qml/EntryListPage.qml:73 qml/EntryListPage.qml:85
 #, kde-format
 msgid "Error (%1): %2"
-msgstr "Error (%1): %2"
+msgstr "S'ha produït un error (%1): %2"
 
 #: qml/EntryListPage.qml:83
 #, kde-format
