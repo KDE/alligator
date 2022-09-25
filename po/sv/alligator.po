@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-08-25 00:49+0000\n"
-"PO-Revision-Date: 2022-08-03 13:24+0200\n"
+"PO-Revision-Date: 2022-09-24 14:45+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -98,10 +98,9 @@ msgid "Url:"
 msgstr "Webbadress:"
 
 #: qml/AddFeedSheet.qml:35
-#, fuzzy, kde-format
-#| msgid "Mark as read"
+#, kde-format
 msgid "Mark entries as read"
-msgstr "Markera som läst"
+msgstr "Markera poster som lästa"
 
 #: qml/AddFeedSheet.qml:45 qml/EditFeedSheet.qml:50 qml/FeedGroupSheet.qml:49
 #, kde-format
@@ -202,10 +201,9 @@ msgid "Error (%1): %2"
 msgstr "Fel (%1): %2"
 
 #: qml/EntryListPage.qml:83
-#, fuzzy, kde-format
-#| msgid "No entries available"
+#, kde-format
 msgid "No unread entries available"
-msgstr "Inga artiklar tillgängliga"
+msgstr "Inga olästa poster tillgängliga"
 
 #: qml/EntryListPage.qml:83
 #, kde-format
