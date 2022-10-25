@@ -10,3 +10,6 @@ Dependencies:
     'frameworks/ki18n': '@stable'
     'frameworks/kirigami': '@stable'
     'frameworks/syndication': '@stable'
+
+Options:
+  require-passing-tests-on: [ '@all' ]
