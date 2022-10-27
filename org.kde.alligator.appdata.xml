@@ -74,7 +74,7 @@
   <project_license>GPL-2.0-or-later</project_license>
   <url type="homepage">https://apps.kde.org/alligator</url>
   <url type="donation">https://kde.org/community/donations</url>
-  <url type="bugtracker">https://invent.kde.org/plasma-mobile/alligator/-/issues</url>
+  <url type="bugtracker">https://bugs.kde.org/enter_bug.cgi?product=Alligator</url>
   <content_rating type="oars-1.1"/>
   <developer_name>KDE Community</developer_name>
   <developer_name xml:lang="ca">La comunitat KDE</developer_name>
