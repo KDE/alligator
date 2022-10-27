@@ -73,6 +73,7 @@ int main(int argc, char *argv[])
                      KAboutLicense::GPL,
                      i18n("© 2020 KDE Community"));
     about.addAuthor(i18n("Tobias Fella"), QString(), QStringLiteral("fella@posteo.de"));
+    about.setBugAddress("https://bugs.kde.org/describecomponents.cgi?product=alligator");
     KAboutData::setApplicationData(about);
 
     qmlRegisterType<FeedsModel>("org.kde.alligator", 1, 0, "FeedsModel");
