@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-08-25 00:49+0000\n"
-"PO-Revision-Date: 2022-05-14 13:01+0300\n"
-"Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
-"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"PO-Revision-Date: 2022-10-26 15:08+0300\n"
+"Last-Translator: Olesya Gerasimenko <translation-team@basealt.ru>\n"
+"Language-Team: Basealt Translation Team\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 21.08.3\n"
+"X-Generator: Lokalize 22.04.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -43,17 +43,17 @@ msgstr "Группа лент по умолчанию"
 #: fetcher.cpp:228
 #, kde-format
 msgid "Invalid XML"
-msgstr ""
+msgstr "Некорректный XML"
 
 #: fetcher.cpp:230
 #, kde-format
 msgid "No parser accepted the XML"
-msgstr ""
+msgstr "XML не принят анализатором"
 
 #: fetcher.cpp:232
 #, kde-format
 msgid "Error while parsing feed"
-msgstr ""
+msgstr "Ошибка при разборе ленты"
 
 #: main.cpp:70
 #, kde-format
@@ -103,7 +103,7 @@ msgstr "URL-адрес:"
 #: qml/AddFeedSheet.qml:35
 #, kde-format
 msgid "Mark entries as read"
-msgstr ""
+msgstr "Отметить записи как прочитанные"
 
 #: qml/AddFeedSheet.qml:45 qml/EditFeedSheet.qml:50 qml/FeedGroupSheet.qml:49
 #, kde-format
@@ -171,16 +171,15 @@ msgstr " "
 #: qml/EntryListDelegate.qml:37
 #, kde-format
 msgid "Mark as unread"
-msgstr ""
+msgstr "Отметить как непрочитанное"
 
 #: qml/EntryListDelegate.qml:37
 #, kde-format
 msgid "Mark as read"
-msgstr ""
+msgstr "Отметить как прочитанное"
 
 #: qml/EntryListPage.qml:44
-#, fuzzy, kde-format
-#| msgid "Only unread"
+#, kde-format
 msgid "Only Unread"
 msgstr "Только непрочитанные"
 
@@ -197,7 +196,7 @@ msgstr "Обновить"
 #: qml/EntryListPage.qml:72
 #, kde-format
 msgid "Error"
-msgstr ""
+msgstr "Ошибка"
 
 #: qml/EntryListPage.qml:73 qml/EntryListPage.qml:85
 #, kde-format
@@ -205,14 +204,12 @@ msgid "Error (%1): %2"
 msgstr "Ошибка (%1): %2"
 
 #: qml/EntryListPage.qml:83
-#, fuzzy, kde-format
-#| msgid "No Entries available"
+#, kde-format
 msgid "No unread entries available"
-msgstr "Нет доступных записей"
+msgstr "Нет доступных непрочитанных записей"
 
 #: qml/EntryListPage.qml:83
-#, fuzzy, kde-format
-#| msgid "No Entries available"
+#, kde-format
 msgid "No entries available"
 msgstr "Нет доступных записей"
 
@@ -249,10 +246,9 @@ msgid "%1 posts, %2 unread"
 msgstr "Записей — %1, не прочитано — %2"
 
 #: qml/FeedGroupSheet.qml:24
-#, fuzzy, kde-format
-#| msgid "Feed Groups"
+#, kde-format
 msgid "Feed Group"
-msgstr "Группы лент новостей"
+msgstr "Группа лент новостей"
 
 #: qml/FeedGroupSheet.qml:32
 #, kde-format
@@ -279,8 +275,7 @@ msgid "Edit"
 msgstr "Изменить"
 
 #: qml/FeedListPage.qml:34
-#, fuzzy, kde-format
-#| msgid "Refresh all feeds"
+#, kde-format
 msgid "Refresh All Feeds"
 msgstr "Обновить все ленты"
 
@@ -295,14 +290,12 @@ msgid "Export Feeds..."
 msgstr "Экспорт лент…"
 
 #: qml/FeedListPage.qml:63
-#, fuzzy, kde-format
-#| msgid "Add Feed"
+#, kde-format
 msgid "Add Feed…"
-msgstr "Добавление ленты новостей"
+msgstr "Добавить ленту…"
 
 #: qml/FeedListPage.qml:77
-#, fuzzy, kde-format
-#| msgid "No Feeds added yet"
+#, kde-format
 msgid "No feeds added yet"
 msgstr "Ленты новостей ещё не добавлены"
 
@@ -342,10 +335,9 @@ msgid "Groups"
 msgstr "Группы"
 
 #: qml/GroupsListPage.qml:22
-#, fuzzy, kde-format
-#| msgid "Add Group"
+#, kde-format
 msgid "Add Group…"
-msgstr "Добавить группу"
+msgstr "Добавить группу…"
 
 #: qml/GroupsListPage.qml:48
 #, kde-format
@@ -353,8 +345,7 @@ msgid "Remove"
 msgstr "Удалить"
 
 #: qml/GroupsListPage.qml:56
-#, fuzzy, kde-format
-#| msgid "Set as default"
+#, kde-format
 msgid "Set as Default"
 msgstr "Установить по умолчанию"
 
