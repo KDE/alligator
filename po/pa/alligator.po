@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-08-25 00:49+0000\n"
+"POT-Creation-Date: 2022-11-12 00:49+0000\n"
 "PO-Revision-Date: 2021-05-01 23:10-0700\n"
 "Last-Translator: A S Alam <aalam@satluj.org>\n"
 "Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
@@ -52,37 +52,37 @@ msgstr ""
 msgid "Error while parsing feed"
 msgstr ""
 
-#: main.cpp:70
+#: main.cpp:74
 #, kde-format
 msgid "Alligator"
 msgstr "ਐਲੀਗੇਟਰ"
 
-#: main.cpp:72
+#: main.cpp:76
 #, kde-format
 msgid "Feed Reader"
 msgstr "ਫੀਡ ਰੀਡਰ"
 
-#: main.cpp:74
+#: main.cpp:78
 #, kde-format
 msgid "© 2020 KDE Community"
 msgstr "© 2020 ਕੇਡੀਈ ਕਮਿਊਨਟੀ"
 
-#: main.cpp:75
+#: main.cpp:79
 #, kde-format
 msgid "Tobias Fella"
 msgstr "ਟੋਬਿਸ ਫੇਲਾ"
 
-#: main.cpp:94
+#: main.cpp:98
 #, kde-format
 msgid "RSS/Atom Feed Reader"
 msgstr "RSS/ਅਟੈਮ ਫੀਡ ਰੀਡਰ"
 
-#: main.cpp:96
+#: main.cpp:100
 #, kde-format
 msgid "Adds a new feed to database."
 msgstr "ਨਵੀਂ ਫੀਡ ਡਾਟਾਬੇਸ ਵਿੱਚ ਜੋੜੋ।"
 
-#: main.cpp:97
+#: main.cpp:101
 #, kde-format
 msgid "feed URL"
 msgstr "ਫੀਡ URL"

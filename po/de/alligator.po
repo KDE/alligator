@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-08-25 00:49+0000\n"
+"POT-Creation-Date: 2022-11-12 00:49+0000\n"
 "PO-Revision-Date: 2022-08-20 20:33+0200\n"
 "Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -53,37 +53,37 @@ msgstr "Kein Parser hat das XML akzeptiert"
 msgid "Error while parsing feed"
 msgstr "Fehler beim Einlesen der Nachrichtenquelle"
 
-#: main.cpp:70
+#: main.cpp:74
 #, kde-format
 msgid "Alligator"
 msgstr "Alligator"
 
-#: main.cpp:72
+#: main.cpp:76
 #, kde-format
 msgid "Feed Reader"
 msgstr "Anzeige von RSS-Nachrichtenquellen"
 
-#: main.cpp:74
+#: main.cpp:78
 #, kde-format
 msgid "© 2020 KDE Community"
 msgstr "© 2020 KDE-Gemeinschaft"
 
-#: main.cpp:75
+#: main.cpp:79
 #, kde-format
 msgid "Tobias Fella"
 msgstr "Tobias Fella"
 
-#: main.cpp:94
+#: main.cpp:98
 #, kde-format
 msgid "RSS/Atom Feed Reader"
 msgstr "Anzeigeprogramm für RSS/Atom-Nachrichtenquellen"
 
-#: main.cpp:96
+#: main.cpp:100
 #, kde-format
 msgid "Adds a new feed to database."
 msgstr "Fügt eine neue Nachrichtenquelle zur Datenbank hinzu."
 
-#: main.cpp:97
+#: main.cpp:101
 #, kde-format
 msgid "feed URL"
 msgstr "Adresse der Nachrichtenquelle"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-08-25 00:49+0000\n"
+"POT-Creation-Date: 2022-11-12 00:49+0000\n"
 "PO-Revision-Date: 2022-08-14 21:33+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -55,37 +55,37 @@ msgstr "Ez dago XMLa onartu duen aztertzaile sintaktikorik"
 msgid "Error while parsing feed"
 msgstr "Errorea jarioaren sintaxia aztertzean"
 
-#: main.cpp:70
+#: main.cpp:74
 #, kde-format
 msgid "Alligator"
 msgstr "Alligator"
 
-#: main.cpp:72
+#: main.cpp:76
 #, kde-format
 msgid "Feed Reader"
 msgstr "Web-jario irakurlea"
 
-#: main.cpp:74
+#: main.cpp:78
 #, kde-format
 msgid "© 2020 KDE Community"
 msgstr "© 2020 KDE komunitatea"
 
-#: main.cpp:75
+#: main.cpp:79
 #, kde-format
 msgid "Tobias Fella"
 msgstr "Tobias Fella"
 
-#: main.cpp:94
+#: main.cpp:98
 #, kde-format
 msgid "RSS/Atom Feed Reader"
 msgstr "RSS/Atom web-jario irakurlea"
 
-#: main.cpp:96
+#: main.cpp:100
 #, kde-format
 msgid "Adds a new feed to database."
 msgstr "Datu-basera jario berria gehitzen du."
 
-#: main.cpp:97
+#: main.cpp:101
 #, kde-format
 msgid "feed URL"
 msgstr "Jarioaren URL"
