@@ -12,39 +12,37 @@ import org.kde.kirigami 2.12 as Kirigami
 
 import org.kde.alligator 1.0
 
-Kirigami.SwipeListItem {
+Kirigami.BasicListItem {
 
     signal editFeed(var feedObj)
 
-    contentItem: Kirigami.BasicListItem {
-        anchors.top: parent.top
-        anchors.bottom: parent.bottom
-        text: model.feed.displayName || model.feed.name
-        icon: model.feed.refreshing ? "view-refresh" : model.feed.image === "" ? "rss" : Fetcher.image(model.feed.image)
-        subtitle: i18np("%1 unread entry", "%1 unread entries", model.feed.unreadEntryCount)
+    text: model.feed.displayName || model.feed.name
+    icon: model.feed.refreshing ? "view-refresh" : model.feed.image === "" ? "rss" : Fetcher.image(model.feed.image)
+    subtitle: i18np("%1 unread entry", "%1 unread entries", model.feed.unreadEntryCount)
 
-        onClicked: {
-            lastFeed = model.feed.url
-            while(pageStack.depth > 1)
-                pageStack.pop()
-            pageStack.push("qrc:/EntryListPage.qml", {"feed": model.feed})
-        }
+    onClicked: {
+        lastFeed = model.feed.url
+        while(pageStack.depth > 1)
+            pageStack.pop()
+        pageStack.push("qrc:/EntryListPage.qml", {"feed": model.feed})
     }
 
-    actions: [
-        Kirigami.Action {
+    trailing: RowLayout {
+        Controls.ToolButton {
             icon.name: "delete"
-            onTriggered: {
+            display: Controls.AbstractButton.IconOnly
+            text: i18nc("'Feed' is an rss feed", "Delete this Feed")
+            onClicked: {
                 if(pageStack.depth > 1 && model.feed.url === lastFeed)
                     pageStack.pop()
                 feedsModel.removeFeed(model.feed.url)
             }
-        },
-        Kirigami.Action {
-            icon.name: "editor"
-            text: i18n("Edit")
-
-            onTriggered: editFeed(model.feed)
         }
-    ]
+        Controls.ToolButton {
+            icon.name: "editor"
+            display: Controls.AbstractButton.IconOnly
+            text: i18nc("'Feed' is an rss feed", "Edit this Feed")
+            onClicked: editFeed(model.feed)
+        }
+    }
 }
