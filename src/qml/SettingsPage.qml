@@ -9,6 +9,7 @@ import QtQuick.Controls 2.14 as Controls
 import QtQuick.Layouts 1.14
 
 import org.kde.kirigami 2.12 as Kirigami
+import org.kde.alligator 1.0
 
 Kirigami.ScrollablePage {
     title: i18n("Settings")
@@ -25,18 +26,18 @@ Kirigami.ScrollablePage {
 
             Controls.SpinBox {
                 id: deleteAfterCount
-                value: _settings.deleteAfterCount
+                value: Config.deleteAfterCount
                 enabled: deleteAfterType.currentIndex !== 0
 
-                onValueModified: _settings.deleteAfterCount = value
+                onValueModified: Config.deleteAfterCount = value
             }
 
             Controls.ComboBox {
                 id: deleteAfterType
-                currentIndex: _settings.deleteAfterType
+                currentIndex: Config.deleteAfterType
                 model: [i18n("Never"), i18n("Articles"), i18n("Days"), i18n("Weeks"), i18n("Months")]
 
-                onActivated: _settings.deleteAfterType = index
+                onActivated: Config.deleteAfterType = index
             }
         }
 
@@ -49,21 +50,21 @@ Kirigami.ScrollablePage {
             id: articleFontSizeSpinBox
 
             enabled: !useSystemFontCheckBox.checked
-            value: _settings.articleFontSize
+            value: Config.articleFontSize
             Kirigami.FormData.label: i18n("Font size:")
             from: 6
             to: 20
 
-            onValueModified: _settings.articleFontSize = value
+            onValueModified: Config.articleFontSize = value
 
         }
 
         Controls.CheckBox {
             id: useSystemFontCheckBox
-            checked: _settings.articleFontUseSystem
+            checked: Config.articleFontUseSystem
             text: i18n("Use system default")
 
-            onToggled: _settings.articleFontUseSystem = checked
+            onToggled: Config.articleFontUseSystem = checked
         }
 
     }

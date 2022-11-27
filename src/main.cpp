@@ -89,6 +89,8 @@ int main(int argc, char *argv[])
         return engine->toScriptValue(KAboutData::applicationData());
     });
 
+    AlligatorSettings settings;
+    qmlRegisterSingletonInstance("org.kde.alligator", 1, 0, "Config", &settings);
     qmlRegisterSingletonInstance("org.kde.alligator", 1, 0, "Fetcher", &Fetcher::instance());
     qmlRegisterSingletonInstance("org.kde.alligator", 1, 0, "Database", &Database::instance());
 
@@ -110,10 +112,6 @@ int main(int argc, char *argv[])
     if (feedURL != QStringLiteral("none"))
         Database::instance().addFeed(feedURL);
     about.processCommandLine(&parser);
-
-    AlligatorSettings settings;
-
-    engine.rootContext()->setContextProperty(QStringLiteral("_settings"), &settings);
 
     QObject::connect(&app, &QCoreApplication::aboutToQuit, &settings, &AlligatorSettings::save);
 

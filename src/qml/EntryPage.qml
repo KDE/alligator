@@ -35,7 +35,7 @@ Kirigami.ScrollablePage {
             Layout.fillWidth: true
             onLinkActivated: page.entry.openLink(link)
             onWidthChanged: text = entry.adjustedContent(width, font.pixelSize)
-            font.pointSize: _settings && !(_settings.articleFontUseSystem) ? _settings.articleFontSize : Kirigami.Units.fontMetrics.font.pointSize
+            font.pointSize: !(Config.articleFontUseSystem) ? Config.articleFontSize : Kirigami.Units.fontMetrics.font.pointSize
         }
     }
 
