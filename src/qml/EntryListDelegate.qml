@@ -12,30 +12,30 @@ import org.kde.kirigami 2.12 as Kirigami
 
 import org.kde.alligator 1.0
 
-Kirigami.SwipeListItem {
+Kirigami.BasicListItem {
 
     property string feedTitle
 
-    contentItem: Kirigami.BasicListItem {
-        anchors.top: parent.top
-        anchors.bottom: parent.bottom
-        text: model.entry.title
-        subtitle: model.entry.updated.toLocaleString(Qt.locale(), Locale.ShortFormat) + (model.entry.authors.length === 0 ? "" : " " + i18nc("by <author(s)>", "by") + " " + model.entry.authors[0].name)
-        reserveSpaceForIcon: false
-        bold: !model.entry.read
+    text: model.entry.title
+    subtitle: model.entry.updated.toLocaleString(Qt.locale(), Locale.ShortFormat) + (model.entry.authors.length === 0 ? "" : " " + i18nc("by <author(s)>", "by") + " " + model.entry.authors[0].name)
+    reserveSpaceForIcon: false
+    bold: !model.entry.read
 
-        onClicked: {
-            while(pageStack.depth > 2)
-                pageStack.pop()
-            pageStack.push("qrc:/EntryPage.qml", {"entry": model.entry, "feedTitle" : feedTitle})
-        }
+    onClicked: {
+        while(pageStack.depth > 2)
+            pageStack.pop()
+        pageStack.push("qrc:/EntryPage.qml", {"entry": model.entry, "feedTitle" : feedTitle})
     }
 
-    actions: [
-        Kirigami.Action {
+    trailing: RowLayout {
+        Controls.ToolButton {
             icon.name: model.entry.read ? "mail-mark-unread" : "mail-mark-read"
-            tooltip: model.entry.read ? i18n("Mark as unread") : i18n("Mark as read")
-            onTriggered: model.entry.read = !model.entry.read
+            display: Controls.AbstractButton.IconOnly
+            text: model.entry.read ? i18n("Mark as unread") : i18n("Mark as read")
+            onClicked: model.entry.read = !model.entry.read
+            Controls.ToolTip {
+                text: parent.text
+            }
         }
-    ]
+    }
 }
