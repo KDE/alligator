@@ -8,6 +8,7 @@ import QtQuick 2.14
 import QtQuick.Controls 2.14 as Controls
 
 import org.kde.kirigami 2.12 as Kirigami
+import org.kde.kirigamiaddons.labs.mobileform 0.1 as MobileForm
 import org.kde.alligator 1.0
 
 Kirigami.ApplicationWindow {
@@ -24,7 +25,7 @@ Kirigami.ApplicationWindow {
 
     Component {
         id: aboutPage
-        Kirigami.AboutPage {
+        MobileForm.AboutPage {
             aboutData: About
         }
     }
