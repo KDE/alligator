@@ -70,7 +70,7 @@ Kirigami.ScrollablePage {
         // This is eg. the case if the feed worked so far, but refreshing fails for some reason
         visible: entryList.count !== 0 && feed !== undefined && feed.errorId !== 0
         title: i18n("Error")
-        subtitle: i18n("Error (%1): %2", feed.errorId, feed.errorString)
+        subtitle: i18n("Error (%1): %2", feed ? feed.errorId : "", feed ? feed.errorString : "")
     }
 
     Kirigami.PlaceholderMessage {
