@@ -41,7 +41,8 @@ Kirigami.ScrollablePage {
     contextualActions: [
         Kirigami.Action {
             id: onlyUnreadAction
-            text: i18n("Only Unread")
+            text: checked ? i18n("Show all entries") : i18n("Show only unread entries")
+            icon.name: checked ? "mail-mark-read" : "mail-mark-unread"
             checkable: true
             checked: true // TODO: store in settings
             onToggled: page.onlyUnread = checked
