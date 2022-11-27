@@ -15,6 +15,5 @@
         <file alias="GroupsListPage.qml">qml/GroupsListPage.qml</file>
         <file alias="AlligatorGlobalDrawer.qml">qml/AlligatorGlobalDrawer.qml</file>
         <file alias="FeedGroupSheet.qml">qml/FeedGroupSheet.qml</file>
-        <file>qtquickcontrols2.conf</file>
     </qresource>
 </RCC>
