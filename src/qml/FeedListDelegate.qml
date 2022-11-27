@@ -37,12 +37,18 @@ Kirigami.BasicListItem {
                     pageStack.pop()
                 feedsModel.removeFeed(model.feed.url)
             }
+            Controls.ToolTip {
+                text: parent.text
+            }
         }
         Controls.ToolButton {
             icon.name: "editor"
             display: Controls.AbstractButton.IconOnly
             text: i18nc("'Feed' is an rss feed", "Edit this Feed")
             onClicked: editFeed(model.feed)
+            Controls.ToolTip {
+                text: parent.text
+            }
         }
     }
 }
