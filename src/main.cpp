@@ -64,6 +64,7 @@ int main(int argc, char *argv[])
     font.setPointSize(10);
     app.setFont(font);
 #endif
+    KLocalizedString::setApplicationDomain("alligator");
 
     QCoreApplication::setOrganizationName(QStringLiteral("KDE"));
     QCoreApplication::setOrganizationDomain(QStringLiteral("kde.org"));
@@ -96,7 +97,6 @@ int main(int argc, char *argv[])
 
     QQmlApplicationEngine engine;
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
-    KLocalizedString::setApplicationDomain("alligator");
 
     QCommandLineParser parser;
     parser.setApplicationDescription(i18n("RSS/Atom Feed Reader"));
