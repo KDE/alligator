@@ -75,7 +75,7 @@ int main(int argc, char *argv[])
                      i18n("Feed Reader"),
                      KAboutLicense::GPL,
                      i18n("© 2020 KDE Community"));
-    about.addAuthor(i18n("Tobias Fella"), QString(), QStringLiteral("fella@posteo.de"));
+    about.addAuthor(i18n("Tobias Fella"), QString(), QStringLiteral("fella@posteo.de"), QStringLiteral("https://tobiasfella.de"));
     KAboutData::setApplicationData(about);
 
     qmlRegisterType<FeedsModel>("org.kde.alligator", 1, 0, "FeedsModel");
