@@ -3,7 +3,6 @@
 
 add_executable(alligator
     main.cpp
-    about.cpp
     feedsmodel.cpp
     entriesmodel.cpp
     entriesproxymodel.cpp

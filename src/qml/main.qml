@@ -8,7 +8,7 @@ import QtQuick 2.14
 import QtQuick.Controls 2.14 as Controls
 
 import org.kde.kirigami 2.12 as Kirigami
-import org.kde.alligator 1.0 as Alligator
+import org.kde.alligator 1.0
 
 Kirigami.ApplicationWindow {
     id: root
@@ -25,7 +25,7 @@ Kirigami.ApplicationWindow {
     Component {
         id: aboutPage
         Kirigami.AboutPage {
-            aboutData: Alligator.AboutType.aboutData
+            aboutData: About
         }
     }
 

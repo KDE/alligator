@@ -23,7 +23,6 @@
 #include <KLocalizedContext>
 #include <KLocalizedString>
 
-#include "about.h"
 #include "alligator-version.h"
 #include "alligatorsettings.h"
 #include "database.h"
@@ -86,7 +85,10 @@ int main(int argc, char *argv[])
     qmlRegisterType<EntriesModel>("org.kde.alligator", 1, 0, "EntriesModel");
     qmlRegisterType<EntriesProxyModel>("org.kde.alligator", 1, 0, "EntriesProxyModel");
 
-    qmlRegisterSingletonInstance("org.kde.alligator", 1, 0, "AboutType", &AboutType::instance());
+    qmlRegisterSingletonType("org.kde.alligator", 1, 0, "About", [](QQmlEngine *engine, QJSEngine *) -> QJSValue {
+        return engine->toScriptValue(KAboutData::applicationData());
+    });
+
     qmlRegisterSingletonInstance("org.kde.alligator", 1, 0, "Fetcher", &Fetcher::instance());
     qmlRegisterSingletonInstance("org.kde.alligator", 1, 0, "Database", &Database::instance());
 
