@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-12 00:49+0000\n"
+"POT-Creation-Date: 2022-11-28 00:51+0000\n"
 "PO-Revision-Date: 2022-08-12 09:04+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
@@ -66,8 +66,9 @@ msgid "Feed Reader"
 msgstr "Програма для читання подач"
 
 #: main.cpp:78
-#, kde-format
-msgid "© 2020 KDE Community"
+#, fuzzy, kde-format
+#| msgid "© 2020 KDE Community"
+msgid "© 2020-2022 KDE Community"
 msgstr "© Спільнота KDE, 2020"
 
 #: main.cpp:79
@@ -75,17 +76,17 @@ msgstr "© Спільнота KDE, 2020"
 msgid "Tobias Fella"
 msgstr "Tobias Fella"
 
-#: main.cpp:98
+#: main.cpp:102
 #, kde-format
 msgid "RSS/Atom Feed Reader"
 msgstr "Програма для читання подач RSS/Atom"
 
-#: main.cpp:100
+#: main.cpp:104
 #, kde-format
 msgid "Adds a new feed to database."
 msgstr "Додає до бази даних нову подачу."
 
-#: main.cpp:101
+#: main.cpp:105
 #, kde-format
 msgid "feed URL"
 msgstr "адреса подачі"
@@ -116,7 +117,7 @@ msgid "Cancel"
 msgstr "Скасувати"
 
 #: qml/AlligatorGlobalDrawer.qml:22 qml/EntryListPage.qml:21
-#: qml/EntryListPage.qml:95
+#: qml/EntryListPage.qml:96
 #, kde-format
 msgid "All Entries"
 msgstr "Усі записи"
@@ -132,7 +133,7 @@ msgid "Feed Groups"
 msgstr "Групи подач"
 
 #: qml/AlligatorGlobalDrawer.qml:48 qml/AlligatorGlobalDrawer.qml:51
-#: qml/SettingsPage.qml:14
+#: qml/SettingsPage.qml:15
 #, kde-format
 msgid "Settings"
 msgstr "Параметри"
@@ -162,53 +163,60 @@ msgstr "Екранне ім'я:"
 msgid "Group:"
 msgstr "Група:"
 
-#: qml/EntryListDelegate.qml:23
+#: qml/EntryListDelegate.qml:20
 #, kde-format
 msgctxt "by <author(s)>"
 msgid "by"
 msgstr " "
 
-#: qml/EntryListDelegate.qml:37
+#: qml/EntryListDelegate.qml:34
 #, kde-format
 msgid "Mark as unread"
 msgstr "Позначити як непрочитане"
 
-#: qml/EntryListDelegate.qml:37
+#: qml/EntryListDelegate.qml:34
 #, kde-format
 msgid "Mark as read"
 msgstr "Позначити як прочитане"
 
 #: qml/EntryListPage.qml:44
-#, kde-format
-msgid "Only Unread"
-msgstr "Лише непрочитані"
+#, fuzzy, kde-format
+#| msgid "All Entries"
+msgid "Show all entries"
+msgstr "Усі записи"
 
-#: qml/EntryListPage.qml:52
+#: qml/EntryListPage.qml:44
+#, fuzzy, kde-format
+#| msgid "No unread entries available"
+msgid "Show only unread entries"
+msgstr "Немає непрочитаних записів"
+
+#: qml/EntryListPage.qml:53
 #, kde-format
 msgid "Details"
 msgstr "Подробиці"
 
-#: qml/EntryListPage.qml:63
+#: qml/EntryListPage.qml:64
 #, kde-format
 msgid "Refresh"
 msgstr "Оновити"
 
-#: qml/EntryListPage.qml:72
+#: qml/EntryListPage.qml:73
 #, kde-format
 msgid "Error"
 msgstr "Помилка"
 
-#: qml/EntryListPage.qml:73 qml/EntryListPage.qml:85
+#: qml/EntryListPage.qml:74 qml/EntryListPage.qml:86
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "Помилка (%1): %2"
 
-#: qml/EntryListPage.qml:83
+#: qml/EntryListPage.qml:84
 #, kde-format
 msgid "No unread entries available"
 msgstr "Немає непрочитаних записів"
 
-#: qml/EntryListPage.qml:83
+#: qml/EntryListPage.qml:84
 #, kde-format
 msgid "No entries available"
 msgstr "Немає доступних записів"
@@ -260,7 +268,7 @@ msgstr "Назва:"
 msgid "Description:"
 msgstr "Опис:"
 
-#: qml/FeedListDelegate.qml:24
+#: qml/FeedListDelegate.qml:21
 #, kde-format
 msgid "%1 unread entry"
 msgid_plural "%1 unread entries"
@@ -269,10 +277,19 @@ msgstr[1] "%1 непрочитані записи"
 msgstr[2] "%1 непрочитаних записів"
 msgstr[3] "%1 непрочитаний запис"
 
-#: qml/FeedListDelegate.qml:45
-#, kde-format
-msgid "Edit"
-msgstr "Змінити"
+#: qml/FeedListDelegate.qml:34
+#, fuzzy, kde-format
+#| msgid "Delete after:"
+msgctxt "'Feed' is an rss feed"
+msgid "Delete this Feed"
+msgstr "Вилучати після:"
+
+#: qml/FeedListDelegate.qml:47
+#, fuzzy, kde-format
+#| msgid "Edit Feed"
+msgctxt "'Feed' is an rss feed"
+msgid "Edit this Feed"
+msgstr "Редагування подачі"
 
 #: qml/FeedListPage.qml:34
 #, kde-format
@@ -359,55 +376,61 @@ msgstr "Ще не створено жодної групи"
 msgid "Add Group"
 msgstr "Додати групу"
 
-#: qml/SettingsPage.qml:20
+#: qml/SettingsPage.qml:21
 #, kde-format
 msgid "Article List"
 msgstr "Список статей"
 
-#: qml/SettingsPage.qml:24
+#: qml/SettingsPage.qml:25
 #, kde-format
 msgid "Delete after:"
 msgstr "Вилучати після:"
 
-#: qml/SettingsPage.qml:37
+#: qml/SettingsPage.qml:38
 #, kde-format
 msgid "Never"
 msgstr "Ніколи"
 
-#: qml/SettingsPage.qml:37
+#: qml/SettingsPage.qml:38
 #, kde-format
 msgid "Articles"
 msgstr "Статті"
 
-#: qml/SettingsPage.qml:37
+#: qml/SettingsPage.qml:38
 #, kde-format
 msgid "Days"
 msgstr "Днів"
 
-#: qml/SettingsPage.qml:37
+#: qml/SettingsPage.qml:38
 #, kde-format
 msgid "Weeks"
 msgstr "Тижнів"
 
-#: qml/SettingsPage.qml:37
+#: qml/SettingsPage.qml:38
 #, kde-format
 msgid "Months"
 msgstr "Місяців"
 
-#: qml/SettingsPage.qml:45
+#: qml/SettingsPage.qml:46
 #, kde-format
 msgid "Article"
 msgstr "Стаття"
 
-#: qml/SettingsPage.qml:53
+#: qml/SettingsPage.qml:54
 #, kde-format
 msgid "Font size:"
 msgstr "Розмір шрифту:"
 
-#: qml/SettingsPage.qml:64
+#: qml/SettingsPage.qml:65
 #, kde-format
 msgid "Use system default"
 msgstr "Типовий системний"
+
+#~ msgid "Only Unread"
+#~ msgstr "Лише непрочитані"
+
+#~ msgid "Edit"
+#~ msgstr "Змінити"
 
 #~ msgid "Feed group"
 #~ msgstr "Група подач"

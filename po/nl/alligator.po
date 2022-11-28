@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-12 00:49+0000\n"
+"POT-Creation-Date: 2022-11-28 00:51+0000\n"
 "PO-Revision-Date: 2022-08-14 18:20+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
@@ -63,8 +63,9 @@ msgid "Feed Reader"
 msgstr "Feedlezer"
 
 #: main.cpp:78
-#, kde-format
-msgid "© 2020 KDE Community"
+#, fuzzy, kde-format
+#| msgid "© 2020 KDE Community"
+msgid "© 2020-2022 KDE Community"
 msgstr "© 2020 KDE gemeenschap"
 
 #: main.cpp:79
@@ -72,17 +73,17 @@ msgstr "© 2020 KDE gemeenschap"
 msgid "Tobias Fella"
 msgstr "Tobias Fella"
 
-#: main.cpp:98
+#: main.cpp:102
 #, kde-format
 msgid "RSS/Atom Feed Reader"
 msgstr "RSS/Atom-feedlezer"
 
-#: main.cpp:100
+#: main.cpp:104
 #, kde-format
 msgid "Adds a new feed to database."
 msgstr "Voegt een nieuwe feed toe aan de database."
 
-#: main.cpp:101
+#: main.cpp:105
 #, kde-format
 msgid "feed URL"
 msgstr "Feed-URL"
@@ -113,7 +114,7 @@ msgid "Cancel"
 msgstr "Annuleren"
 
 #: qml/AlligatorGlobalDrawer.qml:22 qml/EntryListPage.qml:21
-#: qml/EntryListPage.qml:95
+#: qml/EntryListPage.qml:96
 #, kde-format
 msgid "All Entries"
 msgstr "Alle items"
@@ -129,7 +130,7 @@ msgid "Feed Groups"
 msgstr "Feed-groepen"
 
 #: qml/AlligatorGlobalDrawer.qml:48 qml/AlligatorGlobalDrawer.qml:51
-#: qml/SettingsPage.qml:14
+#: qml/SettingsPage.qml:15
 #, kde-format
 msgid "Settings"
 msgstr "Instellingen"
@@ -159,53 +160,60 @@ msgstr "Schermnaam:"
 msgid "Group:"
 msgstr "Groep:"
 
-#: qml/EntryListDelegate.qml:23
+#: qml/EntryListDelegate.qml:20
 #, kde-format
 msgctxt "by <author(s)>"
 msgid "by"
 msgstr "door"
 
-#: qml/EntryListDelegate.qml:37
+#: qml/EntryListDelegate.qml:34
 #, kde-format
 msgid "Mark as unread"
 msgstr "Markeren als ongelezen"
 
-#: qml/EntryListDelegate.qml:37
+#: qml/EntryListDelegate.qml:34
 #, kde-format
 msgid "Mark as read"
 msgstr "Markeren als gelezen"
 
 #: qml/EntryListPage.qml:44
-#, kde-format
-msgid "Only Unread"
-msgstr "Alleen ongelezen"
+#, fuzzy, kde-format
+#| msgid "All Entries"
+msgid "Show all entries"
+msgstr "Alle items"
 
-#: qml/EntryListPage.qml:52
+#: qml/EntryListPage.qml:44
+#, fuzzy, kde-format
+#| msgid "No unread entries available"
+msgid "Show only unread entries"
+msgstr "Geen ongelezen items beschikbaar"
+
+#: qml/EntryListPage.qml:53
 #, kde-format
 msgid "Details"
 msgstr "Details"
 
-#: qml/EntryListPage.qml:63
+#: qml/EntryListPage.qml:64
 #, kde-format
 msgid "Refresh"
 msgstr "Vernieuwen"
 
-#: qml/EntryListPage.qml:72
+#: qml/EntryListPage.qml:73
 #, kde-format
 msgid "Error"
 msgstr "Fout"
 
-#: qml/EntryListPage.qml:73 qml/EntryListPage.qml:85
+#: qml/EntryListPage.qml:74 qml/EntryListPage.qml:86
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "Fout (%1): %2"
 
-#: qml/EntryListPage.qml:83
+#: qml/EntryListPage.qml:84
 #, kde-format
 msgid "No unread entries available"
 msgstr "Geen ongelezen items beschikbaar"
 
-#: qml/EntryListPage.qml:83
+#: qml/EntryListPage.qml:84
 #, kde-format
 msgid "No entries available"
 msgstr "Geen items beschikbaar"
@@ -257,17 +265,26 @@ msgstr "Naam:"
 msgid "Description:"
 msgstr "Beschrijving:"
 
-#: qml/FeedListDelegate.qml:24
+#: qml/FeedListDelegate.qml:21
 #, kde-format
 msgid "%1 unread entry"
 msgid_plural "%1 unread entries"
 msgstr[0] "%1 ongelezen item"
 msgstr[1] "%1 ongelezen items"
 
-#: qml/FeedListDelegate.qml:45
-#, kde-format
-msgid "Edit"
-msgstr "Bewerken"
+#: qml/FeedListDelegate.qml:34
+#, fuzzy, kde-format
+#| msgid "Delete after:"
+msgctxt "'Feed' is an rss feed"
+msgid "Delete this Feed"
+msgstr "Verwijderen na:"
+
+#: qml/FeedListDelegate.qml:47
+#, fuzzy, kde-format
+#| msgid "Edit Feed"
+msgctxt "'Feed' is an rss feed"
+msgid "Edit this Feed"
+msgstr "Feed bewerken"
 
 #: qml/FeedListPage.qml:34
 #, kde-format
@@ -354,55 +371,61 @@ msgstr "Nog geen groepen aangemaakt"
 msgid "Add Group"
 msgstr "Groep toevoegen"
 
-#: qml/SettingsPage.qml:20
+#: qml/SettingsPage.qml:21
 #, kde-format
 msgid "Article List"
 msgstr "Artikellijst"
 
-#: qml/SettingsPage.qml:24
+#: qml/SettingsPage.qml:25
 #, kde-format
 msgid "Delete after:"
 msgstr "Verwijderen na:"
 
-#: qml/SettingsPage.qml:37
+#: qml/SettingsPage.qml:38
 #, kde-format
 msgid "Never"
 msgstr "Nooit"
 
-#: qml/SettingsPage.qml:37
+#: qml/SettingsPage.qml:38
 #, kde-format
 msgid "Articles"
 msgstr "Artikelen"
 
-#: qml/SettingsPage.qml:37
+#: qml/SettingsPage.qml:38
 #, kde-format
 msgid "Days"
 msgstr "Dagen"
 
-#: qml/SettingsPage.qml:37
+#: qml/SettingsPage.qml:38
 #, kde-format
 msgid "Weeks"
 msgstr "Weken"
 
-#: qml/SettingsPage.qml:37
+#: qml/SettingsPage.qml:38
 #, kde-format
 msgid "Months"
 msgstr "Maanden"
 
-#: qml/SettingsPage.qml:45
+#: qml/SettingsPage.qml:46
 #, kde-format
 msgid "Article"
 msgstr "Artikel"
 
-#: qml/SettingsPage.qml:53
+#: qml/SettingsPage.qml:54
 #, kde-format
 msgid "Font size:"
 msgstr "Tekengrootte:"
 
-#: qml/SettingsPage.qml:64
+#: qml/SettingsPage.qml:65
 #, kde-format
 msgid "Use system default"
 msgstr "Systeemstandaard gebruiken"
+
+#~ msgid "Only Unread"
+#~ msgstr "Alleen ongelezen"
+
+#~ msgid "Edit"
+#~ msgstr "Bewerken"
 
 #~ msgid "Feed group"
 #~ msgstr "Feed-groep"

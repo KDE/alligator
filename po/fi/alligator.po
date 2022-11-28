@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-12 00:49+0000\n"
+"POT-Creation-Date: 2022-11-28 00:51+0000\n"
 "PO-Revision-Date: 2022-05-18 18:55+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -63,8 +63,9 @@ msgid "Feed Reader"
 msgstr "Syötteenlukija"
 
 #: main.cpp:78
-#, kde-format
-msgid "© 2020 KDE Community"
+#, fuzzy, kde-format
+#| msgid "© 2020 KDE Community"
+msgid "© 2020-2022 KDE Community"
 msgstr "KDE-yhteisö"
 
 #: main.cpp:79
@@ -72,17 +73,17 @@ msgstr "KDE-yhteisö"
 msgid "Tobias Fella"
 msgstr "Tobias Fella"
 
-#: main.cpp:98
+#: main.cpp:102
 #, kde-format
 msgid "RSS/Atom Feed Reader"
 msgstr "RSS/Atom-syötelukija"
 
-#: main.cpp:100
+#: main.cpp:104
 #, kde-format
 msgid "Adds a new feed to database."
 msgstr "Lisää tietokantaan uuden syötteen."
 
-#: main.cpp:101
+#: main.cpp:105
 #, kde-format
 msgid "feed URL"
 msgstr "syötteen verkko-osoite"
@@ -113,7 +114,7 @@ msgid "Cancel"
 msgstr "Peru"
 
 #: qml/AlligatorGlobalDrawer.qml:22 qml/EntryListPage.qml:21
-#: qml/EntryListPage.qml:95
+#: qml/EntryListPage.qml:96
 #, kde-format
 msgid "All Entries"
 msgstr "Kaikki kohteet"
@@ -129,7 +130,7 @@ msgid "Feed Groups"
 msgstr "Syöteryhmät"
 
 #: qml/AlligatorGlobalDrawer.qml:48 qml/AlligatorGlobalDrawer.qml:51
-#: qml/SettingsPage.qml:14
+#: qml/SettingsPage.qml:15
 #, kde-format
 msgid "Settings"
 msgstr "Asetukset"
@@ -159,55 +160,61 @@ msgstr "Näyttönimi:"
 msgid "Group:"
 msgstr "Ryhmä:"
 
-#: qml/EntryListDelegate.qml:23
+#: qml/EntryListDelegate.qml:20
 #, kde-format
 msgctxt "by <author(s)>"
 msgid "by"
 msgstr "tekijältä"
 
-#: qml/EntryListDelegate.qml:37
+#: qml/EntryListDelegate.qml:34
 #, kde-format
 msgid "Mark as unread"
 msgstr ""
 
-#: qml/EntryListDelegate.qml:37
+#: qml/EntryListDelegate.qml:34
 #, kde-format
 msgid "Mark as read"
 msgstr ""
 
 #: qml/EntryListPage.qml:44
 #, fuzzy, kde-format
-#| msgid "Only unread"
-msgid "Only Unread"
-msgstr "Vain lukemattomat"
+#| msgid "All Entries"
+msgid "Show all entries"
+msgstr "Kaikki kohteet"
 
-#: qml/EntryListPage.qml:52
+#: qml/EntryListPage.qml:44
+#, fuzzy, kde-format
+#| msgid "No Entries available"
+msgid "Show only unread entries"
+msgstr "Ei tietueita"
+
+#: qml/EntryListPage.qml:53
 #, kde-format
 msgid "Details"
 msgstr "Tiedot"
 
-#: qml/EntryListPage.qml:63
+#: qml/EntryListPage.qml:64
 #, kde-format
 msgid "Refresh"
 msgstr "Virkistä"
 
-#: qml/EntryListPage.qml:72
+#: qml/EntryListPage.qml:73
 #, kde-format
 msgid "Error"
 msgstr ""
 
-#: qml/EntryListPage.qml:73 qml/EntryListPage.qml:85
+#: qml/EntryListPage.qml:74 qml/EntryListPage.qml:86
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "Virhe (%1): %2"
 
-#: qml/EntryListPage.qml:83
+#: qml/EntryListPage.qml:84
 #, fuzzy, kde-format
 #| msgid "No Entries available"
 msgid "No unread entries available"
 msgstr "Ei tietueita"
 
-#: qml/EntryListPage.qml:83
+#: qml/EntryListPage.qml:84
 #, fuzzy, kde-format
 #| msgid "No Entries available"
 msgid "No entries available"
@@ -261,17 +268,26 @@ msgstr "Nimi:"
 msgid "Description:"
 msgstr "Kuvaus:"
 
-#: qml/FeedListDelegate.qml:24
+#: qml/FeedListDelegate.qml:21
 #, kde-format
 msgid "%1 unread entry"
 msgid_plural "%1 unread entries"
 msgstr[0] "Lukematta %1 tietue"
 msgstr[1] "Lukematta %1 tietuetta"
 
-#: qml/FeedListDelegate.qml:45
-#, kde-format
-msgid "Edit"
-msgstr "Muokkaa"
+#: qml/FeedListDelegate.qml:34
+#, fuzzy, kde-format
+#| msgid "Delete after:"
+msgctxt "'Feed' is an rss feed"
+msgid "Delete this Feed"
+msgstr "Poista ajassa:"
+
+#: qml/FeedListDelegate.qml:47
+#, fuzzy, kde-format
+#| msgid "Edit Feed"
+msgctxt "'Feed' is an rss feed"
+msgid "Edit this Feed"
+msgstr "Muokkaa syötettä"
 
 #: qml/FeedListPage.qml:34
 #, fuzzy, kde-format
@@ -363,55 +379,63 @@ msgstr "Ryhmiä ei toistaiseksi ole"
 msgid "Add Group"
 msgstr "Lisää ryhmä"
 
-#: qml/SettingsPage.qml:20
+#: qml/SettingsPage.qml:21
 #, kde-format
 msgid "Article List"
 msgstr "Artikkeliluettelo"
 
-#: qml/SettingsPage.qml:24
+#: qml/SettingsPage.qml:25
 #, kde-format
 msgid "Delete after:"
 msgstr "Poista ajassa:"
 
-#: qml/SettingsPage.qml:37
+#: qml/SettingsPage.qml:38
 #, kde-format
 msgid "Never"
 msgstr "Ei koskaan"
 
-#: qml/SettingsPage.qml:37
+#: qml/SettingsPage.qml:38
 #, kde-format
 msgid "Articles"
 msgstr "Artikkelit"
 
-#: qml/SettingsPage.qml:37
+#: qml/SettingsPage.qml:38
 #, kde-format
 msgid "Days"
 msgstr "päivää"
 
-#: qml/SettingsPage.qml:37
+#: qml/SettingsPage.qml:38
 #, kde-format
 msgid "Weeks"
 msgstr "viikkoa"
 
-#: qml/SettingsPage.qml:37
+#: qml/SettingsPage.qml:38
 #, kde-format
 msgid "Months"
 msgstr "kuukautta"
 
-#: qml/SettingsPage.qml:45
+#: qml/SettingsPage.qml:46
 #, kde-format
 msgid "Article"
 msgstr "Artikkeli"
 
-#: qml/SettingsPage.qml:53
+#: qml/SettingsPage.qml:54
 #, kde-format
 msgid "Font size:"
 msgstr "Fonttikoko:"
 
-#: qml/SettingsPage.qml:64
+#: qml/SettingsPage.qml:65
 #, kde-format
 msgid "Use system default"
 msgstr "Käytä järjestelmän oletusta"
+
+#, fuzzy
+#~| msgid "Only unread"
+#~ msgid "Only Unread"
+#~ msgstr "Vain lukemattomat"
+
+#~ msgid "Edit"
+#~ msgstr "Muokkaa"
 
 #~ msgid "Feed group"
 #~ msgstr "Syöteryhmä"

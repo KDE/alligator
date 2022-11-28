@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-12 00:49+0000\n"
+"POT-Creation-Date: 2022-11-28 00:51+0000\n"
 "PO-Revision-Date: 2022-08-14 02:10+0200\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
@@ -63,8 +63,9 @@ msgid "Feed Reader"
 msgstr "Lettore di fonti"
 
 #: main.cpp:78
-#, kde-format
-msgid "© 2020 KDE Community"
+#, fuzzy, kde-format
+#| msgid "© 2020 KDE Community"
+msgid "© 2020-2022 KDE Community"
 msgstr "© 2020 Comunità KDE"
 
 #: main.cpp:79
@@ -72,17 +73,17 @@ msgstr "© 2020 Comunità KDE"
 msgid "Tobias Fella"
 msgstr "Tobias Fella"
 
-#: main.cpp:98
+#: main.cpp:102
 #, kde-format
 msgid "RSS/Atom Feed Reader"
 msgstr "Lettore di fonti RSS/Atom"
 
-#: main.cpp:100
+#: main.cpp:104
 #, kde-format
 msgid "Adds a new feed to database."
 msgstr "Aggiunge una nuova fonte alla banca dati."
 
-#: main.cpp:101
+#: main.cpp:105
 #, kde-format
 msgid "feed URL"
 msgstr "URL della fonte"
@@ -113,7 +114,7 @@ msgid "Cancel"
 msgstr "Annulla"
 
 #: qml/AlligatorGlobalDrawer.qml:22 qml/EntryListPage.qml:21
-#: qml/EntryListPage.qml:95
+#: qml/EntryListPage.qml:96
 #, kde-format
 msgid "All Entries"
 msgstr "Tutte le voci"
@@ -129,7 +130,7 @@ msgid "Feed Groups"
 msgstr "Gruppi di fonti"
 
 #: qml/AlligatorGlobalDrawer.qml:48 qml/AlligatorGlobalDrawer.qml:51
-#: qml/SettingsPage.qml:14
+#: qml/SettingsPage.qml:15
 #, kde-format
 msgid "Settings"
 msgstr "Impostazioni"
@@ -159,53 +160,60 @@ msgstr "Nome visualizzato:"
 msgid "Group:"
 msgstr "Gruppo:"
 
-#: qml/EntryListDelegate.qml:23
+#: qml/EntryListDelegate.qml:20
 #, kde-format
 msgctxt "by <author(s)>"
 msgid "by"
 msgstr "di"
 
-#: qml/EntryListDelegate.qml:37
+#: qml/EntryListDelegate.qml:34
 #, kde-format
 msgid "Mark as unread"
 msgstr "Marca come non letto"
 
-#: qml/EntryListDelegate.qml:37
+#: qml/EntryListDelegate.qml:34
 #, kde-format
 msgid "Mark as read"
 msgstr "Marca come letto"
 
 #: qml/EntryListPage.qml:44
-#, kde-format
-msgid "Only Unread"
-msgstr "Solo non letti"
+#, fuzzy, kde-format
+#| msgid "All Entries"
+msgid "Show all entries"
+msgstr "Tutte le voci"
 
-#: qml/EntryListPage.qml:52
+#: qml/EntryListPage.qml:44
+#, fuzzy, kde-format
+#| msgid "No unread entries available"
+msgid "Show only unread entries"
+msgstr "Nessuna voce non letta disponibile"
+
+#: qml/EntryListPage.qml:53
 #, kde-format
 msgid "Details"
 msgstr "Dettagli"
 
-#: qml/EntryListPage.qml:63
+#: qml/EntryListPage.qml:64
 #, kde-format
 msgid "Refresh"
 msgstr "Aggiorna"
 
-#: qml/EntryListPage.qml:72
+#: qml/EntryListPage.qml:73
 #, kde-format
 msgid "Error"
 msgstr "Errore"
 
-#: qml/EntryListPage.qml:73 qml/EntryListPage.qml:85
+#: qml/EntryListPage.qml:74 qml/EntryListPage.qml:86
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "Errore (%1): %2"
 
-#: qml/EntryListPage.qml:83
+#: qml/EntryListPage.qml:84
 #, kde-format
 msgid "No unread entries available"
 msgstr "Nessuna voce non letta disponibile"
 
-#: qml/EntryListPage.qml:83
+#: qml/EntryListPage.qml:84
 #, kde-format
 msgid "No entries available"
 msgstr "Nessuna voce disponibile"
@@ -257,17 +265,26 @@ msgstr "Nome:"
 msgid "Description:"
 msgstr "Descrizione:"
 
-#: qml/FeedListDelegate.qml:24
+#: qml/FeedListDelegate.qml:21
 #, kde-format
 msgid "%1 unread entry"
 msgid_plural "%1 unread entries"
 msgstr[0] "%1 voce non letta"
 msgstr[1] "%1 voci non lette"
 
-#: qml/FeedListDelegate.qml:45
-#, kde-format
-msgid "Edit"
-msgstr "Modifica"
+#: qml/FeedListDelegate.qml:34
+#, fuzzy, kde-format
+#| msgid "Delete after:"
+msgctxt "'Feed' is an rss feed"
+msgid "Delete this Feed"
+msgstr "Elimina dopo:"
+
+#: qml/FeedListDelegate.qml:47
+#, fuzzy, kde-format
+#| msgid "Edit Feed"
+msgctxt "'Feed' is an rss feed"
+msgid "Edit this Feed"
+msgstr "Modifica la fonte"
 
 #: qml/FeedListPage.qml:34
 #, kde-format
@@ -354,55 +371,61 @@ msgstr "Ancora nessun gruppo creato"
 msgid "Add Group"
 msgstr "Aggiungi gruppo"
 
-#: qml/SettingsPage.qml:20
+#: qml/SettingsPage.qml:21
 #, kde-format
 msgid "Article List"
 msgstr "Elenco degli articoli"
 
-#: qml/SettingsPage.qml:24
+#: qml/SettingsPage.qml:25
 #, kde-format
 msgid "Delete after:"
 msgstr "Elimina dopo:"
 
-#: qml/SettingsPage.qml:37
+#: qml/SettingsPage.qml:38
 #, kde-format
 msgid "Never"
 msgstr "Mai"
 
-#: qml/SettingsPage.qml:37
+#: qml/SettingsPage.qml:38
 #, kde-format
 msgid "Articles"
 msgstr "Articoli"
 
-#: qml/SettingsPage.qml:37
+#: qml/SettingsPage.qml:38
 #, kde-format
 msgid "Days"
 msgstr "Giorni"
 
-#: qml/SettingsPage.qml:37
+#: qml/SettingsPage.qml:38
 #, kde-format
 msgid "Weeks"
 msgstr "Settimane"
 
-#: qml/SettingsPage.qml:37
+#: qml/SettingsPage.qml:38
 #, kde-format
 msgid "Months"
 msgstr "Mesi"
 
-#: qml/SettingsPage.qml:45
+#: qml/SettingsPage.qml:46
 #, kde-format
 msgid "Article"
 msgstr "Articolo"
 
-#: qml/SettingsPage.qml:53
+#: qml/SettingsPage.qml:54
 #, kde-format
 msgid "Font size:"
 msgstr "Dimensione dei caratteri:"
 
-#: qml/SettingsPage.qml:64
+#: qml/SettingsPage.qml:65
 #, kde-format
 msgid "Use system default"
 msgstr "Usare i valori predefiniti di sistema"
+
+#~ msgid "Only Unread"
+#~ msgstr "Solo non letti"
+
+#~ msgid "Edit"
+#~ msgstr "Modifica"
 
 #~ msgid "Feed group"
 #~ msgstr "Gruppo di fonti"
