@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-11-28 00:51+0000\n"
-"PO-Revision-Date: 2022-08-14 12:13+0100\n"
+"PO-Revision-Date: 2022-11-28 18:14+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -59,10 +59,9 @@ msgid "Feed Reader"
 msgstr "Leitor de Fontes"
 
 #: main.cpp:78
-#, fuzzy, kde-format
-#| msgid "© 2020 KDE Community"
+#, kde-format
 msgid "© 2020-2022 KDE Community"
-msgstr "© 2020 da Comunidade do KDE"
+msgstr "© 2020-2022 da Comunidade do KDE"
 
 #: main.cpp:79
 #, kde-format
@@ -173,16 +172,14 @@ msgid "Mark as read"
 msgstr "Marcar como lida"
 
 #: qml/EntryListPage.qml:44
-#, fuzzy, kde-format
-#| msgid "All Entries"
+#, kde-format
 msgid "Show all entries"
-msgstr "Todos os Itens"
+msgstr "Mostrar todos os itens"
 
 #: qml/EntryListPage.qml:44
-#, fuzzy, kde-format
-#| msgid "No unread entries available"
+#, kde-format
 msgid "Show only unread entries"
-msgstr "Sem itens não-lidos disponíveis"
+msgstr "Mostrar apenas os itens não-lidos"
 
 #: qml/EntryListPage.qml:53
 #, kde-format
@@ -269,18 +266,16 @@ msgstr[0] "%1 item não-lido"
 msgstr[1] "%1 itens não-lidos"
 
 #: qml/FeedListDelegate.qml:34
-#, fuzzy, kde-format
-#| msgid "Delete after:"
+#, kde-format
 msgctxt "'Feed' is an rss feed"
 msgid "Delete this Feed"
-msgstr "Apagar ao fim de:"
+msgstr "Apagar esta Fonte"
 
 #: qml/FeedListDelegate.qml:47
-#, fuzzy, kde-format
-#| msgid "Edit Feed"
+#, kde-format
 msgctxt "'Feed' is an rss feed"
 msgid "Edit this Feed"
-msgstr "Editar a Fonte"
+msgstr "Editar esta Fonte"
 
 #: qml/FeedListPage.qml:34
 #, kde-format
@@ -416,9 +411,3 @@ msgstr "Tamanho da letra:"
 #, kde-format
 msgid "Use system default"
 msgstr "Usar a predefinição do sistema"
-
-#~ msgid "Only Unread"
-#~ msgstr "Apenas as Não-Lidas"
-
-#~ msgid "Edit"
-#~ msgstr "Editar"

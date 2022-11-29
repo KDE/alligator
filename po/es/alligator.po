@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-11-28 00:51+0000\n"
-"PO-Revision-Date: 2022-08-13 02:56+0200\n"
+"PO-Revision-Date: 2022-11-28 05:13+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 22.04.3\n"
+"X-Generator: Lokalize 22.11.80\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -65,10 +65,9 @@ msgid "Feed Reader"
 msgstr "Lector de emisiones web"
 
 #: main.cpp:78
-#, fuzzy, kde-format
-#| msgid "© 2020 KDE Community"
+#, kde-format
 msgid "© 2020-2022 KDE Community"
-msgstr "© 2020 La comunidad KDE"
+msgstr "© 2020-2022 La comunidad KDE"
 
 #: main.cpp:79
 #, kde-format
@@ -179,16 +178,14 @@ msgid "Mark as read"
 msgstr "Marcar como leído"
 
 #: qml/EntryListPage.qml:44
-#, fuzzy, kde-format
-#| msgid "All Entries"
+#, kde-format
 msgid "Show all entries"
-msgstr "Todas las entradas"
+msgstr "Mostrar todas las entradas"
 
 #: qml/EntryListPage.qml:44
-#, fuzzy, kde-format
-#| msgid "No unread entries available"
+#, kde-format
 msgid "Show only unread entries"
-msgstr "No hay entradas sin leer"
+msgstr "Mostrar solo las entradas sin leer"
 
 #: qml/EntryListPage.qml:53
 #, kde-format
@@ -275,18 +272,16 @@ msgstr[0] "%1 entrada sin leer"
 msgstr[1] "%1 entradas sin leer"
 
 #: qml/FeedListDelegate.qml:34
-#, fuzzy, kde-format
-#| msgid "Delete after:"
+#, kde-format
 msgctxt "'Feed' is an rss feed"
 msgid "Delete this Feed"
-msgstr "Borrar tras:"
+msgstr "Borrar esta emisión web"
 
 #: qml/FeedListDelegate.qml:47
-#, fuzzy, kde-format
-#| msgid "Edit Feed"
+#, kde-format
 msgctxt "'Feed' is an rss feed"
 msgid "Edit this Feed"
-msgstr "Editar emisión web"
+msgstr "Editar esta emisión web"
 
 #: qml/FeedListPage.qml:34
 #, kde-format
