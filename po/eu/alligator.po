@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-11-28 00:51+0000\n"
-"PO-Revision-Date: 2022-08-14 21:33+0200\n"
+"PO-Revision-Date: 2022-11-29 05:30+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 22.04.3\n"
+"X-Generator: Lokalize 22.08.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -66,10 +66,9 @@ msgid "Feed Reader"
 msgstr "Web-jario irakurlea"
 
 #: main.cpp:78
-#, fuzzy, kde-format
-#| msgid "© 2020 KDE Community"
+#, kde-format
 msgid "© 2020-2022 KDE Community"
-msgstr "© 2020 KDE komunitatea"
+msgstr "© 2020-2022 KDE komunitatea"
 
 #: main.cpp:79
 #, kde-format
@@ -180,16 +179,14 @@ msgid "Mark as read"
 msgstr "Markatu irakurritako gisa"
 
 #: qml/EntryListPage.qml:44
-#, fuzzy, kde-format
-#| msgid "All Entries"
+#, kde-format
 msgid "Show all entries"
-msgstr "Sarrera guztiak"
+msgstr "Erakutsi sarrera guztiak"
 
 #: qml/EntryListPage.qml:44
-#, fuzzy, kde-format
-#| msgid "No unread entries available"
+#, kde-format
 msgid "Show only unread entries"
-msgstr "Ez dago irakurri gabeko sarrerarik"
+msgstr "Erakutsi bakarrik irakurri gabeko sarrerak"
 
 #: qml/EntryListPage.qml:53
 #, kde-format
@@ -276,18 +273,16 @@ msgstr[0] "irakurri gabeko sarrera %1"
 msgstr[1] "irakurri gabeko %1 sarrera"
 
 #: qml/FeedListDelegate.qml:34
-#, fuzzy, kde-format
-#| msgid "Delete after:"
+#, kde-format
 msgctxt "'Feed' is an rss feed"
 msgid "Delete this Feed"
-msgstr "Ezabatu igarotakoan:"
+msgstr "Ezabatu web-jario hori"
 
 #: qml/FeedListDelegate.qml:47
-#, fuzzy, kde-format
-#| msgid "Edit Feed"
+#, kde-format
 msgctxt "'Feed' is an rss feed"
 msgid "Edit this Feed"
-msgstr "Editatu jarioa"
+msgstr "Editatu web-jario hori"
 
 #: qml/FeedListPage.qml:34
 #, kde-format
