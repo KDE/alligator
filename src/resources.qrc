@@ -9,11 +9,11 @@
         <file alias="SettingsPage.qml">qml/SettingsPage.qml</file>
         <file alias="FeedDetailsPage.qml">qml/FeedDetailsPage.qml</file>
         <file alias="EntryListDelegate.qml">qml/EntryListDelegate.qml</file>
-        <file alias="AddFeedSheet.qml">qml/AddFeedSheet.qml</file>
+        <file alias="AddFeedDialog.qml">qml/AddFeedDialog.qml</file>
         <file alias="FeedListDelegate.qml">qml/FeedListDelegate.qml</file>
-        <file alias="EditFeedSheet.qml">qml/EditFeedSheet.qml</file>
+        <file alias="EditFeedDialog.qml">qml/EditFeedDialog.qml</file>
         <file alias="GroupsListPage.qml">qml/GroupsListPage.qml</file>
         <file alias="AlligatorGlobalDrawer.qml">qml/AlligatorGlobalDrawer.qml</file>
-        <file alias="FeedGroupSheet.qml">qml/FeedGroupSheet.qml</file>
+        <file alias="FeedGroupDialog.qml">qml/FeedGroupDialog.qml</file>
     </qresource>
 </RCC>

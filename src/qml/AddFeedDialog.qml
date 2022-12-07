@@ -8,19 +8,25 @@ import QtQuick 2.14
 import QtQuick.Controls 2.14 as Controls
 import QtQuick.Layouts 1.14
 
-import org.kde.kirigami 2.12 as Kirigami
+import org.kde.kirigami 2.20 as Kirigami
 
 import org.kde.alligator 1.0
 
-Kirigami.OverlaySheet {
+Kirigami.Dialog {
     id: addSheet
     property string groupName: ""
-    parent: applicationWindow().overlay
-    header: Kirigami.Heading {
-        text: i18n("Add Feed")
+
+    title: i18n("Add Feed")
+    standardButtons: Kirigami.Dialog.Ok | Kirigami.Dialog.Cancel
+    padding: Kirigami.Units.largeSpacing
+    // bottomPadding: Kirigami.Units.largeSpacing + Kirigami.Units.smallSpacing
+    preferredWidth: Kirigami.Units.gridUnit * 20
+
+    onAccepted: {
+        Database.addFeed(urlField.text, addSheet.groupName, markFeedAsRead.checked)
     }
 
-    contentItem: ColumnLayout {
+    ColumnLayout {
         Controls.Label {
             text: i18n("Url:")
         }
@@ -33,28 +39,6 @@ Kirigami.OverlaySheet {
             id: markFeedAsRead
             checked: false
             text: i18n("Mark entries as read")
-        }
-    }
-
-    footer: RowLayout {
-        Item {
-            Layout.fillWidth: true
-        }
-
-        Controls.ToolButton {
-            text: i18n("OK")
-            enabled: urlField.text
-
-            onClicked: {
-                Database.addFeed(urlField.text, addSheet.groupName, markFeedAsRead.checked)
-                addSheet.close()
-            }
-        }
-
-        Controls.ToolButton {
-            text: i18n("Cancel")
-
-            onClicked: addSheet.close()
         }
     }
 }

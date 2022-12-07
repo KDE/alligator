@@ -21,7 +21,7 @@ Kirigami.ScrollablePage {
         iconName: "list-add"
         text: i18n("Add Group…")
 
-        onTriggered: feedGroupSheet.open()
+        onTriggered: feedGroupDialog.open()
     }
 
     ListView {
@@ -68,13 +68,13 @@ Kirigami.ScrollablePage {
             helpfulAction: Kirigami.Action {
                 icon.name: "list-add"
                 text: i18n("Add Group")
-                onTriggered: feedGroupSheet.open()
+                onTriggered: feedGroupDialog.open()
             }
         }
     }
 
-    FeedGroupSheet {
-        id: feedGroupSheet
+    FeedGroupDialog {
+        id: feedGroupDialog
 
         groupsModel: feedGroupsModel
     }

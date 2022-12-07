@@ -21,7 +21,6 @@ Kirigami.ScrollablePage {
     property var lastFeed: ""
     property alias groupFilter: proxyModel.groupName
 
-
     supportsRefreshing: true
     onRefreshingChanged:
         if(refreshing)  {
@@ -50,20 +49,20 @@ Kirigami.ScrollablePage {
         }
     ]
 
-    AddFeedSheet {
-        id: addSheet
+    AddFeedDialog {
+        id: addDialog
         groupName: root.groupFilter
     }
 
-    EditFeedSheet {
-        id: editSheet
+    EditFeedDialog {
+        id: editDialog
     }
 
     actions.main: Kirigami.Action {
         text: i18n("Add Feed…")
         iconName: "list-add"
         onTriggered: {
-            addSheet.open()
+            addDialog.open()
         }
     }
 
@@ -90,8 +89,8 @@ Kirigami.ScrollablePage {
 
         delegate: FeedListDelegate {
             onEditFeed: {
-                editSheet.feed = feedObj
-                editSheet.open()
+                editDialog.feed = feedObj
+                editDialog.open()
             }
         }
 
