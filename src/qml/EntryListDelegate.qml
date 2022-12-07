@@ -1,5 +1,6 @@
 /**
  * SPDX-FileCopyrightText: 2020 Tobias Fella <fella@posteo.de>
+ * SPDX-FileCopyrightText: 2022 Devin Lin <devin@kde.org>
  *
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
@@ -12,30 +13,42 @@ import org.kde.kirigami 2.12 as Kirigami
 
 import org.kde.alligator 1.0
 
-Kirigami.BasicListItem {
+Kirigami.AbstractListItem {
 
     property string feedTitle
 
-    text: model.entry.title
-    subtitle: model.entry.updated.toLocaleString(Qt.locale(), Locale.ShortFormat) + (model.entry.authors.length === 0 ? "" : " " + i18nc("by <author(s)>", "by") + " " + model.entry.authors[0].name)
-    reserveSpaceForIcon: false
-    bold: !model.entry.read
-
     onClicked: {
-        while(pageStack.depth > 2)
+        while(pageStack.depth > 2) {
             pageStack.pop()
+        }
         pageStack.push("qrc:/EntryPage.qml", {"entry": model.entry, "feedTitle" : feedTitle})
     }
 
-    trailing: RowLayout {
-        Controls.ToolButton {
-            icon.name: model.entry.read ? "mail-mark-unread" : "mail-mark-read"
-            display: Controls.AbstractButton.IconOnly
-            text: model.entry.read ? i18n("Mark as unread") : i18n("Mark as read")
-            onClicked: model.entry.read = !model.entry.read
-            Controls.ToolTip {
-                text: parent.text
-            }
+    separatorVisible: true
+    activeBackgroundColor: Qt.rgba(Kirigami.Theme.highlightColor.r, Kirigami.Theme.highlightColor.g, Kirigami.Theme.highlightColor.b, 0.5)
+    topPadding: Kirigami.Units.largeSpacing
+    bottomPadding: Kirigami.Units.largeSpacing
+
+    contentItem: ColumnLayout {
+        spacing: Kirigami.Units.smallSpacing * 2
+
+        Controls.Label {
+            Layout.fillWidth: true
+            text: model.entry.title
+            font.pointSize: Math.round(Kirigami.Theme.defaultFont.pointSize * 1)
+            font.weight: Font.Medium
+            wrapMode: Text.Wrap
+            elide: Text.ElideRight
+            maximumLineCount: 3
+            opacity: model.entry.read ? 0.7 : 1
+        }
+
+        Controls.Label {
+            Layout.fillWidth: true
+            elide: Text.ElideRight
+            font.pointSize: Kirigami.Theme.smallFont.pointSize
+            opacity: 0.9
+            text: model.entry.updated.toLocaleString(Qt.locale(), Locale.ShortFormat) + (model.entry.authors.length === 0 ? "" : " " + i18nc("by <author(s)>", "by") + " " + model.entry.authors[0].name)
         }
     }
 }

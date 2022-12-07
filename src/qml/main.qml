@@ -15,8 +15,14 @@ Kirigami.ApplicationWindow {
     id: root
 
     title: "Alligator"
+    width: 1200
+    height: 700
+
+    property bool sidebarCollapsed: false
 
     pageStack.initialPage: entryList
+    pageStack.globalToolBar.style: Kirigami.ApplicationHeaderStyle.ToolBar
+    pageStack.globalToolBar.showNavigationButtons: Kirigami.ApplicationHeaderStyle.ShowBackButton
 
     globalDrawer: AlligatorGlobalDrawer {
         entriesPage: entryList

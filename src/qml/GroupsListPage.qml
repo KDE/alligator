@@ -17,19 +17,26 @@ Kirigami.ScrollablePage {
 
     title: i18n("Groups")
 
-    actions.main: Kirigami.Action {
-        iconName: "list-add"
-        text: i18n("Add Group…")
+    globalToolBarStyle: Kirigami.ApplicationHeaderStyle.ToolBar
+    contextualActions: [
+        Kirigami.Action {
+            iconName: "list-add"
+            text: i18n("Add Group…")
 
-        onTriggered: feedGroupDialog.open()
-    }
+            onTriggered: feedGroupDialog.open()
+        }
+    ]
 
     ListView {
         id: groupsListView
         model: feedGroupsModel
 
+        currentIndex: -1
+
         delegate: Kirigami.SwipeListItem {
             font.bold: model.isDefault
+            activeBackgroundColor: "transparent"
+            activeTextColor: Kirigami.Theme.textColor
             contentItem: ColumnLayout {
                 Controls.Label {
                     text: model.name

@@ -15,7 +15,6 @@ import org.kde.alligator 1.0
 
 Kirigami.ScrollablePage {
     id: root
-
     title: groupFilter ? groupFilter : "Alligator"
 
     property var lastFeed: ""
@@ -36,6 +35,11 @@ Kirigami.ScrollablePage {
             visible: !Kirigami.Settings.isMobile
         },
         Kirigami.Action {
+            text: i18n("Manage Feed Groups")
+            iconName: "edit-group"
+            onTriggered: applicationWindow().pageStack.layers.push(groupsList)
+        },
+        Kirigami.Action {
             text: i18n("Import Feeds...")
             iconName: "document-import"
             visible: root.groupFilter === ""
@@ -48,6 +52,15 @@ Kirigami.ScrollablePage {
             onTriggered: exportDialog.open()
         }
     ]
+
+    Component {
+        id: groupsList
+        GroupsListPage {
+            feedGroupsModel: FeedGroupsModel {
+                id: groupsModel
+            }
+        }
+    }
 
     AddFeedDialog {
         id: addDialog
@@ -78,6 +91,7 @@ Kirigami.ScrollablePage {
 
     ListView {
         id: feedList
+        currentIndex: -1
 
         anchors.fill: parent
 

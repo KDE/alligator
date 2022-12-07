@@ -16,9 +16,8 @@ Kirigami.ScrollablePage {
     id: page
 
     property var feed
-    property bool onlyUnread: onlyUnreadAction.checked
+    property bool onlyUnread: false
 
-    title: feed === undefined ? i18n("All Entries") : feed.displayName || feed.name
     supportsRefreshing: true
 
     onRefreshingChanged:
@@ -40,14 +39,6 @@ Kirigami.ScrollablePage {
 
     contextualActions: [
         Kirigami.Action {
-            id: onlyUnreadAction
-            text: checked ? i18n("Show all entries") : i18n("Show only unread entries")
-            icon.name: checked ? "mail-mark-read" : "mail-mark-unread"
-            checkable: true
-            checked: true // TODO: store in settings
-            onToggled: page.onlyUnread = checked
-        },
-        Kirigami.Action {
             visible: feed !== undefined
             iconName: "help-about-symbolic"
             text: i18n("Details")
@@ -66,6 +57,22 @@ Kirigami.ScrollablePage {
         visible: !Kirigami.Settings.isMobile || entryList.count === 0
     }
 
+    titleDelegate: RowLayout {
+        spacing: Kirigami.Units.smallSpacing
+        Controls.ToolButton {
+            visible: !applicationWindow().globalDrawer.modal
+            text: applicationWindow().sidebarCollapsed ? i18n("Expand sidebar") : i18n("Collapse sidebar")
+            icon.name: applicationWindow().sidebarCollapsed ? "sidebar-expand" : "sidebar-collapse"
+            display: Controls.ToolButton.IconOnly
+            onClicked: applicationWindow().sidebarCollapsed = !applicationWindow().sidebarCollapsed
+        }
+
+        Kirigami.Heading {
+            Layout.fillWidth: true
+            text: feed === undefined ? i18n("All Entries") : feed.displayName || feed.name
+        }
+    }
+
     Kirigami.PromptDialog {
         // Show this dialog only if we can not show the error in the placeholder.
         // This is eg. the case if the feed worked so far, but refreshing fails for some reason
@@ -81,7 +88,7 @@ Kirigami.ScrollablePage {
         anchors.centerIn: parent
 
         text: if(feed === undefined || feed.errorId === 0) {
-            onlyUnreadAction.checked ? i18n("No unread entries available") : i18n("No entries available")
+            root.onlyUnread ? i18n("No unread entries available") : i18n("No entries available")
         } else {
             i18n("Error (%1): %2", feed.errorId, feed.errorString)
         }
@@ -93,7 +100,10 @@ Kirigami.ScrollablePage {
         visible: count !== 0
         model: proxyModel
 
-        delegate: EntryListDelegate { feedTitle : feed === undefined ? i18n("All Entries") : feed.displayName || feed.name }
+        // stop list highlight
+        currentIndex: -1
+
+        delegate: EntryListDelegate { feedTitle: (feed === undefined ? "" : feed.displayName) || "" }
     }
 
     EntriesProxyModel {
@@ -104,5 +114,30 @@ Kirigami.ScrollablePage {
 
     EntriesModel {
         id: allEntriesModel
+    }
+
+    footer: ColumnLayout {
+        spacing: 0
+
+        Kirigami.Separator { Layout.fillWidth: true }
+
+        Kirigami.NavigationTabBar {
+            Layout.fillWidth: true
+            shadow: false
+            actions: [
+                Kirigami.Action {
+                    iconName: "mail-read"
+                    text: i18n("All")
+                    checked: !page.onlyUnread
+                    onTriggered: page.onlyUnread = false
+                },
+                Kirigami.Action {
+                    iconName: "mail-mark-unread"
+                    text: i18n("Unread")
+                    checked: page.onlyUnread
+                    onTriggered: page.onlyUnread = true;
+                }
+            ]
+        }
     }
 }

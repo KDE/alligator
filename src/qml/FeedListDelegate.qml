@@ -20,12 +20,8 @@ Kirigami.BasicListItem {
     icon: model.feed.refreshing ? "view-refresh" : model.feed.image === "" ? "rss" : Fetcher.image(model.feed.image)
     subtitle: i18np("%1 unread entry", "%1 unread entries", model.feed.unreadEntryCount)
 
-    onClicked: {
-        lastFeed = model.feed.url
-        while(pageStack.depth > 1)
-            pageStack.pop()
-        pageStack.push("qrc:/EntryListPage.qml", {"feed": model.feed})
-    }
+    activeBackgroundColor: "transparent"
+    activeTextColor: Kirigami.Theme.textColor
 
     trailing: RowLayout {
         Controls.ToolButton {
