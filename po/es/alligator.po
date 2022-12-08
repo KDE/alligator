@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-28 00:51+0000\n"
+"POT-Creation-Date: 2022-12-08 00:48+0000\n"
 "PO-Revision-Date: 2022-11-28 05:13+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -29,193 +29,177 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ecuadra@eloihr.net"
 
-#: database.cpp:65 database.cpp:318
+#: database.cpp:67 database.cpp:335
 #, kde-format
 msgid "Default"
 msgstr "Por omisión"
 
-#: database.cpp:66 database.cpp:319
+#: database.cpp:68 database.cpp:336
 #, kde-format
 msgid "Default Feed Group"
 msgstr "Grupo de emisiones web predeterminado"
 
-#: fetcher.cpp:228
+#: fetcher.cpp:236
 #, kde-format
 msgid "Invalid XML"
 msgstr "XML no válido"
 
-#: fetcher.cpp:230
+#: fetcher.cpp:238
 #, kde-format
 msgid "No parser accepted the XML"
 msgstr "Ningún analizador ha aceptado el XML"
 
-#: fetcher.cpp:232
+#: fetcher.cpp:240
 #, kde-format
 msgid "Error while parsing feed"
 msgstr "Ha ocurrido un error al analizar la emisión web"
 
-#: main.cpp:74
+#: main.cpp:78 qml/AlligatorGlobalDrawer.qml:57
 #, kde-format
 msgid "Alligator"
 msgstr "Alligator"
 
-#: main.cpp:76
+#: main.cpp:80
 #, kde-format
 msgid "Feed Reader"
 msgstr "Lector de emisiones web"
 
-#: main.cpp:78
+#: main.cpp:82
 #, kde-format
 msgid "© 2020-2022 KDE Community"
 msgstr "© 2020-2022 La comunidad KDE"
 
-#: main.cpp:79
+#: main.cpp:83
 #, kde-format
 msgid "Tobias Fella"
 msgstr "Tobias Fella"
 
-#: main.cpp:102
+#: main.cpp:106
 #, kde-format
 msgid "RSS/Atom Feed Reader"
 msgstr "Lector de emisiones web RSS/Atom"
 
-#: main.cpp:104
+#: main.cpp:108
 #, kde-format
 msgid "Adds a new feed to database."
 msgstr "Añade una nueva emisión web a la base de datos."
 
-#: main.cpp:105
+#: main.cpp:109
 #, kde-format
 msgid "feed URL"
 msgstr "URL de la emisión web"
 
-#: qml/AddFeedSheet.qml:20
+#: qml/AddFeedDialog.qml:19
 #, kde-format
 msgid "Add Feed"
 msgstr "Añadir emisión web"
 
-#: qml/AddFeedSheet.qml:25
+#: qml/AddFeedDialog.qml:31
 #, kde-format
 msgid "Url:"
 msgstr "URL:"
 
-#: qml/AddFeedSheet.qml:35
+#: qml/AddFeedDialog.qml:41
 #, kde-format
 msgid "Mark entries as read"
 msgstr "Marcar las entradas como leídas"
 
-#: qml/AddFeedSheet.qml:45 qml/EditFeedSheet.qml:50 qml/FeedGroupSheet.qml:49
-#, kde-format
-msgid "OK"
-msgstr "Aceptar"
-
-#: qml/AddFeedSheet.qml:55 qml/EditFeedSheet.qml:59 qml/FeedGroupSheet.qml:60
-#, kde-format
-msgid "Cancel"
-msgstr "Cancelar"
-
-#: qml/AlligatorGlobalDrawer.qml:22 qml/EntryListPage.qml:21
-#: qml/EntryListPage.qml:96
-#, kde-format
-msgid "All Entries"
-msgstr "Todas las entradas"
-
-#: qml/AlligatorGlobalDrawer.qml:32
+#: qml/AlligatorGlobalDrawer.qml:88
 #, kde-format
 msgid "All Feeds"
 msgstr "Todas las emisiones web"
 
-#: qml/AlligatorGlobalDrawer.qml:44
-#, kde-format
-msgid "Feed Groups"
-msgstr "Grupos de emisiones web"
-
-#: qml/AlligatorGlobalDrawer.qml:48 qml/AlligatorGlobalDrawer.qml:51
-#: qml/SettingsPage.qml:15
+#: qml/AlligatorGlobalDrawer.qml:137 qml/SettingsPage.qml:15
 #, kde-format
 msgid "Settings"
 msgstr "Preferencias"
 
-#: qml/AlligatorGlobalDrawer.qml:54 qml/AlligatorGlobalDrawer.qml:57
+#: qml/AlligatorGlobalDrawer.qml:148
+#, kde-format
+msgid "Manage Feeds"
+msgstr ""
+
+#: qml/AlligatorGlobalDrawer.qml:159
 #, kde-format
 msgid "About"
 msgstr "Acerca de"
 
-#: qml/AlligatorGlobalDrawer.qml:64
-#, kde-format
-msgid "Configure Groups"
-msgstr "Configurar grupos"
-
-#: qml/EditFeedSheet.qml:19
+#: qml/EditFeedDialog.qml:15
 #, kde-format
 msgid "Edit Feed"
 msgstr "Editar emisión web"
 
-#: qml/EditFeedSheet.qml:30
+#: qml/EditFeedDialog.qml:35
 #, kde-format
 msgid "Display Name:"
 msgstr "Nombre a mostrar:"
 
-#: qml/EditFeedSheet.qml:40
+#: qml/EditFeedDialog.qml:45
 #, kde-format
 msgid "Group:"
 msgstr "Grupo:"
 
-#: qml/EntryListDelegate.qml:20
+#: qml/EntryListDelegate.qml:51
 #, kde-format
 msgctxt "by <author(s)>"
 msgid "by"
 msgstr "por"
 
-#: qml/EntryListDelegate.qml:34
-#, kde-format
-msgid "Mark as unread"
-msgstr "Marcar como no leído"
-
-#: qml/EntryListDelegate.qml:34
-#, kde-format
-msgid "Mark as read"
-msgstr "Marcar como leído"
-
 #: qml/EntryListPage.qml:44
-#, kde-format
-msgid "Show all entries"
-msgstr "Mostrar todas las entradas"
-
-#: qml/EntryListPage.qml:44
-#, kde-format
-msgid "Show only unread entries"
-msgstr "Mostrar solo las entradas sin leer"
-
-#: qml/EntryListPage.qml:53
 #, kde-format
 msgid "Details"
 msgstr "Detalles"
 
-#: qml/EntryListPage.qml:64
+#: qml/EntryListPage.qml:55
 #, kde-format
 msgid "Refresh"
 msgstr "Refrescar"
 
-#: qml/EntryListPage.qml:73
+#: qml/EntryListPage.qml:64
+#, kde-format
+msgid "Expand sidebar"
+msgstr ""
+
+#: qml/EntryListPage.qml:64
+#, kde-format
+msgid "Collapse sidebar"
+msgstr ""
+
+#: qml/EntryListPage.qml:72
+#, kde-format
+msgid "All Entries"
+msgstr "Todas las entradas"
+
+#: qml/EntryListPage.qml:80
 #, kde-format
 msgid "Error"
 msgstr "Error"
 
-#: qml/EntryListPage.qml:74 qml/EntryListPage.qml:86
+#: qml/EntryListPage.qml:81 qml/EntryListPage.qml:93
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "Error (%1): %2"
 
-#: qml/EntryListPage.qml:84
+#: qml/EntryListPage.qml:91
 #, kde-format
 msgid "No unread entries available"
 msgstr "No hay entradas sin leer"
 
-#: qml/EntryListPage.qml:84
+#: qml/EntryListPage.qml:91
 #, kde-format
 msgid "No entries available"
 msgstr "No hay entradas disponibles"
+
+#: qml/EntryListPage.qml:130
+#, kde-format
+msgid "All"
+msgstr ""
+
+#: qml/EntryListPage.qml:136
+#, fuzzy, kde-format
+#| msgid "Only Unread"
+msgid "Unread"
+msgstr "Solo sin leer"
 
 #: qml/EntryPage.qml:43
 #, kde-format
@@ -249,17 +233,17 @@ msgstr "última actualización: %1"
 msgid "%1 posts, %2 unread"
 msgstr "%1 publicaciones, %2 sin leer"
 
-#: qml/FeedGroupSheet.qml:24
+#: qml/FeedGroupDialog.qml:23
 #, kde-format
 msgid "Feed Group"
 msgstr "Grupo de emisiones web"
 
-#: qml/FeedGroupSheet.qml:32
+#: qml/FeedGroupDialog.qml:43
 #, kde-format
 msgid "Name:"
 msgstr "Nombre:"
 
-#: qml/FeedGroupSheet.qml:39
+#: qml/FeedGroupDialog.qml:50
 #, kde-format
 msgid "Description:"
 msgstr "Descripción:"
@@ -271,69 +255,75 @@ msgid_plural "%1 unread entries"
 msgstr[0] "%1 entrada sin leer"
 msgstr[1] "%1 entradas sin leer"
 
-#: qml/FeedListDelegate.qml:34
+#: qml/FeedListDelegate.qml:30
 #, kde-format
 msgctxt "'Feed' is an rss feed"
 msgid "Delete this Feed"
 msgstr "Borrar esta emisión web"
 
-#: qml/FeedListDelegate.qml:47
+#: qml/FeedListDelegate.qml:43
 #, kde-format
 msgctxt "'Feed' is an rss feed"
 msgid "Edit this Feed"
 msgstr "Editar esta emisión web"
 
-#: qml/FeedListPage.qml:34
+#: qml/FeedListPage.qml:32
 #, kde-format
 msgid "Refresh All Feeds"
 msgstr "Refrescar todas las emisiones web"
 
-#: qml/FeedListPage.qml:40
+#: qml/FeedListPage.qml:38
+#, fuzzy, kde-format
+#| msgid "Feed Groups"
+msgid "Manage Feed Groups"
+msgstr "Grupos de emisiones web"
+
+#: qml/FeedListPage.qml:43
 #, kde-format
 msgid "Import Feeds..."
 msgstr "Importar emisiones web..."
 
-#: qml/FeedListPage.qml:46
+#: qml/FeedListPage.qml:49
 #, kde-format
 msgid "Export Feeds..."
 msgstr "Exportar emisiones web..."
 
-#: qml/FeedListPage.qml:63
+#: qml/FeedListPage.qml:75
 #, kde-format
 msgid "Add Feed…"
 msgstr "Añadir emisión web..."
 
-#: qml/FeedListPage.qml:77
+#: qml/FeedListPage.qml:89
 #, kde-format
 msgid "No feeds added yet"
 msgstr "Todavía no se han añadido emisiones web"
 
-#: qml/FeedListPage.qml:105
+#: qml/FeedListPage.qml:118
 #, kde-format
 msgid "Import Feeds"
 msgstr "Importar emisiones web"
 
-#: qml/FeedListPage.qml:107
+#: qml/FeedListPage.qml:120
 #, kde-format
 msgid "All Files (*)"
 msgstr "Todos los archivos (*)"
 
-#: qml/FeedListPage.qml:107
+#: qml/FeedListPage.qml:120
 #, kde-format
 msgid "XML Files (*.xml)"
 msgstr "Archivos XML (*.xml)"
 
-#: qml/FeedListPage.qml:107
+#: qml/FeedListPage.qml:120
 #, kde-format
 msgid "OPML Files (*.opml)"
 msgstr "Archivos OPML (*.opml)"
 
-#: qml/FeedListPage.qml:113
+#: qml/FeedListPage.qml:126
 #, kde-format
 msgid "Export Feeds"
 msgstr "Exportar emisiones web"
 
-#: qml/FeedListPage.qml:115
+#: qml/FeedListPage.qml:128
 #, kde-format
 msgid "All Files"
 msgstr "Todos los archivos"
@@ -343,27 +333,27 @@ msgstr "Todos los archivos"
 msgid "Groups"
 msgstr "Grupos"
 
-#: qml/GroupsListPage.qml:22
+#: qml/GroupsListPage.qml:24
 #, kde-format
 msgid "Add Group…"
 msgstr "Añadir grupo..."
 
-#: qml/GroupsListPage.qml:48
+#: qml/GroupsListPage.qml:55
 #, kde-format
 msgid "Remove"
 msgstr "Eliminar"
 
-#: qml/GroupsListPage.qml:56
+#: qml/GroupsListPage.qml:63
 #, kde-format
 msgid "Set as Default"
 msgstr "Definir como predeterminado"
 
-#: qml/GroupsListPage.qml:65
+#: qml/GroupsListPage.qml:72
 #, kde-format
 msgid "No groups created yet"
 msgstr "Todavía no se han creado grupos"
 
-#: qml/GroupsListPage.qml:70
+#: qml/GroupsListPage.qml:77
 #, kde-format
 msgid "Add Group"
 msgstr "Añadir grupo"
@@ -418,8 +408,26 @@ msgstr "Tamaño del tipo de letra:"
 msgid "Use system default"
 msgstr "Usar el predeterminado del sistema"
 
-#~ msgid "Only Unread"
-#~ msgstr "Solo sin leer"
+#~ msgid "OK"
+#~ msgstr "Aceptar"
+
+#~ msgid "Cancel"
+#~ msgstr "Cancelar"
+
+#~ msgid "Configure Groups"
+#~ msgstr "Configurar grupos"
+
+#~ msgid "Mark as unread"
+#~ msgstr "Marcar como no leído"
+
+#~ msgid "Mark as read"
+#~ msgstr "Marcar como leído"
+
+#~ msgid "Show all entries"
+#~ msgstr "Mostrar todas las entradas"
+
+#~ msgid "Show only unread entries"
+#~ msgstr "Mostrar solo las entradas sin leer"
 
 #~ msgid "Edit"
 #~ msgstr "Editar"

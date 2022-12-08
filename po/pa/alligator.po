@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-28 00:51+0000\n"
+"POT-Creation-Date: 2022-12-08 00:48+0000\n"
 "PO-Revision-Date: 2021-05-01 23:10-0700\n"
 "Last-Translator: A S Alam <aalam@satluj.org>\n"
 "Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
@@ -27,200 +27,181 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "alam.yellow@gmail.com"
 
-#: database.cpp:65 database.cpp:318
+#: database.cpp:67 database.cpp:335
 #, kde-format
 msgid "Default"
 msgstr "ਮੂਲ"
 
-#: database.cpp:66 database.cpp:319
+#: database.cpp:68 database.cpp:336
 #, kde-format
 msgid "Default Feed Group"
 msgstr "ਮੂਲ ਫੀਡ ਗਰੁੱਪ"
 
-#: fetcher.cpp:228
+#: fetcher.cpp:236
 #, kde-format
 msgid "Invalid XML"
 msgstr ""
 
-#: fetcher.cpp:230
+#: fetcher.cpp:238
 #, kde-format
 msgid "No parser accepted the XML"
 msgstr ""
 
-#: fetcher.cpp:232
+#: fetcher.cpp:240
 #, kde-format
 msgid "Error while parsing feed"
 msgstr ""
 
-#: main.cpp:74
+#: main.cpp:78 qml/AlligatorGlobalDrawer.qml:57
 #, kde-format
 msgid "Alligator"
 msgstr "ਐਲੀਗੇਟਰ"
 
-#: main.cpp:76
+#: main.cpp:80
 #, kde-format
 msgid "Feed Reader"
 msgstr "ਫੀਡ ਰੀਡਰ"
 
-#: main.cpp:78
+#: main.cpp:82
 #, fuzzy, kde-format
 #| msgid "© 2020 KDE Community"
 msgid "© 2020-2022 KDE Community"
 msgstr "© 2020 ਕੇਡੀਈ ਕਮਿਊਨਟੀ"
 
-#: main.cpp:79
+#: main.cpp:83
 #, kde-format
 msgid "Tobias Fella"
 msgstr "ਟੋਬਿਸ ਫੇਲਾ"
 
-#: main.cpp:102
+#: main.cpp:106
 #, kde-format
 msgid "RSS/Atom Feed Reader"
 msgstr "RSS/ਅਟੈਮ ਫੀਡ ਰੀਡਰ"
 
-#: main.cpp:104
+#: main.cpp:108
 #, kde-format
 msgid "Adds a new feed to database."
 msgstr "ਨਵੀਂ ਫੀਡ ਡਾਟਾਬੇਸ ਵਿੱਚ ਜੋੜੋ।"
 
-#: main.cpp:105
+#: main.cpp:109
 #, kde-format
 msgid "feed URL"
 msgstr "ਫੀਡ URL"
 
-#: qml/AddFeedSheet.qml:20
+#: qml/AddFeedDialog.qml:19
 #, kde-format
 msgid "Add Feed"
 msgstr "ਫੀਡ ਜੋੜੋ"
 
-#: qml/AddFeedSheet.qml:25
+#: qml/AddFeedDialog.qml:31
 #, kde-format
 msgid "Url:"
 msgstr "URL:"
 
-#: qml/AddFeedSheet.qml:35
+#: qml/AddFeedDialog.qml:41
 #, kde-format
 msgid "Mark entries as read"
 msgstr ""
 
-#: qml/AddFeedSheet.qml:45 qml/EditFeedSheet.qml:50 qml/FeedGroupSheet.qml:49
-#, kde-format
-msgid "OK"
-msgstr "ਠੀਕ ਹੈ"
-
-#: qml/AddFeedSheet.qml:55 qml/EditFeedSheet.qml:59 qml/FeedGroupSheet.qml:60
-#, kde-format
-msgid "Cancel"
-msgstr "ਰੱਦ ਕਰੋ"
-
-#: qml/AlligatorGlobalDrawer.qml:22 qml/EntryListPage.qml:21
-#: qml/EntryListPage.qml:96
-#, fuzzy, kde-format
-#| msgid "All Files"
-msgid "All Entries"
-msgstr "ਸਭ ਫਾਇਲਾਂ"
-
-#: qml/AlligatorGlobalDrawer.qml:32
+#: qml/AlligatorGlobalDrawer.qml:88
 #, kde-format
 msgid "All Feeds"
 msgstr "ਸਭ ਫੀਡਾਂ"
 
-#: qml/AlligatorGlobalDrawer.qml:44
-#, kde-format
-msgid "Feed Groups"
-msgstr "ਫੀਡ ਦੇ ਗਰੁੱਪ"
-
-#: qml/AlligatorGlobalDrawer.qml:48 qml/AlligatorGlobalDrawer.qml:51
-#: qml/SettingsPage.qml:15
+#: qml/AlligatorGlobalDrawer.qml:137 qml/SettingsPage.qml:15
 #, kde-format
 msgid "Settings"
 msgstr "ਸੈਟਿੰਗਾਂ"
 
-#: qml/AlligatorGlobalDrawer.qml:54 qml/AlligatorGlobalDrawer.qml:57
+#: qml/AlligatorGlobalDrawer.qml:148
+#, kde-format
+msgid "Manage Feeds"
+msgstr ""
+
+#: qml/AlligatorGlobalDrawer.qml:159
 #, kde-format
 msgid "About"
 msgstr "ਇਸ ਬਾਰੇ"
 
-#: qml/AlligatorGlobalDrawer.qml:64
-#, kde-format
-msgid "Configure Groups"
-msgstr "ਗਰੁੱਪਾਂ ਦੀ ਸੰਰਚਨਾ"
-
-#: qml/EditFeedSheet.qml:19
+#: qml/EditFeedDialog.qml:15
 #, kde-format
 msgid "Edit Feed"
 msgstr "ਫੀਡ ਸੋਧੋ"
 
-#: qml/EditFeedSheet.qml:30
+#: qml/EditFeedDialog.qml:35
 #, kde-format
 msgid "Display Name:"
 msgstr "ਦਿਖਾਉਣ ਵਾਲਾ ਨਾਂ:"
 
-#: qml/EditFeedSheet.qml:40
+#: qml/EditFeedDialog.qml:45
 #, kde-format
 msgid "Group:"
 msgstr "ਗਰੁੱਪ:"
 
-#: qml/EntryListDelegate.qml:20
+#: qml/EntryListDelegate.qml:51
 #, kde-format
 msgctxt "by <author(s)>"
 msgid "by"
 msgstr "ਵਲੋਂ"
 
-#: qml/EntryListDelegate.qml:34
-#, kde-format
-msgid "Mark as unread"
-msgstr ""
-
-#: qml/EntryListDelegate.qml:34
-#, kde-format
-msgid "Mark as read"
-msgstr ""
-
 #: qml/EntryListPage.qml:44
-#, fuzzy, kde-format
-#| msgid "All Files"
-msgid "Show all entries"
-msgstr "ਸਭ ਫਾਇਲਾਂ"
-
-#: qml/EntryListPage.qml:44
-#, fuzzy, kde-format
-#| msgid "No Entries available"
-msgid "Show only unread entries"
-msgstr "ਕੋਈ ਐਂਟਰੀ ਮੌਜੂਦ ਨਹੀਂ ਹੈ"
-
-#: qml/EntryListPage.qml:53
 #, kde-format
 msgid "Details"
 msgstr "ਵੇਰਵੇ"
 
-#: qml/EntryListPage.qml:64
+#: qml/EntryListPage.qml:55
 #, fuzzy, kde-format
 #| msgid "Refresh Feed"
 msgid "Refresh"
 msgstr "ਫੀਡ ਤਾਜ਼ਾ ਕਰੋ"
 
-#: qml/EntryListPage.qml:73
+#: qml/EntryListPage.qml:64
+#, kde-format
+msgid "Expand sidebar"
+msgstr ""
+
+#: qml/EntryListPage.qml:64
+#, kde-format
+msgid "Collapse sidebar"
+msgstr ""
+
+#: qml/EntryListPage.qml:72
+#, fuzzy, kde-format
+#| msgid "All Files"
+msgid "All Entries"
+msgstr "ਸਭ ਫਾਇਲਾਂ"
+
+#: qml/EntryListPage.qml:80
 #, kde-format
 msgid "Error"
 msgstr ""
 
-#: qml/EntryListPage.qml:74 qml/EntryListPage.qml:86
+#: qml/EntryListPage.qml:81 qml/EntryListPage.qml:93
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "ਗ਼ਲਤੀ (%1): %2"
 
-#: qml/EntryListPage.qml:84
+#: qml/EntryListPage.qml:91
 #, fuzzy, kde-format
 #| msgid "No Entries available"
 msgid "No unread entries available"
 msgstr "ਕੋਈ ਐਂਟਰੀ ਮੌਜੂਦ ਨਹੀਂ ਹੈ"
 
-#: qml/EntryListPage.qml:84
+#: qml/EntryListPage.qml:91
 #, fuzzy, kde-format
 #| msgid "No Entries available"
 msgid "No entries available"
 msgstr "ਕੋਈ ਐਂਟਰੀ ਮੌਜੂਦ ਨਹੀਂ ਹੈ"
+
+#: qml/EntryListPage.qml:130
+#, kde-format
+msgid "All"
+msgstr ""
+
+#: qml/EntryListPage.qml:136
+#, kde-format
+msgid "Unread"
+msgstr ""
 
 #: qml/EntryPage.qml:43
 #, kde-format
@@ -254,18 +235,18 @@ msgstr "ਆਖਰੀ ਅੱਪਡੇਟ: %1"
 msgid "%1 posts, %2 unread"
 msgstr "%1 ਪੋਸਟਾਂ, %2 ਨਾ-ਪੜ੍ਹੀਆਂ"
 
-#: qml/FeedGroupSheet.qml:24
+#: qml/FeedGroupDialog.qml:23
 #, fuzzy, kde-format
 #| msgid "Feed Groups"
 msgid "Feed Group"
 msgstr "ਫੀਡ ਦੇ ਗਰੁੱਪ"
 
-#: qml/FeedGroupSheet.qml:32
+#: qml/FeedGroupDialog.qml:43
 #, kde-format
 msgid "Name:"
 msgstr "ਨਾਂ:"
 
-#: qml/FeedGroupSheet.qml:39
+#: qml/FeedGroupDialog.qml:50
 #, kde-format
 msgid "Description:"
 msgstr "ਵਰਣਨ:"
@@ -277,74 +258,80 @@ msgid_plural "%1 unread entries"
 msgstr[0] "%1 ਨਾ-ਪੜ੍ਹਿਆ ਇੰਦਰਾਜ਼"
 msgstr[1] "%1 ਨਾ-ਪੜ੍ਹੇ ਇੰਦਰਾਜ਼"
 
-#: qml/FeedListDelegate.qml:34
+#: qml/FeedListDelegate.qml:30
 #, fuzzy, kde-format
 #| msgid "Delete after:"
 msgctxt "'Feed' is an rss feed"
 msgid "Delete this Feed"
 msgstr "ਇਸ ਦੇ ਬਾਅਦ ਹਟਾਓ:"
 
-#: qml/FeedListDelegate.qml:47
+#: qml/FeedListDelegate.qml:43
 #, fuzzy, kde-format
 #| msgid "Edit Feed"
 msgctxt "'Feed' is an rss feed"
 msgid "Edit this Feed"
 msgstr "ਫੀਡ ਸੋਧੋ"
 
-#: qml/FeedListPage.qml:34
+#: qml/FeedListPage.qml:32
 #, fuzzy, kde-format
 #| msgid "Refresh all feeds"
 msgid "Refresh All Feeds"
 msgstr "ਸਭ ਫੀਡ ਤਾਜ਼ਾ ਕਰੋ"
 
-#: qml/FeedListPage.qml:40
+#: qml/FeedListPage.qml:38
+#, fuzzy, kde-format
+#| msgid "Feed Groups"
+msgid "Manage Feed Groups"
+msgstr "ਫੀਡ ਦੇ ਗਰੁੱਪ"
+
+#: qml/FeedListPage.qml:43
 #, kde-format
 msgid "Import Feeds..."
 msgstr "ਫੀਡ ਦਰਾਮਦ ਕਰੋ..."
 
-#: qml/FeedListPage.qml:46
+#: qml/FeedListPage.qml:49
 #, kde-format
 msgid "Export Feeds..."
 msgstr "ਫੀਡ ਬਰਾਮਦ ਕਰੋ..."
 
-#: qml/FeedListPage.qml:63
+#: qml/FeedListPage.qml:75
 #, fuzzy, kde-format
 #| msgid "Add Feed"
 msgid "Add Feed…"
 msgstr "ਫੀਡ ਜੋੜੋ"
 
-#: qml/FeedListPage.qml:77
+#: qml/FeedListPage.qml:89
 #, fuzzy, kde-format
 #| msgid "No Feeds added yet"
 msgid "No feeds added yet"
 msgstr "ਹਾਲੇ ਕੋਈ ਫੀਡ ਨਹੀਂ ਹੈ"
 
-#: qml/FeedListPage.qml:105
+#: qml/FeedListPage.qml:118
 #, kde-format
 msgid "Import Feeds"
 msgstr "ਫੀਡ ਦਰਾਮਦ ਕਰੋ"
 
-#: qml/FeedListPage.qml:107
+#: qml/FeedListPage.qml:120
 #, kde-format
 msgid "All Files (*)"
 msgstr "ਸਭ ਫਾਇਲਾਂ (*)"
 
-#: qml/FeedListPage.qml:107
+#: qml/FeedListPage.qml:120
 #, kde-format
 msgid "XML Files (*.xml)"
 msgstr "XML ਫਾਇਲਾਂ (*.xml)"
 
-#: qml/FeedListPage.qml:107
+#: qml/FeedListPage.qml:120
 #, kde-format
 msgid "OPML Files (*.opml)"
 msgstr "OPML ਫਾਇਲਾਂ (*.opml)"
 
-#: qml/FeedListPage.qml:113
+#: qml/FeedListPage.qml:126
 #, kde-format
 msgid "Export Feeds"
 msgstr "ਫੀਡ ਬਰਾਮਦ ਕਰੋ"
 
-#: qml/FeedListPage.qml:115
+#: qml/FeedListPage.qml:128
 #, kde-format
 msgid "All Files"
 msgstr "ਸਭ ਫਾਇਲਾਂ"
@@ -354,29 +341,29 @@ msgstr "ਸਭ ਫਾਇਲਾਂ"
 msgid "Groups"
 msgstr "ਗਰੁੱਪ"
 
-#: qml/GroupsListPage.qml:22
+#: qml/GroupsListPage.qml:24
 #, fuzzy, kde-format
 #| msgid "Add Group"
 msgid "Add Group…"
 msgstr "ਗਰੁੱਪ ਜੋੜੋ"
 
-#: qml/GroupsListPage.qml:48
+#: qml/GroupsListPage.qml:55
 #, kde-format
 msgid "Remove"
 msgstr "ਹਟਾਓ"
 
-#: qml/GroupsListPage.qml:56
+#: qml/GroupsListPage.qml:63
 #, fuzzy, kde-format
 #| msgid "Set as default"
 msgid "Set as Default"
 msgstr "ਮੂਲ ਵਲੋਂ ਸੈੱਟ ਕਰੋ"
 
-#: qml/GroupsListPage.qml:65
+#: qml/GroupsListPage.qml:72
 #, kde-format
 msgid "No groups created yet"
 msgstr "ਹਾਲੇ ਕੋਈ ਗਰੁੱਪ ਨਹੀਂ ਬਣਾਇਆ"
 
-#: qml/GroupsListPage.qml:70
+#: qml/GroupsListPage.qml:77
 #, kde-format
 msgid "Add Group"
 msgstr "ਗਰੁੱਪ ਜੋੜੋ"
@@ -430,6 +417,25 @@ msgstr "ਫੋਂਟ ਦਾ ਆਕਾਰ:"
 #, kde-format
 msgid "Use system default"
 msgstr "ਸਿਸਟਮ ਦੇ ਮੂਲ ਵਰਤੋਂ"
+
+#~ msgid "OK"
+#~ msgstr "ਠੀਕ ਹੈ"
+
+#~ msgid "Cancel"
+#~ msgstr "ਰੱਦ ਕਰੋ"
+
+#~ msgid "Configure Groups"
+#~ msgstr "ਗਰੁੱਪਾਂ ਦੀ ਸੰਰਚਨਾ"
+
+#, fuzzy
+#~| msgid "All Files"
+#~ msgid "Show all entries"
+#~ msgstr "ਸਭ ਫਾਇਲਾਂ"
+
+#, fuzzy
+#~| msgid "No Entries available"
+#~ msgid "Show only unread entries"
+#~ msgstr "ਕੋਈ ਐਂਟਰੀ ਮੌਜੂਦ ਨਹੀਂ ਹੈ"
 
 #~ msgid "Edit"
 #~ msgstr "ਸੋਧੋ"

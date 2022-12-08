@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-28 00:51+0000\n"
+"POT-Creation-Date: 2022-12-08 00:48+0000\n"
 "PO-Revision-Date: 2022-10-03 14:15+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-i18n-doc@kde.org>\n"
@@ -27,196 +27,178 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "kde@peremen.name"
 
-#: database.cpp:65 database.cpp:318
+#: database.cpp:67 database.cpp:335
 #, kde-format
 msgid "Default"
 msgstr "기본값"
 
-#: database.cpp:66 database.cpp:319
+#: database.cpp:68 database.cpp:336
 #, kde-format
 msgid "Default Feed Group"
 msgstr "기본 피드 그룹"
 
-#: fetcher.cpp:228
+#: fetcher.cpp:236
 #, kde-format
 msgid "Invalid XML"
 msgstr "잘못된 XML"
 
-#: fetcher.cpp:230
+#: fetcher.cpp:238
 #, kde-format
 msgid "No parser accepted the XML"
 msgstr "XML 파서에서 거부됨"
 
-#: fetcher.cpp:232
+#: fetcher.cpp:240
 #, kde-format
 msgid "Error while parsing feed"
 msgstr "피드 처리 중 오류 발생"
 
-#: main.cpp:74
+#: main.cpp:78 qml/AlligatorGlobalDrawer.qml:57
 #, kde-format
 msgid "Alligator"
 msgstr "Alligator"
 
-#: main.cpp:76
+#: main.cpp:80
 #, kde-format
 msgid "Feed Reader"
 msgstr "피드 리더"
 
-#: main.cpp:78
+#: main.cpp:82
 #, fuzzy, kde-format
 #| msgid "© 2020 KDE Community"
 msgid "© 2020-2022 KDE Community"
 msgstr "© 2020 KDE Community"
 
-#: main.cpp:79
+#: main.cpp:83
 #, kde-format
 msgid "Tobias Fella"
 msgstr "Tobias Fella"
 
-#: main.cpp:102
+#: main.cpp:106
 #, kde-format
 msgid "RSS/Atom Feed Reader"
 msgstr "RSS/Atom 피드 리더"
 
-#: main.cpp:104
+#: main.cpp:108
 #, kde-format
 msgid "Adds a new feed to database."
 msgstr "데이터베이스에 새 피드를 추가합니다."
 
-#: main.cpp:105
+#: main.cpp:109
 #, kde-format
 msgid "feed URL"
 msgstr "피드 URL"
 
-#: qml/AddFeedSheet.qml:20
+#: qml/AddFeedDialog.qml:19
 #, kde-format
 msgid "Add Feed"
 msgstr "피드 추가"
 
-#: qml/AddFeedSheet.qml:25
+#: qml/AddFeedDialog.qml:31
 #, kde-format
 msgid "Url:"
 msgstr "URL:"
 
-#: qml/AddFeedSheet.qml:35
+#: qml/AddFeedDialog.qml:41
 #, kde-format
 msgid "Mark entries as read"
 msgstr "항목을 읽은 상태로 표시"
 
-#: qml/AddFeedSheet.qml:45 qml/EditFeedSheet.qml:50 qml/FeedGroupSheet.qml:49
-#, kde-format
-msgid "OK"
-msgstr "확인"
-
-#: qml/AddFeedSheet.qml:55 qml/EditFeedSheet.qml:59 qml/FeedGroupSheet.qml:60
-#, kde-format
-msgid "Cancel"
-msgstr "취소"
-
-#: qml/AlligatorGlobalDrawer.qml:22 qml/EntryListPage.qml:21
-#: qml/EntryListPage.qml:96
-#, kde-format
-msgid "All Entries"
-msgstr "모든 항목"
-
-#: qml/AlligatorGlobalDrawer.qml:32
+#: qml/AlligatorGlobalDrawer.qml:88
 #, kde-format
 msgid "All Feeds"
 msgstr "모든 피드"
 
-#: qml/AlligatorGlobalDrawer.qml:44
-#, kde-format
-msgid "Feed Groups"
-msgstr "피드 그룹"
-
-#: qml/AlligatorGlobalDrawer.qml:48 qml/AlligatorGlobalDrawer.qml:51
-#: qml/SettingsPage.qml:15
+#: qml/AlligatorGlobalDrawer.qml:137 qml/SettingsPage.qml:15
 #, kde-format
 msgid "Settings"
 msgstr "설정"
 
-#: qml/AlligatorGlobalDrawer.qml:54 qml/AlligatorGlobalDrawer.qml:57
+#: qml/AlligatorGlobalDrawer.qml:148
+#, kde-format
+msgid "Manage Feeds"
+msgstr ""
+
+#: qml/AlligatorGlobalDrawer.qml:159
 #, kde-format
 msgid "About"
 msgstr "정보"
 
-#: qml/AlligatorGlobalDrawer.qml:64
-#, kde-format
-msgid "Configure Groups"
-msgstr "그룹 설정"
-
-#: qml/EditFeedSheet.qml:19
+#: qml/EditFeedDialog.qml:15
 #, kde-format
 msgid "Edit Feed"
 msgstr "피드 편집"
 
-#: qml/EditFeedSheet.qml:30
+#: qml/EditFeedDialog.qml:35
 #, kde-format
 msgid "Display Name:"
 msgstr "표시 이름:"
 
-#: qml/EditFeedSheet.qml:40
+#: qml/EditFeedDialog.qml:45
 #, kde-format
 msgid "Group:"
 msgstr "그룹:"
 
-#: qml/EntryListDelegate.qml:20
+#: qml/EntryListDelegate.qml:51
 #, kde-format
 msgctxt "by <author(s)>"
 msgid "by"
 msgstr "작성:"
 
-#: qml/EntryListDelegate.qml:34
-#, kde-format
-msgid "Mark as unread"
-msgstr "읽지 않은 상태로 표시"
-
-#: qml/EntryListDelegate.qml:34
-#, kde-format
-msgid "Mark as read"
-msgstr "읽은 상태로 표시"
-
 #: qml/EntryListPage.qml:44
-#, fuzzy, kde-format
-#| msgid "All Entries"
-msgid "Show all entries"
-msgstr "모든 항목"
-
-#: qml/EntryListPage.qml:44
-#, fuzzy, kde-format
-#| msgid "No unread entries available"
-msgid "Show only unread entries"
-msgstr "읽지 않은 항목 없음"
-
-#: qml/EntryListPage.qml:53
 #, kde-format
 msgid "Details"
 msgstr "자세히"
 
-#: qml/EntryListPage.qml:64
+#: qml/EntryListPage.qml:55
 #, kde-format
 msgid "Refresh"
 msgstr "새로 고침"
 
-#: qml/EntryListPage.qml:73
+#: qml/EntryListPage.qml:64
+#, kde-format
+msgid "Expand sidebar"
+msgstr ""
+
+#: qml/EntryListPage.qml:64
+#, kde-format
+msgid "Collapse sidebar"
+msgstr ""
+
+#: qml/EntryListPage.qml:72
+#, kde-format
+msgid "All Entries"
+msgstr "모든 항목"
+
+#: qml/EntryListPage.qml:80
 #, kde-format
 msgid "Error"
 msgstr "오류"
 
-#: qml/EntryListPage.qml:74 qml/EntryListPage.qml:86
+#: qml/EntryListPage.qml:81 qml/EntryListPage.qml:93
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "오류 (%1): %2"
 
-#: qml/EntryListPage.qml:84
+#: qml/EntryListPage.qml:91
 #, kde-format
 msgid "No unread entries available"
 msgstr "읽지 않은 항목 없음"
 
-#: qml/EntryListPage.qml:84
+#: qml/EntryListPage.qml:91
 #, kde-format
 msgid "No entries available"
 msgstr "항목 없음"
+
+#: qml/EntryListPage.qml:130
+#, kde-format
+msgid "All"
+msgstr ""
+
+#: qml/EntryListPage.qml:136
+#, fuzzy, kde-format
+#| msgid "Only Unread"
+msgid "Unread"
+msgstr "읽지 않은 항목만"
 
 #: qml/EntryPage.qml:43
 #, kde-format
@@ -250,17 +232,17 @@ msgstr "마지막 업데이트: %1"
 msgid "%1 posts, %2 unread"
 msgstr "글 %1개, %2개 읽지 않음"
 
-#: qml/FeedGroupSheet.qml:24
+#: qml/FeedGroupDialog.qml:23
 #, kde-format
 msgid "Feed Group"
 msgstr "피드 그룹"
 
-#: qml/FeedGroupSheet.qml:32
+#: qml/FeedGroupDialog.qml:43
 #, kde-format
 msgid "Name:"
 msgstr "이름:"
 
-#: qml/FeedGroupSheet.qml:39
+#: qml/FeedGroupDialog.qml:50
 #, kde-format
 msgid "Description:"
 msgstr "설명:"
@@ -271,71 +253,77 @@ msgid "%1 unread entry"
 msgid_plural "%1 unread entries"
 msgstr[0] "읽지 않은 항목 %1개"
 
-#: qml/FeedListDelegate.qml:34
+#: qml/FeedListDelegate.qml:30
 #, fuzzy, kde-format
 #| msgid "Delete after:"
 msgctxt "'Feed' is an rss feed"
 msgid "Delete this Feed"
 msgstr "다음 이후 글 삭제:"
 
-#: qml/FeedListDelegate.qml:47
+#: qml/FeedListDelegate.qml:43
 #, fuzzy, kde-format
 #| msgid "Edit Feed"
 msgctxt "'Feed' is an rss feed"
 msgid "Edit this Feed"
 msgstr "피드 편집"
 
-#: qml/FeedListPage.qml:34
+#: qml/FeedListPage.qml:32
 #, kde-format
 msgid "Refresh All Feeds"
 msgstr "모든 피드 새로 고침"
 
-#: qml/FeedListPage.qml:40
+#: qml/FeedListPage.qml:38
+#, fuzzy, kde-format
+#| msgid "Feed Groups"
+msgid "Manage Feed Groups"
+msgstr "피드 그룹"
+
+#: qml/FeedListPage.qml:43
 #, kde-format
 msgid "Import Feeds..."
 msgstr "피드 가져오기..."
 
-#: qml/FeedListPage.qml:46
+#: qml/FeedListPage.qml:49
 #, kde-format
 msgid "Export Feeds..."
 msgstr "피드 내보내기..."
 
-#: qml/FeedListPage.qml:63
+#: qml/FeedListPage.qml:75
 #, kde-format
 msgid "Add Feed…"
 msgstr "피드 추가…"
 
-#: qml/FeedListPage.qml:77
+#: qml/FeedListPage.qml:89
 #, kde-format
 msgid "No feeds added yet"
 msgstr "추가한 피드 없음"
 
-#: qml/FeedListPage.qml:105
+#: qml/FeedListPage.qml:118
 #, kde-format
 msgid "Import Feeds"
 msgstr "피드 가져오기"
 
-#: qml/FeedListPage.qml:107
+#: qml/FeedListPage.qml:120
 #, kde-format
 msgid "All Files (*)"
 msgstr "모든 파일 (*)"
 
-#: qml/FeedListPage.qml:107
+#: qml/FeedListPage.qml:120
 #, kde-format
 msgid "XML Files (*.xml)"
 msgstr "XML 파일 (*.xml)"
 
-#: qml/FeedListPage.qml:107
+#: qml/FeedListPage.qml:120
 #, kde-format
 msgid "OPML Files (*.opml)"
 msgstr "OPML 파일 (*.opml)"
 
-#: qml/FeedListPage.qml:113
+#: qml/FeedListPage.qml:126
 #, kde-format
 msgid "Export Feeds"
 msgstr "피드 내보내기"
 
-#: qml/FeedListPage.qml:115
+#: qml/FeedListPage.qml:128
 #, kde-format
 msgid "All Files"
 msgstr "모든 파일"
@@ -345,27 +333,27 @@ msgstr "모든 파일"
 msgid "Groups"
 msgstr "그룹"
 
-#: qml/GroupsListPage.qml:22
+#: qml/GroupsListPage.qml:24
 #, kde-format
 msgid "Add Group…"
 msgstr "그룹 추가…"
 
-#: qml/GroupsListPage.qml:48
+#: qml/GroupsListPage.qml:55
 #, kde-format
 msgid "Remove"
 msgstr "삭제"
 
-#: qml/GroupsListPage.qml:56
+#: qml/GroupsListPage.qml:63
 #, kde-format
 msgid "Set as Default"
 msgstr "기본값으로 설정"
 
-#: qml/GroupsListPage.qml:65
+#: qml/GroupsListPage.qml:72
 #, kde-format
 msgid "No groups created yet"
 msgstr "생성한 그룹이 없음"
 
-#: qml/GroupsListPage.qml:70
+#: qml/GroupsListPage.qml:77
 #, kde-format
 msgid "Add Group"
 msgstr "그룹 추가"
@@ -420,8 +408,30 @@ msgstr "글꼴 크기:"
 msgid "Use system default"
 msgstr "시스템 기본값 사용"
 
-#~ msgid "Only Unread"
-#~ msgstr "읽지 않은 항목만"
+#~ msgid "OK"
+#~ msgstr "확인"
+
+#~ msgid "Cancel"
+#~ msgstr "취소"
+
+#~ msgid "Configure Groups"
+#~ msgstr "그룹 설정"
+
+#~ msgid "Mark as unread"
+#~ msgstr "읽지 않은 상태로 표시"
+
+#~ msgid "Mark as read"
+#~ msgstr "읽은 상태로 표시"
+
+#, fuzzy
+#~| msgid "All Entries"
+#~ msgid "Show all entries"
+#~ msgstr "모든 항목"
+
+#, fuzzy
+#~| msgid "No unread entries available"
+#~ msgid "Show only unread entries"
+#~ msgstr "읽지 않은 항목 없음"
 
 #~ msgid "Edit"
 #~ msgstr "편집"
