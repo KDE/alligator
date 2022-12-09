@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-12-08 00:48+0000\n"
-"PO-Revision-Date: 2022-11-28 18:45+0300\n"
+"PO-Revision-Date: 2022-12-08 18:30+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -117,7 +117,7 @@ msgstr "Ayarlar"
 #: qml/AlligatorGlobalDrawer.qml:148
 #, kde-format
 msgid "Manage Feeds"
-msgstr ""
+msgstr "Beslemeleri Yönet"
 
 #: qml/AlligatorGlobalDrawer.qml:159
 #, kde-format
@@ -158,12 +158,12 @@ msgstr "Yenile"
 #: qml/EntryListPage.qml:64
 #, kde-format
 msgid "Expand sidebar"
-msgstr ""
+msgstr "Kenar çubuğunu genişlet"
 
 #: qml/EntryListPage.qml:64
 #, kde-format
 msgid "Collapse sidebar"
-msgstr ""
+msgstr "Kenar çubuğunu daralt"
 
 #: qml/EntryListPage.qml:72
 #, kde-format
@@ -193,13 +193,12 @@ msgstr "Kullanılabilir girdi yok"
 #: qml/EntryListPage.qml:130
 #, kde-format
 msgid "All"
-msgstr ""
+msgstr "Tümü"
 
 #: qml/EntryListPage.qml:136
-#, fuzzy, kde-format
-#| msgid "Only Unread"
+#, kde-format
 msgid "Unread"
-msgstr "Yalnızca Okunmamışlar"
+msgstr "Okunmamış"
 
 #: qml/EntryPage.qml:43
 #, kde-format
@@ -273,10 +272,9 @@ msgid "Refresh All Feeds"
 msgstr "Tüm Beslemeleri Yenile"
 
 #: qml/FeedListPage.qml:38
-#, fuzzy, kde-format
-#| msgid "Feed Groups"
+#, kde-format
 msgid "Manage Feed Groups"
-msgstr "Besleme Grupları"
+msgstr "Besleme Gruplarını Yönet"
 
 #: qml/FeedListPage.qml:43
 #, kde-format
