@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-12-08 00:48+0000\n"
-"PO-Revision-Date: 2022-11-29 06:57+0100\n"
+"PO-Revision-Date: 2022-12-09 07:50+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.2\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -116,7 +116,7 @@ msgstr "მორგება"
 #: qml/AlligatorGlobalDrawer.qml:148
 #, kde-format
 msgid "Manage Feeds"
-msgstr ""
+msgstr "ლენტების მართვა"
 
 #: qml/AlligatorGlobalDrawer.qml:159
 #, kde-format
@@ -157,12 +157,12 @@ msgstr "განახლება"
 #: qml/EntryListPage.qml:64
 #, kde-format
 msgid "Expand sidebar"
-msgstr ""
+msgstr "გვერდითი ზოლის გაფართოება"
 
 #: qml/EntryListPage.qml:64
 #, kde-format
 msgid "Collapse sidebar"
-msgstr ""
+msgstr "გვერდითი ზოლის ჩაკეცვა"
 
 #: qml/EntryListPage.qml:72
 #, kde-format
@@ -192,13 +192,12 @@ msgstr "ჩანაწერების გარეშე"
 #: qml/EntryListPage.qml:130
 #, kde-format
 msgid "All"
-msgstr ""
+msgstr "ყველა"
 
 #: qml/EntryListPage.qml:136
-#, fuzzy, kde-format
-#| msgid "Only Unread"
+#, kde-format
 msgid "Unread"
-msgstr "მხოლოდ წაუკითხავი"
+msgstr "წაუკითხავი"
 
 #: qml/EntryPage.qml:43
 #, kde-format
@@ -272,10 +271,9 @@ msgid "Refresh All Feeds"
 msgstr "ყველა ლენტის განახლება"
 
 #: qml/FeedListPage.qml:38
-#, fuzzy, kde-format
-#| msgid "Feed Groups"
+#, kde-format
 msgid "Manage Feed Groups"
-msgstr "ლენტის ჯგუფები"
+msgstr "ლენტის ჯგუფების მართვა"
 
 #: qml/FeedListPage.qml:43
 #, kde-format
