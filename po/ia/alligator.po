@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-12-08 00:48+0000\n"
-"PO-Revision-Date: 2022-11-28 15:41+0100\n"
+"PO-Revision-Date: 2022-12-10 23:47+0100\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 21.12.3\n"
+"X-Generator: Lokalize 22.12.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -115,7 +115,7 @@ msgstr "Preferentias"
 #: qml/AlligatorGlobalDrawer.qml:148
 #, kde-format
 msgid "Manage Feeds"
-msgstr ""
+msgstr "Gere syndicationes"
 
 #: qml/AlligatorGlobalDrawer.qml:159
 #, kde-format
@@ -156,12 +156,12 @@ msgstr "Refresca"
 #: qml/EntryListPage.qml:64
 #, kde-format
 msgid "Expand sidebar"
-msgstr ""
+msgstr "Expande barra lateral"
 
 #: qml/EntryListPage.qml:64
 #, kde-format
 msgid "Collapse sidebar"
-msgstr ""
+msgstr "Plica barra lateral"
 
 #: qml/EntryListPage.qml:72
 #, kde-format
@@ -191,13 +191,12 @@ msgstr "Necun entratas disponibile."
 #: qml/EntryListPage.qml:130
 #, kde-format
 msgid "All"
-msgstr ""
+msgstr "Toto"
 
 #: qml/EntryListPage.qml:136
-#, fuzzy, kde-format
-#| msgid "Only Unread"
+#, kde-format
 msgid "Unread"
-msgstr "Solmente Non Legite"
+msgstr "Non Legite"
 
 #: qml/EntryPage.qml:43
 #, kde-format
@@ -271,10 +270,9 @@ msgid "Refresh All Feeds"
 msgstr "Refresca omne syndicationes"
 
 #: qml/FeedListPage.qml:38
-#, fuzzy, kde-format
-#| msgid "Feed Groups"
+#, kde-format
 msgid "Manage Feed Groups"
-msgstr "Gruppos de syndication"
+msgstr "Gere Gruppos de syndication"
 
 #: qml/FeedListPage.qml:43
 #, kde-format
