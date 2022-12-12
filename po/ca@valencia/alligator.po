@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-12-08 00:48+0000\n"
-"PO-Revision-Date: 2022-11-28 08:55+0100\n"
-"Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
+"PO-Revision-Date: 2022-12-11 04:56+0100\n"
+"Last-Translator: Antoni Bella <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: &\n"
-"X-Generator: Lokalize 20.12.0\n"
+"X-Generator: Kate 22.08.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -119,7 +119,7 @@ msgstr "Configuració"
 #: qml/AlligatorGlobalDrawer.qml:148
 #, kde-format
 msgid "Manage Feeds"
-msgstr ""
+msgstr "Gestiona les fonts"
 
 # skip-rule: t-apo_fim
 #: qml/AlligatorGlobalDrawer.qml:159
@@ -161,12 +161,12 @@ msgstr "Actualitza"
 #: qml/EntryListPage.qml:64
 #, kde-format
 msgid "Expand sidebar"
-msgstr ""
+msgstr "Expandix la barra lateral"
 
 #: qml/EntryListPage.qml:64
 #, kde-format
 msgid "Collapse sidebar"
-msgstr ""
+msgstr "Reduïx la barra lateral"
 
 #: qml/EntryListPage.qml:72
 #, kde-format
@@ -196,12 +196,12 @@ msgstr "No hi ha cap entrada disponible"
 #: qml/EntryListPage.qml:130
 #, kde-format
 msgid "All"
-msgstr ""
+msgstr "Tot"
 
 #: qml/EntryListPage.qml:136
 #, kde-format
 msgid "Unread"
-msgstr ""
+msgstr "Sense llegir"
 
 #: qml/EntryPage.qml:43
 #, kde-format
@@ -275,10 +275,9 @@ msgid "Refresh All Feeds"
 msgstr "Actualitza totes les fonts"
 
 #: qml/FeedListPage.qml:38
-#, fuzzy, kde-format
-#| msgid "Feed Groups"
+#, kde-format
 msgid "Manage Feed Groups"
-msgstr "Grups de fonts"
+msgstr "Gestiona els grups de fonts"
 
 #: qml/FeedListPage.qml:43
 #, kde-format
@@ -409,24 +408,3 @@ msgstr "Mida del tipus de lletra:"
 #, kde-format
 msgid "Use system default"
 msgstr "Utilitza la predeterminada del sistema"
-
-#~ msgid "OK"
-#~ msgstr "D'acord"
-
-#~ msgid "Cancel"
-#~ msgstr "Cancel·la"
-
-#~ msgid "Configure Groups"
-#~ msgstr "Configura els grups"
-
-#~ msgid "Mark as unread"
-#~ msgstr "Marca com a no llegit"
-
-#~ msgid "Mark as read"
-#~ msgstr "Marca com a llegit"
-
-#~ msgid "Show all entries"
-#~ msgstr "Mostra totes les entrades"
-
-#~ msgid "Show only unread entries"
-#~ msgstr "Mostra només les entrades sense llegir"
