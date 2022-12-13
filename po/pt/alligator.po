@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-12-08 00:48+0000\n"
-"PO-Revision-Date: 2022-11-28 18:14+0000\n"
+"PO-Revision-Date: 2022-12-12 18:30+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -111,7 +111,7 @@ msgstr "Configuração"
 #: qml/AlligatorGlobalDrawer.qml:148
 #, kde-format
 msgid "Manage Feeds"
-msgstr ""
+msgstr "Gerir as Fontes"
 
 #: qml/AlligatorGlobalDrawer.qml:159
 #, kde-format
@@ -152,12 +152,12 @@ msgstr "Actualizar"
 #: qml/EntryListPage.qml:64
 #, kde-format
 msgid "Expand sidebar"
-msgstr ""
+msgstr "Expandir a barra lateral"
 
 #: qml/EntryListPage.qml:64
 #, kde-format
 msgid "Collapse sidebar"
-msgstr ""
+msgstr "Recolher a barra lateral"
 
 #: qml/EntryListPage.qml:72
 #, kde-format
@@ -187,12 +187,12 @@ msgstr "Sem itens disponíveis"
 #: qml/EntryListPage.qml:130
 #, kde-format
 msgid "All"
-msgstr ""
+msgstr "Tudo"
 
 #: qml/EntryListPage.qml:136
 #, kde-format
 msgid "Unread"
-msgstr ""
+msgstr "Não Lido"
 
 #: qml/EntryPage.qml:43
 #, kde-format
@@ -266,10 +266,9 @@ msgid "Refresh All Feeds"
 msgstr "Actualizar Todas as Fontes"
 
 #: qml/FeedListPage.qml:38
-#, fuzzy, kde-format
-#| msgid "Feed Groups"
+#, kde-format
 msgid "Manage Feed Groups"
-msgstr "Grupos de Fontes"
+msgstr "Gerir os Grupos de Fontes"
 
 #: qml/FeedListPage.qml:43
 #, kde-format
@@ -400,24 +399,3 @@ msgstr "Tamanho da letra:"
 #, kde-format
 msgid "Use system default"
 msgstr "Usar a predefinição do sistema"
-
-#~ msgid "OK"
-#~ msgstr "OK"
-
-#~ msgid "Cancel"
-#~ msgstr "Cancelar"
-
-#~ msgid "Configure Groups"
-#~ msgstr "Configurar os Grupos"
-
-#~ msgid "Mark as unread"
-#~ msgstr "Marcar como não-lida"
-
-#~ msgid "Mark as read"
-#~ msgstr "Marcar como lida"
-
-#~ msgid "Show all entries"
-#~ msgstr "Mostrar todos os itens"
-
-#~ msgid "Show only unread entries"
-#~ msgstr "Mostrar apenas os itens não-lidos"

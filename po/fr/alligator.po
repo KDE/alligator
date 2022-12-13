@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-12-08 00:48+0000\n"
-"PO-Revision-Date: 2022-12-04 07:53+0100\n"
+"PO-Revision-Date: 2022-12-11 20:40+0100\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 22.11.90\n"
+"X-Generator: Lokalize 22.12.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -112,7 +112,7 @@ msgstr "Configuration"
 #: qml/AlligatorGlobalDrawer.qml:148
 #, kde-format
 msgid "Manage Feeds"
-msgstr ""
+msgstr "Gérer les fils d'actualité"
 
 #: qml/AlligatorGlobalDrawer.qml:159
 #, kde-format
@@ -153,12 +153,12 @@ msgstr "Rafraîchir"
 #: qml/EntryListPage.qml:64
 #, kde-format
 msgid "Expand sidebar"
-msgstr ""
+msgstr "Développer la barre latérale"
 
 #: qml/EntryListPage.qml:64
 #, kde-format
 msgid "Collapse sidebar"
-msgstr ""
+msgstr "Réduire la barre latérale"
 
 #: qml/EntryListPage.qml:72
 #, kde-format
@@ -188,13 +188,12 @@ msgstr "Aucune entrée disponible."
 #: qml/EntryListPage.qml:130
 #, kde-format
 msgid "All"
-msgstr ""
+msgstr "Tout"
 
 #: qml/EntryListPage.qml:136
-#, fuzzy, kde-format
-#| msgid "Only Unread"
+#, kde-format
 msgid "Unread"
-msgstr "Uniquement non lu"
+msgstr "Non lu"
 
 #: qml/EntryPage.qml:43
 #, kde-format
@@ -268,10 +267,9 @@ msgid "Refresh All Feeds"
 msgstr "Actualiser tous les fils d'actualités"
 
 #: qml/FeedListPage.qml:38
-#, fuzzy, kde-format
-#| msgid "Feed Groups"
+#, kde-format
 msgid "Manage Feed Groups"
-msgstr "Groupes de fils d'actualité"
+msgstr "Gérer les groupes de fils d'actualité"
 
 #: qml/FeedListPage.qml:43
 #, kde-format
