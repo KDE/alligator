@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-12-08 00:48+0000\n"
-"PO-Revision-Date: 2022-08-19 15:05-0300\n"
+"PO-Revision-Date: 2022-12-20 10:49-0300\n"
 "Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
 "Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
@@ -64,10 +64,9 @@ msgid "Feed Reader"
 msgstr "Leitor de fontes de notícias"
 
 #: main.cpp:82
-#, fuzzy, kde-format
-#| msgid "© 2020 KDE Community"
+#, kde-format
 msgid "© 2020-2022 KDE Community"
-msgstr "© 2020 Comunidade KDE"
+msgstr "© 2020-2022 Comunidade KDE"
 
 #: main.cpp:83
 #, kde-format
@@ -117,7 +116,7 @@ msgstr "Configurações"
 #: qml/AlligatorGlobalDrawer.qml:148
 #, kde-format
 msgid "Manage Feeds"
-msgstr ""
+msgstr "Gerenciar fontes de notícias"
 
 #: qml/AlligatorGlobalDrawer.qml:159
 #, kde-format
@@ -158,12 +157,12 @@ msgstr "Atualizar"
 #: qml/EntryListPage.qml:64
 #, kde-format
 msgid "Expand sidebar"
-msgstr ""
+msgstr "Expandir barra lateral"
 
 #: qml/EntryListPage.qml:64
 #, kde-format
 msgid "Collapse sidebar"
-msgstr ""
+msgstr "Recolher barra lateral"
 
 #: qml/EntryListPage.qml:72
 #, kde-format
@@ -193,13 +192,12 @@ msgstr "Nenhuma entrada disponível"
 #: qml/EntryListPage.qml:130
 #, kde-format
 msgid "All"
-msgstr ""
+msgstr "Todos"
 
 #: qml/EntryListPage.qml:136
-#, fuzzy, kde-format
-#| msgid "Only Unread"
+#, kde-format
 msgid "Unread"
-msgstr "Somente não lidas"
+msgstr "Não lida"
 
 #: qml/EntryPage.qml:43
 #, kde-format
@@ -256,18 +254,16 @@ msgstr[0] "%1 entrada não lida"
 msgstr[1] "%1 entradas não lidas"
 
 #: qml/FeedListDelegate.qml:30
-#, fuzzy, kde-format
-#| msgid "Delete after:"
+#, kde-format
 msgctxt "'Feed' is an rss feed"
 msgid "Delete this Feed"
-msgstr "Excluir após:"
+msgstr "Excluir esta fonte de notícias"
 
 #: qml/FeedListDelegate.qml:43
-#, fuzzy, kde-format
-#| msgid "Edit Feed"
+#, kde-format
 msgctxt "'Feed' is an rss feed"
 msgid "Edit this Feed"
-msgstr "Editar fonte de notícias"
+msgstr "Editar esta fonte de notícias"
 
 #: qml/FeedListPage.qml:32
 #, kde-format
@@ -275,10 +271,9 @@ msgid "Refresh All Feeds"
 msgstr "Atualizar todas as fontes de notícias"
 
 #: qml/FeedListPage.qml:38
-#, fuzzy, kde-format
-#| msgid "Feed Groups"
+#, kde-format
 msgid "Manage Feed Groups"
-msgstr "Grupos de fontes de notícias"
+msgstr "Gerenciar grupos de fontes de notícias"
 
 #: qml/FeedListPage.qml:43
 #, kde-format
