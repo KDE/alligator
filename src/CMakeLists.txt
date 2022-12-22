@@ -41,6 +41,7 @@ if(ANDROID)
         view-refresh
         alligator
         mail-mark-read
+        mail-read
         mail-mark-unread
         mail-sent
         globe
