@@ -2,405 +2,406 @@
 # alligator 套件的正體中文翻譯.
 # Copyright (C) 2022 This file is copyright:
 # This file is distributed under the same license as the alligator package.
-# Automatically generated, 2022.
 #
+# Automatically generated, 2022.
+# Kisaragi Hiu <mail@kisaragi-hiu.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-12-08 00:48+0000\n"
-"PO-Revision-Date: 2022-03-09 00:47+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-12-24 00:46+0900\n"
+"Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
+"Language-Team: Traditional Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 22.08.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Kisaragi Hiu"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "mail@kisaragi-hiu.com"
 
 #: database.cpp:67 database.cpp:335
 #, kde-format
 msgid "Default"
-msgstr ""
+msgstr "預設"
 
 #: database.cpp:68 database.cpp:336
 #, kde-format
 msgid "Default Feed Group"
-msgstr ""
+msgstr "預設 feed 群組"
 
 #: fetcher.cpp:236
 #, kde-format
 msgid "Invalid XML"
-msgstr ""
+msgstr "無效的 XML"
 
 #: fetcher.cpp:238
 #, kde-format
 msgid "No parser accepted the XML"
-msgstr ""
+msgstr "沒有任何剖析器接受該 XML"
 
 #: fetcher.cpp:240
 #, kde-format
 msgid "Error while parsing feed"
-msgstr ""
+msgstr "剖析 feed 時發生錯誤"
 
 #: main.cpp:78 qml/AlligatorGlobalDrawer.qml:57
 #, kde-format
 msgid "Alligator"
-msgstr ""
+msgstr "Alligator"
 
 #: main.cpp:80
 #, kde-format
 msgid "Feed Reader"
-msgstr ""
+msgstr "Feed 閱讀器"
 
 #: main.cpp:82
 #, kde-format
 msgid "© 2020-2022 KDE Community"
-msgstr ""
+msgstr "© 2020-2022 KDE 社群"
 
 #: main.cpp:83
 #, kde-format
 msgid "Tobias Fella"
-msgstr ""
+msgstr "Tobias Fella"
 
 #: main.cpp:106
 #, kde-format
 msgid "RSS/Atom Feed Reader"
-msgstr ""
+msgstr "RSS/Atom Feed 閱讀器"
 
 #: main.cpp:108
 #, kde-format
 msgid "Adds a new feed to database."
-msgstr ""
+msgstr "新增一個 feed 到資料庫裡。"
 
 #: main.cpp:109
 #, kde-format
 msgid "feed URL"
-msgstr ""
+msgstr "feed 網址"
 
 #: qml/AddFeedDialog.qml:19
 #, kde-format
 msgid "Add Feed"
-msgstr ""
+msgstr "新增 feed"
 
 #: qml/AddFeedDialog.qml:31
 #, kde-format
 msgid "Url:"
-msgstr ""
+msgstr "網址："
 
 #: qml/AddFeedDialog.qml:41
 #, kde-format
 msgid "Mark entries as read"
-msgstr ""
+msgstr "標記條目為已讀"
 
 #: qml/AlligatorGlobalDrawer.qml:88
 #, kde-format
 msgid "All Feeds"
-msgstr ""
+msgstr "所有 feed"
 
 #: qml/AlligatorGlobalDrawer.qml:137 qml/SettingsPage.qml:15
 #, kde-format
 msgid "Settings"
-msgstr ""
+msgstr "設定"
 
 #: qml/AlligatorGlobalDrawer.qml:148
 #, kde-format
 msgid "Manage Feeds"
-msgstr ""
+msgstr "管理 feed"
 
 #: qml/AlligatorGlobalDrawer.qml:159
 #, kde-format
 msgid "About"
-msgstr ""
+msgstr "關於"
 
 #: qml/EditFeedDialog.qml:15
 #, kde-format
 msgid "Edit Feed"
-msgstr ""
+msgstr "編輯 feed"
 
 #: qml/EditFeedDialog.qml:35
 #, kde-format
 msgid "Display Name:"
-msgstr ""
+msgstr "顯示名稱："
 
 #: qml/EditFeedDialog.qml:45
 #, kde-format
 msgid "Group:"
-msgstr ""
+msgstr "群組："
 
 #: qml/EntryListDelegate.qml:51
 #, kde-format
 msgctxt "by <author(s)>"
 msgid "by"
-msgstr ""
+msgstr "由"
 
 #: qml/EntryListPage.qml:44
 #, kde-format
 msgid "Details"
-msgstr ""
+msgstr "詳細資料"
 
 #: qml/EntryListPage.qml:55
 #, kde-format
 msgid "Refresh"
-msgstr ""
+msgstr "重新整理"
 
 #: qml/EntryListPage.qml:64
 #, kde-format
 msgid "Expand sidebar"
-msgstr ""
+msgstr "展開側邊欄"
 
 #: qml/EntryListPage.qml:64
 #, kde-format
 msgid "Collapse sidebar"
-msgstr ""
+msgstr "折疊側邊欄"
 
 #: qml/EntryListPage.qml:72
 #, kde-format
 msgid "All Entries"
-msgstr ""
+msgstr "所有條目"
 
 #: qml/EntryListPage.qml:80
 #, kde-format
 msgid "Error"
-msgstr ""
+msgstr "錯誤"
 
 #: qml/EntryListPage.qml:81 qml/EntryListPage.qml:93
 #, kde-format
 msgid "Error (%1): %2"
-msgstr ""
+msgstr "錯誤（%1）：%2"
 
 #: qml/EntryListPage.qml:91
 #, kde-format
 msgid "No unread entries available"
-msgstr ""
+msgstr "沒有未讀的條目"
 
 #: qml/EntryListPage.qml:91
 #, kde-format
 msgid "No entries available"
-msgstr ""
+msgstr "沒有條目"
 
 #: qml/EntryListPage.qml:130
 #, kde-format
 msgid "All"
-msgstr ""
+msgstr "全部"
 
 #: qml/EntryListPage.qml:136
 #, kde-format
 msgid "Unread"
-msgstr ""
+msgstr "未讀"
 
 #: qml/EntryPage.qml:43
 #, kde-format
 msgid "Open in Browser"
-msgstr ""
+msgstr "在瀏覽器開啟"
 
 #: qml/FeedDetailsPage.qml:20
 #, kde-format
 msgctxt "<Feed Name> - Details"
 msgid "%1 - Details"
-msgstr ""
+msgstr "%1 - 詳細資料"
 
 #: qml/FeedDetailsPage.qml:36
 #, kde-format
 msgctxt "by <author(s)>"
 msgid "by %1"
-msgstr ""
+msgstr "由：%1"
 
 #: qml/FeedDetailsPage.qml:44
 #, kde-format
 msgid "Subscribed since: %1"
-msgstr ""
+msgstr "訂閱開始日：%1"
 
 #: qml/FeedDetailsPage.qml:47
 #, kde-format
 msgid "last updated: %1"
-msgstr ""
+msgstr "上次更新：%1"
 
 #: qml/FeedDetailsPage.qml:50
 #, kde-format
 msgid "%1 posts, %2 unread"
-msgstr ""
+msgstr "%1 個貼文，%2 條未讀"
 
 #: qml/FeedGroupDialog.qml:23
 #, kde-format
 msgid "Feed Group"
-msgstr ""
+msgstr "feed 群組"
 
 #: qml/FeedGroupDialog.qml:43
 #, kde-format
 msgid "Name:"
-msgstr ""
+msgstr "名稱："
 
 #: qml/FeedGroupDialog.qml:50
 #, kde-format
 msgid "Description:"
-msgstr ""
+msgstr "描述："
 
 #: qml/FeedListDelegate.qml:21
 #, kde-format
 msgid "%1 unread entry"
 msgid_plural "%1 unread entries"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 個未讀的條目"
 
 #: qml/FeedListDelegate.qml:30
 #, kde-format
 msgctxt "'Feed' is an rss feed"
 msgid "Delete this Feed"
-msgstr ""
+msgstr "刪除此 feed"
 
 #: qml/FeedListDelegate.qml:43
 #, kde-format
 msgctxt "'Feed' is an rss feed"
 msgid "Edit this Feed"
-msgstr ""
+msgstr "編輯此 feed"
 
 #: qml/FeedListPage.qml:32
 #, kde-format
 msgid "Refresh All Feeds"
-msgstr ""
+msgstr "重新整理所有 feed"
 
 #: qml/FeedListPage.qml:38
 #, kde-format
 msgid "Manage Feed Groups"
-msgstr ""
+msgstr "管理 feed 群組"
 
 #: qml/FeedListPage.qml:43
 #, kde-format
 msgid "Import Feeds..."
-msgstr ""
+msgstr "匯入 feed…"
 
 #: qml/FeedListPage.qml:49
 #, kde-format
 msgid "Export Feeds..."
-msgstr ""
+msgstr "匯出 feed…"
 
 #: qml/FeedListPage.qml:75
 #, kde-format
 msgid "Add Feed…"
-msgstr ""
+msgstr "新增 feed…"
 
 #: qml/FeedListPage.qml:89
 #, kde-format
 msgid "No feeds added yet"
-msgstr ""
+msgstr "還沒有新增 feed"
 
 #: qml/FeedListPage.qml:118
 #, kde-format
 msgid "Import Feeds"
-msgstr ""
+msgstr "匯入 feed"
 
 #: qml/FeedListPage.qml:120
 #, kde-format
 msgid "All Files (*)"
-msgstr ""
+msgstr "所有檔案 (*)"
 
 #: qml/FeedListPage.qml:120
 #, kde-format
 msgid "XML Files (*.xml)"
-msgstr ""
+msgstr "XML 檔案 (*.xml)"
 
 #: qml/FeedListPage.qml:120
 #, kde-format
 msgid "OPML Files (*.opml)"
-msgstr ""
+msgstr "OPML 檔案 (*.opml)"
 
 #: qml/FeedListPage.qml:126
 #, kde-format
 msgid "Export Feeds"
-msgstr ""
+msgstr "匯出 feed"
 
 #: qml/FeedListPage.qml:128
 #, kde-format
 msgid "All Files"
-msgstr ""
+msgstr "所有檔案"
 
 #: qml/GroupsListPage.qml:18
 #, kde-format
 msgid "Groups"
-msgstr ""
+msgstr "群組"
 
 #: qml/GroupsListPage.qml:24
 #, kde-format
 msgid "Add Group…"
-msgstr ""
+msgstr "新增群組…"
 
 #: qml/GroupsListPage.qml:55
 #, kde-format
 msgid "Remove"
-msgstr ""
+msgstr "移除"
 
 #: qml/GroupsListPage.qml:63
 #, kde-format
 msgid "Set as Default"
-msgstr ""
+msgstr "設為預設"
 
 #: qml/GroupsListPage.qml:72
 #, kde-format
 msgid "No groups created yet"
-msgstr ""
+msgstr "尚未建立群組"
 
 #: qml/GroupsListPage.qml:77
 #, kde-format
 msgid "Add Group"
-msgstr ""
+msgstr "新增群組"
 
 #: qml/SettingsPage.qml:21
 #, kde-format
 msgid "Article List"
-msgstr ""
+msgstr "文章列表"
 
 #: qml/SettingsPage.qml:25
 #, kde-format
 msgid "Delete after:"
-msgstr ""
+msgstr "經過多久後刪除："
 
 #: qml/SettingsPage.qml:38
 #, kde-format
 msgid "Never"
-msgstr ""
+msgstr "永不"
 
 #: qml/SettingsPage.qml:38
 #, kde-format
 msgid "Articles"
-msgstr ""
+msgstr "文章"
 
 #: qml/SettingsPage.qml:38
 #, kde-format
 msgid "Days"
-msgstr ""
+msgstr "天"
 
 #: qml/SettingsPage.qml:38
 #, kde-format
 msgid "Weeks"
-msgstr ""
+msgstr "週"
 
 #: qml/SettingsPage.qml:38
 #, kde-format
 msgid "Months"
-msgstr ""
+msgstr "個月"
 
 #: qml/SettingsPage.qml:46
 #, kde-format
 msgid "Article"
-msgstr ""
+msgstr "文章"
 
 #: qml/SettingsPage.qml:54
 #, kde-format
 msgid "Font size:"
-msgstr ""
+msgstr "字型大小："
 
 #: qml/SettingsPage.qml:65
 #, kde-format
 msgid "Use system default"
-msgstr ""
+msgstr "使用系統預設"
