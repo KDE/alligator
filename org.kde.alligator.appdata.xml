@@ -38,6 +38,7 @@
   <name xml:lang="uk">Alligator</name>
   <name xml:lang="x-test">xxAlligatorxx</name>
   <name xml:lang="zh-CN">Alligator</name>
+  <name xml:lang="zh-TW">Alligator</name>
   <summary>Feed reader for mobile devices</summary>
   <summary xml:lang="ca">Lector de fonts per a dispositius mòbils</summary>
   <summary xml:lang="ca-valencia">Lector de fonts per a dispositius mòbils</summary>
@@ -70,6 +71,7 @@
   <summary xml:lang="uk">Програма для читання подач на мобільних пристроях</summary>
   <summary xml:lang="x-test">xxFeed reader for mobile devicesxx</summary>
   <summary xml:lang="zh-CN">针对移动设备设计的新闻源阅读器</summary>
+  <summary xml:lang="zh-TW">行動裝置用的 feed 閱讀器</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0-or-later</project_license>
   <url type="homepage">https://apps.kde.org/alligator</url>
@@ -109,6 +111,7 @@
   <developer_name xml:lang="uk">Спільнота KDE</developer_name>
   <developer_name xml:lang="x-test">xxKDE Communityxx</developer_name>
   <developer_name xml:lang="zh-CN">KDE 社区</developer_name>
+  <developer_name xml:lang="zh-TW">KDE 社群</developer_name>
   <description>
     <p>Alligator is a mobile feed reader</p>
     <p xml:lang="ca">L'Alligator és un lector de fonts per al mòbil</p>
@@ -142,6 +145,7 @@
     <p xml:lang="uk">Alligator — програма для читання подач на мобільних пристроях</p>
     <p xml:lang="x-test">xxAlligator is a mobile feed readerxx</p>
     <p xml:lang="zh-CN">Alligator 是一款手机新闻源阅读器</p>
+    <p xml:lang="zh-TW">Alligator 是一個行動裝置用的 feed 閱讀器</p>
   </description>
   <provides>
     <binary>alligator</binary>
@@ -177,6 +181,7 @@
       <caption xml:lang="uk">Список подач Alligator на стільниці</caption>
       <caption xml:lang="x-test">xxAlligator feed list on the desktopxx</caption>
       <caption xml:lang="zh-CN">桌面上的 Alligator 新闻源列表</caption>
+      <caption xml:lang="zh-TW">桌面上的 Alligator feed 列表</caption>
       <image>https://cdn.kde.org/screenshots/alligator/alligator-desktop.png</image>
     </screenshot>
     <screenshot type="default">
@@ -209,6 +214,7 @@
       <caption xml:lang="uk">Alligator на телефоні</caption>
       <caption xml:lang="x-test">xxAlligator on a phonexx</caption>
       <caption xml:lang="zh-CN">手机上的 Aligator</caption>
+      <caption xml:lang="zh-TW">手機上的 Alligator</caption>
       <image>https://cdn.kde.org/screenshots/alligator/alligator-mobile.png</image>
     </screenshot>
   </screenshots>
