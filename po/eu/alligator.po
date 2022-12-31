@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-12-08 00:48+0000\n"
-"PO-Revision-Date: 2022-11-29 05:30+0100\n"
+"PO-Revision-Date: 2022-12-30 21:35+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 22.08.3\n"
+"X-Generator: Lokalize 22.12.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -118,7 +118,7 @@ msgstr "Ezarpenak"
 #: qml/AlligatorGlobalDrawer.qml:148
 #, kde-format
 msgid "Manage Feeds"
-msgstr ""
+msgstr "Kudeatu jarioak"
 
 #: qml/AlligatorGlobalDrawer.qml:159
 #, kde-format
@@ -159,12 +159,12 @@ msgstr "Freskatu"
 #: qml/EntryListPage.qml:64
 #, kde-format
 msgid "Expand sidebar"
-msgstr ""
+msgstr "Zabaldu alboko-barra"
 
 #: qml/EntryListPage.qml:64
 #, kde-format
 msgid "Collapse sidebar"
-msgstr ""
+msgstr "Tolestu alboko-barra"
 
 #: qml/EntryListPage.qml:72
 #, kde-format
@@ -194,13 +194,12 @@ msgstr "Ez dago sarrera erabilgarririk"
 #: qml/EntryListPage.qml:130
 #, kde-format
 msgid "All"
-msgstr ""
+msgstr "Dena"
 
 #: qml/EntryListPage.qml:136
-#, fuzzy, kde-format
-#| msgid "Only Unread"
+#, kde-format
 msgid "Unread"
-msgstr "Irakurri gabeak soilik"
+msgstr "Irakurri gabea"
 
 #: qml/EntryPage.qml:43
 #, kde-format
@@ -274,10 +273,9 @@ msgid "Refresh All Feeds"
 msgstr "Freskatu jario guztiak"
 
 #: qml/FeedListPage.qml:38
-#, fuzzy, kde-format
-#| msgid "Feed Groups"
+#, kde-format
 msgid "Manage Feed Groups"
-msgstr "Jario-taldeak"
+msgstr "Kudeatu jario-taldeak"
 
 #: qml/FeedListPage.qml:43
 #, kde-format
