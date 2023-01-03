@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-12-08 00:48+0000\n"
-"PO-Revision-Date: 2022-08-20 20:33+0200\n"
+"PO-Revision-Date: 2022-12-19 09:59+0100\n"
 "Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 21.12.3\n"
+"X-Generator: Lokalize 22.12.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -64,10 +64,9 @@ msgid "Feed Reader"
 msgstr "Anzeige von RSS-Nachrichtenquellen"
 
 #: main.cpp:82
-#, fuzzy, kde-format
-#| msgid "© 2020 KDE Community"
+#, kde-format
 msgid "© 2020-2022 KDE Community"
-msgstr "© 2020 KDE-Gemeinschaft"
+msgstr "Copyright © 2020-2022 KDE-Gemeinschaft"
 
 #: main.cpp:83
 #, kde-format
@@ -117,7 +116,7 @@ msgstr "Einstellungen"
 #: qml/AlligatorGlobalDrawer.qml:148
 #, kde-format
 msgid "Manage Feeds"
-msgstr ""
+msgstr "Nachrichtenquellen verwalten"
 
 #: qml/AlligatorGlobalDrawer.qml:159
 #, kde-format
@@ -158,12 +157,12 @@ msgstr "Aktualisieren"
 #: qml/EntryListPage.qml:64
 #, kde-format
 msgid "Expand sidebar"
-msgstr ""
+msgstr "Seitenleiste ausklappen"
 
 #: qml/EntryListPage.qml:64
 #, kde-format
 msgid "Collapse sidebar"
-msgstr ""
+msgstr "Seitenleiste einklappen"
 
 #: qml/EntryListPage.qml:72
 #, kde-format
@@ -193,13 +192,12 @@ msgstr "Keine Einträge verfügbar"
 #: qml/EntryListPage.qml:130
 #, kde-format
 msgid "All"
-msgstr ""
+msgstr "Alle"
 
 #: qml/EntryListPage.qml:136
-#, fuzzy, kde-format
-#| msgid "Only Unread"
+#, kde-format
 msgid "Unread"
-msgstr "Nur Ungelesene"
+msgstr "Ungelesen"
 
 #: qml/EntryPage.qml:43
 #, kde-format
@@ -256,18 +254,16 @@ msgstr[0] "%1 ungelesener Eintrag"
 msgstr[1] "%1 ungelesene Einträge"
 
 #: qml/FeedListDelegate.qml:30
-#, fuzzy, kde-format
-#| msgid "Delete after:"
+#, kde-format
 msgctxt "'Feed' is an rss feed"
 msgid "Delete this Feed"
-msgstr "Löschen nach:"
+msgstr "Diese Nachrichtenquelle löschen"
 
 #: qml/FeedListDelegate.qml:43
-#, fuzzy, kde-format
-#| msgid "Edit Feed"
+#, kde-format
 msgctxt "'Feed' is an rss feed"
 msgid "Edit this Feed"
-msgstr "Nachrichtenquelle bearbeiten"
+msgstr "Diese Nachrichtenquelle bearbeiten"
 
 #: qml/FeedListPage.qml:32
 #, kde-format
@@ -275,10 +271,9 @@ msgid "Refresh All Feeds"
 msgstr "Alle Nachrichtenquellen aktualisieren"
 
 #: qml/FeedListPage.qml:38
-#, fuzzy, kde-format
-#| msgid "Feed Groups"
+#, kde-format
 msgid "Manage Feed Groups"
-msgstr "Nachrichtenquellen-Gruppen"
+msgstr "Nachrichtenquellen-Gruppen verwalten"
 
 #: qml/FeedListPage.qml:43
 #, kde-format
