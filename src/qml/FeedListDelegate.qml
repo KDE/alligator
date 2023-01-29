@@ -17,7 +17,7 @@ Kirigami.BasicListItem {
     signal editFeed(var feedObj)
 
     text: model.feed.displayName || model.feed.name
-    icon: model.feed.refreshing ? "view-refresh" : model.feed.image === "" ? "rss" : Fetcher.image(model.feed.image)
+    icon.name: model.feed.refreshing ? "view-refresh" : model.feed.image === "" ? "rss" : Fetcher.image(model.feed.image)
     subtitle: i18np("%1 unread entry", "%1 unread entries", model.feed.unreadEntryCount)
 
     activeBackgroundColor: "transparent"

@@ -86,7 +86,7 @@ Kirigami.GlobalDrawer {
             header: Kirigami.BasicListItem {
                 id: allFeedsItem
                 text: i18n("All Feeds")
-                icon: "rss"
+                icon.name: "rss"
                 onIconSizeChanged: root.iconSizing = iconSize
                 onLeadingPaddingChanged: root.listItemPadding = leadingPadding
                 onClicked: {
@@ -121,7 +121,7 @@ Kirigami.GlobalDrawer {
 
             delegate: Kirigami.BasicListItem {
                 text: model.feed.displayName || model.feed.name
-                icon: model.feed.refreshing ? "view-refresh" : model.feed.image === "" ? "rss" : Alligator.Fetcher.image(model.feed.image)
+                icon.name: model.feed.refreshing ? "view-refresh" : model.feed.image === "" ? "rss" : Alligator.Fetcher.image(model.feed.image)
                 onClicked: {
                     pageStack.layers.clear();
                     pageStack.clear();
@@ -135,7 +135,7 @@ Kirigami.GlobalDrawer {
         Kirigami.BasicListItem {
             Layout.fillWidth: true
             text: i18n("Settings")
-            icon: "settings-configure"
+            icon.name: "settings-configure"
             onClicked: {
                 pageStack.layers.clear();
                 pageStack.clear();
@@ -146,7 +146,7 @@ Kirigami.GlobalDrawer {
         Kirigami.BasicListItem {
             Layout.fillWidth: true
             text: i18n("Manage Feeds")
-            icon: "feed-subscribe"
+            icon.name: "feed-subscribe"
             onClicked: {
                 pageStack.layers.clear();
                 pageStack.clear();
@@ -157,7 +157,7 @@ Kirigami.GlobalDrawer {
         Kirigami.BasicListItem {
             Layout.fillWidth: true
             text: i18n("About")
-            icon: "documentinfo"
+            icon.name: "documentinfo"
             onClicked: {
                 pageStack.layers.clear();
                 pageStack.clear();

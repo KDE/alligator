@@ -19,7 +19,7 @@ add_executable(alligator
 kconfig_add_kcfg_files(alligator alligatorsettings.kcfgc GENERATE_MOC)
 
 target_include_directories(alligator PRIVATE ${CMAKE_BINARY_DIR})
-target_link_libraries(alligator PRIVATE Qt::Core Qt::Qml Qt::Quick Qt::QuickControls2 Qt::Sql KF5::Syndication KF5::CoreAddons KF5::ConfigGui KF5::I18n)
+target_link_libraries(alligator PRIVATE Qt::Core Qt::Qml Qt::Quick Qt::QuickControls2 Qt::Sql KF6::Syndication KF6::CoreAddons KF6::ConfigGui KF6::I18n)
 
 if(ANDROID)
     target_link_libraries(alligator PRIVATE

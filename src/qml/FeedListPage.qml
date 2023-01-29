@@ -30,24 +30,24 @@ Kirigami.ScrollablePage {
     contextualActions: [
         Kirigami.Action {
             text: i18n("Refresh All Feeds")
-            iconName: "view-refresh"
+            icon.name: "view-refresh"
             onTriggered: refreshing = true
             visible: !Kirigami.Settings.isMobile
         },
         Kirigami.Action {
             text: i18n("Manage Feed Groups")
-            iconName: "edit-group"
+            icon.name: "edit-group"
             onTriggered: applicationWindow().pageStack.layers.push(groupsList)
         },
         Kirigami.Action {
             text: i18n("Import Feeds...")
-            iconName: "document-import"
+            icon.name: "document-import"
             visible: root.groupFilter === ""
             onTriggered: importDialog.open()
         },
         Kirigami.Action {
             text: i18n("Export Feeds...")
-            iconName: "document-export"
+            icon.name: "document-export"
             visible: root.groupFilter === ""
             onTriggered: exportDialog.open()
         }
@@ -73,7 +73,7 @@ Kirigami.ScrollablePage {
 
     actions.main: Kirigami.Action {
         text: i18n("Add Feed…")
-        iconName: "list-add"
+        icon.name: "list-add"
         onTriggered: {
             addDialog.open()
         }
@@ -102,7 +102,7 @@ Kirigami.ScrollablePage {
         }
 
         delegate: FeedListDelegate {
-            onEditFeed: {
+            onEditFeed: feedObj => {
                 editDialog.feed = feedObj
                 editDialog.open()
             }
