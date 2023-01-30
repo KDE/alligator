@@ -7,6 +7,7 @@
 #pragma once
 
 #include <QSortFilterProxyModel>
+#include <qqmlregistration.h>
 
 /**
  * @brief Filters EntriesModel
@@ -15,7 +16,7 @@
 class EntriesProxyModel : public QSortFilterProxyModel
 {
     Q_OBJECT
-
+    QML_ELEMENT
     Q_PROPERTY(bool onlyUnread READ onlyUnread WRITE setOnlyUnread NOTIFY onlyUnreadChanged)
 
 public:

@@ -10,12 +10,14 @@
 #include <QHash>
 #include <QSqlTableModel>
 #include <QUrl>
+#include <qqmlregistration.h>
 
 #include "feed.h"
 
 class FeedsModel : public QAbstractListModel
 {
     Q_OBJECT
+    QML_ELEMENT
 
 public:
     explicit FeedsModel(QObject *parent = nullptr);

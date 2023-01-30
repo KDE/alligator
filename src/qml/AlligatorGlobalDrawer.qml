@@ -139,7 +139,7 @@ Kirigami.GlobalDrawer {
             onClicked: {
                 pageStack.layers.clear();
                 pageStack.clear();
-                pageStack.push("qrc:/SettingsPage.qml");
+                pageStack.push(Qt.resolvedUrl("SettingsPage.qml"));
             }
         }
 

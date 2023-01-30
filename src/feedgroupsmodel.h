@@ -7,6 +7,7 @@
 #pragma once
 
 #include <QAbstractListModel>
+#include <qqmlregistration.h>
 
 /**
  * @brief Data structure to store a single feed group entry
@@ -25,6 +26,7 @@ struct FeedGroup {
 class FeedGroupsModel : public QAbstractListModel
 {
     Q_OBJECT
+    QML_ELEMENT
 
 public:
     explicit FeedGroupsModel(QObject *parent = nullptr);

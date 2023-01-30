@@ -9,7 +9,7 @@ import QtQuick 2.14
 import QtQuick.Controls 2.14 as Controls
 import QtQuick.Layouts 1.14
 
-import org.kde.kirigami 2.12 as Kirigami
+import org.kde.kirigami 2 as Kirigami
 
 import org.kde.alligator 1.0
 
@@ -21,7 +21,7 @@ Kirigami.AbstractListItem {
         while(pageStack.depth > 2) {
             pageStack.pop()
         }
-        pageStack.push("qrc:/EntryPage.qml", {"entry": model.entry, "feedTitle" : feedTitle})
+        pageStack.push(Qt.resolvedUrl("EntryPage.qml"), {"entry": model.entry, "feedTitle" : feedTitle})
     }
 
     separatorVisible: true

@@ -10,6 +10,7 @@
 #include <QHash>
 #include <QObject>
 #include <QString>
+#include <qqmlregistration.h>
 
 #include "entry.h"
 #include "feed.h"
@@ -17,7 +18,7 @@
 class EntriesModel : public QAbstractListModel
 {
     Q_OBJECT
-
+    QML_ELEMENT
     Q_PROPERTY(Feed *feed READ feed CONSTANT)
 
 public:

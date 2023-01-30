@@ -7,7 +7,7 @@
 import QtQuick 2.14
 import QtQuick.Controls 2.14 as Controls
 import QtQuick.Layouts 1.14
-import org.kde.kirigami 2.20 as Kirigami
+import org.kde.kirigami 2 as Kirigami
 import org.kde.alligator 1.0 as Alligator
 
 Kirigami.Dialog {

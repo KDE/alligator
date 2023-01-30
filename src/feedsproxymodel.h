@@ -7,6 +7,7 @@
 #pragma once
 
 #include <QSortFilterProxyModel>
+#include <qqmlregistration.h>
 
 /**
  * @brief Filters and sorts FeedsModel
@@ -15,7 +16,7 @@
 class FeedsProxyModel : public QSortFilterProxyModel
 {
     Q_OBJECT
-
+    QML_ELEMENT
     Q_PROPERTY(QString groupName READ groupName WRITE setGroupName NOTIFY groupNameChanged)
 
 public:

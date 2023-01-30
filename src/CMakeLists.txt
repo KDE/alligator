@@ -13,13 +13,31 @@ add_executable(alligator
     author.cpp
     feedgroupsmodel.cpp
     feedsproxymodel.cpp
-    resources.qrc
 )
 
 kconfig_add_kcfg_files(alligator alligatorsettings.kcfgc GENERATE_MOC)
 
 target_include_directories(alligator PRIVATE ${CMAKE_BINARY_DIR})
 target_link_libraries(alligator PRIVATE Qt::Core Qt::Qml Qt::Quick Qt::QuickControls2 Qt::Sql KF6::Syndication KF6::CoreAddons KF6::ConfigGui KF6::I18n)
+
+qt_add_qml_module(alligator
+    URI org.kde.alligator
+    VERSION 1.0
+    QML_FILES
+    qml/AddFeedDialog.qml
+    qml/AlligatorGlobalDrawer.qml
+    qml/EditFeedDialog.qml
+    qml/EntryListDelegate.qml
+    qml/EntryListPage.qml
+    qml/EntryPage.qml
+    qml/FeedDetailsPage.qml
+    qml/FeedGroupDialog.qml
+    qml/FeedListDelegate.qml
+    qml/FeedListPage.qml
+    qml/GroupsListPage.qml
+    qml/main.qml
+    qml/SettingsPage.qml
+)
 
 if(ANDROID)
     target_link_libraries(alligator PRIVATE

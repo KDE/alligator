@@ -7,10 +7,16 @@
 #pragma once
 
 #include <QSqlQuery>
+#include <qqmlregistration.h>
+
+class QQmlEngine;
+class QJSEngine;
 
 class Database : public QObject
 {
     Q_OBJECT
+    QML_ELEMENT
+    QML_SINGLETON
 
 public:
     static Database &instance()
@@ -18,6 +24,12 @@ public:
         static Database _instance;
         return _instance;
     }
+
+    static Database *create(QQmlEngine * /*qmlEngine*/, QJSEngine * /*jsEngine*/)
+    {
+        return &instance();
+    }
+
     bool execute(QSqlQuery &query);
     bool execute(const QString &query);
     Q_INVOKABLE void addFeed(const QString &url, const QString &groupName = QString(), const bool markEntriesRead = false);
