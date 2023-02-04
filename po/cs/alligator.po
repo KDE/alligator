@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the alligator package.
-# Vit Pelcak <vit@pelcak.org>, 2020, 2021, 2022.
+# Vit Pelcak <vit@pelcak.org>, 2020, 2021, 2022, 2023.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-12-08 00:48+0000\n"
-"PO-Revision-Date: 2022-11-08 16:47+0100\n"
+"PO-Revision-Date: 2023-01-30 11:05+0100\n"
 "Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 22.08.3\n"
+"X-Generator: Lokalize 22.12.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -45,7 +45,7 @@ msgstr "Neplatné XML"
 #: fetcher.cpp:238
 #, kde-format
 msgid "No parser accepted the XML"
-msgstr ""
+msgstr "Žádný analyzátor XML nepřijal"
 
 #: fetcher.cpp:240
 #, kde-format
@@ -65,7 +65,7 @@ msgstr "Čtečka kanálů"
 #: main.cpp:82
 #, kde-format
 msgid "© 2020-2022 KDE Community"
-msgstr ""
+msgstr "© 2020-2022 Komunita KDE"
 
 #: main.cpp:83
 #, kde-format
@@ -115,7 +115,7 @@ msgstr "Nastavení"
 #: qml/AlligatorGlobalDrawer.qml:148
 #, kde-format
 msgid "Manage Feeds"
-msgstr ""
+msgstr "Spravovat kanály"
 
 #: qml/AlligatorGlobalDrawer.qml:159
 #, kde-format
@@ -156,12 +156,12 @@ msgstr "Obnovit"
 #: qml/EntryListPage.qml:64
 #, kde-format
 msgid "Expand sidebar"
-msgstr ""
+msgstr "Rozbalit postranní panel"
 
 #: qml/EntryListPage.qml:64
 #, kde-format
 msgid "Collapse sidebar"
-msgstr ""
+msgstr "Svinout postranní panel"
 
 #: qml/EntryListPage.qml:72
 #, kde-format
@@ -257,13 +257,13 @@ msgstr[2] "%1 nepřečtených záznamů"
 #, kde-format
 msgctxt "'Feed' is an rss feed"
 msgid "Delete this Feed"
-msgstr ""
+msgstr "Smazat tento kanál"
 
 #: qml/FeedListDelegate.qml:43
 #, kde-format
 msgctxt "'Feed' is an rss feed"
 msgid "Edit this Feed"
-msgstr ""
+msgstr "Upravit tento kanál"
 
 #: qml/FeedListPage.qml:32
 #, kde-format
@@ -273,7 +273,7 @@ msgstr "Obnovit všechny kanály"
 #: qml/FeedListPage.qml:38
 #, kde-format
 msgid "Manage Feed Groups"
-msgstr ""
+msgstr "Spravovat skupiny kanálů"
 
 #: qml/FeedListPage.qml:43
 #, kde-format
