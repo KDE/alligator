@@ -34,7 +34,7 @@
   <name xml:lang="sk">Alligator</name>
   <name xml:lang="sl">Alligator</name>
   <name xml:lang="sv">Alligator</name>
-  <name xml:lang="tr">Alligator</name>
+  <name xml:lang="tr">Aligatör</name>
   <name xml:lang="uk">Alligator</name>
   <name xml:lang="x-test">xxAlligatorxx</name>
   <name xml:lang="zh-CN">Alligator</name>
@@ -141,7 +141,7 @@
     <p xml:lang="ru">Alligator — программа чтения лент новостей для мобильных устройств</p>
     <p xml:lang="sl">Alligator je mobilni bralnik novic</p>
     <p xml:lang="sv">Alligator är en mobil kanalläsare</p>
-    <p xml:lang="tr">Alligator bir taşınabilir besleme okuyucusudur</p>
+    <p xml:lang="tr">Aligatör bir taşınabilir besleme okuyucusudur</p>
     <p xml:lang="uk">Alligator — програма для читання подач на мобільних пристроях</p>
     <p xml:lang="x-test">xxAlligator is a mobile feed readerxx</p>
     <p xml:lang="zh-CN">Alligator 是一款手机新闻源阅读器</p>
@@ -177,7 +177,7 @@
       <caption xml:lang="ru">Список лент новостей Alligator на рабочем столе</caption>
       <caption xml:lang="sl">Alligator seznam virov na namizju</caption>
       <caption xml:lang="sv">Alligator kanallista på skrivbordet</caption>
-      <caption xml:lang="tr">Masaüstünde Alligator besleme listesi</caption>
+      <caption xml:lang="tr">Masaüstünde Aligatör besleme listesi</caption>
       <caption xml:lang="uk">Список подач Alligator на стільниці</caption>
       <caption xml:lang="x-test">xxAlligator feed list on the desktopxx</caption>
       <caption xml:lang="zh-CN">桌面上的 Alligator 新闻源列表</caption>
@@ -210,7 +210,7 @@
       <caption xml:lang="ru">Alligator на телефоне</caption>
       <caption xml:lang="sl">Alligator na telefonu</caption>
       <caption xml:lang="sv">Alligator på en telefon</caption>
-      <caption xml:lang="tr">Telefonda Alligator</caption>
+      <caption xml:lang="tr">Telefonda Aligatör</caption>
       <caption xml:lang="uk">Alligator на телефоні</caption>
       <caption xml:lang="x-test">xxAlligator on a phonexx</caption>
       <caption xml:lang="zh-CN">手机上的 Aligator</caption>
