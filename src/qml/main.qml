@@ -15,8 +15,6 @@ Kirigami.ApplicationWindow {
     id: root
 
     title: "Alligator"
-    width: 1200
-    height: 700
 
     property bool sidebarCollapsed: false
 
