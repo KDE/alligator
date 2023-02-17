@@ -50,6 +50,8 @@ if(ANDROID)
         document-import
         document-export
         edit-group
+        arrow-down
+        arrow-up
     )
 else()
     target_link_libraries(alligator PRIVATE Qt::Widgets)
