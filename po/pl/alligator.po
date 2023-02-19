@@ -2,13 +2,13 @@
 # This file is distributed under the same license as the alligator package.
 #
 # Marcin Stanclik <mstanclik@yahoo.com>, 2021.
-# Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2021, 2022.
+# Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2021, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-12-08 00:48+0000\n"
-"PO-Revision-Date: 2022-03-13 11:16+0100\n"
+"PO-Revision-Date: 2023-02-18 09:18+0100\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 22.03.70\n"
+"X-Generator: Lokalize 22.12.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -42,17 +42,17 @@ msgstr "Domyślna grupa kanałów"
 #: fetcher.cpp:236
 #, kde-format
 msgid "Invalid XML"
-msgstr ""
+msgstr "Nieprawidłowy XML"
 
 #: fetcher.cpp:238
 #, kde-format
 msgid "No parser accepted the XML"
-msgstr ""
+msgstr "Żaden z programów przetwarzających nie był w stanie obsłużyć XML"
 
 #: fetcher.cpp:240
 #, kde-format
 msgid "Error while parsing feed"
-msgstr ""
+msgstr "Błąd podczas przetwarzania kanału"
 
 #: main.cpp:78 qml/AlligatorGlobalDrawer.qml:57
 #, kde-format
@@ -65,10 +65,9 @@ msgid "Feed Reader"
 msgstr "Czytnik kanałów"
 
 #: main.cpp:82
-#, fuzzy, kde-format
-#| msgid "© 2020 KDE Community"
+#, kde-format
 msgid "© 2020-2022 KDE Community"
-msgstr "© 2020 Społeczność KDE"
+msgstr "© 2020-2022 Społeczność KDE"
 
 #: main.cpp:83
 #, kde-format
@@ -103,7 +102,7 @@ msgstr "Url:"
 #: qml/AddFeedDialog.qml:41
 #, kde-format
 msgid "Mark entries as read"
-msgstr ""
+msgstr "Oznacz wpisy jako przeczytane"
 
 #: qml/AlligatorGlobalDrawer.qml:88
 #, kde-format
@@ -118,7 +117,7 @@ msgstr "Ustawienia"
 #: qml/AlligatorGlobalDrawer.qml:148
 #, kde-format
 msgid "Manage Feeds"
-msgstr ""
+msgstr "Zarządzaj kanałami"
 
 #: qml/AlligatorGlobalDrawer.qml:159
 #, kde-format
@@ -159,12 +158,12 @@ msgstr "Odśwież"
 #: qml/EntryListPage.qml:64
 #, kde-format
 msgid "Expand sidebar"
-msgstr ""
+msgstr "Rozwiń pasek boczny"
 
 #: qml/EntryListPage.qml:64
 #, kde-format
 msgid "Collapse sidebar"
-msgstr ""
+msgstr "Zwiń pasek boczny"
 
 #: qml/EntryListPage.qml:72
 #, kde-format
@@ -174,7 +173,7 @@ msgstr "Wszystkie wpisy"
 #: qml/EntryListPage.qml:80
 #, kde-format
 msgid "Error"
-msgstr ""
+msgstr "Błąd"
 
 #: qml/EntryListPage.qml:81 qml/EntryListPage.qml:93
 #, kde-format
@@ -182,27 +181,24 @@ msgid "Error (%1): %2"
 msgstr "Błąd (%1): %2"
 
 #: qml/EntryListPage.qml:91
-#, fuzzy, kde-format
-#| msgid "No Entries available"
+#, kde-format
 msgid "No unread entries available"
-msgstr "Brak dostępnych wpisów"
+msgstr "Nie ma żadnych nieprzeczytanych wpisów"
 
 #: qml/EntryListPage.qml:91
-#, fuzzy, kde-format
-#| msgid "No Entries available"
+#, kde-format
 msgid "No entries available"
-msgstr "Brak dostępnych wpisów"
+msgstr "Nie ma jeszcze żadnych wpisów"
 
 #: qml/EntryListPage.qml:130
 #, kde-format
 msgid "All"
-msgstr ""
+msgstr "Wszystkie"
 
 #: qml/EntryListPage.qml:136
-#, fuzzy, kde-format
-#| msgid "Only unread"
+#, kde-format
 msgid "Unread"
-msgstr "Tylko nieprzeczytane"
+msgstr "Nieprzeczytana"
 
 #: qml/EntryPage.qml:43
 #, kde-format
@@ -237,10 +233,9 @@ msgid "%1 posts, %2 unread"
 msgstr "%1 postów, %2 nieprzeczytanych"
 
 #: qml/FeedGroupDialog.qml:23
-#, fuzzy, kde-format
-#| msgid "Feed Groups"
+#, kde-format
 msgid "Feed Group"
-msgstr "Grupy kanałów"
+msgstr "Grupa kanałów"
 
 #: qml/FeedGroupDialog.qml:43
 #, kde-format
@@ -261,30 +256,26 @@ msgstr[1] "%1 nieprzeczytane wpisy"
 msgstr[2] "%1 nieprzeczytanych wpisów"
 
 #: qml/FeedListDelegate.qml:30
-#, fuzzy, kde-format
-#| msgid "Delete after:"
+#, kde-format
 msgctxt "'Feed' is an rss feed"
 msgid "Delete this Feed"
-msgstr "Usuń po:"
+msgstr "Usuń ten kanał"
 
 #: qml/FeedListDelegate.qml:43
-#, fuzzy, kde-format
-#| msgid "Edit Feed"
+#, kde-format
 msgctxt "'Feed' is an rss feed"
 msgid "Edit this Feed"
-msgstr "Edytuj kanał"
+msgstr "Edytuj ten kanał"
 
 #: qml/FeedListPage.qml:32
-#, fuzzy, kde-format
-#| msgid "Refresh all feeds"
+#, kde-format
 msgid "Refresh All Feeds"
 msgstr "Odśwież wszystkie kanały"
 
 #: qml/FeedListPage.qml:38
-#, fuzzy, kde-format
-#| msgid "Feed Groups"
+#, kde-format
 msgid "Manage Feed Groups"
-msgstr "Grupy kanałów"
+msgstr "Zarządzaj grupami kanałów"
 
 #: qml/FeedListPage.qml:43
 #, kde-format
@@ -297,14 +288,12 @@ msgid "Export Feeds..."
 msgstr "Wyeksportuj kanały..."
 
 #: qml/FeedListPage.qml:75
-#, fuzzy, kde-format
-#| msgid "Add Feed"
+#, kde-format
 msgid "Add Feed…"
-msgstr "Dodaj kanał"
+msgstr "Dodaj kanał…"
 
 #: qml/FeedListPage.qml:89
-#, fuzzy, kde-format
-#| msgid "No Feeds added yet"
+#, kde-format
 msgid "No feeds added yet"
 msgstr "Nie dodano jeszcze żadnych kanałów"
 
@@ -344,10 +333,9 @@ msgid "Groups"
 msgstr "Grupy"
 
 #: qml/GroupsListPage.qml:24
-#, fuzzy, kde-format
-#| msgid "Add Group"
+#, kde-format
 msgid "Add Group…"
-msgstr "Dodaj grupę"
+msgstr "Dodaj grupę…"
 
 #: qml/GroupsListPage.qml:55
 #, kde-format
@@ -355,10 +343,9 @@ msgid "Remove"
 msgstr "Usuń"
 
 #: qml/GroupsListPage.qml:63
-#, fuzzy, kde-format
-#| msgid "Set as default"
+#, kde-format
 msgid "Set as Default"
-msgstr "Ustaw jako domyślną"
+msgstr "Ustaw jako domyślne"
 
 #: qml/GroupsListPage.qml:72
 #, kde-format
