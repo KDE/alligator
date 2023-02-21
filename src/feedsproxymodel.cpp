@@ -14,8 +14,10 @@ FeedsProxyModel::FeedsProxyModel(QObject *parent)
     , m_group_name{}
 {
     connect(&Database::instance(), &Database::feedDetailsUpdated, [this]() {
-        invalidateFilter();
+        invalidate();
     });
+    setSortRole(0);
+    sort(0);
 }
 
 FeedsProxyModel::~FeedsProxyModel()
@@ -55,4 +57,15 @@ bool FeedsProxyModel::filterAcceptsRow(int source_row, const QModelIndex &source
     }
 
     return false;
+}
+
+bool FeedsProxyModel::lessThan(const QModelIndex &source_left, const QModelIndex &source_right) const
+{
+    if (!sourceModel()) {
+        return false;
+    }
+    const auto leftFeed = source_left.data(0).value<Feed *>();
+    const auto rightFeed = source_right.data(0).value<Feed *>();
+
+    return leftFeed->groupName() < rightFeed->groupName();
 }

@@ -105,6 +105,14 @@ Kirigami.ScrollablePage {
         FeedsModel {
             id: feedsModel
         }
+
+        section {
+            property: "feed.groupName"
+            criteria: ViewSection.FullString
+            delegate: Kirigami.ListSectionHeader {
+                label: section
+            }
+        }
     }
 
     FileDialog {

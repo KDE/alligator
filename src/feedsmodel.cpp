@@ -85,8 +85,9 @@ QVariant FeedsModel::data(const QModelIndex &index, int role) const
     if (role != 0) {
         return QVariant();
     }
-    if (m_feeds.length() <= index.row()) {
-        loadFeed(index.row());
+
+    while (m_feeds.length() <= index.row()) {
+        loadFeed(m_feeds.length());
     }
     return QVariant::fromValue(m_feeds[index.row()]);
 }
