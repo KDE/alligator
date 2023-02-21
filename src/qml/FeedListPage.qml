@@ -15,7 +15,7 @@ import org.kde.alligator 1.0
 
 Kirigami.ScrollablePage {
     id: root
-    title: groupFilter ? groupFilter : "Alligator"
+    title: i18nc("'Feeds' as in 'RSS Feeds'", "Manage Feeds")
 
     property var lastFeed: ""
     property alias groupFilter: proxyModel.groupName
