@@ -37,12 +37,12 @@ Kirigami.ScrollablePage {
             onTriggered: applicationWindow().pageStack.layers.push(groupsList)
         },
         Kirigami.Action {
-            text: i18n("Import Feeds...")
+            text: i18n("Import Feeds…")
             iconName: "document-import"
             onTriggered: importDialog.open()
         },
         Kirigami.Action {
-            text: i18n("Export Feeds...")
+            text: i18n("Export Feeds…")
             iconName: "document-export"
             onTriggered: exportDialog.open()
         }
