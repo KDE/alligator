@@ -14,7 +14,6 @@ import org.kde.alligator 1.0
 
 Kirigami.Dialog {
     id: addSheet
-    property string groupName: ""
 
     title: i18n("Add Feed")
     standardButtons: Kirigami.Dialog.Ok | Kirigami.Dialog.Cancel
@@ -23,7 +22,7 @@ Kirigami.Dialog {
     preferredWidth: Kirigami.Units.gridUnit * 20
 
     onAccepted: {
-        Database.addFeed(urlField.text, addSheet.groupName, markFeedAsRead.checked)
+        Database.addFeed(urlField.text, "", markFeedAsRead.checked)
     }
 
     ColumnLayout {

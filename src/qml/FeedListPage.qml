@@ -17,9 +17,6 @@ Kirigami.ScrollablePage {
     id: root
     title: i18nc("'Feeds' as in 'RSS Feeds'", "Manage Feeds")
 
-    property var lastFeed: ""
-    property alias groupFilter: proxyModel.groupName
-
     supportsRefreshing: true
     onRefreshingChanged:
         if(refreshing)  {
@@ -42,13 +39,11 @@ Kirigami.ScrollablePage {
         Kirigami.Action {
             text: i18n("Import Feeds...")
             iconName: "document-import"
-            visible: root.groupFilter === ""
             onTriggered: importDialog.open()
         },
         Kirigami.Action {
             text: i18n("Export Feeds...")
             iconName: "document-export"
-            visible: root.groupFilter === ""
             onTriggered: exportDialog.open()
         }
     ]
@@ -64,7 +59,6 @@ Kirigami.ScrollablePage {
 
     AddFeedDialog {
         id: addDialog
-        groupName: root.groupFilter
     }
 
     EditFeedDialog {
