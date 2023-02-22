@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-12-08 00:48+0000\n"
+"POT-Creation-Date: 2023-02-22 00:58+0000\n"
 "PO-Revision-Date: 2022-12-11 20:40+0100\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
@@ -84,17 +84,17 @@ msgstr "Ajoute un nouveau fil de discussions à la base de données."
 msgid "feed URL"
 msgstr "URL du fil de discussions"
 
-#: qml/AddFeedDialog.qml:19
+#: qml/AddFeedDialog.qml:18
 #, kde-format
 msgid "Add Feed"
 msgstr "Ajouter un flux"
 
-#: qml/AddFeedDialog.qml:31
+#: qml/AddFeedDialog.qml:30
 #, kde-format
 msgid "Url:"
 msgstr "URL :"
 
-#: qml/AddFeedDialog.qml:41
+#: qml/AddFeedDialog.qml:40
 #, kde-format
 msgid "Mark entries as read"
 msgstr "Marquer les entrées comme lues"
@@ -261,62 +261,71 @@ msgctxt "'Feed' is an rss feed"
 msgid "Edit this Feed"
 msgstr "Modifier ce fil d'actualité"
 
-#: qml/FeedListPage.qml:32
+#: qml/FeedListPage.qml:18
+#, fuzzy, kde-format
+#| msgid "Manage Feeds"
+msgctxt "'Feeds' as in 'RSS Feeds'"
+msgid "Manage Feeds"
+msgstr "Gérer les fils d'actualité"
+
+#: qml/FeedListPage.qml:29
 #, kde-format
 msgid "Refresh All Feeds"
 msgstr "Actualiser tous les fils d'actualités"
 
-#: qml/FeedListPage.qml:38
+#: qml/FeedListPage.qml:35
 #, kde-format
 msgid "Manage Feed Groups"
 msgstr "Gérer les groupes de fils d'actualité"
 
-#: qml/FeedListPage.qml:43
-#, kde-format
-msgid "Import Feeds..."
-msgstr "Importer des flux..."
+#: qml/FeedListPage.qml:40
+#, fuzzy, kde-format
+#| msgid "Import Feeds"
+msgid "Import Feeds…"
+msgstr "Importer des flux"
 
-#: qml/FeedListPage.qml:49
-#, kde-format
-msgid "Export Feeds..."
-msgstr "Exporter des flux..."
+#: qml/FeedListPage.qml:45
+#, fuzzy, kde-format
+#| msgid "Export Feeds"
+msgid "Export Feeds…"
+msgstr "Exporter des flux"
 
-#: qml/FeedListPage.qml:75
+#: qml/FeedListPage.qml:69
 #, kde-format
 msgid "Add Feed…"
 msgstr "Ajouter un fil d'actualités..."
 
-#: qml/FeedListPage.qml:89
+#: qml/FeedListPage.qml:83
 #, kde-format
 msgid "No feeds added yet"
 msgstr "Aucun fil d'actualité ajouté pour l'instant."
 
-#: qml/FeedListPage.qml:118
+#: qml/FeedListPage.qml:120
 #, kde-format
 msgid "Import Feeds"
 msgstr "Importer des flux"
 
-#: qml/FeedListPage.qml:120
+#: qml/FeedListPage.qml:122
 #, kde-format
 msgid "All Files (*)"
 msgstr "Tous les fichiers (*)"
 
-#: qml/FeedListPage.qml:120
+#: qml/FeedListPage.qml:122
 #, kde-format
 msgid "XML Files (*.xml)"
 msgstr "Fichiers « XML » (*.xml)"
 
-#: qml/FeedListPage.qml:120
+#: qml/FeedListPage.qml:122
 #, kde-format
 msgid "OPML Files (*.opml)"
 msgstr "Fichiers « OPML » (*.opml)"
 
-#: qml/FeedListPage.qml:126
+#: qml/FeedListPage.qml:128
 #, kde-format
 msgid "Export Feeds"
 msgstr "Exporter des flux"
 
-#: qml/FeedListPage.qml:128
+#: qml/FeedListPage.qml:130
 #, kde-format
 msgid "All Files"
 msgstr "Tous les fichiers"
@@ -400,6 +409,12 @@ msgstr "Taille de la police :"
 #, kde-format
 msgid "Use system default"
 msgstr "Utiliser la valeur par défaut du système"
+
+#~ msgid "Import Feeds..."
+#~ msgstr "Importer des flux..."
+
+#~ msgid "Export Feeds..."
+#~ msgstr "Exporter des flux..."
 
 #~ msgid "OK"
 #~ msgstr "Ok"

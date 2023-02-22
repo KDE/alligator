@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-12-08 00:48+0000\n"
+"POT-Creation-Date: 2023-02-22 00:58+0000\n"
 "PO-Revision-Date: 2022-05-18 18:55+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -88,17 +88,17 @@ msgstr "Lisää tietokantaan uuden syötteen."
 msgid "feed URL"
 msgstr "syötteen verkko-osoite"
 
-#: qml/AddFeedDialog.qml:19
+#: qml/AddFeedDialog.qml:18
 #, kde-format
 msgid "Add Feed"
 msgstr "Lisää syöte"
 
-#: qml/AddFeedDialog.qml:31
+#: qml/AddFeedDialog.qml:30
 #, kde-format
 msgid "Url:"
 msgstr "Verkko-osoite:"
 
-#: qml/AddFeedDialog.qml:41
+#: qml/AddFeedDialog.qml:40
 #, kde-format
 msgid "Mark entries as read"
 msgstr ""
@@ -271,66 +271,75 @@ msgctxt "'Feed' is an rss feed"
 msgid "Edit this Feed"
 msgstr "Muokkaa syötettä"
 
-#: qml/FeedListPage.qml:32
+#: qml/FeedListPage.qml:18
+#, fuzzy, kde-format
+#| msgid "Feed Groups"
+msgctxt "'Feeds' as in 'RSS Feeds'"
+msgid "Manage Feeds"
+msgstr "Syöteryhmät"
+
+#: qml/FeedListPage.qml:29
 #, fuzzy, kde-format
 #| msgid "Refresh all feeds"
 msgid "Refresh All Feeds"
 msgstr "Virkistä kaikki syötteet"
 
-#: qml/FeedListPage.qml:38
+#: qml/FeedListPage.qml:35
 #, fuzzy, kde-format
 #| msgid "Feed Groups"
 msgid "Manage Feed Groups"
 msgstr "Syöteryhmät"
 
-#: qml/FeedListPage.qml:43
-#, kde-format
-msgid "Import Feeds..."
-msgstr "Tuo syötteitä…"
+#: qml/FeedListPage.qml:40
+#, fuzzy, kde-format
+#| msgid "Import Feeds"
+msgid "Import Feeds…"
+msgstr "Tuo syötteitä"
 
-#: qml/FeedListPage.qml:49
-#, kde-format
-msgid "Export Feeds..."
-msgstr "Vie syötteitä…"
+#: qml/FeedListPage.qml:45
+#, fuzzy, kde-format
+#| msgid "Export Feeds"
+msgid "Export Feeds…"
+msgstr "Vie syötteitä"
 
-#: qml/FeedListPage.qml:75
+#: qml/FeedListPage.qml:69
 #, fuzzy, kde-format
 #| msgid "Add Feed"
 msgid "Add Feed…"
 msgstr "Lisää syöte"
 
-#: qml/FeedListPage.qml:89
+#: qml/FeedListPage.qml:83
 #, fuzzy, kde-format
 #| msgid "No Feeds added yet"
 msgid "No feeds added yet"
 msgstr "Ei vielä lisättyjä syötteitä"
 
-#: qml/FeedListPage.qml:118
+#: qml/FeedListPage.qml:120
 #, kde-format
 msgid "Import Feeds"
 msgstr "Tuo syötteitä"
 
-#: qml/FeedListPage.qml:120
+#: qml/FeedListPage.qml:122
 #, kde-format
 msgid "All Files (*)"
 msgstr "Kaikki tiedostot (*)"
 
-#: qml/FeedListPage.qml:120
+#: qml/FeedListPage.qml:122
 #, kde-format
 msgid "XML Files (*.xml)"
 msgstr "XML-tiedostot (*.xml)"
 
-#: qml/FeedListPage.qml:120
+#: qml/FeedListPage.qml:122
 #, kde-format
 msgid "OPML Files (*.opml)"
 msgstr "OPML-tiedostot (*.opml)"
 
-#: qml/FeedListPage.qml:126
+#: qml/FeedListPage.qml:128
 #, kde-format
 msgid "Export Feeds"
 msgstr "Vie syötteitä"
 
-#: qml/FeedListPage.qml:128
+#: qml/FeedListPage.qml:130
 #, kde-format
 msgid "All Files"
 msgstr "Kaikki tiedostot"
@@ -416,6 +425,12 @@ msgstr "Fonttikoko:"
 #, kde-format
 msgid "Use system default"
 msgstr "Käytä järjestelmän oletusta"
+
+#~ msgid "Import Feeds..."
+#~ msgstr "Tuo syötteitä…"
+
+#~ msgid "Export Feeds..."
+#~ msgstr "Vie syötteitä…"
 
 #~ msgid "OK"
 #~ msgstr "OK"

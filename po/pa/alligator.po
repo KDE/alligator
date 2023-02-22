@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-12-08 00:48+0000\n"
+"POT-Creation-Date: 2023-02-22 00:58+0000\n"
 "PO-Revision-Date: 2021-05-01 23:10-0700\n"
 "Last-Translator: A S Alam <aalam@satluj.org>\n"
 "Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
@@ -88,17 +88,17 @@ msgstr "ਨਵੀਂ ਫੀਡ ਡਾਟਾਬੇਸ ਵਿੱਚ ਜੋੜੋ�
 msgid "feed URL"
 msgstr "ਫੀਡ URL"
 
-#: qml/AddFeedDialog.qml:19
+#: qml/AddFeedDialog.qml:18
 #, kde-format
 msgid "Add Feed"
 msgstr "ਫੀਡ ਜੋੜੋ"
 
-#: qml/AddFeedDialog.qml:31
+#: qml/AddFeedDialog.qml:30
 #, kde-format
 msgid "Url:"
 msgstr "URL:"
 
-#: qml/AddFeedDialog.qml:41
+#: qml/AddFeedDialog.qml:40
 #, kde-format
 msgid "Mark entries as read"
 msgstr ""
@@ -272,66 +272,75 @@ msgctxt "'Feed' is an rss feed"
 msgid "Edit this Feed"
 msgstr "ਫੀਡ ਸੋਧੋ"
 
-#: qml/FeedListPage.qml:32
+#: qml/FeedListPage.qml:18
+#, fuzzy, kde-format
+#| msgid "Feed Groups"
+msgctxt "'Feeds' as in 'RSS Feeds'"
+msgid "Manage Feeds"
+msgstr "ਫੀਡ ਦੇ ਗਰੁੱਪ"
+
+#: qml/FeedListPage.qml:29
 #, fuzzy, kde-format
 #| msgid "Refresh all feeds"
 msgid "Refresh All Feeds"
 msgstr "ਸਭ ਫੀਡ ਤਾਜ਼ਾ ਕਰੋ"
 
-#: qml/FeedListPage.qml:38
+#: qml/FeedListPage.qml:35
 #, fuzzy, kde-format
 #| msgid "Feed Groups"
 msgid "Manage Feed Groups"
 msgstr "ਫੀਡ ਦੇ ਗਰੁੱਪ"
 
-#: qml/FeedListPage.qml:43
-#, kde-format
-msgid "Import Feeds..."
-msgstr "ਫੀਡ ਦਰਾਮਦ ਕਰੋ..."
+#: qml/FeedListPage.qml:40
+#, fuzzy, kde-format
+#| msgid "Import Feeds"
+msgid "Import Feeds…"
+msgstr "ਫੀਡ ਦਰਾਮਦ ਕਰੋ"
 
-#: qml/FeedListPage.qml:49
-#, kde-format
-msgid "Export Feeds..."
-msgstr "ਫੀਡ ਬਰਾਮਦ ਕਰੋ..."
+#: qml/FeedListPage.qml:45
+#, fuzzy, kde-format
+#| msgid "Export Feeds"
+msgid "Export Feeds…"
+msgstr "ਫੀਡ ਬਰਾਮਦ ਕਰੋ"
 
-#: qml/FeedListPage.qml:75
+#: qml/FeedListPage.qml:69
 #, fuzzy, kde-format
 #| msgid "Add Feed"
 msgid "Add Feed…"
 msgstr "ਫੀਡ ਜੋੜੋ"
 
-#: qml/FeedListPage.qml:89
+#: qml/FeedListPage.qml:83
 #, fuzzy, kde-format
 #| msgid "No Feeds added yet"
 msgid "No feeds added yet"
 msgstr "ਹਾਲੇ ਕੋਈ ਫੀਡ ਨਹੀਂ ਹੈ"
 
-#: qml/FeedListPage.qml:118
+#: qml/FeedListPage.qml:120
 #, kde-format
 msgid "Import Feeds"
 msgstr "ਫੀਡ ਦਰਾਮਦ ਕਰੋ"
 
-#: qml/FeedListPage.qml:120
+#: qml/FeedListPage.qml:122
 #, kde-format
 msgid "All Files (*)"
 msgstr "ਸਭ ਫਾਇਲਾਂ (*)"
 
-#: qml/FeedListPage.qml:120
+#: qml/FeedListPage.qml:122
 #, kde-format
 msgid "XML Files (*.xml)"
 msgstr "XML ਫਾਇਲਾਂ (*.xml)"
 
-#: qml/FeedListPage.qml:120
+#: qml/FeedListPage.qml:122
 #, kde-format
 msgid "OPML Files (*.opml)"
 msgstr "OPML ਫਾਇਲਾਂ (*.opml)"
 
-#: qml/FeedListPage.qml:126
+#: qml/FeedListPage.qml:128
 #, kde-format
 msgid "Export Feeds"
 msgstr "ਫੀਡ ਬਰਾਮਦ ਕਰੋ"
 
-#: qml/FeedListPage.qml:128
+#: qml/FeedListPage.qml:130
 #, kde-format
 msgid "All Files"
 msgstr "ਸਭ ਫਾਇਲਾਂ"
@@ -417,6 +426,12 @@ msgstr "ਫੋਂਟ ਦਾ ਆਕਾਰ:"
 #, kde-format
 msgid "Use system default"
 msgstr "ਸਿਸਟਮ ਦੇ ਮੂਲ ਵਰਤੋਂ"
+
+#~ msgid "Import Feeds..."
+#~ msgstr "ਫੀਡ ਦਰਾਮਦ ਕਰੋ..."
+
+#~ msgid "Export Feeds..."
+#~ msgstr "ਫੀਡ ਬਰਾਮਦ ਕਰੋ..."
 
 #~ msgid "OK"
 #~ msgstr "ਠੀਕ ਹੈ"

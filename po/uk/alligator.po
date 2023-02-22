@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-12-08 00:48+0000\n"
+"POT-Creation-Date: 2023-02-22 00:58+0000\n"
 "PO-Revision-Date: 2022-12-08 06:57+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
@@ -90,17 +90,17 @@ msgstr "Додає до бази даних нову подачу."
 msgid "feed URL"
 msgstr "адреса подачі"
 
-#: qml/AddFeedDialog.qml:19
+#: qml/AddFeedDialog.qml:18
 #, kde-format
 msgid "Add Feed"
 msgstr "Додати подачу"
 
-#: qml/AddFeedDialog.qml:31
+#: qml/AddFeedDialog.qml:30
 #, kde-format
 msgid "Url:"
 msgstr "Адреса:"
 
-#: qml/AddFeedDialog.qml:41
+#: qml/AddFeedDialog.qml:40
 #, kde-format
 msgid "Mark entries as read"
 msgstr "Позначити записи як прочитані"
@@ -269,62 +269,71 @@ msgctxt "'Feed' is an rss feed"
 msgid "Edit this Feed"
 msgstr "Редагувати цю подачу"
 
-#: qml/FeedListPage.qml:32
+#: qml/FeedListPage.qml:18
+#, fuzzy, kde-format
+#| msgid "Manage Feeds"
+msgctxt "'Feeds' as in 'RSS Feeds'"
+msgid "Manage Feeds"
+msgstr "Керування подачами"
+
+#: qml/FeedListPage.qml:29
 #, kde-format
 msgid "Refresh All Feeds"
 msgstr "Оновити усі подачі"
 
-#: qml/FeedListPage.qml:38
+#: qml/FeedListPage.qml:35
 #, kde-format
 msgid "Manage Feed Groups"
 msgstr "Керувати групами подач"
 
-#: qml/FeedListPage.qml:43
-#, kde-format
-msgid "Import Feeds..."
-msgstr "Імпортувати подачі…"
+#: qml/FeedListPage.qml:40
+#, fuzzy, kde-format
+#| msgid "Import Feeds"
+msgid "Import Feeds…"
+msgstr "Імпортування подач"
 
-#: qml/FeedListPage.qml:49
-#, kde-format
-msgid "Export Feeds..."
-msgstr "Експортувати подачі…"
+#: qml/FeedListPage.qml:45
+#, fuzzy, kde-format
+#| msgid "Export Feeds"
+msgid "Export Feeds…"
+msgstr "Експортування подач"
 
-#: qml/FeedListPage.qml:75
+#: qml/FeedListPage.qml:69
 #, kde-format
 msgid "Add Feed…"
 msgstr "Додати подачу…"
 
-#: qml/FeedListPage.qml:89
+#: qml/FeedListPage.qml:83
 #, kde-format
 msgid "No feeds added yet"
 msgstr "Подач ще не додано"
 
-#: qml/FeedListPage.qml:118
+#: qml/FeedListPage.qml:120
 #, kde-format
 msgid "Import Feeds"
 msgstr "Імпортування подач"
 
-#: qml/FeedListPage.qml:120
+#: qml/FeedListPage.qml:122
 #, kde-format
 msgid "All Files (*)"
 msgstr "усі файли (*)"
 
-#: qml/FeedListPage.qml:120
+#: qml/FeedListPage.qml:122
 #, kde-format
 msgid "XML Files (*.xml)"
 msgstr "файли XML (*.xml)"
 
-#: qml/FeedListPage.qml:120
+#: qml/FeedListPage.qml:122
 #, kde-format
 msgid "OPML Files (*.opml)"
 msgstr "файли OPML (*.opml)"
 
-#: qml/FeedListPage.qml:126
+#: qml/FeedListPage.qml:128
 #, kde-format
 msgid "Export Feeds"
 msgstr "Експортування подач"
 
-#: qml/FeedListPage.qml:128
+#: qml/FeedListPage.qml:130
 #, kde-format
 msgid "All Files"
 msgstr "усі файли"
@@ -408,6 +417,12 @@ msgstr "Розмір шрифту:"
 #, kde-format
 msgid "Use system default"
 msgstr "Типовий системний"
+
+#~ msgid "Import Feeds..."
+#~ msgstr "Імпортувати подачі…"
+
+#~ msgid "Export Feeds..."
+#~ msgstr "Експортувати подачі…"
 
 #~ msgid "OK"
 #~ msgstr "Гаразд"

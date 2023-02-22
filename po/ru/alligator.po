@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-12-08 00:48+0000\n"
+"POT-Creation-Date: 2023-02-22 00:58+0000\n"
 "PO-Revision-Date: 2022-10-26 15:08+0300\n"
 "Last-Translator: Olesya Gerasimenko <translation-team@basealt.ru>\n"
 "Language-Team: Basealt Translation Team\n"
@@ -91,17 +91,17 @@ msgstr "Добавляет в базу данных новую ленту."
 msgid "feed URL"
 msgstr "URL-адрес ленты новостей"
 
-#: qml/AddFeedDialog.qml:19
+#: qml/AddFeedDialog.qml:18
 #, kde-format
 msgid "Add Feed"
 msgstr "Добавление ленты новостей"
 
-#: qml/AddFeedDialog.qml:31
+#: qml/AddFeedDialog.qml:30
 #, kde-format
 msgid "Url:"
 msgstr "URL-адрес:"
 
-#: qml/AddFeedDialog.qml:41
+#: qml/AddFeedDialog.qml:40
 #, kde-format
 msgid "Mark entries as read"
 msgstr "Отметить записи как прочитанные"
@@ -273,63 +273,72 @@ msgctxt "'Feed' is an rss feed"
 msgid "Edit this Feed"
 msgstr "Редактирование ленты"
 
-#: qml/FeedListPage.qml:32
+#: qml/FeedListPage.qml:18
+#, fuzzy, kde-format
+#| msgid "Feed Groups"
+msgctxt "'Feeds' as in 'RSS Feeds'"
+msgid "Manage Feeds"
+msgstr "Группы лент новостей"
+
+#: qml/FeedListPage.qml:29
 #, kde-format
 msgid "Refresh All Feeds"
 msgstr "Обновить все ленты"
 
-#: qml/FeedListPage.qml:38
+#: qml/FeedListPage.qml:35
 #, fuzzy, kde-format
 #| msgid "Feed Groups"
 msgid "Manage Feed Groups"
 msgstr "Группы лент новостей"
 
-#: qml/FeedListPage.qml:43
-#, kde-format
-msgid "Import Feeds..."
-msgstr "Импорт лент…"
+#: qml/FeedListPage.qml:40
+#, fuzzy, kde-format
+#| msgid "Import Feeds"
+msgid "Import Feeds…"
+msgstr "Импорт лент"
 
-#: qml/FeedListPage.qml:49
-#, kde-format
-msgid "Export Feeds..."
-msgstr "Экспорт лент…"
+#: qml/FeedListPage.qml:45
+#, fuzzy, kde-format
+#| msgid "Export Feeds"
+msgid "Export Feeds…"
+msgstr "Экспорт лент"
 
-#: qml/FeedListPage.qml:75
+#: qml/FeedListPage.qml:69
 #, kde-format
 msgid "Add Feed…"
 msgstr "Добавить ленту…"
 
-#: qml/FeedListPage.qml:89
+#: qml/FeedListPage.qml:83
 #, kde-format
 msgid "No feeds added yet"
 msgstr "Ленты новостей ещё не добавлены"
 
-#: qml/FeedListPage.qml:118
+#: qml/FeedListPage.qml:120
 #, kde-format
 msgid "Import Feeds"
 msgstr "Импорт лент"
 
-#: qml/FeedListPage.qml:120
+#: qml/FeedListPage.qml:122
 #, kde-format
 msgid "All Files (*)"
 msgstr "Все файлы (*)"
 
-#: qml/FeedListPage.qml:120
+#: qml/FeedListPage.qml:122
 #, kde-format
 msgid "XML Files (*.xml)"
 msgstr "Файлы XML (*.xml)"
 
-#: qml/FeedListPage.qml:120
+#: qml/FeedListPage.qml:122
 #, kde-format
 msgid "OPML Files (*.opml)"
 msgstr "Файлы OPML (*.opml)"
 
-#: qml/FeedListPage.qml:126
+#: qml/FeedListPage.qml:128
 #, kde-format
 msgid "Export Feeds"
 msgstr "Экспорт лент"
 
-#: qml/FeedListPage.qml:128
+#: qml/FeedListPage.qml:130
 #, kde-format
 msgid "All Files"
 msgstr "Все файлы"
@@ -413,6 +422,12 @@ msgstr "Размер шрифта:"
 #, kde-format
 msgid "Use system default"
 msgstr "Использовать системные параметры по умолчанию"
+
+#~ msgid "Import Feeds..."
+#~ msgstr "Импорт лент…"
+
+#~ msgid "Export Feeds..."
+#~ msgstr "Экспорт лент…"
 
 #~ msgid "OK"
 #~ msgstr "OK"

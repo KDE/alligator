@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-12-08 00:48+0000\n"
+"POT-Creation-Date: 2023-02-22 00:58+0000\n"
 "PO-Revision-Date: 2020-09-28 02:26+0200\n"
 "Last-Translator: Mihkel Tõnnov <mihhkel@gmail.com>\n"
 "Language-Team: Estonian <>\n"
@@ -89,17 +89,17 @@ msgstr ""
 msgid "feed URL"
 msgstr ""
 
-#: qml/AddFeedDialog.qml:19
+#: qml/AddFeedDialog.qml:18
 #, kde-format
 msgid "Add Feed"
 msgstr "Lisa voog"
 
-#: qml/AddFeedDialog.qml:31
+#: qml/AddFeedDialog.qml:30
 #, kde-format
 msgid "Url:"
 msgstr "URL:"
 
-#: qml/AddFeedDialog.qml:41
+#: qml/AddFeedDialog.qml:40
 #, kde-format
 msgid "Mark entries as read"
 msgstr ""
@@ -274,65 +274,73 @@ msgctxt "'Feed' is an rss feed"
 msgid "Edit this Feed"
 msgstr "Lisa voog"
 
-#: qml/FeedListPage.qml:32
+#: qml/FeedListPage.qml:18
+#, kde-format
+msgctxt "'Feeds' as in 'RSS Feeds'"
+msgid "Manage Feeds"
+msgstr ""
+
+#: qml/FeedListPage.qml:29
 #, fuzzy, kde-format
 #| msgid "Refresh all feeds"
 msgid "Refresh All Feeds"
 msgstr "Värskenda kõiki vooge"
 
-#: qml/FeedListPage.qml:38
+#: qml/FeedListPage.qml:35
 #, kde-format
 msgid "Manage Feed Groups"
 msgstr ""
 
-#: qml/FeedListPage.qml:43
-#, kde-format
-msgid "Import Feeds..."
-msgstr "Impordi uudistevood ..."
+#: qml/FeedListPage.qml:40
+#, fuzzy, kde-format
+#| msgid "Import Feeds"
+msgid "Import Feeds…"
+msgstr "Uudistevoogude import"
 
-#: qml/FeedListPage.qml:49
-#, kde-format
-msgid "Export Feeds..."
-msgstr "Ekspordi uudistevood ..."
+#: qml/FeedListPage.qml:45
+#, fuzzy, kde-format
+#| msgid "Export Feeds"
+msgid "Export Feeds…"
+msgstr "Uudistevoogude eksport"
 
-#: qml/FeedListPage.qml:75
+#: qml/FeedListPage.qml:69
 #, fuzzy, kde-format
 #| msgid "Add Feed"
 msgid "Add Feed…"
 msgstr "Lisa voog"
 
-#: qml/FeedListPage.qml:89
+#: qml/FeedListPage.qml:83
 #, fuzzy, kde-format
 #| msgid "No Feeds added yet."
 msgid "No feeds added yet"
 msgstr "Ühtegi voogu pole veel lisatud."
 
-#: qml/FeedListPage.qml:118
+#: qml/FeedListPage.qml:120
 #, kde-format
 msgid "Import Feeds"
 msgstr "Uudistevoogude import"
 
-#: qml/FeedListPage.qml:120
+#: qml/FeedListPage.qml:122
 #, kde-format
 msgid "All Files (*)"
 msgstr "Kõik failid (*)"
 
-#: qml/FeedListPage.qml:120
+#: qml/FeedListPage.qml:122
 #, kde-format
 msgid "XML Files (*.xml)"
 msgstr "XML-failid (*.xml)"
 
-#: qml/FeedListPage.qml:120
+#: qml/FeedListPage.qml:122
 #, kde-format
 msgid "OPML Files (*.opml)"
 msgstr "OPML-failid (*.opml)"
 
-#: qml/FeedListPage.qml:126
+#: qml/FeedListPage.qml:128
 #, kde-format
 msgid "Export Feeds"
 msgstr "Uudistevoogude eksport"
 
-#: qml/FeedListPage.qml:128
+#: qml/FeedListPage.qml:130
 #, kde-format
 msgid "All Files"
 msgstr "Kõik vood"
@@ -418,6 +426,12 @@ msgstr ""
 #, kde-format
 msgid "Use system default"
 msgstr ""
+
+#~ msgid "Import Feeds..."
+#~ msgstr "Impordi uudistevood ..."
+
+#~ msgid "Export Feeds..."
+#~ msgstr "Ekspordi uudistevood ..."
 
 #, fuzzy
 #~| msgid "All Files"
