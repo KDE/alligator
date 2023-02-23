@@ -1,17 +1,17 @@
 # Translation of alligator.po to Catalan (Valencian)
-# Copyright (C) 2020-2022 This_file_is_part_of_KDE
+# Copyright (C) 2020-2023 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
 #
-# Josep M. Ferrer <txemaq@gmail.com>, 2020, 2022.
+# Josep M. Ferrer <txemaq@gmail.com>, 2020, 2022, 2023.
 # Antoni Bella Pérez <antonibella5@yahoo.com>, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-02-22 00:58+0000\n"
-"PO-Revision-Date: 2022-12-11 04:56+0100\n"
-"Last-Translator: Antoni Bella <antonibella5@yahoo.com>\n"
+"PO-Revision-Date: 2023-02-22 09:26+0100\n"
+"Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: &\n"
-"X-Generator: Kate 22.08.3\n"
+"X-Generator: Lokalize 20.12.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -270,8 +270,7 @@ msgid "Edit this Feed"
 msgstr "Edita esta font"
 
 #: qml/FeedListPage.qml:18
-#, fuzzy, kde-format
-#| msgid "Manage Feeds"
+#, kde-format
 msgctxt "'Feeds' as in 'RSS Feeds'"
 msgid "Manage Feeds"
 msgstr "Gestiona les fonts"
@@ -287,16 +286,14 @@ msgid "Manage Feed Groups"
 msgstr "Gestiona els grups de fonts"
 
 #: qml/FeedListPage.qml:40
-#, fuzzy, kde-format
-#| msgid "Import Feeds"
+#, kde-format
 msgid "Import Feeds…"
-msgstr "Importa fonts"
+msgstr "Importa fonts…"
 
 #: qml/FeedListPage.qml:45
-#, fuzzy, kde-format
-#| msgid "Export Feeds"
+#, kde-format
 msgid "Export Feeds…"
-msgstr "Exporta les fonts"
+msgstr "Exporta les fonts…"
 
 #: qml/FeedListPage.qml:69
 #, kde-format
@@ -417,9 +414,3 @@ msgstr "Mida del tipus de lletra:"
 #, kde-format
 msgid "Use system default"
 msgstr "Utilitza la predeterminada del sistema"
-
-#~ msgid "Import Feeds..."
-#~ msgstr "Importa fonts..."
-
-#~ msgid "Export Feeds..."
-#~ msgstr "Exporta les fonts..."

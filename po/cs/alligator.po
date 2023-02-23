@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-02-22 00:58+0000\n"
-"PO-Revision-Date: 2023-01-30 11:05+0100\n"
+"PO-Revision-Date: 2023-02-22 10:59+0100\n"
 "Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 22.12.1\n"
+"X-Generator: Lokalize 22.12.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -266,8 +266,7 @@ msgid "Edit this Feed"
 msgstr "Upravit tento kanál"
 
 #: qml/FeedListPage.qml:18
-#, fuzzy, kde-format
-#| msgid "Manage Feeds"
+#, kde-format
 msgctxt "'Feeds' as in 'RSS Feeds'"
 msgid "Manage Feeds"
 msgstr "Spravovat kanály"
@@ -283,16 +282,14 @@ msgid "Manage Feed Groups"
 msgstr "Spravovat skupiny kanálů"
 
 #: qml/FeedListPage.qml:40
-#, fuzzy, kde-format
-#| msgid "Import Feeds"
+#, kde-format
 msgid "Import Feeds…"
-msgstr "Importovat kanály"
+msgstr "Importovat kanály…"
 
 #: qml/FeedListPage.qml:45
-#, fuzzy, kde-format
-#| msgid "Export Feeds"
+#, kde-format
 msgid "Export Feeds…"
-msgstr "Exportovat kanály"
+msgstr "Exportovat kanály…"
 
 #: qml/FeedListPage.qml:69
 #, kde-format
@@ -413,9 +410,3 @@ msgstr "Velikost písma:"
 #, kde-format
 msgid "Use system default"
 msgstr "Použít výchozí systémový"
-
-#~ msgid "Import Feeds..."
-#~ msgstr "Importovat kanály..."
-
-#~ msgid "Export Feeds..."
-#~ msgstr "Exportovat kanály..."

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-02-22 00:58+0000\n"
-"PO-Revision-Date: 2023-02-04 11:24+0300\n"
+"PO-Revision-Date: 2023-02-22 20:02+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 22.12.1\n"
+"X-Generator: Lokalize 22.12.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -267,8 +267,7 @@ msgid "Edit this Feed"
 msgstr "Bu Beslemeyi Düzenle"
 
 #: qml/FeedListPage.qml:18
-#, fuzzy, kde-format
-#| msgid "Manage Feeds"
+#, kde-format
 msgctxt "'Feeds' as in 'RSS Feeds'"
 msgid "Manage Feeds"
 msgstr "Beslemeleri Yönet"
@@ -284,16 +283,14 @@ msgid "Manage Feed Groups"
 msgstr "Besleme Gruplarını Yönet"
 
 #: qml/FeedListPage.qml:40
-#, fuzzy, kde-format
-#| msgid "Import Feeds"
+#, kde-format
 msgid "Import Feeds…"
-msgstr "Beslemeleri İçe Aktar"
+msgstr "Beslemeler İçe Aktar…"
 
 #: qml/FeedListPage.qml:45
-#, fuzzy, kde-format
-#| msgid "Export Feeds"
+#, kde-format
 msgid "Export Feeds…"
-msgstr "Beslemeleri Dışa Aktar"
+msgstr "Beslemeleri Dışa Aktar…"
 
 #: qml/FeedListPage.qml:69
 #, kde-format

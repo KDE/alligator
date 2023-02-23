@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the alligator package.
 #
 # Automatically generated, 2020.
-# Eloy Cuadra <ecuadra@eloihr.net>, 2020, 2021, 2022.
+# Eloy Cuadra <ecuadra@eloihr.net>, 2020, 2021, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-02-22 00:58+0000\n"
-"PO-Revision-Date: 2022-12-08 12:06+0100\n"
+"PO-Revision-Date: 2023-02-22 20:44+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 22.11.90\n"
+"X-Generator: Lokalize 22.12.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -267,8 +267,7 @@ msgid "Edit this Feed"
 msgstr "Editar esta emisión web"
 
 #: qml/FeedListPage.qml:18
-#, fuzzy, kde-format
-#| msgid "Manage Feeds"
+#, kde-format
 msgctxt "'Feeds' as in 'RSS Feeds'"
 msgid "Manage Feeds"
 msgstr "Gestión de emisiones web"
@@ -284,16 +283,14 @@ msgid "Manage Feed Groups"
 msgstr "Gestión de grupos de emisiones web"
 
 #: qml/FeedListPage.qml:40
-#, fuzzy, kde-format
-#| msgid "Import Feeds"
+#, kde-format
 msgid "Import Feeds…"
-msgstr "Importar emisiones web"
+msgstr "Importar emisiones web..."
 
 #: qml/FeedListPage.qml:45
-#, fuzzy, kde-format
-#| msgid "Export Feeds"
+#, kde-format
 msgid "Export Feeds…"
-msgstr "Exportar emisiones web"
+msgstr "Exportar emisiones web..."
 
 #: qml/FeedListPage.qml:69
 #, kde-format

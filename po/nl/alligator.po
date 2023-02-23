@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the alligator package.
 #
-# Freek de Kruijf <freekdekruijf@kde.nl>, 2020, 2021, 2022.
+# Freek de Kruijf <freekdekruijf@kde.nl>, 2020, 2021, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-02-22 00:58+0000\n"
-"PO-Revision-Date: 2022-12-08 12:10+0100\n"
+"PO-Revision-Date: 2023-02-22 14:17+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -15,12 +15,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 22.08.3\n"
+"X-Generator: Lokalize 22.12.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Freek de Kruijf - 2020 t/m 2022"
+msgstr "Freek de Kruijf - 2020-2023"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
@@ -265,8 +265,7 @@ msgid "Edit this Feed"
 msgstr "Deze feed bewerken"
 
 #: qml/FeedListPage.qml:18
-#, fuzzy, kde-format
-#| msgid "Manage Feeds"
+#, kde-format
 msgctxt "'Feeds' as in 'RSS Feeds'"
 msgid "Manage Feeds"
 msgstr "Feeds beheren"
@@ -282,16 +281,14 @@ msgid "Manage Feed Groups"
 msgstr "Feed-groepen beheren"
 
 #: qml/FeedListPage.qml:40
-#, fuzzy, kde-format
-#| msgid "Import Feeds"
+#, kde-format
 msgid "Import Feeds…"
-msgstr "Feeds importeren"
+msgstr "Feeds importeren…"
 
 #: qml/FeedListPage.qml:45
-#, fuzzy, kde-format
-#| msgid "Export Feeds"
+#, kde-format
 msgid "Export Feeds…"
-msgstr "Feeds exporteren"
+msgstr "Feeds exporteren…"
 
 #: qml/FeedListPage.qml:69
 #, kde-format
