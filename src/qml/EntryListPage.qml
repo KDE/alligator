@@ -64,7 +64,11 @@ Kirigami.ScrollablePage {
             text: applicationWindow().sidebarCollapsed ? i18n("Expand sidebar") : i18n("Collapse sidebar")
             icon.name: applicationWindow().sidebarCollapsed ? "sidebar-expand" : "sidebar-collapse"
             display: Controls.ToolButton.IconOnly
-            onClicked: applicationWindow().sidebarCollapsed = !applicationWindow().sidebarCollapsed
+            onClicked: {
+                applicationWindow().sidebarCollapsed = !applicationWindow().sidebarCollapsed
+                Config.sidebarCollapsed = applicationWindow().sidebarCollapsed
+            }
+            
         }
 
         Kirigami.Heading {

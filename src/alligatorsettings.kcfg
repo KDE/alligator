@@ -21,5 +21,9 @@
       <label>Delete after type</label>
       <default>3</default>
     </entry>
+    <entry name="sidebarCollapsed" type="Bool">
+      <label>Sidebar collapsed</label>
+      <default>false</default>
+    </entry>
   </group>
 </kcfg>
