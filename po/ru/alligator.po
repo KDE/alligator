@@ -3,13 +3,13 @@
 #
 # Alexander Yavorsky <kekcuha@gmail.com>, 2020, 2022.
 # Alexander Potashev <aspotashev@gmail.com>, 2020.
-# Olesya Gerasimenko <translation-team@basealt.ru>, 2022.
+# Olesya Gerasimenko <translation-team@basealt.ru>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-02-22 00:58+0000\n"
-"PO-Revision-Date: 2022-10-26 15:08+0300\n"
+"PO-Revision-Date: 2023-03-01 14:02+0300\n"
 "Last-Translator: Olesya Gerasimenko <translation-team@basealt.ru>\n"
 "Language-Team: Basealt Translation Team\n"
 "Language: ru\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 22.04.3\n"
+"X-Generator: Lokalize 22.08.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -66,10 +66,9 @@ msgid "Feed Reader"
 msgstr "Чтение лент новостей"
 
 #: main.cpp:82
-#, fuzzy, kde-format
-#| msgid "© 2020 KDE Community"
+#, kde-format
 msgid "© 2020-2022 KDE Community"
-msgstr "© Сообщество KDE, 2020"
+msgstr "© Сообщество KDE, 2020-2022"
 
 #: main.cpp:83
 #, kde-format
@@ -119,7 +118,7 @@ msgstr "Параметры"
 #: qml/AlligatorGlobalDrawer.qml:148
 #, kde-format
 msgid "Manage Feeds"
-msgstr ""
+msgstr "Управление лентами"
 
 #: qml/AlligatorGlobalDrawer.qml:159
 #, kde-format
@@ -160,12 +159,12 @@ msgstr "Обновить"
 #: qml/EntryListPage.qml:64
 #, kde-format
 msgid "Expand sidebar"
-msgstr ""
+msgstr "Развернуть боковую панель"
 
 #: qml/EntryListPage.qml:64
 #, kde-format
 msgid "Collapse sidebar"
-msgstr ""
+msgstr "Свернуть боковую панель"
 
 #: qml/EntryListPage.qml:72
 #, kde-format
@@ -195,13 +194,12 @@ msgstr "Нет доступных записей"
 #: qml/EntryListPage.qml:130
 #, kde-format
 msgid "All"
-msgstr ""
+msgstr "Все"
 
 #: qml/EntryListPage.qml:136
-#, fuzzy, kde-format
-#| msgid "Only Unread"
+#, kde-format
 msgid "Unread"
-msgstr "Только непрочитанные"
+msgstr "Непрочитанные"
 
 #: qml/EntryPage.qml:43
 #, kde-format
@@ -260,25 +258,22 @@ msgstr[2] "%1 непрочитанных записей"
 msgstr[3] "%1 непрочитанная запись"
 
 #: qml/FeedListDelegate.qml:30
-#, fuzzy, kde-format
-#| msgid "Delete after:"
+#, kde-format
 msgctxt "'Feed' is an rss feed"
 msgid "Delete this Feed"
-msgstr "Удалить через:"
+msgstr "Удалить эту ленту"
 
 #: qml/FeedListDelegate.qml:43
-#, fuzzy, kde-format
-#| msgid "Edit Feed"
+#, kde-format
 msgctxt "'Feed' is an rss feed"
 msgid "Edit this Feed"
-msgstr "Редактирование ленты"
+msgstr "Отредактировать эту ленту"
 
 #: qml/FeedListPage.qml:18
-#, fuzzy, kde-format
-#| msgid "Feed Groups"
+#, kde-format
 msgctxt "'Feeds' as in 'RSS Feeds'"
 msgid "Manage Feeds"
-msgstr "Группы лент новостей"
+msgstr "Управление лентами"
 
 #: qml/FeedListPage.qml:29
 #, kde-format
@@ -286,22 +281,19 @@ msgid "Refresh All Feeds"
 msgstr "Обновить все ленты"
 
 #: qml/FeedListPage.qml:35
-#, fuzzy, kde-format
-#| msgid "Feed Groups"
+#, kde-format
 msgid "Manage Feed Groups"
 msgstr "Группы лент новостей"
 
 #: qml/FeedListPage.qml:40
-#, fuzzy, kde-format
-#| msgid "Import Feeds"
+#, kde-format
 msgid "Import Feeds…"
-msgstr "Импорт лент"
+msgstr "Импорт лент…"
 
 #: qml/FeedListPage.qml:45
-#, fuzzy, kde-format
-#| msgid "Export Feeds"
+#, kde-format
 msgid "Export Feeds…"
-msgstr "Экспорт лент"
+msgstr "Экспорт лент…"
 
 #: qml/FeedListPage.qml:69
 #, kde-format
