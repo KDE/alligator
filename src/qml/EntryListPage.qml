@@ -54,7 +54,7 @@ Kirigami.ScrollablePage {
         iconName: "view-refresh"
         text: i18n("Refresh")
         onTriggered: page.refreshing = true
-        visible: !Kirigami.Settings.isMobile || entryList.count === 0
+        visible: !Kirigami.Settings.isMobile
     }
 
     titleDelegate: RowLayout {
