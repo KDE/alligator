@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-22 00:58+0000\n"
+"POT-Creation-Date: 2023-03-07 00:46+0000\n"
 "PO-Revision-Date: 2023-02-28 08:52+0100\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -164,37 +164,37 @@ msgstr "Razširi stransko letvico"
 msgid "Collapse sidebar"
 msgstr "Strni stransko letvico"
 
-#: qml/EntryListPage.qml:72
+#: qml/EntryListPage.qml:76
 #, kde-format
 msgid "All Entries"
 msgstr "Vsi vnosi"
 
-#: qml/EntryListPage.qml:80
+#: qml/EntryListPage.qml:84
 #, kde-format
 msgid "Error"
 msgstr "Napaka"
 
-#: qml/EntryListPage.qml:81 qml/EntryListPage.qml:93
+#: qml/EntryListPage.qml:85 qml/EntryListPage.qml:97
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "Napaka (%1): %2"
 
-#: qml/EntryListPage.qml:91
+#: qml/EntryListPage.qml:95
 #, kde-format
 msgid "No unread entries available"
 msgstr "Nobenega neprebranega vnosa ni na voljo"
 
-#: qml/EntryListPage.qml:91
+#: qml/EntryListPage.qml:95
 #, kde-format
 msgid "No entries available"
 msgstr "Nobenega vnosa ni na voljo"
 
-#: qml/EntryListPage.qml:130
+#: qml/EntryListPage.qml:134
 #, kde-format
 msgid "All"
 msgstr "Vse"
 
-#: qml/EntryListPage.qml:136
+#: qml/EntryListPage.qml:140
 #, kde-format
 msgid "Unread"
 msgstr "Neprebrano"

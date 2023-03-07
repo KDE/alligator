@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-22 00:58+0000\n"
+"POT-Creation-Date: 2023-03-07 00:46+0000\n"
 "PO-Revision-Date: 2023-02-24 16:55-0300\n"
 "Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
 "Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
@@ -164,37 +164,37 @@ msgstr "Expandir barra lateral"
 msgid "Collapse sidebar"
 msgstr "Recolher barra lateral"
 
-#: qml/EntryListPage.qml:72
+#: qml/EntryListPage.qml:76
 #, kde-format
 msgid "All Entries"
 msgstr "Todas as entradas"
 
-#: qml/EntryListPage.qml:80
+#: qml/EntryListPage.qml:84
 #, kde-format
 msgid "Error"
 msgstr "Erro"
 
-#: qml/EntryListPage.qml:81 qml/EntryListPage.qml:93
+#: qml/EntryListPage.qml:85 qml/EntryListPage.qml:97
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "Erro (%1): %2"
 
-#: qml/EntryListPage.qml:91
+#: qml/EntryListPage.qml:95
 #, kde-format
 msgid "No unread entries available"
 msgstr "Nenhuma entrada não lida disponível"
 
-#: qml/EntryListPage.qml:91
+#: qml/EntryListPage.qml:95
 #, kde-format
 msgid "No entries available"
 msgstr "Nenhuma entrada disponível"
 
-#: qml/EntryListPage.qml:130
+#: qml/EntryListPage.qml:134
 #, kde-format
 msgid "All"
 msgstr "Todos"
 
-#: qml/EntryListPage.qml:136
+#: qml/EntryListPage.qml:140
 #, kde-format
 msgid "Unread"
 msgstr "Não lida"

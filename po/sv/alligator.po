@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-22 00:58+0000\n"
+"POT-Creation-Date: 2023-03-07 00:46+0000\n"
 "PO-Revision-Date: 2022-09-24 14:45+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -164,37 +164,37 @@ msgstr ""
 msgid "Collapse sidebar"
 msgstr ""
 
-#: qml/EntryListPage.qml:72
+#: qml/EntryListPage.qml:76
 #, kde-format
 msgid "All Entries"
 msgstr "Alla poster"
 
-#: qml/EntryListPage.qml:80
+#: qml/EntryListPage.qml:84
 #, kde-format
 msgid "Error"
 msgstr "Fel"
 
-#: qml/EntryListPage.qml:81 qml/EntryListPage.qml:93
+#: qml/EntryListPage.qml:85 qml/EntryListPage.qml:97
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "Fel (%1): %2"
 
-#: qml/EntryListPage.qml:91
+#: qml/EntryListPage.qml:95
 #, kde-format
 msgid "No unread entries available"
 msgstr "Inga olästa poster tillgängliga"
 
-#: qml/EntryListPage.qml:91
+#: qml/EntryListPage.qml:95
 #, kde-format
 msgid "No entries available"
 msgstr "Inga artiklar tillgängliga"
 
-#: qml/EntryListPage.qml:130
+#: qml/EntryListPage.qml:134
 #, kde-format
 msgid "All"
 msgstr ""
 
-#: qml/EntryListPage.qml:136
+#: qml/EntryListPage.qml:140
 #, fuzzy, kde-format
 #| msgid "Only Unread"
 msgid "Unread"

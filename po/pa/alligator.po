@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-22 00:58+0000\n"
+"POT-Creation-Date: 2023-03-07 00:46+0000\n"
 "PO-Revision-Date: 2021-05-01 23:10-0700\n"
 "Last-Translator: A S Alam <aalam@satluj.org>\n"
 "Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
@@ -165,40 +165,40 @@ msgstr ""
 msgid "Collapse sidebar"
 msgstr ""
 
-#: qml/EntryListPage.qml:72
+#: qml/EntryListPage.qml:76
 #, fuzzy, kde-format
 #| msgid "All Files"
 msgid "All Entries"
 msgstr "ਸਭ ਫਾਇਲਾਂ"
 
-#: qml/EntryListPage.qml:80
+#: qml/EntryListPage.qml:84
 #, kde-format
 msgid "Error"
 msgstr ""
 
-#: qml/EntryListPage.qml:81 qml/EntryListPage.qml:93
+#: qml/EntryListPage.qml:85 qml/EntryListPage.qml:97
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "ਗ਼ਲਤੀ (%1): %2"
 
-#: qml/EntryListPage.qml:91
+#: qml/EntryListPage.qml:95
 #, fuzzy, kde-format
 #| msgid "No Entries available"
 msgid "No unread entries available"
 msgstr "ਕੋਈ ਐਂਟਰੀ ਮੌਜੂਦ ਨਹੀਂ ਹੈ"
 
-#: qml/EntryListPage.qml:91
+#: qml/EntryListPage.qml:95
 #, fuzzy, kde-format
 #| msgid "No Entries available"
 msgid "No entries available"
 msgstr "ਕੋਈ ਐਂਟਰੀ ਮੌਜੂਦ ਨਹੀਂ ਹੈ"
 
-#: qml/EntryListPage.qml:130
+#: qml/EntryListPage.qml:134
 #, kde-format
 msgid "All"
 msgstr ""
 
-#: qml/EntryListPage.qml:136
+#: qml/EntryListPage.qml:140
 #, kde-format
 msgid "Unread"
 msgstr ""
