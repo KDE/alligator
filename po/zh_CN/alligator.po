@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-03-07 00:46+0000\n"
-"PO-Revision-Date: 2023-07-03 11:38\n"
+"PO-Revision-Date: 2023-07-18 11:15\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -14,8 +14,8 @@ msgstr ""
 "X-Crowdin-Project: kdeorg\n"
 "X-Crowdin-Project-ID: 269464\n"
 "X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /kf5-trunk/messages/alligator/alligator.pot\n"
-"X-Crowdin-File-ID: 12246\n"
+"X-Crowdin-File: /kf5-stable/messages/alligator/alligator.pot\n"
+"X-Crowdin-File-ID: 41919\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -41,17 +41,17 @@ msgstr "默认源分组"
 #: fetcher.cpp:236
 #, kde-format
 msgid "Invalid XML"
-msgstr ""
+msgstr "XML 无效"
 
 #: fetcher.cpp:238
 #, kde-format
 msgid "No parser accepted the XML"
-msgstr ""
+msgstr "没有接受 XML 的解析器"
 
 #: fetcher.cpp:240
 #, kde-format
 msgid "Error while parsing feed"
-msgstr ""
+msgstr "解析新闻源时出错"
 
 #: main.cpp:78 qml/AlligatorGlobalDrawer.qml:57
 #, kde-format
@@ -66,7 +66,7 @@ msgstr "新闻源阅读器"
 #: main.cpp:82
 #, kde-format
 msgid "© 2020-2022 KDE Community"
-msgstr ""
+msgstr "© 2020-2022 KDE 社区"
 
 #: main.cpp:83
 #, kde-format
@@ -101,7 +101,7 @@ msgstr "URL："
 #: qml/AddFeedDialog.qml:40
 #, kde-format
 msgid "Mark entries as read"
-msgstr ""
+msgstr "标记条目为已读"
 
 #: qml/AlligatorGlobalDrawer.qml:88
 #, kde-format
@@ -116,7 +116,7 @@ msgstr "设置"
 #: qml/AlligatorGlobalDrawer.qml:148
 #, kde-format
 msgid "Manage Feeds"
-msgstr ""
+msgstr "管理新闻源"
 
 #: qml/AlligatorGlobalDrawer.qml:159
 #, kde-format
@@ -157,12 +157,12 @@ msgstr "刷新"
 #: qml/EntryListPage.qml:64
 #, kde-format
 msgid "Expand sidebar"
-msgstr ""
+msgstr "展开侧栏"
 
 #: qml/EntryListPage.qml:64
 #, kde-format
 msgid "Collapse sidebar"
-msgstr ""
+msgstr "折叠侧栏"
 
 #: qml/EntryListPage.qml:76
 #, kde-format
@@ -172,7 +172,7 @@ msgstr "全部新闻"
 #: qml/EntryListPage.qml:84
 #, kde-format
 msgid "Error"
-msgstr ""
+msgstr "错误"
 
 #: qml/EntryListPage.qml:85 qml/EntryListPage.qml:97
 #, kde-format
@@ -182,22 +182,22 @@ msgstr "错误 (%1)：%2"
 #: qml/EntryListPage.qml:95
 #, kde-format
 msgid "No unread entries available"
-msgstr ""
+msgstr "无未读条目"
 
 #: qml/EntryListPage.qml:95
 #, kde-format
 msgid "No entries available"
-msgstr ""
+msgstr "无可用条目"
 
 #: qml/EntryListPage.qml:134
 #, kde-format
 msgid "All"
-msgstr ""
+msgstr "全部"
 
 #: qml/EntryListPage.qml:140
 #, kde-format
 msgid "Unread"
-msgstr ""
+msgstr "未读"
 
 #: qml/EntryPage.qml:43
 #, kde-format
@@ -234,7 +234,7 @@ msgstr "%1 篇文章，%2 篇未读"
 #: qml/FeedGroupDialog.qml:23
 #, kde-format
 msgid "Feed Group"
-msgstr ""
+msgstr "新闻源分组"
 
 #: qml/FeedGroupDialog.qml:43
 #, kde-format
@@ -256,49 +256,49 @@ msgstr[0] "%1 条未读新闻"
 #, kde-format
 msgctxt "'Feed' is an rss feed"
 msgid "Delete this Feed"
-msgstr ""
+msgstr "删除新闻源"
 
 #: qml/FeedListDelegate.qml:43
 #, kde-format
 msgctxt "'Feed' is an rss feed"
 msgid "Edit this Feed"
-msgstr ""
+msgstr "编辑新闻源"
 
 #: qml/FeedListPage.qml:18
 #, kde-format
 msgctxt "'Feeds' as in 'RSS Feeds'"
 msgid "Manage Feeds"
-msgstr ""
+msgstr "管理新闻源"
 
 #: qml/FeedListPage.qml:29
 #, kde-format
 msgid "Refresh All Feeds"
-msgstr ""
+msgstr "刷新全部新闻源"
 
 #: qml/FeedListPage.qml:35
 #, kde-format
 msgid "Manage Feed Groups"
-msgstr ""
+msgstr "管理新闻源分组"
 
 #: qml/FeedListPage.qml:40
 #, kde-format
 msgid "Import Feeds…"
-msgstr ""
+msgstr "导入新闻源..."
 
 #: qml/FeedListPage.qml:45
 #, kde-format
 msgid "Export Feeds…"
-msgstr ""
+msgstr "导出新闻源..."
 
 #: qml/FeedListPage.qml:69
 #, kde-format
 msgid "Add Feed…"
-msgstr ""
+msgstr "添加新闻源..."
 
 #: qml/FeedListPage.qml:83
 #, kde-format
 msgid "No feeds added yet"
-msgstr ""
+msgstr "尚未添加新闻源"
 
 #: qml/FeedListPage.qml:120
 #, kde-format
@@ -338,7 +338,7 @@ msgstr "分组"
 #: qml/GroupsListPage.qml:24
 #, kde-format
 msgid "Add Group…"
-msgstr ""
+msgstr "添加分组..."
 
 #: qml/GroupsListPage.qml:55
 #, kde-format
@@ -348,7 +348,7 @@ msgstr "移除"
 #: qml/GroupsListPage.qml:63
 #, kde-format
 msgid "Set as Default"
-msgstr ""
+msgstr "设为默认"
 
 #: qml/GroupsListPage.qml:72
 #, kde-format
