@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the alligator package.
 #
-# Stefan Asserhäll <stefan.asserhall@bredband.net>, 2020, 2021, 2022.
+# Stefan Asserhäll <stefan.asserhall@bredband.net>, 2020, 2021, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-03-07 00:46+0000\n"
-"PO-Revision-Date: 2022-09-24 14:45+0200\n"
+"PO-Revision-Date: 2023-07-24 11:10+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -63,10 +63,9 @@ msgid "Feed Reader"
 msgstr "Kanalläsare"
 
 #: main.cpp:82
-#, fuzzy, kde-format
-#| msgid "© 2020 KDE Community"
+#, kde-format
 msgid "© 2020-2022 KDE Community"
-msgstr "© 2020 KDE-gemenskapen"
+msgstr "© 2020-2022 KDE-gemenskapen"
 
 #: main.cpp:83
 #, kde-format
@@ -116,7 +115,7 @@ msgstr "Inställningar"
 #: qml/AlligatorGlobalDrawer.qml:148
 #, kde-format
 msgid "Manage Feeds"
-msgstr ""
+msgstr "Hantera kanaler"
 
 #: qml/AlligatorGlobalDrawer.qml:159
 #, kde-format
@@ -157,12 +156,12 @@ msgstr "Uppdatera"
 #: qml/EntryListPage.qml:64
 #, kde-format
 msgid "Expand sidebar"
-msgstr ""
+msgstr "Expandera sidorad"
 
 #: qml/EntryListPage.qml:64
 #, kde-format
 msgid "Collapse sidebar"
-msgstr ""
+msgstr "Dra ihop sidorad"
 
 #: qml/EntryListPage.qml:76
 #, kde-format
@@ -192,13 +191,12 @@ msgstr "Inga artiklar tillgängliga"
 #: qml/EntryListPage.qml:134
 #, kde-format
 msgid "All"
-msgstr ""
+msgstr "Alla"
 
 #: qml/EntryListPage.qml:140
-#, fuzzy, kde-format
-#| msgid "Only Unread"
+#, kde-format
 msgid "Unread"
-msgstr "Bara olästa"
+msgstr "Oläst"
 
 #: qml/EntryPage.qml:43
 #, kde-format
@@ -255,25 +253,22 @@ msgstr[0] "%1 oläst post"
 msgstr[1] "%1 olästa poster"
 
 #: qml/FeedListDelegate.qml:30
-#, fuzzy, kde-format
-#| msgid "Delete after:"
+#, kde-format
 msgctxt "'Feed' is an rss feed"
 msgid "Delete this Feed"
-msgstr "Ta bort efter:"
+msgstr "Ta bort kanal"
 
 #: qml/FeedListDelegate.qml:43
-#, fuzzy, kde-format
-#| msgid "Edit Feed"
+#, kde-format
 msgctxt "'Feed' is an rss feed"
 msgid "Edit this Feed"
 msgstr "Redigera kanal"
 
 #: qml/FeedListPage.qml:18
-#, fuzzy, kde-format
-#| msgid "Feed Groups"
+#, kde-format
 msgctxt "'Feeds' as in 'RSS Feeds'"
 msgid "Manage Feeds"
-msgstr "Kanalgrupper"
+msgstr "Hantera kanaler"
 
 #: qml/FeedListPage.qml:29
 #, kde-format
@@ -281,22 +276,19 @@ msgid "Refresh All Feeds"
 msgstr "Uppdatera alla kanaler"
 
 #: qml/FeedListPage.qml:35
-#, fuzzy, kde-format
-#| msgid "Feed Groups"
+#, kde-format
 msgid "Manage Feed Groups"
-msgstr "Kanalgrupper"
+msgstr "Hantera kanalgrupper"
 
 #: qml/FeedListPage.qml:40
-#, fuzzy, kde-format
-#| msgid "Import Feeds"
+#, kde-format
 msgid "Import Feeds…"
-msgstr "Importera kanaler"
+msgstr "Importera kanaler…"
 
 #: qml/FeedListPage.qml:45
-#, fuzzy, kde-format
-#| msgid "Export Feeds"
+#, kde-format
 msgid "Export Feeds…"
-msgstr "Exportera kanaler"
+msgstr "Exportera kanaler…"
 
 #: qml/FeedListPage.qml:69
 #, kde-format
