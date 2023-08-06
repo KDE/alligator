@@ -1,5 +1,5 @@
 /**
- * SPDX-FileCopyrightText: 2020 Tobias Fella <fella@posteo.de>
+ * SPDX-FileCopyrightText: 2020 Tobias Fella <tobias.fella@kde.org>
  *
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
@@ -80,7 +80,7 @@ int main(int argc, char *argv[])
                      i18n("Feed Reader"),
                      KAboutLicense::GPL,
                      i18n("© 2020-2022 KDE Community"));
-    about.addAuthor(i18n("Tobias Fella"), QString(), QStringLiteral("fella@posteo.de"), QStringLiteral("https://tobiasfella.de"));
+    about.addAuthor(i18n("Tobias Fella"), QString(), QStringLiteral("tobias.fella@kde.org"), QStringLiteral("https://tobiasfella.de"));
     KAboutData::setApplicationData(about);
 
     qmlRegisterType<FeedsModel>("org.kde.alligator", 1, 0, "FeedsModel");

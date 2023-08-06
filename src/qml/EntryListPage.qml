@@ -1,5 +1,5 @@
 /**
- * SPDX-FileCopyrightText: 2020 Tobias Fella <fella@posteo.de>
+ * SPDX-FileCopyrightText: 2020 Tobias Fella <tobias.fella@kde.org>
  *
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
@@ -68,7 +68,7 @@ Kirigami.ScrollablePage {
                 applicationWindow().sidebarCollapsed = !applicationWindow().sidebarCollapsed
                 Config.sidebarCollapsed = applicationWindow().sidebarCollapsed
             }
-            
+
         }
 
         Kirigami.Heading {
