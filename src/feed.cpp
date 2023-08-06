@@ -16,45 +16,41 @@ Feed::Feed(int index)
     : QObject(nullptr)
 {
     QSqlQuery query;
-    if (query.prepare(QStringLiteral("SELECT * FROM Feeds LIMIT 1 OFFSET :index;"))) {
-        query.bindValue(QStringLiteral(":index"), index);
-        Database::instance().execute(query);
-        if (!query.next()) {
-            qWarning() << "Failed to load feed" << index;
-        }
-
-        QSqlQuery authorQuery;
-        QStringList authors;
-        if (authorQuery.prepare(QStringLiteral("SELECT * FROM Authors WHERE id='' AND feed=:feed"))) {
-            authorQuery.bindValue(QStringLiteral(":feed"), query.value(QStringLiteral("url")).toString());
-            Database::instance().execute(authorQuery);
-            while (authorQuery.next()) {
-                authors += authorQuery.value(QStringLiteral("name")).toString();
-            }
-        }
-
-        if (authors.size() > 0) {
-            m_authors = authors[0];
-        }
-
-        m_subscribed.setSecsSinceEpoch(query.value(QStringLiteral("subscribed")).toInt());
-
-        m_lastUpdated.setSecsSinceEpoch(query.value(QStringLiteral("lastUpdated")).toInt());
-
-        m_url = query.value(QStringLiteral("url")).toString();
-        m_name = query.value(QStringLiteral("name")).toString();
-        m_display_name = query.value(QStringLiteral("displayName")).toString();
-        m_image = query.value(QStringLiteral("image")).toString();
-        m_link = query.value(QStringLiteral("link")).toString();
-        m_description = query.value(QStringLiteral("description")).toString();
-        m_group_name = query.value(QStringLiteral("groupName")).toString();
-        m_deleteAfterCount = query.value(QStringLiteral("deleteAfterCount")).toInt();
-        m_deleteAfterType = query.value(QStringLiteral("deleteAfterType")).toInt();
-        m_notify = query.value(QStringLiteral("notify")).toBool();
-    } else {
+    query.prepare(QStringLiteral("SELECT * FROM Feeds LIMIT 1 OFFSET :index;"));
+    query.bindValue(QStringLiteral(":index"), index);
+    Database::instance().execute(query);
+    if (!query.next()) {
         qWarning() << "Failed to load feed" << index;
+        return;
     }
 
+    QSqlQuery authorQuery;
+    QStringList authors;
+    authorQuery.prepare(QStringLiteral("SELECT * FROM Authors WHERE id='' AND feed=:feed"));
+    authorQuery.bindValue(QStringLiteral(":feed"), query.value(QStringLiteral("url")).toString());
+    Database::instance().execute(authorQuery);
+    while (authorQuery.next()) {
+        authors += authorQuery.value(QStringLiteral("name")).toString();
+    }
+
+    if (authors.size() > 0) {
+        m_authors = authors[0];
+    }
+
+    m_subscribed.setSecsSinceEpoch(query.value(QStringLiteral("subscribed")).toInt());
+
+    m_lastUpdated.setSecsSinceEpoch(query.value(QStringLiteral("lastUpdated")).toInt());
+
+    m_url = query.value(QStringLiteral("url")).toString();
+    m_name = query.value(QStringLiteral("name")).toString();
+    m_display_name = query.value(QStringLiteral("displayName")).toString();
+    m_image = query.value(QStringLiteral("image")).toString();
+    m_link = query.value(QStringLiteral("link")).toString();
+    m_description = query.value(QStringLiteral("description")).toString();
+    m_group_name = query.value(QStringLiteral("groupName")).toString();
+    m_deleteAfterCount = query.value(QStringLiteral("deleteAfterCount")).toInt();
+    m_deleteAfterType = query.value(QStringLiteral("deleteAfterType")).toInt();
+    m_notify = query.value(QStringLiteral("notify")).toBool();
     m_errorId = 0;
     m_errorString = QLatin1String("");
 
@@ -158,34 +154,26 @@ bool Feed::notify() const
 
 int Feed::entryCount() const
 {
-    static const int errorReturn = -1;
     QSqlQuery query;
-    if (query.prepare(QStringLiteral("SELECT COUNT (id) FROM Entries where feed=:feed;"))) {
-        query.bindValue(QStringLiteral(":feed"), m_url);
-        Database::instance().execute(query);
-        if (!query.next()) {
-            return errorReturn;
-        }
-        return query.value(0).toInt();
-    } else {
-        return errorReturn;
+    query.prepare(QStringLiteral("SELECT COUNT (id) FROM Entries where feed=:feed;"));
+    query.bindValue(QStringLiteral(":feed"), m_url);
+    Database::instance().execute(query);
+    if (!query.next()) {
+        return {};
     }
+    return query.value(0).toInt();
 }
 
 int Feed::unreadEntryCount() const
 {
-    static const int errorReturn = -1;
     QSqlQuery query;
-    if (query.prepare(QStringLiteral("SELECT COUNT (id) FROM Entries where feed=:feed AND read=0;"))) {
-        query.bindValue(QStringLiteral(":feed"), m_url);
-        Database::instance().execute(query);
-        if (!query.next()) {
-            return errorReturn;
-        }
-        return query.value(0).toInt();
-    } else {
-        return errorReturn;
+    query.prepare(QStringLiteral("SELECT COUNT (id) FROM Entries where feed=:feed AND read=0;"));
+    query.bindValue(QStringLiteral(":feed"), m_url);
+    Database::instance().execute(query);
+    if (!query.next()) {
+        return {};
     }
+    return query.value(0).toInt();
 }
 
 bool Feed::refreshing() const
@@ -302,22 +290,19 @@ void Feed::remove()
 {
     // Delete Authors
     QSqlQuery query;
-    if (query.prepare(QStringLiteral("DELETE FROM Authors WHERE feed=:feed;"))) {
-        query.bindValue(QStringLiteral(":feed"), m_url);
-        Database::instance().execute(query);
-    }
+    query.prepare(QStringLiteral("DELETE FROM Authors WHERE feed=:feed;"));
+    query.bindValue(QStringLiteral(":feed"), m_url);
+    Database::instance().execute(query);
 
     // Delete Entries
-    if (query.prepare(QStringLiteral("DELETE FROM Entries WHERE feed=:feed;"))) {
-        query.bindValue(QStringLiteral(":feed"), m_url);
-        Database::instance().execute(query);
-    }
+    query.prepare(QStringLiteral("DELETE FROM Entries WHERE feed=:feed;"));
+    query.bindValue(QStringLiteral(":feed"), m_url);
+    Database::instance().execute(query);
 
     // TODO Delete Enclosures
 
     // Delete Feed
-    if (query.prepare(QStringLiteral("DELETE FROM Feeds WHERE url=:url;"))) {
-        query.bindValue(QStringLiteral(":url"), m_url);
-        Database::instance().execute(query);
-    }
+    query.prepare(QStringLiteral("DELETE FROM Feeds WHERE url=:url;"));
+    query.bindValue(QStringLiteral(":url"), m_url);
+    Database::instance().execute(query);
 }
