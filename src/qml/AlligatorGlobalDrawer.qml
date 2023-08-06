@@ -125,7 +125,7 @@ Kirigami.GlobalDrawer {
                 onClicked: {
                     pageStack.layers.clear();
                     pageStack.clear();
-                    pageStack.push("qrc:/EntryListPage.qml", {"feed": model.feed})
+                    pageStack.push("qrc:/EntryListPage.qml", {feed: model.feed})
                 }
             }
         }

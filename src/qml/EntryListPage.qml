@@ -45,7 +45,7 @@ Kirigami.ScrollablePage {
             onTriggered: {
                 while(pageStack.depth > 2)
                     pageStack.pop()
-                pageStack.push("qrc:/FeedDetailsPage.qml", {"feed": feed})
+                pageStack.push("qrc:/FeedDetailsPage.qml", {feed: feed})
             }
         }
     ]

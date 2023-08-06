@@ -21,7 +21,7 @@ Kirigami.AbstractListItem {
         while(pageStack.depth > 2) {
             pageStack.pop()
         }
-        pageStack.push("qrc:/EntryPage.qml", {"entry": model.entry, "feedTitle" : feedTitle})
+        pageStack.push("qrc:/EntryPage.qml", {entry: model.entry, feedTitle : feedTitle})
     }
 
     separatorVisible: true
