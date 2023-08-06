@@ -28,7 +28,6 @@ class Entry : public QObject
 
 public:
     Entry(const QString &feedUrl, int index);
-    ~Entry();
 
     QString id() const;
     QString title() const;

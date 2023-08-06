@@ -35,8 +35,6 @@ class Feed : public QObject
 public:
     explicit Feed(int index);
 
-    ~Feed();
-
     QString url() const;
     QString name() const;
     QString displayName() const;

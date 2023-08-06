@@ -83,10 +83,6 @@ Feed::Feed(int index)
     connect(&Database::instance(), &Database::entryReadChanged, this, &Feed::unreadEntryCountChanged);
 }
 
-Feed::~Feed()
-{
-}
-
 QString Feed::url() const
 {
     return m_url;

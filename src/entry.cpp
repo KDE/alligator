@@ -58,10 +58,6 @@ Entry::Entry(const QString &feedUrl, int index)
     m_read = entryQuery.value(QStringLiteral("read")).toBool();
 }
 
-Entry::~Entry()
-{
-}
-
 QString Entry::id() const
 {
     return m_id;
