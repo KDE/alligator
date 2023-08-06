@@ -90,11 +90,8 @@ bool Database::migrateTo1()
 bool Database::execute(const QString &query)
 {
     QSqlQuery q;
-    if (q.prepare(query)) {
-        return execute(q);
-    } else {
-        return false;
-    }
+    q.prepare(query);
+    return execute(q);
 }
 
 bool Database::execute(QSqlQuery &query)

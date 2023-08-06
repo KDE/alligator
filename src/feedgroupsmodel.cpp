@@ -65,15 +65,14 @@ void FeedGroupsModel::loadFromDatabase()
 
     m_feed_groups = {};
     QSqlQuery q;
-    if (q.prepare(QStringLiteral("SELECT * FROM FeedGroups;"))) {
-        Database::instance().execute(q);
-        while (q.next()) {
-            FeedGroup group{};
-            group.name = q.value(QStringLiteral("name")).toString();
-            group.description = q.value(QStringLiteral("description")).toString();
-            group.isDefault = (q.value(QStringLiteral("defaultGroup")).toInt() == 1);
-            m_feed_groups << group;
-        }
+    q.prepare(QStringLiteral("SELECT * FROM FeedGroups;"));
+    Database::instance().execute(q);
+    while (q.next()) {
+        FeedGroup group{};
+        group.name = q.value(QStringLiteral("name")).toString();
+        group.description = q.value(QStringLiteral("description")).toString();
+        group.isDefault = (q.value(QStringLiteral("defaultGroup")).toInt() == 1);
+        m_feed_groups << group;
     }
 
     endResetModel();
