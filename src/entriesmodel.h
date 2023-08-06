@@ -7,7 +7,7 @@
 #pragma once
 
 #include <QAbstractListModel>
-#include <QHash>
+#include <QList>
 #include <QObject>
 #include <QString>
 
@@ -56,7 +56,7 @@ Q_SIGNALS:
     void feedUrlChanged();
 
 private:
-    void loadEntry(int index) const;
+    void loadEntries();
     QString m_feedUrl;
-    mutable QHash<int, Entry> m_entries;
+    QList<Entry> m_entries;
 };

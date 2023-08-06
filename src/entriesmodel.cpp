@@ -18,6 +18,7 @@ EntriesModel::EntriesModel(QObject *parent)
         if (m_feedUrl.isEmpty() || m_feedUrl == url) {
             beginResetModel();
             m_entries.clear();
+            loadEntries();
             endResetModel();
         }
     });
@@ -30,13 +31,11 @@ EntriesModel::EntriesModel(QObject *parent)
             }
         }
     });
+    loadEntries();
 }
 
 QVariant EntriesModel::data(const QModelIndex &index, int role) const
 {
-    if (!m_entries.contains(index.row())) {
-        loadEntry(index.row());
-    }
     const auto &entry = m_entries[index.row()];
     if (role == IdRole) {
         return entry.id;
@@ -101,43 +100,43 @@ int EntriesModel::rowCount(const QModelIndex &parent) const
     return query.value(0).toInt();
 }
 
-void EntriesModel::loadEntry(int index) const
+void EntriesModel::loadEntries()
 {
     QSqlQuery entryQuery;
-    Entry entry;
     if (m_feedUrl.length() > 0) {
-        entryQuery.prepare(QStringLiteral("SELECT * FROM Entries WHERE feed=:feed ORDER BY updated DESC LIMIT 1 OFFSET :index;"));
+        entryQuery.prepare(QStringLiteral("SELECT * FROM Entries WHERE feed=:feed ORDER BY updated DESC"));
         entryQuery.bindValue(QStringLiteral(":feed"), m_feedUrl);
     } else {
-        entryQuery.prepare(QStringLiteral("SELECT * FROM Entries ORDER BY updated DESC LIMIT 1 OFFSET :index;"));
+        entryQuery.prepare(QStringLiteral("SELECT * FROM Entries ORDER BY updated DESC"));
     }
-    entryQuery.bindValue(QStringLiteral(":index"), index);
     Database::instance().execute(entryQuery);
-    entryQuery.next();
 
-    QSqlQuery authorQuery;
-    QStringList authorList;
-    authorQuery.prepare(QStringLiteral("SELECT * FROM Authors WHERE id=:id"));
-    authorQuery.bindValue(QStringLiteral(":id"), entryQuery.value(QStringLiteral("id")).toString());
-    Database::instance().execute(authorQuery);
+    while (entryQuery.next()) {
+        Entry entry;
+        QSqlQuery authorQuery;
+        QStringList authorList;
+        authorQuery.prepare(QStringLiteral("SELECT * FROM Authors WHERE id=:id"));
+        authorQuery.bindValue(QStringLiteral(":id"), entryQuery.value(QStringLiteral("id")).toString());
+        Database::instance().execute(authorQuery);
 
-    while (authorQuery.next()) {
-        authorList += authorQuery.value(QStringLiteral("name")).toString();
+        while (authorQuery.next()) {
+            authorList += authorQuery.value(QStringLiteral("name")).toString();
+        }
+
+        if (authorList.size() > 0) {
+            entry.authors = authorList[0];
+        }
+
+        entry.created.setSecsSinceEpoch(entryQuery.value(QStringLiteral("created")).toInt());
+        entry.updated.setSecsSinceEpoch(entryQuery.value(QStringLiteral("updated")).toInt());
+        entry.id = entryQuery.value(QStringLiteral("id")).toString();
+        entry.title = entryQuery.value(QStringLiteral("title")).toString();
+        entry.content = entryQuery.value(QStringLiteral("content")).toString();
+        entry.link = entryQuery.value(QStringLiteral("link")).toString();
+        entry.read = entryQuery.value(QStringLiteral("read")).toBool();
+
+        m_entries.append(entry);
     }
-
-    if (authorList.size() > 0) {
-        entry.authors = authorList[0];
-    }
-
-    entry.created.setSecsSinceEpoch(entryQuery.value(QStringLiteral("created")).toInt());
-    entry.updated.setSecsSinceEpoch(entryQuery.value(QStringLiteral("updated")).toInt());
-    entry.id = entryQuery.value(QStringLiteral("id")).toString();
-    entry.title = entryQuery.value(QStringLiteral("title")).toString();
-    entry.content = entryQuery.value(QStringLiteral("content")).toString();
-    entry.link = entryQuery.value(QStringLiteral("link")).toString();
-    entry.read = entryQuery.value(QStringLiteral("read")).toBool();
-
-    m_entries[index] = entry;
 }
 
 QString EntriesModel::feedUrl() const
@@ -152,4 +151,5 @@ void EntriesModel::setFeedUrl(const QString &feedUrl)
     }
     m_feedUrl = feedUrl;
     Q_EMIT feedUrlChanged();
+    loadEntries();
 }
