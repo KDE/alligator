@@ -11,12 +11,11 @@
 #include "entriesmodel.h"
 #include "fetcher.h"
 
-EntriesModel::EntriesModel(Feed *feed)
-    : QAbstractListModel(feed)
-    , m_feed(feed)
+EntriesModel::EntriesModel(QObject *parent)
+    : QAbstractListModel(parent)
 {
     connect(&Fetcher::instance(), &Fetcher::feedUpdated, this, [this](const QString &url) {
-        if (!m_feed || m_feed->url() == url) {
+        if (m_feedUrl.isEmpty() || m_feedUrl == url) {
             beginResetModel();
             for (auto &entry : m_entries) {
                 delete entry;
@@ -54,9 +53,9 @@ int EntriesModel::rowCount(const QModelIndex &parent) const
 {
     Q_UNUSED(parent)
     QSqlQuery query;
-    if (m_feed) {
+    if (m_feedUrl.length() > 0) {
         query.prepare(QStringLiteral("SELECT COUNT() FROM Entries WHERE feed=:feed;"));
-        query.bindValue(QStringLiteral(":feed"), m_feed->url());
+        query.bindValue(QStringLiteral(":feed"), m_feedUrl);
     } else {
         query.prepare(QStringLiteral("SELECT COUNT() FROM Entries;"));
     }
@@ -69,10 +68,19 @@ int EntriesModel::rowCount(const QModelIndex &parent) const
 
 void EntriesModel::loadEntry(int index) const
 {
-    m_entries[index] = new Entry(m_feed, index);
+    m_entries[index] = new Entry(m_feedUrl, index);
 }
 
-Feed *EntriesModel::feed() const
+QString EntriesModel::feedUrl() const
 {
-    return m_feed;
+    return m_feedUrl;
+}
+
+void EntriesModel::setFeedUrl(const QString &feedUrl)
+{
+    if (feedUrl == m_feedUrl) {
+        return;
+    }
+    m_feedUrl = feedUrl;
+    Q_EMIT feedUrlChanged();
 }

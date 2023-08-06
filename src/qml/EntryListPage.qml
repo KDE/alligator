@@ -113,11 +113,12 @@ Kirigami.ScrollablePage {
     EntriesProxyModel {
         id: proxyModel
         onlyUnread: page.onlyUnread
-        sourceModel: page.feed === undefined ? allEntriesModel : page.feed.entries
+        sourceModel: entriesModel
     }
 
     EntriesModel {
-        id: allEntriesModel
+        id: entriesModel
+        feedUrl: page.feed ? page.feed.url : ""
     }
 
     footer: ColumnLayout {

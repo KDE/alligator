@@ -7,7 +7,6 @@
 #include <QVariant>
 
 #include "database.h"
-#include "entriesmodel.h"
 #include "feed.h"
 #include "fetcher.h"
 
@@ -85,8 +84,7 @@ Feed::Feed(int index)
             Q_EMIT imageChanged(url);
         }
     });
-
-    m_entries = new EntriesModel(this);
+    connect(&Database::instance(), &Database::entryReadChanged, this, &Feed::unreadEntryCountChanged);
 }
 
 Feed::~Feed()

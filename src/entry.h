@@ -12,8 +12,6 @@
 #include <QString>
 #include <QStringList>
 
-#include "feed.h"
-
 class Entry : public QObject
 {
     Q_OBJECT
@@ -29,7 +27,7 @@ class Entry : public QObject
     Q_PROPERTY(bool read READ read WRITE setRead NOTIFY readChanged)
 
 public:
-    Entry(Feed *feed, int index);
+    Entry(const QString &feedUrl, int index);
     ~Entry();
 
     QString id() const;
@@ -53,7 +51,7 @@ Q_SIGNALS:
     void readChanged(bool read);
 
 private:
-    Feed *m_feed;
+    QString m_feedUrl;
     QString m_id;
     QString m_title;
     QString m_content;

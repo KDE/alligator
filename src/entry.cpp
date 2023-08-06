@@ -15,27 +15,22 @@
 
 #include "database.h"
 
-Entry::Entry(Feed *feed, int index)
+Entry::Entry(const QString &feedUrl, int index)
     : QObject(nullptr)
-    , m_feed(feed)
+    , m_feedUrl(feedUrl)
 {
     QSqlQuery entryQuery;
     bool entryQueryPrepared = false;
-    if (m_feed) {
+    if (m_feedUrl.length() > 0) {
         entryQueryPrepared = entryQuery.prepare(QStringLiteral("SELECT * FROM Entries WHERE feed=:feed ORDER BY updated DESC LIMIT 1 OFFSET :index;"));
-        entryQuery.bindValue(QStringLiteral(":feed"), m_feed->url());
+        entryQuery.bindValue(QStringLiteral(":feed"), m_feedUrl);
     } else {
         entryQueryPrepared = entryQuery.prepare(QStringLiteral("SELECT * FROM Entries ORDER BY updated DESC LIMIT 1 OFFSET :index;"));
     }
     if (entryQueryPrepared) {
         entryQuery.bindValue(QStringLiteral(":index"), index);
         Database::instance().execute(entryQuery);
-        if (!entryQuery.next()) {
-            qWarning() << "No element with index" << index << "found";
-            if (m_feed) {
-                qDebug() << " in feed" << m_feed->url();
-            }
-        }
+        entryQuery.next();
     }
 
     QSqlQuery authorQuery;
@@ -127,9 +122,6 @@ void Entry::setRead(bool read)
     m_read = read;
     Q_EMIT readChanged(m_read);
     Database::instance().setRead(m_id, m_read);
-    if (m_feed) {
-        Q_EMIT m_feed->unreadEntryCountChanged();
-    }
 }
 
 QString Entry::adjustedContent(int width, int fontSize)

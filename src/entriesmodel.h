@@ -18,20 +18,23 @@ class EntriesModel : public QAbstractListModel
 {
     Q_OBJECT
 
-    Q_PROPERTY(Feed *feed READ feed CONSTANT)
+    Q_PROPERTY(QString feedUrl READ feedUrl WRITE setFeedUrl NOTIFY feedUrlChanged)
 
 public:
-    explicit EntriesModel(Feed *feed = nullptr);
+    explicit EntriesModel(QObject *parent = nullptr);
     ~EntriesModel() override;
     QVariant data(const QModelIndex &index, int role = Qt::DisplayRole) const override;
     QHash<int, QByteArray> roleNames() const override;
     int rowCount(const QModelIndex &parent) const override;
 
-    Feed *feed() const;
+    QString feedUrl() const;
+    void setFeedUrl(const QString &feedUrl);
+
+Q_SIGNALS:
+    void feedUrlChanged();
 
 private:
     void loadEntry(int index) const;
-
-    Feed *m_feed;
+    QString m_feedUrl;
     mutable QHash<int, Entry *> m_entries;
 };
