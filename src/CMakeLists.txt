@@ -8,10 +8,10 @@ add_executable(alligator
     entriesproxymodel.cpp
     fetcher.cpp
     database.cpp
-    entry.cpp
     feed.cpp
     feedgroupsmodel.cpp
     feedsproxymodel.cpp
+    contenthelper.cpp
     resources.qrc
 )
 

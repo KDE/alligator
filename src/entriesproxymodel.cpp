@@ -6,7 +6,7 @@
 
 #include "entriesproxymodel.h"
 #include "database.h"
-#include "entry.h"
+#include "entriesmodel.h"
 
 EntriesProxyModel::EntriesProxyModel(QObject *parent)
     : QSortFilterProxyModel(parent)
@@ -47,9 +47,5 @@ bool EntriesProxyModel::filterAcceptsRow(int source_row, const QModelIndex &sour
         return true;
     }
 
-    auto entry = idx.data(0).value<Entry *>();
-
-    return !entry->read();
-
-    return false;
+    return !idx.data(EntriesModel::ReadRole).value<bool>();
 }

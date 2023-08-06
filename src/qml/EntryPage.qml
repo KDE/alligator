@@ -15,26 +15,38 @@ import org.kde.alligator 1.0
 Kirigami.ScrollablePage {
     id: page
 
-    property QtObject entry
     property string feedTitle
+    property string entryTitle
+    property string content
+    property string entryId
+    property string baseUrl
+    property string link
 
     title: feedTitle
 
+    ContentHelper {
+        id: contentHelper
+    }
+
+    onEntryIdChanged: {
+        Database.setRead(page.entryId, true)
+    }
+
     ColumnLayout {
         Kirigami.Heading {
-            text: entry.title
+            text: page.entryTitle
             wrapMode: Text.WordWrap
             Layout.fillWidth: true
         }
 
         Controls.Label {
-            text: page.entry.content
-            baseUrl: page.entry.baseUrl
+            text: page.content
+            baseUrl: page.baseUrl
             textFormat: Text.RichText
             wrapMode: Text.WordWrap
             Layout.fillWidth: true
-            onLinkActivated: page.entry.openLink(link)
-            onWidthChanged: text = entry.adjustedContent(width, font.pixelSize)
+            onLinkActivated: contentHelper.openLink(link)
+            onWidthChanged: text = contentHelper.adjustedContent(width, font.pixelSize, page.content)
             font.pointSize: !(Config.articleFontUseSystem) ? Config.articleFontSize : Kirigami.Units.fontMetrics.font.pointSize
         }
     }
@@ -42,8 +54,6 @@ Kirigami.ScrollablePage {
     actions.main: Kirigami.Action {
         text: i18n("Open in Browser")
         icon.name: "globe"
-        onTriggered: Qt.openUrlExternally(entry.link)
+        onTriggered: Qt.openUrlExternally(page.link)
     }
-
-    Component.onDestruction: page.entry.read = true
 }

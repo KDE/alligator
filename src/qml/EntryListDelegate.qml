@@ -21,7 +21,15 @@ Kirigami.AbstractListItem {
         while(pageStack.depth > 2) {
             pageStack.pop()
         }
-        pageStack.push("qrc:/EntryPage.qml", {entry: model.entry, feedTitle : feedTitle})
+
+        pageStack.push("qrc:/EntryPage.qml", {
+            feedTitle : feedTitle,
+            entryId: model.id,
+            content: model.content,
+            entryTitle: model.title,
+            baseUrl: model.baseUrl,
+            link: model.link,
+        })
     }
 
     separatorVisible: true
@@ -34,13 +42,13 @@ Kirigami.AbstractListItem {
 
         Controls.Label {
             Layout.fillWidth: true
-            text: model.entry.title
+            text: model.title
             font.pointSize: Math.round(Kirigami.Theme.defaultFont.pointSize * 1)
             font.weight: Font.Medium
             wrapMode: Text.Wrap
             elide: Text.ElideRight
             maximumLineCount: 3
-            opacity: model.entry.read ? 0.7 : 1
+            opacity: model.read ? 0.7 : 1
         }
 
         Controls.Label {
@@ -48,7 +56,7 @@ Kirigami.AbstractListItem {
             elide: Text.ElideRight
             font.pointSize: Kirigami.Theme.smallFont.pointSize
             opacity: 0.9
-            text: model.entry.updated.toLocaleString(Qt.locale(), Locale.ShortFormat) + (model.entry.authors.length === 0 ? "" : " " + i18nc("by <author(s)>", "by") + " " + model.entry.authors)
+            text: model.updated.toLocaleString(Qt.locale(), Locale.ShortFormat) + (model.authors.length === 0 ? "" : " " + i18nc("by <author(s)>", "by") + " " + model.authors)
         }
     }
 }

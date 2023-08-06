@@ -11,8 +11,19 @@
 #include <QObject>
 #include <QString>
 
-#include "entry.h"
 #include "feed.h"
+
+struct Entry {
+    QString feedUrl;
+    QString id;
+    QString title;
+    QString content;
+    QString authors;
+    QDateTime created;
+    QDateTime updated;
+    QString link;
+    bool read;
+};
 
 class EntriesModel : public QAbstractListModel
 {
@@ -21,8 +32,19 @@ class EntriesModel : public QAbstractListModel
     Q_PROPERTY(QString feedUrl READ feedUrl WRITE setFeedUrl NOTIFY feedUrlChanged)
 
 public:
+    enum Roles {
+        IdRole = Qt::DisplayRole,
+        TitleRole,
+        ContentRole,
+        AuthorsRole,
+        CreatedRole,
+        UpdatedRole,
+        LinkRole,
+        BaseUrlRole,
+        ReadRole,
+    };
+    Q_ENUM(Roles);
     explicit EntriesModel(QObject *parent = nullptr);
-    ~EntriesModel() override;
     QVariant data(const QModelIndex &index, int role = Qt::DisplayRole) const override;
     QHash<int, QByteArray> roleNames() const override;
     int rowCount(const QModelIndex &parent) const override;
@@ -36,5 +58,5 @@ Q_SIGNALS:
 private:
     void loadEntry(int index) const;
     QString m_feedUrl;
-    mutable QHash<int, Entry *> m_entries;
+    mutable QHash<int, Entry> m_entries;
 };

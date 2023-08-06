@@ -17,36 +17,71 @@ EntriesModel::EntriesModel(QObject *parent)
     connect(&Fetcher::instance(), &Fetcher::feedUpdated, this, [this](const QString &url) {
         if (m_feedUrl.isEmpty() || m_feedUrl == url) {
             beginResetModel();
-            for (auto &entry : m_entries) {
-                delete entry;
-            }
             m_entries.clear();
             endResetModel();
         }
     });
-}
-
-EntriesModel::~EntriesModel()
-{
-    qDeleteAll(m_entries);
+    connect(&Database::instance(), &Database::entryReadChanged, this, [this](const QString &entryId, bool read) {
+        for (auto i = 0; i < m_entries.size(); i++) {
+            if (m_entries[i].id == entryId) {
+                m_entries[i].read = read;
+                dataChanged(index(i, 0), index(i, 0), {ReadRole});
+                break;
+            }
+        }
+    });
 }
 
 QVariant EntriesModel::data(const QModelIndex &index, int role) const
 {
-    if (role != 0) {
-        return QVariant();
-    }
-    if (m_entries[index.row()] == nullptr) {
+    if (!m_entries.contains(index.row())) {
         loadEntry(index.row());
     }
-    return QVariant::fromValue(m_entries[index.row()]);
+    const auto &entry = m_entries[index.row()];
+    if (role == IdRole) {
+        return entry.id;
+    }
+    if (role == ReadRole) {
+        return entry.read;
+    }
+    if (role == TitleRole) {
+        return entry.title;
+    }
+    if (role == ContentRole) {
+        return entry.content;
+    }
+    if (role == AuthorsRole) {
+        return entry.authors;
+    }
+    if (role == CreatedRole) {
+        return entry.created;
+    }
+    if (role == UpdatedRole) {
+        return entry.updated;
+    }
+    if (role == LinkRole) {
+        return entry.link;
+    }
+    if (role == BaseUrlRole) {
+        return QUrl(entry.link).adjusted(QUrl::RemovePath).toString();
+    }
+    return QVariant();
 }
 
 QHash<int, QByteArray> EntriesModel::roleNames() const
 {
-    QHash<int, QByteArray> roleNames;
-    roleNames[0] = "entry";
-    return roleNames;
+    return {
+        {IdRole, "id"},
+        {ReadRole, "read"},
+        {TitleRole, "title"},
+        {ContentRole, "content"},
+        {AuthorsRole, "authors"},
+        {CreatedRole, "created"},
+        {UpdatedRole, "updated"},
+        {LinkRole, "link"},
+        {BaseUrlRole, "baseUrl"},
+        {ReadRole, "read"},
+    };
 }
 
 int EntriesModel::rowCount(const QModelIndex &parent) const
@@ -68,7 +103,41 @@ int EntriesModel::rowCount(const QModelIndex &parent) const
 
 void EntriesModel::loadEntry(int index) const
 {
-    m_entries[index] = new Entry(m_feedUrl, index);
+    QSqlQuery entryQuery;
+    Entry entry;
+    if (m_feedUrl.length() > 0) {
+        entryQuery.prepare(QStringLiteral("SELECT * FROM Entries WHERE feed=:feed ORDER BY updated DESC LIMIT 1 OFFSET :index;"));
+        entryQuery.bindValue(QStringLiteral(":feed"), m_feedUrl);
+    } else {
+        entryQuery.prepare(QStringLiteral("SELECT * FROM Entries ORDER BY updated DESC LIMIT 1 OFFSET :index;"));
+    }
+    entryQuery.bindValue(QStringLiteral(":index"), index);
+    Database::instance().execute(entryQuery);
+    entryQuery.next();
+
+    QSqlQuery authorQuery;
+    QStringList authorList;
+    authorQuery.prepare(QStringLiteral("SELECT * FROM Authors WHERE id=:id"));
+    authorQuery.bindValue(QStringLiteral(":id"), entryQuery.value(QStringLiteral("id")).toString());
+    Database::instance().execute(authorQuery);
+
+    while (authorQuery.next()) {
+        authorList += authorQuery.value(QStringLiteral("name")).toString();
+    }
+
+    if (authorList.size() > 0) {
+        entry.authors = authorList[0];
+    }
+
+    entry.created.setSecsSinceEpoch(entryQuery.value(QStringLiteral("created")).toInt());
+    entry.updated.setSecsSinceEpoch(entryQuery.value(QStringLiteral("updated")).toInt());
+    entry.id = entryQuery.value(QStringLiteral("id")).toString();
+    entry.title = entryQuery.value(QStringLiteral("title")).toString();
+    entry.content = entryQuery.value(QStringLiteral("content")).toString();
+    entry.link = entryQuery.value(QStringLiteral("link")).toString();
+    entry.read = entryQuery.value(QStringLiteral("read")).toBool();
+
+    m_entries[index] = entry;
 }
 
 QString EntriesModel::feedUrl() const
