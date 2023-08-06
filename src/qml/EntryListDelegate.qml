@@ -48,7 +48,7 @@ Kirigami.AbstractListItem {
             elide: Text.ElideRight
             font.pointSize: Kirigami.Theme.smallFont.pointSize
             opacity: 0.9
-            text: model.entry.updated.toLocaleString(Qt.locale(), Locale.ShortFormat) + (model.entry.authors.length === 0 ? "" : " " + i18nc("by <author(s)>", "by") + " " + model.entry.authors[0].name)
+            text: model.entry.updated.toLocaleString(Qt.locale(), Locale.ShortFormat) + (model.entry.authors.length === 0 ? "" : " " + i18nc("by <author(s)>", "by") + " " + model.entry.authors)
         }
     }
 }

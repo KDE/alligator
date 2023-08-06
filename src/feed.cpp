@@ -11,6 +11,8 @@
 #include "feed.h"
 #include "fetcher.h"
 
+#include <KLocalizedString>
+
 Feed::Feed(int index)
     : QObject(nullptr)
 {
@@ -23,15 +25,17 @@ Feed::Feed(int index)
         }
 
         QSqlQuery authorQuery;
+        QStringList authors;
         if (authorQuery.prepare(QStringLiteral("SELECT * FROM Authors WHERE id='' AND feed=:feed"))) {
             authorQuery.bindValue(QStringLiteral(":feed"), query.value(QStringLiteral("url")).toString());
             Database::instance().execute(authorQuery);
             while (authorQuery.next()) {
-                m_authors += new Author(authorQuery.value(QStringLiteral("name")).toString(),
-                                        authorQuery.value(QStringLiteral("email")).toString(),
-                                        authorQuery.value(QStringLiteral("uri")).toString(),
-                                        nullptr);
+                authors += authorQuery.value(QStringLiteral("name")).toString();
             }
+        }
+
+        if (authors.size() > 0) {
+            m_authors = authors[0];
         }
 
         m_subscribed.setSecsSinceEpoch(query.value(QStringLiteral("subscribed")).toInt());
@@ -124,7 +128,7 @@ QString Feed::groupName() const
     return m_group_name;
 }
 
-QVector<Author *> Feed::authors() const
+QString Feed::authors() const
 {
     return m_authors;
 }
@@ -243,7 +247,7 @@ void Feed::setGroupName(const QString &groupName)
     }
 }
 
-void Feed::setAuthors(const QVector<Author *> &authors)
+void Feed::setAuthors(const QString &authors)
 {
     m_authors = authors;
     Q_EMIT authorsChanged(m_authors);

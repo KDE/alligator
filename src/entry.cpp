@@ -11,6 +11,8 @@
 #include <QSqlQuery>
 #include <QUrl>
 
+#include <KLocalizedString>
+
 #include "database.h"
 
 Entry::Entry(Feed *feed, int index)
@@ -37,16 +39,18 @@ Entry::Entry(Feed *feed, int index)
     }
 
     QSqlQuery authorQuery;
+    QStringList authors;
     if (authorQuery.prepare(QStringLiteral("SELECT * FROM Authors WHERE id=:id"))) {
         authorQuery.bindValue(QStringLiteral(":id"), entryQuery.value(QStringLiteral("id")).toString());
         Database::instance().execute(authorQuery);
 
         while (authorQuery.next()) {
-            m_authors += new Author(authorQuery.value(QStringLiteral("name")).toString(),
-                                    authorQuery.value(QStringLiteral("email")).toString(),
-                                    authorQuery.value(QStringLiteral("uri")).toString(),
-                                    nullptr);
+            authors += authorQuery.value(QStringLiteral("name")).toString();
         }
+    }
+
+    if (authors.size() > 0) {
+        m_authors = authors[0];
     }
 
     m_created.setSecsSinceEpoch(entryQuery.value(QStringLiteral("created")).toInt());
@@ -61,7 +65,6 @@ Entry::Entry(Feed *feed, int index)
 
 Entry::~Entry()
 {
-    qDeleteAll(m_authors);
 }
 
 QString Entry::id() const
@@ -79,7 +82,7 @@ QString Entry::content() const
     return m_content;
 }
 
-QVector<Author *> Entry::authors() const
+QString Entry::authors() const
 {
     return m_authors;
 }

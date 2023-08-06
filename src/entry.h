@@ -12,7 +12,6 @@
 #include <QString>
 #include <QStringList>
 
-#include "author.h"
 #include "feed.h"
 
 class Entry : public QObject
@@ -22,7 +21,7 @@ class Entry : public QObject
     Q_PROPERTY(QString id READ id CONSTANT)
     Q_PROPERTY(QString title READ title CONSTANT)
     Q_PROPERTY(QString content READ content CONSTANT)
-    Q_PROPERTY(QVector<Author *> authors READ authors CONSTANT)
+    Q_PROPERTY(QString authors READ authors CONSTANT)
     Q_PROPERTY(QDateTime created READ created CONSTANT)
     Q_PROPERTY(QDateTime updated READ updated CONSTANT)
     Q_PROPERTY(QString link READ link CONSTANT)
@@ -36,7 +35,7 @@ public:
     QString id() const;
     QString title() const;
     QString content() const;
-    QVector<Author *> authors() const;
+    QString authors() const;
     QDateTime created() const;
     QDateTime updated() const;
     QString link() const;
@@ -58,7 +57,7 @@ private:
     QString m_id;
     QString m_title;
     QString m_content;
-    QVector<Author *> m_authors;
+    QString m_authors;
     QDateTime m_created;
     QDateTime m_updated;
     QString m_link;

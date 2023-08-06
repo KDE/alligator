@@ -10,7 +10,6 @@ add_executable(alligator
     database.cpp
     entry.cpp
     feed.cpp
-    author.cpp
     feedgroupsmodel.cpp
     feedsproxymodel.cpp
     resources.qrc

@@ -33,7 +33,7 @@ Kirigami.ScrollablePage {
             level: 3
         }
         Controls.Label {
-            text: i18nc("by <author(s)>", "by %1", feed.authors[0].name)
+            text: i18nc("by <author(s)>", "by %1", feed.authors)
             visible: feed.authors.length !== 0
         }
         Controls.Label {
