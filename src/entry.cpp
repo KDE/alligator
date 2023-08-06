@@ -20,28 +20,24 @@ Entry::Entry(const QString &feedUrl, int index)
     , m_feedUrl(feedUrl)
 {
     QSqlQuery entryQuery;
-    bool entryQueryPrepared = false;
     if (m_feedUrl.length() > 0) {
-        entryQueryPrepared = entryQuery.prepare(QStringLiteral("SELECT * FROM Entries WHERE feed=:feed ORDER BY updated DESC LIMIT 1 OFFSET :index;"));
+        entryQuery.prepare(QStringLiteral("SELECT * FROM Entries WHERE feed=:feed ORDER BY updated DESC LIMIT 1 OFFSET :index;"));
         entryQuery.bindValue(QStringLiteral(":feed"), m_feedUrl);
     } else {
-        entryQueryPrepared = entryQuery.prepare(QStringLiteral("SELECT * FROM Entries ORDER BY updated DESC LIMIT 1 OFFSET :index;"));
+        entryQuery.prepare(QStringLiteral("SELECT * FROM Entries ORDER BY updated DESC LIMIT 1 OFFSET :index;"));
     }
-    if (entryQueryPrepared) {
-        entryQuery.bindValue(QStringLiteral(":index"), index);
-        Database::instance().execute(entryQuery);
-        entryQuery.next();
-    }
+    entryQuery.bindValue(QStringLiteral(":index"), index);
+    Database::instance().execute(entryQuery);
+    entryQuery.next();
 
     QSqlQuery authorQuery;
     QStringList authors;
-    if (authorQuery.prepare(QStringLiteral("SELECT * FROM Authors WHERE id=:id"))) {
-        authorQuery.bindValue(QStringLiteral(":id"), entryQuery.value(QStringLiteral("id")).toString());
-        Database::instance().execute(authorQuery);
+    authorQuery.prepare(QStringLiteral("SELECT * FROM Authors WHERE id=:id"));
+    authorQuery.bindValue(QStringLiteral(":id"), entryQuery.value(QStringLiteral("id")).toString());
+    Database::instance().execute(authorQuery);
 
-        while (authorQuery.next()) {
-            authors += authorQuery.value(QStringLiteral("name")).toString();
-        }
+    while (authorQuery.next()) {
+        authors += authorQuery.value(QStringLiteral("name")).toString();
     }
 
     if (authors.size() > 0) {
