@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-03-07 00:46+0000\n"
+"POT-Creation-Date: 2023-08-07 00:48+0000\n"
 "PO-Revision-Date: 2023-02-22 21:20+0100\n"
 "Last-Translator: Xavier BESNARD <xavier.besnard]neuf.fr>\n"
 "Language-Team: fr\n"
@@ -25,62 +25,62 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "Xavier.besnard@neuf.fr"
 
-#: database.cpp:67 database.cpp:335
+#: database.cpp:67 database.cpp:313
 #, kde-format
 msgid "Default"
 msgstr "Par défaut"
 
-#: database.cpp:68 database.cpp:336
+#: database.cpp:68 database.cpp:314
 #, kde-format
 msgid "Default Feed Group"
 msgstr "Groupe de fil d'actualité par défaut"
 
-#: fetcher.cpp:236
+#: fetcher.cpp:229
 #, kde-format
 msgid "Invalid XML"
 msgstr "Données XML non valables"
 
-#: fetcher.cpp:238
+#: fetcher.cpp:231
 #, kde-format
 msgid "No parser accepted the XML"
 msgstr "Aucun analyseur n'a accepté les données « XML »"
 
-#: fetcher.cpp:240
+#: fetcher.cpp:233
 #, kde-format
 msgid "Error while parsing feed"
 msgstr "Erreur durant l'analyse du fil d'actualités"
 
-#: main.cpp:78 qml/AlligatorGlobalDrawer.qml:57
+#: main.cpp:79 qml/AlligatorGlobalDrawer.qml:57
 #, kde-format
 msgid "Alligator"
 msgstr "Alligator"
 
-#: main.cpp:80
+#: main.cpp:81
 #, kde-format
 msgid "Feed Reader"
 msgstr "Lecteur de fil d'actualité"
 
-#: main.cpp:82
+#: main.cpp:83
 #, kde-format
 msgid "© 2020-2022 KDE Community"
 msgstr "© 2020 - 2022 Communauté de KDE"
 
-#: main.cpp:83
+#: main.cpp:84
 #, kde-format
 msgid "Tobias Fella"
 msgstr "Tobias Fella"
 
-#: main.cpp:106
+#: main.cpp:109
 #, kde-format
 msgid "RSS/Atom Feed Reader"
 msgstr "Lecteur de fil d'actualités (RSS)"
 
-#: main.cpp:108
+#: main.cpp:111
 #, kde-format
 msgid "Adds a new feed to database."
 msgstr "Ajoute un nouveau fil de discussions à la base de données."
 
-#: main.cpp:109
+#: main.cpp:112
 #, kde-format
 msgid "feed URL"
 msgstr "URL du fil de discussions"
@@ -135,7 +135,7 @@ msgstr "Nom d'affichage :"
 msgid "Group:"
 msgstr "Groupe :"
 
-#: qml/EntryListDelegate.qml:51
+#: qml/EntryListDelegate.qml:59
 #, kde-format
 msgctxt "by <author(s)>"
 msgid "by"
@@ -186,17 +186,17 @@ msgstr "Aucune entrée non lue disponible."
 msgid "No entries available"
 msgstr "Aucune entrée disponible."
 
-#: qml/EntryListPage.qml:134
+#: qml/EntryListPage.qml:135
 #, kde-format
 msgid "All"
 msgstr "Tout"
 
-#: qml/EntryListPage.qml:140
+#: qml/EntryListPage.qml:141
 #, kde-format
 msgid "Unread"
 msgstr "Non lu"
 
-#: qml/EntryPage.qml:43
+#: qml/EntryPage.qml:55
 #, kde-format
 msgid "Open in Browser"
 msgstr "Ouvrir dans un navigateur"

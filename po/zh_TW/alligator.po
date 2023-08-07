@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-03-07 00:46+0000\n"
+"POT-Creation-Date: 2023-08-07 00:48+0000\n"
 "PO-Revision-Date: 2022-12-24 00:46+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@linux.org.tw>\n"
@@ -30,62 +30,62 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "mail@kisaragi-hiu.com"
 
-#: database.cpp:67 database.cpp:335
+#: database.cpp:67 database.cpp:313
 #, kde-format
 msgid "Default"
 msgstr "預設"
 
-#: database.cpp:68 database.cpp:336
+#: database.cpp:68 database.cpp:314
 #, kde-format
 msgid "Default Feed Group"
 msgstr "預設 feed 群組"
 
-#: fetcher.cpp:236
+#: fetcher.cpp:229
 #, kde-format
 msgid "Invalid XML"
 msgstr "無效的 XML"
 
-#: fetcher.cpp:238
+#: fetcher.cpp:231
 #, kde-format
 msgid "No parser accepted the XML"
 msgstr "沒有任何剖析器接受該 XML"
 
-#: fetcher.cpp:240
+#: fetcher.cpp:233
 #, kde-format
 msgid "Error while parsing feed"
 msgstr "剖析 feed 時發生錯誤"
 
-#: main.cpp:78 qml/AlligatorGlobalDrawer.qml:57
+#: main.cpp:79 qml/AlligatorGlobalDrawer.qml:57
 #, kde-format
 msgid "Alligator"
 msgstr "Alligator"
 
-#: main.cpp:80
+#: main.cpp:81
 #, kde-format
 msgid "Feed Reader"
 msgstr "Feed 閱讀器"
 
-#: main.cpp:82
+#: main.cpp:83
 #, kde-format
 msgid "© 2020-2022 KDE Community"
 msgstr "© 2020-2022 KDE 社群"
 
-#: main.cpp:83
+#: main.cpp:84
 #, kde-format
 msgid "Tobias Fella"
 msgstr "Tobias Fella"
 
-#: main.cpp:106
+#: main.cpp:109
 #, kde-format
 msgid "RSS/Atom Feed Reader"
 msgstr "RSS/Atom Feed 閱讀器"
 
-#: main.cpp:108
+#: main.cpp:111
 #, kde-format
 msgid "Adds a new feed to database."
 msgstr "新增一個 feed 到資料庫裡。"
 
-#: main.cpp:109
+#: main.cpp:112
 #, kde-format
 msgid "feed URL"
 msgstr "feed 網址"
@@ -140,7 +140,7 @@ msgstr "顯示名稱："
 msgid "Group:"
 msgstr "群組："
 
-#: qml/EntryListDelegate.qml:51
+#: qml/EntryListDelegate.qml:59
 #, kde-format
 msgctxt "by <author(s)>"
 msgid "by"
@@ -191,17 +191,17 @@ msgstr "沒有未讀的條目"
 msgid "No entries available"
 msgstr "沒有條目"
 
-#: qml/EntryListPage.qml:134
+#: qml/EntryListPage.qml:135
 #, kde-format
 msgid "All"
 msgstr "全部"
 
-#: qml/EntryListPage.qml:140
+#: qml/EntryListPage.qml:141
 #, kde-format
 msgid "Unread"
 msgstr "未讀"
 
-#: qml/EntryPage.qml:43
+#: qml/EntryPage.qml:55
 #, kde-format
 msgid "Open in Browser"
 msgstr "在瀏覽器開啟"

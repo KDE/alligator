@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-03-07 00:46+0000\n"
+"POT-Creation-Date: 2023-08-07 00:48+0000\n"
 "PO-Revision-Date: 2023-02-22 20:02+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
@@ -29,62 +29,62 @@ msgid "Your emails"
 msgstr ""
 "mil.hasan.yildiz1071@gmail.com, volkangezer@gmail.com, emir_sari@icloud.com"
 
-#: database.cpp:67 database.cpp:335
+#: database.cpp:67 database.cpp:313
 #, kde-format
 msgid "Default"
 msgstr "Öntanımlı"
 
-#: database.cpp:68 database.cpp:336
+#: database.cpp:68 database.cpp:314
 #, kde-format
 msgid "Default Feed Group"
 msgstr "Öntanımlı Besleme Grubu"
 
-#: fetcher.cpp:236
+#: fetcher.cpp:229
 #, kde-format
 msgid "Invalid XML"
 msgstr "Geçersiz XML"
 
-#: fetcher.cpp:238
+#: fetcher.cpp:231
 #, kde-format
 msgid "No parser accepted the XML"
 msgstr "XML'yi hiçbir ayrıştırıcı kabul etmedi"
 
-#: fetcher.cpp:240
+#: fetcher.cpp:233
 #, kde-format
 msgid "Error while parsing feed"
 msgstr "Besleme ayrıştırılırken hata"
 
-#: main.cpp:78 qml/AlligatorGlobalDrawer.qml:57
+#: main.cpp:79 qml/AlligatorGlobalDrawer.qml:57
 #, kde-format
 msgid "Alligator"
 msgstr "Aligatör"
 
-#: main.cpp:80
+#: main.cpp:81
 #, kde-format
 msgid "Feed Reader"
 msgstr "Besleme Okuyucu"
 
-#: main.cpp:82
+#: main.cpp:83
 #, kde-format
 msgid "© 2020-2022 KDE Community"
 msgstr "© 2020-2022 KDE Topluluğu"
 
-#: main.cpp:83
+#: main.cpp:84
 #, kde-format
 msgid "Tobias Fella"
 msgstr "Tobias Fella"
 
-#: main.cpp:106
+#: main.cpp:109
 #, kde-format
 msgid "RSS/Atom Feed Reader"
 msgstr "RSS/Atom Besleme Okuyucu"
 
-#: main.cpp:108
+#: main.cpp:111
 #, kde-format
 msgid "Adds a new feed to database."
 msgstr "Veritabanına yeni bir besleme ekler."
 
-#: main.cpp:109
+#: main.cpp:112
 #, kde-format
 msgid "feed URL"
 msgstr "besleme URL'si"
@@ -139,7 +139,7 @@ msgstr "Görüntüleme Adı:"
 msgid "Group:"
 msgstr "Grup:"
 
-#: qml/EntryListDelegate.qml:51
+#: qml/EntryListDelegate.qml:59
 #, kde-format
 msgctxt "by <author(s)>"
 msgid "by"
@@ -190,17 +190,17 @@ msgstr "Okunmamış girdi yok"
 msgid "No entries available"
 msgstr "Kullanılabilir girdi yok"
 
-#: qml/EntryListPage.qml:134
+#: qml/EntryListPage.qml:135
 #, kde-format
 msgid "All"
 msgstr "Tümü"
 
-#: qml/EntryListPage.qml:140
+#: qml/EntryListPage.qml:141
 #, kde-format
 msgid "Unread"
 msgstr "Okunmamış"
 
-#: qml/EntryPage.qml:43
+#: qml/EntryPage.qml:55
 #, kde-format
 msgid "Open in Browser"
 msgstr "Tarayıcıda aç"

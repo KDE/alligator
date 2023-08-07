@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-03-07 00:46+0000\n"
+"POT-Creation-Date: 2023-08-07 00:48+0000\n"
 "PO-Revision-Date: 2021-05-01 23:10-0700\n"
 "Last-Translator: A S Alam <aalam@satluj.org>\n"
 "Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
@@ -27,63 +27,63 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "alam.yellow@gmail.com"
 
-#: database.cpp:67 database.cpp:335
+#: database.cpp:67 database.cpp:313
 #, kde-format
 msgid "Default"
 msgstr "ਮੂਲ"
 
-#: database.cpp:68 database.cpp:336
+#: database.cpp:68 database.cpp:314
 #, kde-format
 msgid "Default Feed Group"
 msgstr "ਮੂਲ ਫੀਡ ਗਰੁੱਪ"
 
-#: fetcher.cpp:236
+#: fetcher.cpp:229
 #, kde-format
 msgid "Invalid XML"
 msgstr ""
 
-#: fetcher.cpp:238
+#: fetcher.cpp:231
 #, kde-format
 msgid "No parser accepted the XML"
 msgstr ""
 
-#: fetcher.cpp:240
+#: fetcher.cpp:233
 #, kde-format
 msgid "Error while parsing feed"
 msgstr ""
 
-#: main.cpp:78 qml/AlligatorGlobalDrawer.qml:57
+#: main.cpp:79 qml/AlligatorGlobalDrawer.qml:57
 #, kde-format
 msgid "Alligator"
 msgstr "ਐਲੀਗੇਟਰ"
 
-#: main.cpp:80
+#: main.cpp:81
 #, kde-format
 msgid "Feed Reader"
 msgstr "ਫੀਡ ਰੀਡਰ"
 
-#: main.cpp:82
+#: main.cpp:83
 #, fuzzy, kde-format
 #| msgid "© 2020 KDE Community"
 msgid "© 2020-2022 KDE Community"
 msgstr "© 2020 ਕੇਡੀਈ ਕਮਿਊਨਟੀ"
 
-#: main.cpp:83
+#: main.cpp:84
 #, kde-format
 msgid "Tobias Fella"
 msgstr "ਟੋਬਿਸ ਫੇਲਾ"
 
-#: main.cpp:106
+#: main.cpp:109
 #, kde-format
 msgid "RSS/Atom Feed Reader"
 msgstr "RSS/ਅਟੈਮ ਫੀਡ ਰੀਡਰ"
 
-#: main.cpp:108
+#: main.cpp:111
 #, kde-format
 msgid "Adds a new feed to database."
 msgstr "ਨਵੀਂ ਫੀਡ ਡਾਟਾਬੇਸ ਵਿੱਚ ਜੋੜੋ।"
 
-#: main.cpp:109
+#: main.cpp:112
 #, kde-format
 msgid "feed URL"
 msgstr "ਫੀਡ URL"
@@ -138,7 +138,7 @@ msgstr "ਦਿਖਾਉਣ ਵਾਲਾ ਨਾਂ:"
 msgid "Group:"
 msgstr "ਗਰੁੱਪ:"
 
-#: qml/EntryListDelegate.qml:51
+#: qml/EntryListDelegate.qml:59
 #, kde-format
 msgctxt "by <author(s)>"
 msgid "by"
@@ -193,17 +193,17 @@ msgstr "ਕੋਈ ਐਂਟਰੀ ਮੌਜੂਦ ਨਹੀਂ ਹੈ"
 msgid "No entries available"
 msgstr "ਕੋਈ ਐਂਟਰੀ ਮੌਜੂਦ ਨਹੀਂ ਹੈ"
 
-#: qml/EntryListPage.qml:134
+#: qml/EntryListPage.qml:135
 #, kde-format
 msgid "All"
 msgstr ""
 
-#: qml/EntryListPage.qml:140
+#: qml/EntryListPage.qml:141
 #, kde-format
 msgid "Unread"
 msgstr ""
 
-#: qml/EntryPage.qml:43
+#: qml/EntryPage.qml:55
 #, kde-format
 msgid "Open in Browser"
 msgstr "ਬਰਾਊਜ਼ਰ 'ਚ ਖੋਲ੍ਹੋ"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-03-07 00:46+0000\n"
+"POT-Creation-Date: 2023-08-07 00:48+0000\n"
 "PO-Revision-Date: 2023-04-13 22:53+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -30,62 +30,62 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "xalba@ni.eus"
 
-#: database.cpp:67 database.cpp:335
+#: database.cpp:67 database.cpp:313
 #, kde-format
 msgid "Default"
 msgstr "Lehenetsia"
 
-#: database.cpp:68 database.cpp:336
+#: database.cpp:68 database.cpp:314
 #, kde-format
 msgid "Default Feed Group"
 msgstr "Jario-talde lehenetsia"
 
-#: fetcher.cpp:236
+#: fetcher.cpp:229
 #, kde-format
 msgid "Invalid XML"
 msgstr "XML baliogabea"
 
-#: fetcher.cpp:238
+#: fetcher.cpp:231
 #, kde-format
 msgid "No parser accepted the XML"
 msgstr "Ez dago XMLa onartu duen aztertzaile sintaktikorik"
 
-#: fetcher.cpp:240
+#: fetcher.cpp:233
 #, kde-format
 msgid "Error while parsing feed"
 msgstr "Errorea jarioaren sintaxia aztertzean"
 
-#: main.cpp:78 qml/AlligatorGlobalDrawer.qml:57
+#: main.cpp:79 qml/AlligatorGlobalDrawer.qml:57
 #, kde-format
 msgid "Alligator"
 msgstr "Alligator"
 
-#: main.cpp:80
+#: main.cpp:81
 #, kde-format
 msgid "Feed Reader"
 msgstr "Web-jario irakurlea"
 
-#: main.cpp:82
+#: main.cpp:83
 #, kde-format
 msgid "© 2020-2022 KDE Community"
 msgstr "© 2020-2022 KDE komunitatea"
 
-#: main.cpp:83
+#: main.cpp:84
 #, kde-format
 msgid "Tobias Fella"
 msgstr "Tobias Fella"
 
-#: main.cpp:106
+#: main.cpp:109
 #, kde-format
 msgid "RSS/Atom Feed Reader"
 msgstr "RSS/Atom web-jario irakurlea"
 
-#: main.cpp:108
+#: main.cpp:111
 #, kde-format
 msgid "Adds a new feed to database."
 msgstr "Datu-basera jario berria gehitzen du."
 
-#: main.cpp:109
+#: main.cpp:112
 #, kde-format
 msgid "feed URL"
 msgstr "Jarioaren URL"
@@ -140,7 +140,7 @@ msgstr "Azaldu beharreko izena:"
 msgid "Group:"
 msgstr "Taldea:"
 
-#: qml/EntryListDelegate.qml:51
+#: qml/EntryListDelegate.qml:59
 #, kde-format
 msgctxt "by <author(s)>"
 msgid "by"
@@ -191,17 +191,17 @@ msgstr "Ez dago irakurri gabeko sarrerarik"
 msgid "No entries available"
 msgstr "Ez dago sarrera erabilgarririk"
 
-#: qml/EntryListPage.qml:134
+#: qml/EntryListPage.qml:135
 #, kde-format
 msgid "All"
 msgstr "Dena"
 
-#: qml/EntryListPage.qml:140
+#: qml/EntryListPage.qml:141
 #, kde-format
 msgid "Unread"
 msgstr "Irakurri gabea"
 
-#: qml/EntryPage.qml:43
+#: qml/EntryPage.qml:55
 #, kde-format
 msgid "Open in Browser"
 msgstr "Ireki arakatzailean"
