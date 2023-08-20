@@ -4,24 +4,29 @@ Alligator is a convergent RSS/Atom feed reader.
 
 <a href='https://flathub.org/apps/details/org.kde.alligator'><img width='190px' alt='Download on Flathub' src='https://flathub.org/assets/badges/flathub-badge-i-en.png'/></a>
 
-Nightly Android APKs are available at [KDE's Binary Factory](https://kfunk.org/2017/11/17/kde-binary-factory/):
+![Screnshot of a feed](https://cdn.kde.org/screenshots/alligator/alligator-desktop.png)
+
+## Get It
+
+Details on where to find stable releases of Alligator can be found on it's
+[homepage](https://apps.kde.org/alligator). Nightly Android APKs are available at [KDE's Binary Factory](https://kfunk.org/2017/11/17/kde-binary-factory/):
 - [Android ARM](https://binary-factory.kde.org/view/Android/job/Alligator_Nightly_android-arm/)
 - [Android ARM64](https://binary-factory.kde.org/view/Android/job/Alligator_Nightly_android-arm64/)
 - [Android x86](https://binary-factory.kde.org/view/Android/job/Alligator_Nightly_android-x86/)
 - [Android x86_64](https://binary-factory.kde.org/view/Android/job/Alligator_Nightly_android-x86_64/)
 
-# Building
+## Building
 
 Note: When using versions of alligator built from git-master, it's possible that the database format or the name of downloaded files change from one version to another without the necessary migrations to handle it. If you notice bugs after upgrading to a git-master version, export your feeds, delete `~/.local/share/KDE/alligator` and import the feeds again.
 
-## Requirements
+### Requirements
  - KCoreAddons
  - KI18n
  - KConfig
  - Kirigami
  - Syndication
 
-## Linux
+### Linux
 
 ```
 git clone https://invent.kde.org/plasma-mobile/alligator
@@ -35,7 +40,7 @@ sudo make install
 This assumes all dependencies are installed. If your distribution does not provide
 them, you can use [kdesrc-build](https://kdesrc-build.kde.org/) to build all of them.
 
-## Android
+### Android
 
 You can build Alligator for Android using KDE's [Docker-based build environment](https://community.kde.org/Android/Environment_via_Container).
 
