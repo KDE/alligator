@@ -124,12 +124,24 @@ void Fetcher::processEntry(Syndication::ItemPtr entry, const QString &url, const
         return;
     }
 
+    QDateTime current = QDateTime::currentDateTime();
     query.prepare(QStringLiteral("INSERT INTO Entries VALUES (:feed, :id, :title, :content, :created, :updated, :link, :read);"));
     query.bindValue(QStringLiteral(":feed"), url);
     query.bindValue(QStringLiteral(":id"), entry->id());
     query.bindValue(QStringLiteral(":title"), QTextDocumentFragment::fromHtml(entry->title()).toPlainText());
-    query.bindValue(QStringLiteral(":created"), static_cast<int>(entry->datePublished()));
-    query.bindValue(QStringLiteral(":updated"), static_cast<int>(entry->dateUpdated()));
+
+    if (entry->datePublished()) {
+        query.bindValue(QStringLiteral(":created"), static_cast<int>(entry->datePublished()));
+    } else {
+        query.bindValue(QStringLiteral(":created"), current.toSecsSinceEpoch());
+    }
+
+    if (entry->dateUpdated()) {
+        query.bindValue(QStringLiteral(":updated"), static_cast<int>(entry->dateUpdated()));
+    } else {
+        query.bindValue(QStringLiteral(":updated"), current.toSecsSinceEpoch());
+    }
+
     query.bindValue(QStringLiteral(":link"), entry->link());
     query.bindValue(QStringLiteral(":read"), markEntriesRead);
 
