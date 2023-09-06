@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-08-07 00:48+0000\n"
+"POT-Creation-Date: 2023-09-06 00:45+0000\n"
 "PO-Revision-Date: 2023-03-12 15:13+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -37,17 +37,17 @@ msgstr "Oletus"
 msgid "Default Feed Group"
 msgstr "Oletussyöteryhmä"
 
-#: fetcher.cpp:229
+#: fetcher.cpp:241
 #, kde-format
 msgid "Invalid XML"
 msgstr "Virheellistä XML:ää"
 
-#: fetcher.cpp:231
+#: fetcher.cpp:243
 #, kde-format
 msgid "No parser accepted the XML"
 msgstr "Jäsentimet eivät hyväksyneet XML:ää"
 
-#: fetcher.cpp:233
+#: fetcher.cpp:245
 #, kde-format
 msgid "Error while parsing feed"
 msgstr "Virhe syötettä jäsennettäessä"

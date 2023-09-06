@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-08-07 00:48+0000\n"
+"POT-Creation-Date: 2023-09-06 00:45+0000\n"
 "PO-Revision-Date: 2022-12-24 00:46+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@linux.org.tw>\n"
@@ -40,17 +40,17 @@ msgstr "預設"
 msgid "Default Feed Group"
 msgstr "預設 feed 群組"
 
-#: fetcher.cpp:229
+#: fetcher.cpp:241
 #, kde-format
 msgid "Invalid XML"
 msgstr "無效的 XML"
 
-#: fetcher.cpp:231
+#: fetcher.cpp:243
 #, kde-format
 msgid "No parser accepted the XML"
 msgstr "沒有任何剖析器接受該 XML"
 
-#: fetcher.cpp:233
+#: fetcher.cpp:245
 #, kde-format
 msgid "Error while parsing feed"
 msgstr "剖析 feed 時發生錯誤"

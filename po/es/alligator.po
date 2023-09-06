@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-08-07 00:48+0000\n"
+"POT-Creation-Date: 2023-09-06 00:45+0000\n"
 "PO-Revision-Date: 2023-02-22 20:44+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -39,17 +39,17 @@ msgstr "Por omisión"
 msgid "Default Feed Group"
 msgstr "Grupo de emisiones web predeterminado"
 
-#: fetcher.cpp:229
+#: fetcher.cpp:241
 #, kde-format
 msgid "Invalid XML"
 msgstr "XML no válido"
 
-#: fetcher.cpp:231
+#: fetcher.cpp:243
 #, kde-format
 msgid "No parser accepted the XML"
 msgstr "Ningún analizador ha aceptado el XML"
 
-#: fetcher.cpp:233
+#: fetcher.cpp:245
 #, kde-format
 msgid "Error while parsing feed"
 msgstr "Ha ocurrido un error al analizar la emisión web"
