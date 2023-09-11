@@ -150,7 +150,7 @@ Kirigami.GlobalDrawer {
             onClicked: {
                 pageStack.layers.clear();
                 pageStack.clear();
-                pageStack.insertPage(0, root.feedsPage, {});
+                pageStack.push(root.feedsPage, {});
             }
         }
 
