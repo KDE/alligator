@@ -10,7 +10,9 @@ import QtQuick 2.14
 import QtQuick.Layouts 1.15
 import QtQuick.Controls 2.14 as Controls
 
-import org.kde.kirigami 2.12 as Kirigami
+import org.kde.kirigami 2.20 as Kirigami
+import org.kde.kirigamiaddons.delegates 1.0 as Delegates
+
 import org.kde.alligator 1.0 as Alligator
 
 Kirigami.GlobalDrawer {
@@ -73,6 +75,9 @@ Kirigami.GlobalDrawer {
         ListView {
             Layout.fillHeight: true
             Layout.fillWidth: true
+            Layout.topMargin: Math.round(Kirigami.Units.smallSpacing / 2)
+            Layout.bottomMargin: Math.round(Kirigami.Units.smallSpacing / 2)
+
             clip: true
 
             // stop list highlight
@@ -83,28 +88,28 @@ Kirigami.GlobalDrawer {
                 }
             }
 
-            header: Kirigami.BasicListItem {
+            header: Delegates.RoundedItemDelegate {
                 id: allFeedsItem
                 text: i18n("All Feeds")
-                icon: "rss"
-                onIconSizeChanged: root.iconSizing = iconSize
-                onLeadingPaddingChanged: root.listItemPadding = leadingPadding
+                icon.name: "rss"
                 onClicked: {
                     pageStack.clear()
                     pageStack.push(root.entriesPage)
                 }
             }
 
-            section.property: "feed.groupName"
-            section.criteria: ViewSection.FullString
-            section.delegate: Kirigami.ListSectionHeader {
-                label: section
-                opacity: applicationWindow().sidebarCollapsed ? 0 : 1
+            section {
+                property: "feed.groupName"
+                criteria: ViewSection.FullString
+                delegate: Kirigami.ListSectionHeader {
+                    label: section
+                    opacity: applicationWindow().sidebarCollapsed ? 0 : 1
 
-                Behavior on opacity {
-                    NumberAnimation {
-                        easing.type: Easing.InOutQuad
-                        duration: Kirigami.Units.shortDuration
+                    Behavior on opacity {
+                        NumberAnimation {
+                            easing.type: Easing.InOutQuad
+                            duration: Kirigami.Units.shortDuration
+                        }
                     }
                 }
             }
@@ -119,23 +124,30 @@ Kirigami.GlobalDrawer {
                 id: feedsModel
             }
 
-            delegate: Kirigami.BasicListItem {
-                text: model.feed.displayName || model.feed.name
-                icon: model.feed.refreshing ? "view-refresh" : model.feed.image === "" ? "rss" : Alligator.Fetcher.image(model.feed.image)
+            delegate: Delegates.RoundedItemDelegate {
+                required property var feed
+
+                text: feed.displayName || feed.name
+                icon.name: feed.refreshing ? "view-refresh" : feed.image === "" ? "rss" : Alligator.Fetcher.image(feed.image)
                 onClicked: {
                     pageStack.layers.clear();
                     pageStack.clear();
-                    pageStack.push("qrc:/EntryListPage.qml", {feed: model.feed})
+                    pageStack.push("qrc:/EntryListPage.qml", {feed: feed})
                 }
             }
         }
 
-        Kirigami.Separator { Layout.fillWidth: true }
-
-        Kirigami.BasicListItem {
+        Kirigami.Separator {
             Layout.fillWidth: true
+            Layout.leftMargin: Kirigami.Units.smallSpacing
+            Layout.rightMargin: Kirigami.Units.smallSpacing
+        }
+
+        Delegates.RoundedItemDelegate {
+            Layout.fillWidth: true
+            Layout.topMargin: Math.round(Kirigami.Units.smallSpacing / 2)
             text: i18n("Settings")
-            icon: "settings-configure"
+            icon.name: "settings-configure"
             onClicked: {
                 pageStack.layers.clear();
                 pageStack.clear();
@@ -143,10 +155,10 @@ Kirigami.GlobalDrawer {
             }
         }
 
-        Kirigami.BasicListItem {
+        Delegates.RoundedItemDelegate {
             Layout.fillWidth: true
             text: i18n("Manage Feeds")
-            icon: "feed-subscribe"
+            icon.name: "feed-subscribe"
             onClicked: {
                 pageStack.layers.clear();
                 pageStack.clear();
@@ -154,10 +166,11 @@ Kirigami.GlobalDrawer {
             }
         }
 
-        Kirigami.BasicListItem {
+        Delegates.RoundedItemDelegate {
             Layout.fillWidth: true
+            Layout.bottomMargin: Math.round(Kirigami.Units.smallSpacing / 2)
             text: i18n("About")
-            icon: "documentinfo"
+            icon.name: "documentinfo"
             onClicked: {
                 pageStack.layers.clear();
                 pageStack.clear();
