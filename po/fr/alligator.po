@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-06 00:45+0000\n"
+"POT-Creation-Date: 2023-09-12 00:45+0000\n"
 "PO-Revision-Date: 2023-02-22 21:20+0100\n"
 "Last-Translator: Xavier BESNARD <xavier.besnard]neuf.fr>\n"
 "Language-Team: fr\n"
@@ -50,7 +50,7 @@ msgstr "Aucun analyseur n'a accepté les données « XML »"
 msgid "Error while parsing feed"
 msgstr "Erreur durant l'analyse du fil d'actualités"
 
-#: main.cpp:79 qml/AlligatorGlobalDrawer.qml:57
+#: main.cpp:79 qml/AlligatorGlobalDrawer.qml:59
 #, kde-format
 msgid "Alligator"
 msgstr "Alligator"
@@ -100,22 +100,22 @@ msgstr "URL :"
 msgid "Mark entries as read"
 msgstr "Marquer les entrées comme lues"
 
-#: qml/AlligatorGlobalDrawer.qml:88
+#: qml/AlligatorGlobalDrawer.qml:93
 #, kde-format
 msgid "All Feeds"
 msgstr "Tous les fils d'actualité"
 
-#: qml/AlligatorGlobalDrawer.qml:137 qml/SettingsPage.qml:15
+#: qml/AlligatorGlobalDrawer.qml:149 qml/SettingsPage.qml:15
 #, kde-format
 msgid "Settings"
 msgstr "Configuration"
 
-#: qml/AlligatorGlobalDrawer.qml:148
+#: qml/AlligatorGlobalDrawer.qml:160
 #, kde-format
 msgid "Manage Feeds"
 msgstr "Gérer les fils d'actualité"
 
-#: qml/AlligatorGlobalDrawer.qml:159
+#: qml/AlligatorGlobalDrawer.qml:172
 #, kde-format
 msgid "About"
 msgstr "A propos"
@@ -135,7 +135,7 @@ msgstr "Nom d'affichage :"
 msgid "Group:"
 msgstr "Groupe :"
 
-#: qml/EntryListDelegate.qml:59
+#: qml/EntryListDelegate.qml:65
 #, kde-format
 msgctxt "by <author(s)>"
 msgid "by"
@@ -243,20 +243,20 @@ msgstr "Nom :"
 msgid "Description:"
 msgstr "Description :"
 
-#: qml/FeedListDelegate.qml:21
+#: qml/FeedListDelegate.qml:29
 #, kde-format
 msgid "%1 unread entry"
 msgid_plural "%1 unread entries"
 msgstr[0] "Entrée %1 non lue"
 msgstr[1] "Entrées %1 non lues"
 
-#: qml/FeedListDelegate.qml:30
+#: qml/FeedListDelegate.qml:35
 #, kde-format
 msgctxt "'Feed' is an rss feed"
 msgid "Delete this Feed"
 msgstr "Supprimer ce fil d'actualités"
 
-#: qml/FeedListDelegate.qml:43
+#: qml/FeedListDelegate.qml:50
 #, kde-format
 msgctxt "'Feed' is an rss feed"
 msgid "Edit this Feed"
