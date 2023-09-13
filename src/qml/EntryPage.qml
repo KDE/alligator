@@ -51,9 +51,11 @@ Kirigami.ScrollablePage {
         }
     }
 
-    actions.main: Kirigami.Action {
-        text: i18n("Open in Browser")
-        icon.name: "globe"
-        onTriggered: Qt.openUrlExternally(page.link)
-    }
+    actions: [
+        Kirigami.Action {
+            text: i18n("Open in Browser")
+            icon.name: "globe"
+            onTriggered: Qt.openUrlExternally(page.link)
+        }
+    ]
 }
