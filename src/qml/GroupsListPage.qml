@@ -8,7 +8,7 @@ import QtQuick
 import QtQuick.Controls as Controls
 import QtQuick.Layouts
 import org.kde.kirigami as Kirigami
-import org.kde.alligator as Alligator
+import org.kde.alligator
 
 Kirigami.ScrollablePage {
     id: root
@@ -56,13 +56,13 @@ Kirigami.ScrollablePage {
                     icon.name: "delete"
                     enabled: !model.isDefault
 
-                    onTriggered: Alligator.Database.removeFeedGroup(model.name)
+                    onTriggered: Database.removeFeedGroup(model.name)
                 },
                 Kirigami.Action {
                     icon.name: "emblem-default-symbolic"
                     text: i18n("Set as Default")
                     enabled: !model.isDefault
-                    onTriggered: Alligator.Database.setDefaultGroup(model.name)
+                    onTriggered: Database.setDefaultGroup(model.name)
                 }
             ]
         }

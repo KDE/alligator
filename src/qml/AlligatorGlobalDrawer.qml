@@ -13,7 +13,7 @@ import QtQuick.Controls as Controls
 import org.kde.kirigami as Kirigami
 import org.kde.kirigamiaddons.delegates as Delegates
 
-import org.kde.alligator as Alligator
+import org.kde.alligator
 
 Kirigami.GlobalDrawer {
     id: root
@@ -114,13 +114,13 @@ Kirigami.GlobalDrawer {
                 }
             }
 
-            model: Alligator.FeedsProxyModel {
+            model: FeedsProxyModel {
                 id: proxyModel
                 groupName: ""
                 sourceModel: feedsModel
             }
 
-            Alligator.FeedsModel {
+            FeedsModel {
                 id: feedsModel
             }
 
@@ -128,7 +128,7 @@ Kirigami.GlobalDrawer {
                 required property var feed
 
                 text: feed.displayName || feed.name
-                icon.name: feed.refreshing ? "view-refresh" : feed.image === "" ? "rss" : Alligator.Fetcher.image(feed.image)
+                icon.name: feed.refreshing ? "view-refresh" : feed.image === "" ? "rss" : Fetcher.image(feed.image)
                 onClicked: {
                     pageStack.layers.clear();
                     pageStack.clear();

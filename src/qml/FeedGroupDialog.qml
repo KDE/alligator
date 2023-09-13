@@ -8,7 +8,7 @@ import QtQuick
 import QtQuick.Controls as Controls
 import QtQuick.Layouts
 import org.kde.kirigami as Kirigami
-import org.kde.alligator as Alligator
+import org.kde.alligator
 
 Kirigami.Dialog {
     id: root
@@ -27,7 +27,7 @@ Kirigami.Dialog {
     preferredWidth: Kirigami.Units.gridUnit * 20
 
     onAccepted: {
-        Alligator.Database.addFeedGroup(name.text, desc.text);
+        Database.addFeedGroup(name.text, desc.text);
         clearFields();
     }
 
