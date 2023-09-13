@@ -37,10 +37,16 @@ Kirigami.ScrollablePage {
         }
     }
 
-    contextualActions: [
+    actions: [
+        Kirigami.Action {
+            icon.name: "view-refresh"
+            text: i18n("Refresh")
+            onTriggered: page.refreshing = true
+            visible: !Kirigami.Settings.isMobile
+        },
         Kirigami.Action {
             visible: feed !== undefined
-            iconName: "help-about-symbolic"
+            icon.name: "help-about-symbolic"
             text: i18n("Details")
             onTriggered: {
                 while(pageStack.depth > 2)
@@ -49,13 +55,6 @@ Kirigami.ScrollablePage {
             }
         }
     ]
-
-    actions.main: Kirigami.Action {
-        iconName: "view-refresh"
-        text: i18n("Refresh")
-        onTriggered: page.refreshing = true
-        visible: !Kirigami.Settings.isMobile
-    }
 
     titleDelegate: RowLayout {
         spacing: Kirigami.Units.smallSpacing
@@ -131,13 +130,13 @@ Kirigami.ScrollablePage {
             shadow: false
             actions: [
                 Kirigami.Action {
-                    iconName: "mail-read"
+                    icon.name: "mail-read"
                     text: i18n("All")
                     checked: !page.onlyUnread
                     onTriggered: page.onlyUnread = false
                 },
                 Kirigami.Action {
-                    iconName: "mail-mark-unread"
+                    icon.name: "mail-mark-unread"
                     text: i18n("Unread")
                     checked: page.onlyUnread
                     onTriggered: page.onlyUnread = true;

@@ -18,9 +18,9 @@ Kirigami.ScrollablePage {
     title: i18n("Groups")
 
     globalToolBarStyle: Kirigami.ApplicationHeaderStyle.ToolBar
-    contextualActions: [
+    actions: [
         Kirigami.Action {
-            iconName: "list-add"
+            icon.name: "list-add"
             text: i18n("Add Group…")
 
             onTriggered: feedGroupDialog.open()
@@ -53,7 +53,7 @@ Kirigami.ScrollablePage {
             actions: [
                 Kirigami.Action {
                     text: i18n("Remove")
-                    iconName: "delete"
+                    icon.name: "delete"
                     enabled: !model.isDefault
 
                     onTriggered: Alligator.Database.removeFeedGroup(model.name)
