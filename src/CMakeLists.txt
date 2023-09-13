@@ -18,11 +18,11 @@ add_executable(alligator
 kconfig_add_kcfg_files(alligator alligatorsettings.kcfgc GENERATE_MOC)
 
 target_include_directories(alligator PRIVATE ${CMAKE_BINARY_DIR})
-target_link_libraries(alligator PRIVATE Qt::Core Qt::Qml Qt::Quick Qt::QuickControls2 Qt::Sql KF${QT_MAJOR_VERSION}::Syndication KF${QT_MAJOR_VERSION}::CoreAddons KF${QT_MAJOR_VERSION}::ConfigGui KF${QT_MAJOR_VERSION}::I18n)
+target_link_libraries(alligator PRIVATE Qt::Core Qt::Qml Qt::Quick Qt::QuickControls2 Qt::Sql KF6::Syndication KF6::CoreAddons KF6::ConfigGui KF6::I18n)
 
 if(ANDROID)
     target_link_libraries(alligator PRIVATE
-        KF${QT_MAJOR_VERSION}::Kirigami2
+        KF6::Kirigami2
         Qt::Svg
         OpenSSL::SSL
     )

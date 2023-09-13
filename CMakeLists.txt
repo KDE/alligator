@@ -12,11 +12,8 @@ set(RELEASE_SERVICE_VERSION "${RELEASE_SERVICE_VERSION_MAJOR}.${RELEASE_SERVICE_
 
 project(alligator VERSION ${RELEASE_SERVICE_VERSION})
 
-set(KF_MIN_VERSION "5.90.0")
-set(QT_MIN_VERSION "5.15.0")
-if (ANDROID)
-    set(QT_MIN_VERSION "5.15.10")
-endif()
+set(KF_MIN_VERSION "5.240.0")
+set(QT_MIN_VERSION "6.5.0")
 
 find_package(ECM ${KF_MIN_VERSION} REQUIRED NO_MODULE)
 
@@ -35,18 +32,18 @@ ecm_setup_version(${PROJECT_VERSION}
     VERSION_HEADER ${CMAKE_CURRENT_BINARY_DIR}/alligator-version.h
 )
 
-find_package(Qt${QT_MAJOR_VERSION} ${QT_MIN_VERSION} REQUIRED NO_MODULE COMPONENTS Core Quick Test Gui QuickControls2 Sql)
-find_package(KF${QT_MAJOR_VERSION} ${KF_MIN_VERSION} REQUIRED COMPONENTS CoreAddons Syndication Config I18n)
+find_package(Qt6 ${QT_MIN_VERSION} REQUIRED NO_MODULE COMPONENTS Core Quick Test Gui QuickControls2 Sql)
+find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS CoreAddons Syndication Config I18n)
 
-find_package(KF${QT_MAJOR_VERSION}KirigamiAddons 0.6 REQUIRED)
+find_package(KF6KirigamiAddons 0.6 REQUIRED)
 
 if (ANDROID)
-    find_package(Qt${QT_MAJOR_VERSION} ${QT_MIN_VERSION} REQUIRED COMPONENTS Svg)
-    find_package(KF${QT_MAJOR_VERSION} ${KF_MIN_VERSION} REQUIRED COMPONENTS Kirigami2)
+    find_package(Qt6 ${QT_MIN_VERSION} REQUIRED COMPONENTS Svg)
+    find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS Kirigami2)
     find_package(OpenSSL REQUIRED)
     find_package(SQLite3)
 else()
-    find_package(Qt${QT_MAJOR_VERSION} ${QT_MIN_VERSION} REQUIRED COMPONENTS Widgets)
+    find_package(Qt6 ${QT_MIN_VERSION} REQUIRED COMPONENTS Widgets)
 endif()
 
 add_definitions(-DQT_NO_CAST_FROM_ASCII
