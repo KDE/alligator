@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-06 00:45+0000\n"
+"POT-Creation-Date: 2023-09-12 00:45+0000\n"
 "PO-Revision-Date: 2021-02-18 21:44+0100\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
@@ -54,7 +54,7 @@ msgstr ""
 msgid "Error while parsing feed"
 msgstr ""
 
-#: main.cpp:79 qml/AlligatorGlobalDrawer.qml:57
+#: main.cpp:79 qml/AlligatorGlobalDrawer.qml:59
 #, kde-format
 msgid "Alligator"
 msgstr "Alligator"
@@ -104,22 +104,22 @@ msgstr "Adresse:"
 msgid "Mark entries as read"
 msgstr ""
 
-#: qml/AlligatorGlobalDrawer.qml:88
+#: qml/AlligatorGlobalDrawer.qml:93
 #, kde-format
 msgid "All Feeds"
 msgstr ""
 
-#: qml/AlligatorGlobalDrawer.qml:137 qml/SettingsPage.qml:15
+#: qml/AlligatorGlobalDrawer.qml:149 qml/SettingsPage.qml:15
 #, kde-format
 msgid "Settings"
 msgstr "Innstillingar"
 
-#: qml/AlligatorGlobalDrawer.qml:148
+#: qml/AlligatorGlobalDrawer.qml:160
 #, kde-format
 msgid "Manage Feeds"
 msgstr ""
 
-#: qml/AlligatorGlobalDrawer.qml:159
+#: qml/AlligatorGlobalDrawer.qml:172
 #, kde-format
 msgid "About"
 msgstr "Om"
@@ -139,7 +139,7 @@ msgstr ""
 msgid "Group:"
 msgstr ""
 
-#: qml/EntryListDelegate.qml:59
+#: qml/EntryListDelegate.qml:65
 #, kde-format
 msgctxt "by <author(s)>"
 msgid "by"
@@ -247,20 +247,20 @@ msgstr ""
 msgid "Description:"
 msgstr ""
 
-#: qml/FeedListDelegate.qml:21
+#: qml/FeedListDelegate.qml:29
 #, kde-format
 msgid "%1 unread entry"
 msgid_plural "%1 unread entries"
 msgstr[0] "%1 ulesen oppføring"
 msgstr[1] "%1 ulesne oppføringar"
 
-#: qml/FeedListDelegate.qml:30
+#: qml/FeedListDelegate.qml:35
 #, kde-format
 msgctxt "'Feed' is an rss feed"
 msgid "Delete this Feed"
 msgstr ""
 
-#: qml/FeedListDelegate.qml:43
+#: qml/FeedListDelegate.qml:50
 #, kde-format
 msgctxt "'Feed' is an rss feed"
 msgid "Edit this Feed"
