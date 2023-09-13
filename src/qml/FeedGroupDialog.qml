@@ -4,11 +4,11 @@
 * SPDX-License-Identifier: GPL-3.0-or-later
 */
 
-import QtQuick 2.14
-import QtQuick.Controls 2.14 as Controls
-import QtQuick.Layouts 1.14
-import org.kde.kirigami 2.20 as Kirigami
-import org.kde.alligator 1.0 as Alligator
+import QtQuick
+import QtQuick.Controls as Controls
+import QtQuick.Layouts
+import org.kde.kirigami as Kirigami
+import org.kde.alligator as Alligator
 
 Kirigami.Dialog {
     id: root

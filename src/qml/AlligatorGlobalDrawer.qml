@@ -6,14 +6,14 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-import QtQuick 2.14
-import QtQuick.Layouts 1.15
-import QtQuick.Controls 2.14 as Controls
+import QtQuick
+import QtQuick.Layouts
+import QtQuick.Controls as Controls
 
-import org.kde.kirigami 2.20 as Kirigami
-import org.kde.kirigamiaddons.delegates 1.0 as Delegates
+import org.kde.kirigami as Kirigami
+import org.kde.kirigamiaddons.delegates as Delegates
 
-import org.kde.alligator 1.0 as Alligator
+import org.kde.alligator as Alligator
 
 Kirigami.GlobalDrawer {
     id: root

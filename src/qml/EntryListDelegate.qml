@@ -5,14 +5,14 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-import QtQuick 2.15
-import QtQuick.Controls 2.15 as Controls
-import QtQuick.Layouts 1.15
+import QtQuick
+import QtQuick.Controls as Controls
+import QtQuick.Layouts
 
-import org.kde.kirigami 2.20 as Kirigami
-import org.kde.kirigamiaddons.delegates 1.0 as Delegates
+import org.kde.kirigami as Kirigami
+import org.kde.kirigamiaddons.delegates as Delegates
 
-import org.kde.alligator 1.0
+import org.kde.alligator
 
 Delegates.IndicatorItemDelegate {
     id: delegate
