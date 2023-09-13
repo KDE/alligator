@@ -84,23 +84,12 @@ int main(int argc, char *argv[])
     about.addAuthor(i18n("Tobias Fella"), QString(), QStringLiteral("tobias.fella@kde.org"), QStringLiteral("https://tobiasfella.de"));
     KAboutData::setApplicationData(about);
 
-    qmlRegisterType<FeedsModel>("org.kde.alligator", 1, 0, "FeedsModel");
-    qmlRegisterType<FeedGroupsModel>("org.kde.alligator", 1, 0, "FeedGroupsModel");
-    qmlRegisterType<FeedsProxyModel>("org.kde.alligator", 1, 0, "FeedsProxyModel");
-
-    qmlRegisterType<EntriesModel>("org.kde.alligator", 1, 0, "EntriesModel");
-    qmlRegisterType<EntriesProxyModel>("org.kde.alligator", 1, 0, "EntriesProxyModel");
-
-    qmlRegisterType<ContentHelper>("org.kde.alligator", 1, 0, "ContentHelper");
-
-    qmlRegisterSingletonType("org.kde.alligator", 1, 0, "About", [](QQmlEngine *engine, QJSEngine *) -> QJSValue {
+    qmlRegisterSingletonType("org.kde.alligator.about", 1, 0, "About", [](QQmlEngine *engine, QJSEngine *) -> QJSValue {
         return engine->toScriptValue(KAboutData::applicationData());
     });
 
     AlligatorSettings settings;
-    qmlRegisterSingletonInstance("org.kde.alligator", 1, 0, "Config", &settings);
-    qmlRegisterSingletonInstance("org.kde.alligator", 1, 0, "Fetcher", &Fetcher::instance());
-    qmlRegisterSingletonInstance("org.kde.alligator", 1, 0, "Database", &Database::instance());
+    qmlRegisterSingletonInstance("org.kde.alligator.config", 1, 0, "Config", &settings);
 
     QQmlApplicationEngine engine;
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
@@ -124,7 +113,7 @@ int main(int argc, char *argv[])
 
     Database::instance();
 
-    engine.load(QUrl(QStringLiteral("qrc:///main.qml")));
+    engine.load(QUrl(QStringLiteral("qrc:/qml/main.qml")));
 
     if (engine.rootObjects().isEmpty()) {
         return -1;

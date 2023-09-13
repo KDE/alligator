@@ -4,11 +4,13 @@
 #pragma once
 
 #include <QObject>
+#include <QQmlEngine>
 #include <QUrl>
 
 class ContentHelper : public QObject
 {
     Q_OBJECT
+    QML_ELEMENT
 
 public:
     explicit ContentHelper(QObject *parent = nullptr);

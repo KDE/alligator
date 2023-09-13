@@ -10,6 +10,8 @@ import QtQuick.Controls as Controls
 import org.kde.kirigami as Kirigami
 import org.kde.kirigamiaddons.formcard as FormCard
 import org.kde.alligator
+import org.kde.alligator.config
+import org.kde.alligator.about
 
 Kirigami.ApplicationWindow {
     id: root

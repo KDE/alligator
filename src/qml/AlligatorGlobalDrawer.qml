@@ -132,7 +132,7 @@ Kirigami.GlobalDrawer {
                 onClicked: {
                     pageStack.layers.clear();
                     pageStack.clear();
-                    pageStack.push("qrc:/EntryListPage.qml", {feed: feed})
+                    pageStack.push("qrc:/qml/EntryListPage.qml", {feed: feed})
                 }
             }
         }
@@ -151,7 +151,7 @@ Kirigami.GlobalDrawer {
             onClicked: {
                 pageStack.layers.clear();
                 pageStack.clear();
-                pageStack.push("qrc:/SettingsPage.qml");
+                pageStack.push("qrc:/qml/SettingsPage.qml");
             }
         }
 

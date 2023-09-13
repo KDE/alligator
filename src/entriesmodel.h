@@ -9,6 +9,7 @@
 #include <QAbstractListModel>
 #include <QList>
 #include <QObject>
+#include <QQmlEngine>
 #include <QString>
 
 #include "feed.h"
@@ -28,6 +29,7 @@ struct Entry {
 class EntriesModel : public QAbstractListModel
 {
     Q_OBJECT
+    QML_ELEMENT
 
     Q_PROPERTY(QString feedUrl READ feedUrl WRITE setFeedUrl NOTIFY feedUrlChanged)
 

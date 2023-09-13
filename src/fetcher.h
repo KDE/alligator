@@ -8,12 +8,15 @@
 
 #include <QNetworkAccessManager>
 #include <QObject>
+#include <QQmlEngine>
 #include <QUrl>
 #include <Syndication/Syndication>
 
 class Fetcher : public QObject
 {
     Q_OBJECT
+    QML_ELEMENT
+    QML_SINGLETON
 
     Q_PROPERTY(bool refreshing READ refreshing NOTIFY refreshingChanged)
 
@@ -22,6 +25,11 @@ public:
     {
         static Fetcher _instance;
         return _instance;
+    }
+
+    static Fetcher *create(QQmlEngine *, QJSEngine *)
+    {
+        return &instance();
     }
     Q_INVOKABLE void fetch(const QString &url, const bool markEntriesRead = false);
     Q_INVOKABLE void fetchAll();

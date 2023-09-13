@@ -7,17 +7,25 @@
 #pragma once
 
 #include <QObject>
+#include <QQmlEngine>
 #include <QSqlQuery>
 
 class Database : public QObject
 {
     Q_OBJECT
+    QML_ELEMENT
+    QML_SINGLETON
 
 public:
     static Database &instance()
     {
         static Database _instance;
         return _instance;
+    }
+
+    static Database *create(QQmlEngine *, QJSEngine *)
+    {
+        return &instance();
     }
     bool execute(QSqlQuery &query);
     bool execute(const QString &query);

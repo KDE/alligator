@@ -35,7 +35,7 @@ Delegates.IndicatorItemDelegate {
             pageStack.pop()
         }
 
-        pageStack.push("qrc:/EntryPage.qml", {
+        pageStack.push("qrc:/qml/EntryPage.qml", {
             feedTitle : feedTitle,
             entryId: delegate.id,
             content: delegate.content,
