@@ -80,7 +80,7 @@ int main(int argc, char *argv[])
                      QStringLiteral(ALLIGATOR_VERSION_STRING),
                      i18n("Feed Reader"),
                      KAboutLicense::GPL,
-                     i18n("© 2020-2022 KDE Community"));
+                     i18n("© 2020-2023 KDE Community"));
     about.addAuthor(i18n("Tobias Fella"), QString(), QStringLiteral("tobias.fella@kde.org"), QStringLiteral("https://tobiasfella.de"));
     KAboutData::setApplicationData(about);
 
