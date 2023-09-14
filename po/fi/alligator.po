@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-12 00:45+0000\n"
+"POT-Creation-Date: 2023-09-14 01:54+0000\n"
 "PO-Revision-Date: 2023-03-12 15:13+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -63,8 +63,9 @@ msgid "Feed Reader"
 msgstr "Syötteenlukija"
 
 #: main.cpp:83
-#, kde-format
-msgid "© 2020-2022 KDE Community"
+#, fuzzy, kde-format
+#| msgid "© 2020-2022 KDE Community"
+msgid "© 2020-2023 KDE Community"
 msgstr "© 2020–2022 KDE-yhteisö"
 
 #: main.cpp:84
@@ -72,17 +73,17 @@ msgstr "© 2020–2022 KDE-yhteisö"
 msgid "Tobias Fella"
 msgstr "Tobias Fella"
 
-#: main.cpp:109
+#: main.cpp:98
 #, kde-format
 msgid "RSS/Atom Feed Reader"
 msgstr "RSS/Atom-syötelukija"
 
-#: main.cpp:111
+#: main.cpp:100
 #, kde-format
 msgid "Adds a new feed to database."
 msgstr "Lisää tietokantaan uuden syötteen."
 
-#: main.cpp:112
+#: main.cpp:101
 #, kde-format
 msgid "feed URL"
 msgstr "syötteen verkko-osoite"
@@ -107,7 +108,7 @@ msgstr "Merkitse kohteet luetuiksi"
 msgid "All Feeds"
 msgstr "Kaikki syötteet"
 
-#: qml/AlligatorGlobalDrawer.qml:149 qml/SettingsPage.qml:15
+#: qml/AlligatorGlobalDrawer.qml:149 qml/SettingsPage.qml:21
 #, kde-format
 msgid "Settings"
 msgstr "Asetukset"
@@ -143,62 +144,62 @@ msgctxt "by <author(s)>"
 msgid "by"
 msgstr "tekijältä"
 
-#: qml/EntryListPage.qml:44
-#, kde-format
-msgid "Details"
-msgstr "Tiedot"
-
-#: qml/EntryListPage.qml:55
+#: qml/EntryListPage.qml:43
 #, kde-format
 msgid "Refresh"
 msgstr "Virkistä"
 
-#: qml/EntryListPage.qml:64
+#: qml/EntryListPage.qml:50
+#, kde-format
+msgid "Details"
+msgstr "Tiedot"
+
+#: qml/EntryListPage.qml:63
 #, kde-format
 msgid "Expand sidebar"
 msgstr "Laajenna sivupaneeli"
 
-#: qml/EntryListPage.qml:64
+#: qml/EntryListPage.qml:63
 #, kde-format
 msgid "Collapse sidebar"
 msgstr "Supista sivupaneeli"
 
-#: qml/EntryListPage.qml:76
+#: qml/EntryListPage.qml:75
 #, kde-format
 msgid "All Entries"
 msgstr "Kaikki kohteet"
 
-#: qml/EntryListPage.qml:84
+#: qml/EntryListPage.qml:83
 #, kde-format
 msgid "Error"
 msgstr "Virhe"
 
-#: qml/EntryListPage.qml:85 qml/EntryListPage.qml:97
+#: qml/EntryListPage.qml:84 qml/EntryListPage.qml:96
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "Virhe (%1): %2"
 
-#: qml/EntryListPage.qml:95
+#: qml/EntryListPage.qml:94
 #, kde-format
 msgid "No unread entries available"
 msgstr "Ei kohteita lukematta"
 
-#: qml/EntryListPage.qml:95
+#: qml/EntryListPage.qml:94
 #, kde-format
 msgid "No entries available"
 msgstr "Ei kohteita saatavilla"
 
-#: qml/EntryListPage.qml:135
+#: qml/EntryListPage.qml:134
 #, kde-format
 msgid "All"
 msgstr "Kaikki"
 
-#: qml/EntryListPage.qml:141
+#: qml/EntryListPage.qml:140
 #, kde-format
 msgid "Unread"
 msgstr "Lukematta"
 
-#: qml/EntryPage.qml:55
+#: qml/EntryPage.qml:56
 #, kde-format
 msgid "Open in Browser"
 msgstr "Avaa selaimeen"
@@ -277,55 +278,55 @@ msgstr "Virkistä kaikki syötteet"
 
 #: qml/FeedListPage.qml:35
 #, kde-format
+msgid "Add Feed…"
+msgstr "Lisää syöte…"
+
+#: qml/FeedListPage.qml:42
+#, kde-format
 msgid "Manage Feed Groups"
 msgstr "Hallinnoi syöteryhmiä"
 
-#: qml/FeedListPage.qml:40
+#: qml/FeedListPage.qml:47
 #, kde-format
 msgid "Import Feeds…"
 msgstr "Tuo syötteitä…"
 
-#: qml/FeedListPage.qml:45
+#: qml/FeedListPage.qml:52
 #, kde-format
 msgid "Export Feeds…"
 msgstr "Vie syötteitä…"
 
-#: qml/FeedListPage.qml:69
-#, kde-format
-msgid "Add Feed…"
-msgstr "Lisää syöte…"
-
-#: qml/FeedListPage.qml:83
+#: qml/FeedListPage.qml:82
 #, kde-format
 msgid "No feeds added yet"
 msgstr "Ei vielä lisättyjä syötteitä"
 
-#: qml/FeedListPage.qml:120
+#: qml/FeedListPage.qml:119
 #, kde-format
 msgid "Import Feeds"
 msgstr "Tuo syötteitä"
 
-#: qml/FeedListPage.qml:122
+#: qml/FeedListPage.qml:121
 #, kde-format
 msgid "All Files (*)"
 msgstr "Kaikki tiedostot (*)"
 
-#: qml/FeedListPage.qml:122
+#: qml/FeedListPage.qml:121
 #, kde-format
 msgid "XML Files (*.xml)"
 msgstr "XML-tiedostot (*.xml)"
 
-#: qml/FeedListPage.qml:122
+#: qml/FeedListPage.qml:121
 #, kde-format
 msgid "OPML Files (*.opml)"
 msgstr "OPML-tiedostot (*.opml)"
 
-#: qml/FeedListPage.qml:128
+#: qml/FeedListPage.qml:127
 #, kde-format
 msgid "Export Feeds"
 msgstr "Vie syötteitä"
 
-#: qml/FeedListPage.qml:130
+#: qml/FeedListPage.qml:129
 #, kde-format
 msgid "All Files"
 msgstr "Kaikki tiedostot"
@@ -360,52 +361,54 @@ msgstr "Ryhmiä ei toistaiseksi ole"
 msgid "Add Group"
 msgstr "Lisää ryhmä"
 
-#: qml/SettingsPage.qml:21
-#, kde-format
+#: qml/SettingsPage.qml:24
+#, fuzzy, kde-format
+#| msgid "Article List"
+msgctxt "@title"
 msgid "Article List"
 msgstr "Artikkeliluettelo"
 
-#: qml/SettingsPage.qml:25
+#: qml/SettingsPage.qml:33
 #, kde-format
 msgid "Delete after:"
 msgstr "Poista ajassa:"
 
-#: qml/SettingsPage.qml:38
+#: qml/SettingsPage.qml:46
 #, kde-format
 msgid "Never"
 msgstr "Ei koskaan"
 
-#: qml/SettingsPage.qml:38
+#: qml/SettingsPage.qml:46
 #, kde-format
 msgid "Articles"
 msgstr "Artikkelit"
 
-#: qml/SettingsPage.qml:38
+#: qml/SettingsPage.qml:46
 #, kde-format
 msgid "Days"
 msgstr "päivää"
 
-#: qml/SettingsPage.qml:38
+#: qml/SettingsPage.qml:46
 #, kde-format
 msgid "Weeks"
 msgstr "viikkoa"
 
-#: qml/SettingsPage.qml:38
+#: qml/SettingsPage.qml:46
 #, kde-format
 msgid "Months"
 msgstr "kuukautta"
 
-#: qml/SettingsPage.qml:46
+#: qml/SettingsPage.qml:55
 #, kde-format
 msgid "Article"
 msgstr "Artikkeli"
 
-#: qml/SettingsPage.qml:54
+#: qml/SettingsPage.qml:62
 #, kde-format
 msgid "Font size:"
 msgstr "Fonttikoko:"
 
-#: qml/SettingsPage.qml:65
+#: qml/SettingsPage.qml:71
 #, kde-format
 msgid "Use system default"
 msgstr "Käytä järjestelmän oletusta"

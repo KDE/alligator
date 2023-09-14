@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-12 00:45+0000\n"
+"POT-Creation-Date: 2023-09-14 01:54+0000\n"
 "PO-Revision-Date: 2021-05-01 23:10-0700\n"
 "Last-Translator: A S Alam <aalam@satluj.org>\n"
 "Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
@@ -65,7 +65,7 @@ msgstr "ਫੀਡ ਰੀਡਰ"
 #: main.cpp:83
 #, fuzzy, kde-format
 #| msgid "© 2020 KDE Community"
-msgid "© 2020-2022 KDE Community"
+msgid "© 2020-2023 KDE Community"
 msgstr "© 2020 ਕੇਡੀਈ ਕਮਿਊਨਟੀ"
 
 #: main.cpp:84
@@ -73,17 +73,17 @@ msgstr "© 2020 ਕੇਡੀਈ ਕਮਿਊਨਟੀ"
 msgid "Tobias Fella"
 msgstr "ਟੋਬਿਸ ਫੇਲਾ"
 
-#: main.cpp:109
+#: main.cpp:98
 #, kde-format
 msgid "RSS/Atom Feed Reader"
 msgstr "RSS/ਅਟੈਮ ਫੀਡ ਰੀਡਰ"
 
-#: main.cpp:111
+#: main.cpp:100
 #, kde-format
 msgid "Adds a new feed to database."
 msgstr "ਨਵੀਂ ਫੀਡ ਡਾਟਾਬੇਸ ਵਿੱਚ ਜੋੜੋ।"
 
-#: main.cpp:112
+#: main.cpp:101
 #, kde-format
 msgid "feed URL"
 msgstr "ਫੀਡ URL"
@@ -108,7 +108,7 @@ msgstr ""
 msgid "All Feeds"
 msgstr "ਸਭ ਫੀਡਾਂ"
 
-#: qml/AlligatorGlobalDrawer.qml:149 qml/SettingsPage.qml:15
+#: qml/AlligatorGlobalDrawer.qml:149 qml/SettingsPage.qml:21
 #, kde-format
 msgid "Settings"
 msgstr "ਸੈਟਿੰਗਾਂ"
@@ -144,66 +144,66 @@ msgctxt "by <author(s)>"
 msgid "by"
 msgstr "ਵਲੋਂ"
 
-#: qml/EntryListPage.qml:44
-#, kde-format
-msgid "Details"
-msgstr "ਵੇਰਵੇ"
-
-#: qml/EntryListPage.qml:55
+#: qml/EntryListPage.qml:43
 #, fuzzy, kde-format
 #| msgid "Refresh Feed"
 msgid "Refresh"
 msgstr "ਫੀਡ ਤਾਜ਼ਾ ਕਰੋ"
 
-#: qml/EntryListPage.qml:64
+#: qml/EntryListPage.qml:50
+#, kde-format
+msgid "Details"
+msgstr "ਵੇਰਵੇ"
+
+#: qml/EntryListPage.qml:63
 #, kde-format
 msgid "Expand sidebar"
 msgstr ""
 
-#: qml/EntryListPage.qml:64
+#: qml/EntryListPage.qml:63
 #, kde-format
 msgid "Collapse sidebar"
 msgstr ""
 
-#: qml/EntryListPage.qml:76
+#: qml/EntryListPage.qml:75
 #, fuzzy, kde-format
 #| msgid "All Files"
 msgid "All Entries"
 msgstr "ਸਭ ਫਾਇਲਾਂ"
 
-#: qml/EntryListPage.qml:84
+#: qml/EntryListPage.qml:83
 #, kde-format
 msgid "Error"
 msgstr ""
 
-#: qml/EntryListPage.qml:85 qml/EntryListPage.qml:97
+#: qml/EntryListPage.qml:84 qml/EntryListPage.qml:96
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "ਗ਼ਲਤੀ (%1): %2"
 
-#: qml/EntryListPage.qml:95
+#: qml/EntryListPage.qml:94
 #, fuzzy, kde-format
 #| msgid "No Entries available"
 msgid "No unread entries available"
 msgstr "ਕੋਈ ਐਂਟਰੀ ਮੌਜੂਦ ਨਹੀਂ ਹੈ"
 
-#: qml/EntryListPage.qml:95
+#: qml/EntryListPage.qml:94
 #, fuzzy, kde-format
 #| msgid "No Entries available"
 msgid "No entries available"
 msgstr "ਕੋਈ ਐਂਟਰੀ ਮੌਜੂਦ ਨਹੀਂ ਹੈ"
 
-#: qml/EntryListPage.qml:135
+#: qml/EntryListPage.qml:134
 #, kde-format
 msgid "All"
 msgstr ""
 
-#: qml/EntryListPage.qml:141
+#: qml/EntryListPage.qml:140
 #, kde-format
 msgid "Unread"
 msgstr ""
 
-#: qml/EntryPage.qml:55
+#: qml/EntryPage.qml:56
 #, kde-format
 msgid "Open in Browser"
 msgstr "ਬਰਾਊਜ਼ਰ 'ਚ ਖੋਲ੍ਹੋ"
@@ -287,60 +287,60 @@ msgstr "ਸਭ ਫੀਡ ਤਾਜ਼ਾ ਕਰੋ"
 
 #: qml/FeedListPage.qml:35
 #, fuzzy, kde-format
+#| msgid "Add Feed"
+msgid "Add Feed…"
+msgstr "ਫੀਡ ਜੋੜੋ"
+
+#: qml/FeedListPage.qml:42
+#, fuzzy, kde-format
 #| msgid "Feed Groups"
 msgid "Manage Feed Groups"
 msgstr "ਫੀਡ ਦੇ ਗਰੁੱਪ"
 
-#: qml/FeedListPage.qml:40
+#: qml/FeedListPage.qml:47
 #, fuzzy, kde-format
 #| msgid "Import Feeds"
 msgid "Import Feeds…"
 msgstr "ਫੀਡ ਦਰਾਮਦ ਕਰੋ"
 
-#: qml/FeedListPage.qml:45
+#: qml/FeedListPage.qml:52
 #, fuzzy, kde-format
 #| msgid "Export Feeds"
 msgid "Export Feeds…"
 msgstr "ਫੀਡ ਬਰਾਮਦ ਕਰੋ"
 
-#: qml/FeedListPage.qml:69
-#, fuzzy, kde-format
-#| msgid "Add Feed"
-msgid "Add Feed…"
-msgstr "ਫੀਡ ਜੋੜੋ"
-
-#: qml/FeedListPage.qml:83
+#: qml/FeedListPage.qml:82
 #, fuzzy, kde-format
 #| msgid "No Feeds added yet"
 msgid "No feeds added yet"
 msgstr "ਹਾਲੇ ਕੋਈ ਫੀਡ ਨਹੀਂ ਹੈ"
 
-#: qml/FeedListPage.qml:120
+#: qml/FeedListPage.qml:119
 #, kde-format
 msgid "Import Feeds"
 msgstr "ਫੀਡ ਦਰਾਮਦ ਕਰੋ"
 
-#: qml/FeedListPage.qml:122
+#: qml/FeedListPage.qml:121
 #, kde-format
 msgid "All Files (*)"
 msgstr "ਸਭ ਫਾਇਲਾਂ (*)"
 
-#: qml/FeedListPage.qml:122
+#: qml/FeedListPage.qml:121
 #, kde-format
 msgid "XML Files (*.xml)"
 msgstr "XML ਫਾਇਲਾਂ (*.xml)"
 
-#: qml/FeedListPage.qml:122
+#: qml/FeedListPage.qml:121
 #, kde-format
 msgid "OPML Files (*.opml)"
 msgstr "OPML ਫਾਇਲਾਂ (*.opml)"
 
-#: qml/FeedListPage.qml:128
+#: qml/FeedListPage.qml:127
 #, kde-format
 msgid "Export Feeds"
 msgstr "ਫੀਡ ਬਰਾਮਦ ਕਰੋ"
 
-#: qml/FeedListPage.qml:130
+#: qml/FeedListPage.qml:129
 #, kde-format
 msgid "All Files"
 msgstr "ਸਭ ਫਾਇਲਾਂ"
@@ -377,52 +377,54 @@ msgstr "ਹਾਲੇ ਕੋਈ ਗਰੁੱਪ ਨਹੀਂ ਬਣਾਇਆ"
 msgid "Add Group"
 msgstr "ਗਰੁੱਪ ਜੋੜੋ"
 
-#: qml/SettingsPage.qml:21
-#, kde-format
+#: qml/SettingsPage.qml:24
+#, fuzzy, kde-format
+#| msgid "Article List"
+msgctxt "@title"
 msgid "Article List"
 msgstr "ਲੇਖ ਦੀ ਸੂਚੀ"
 
-#: qml/SettingsPage.qml:25
+#: qml/SettingsPage.qml:33
 #, kde-format
 msgid "Delete after:"
 msgstr "ਇਸ ਦੇ ਬਾਅਦ ਹਟਾਓ:"
 
-#: qml/SettingsPage.qml:38
+#: qml/SettingsPage.qml:46
 #, kde-format
 msgid "Never"
 msgstr "ਕਦੇ ਨਹੀਂ"
 
-#: qml/SettingsPage.qml:38
+#: qml/SettingsPage.qml:46
 #, kde-format
 msgid "Articles"
 msgstr "ਲੇਖ"
 
-#: qml/SettingsPage.qml:38
+#: qml/SettingsPage.qml:46
 #, kde-format
 msgid "Days"
 msgstr "ਦਿਨ"
 
-#: qml/SettingsPage.qml:38
+#: qml/SettingsPage.qml:46
 #, kde-format
 msgid "Weeks"
 msgstr "ਹਫ਼ਤੇ"
 
-#: qml/SettingsPage.qml:38
+#: qml/SettingsPage.qml:46
 #, kde-format
 msgid "Months"
 msgstr "ਮਹੀਨੇ"
 
-#: qml/SettingsPage.qml:46
+#: qml/SettingsPage.qml:55
 #, kde-format
 msgid "Article"
 msgstr "ਲੇਖ"
 
-#: qml/SettingsPage.qml:54
+#: qml/SettingsPage.qml:62
 #, kde-format
 msgid "Font size:"
 msgstr "ਫੋਂਟ ਦਾ ਆਕਾਰ:"
 
-#: qml/SettingsPage.qml:65
+#: qml/SettingsPage.qml:71
 #, kde-format
 msgid "Use system default"
 msgstr "ਸਿਸਟਮ ਦੇ ਮੂਲ ਵਰਤੋਂ"

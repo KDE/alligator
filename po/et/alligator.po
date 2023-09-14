@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-12 00:45+0000\n"
+"POT-Creation-Date: 2023-09-14 01:54+0000\n"
 "PO-Revision-Date: 2020-09-28 02:26+0200\n"
 "Last-Translator: Mihkel Tõnnov <mihhkel@gmail.com>\n"
 "Language-Team: Estonian <>\n"
@@ -66,7 +66,7 @@ msgstr "Uudistelugeja"
 #: main.cpp:83
 #, fuzzy, kde-format
 #| msgid "© 2020 KDE Community"
-msgid "© 2020-2022 KDE Community"
+msgid "© 2020-2023 KDE Community"
 msgstr "© 2020: KDE kogukond"
 
 #: main.cpp:84
@@ -74,17 +74,17 @@ msgstr "© 2020: KDE kogukond"
 msgid "Tobias Fella"
 msgstr "Tobias Fella"
 
-#: main.cpp:109
+#: main.cpp:98
 #, kde-format
 msgid "RSS/Atom Feed Reader"
 msgstr "RSS-voogude uudistelugeja"
 
-#: main.cpp:111
+#: main.cpp:100
 #, kde-format
 msgid "Adds a new feed to database."
 msgstr ""
 
-#: main.cpp:112
+#: main.cpp:101
 #, kde-format
 msgid "feed URL"
 msgstr ""
@@ -110,7 +110,7 @@ msgstr ""
 msgid "All Feeds"
 msgstr "Kõik vood"
 
-#: qml/AlligatorGlobalDrawer.qml:149 qml/SettingsPage.qml:15
+#: qml/AlligatorGlobalDrawer.qml:149 qml/SettingsPage.qml:21
 #, kde-format
 msgid "Settings"
 msgstr "Seadistused"
@@ -147,66 +147,66 @@ msgctxt "by <author(s)>"
 msgid "by"
 msgstr "autor:"
 
-#: qml/EntryListPage.qml:44
-#, kde-format
-msgid "Details"
-msgstr "Üksikasjad"
-
-#: qml/EntryListPage.qml:55
+#: qml/EntryListPage.qml:43
 #, fuzzy, kde-format
 #| msgid "Refresh Feed"
 msgid "Refresh"
 msgstr "Värskenda voogu"
 
-#: qml/EntryListPage.qml:64
+#: qml/EntryListPage.qml:50
+#, kde-format
+msgid "Details"
+msgstr "Üksikasjad"
+
+#: qml/EntryListPage.qml:63
 #, kde-format
 msgid "Expand sidebar"
 msgstr ""
 
-#: qml/EntryListPage.qml:64
+#: qml/EntryListPage.qml:63
 #, kde-format
 msgid "Collapse sidebar"
 msgstr ""
 
-#: qml/EntryListPage.qml:76
+#: qml/EntryListPage.qml:75
 #, fuzzy, kde-format
 #| msgid "All Files"
 msgid "All Entries"
 msgstr "Kõik vood"
 
-#: qml/EntryListPage.qml:84
+#: qml/EntryListPage.qml:83
 #, kde-format
 msgid "Error"
 msgstr ""
 
-#: qml/EntryListPage.qml:85 qml/EntryListPage.qml:97
+#: qml/EntryListPage.qml:84 qml/EntryListPage.qml:96
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "Tõrge (%1): %2"
 
-#: qml/EntryListPage.qml:95
+#: qml/EntryListPage.qml:94
 #, fuzzy, kde-format
 #| msgid "No Entries available."
 msgid "No unread entries available"
 msgstr "Kirjeid pole saada."
 
-#: qml/EntryListPage.qml:95
+#: qml/EntryListPage.qml:94
 #, fuzzy, kde-format
 #| msgid "No Entries available."
 msgid "No entries available"
 msgstr "Kirjeid pole saada."
 
-#: qml/EntryListPage.qml:135
+#: qml/EntryListPage.qml:134
 #, kde-format
 msgid "All"
 msgstr ""
 
-#: qml/EntryListPage.qml:141
+#: qml/EntryListPage.qml:140
 #, kde-format
 msgid "Unread"
 msgstr ""
 
-#: qml/EntryPage.qml:55
+#: qml/EntryPage.qml:56
 #, kde-format
 msgid "Open in Browser"
 msgstr "Ava veebilehitsejas"
@@ -287,60 +287,60 @@ msgid "Refresh All Feeds"
 msgstr "Värskenda kõiki vooge"
 
 #: qml/FeedListPage.qml:35
-#, kde-format
-msgid "Manage Feed Groups"
-msgstr ""
-
-#: qml/FeedListPage.qml:40
-#, fuzzy, kde-format
-#| msgid "Import Feeds"
-msgid "Import Feeds…"
-msgstr "Uudistevoogude import"
-
-#: qml/FeedListPage.qml:45
-#, fuzzy, kde-format
-#| msgid "Export Feeds"
-msgid "Export Feeds…"
-msgstr "Uudistevoogude eksport"
-
-#: qml/FeedListPage.qml:69
 #, fuzzy, kde-format
 #| msgid "Add Feed"
 msgid "Add Feed…"
 msgstr "Lisa voog"
 
-#: qml/FeedListPage.qml:83
+#: qml/FeedListPage.qml:42
+#, kde-format
+msgid "Manage Feed Groups"
+msgstr ""
+
+#: qml/FeedListPage.qml:47
+#, fuzzy, kde-format
+#| msgid "Import Feeds"
+msgid "Import Feeds…"
+msgstr "Uudistevoogude import"
+
+#: qml/FeedListPage.qml:52
+#, fuzzy, kde-format
+#| msgid "Export Feeds"
+msgid "Export Feeds…"
+msgstr "Uudistevoogude eksport"
+
+#: qml/FeedListPage.qml:82
 #, fuzzy, kde-format
 #| msgid "No Feeds added yet."
 msgid "No feeds added yet"
 msgstr "Ühtegi voogu pole veel lisatud."
 
-#: qml/FeedListPage.qml:120
+#: qml/FeedListPage.qml:119
 #, kde-format
 msgid "Import Feeds"
 msgstr "Uudistevoogude import"
 
-#: qml/FeedListPage.qml:122
+#: qml/FeedListPage.qml:121
 #, kde-format
 msgid "All Files (*)"
 msgstr "Kõik failid (*)"
 
-#: qml/FeedListPage.qml:122
+#: qml/FeedListPage.qml:121
 #, kde-format
 msgid "XML Files (*.xml)"
 msgstr "XML-failid (*.xml)"
 
-#: qml/FeedListPage.qml:122
+#: qml/FeedListPage.qml:121
 #, kde-format
 msgid "OPML Files (*.opml)"
 msgstr "OPML-failid (*.opml)"
 
-#: qml/FeedListPage.qml:128
+#: qml/FeedListPage.qml:127
 #, kde-format
 msgid "Export Feeds"
 msgstr "Uudistevoogude eksport"
 
-#: qml/FeedListPage.qml:130
+#: qml/FeedListPage.qml:129
 #, kde-format
 msgid "All Files"
 msgstr "Kõik vood"
@@ -376,53 +376,54 @@ msgstr "Ühtegi voogu pole veel lisatud."
 msgid "Add Group"
 msgstr ""
 
-#: qml/SettingsPage.qml:21
+#: qml/SettingsPage.qml:24
 #, kde-format
+msgctxt "@title"
 msgid "Article List"
 msgstr ""
 
-#: qml/SettingsPage.qml:25
+#: qml/SettingsPage.qml:33
 #, fuzzy, kde-format
 #| msgid "Delete posts after:"
 msgid "Delete after:"
 msgstr "Postitused kustutatakse:"
 
-#: qml/SettingsPage.qml:38
+#: qml/SettingsPage.qml:46
 #, kde-format
 msgid "Never"
 msgstr "Mitte kunagi"
 
-#: qml/SettingsPage.qml:38
+#: qml/SettingsPage.qml:46
 #, kde-format
 msgid "Articles"
 msgstr ""
 
-#: qml/SettingsPage.qml:38
+#: qml/SettingsPage.qml:46
 #, kde-format
 msgid "Days"
 msgstr "päeva järel"
 
-#: qml/SettingsPage.qml:38
+#: qml/SettingsPage.qml:46
 #, kde-format
 msgid "Weeks"
 msgstr "nädala järel"
 
-#: qml/SettingsPage.qml:38
+#: qml/SettingsPage.qml:46
 #, kde-format
 msgid "Months"
 msgstr "kuu järel"
 
-#: qml/SettingsPage.qml:46
+#: qml/SettingsPage.qml:55
 #, kde-format
 msgid "Article"
 msgstr ""
 
-#: qml/SettingsPage.qml:54
+#: qml/SettingsPage.qml:62
 #, kde-format
 msgid "Font size:"
 msgstr ""
 
-#: qml/SettingsPage.qml:65
+#: qml/SettingsPage.qml:71
 #, kde-format
 msgid "Use system default"
 msgstr ""
