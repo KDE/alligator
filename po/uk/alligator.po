@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-09-14 01:54+0000\n"
-"PO-Revision-Date: 2023-02-22 08:35+0200\n"
+"PO-Revision-Date: 2023-09-14 12:03+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -66,10 +66,9 @@ msgid "Feed Reader"
 msgstr "Програма для читання подач"
 
 #: main.cpp:83
-#, fuzzy, kde-format
-#| msgid "© 2020-2022 KDE Community"
+#, kde-format
 msgid "© 2020-2023 KDE Community"
-msgstr "© Спільнота KDE, 2020–2022"
+msgstr "© Спільнота KDE, 2020–2023"
 
 #: main.cpp:84
 #, kde-format
@@ -367,8 +366,7 @@ msgid "Add Group"
 msgstr "Додати групу"
 
 #: qml/SettingsPage.qml:24
-#, fuzzy, kde-format
-#| msgid "Article List"
+#, kde-format
 msgctxt "@title"
 msgid "Article List"
 msgstr "Список статей"

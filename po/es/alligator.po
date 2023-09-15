@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the alligator package.
 #
 # Automatically generated, 2020.
-# Eloy Cuadra <ecuadra@eloihr.net>, 2020, 2021, 2022, 2023.
+# SPDX-FileCopyrightText: 2020, 2021, 2022, 2023 Eloy Cuadra <ecuadra@eloihr.net>
 msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-09-14 01:54+0000\n"
-"PO-Revision-Date: 2023-02-22 20:44+0100\n"
+"PO-Revision-Date: 2023-09-14 04:54+0200\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 22.12.2\n"
+"X-Generator: Lokalize 23.08.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -65,10 +65,9 @@ msgid "Feed Reader"
 msgstr "Lector de emisiones web"
 
 #: main.cpp:83
-#, fuzzy, kde-format
-#| msgid "© 2020-2022 KDE Community"
+#, kde-format
 msgid "© 2020-2023 KDE Community"
-msgstr "© 2020-2022 La comunidad KDE"
+msgstr "© 2020-2023 La comunidad KDE"
 
 #: main.cpp:84
 #, kde-format
@@ -364,8 +363,7 @@ msgid "Add Group"
 msgstr "Añadir grupo"
 
 #: qml/SettingsPage.qml:24
-#, fuzzy, kde-format
-#| msgid "Article List"
+#, kde-format
 msgctxt "@title"
 msgid "Article List"
 msgstr "Lista de artículos"

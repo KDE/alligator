@@ -1,71 +1,72 @@
-# Copyright (C) 2023 This file is copyright:
+# translation of alligator.pot to esperanto
+# Copyright (C) 2023 Free Software Foundation, Inc.
 # This file is distributed under the same license as the alligator package.
+# Oliver Kellogg <okellogg@users.sourceforge.net, 2023.
 #
-# SPDX-FileCopyrightText: 2020, 2021, 2022, 2023 Freek de Kruijf <freekdekruijf@kde.nl>
 msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-09-14 01:54+0000\n"
-"PO-Revision-Date: 2023-09-14 09:43+0200\n"
-"Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
-"Language-Team: \n"
-"Language: nl\n"
+"PO-Revision-Date: 2023-09-14 23:18+0100\n"
+"Last-Translator: Oliver Kellogg <okellogg@users.sourceforge.net>\n"
+"Language-Team: Esperanto <kde-i18n-eo@kde.org>\n"
+"Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: translate-po (https://github.com/zcribe/translate-po)\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.08.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Freek de Kruijf - 2020-2023"
+msgstr "Oliver Kellogg"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "freekdekruijf@kde.nl"
+msgstr "okellogg@users.sourceforge.net"
 
 #: database.cpp:67 database.cpp:313
 #, kde-format
 msgid "Default"
-msgstr "Standaard"
+msgstr "Defaŭlte"
 
 #: database.cpp:68 database.cpp:314
 #, kde-format
 msgid "Default Feed Group"
-msgstr "Standaard feed-groep"
+msgstr "Defaŭlta Feed Group"
 
 #: fetcher.cpp:241
 #, kde-format
 msgid "Invalid XML"
-msgstr "Ongeldige XML"
+msgstr "Nevalida XML"
 
 #: fetcher.cpp:243
 #, kde-format
 msgid "No parser accepted the XML"
-msgstr "Geen ontleder accepteerde de XML"
+msgstr "Neniu analizilo akceptis la XML"
 
 #: fetcher.cpp:245
 #, kde-format
 msgid "Error while parsing feed"
-msgstr "Fout bij het ontleden van de feed"
+msgstr "Eraro dum analizado de feed"
 
 #: main.cpp:79 qml/AlligatorGlobalDrawer.qml:59
 #, kde-format
 msgid "Alligator"
-msgstr "Alligator"
+msgstr "Aligatoro"
 
 #: main.cpp:81
 #, kde-format
 msgid "Feed Reader"
-msgstr "Feedlezer"
+msgstr "Feed Reader"
 
 #: main.cpp:83
 #, kde-format
 msgid "© 2020-2023 KDE Community"
-msgstr "© 2020-2023 KDE gemeenschap"
+msgstr "© 2020-2023 KDE-Komunumo"
 
 #: main.cpp:84
 #, kde-format
@@ -75,392 +76,338 @@ msgstr "Tobias Fella"
 #: main.cpp:98
 #, kde-format
 msgid "RSS/Atom Feed Reader"
-msgstr "RSS/Atom-feedlezer"
+msgstr "RSS/Atom Feed Reader"
 
 #: main.cpp:100
 #, kde-format
 msgid "Adds a new feed to database."
-msgstr "Voegt een nieuwe feed toe aan de database."
+msgstr "Aldonas novan fonton al datumbazo."
 
 #: main.cpp:101
 #, kde-format
 msgid "feed URL"
-msgstr "Feed-URL"
+msgstr "feed URL"
 
 #: qml/AddFeedDialog.qml:18
 #, kde-format
 msgid "Add Feed"
-msgstr "Feed toevoegen"
+msgstr "Aldoni Feed"
 
 #: qml/AddFeedDialog.qml:30
 #, kde-format
 msgid "Url:"
-msgstr "URL:"
+msgstr "Url:"
 
 #: qml/AddFeedDialog.qml:40
 #, kde-format
 msgid "Mark entries as read"
-msgstr "Items markeren als gelezen"
+msgstr "Marki enskribojn kiel legitajn"
 
 #: qml/AlligatorGlobalDrawer.qml:93
 #, kde-format
 msgid "All Feeds"
-msgstr "Alle feeds"
+msgstr "Ĉiuj Fluoj"
 
 #: qml/AlligatorGlobalDrawer.qml:149 qml/SettingsPage.qml:21
 #, kde-format
 msgid "Settings"
-msgstr "Instellingen"
+msgstr "Agordoj"
 
 #: qml/AlligatorGlobalDrawer.qml:160
 #, kde-format
 msgid "Manage Feeds"
-msgstr "Feeds beheren"
+msgstr "Administri Fluojn"
 
 #: qml/AlligatorGlobalDrawer.qml:172
 #, kde-format
 msgid "About"
-msgstr "Info over"
+msgstr "Pri"
 
 #: qml/EditFeedDialog.qml:15
 #, kde-format
 msgid "Edit Feed"
-msgstr "Feed bewerken"
+msgstr "Redakti Fluon"
 
 #: qml/EditFeedDialog.qml:35
 #, kde-format
 msgid "Display Name:"
-msgstr "Schermnaam:"
+msgstr "Montra Nomo:"
 
 #: qml/EditFeedDialog.qml:45
 #, kde-format
 msgid "Group:"
-msgstr "Groep:"
+msgstr "Grupo:"
 
 #: qml/EntryListDelegate.qml:65
 #, kde-format
 msgctxt "by <author(s)>"
 msgid "by"
-msgstr "door"
+msgstr "de"
 
 #: qml/EntryListPage.qml:43
 #, kde-format
 msgid "Refresh"
-msgstr "Vernieuwen"
+msgstr "Refreŝigi"
 
 #: qml/EntryListPage.qml:50
 #, kde-format
 msgid "Details"
-msgstr "Details"
+msgstr "Detaloj"
 
 #: qml/EntryListPage.qml:63
 #, kde-format
 msgid "Expand sidebar"
-msgstr "Zijbalk uitvouwen"
+msgstr "Pligrandigi flankbreton"
 
 #: qml/EntryListPage.qml:63
 #, kde-format
 msgid "Collapse sidebar"
-msgstr "Zijbalk invouwen"
+msgstr "Maletendi flankbreton"
 
 #: qml/EntryListPage.qml:75
 #, kde-format
 msgid "All Entries"
-msgstr "Alle items"
+msgstr "Ĉiuj Enskriboj"
 
 #: qml/EntryListPage.qml:83
 #, kde-format
 msgid "Error"
-msgstr "Fout"
+msgstr "Eraro"
 
 #: qml/EntryListPage.qml:84 qml/EntryListPage.qml:96
 #, kde-format
 msgid "Error (%1): %2"
-msgstr "Fout (%1): %2"
+msgstr "Eraro (%1): %2"
 
 #: qml/EntryListPage.qml:94
 #, kde-format
 msgid "No unread entries available"
-msgstr "Geen ongelezen items beschikbaar"
+msgstr "Neniuj nelegitaj enskriboj haveblaj"
 
 #: qml/EntryListPage.qml:94
 #, kde-format
 msgid "No entries available"
-msgstr "Geen items beschikbaar"
+msgstr "Neniuj enskriboj haveblaj"
 
 #: qml/EntryListPage.qml:134
 #, kde-format
 msgid "All"
-msgstr "Alles"
+msgstr "Ĉiuj"
 
 #: qml/EntryListPage.qml:140
 #, kde-format
 msgid "Unread"
-msgstr "Ongelezen"
+msgstr "Nelegita"
 
 #: qml/EntryPage.qml:56
 #, kde-format
 msgid "Open in Browser"
-msgstr "In browser openen"
+msgstr "Malfermi en Retumilo"
 
 #: qml/FeedDetailsPage.qml:20
 #, kde-format
 msgctxt "<Feed Name> - Details"
 msgid "%1 - Details"
-msgstr "%1 - Details"
+msgstr "%1 - Detaloj"
 
 #: qml/FeedDetailsPage.qml:36
 #, kde-format
 msgctxt "by <author(s)>"
 msgid "by %1"
-msgstr "door %1"
+msgstr "de %1"
 
 #: qml/FeedDetailsPage.qml:44
 #, kde-format
 msgid "Subscribed since: %1"
-msgstr "Ingeschreven sinds: %1"
+msgstr "Abonita ekde: %1"
 
 #: qml/FeedDetailsPage.qml:47
 #, kde-format
 msgid "last updated: %1"
-msgstr "laatst bijgewerkt: %1"
+msgstr "lasta ĝisdatigo: %1"
 
 #: qml/FeedDetailsPage.qml:50
 #, kde-format
 msgid "%1 posts, %2 unread"
-msgstr "%1 posts, %2 ongelezen"
+msgstr "%1 afiŝoj, %2 nelegitaj"
 
 #: qml/FeedGroupDialog.qml:23
 #, kde-format
 msgid "Feed Group"
-msgstr "Feed-groep"
+msgstr "Nutra Grupo"
 
 #: qml/FeedGroupDialog.qml:43
 #, kde-format
 msgid "Name:"
-msgstr "Naam:"
+msgstr "Nomo:"
 
 #: qml/FeedGroupDialog.qml:50
 #, kde-format
 msgid "Description:"
-msgstr "Beschrijving:"
+msgstr "Priskribo:"
 
 #: qml/FeedListDelegate.qml:29
 #, kde-format
 msgid "%1 unread entry"
 msgid_plural "%1 unread entries"
-msgstr[0] "%1 ongelezen item"
-msgstr[1] "%1 ongelezen items"
+msgstr[0] "%1 nelegita eniro"
+msgstr[1] "%1 nelegitaj eniroj"
 
 #: qml/FeedListDelegate.qml:35
 #, kde-format
 msgctxt "'Feed' is an rss feed"
 msgid "Delete this Feed"
-msgstr "Deze feed verwijderen"
+msgstr "Forigi ĉi tiun Fluon"
 
 #: qml/FeedListDelegate.qml:50
 #, kde-format
 msgctxt "'Feed' is an rss feed"
 msgid "Edit this Feed"
-msgstr "Deze feed bewerken"
+msgstr "Redakti ĉi tiun Fluon"
 
 #: qml/FeedListPage.qml:18
 #, kde-format
 msgctxt "'Feeds' as in 'RSS Feeds'"
 msgid "Manage Feeds"
-msgstr "Feeds beheren"
+msgstr "Administri Fluojn"
 
 #: qml/FeedListPage.qml:29
 #, kde-format
 msgid "Refresh All Feeds"
-msgstr "Alle feeds vernieuwen"
+msgstr "Refreŝigi Ĉiujn Fluojn"
 
 #: qml/FeedListPage.qml:35
 #, kde-format
 msgid "Add Feed…"
-msgstr "Feed toevoegen…"
+msgstr "Aldoni Fluon…"
 
 #: qml/FeedListPage.qml:42
 #, kde-format
 msgid "Manage Feed Groups"
-msgstr "Feed-groepen beheren"
+msgstr "Administri Feed Groups"
 
 #: qml/FeedListPage.qml:47
 #, kde-format
 msgid "Import Feeds…"
-msgstr "Feeds importeren…"
+msgstr "Importi Fluojn…"
 
 #: qml/FeedListPage.qml:52
 #, kde-format
 msgid "Export Feeds…"
-msgstr "Feeds exporteren…"
+msgstr "Eksporti Fluojn…"
 
 #: qml/FeedListPage.qml:82
 #, kde-format
 msgid "No feeds added yet"
-msgstr "Nog geen feeds toegevoegd"
+msgstr "Neniuj fontoj ankoraŭ aldonitaj"
 
 #: qml/FeedListPage.qml:119
 #, kde-format
 msgid "Import Feeds"
-msgstr "Feeds importeren"
+msgstr "Importi Fluojn"
 
 #: qml/FeedListPage.qml:121
 #, kde-format
 msgid "All Files (*)"
-msgstr "Alle bestanden (*)"
+msgstr "Ĉiuj dosieroj (*)"
 
 #: qml/FeedListPage.qml:121
 #, kde-format
 msgid "XML Files (*.xml)"
-msgstr "XML-bestanden (*.xml)"
+msgstr "XML-dosieroj (*.xml)"
 
 #: qml/FeedListPage.qml:121
 #, kde-format
 msgid "OPML Files (*.opml)"
-msgstr "OPML-bestanden (*.opml)"
+msgstr "OPML-dosieroj (*.opml)"
 
 #: qml/FeedListPage.qml:127
 #, kde-format
 msgid "Export Feeds"
-msgstr "Feeds exporteren"
+msgstr "Eksporti Fluojn"
 
 #: qml/FeedListPage.qml:129
 #, kde-format
 msgid "All Files"
-msgstr "Alle bestanden"
+msgstr "Ĉiuj dosieroj"
 
 #: qml/GroupsListPage.qml:18
 #, kde-format
 msgid "Groups"
-msgstr "Groepen"
+msgstr "Grupoj"
 
 #: qml/GroupsListPage.qml:24
 #, kde-format
 msgid "Add Group…"
-msgstr "Groep toevoegen…"
+msgstr "Aldoni grupon…"
 
 #: qml/GroupsListPage.qml:55
 #, kde-format
 msgid "Remove"
-msgstr "Verwijderen"
+msgstr "Forigi"
 
 #: qml/GroupsListPage.qml:63
 #, kde-format
 msgid "Set as Default"
-msgstr "Als standaard instellen"
+msgstr "Agordi kiel Defaŭltan"
 
 #: qml/GroupsListPage.qml:72
 #, kde-format
 msgid "No groups created yet"
-msgstr "Nog geen groepen aangemaakt"
+msgstr "Neniuj grupoj ankoraŭ kreitaj"
 
 #: qml/GroupsListPage.qml:77
 #, kde-format
 msgid "Add Group"
-msgstr "Groep toevoegen"
+msgstr "Aldoni Grupon"
 
 #: qml/SettingsPage.qml:24
 #, kde-format
 msgctxt "@title"
 msgid "Article List"
-msgstr "Artikellijst"
+msgstr "Listo de Artikoloj"
 
 #: qml/SettingsPage.qml:33
 #, kde-format
 msgid "Delete after:"
-msgstr "Verwijderen na:"
+msgstr "Forigi post:"
 
 #: qml/SettingsPage.qml:46
 #, kde-format
 msgid "Never"
-msgstr "Nooit"
+msgstr "Neniam"
 
 #: qml/SettingsPage.qml:46
 #, kde-format
 msgid "Articles"
-msgstr "Artikelen"
+msgstr "Artikoloj"
 
 #: qml/SettingsPage.qml:46
 #, kde-format
 msgid "Days"
-msgstr "Dagen"
+msgstr "Tagoj"
 
 #: qml/SettingsPage.qml:46
 #, kde-format
 msgid "Weeks"
-msgstr "Weken"
+msgstr "Semajnoj"
 
 #: qml/SettingsPage.qml:46
 #, kde-format
 msgid "Months"
-msgstr "Maanden"
+msgstr "Monatoj"
 
 #: qml/SettingsPage.qml:55
 #, kde-format
 msgid "Article"
-msgstr "Artikel"
+msgstr "Artikolo"
 
 #: qml/SettingsPage.qml:62
 #, kde-format
 msgid "Font size:"
-msgstr "Tekengrootte:"
+msgstr "Grando de tiparo:"
 
 #: qml/SettingsPage.qml:71
 #, kde-format
 msgid "Use system default"
-msgstr "Systeemstandaard gebruiken"
-
-#~ msgid "Import Feeds..."
-#~ msgstr "Feeds importeren..."
-
-#~ msgid "Export Feeds..."
-#~ msgstr "Feeds exporteren..."
-
-#~ msgid "OK"
-#~ msgstr "OK"
-
-#~ msgid "Cancel"
-#~ msgstr "Annuleren"
-
-#~ msgid "Configure Groups"
-#~ msgstr "Groepen configureren"
-
-#~ msgid "Mark as unread"
-#~ msgstr "Markeren als ongelezen"
-
-#~ msgid "Mark as read"
-#~ msgstr "Markeren als gelezen"
-
-#~ msgid "Show all entries"
-#~ msgstr "Alle items tonen"
-
-#~ msgid "Show only unread entries"
-#~ msgstr "Alleen ongelezen items tonen"
-
-#~ msgid "Edit"
-#~ msgstr "Bewerken"
-
-#~ msgid "Feed group"
-#~ msgstr "Feed-groep"
-
-#~ msgid "Add feed"
-#~ msgstr "Feed toevoegen"
-
-#~ msgid "Add new Feed"
-#~ msgstr "Nieuwe feed toevoegen"
-
-#~ msgid "Posts"
-#~ msgstr "Berichten"
-
-#~ msgid "Save"
-#~ msgstr "Opslaan"
-
-#~ msgid "Url to add to the subscriptions"
-#~ msgstr "Url om toe te voegen aan de inschrijvingen"
-
-#~ msgid "Add"
-#~ msgstr "Toevoegen"
-
-#~ msgid "Bookmark"
-#~ msgstr "Bladwijzer"
+msgstr "Uzi sisteman defaŭlton"
