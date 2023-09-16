@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-09-14 01:54+0000\n"
-"PO-Revision-Date: 2023-02-22 09:26+0100\n"
+"PO-Revision-Date: 2023-09-14 19:06+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: &\n"
-"X-Generator: Lokalize 20.12.0\n"
+"X-Generator: Lokalize 22.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -67,10 +67,9 @@ msgid "Feed Reader"
 msgstr "Lector de fonts"
 
 #: main.cpp:83
-#, fuzzy, kde-format
-#| msgid "© 2020-2022 KDE Community"
+#, kde-format
 msgid "© 2020-2023 KDE Community"
-msgstr "© 2020-2022 Comunitat KDE"
+msgstr "© 2020-2023 Comunitat KDE"
 
 #: main.cpp:84
 #, kde-format
@@ -367,8 +366,7 @@ msgid "Add Group"
 msgstr "Afig un grup"
 
 #: qml/SettingsPage.qml:24
-#, fuzzy, kde-format
-#| msgid "Article List"
+#, kde-format
 msgctxt "@title"
 msgid "Article List"
 msgstr "Llista d'articles"
@@ -411,7 +409,7 @@ msgstr "Article"
 #: qml/SettingsPage.qml:62
 #, kde-format
 msgid "Font size:"
-msgstr "Mida del tipus de lletra:"
+msgstr "Mida de la lletra:"
 
 #: qml/SettingsPage.qml:71
 #, kde-format

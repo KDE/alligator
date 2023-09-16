@@ -65,10 +65,9 @@ msgid "Feed Reader"
 msgstr "Besleme Okuyucusu"
 
 #: main.cpp:83
-#, fuzzy, kde-format
-#| msgid "© 2020-2022 KDE Community"
+#, kde-format
 msgid "© 2020-2023 KDE Community"
-msgstr "© 2020-2022 KDE Topluluğu"
+msgstr "© 2020-2023 KDE Topluluğu"
 
 #: main.cpp:84
 #, kde-format
@@ -364,8 +363,7 @@ msgid "Add Group"
 msgstr "Grup Ekle"
 
 #: qml/SettingsPage.qml:24
-#, fuzzy, kde-format
-#| msgid "Article List"
+#, kde-format
 msgctxt "@title"
 msgid "Article List"
 msgstr "Yazı Listesi"
@@ -414,48 +412,3 @@ msgstr "Yazıtipi boyutu:"
 #, kde-format
 msgid "Use system default"
 msgstr "Sistem öntanımlısını kullan"
-
-#~ msgid "Import Feeds..."
-#~ msgstr "Beslemeleri İçe Aktar..."
-
-#~ msgid "Export Feeds..."
-#~ msgstr "Beslemeleri Dışa Aktar..."
-
-#~ msgid "OK"
-#~ msgstr "Tamam"
-
-#~ msgid "Cancel"
-#~ msgstr "İptal"
-
-#~ msgid "Configure Groups"
-#~ msgstr "Grupları Yapılandır"
-
-#~ msgid "Mark as unread"
-#~ msgstr "Okunmadı olarak imle"
-
-#~ msgid "Mark as read"
-#~ msgstr "Okundu olarak imle"
-
-#~ msgid "Show all entries"
-#~ msgstr "Tüm girdileri göster"
-
-#~ msgid "Show only unread entries"
-#~ msgstr "Yalnızca okunmamış girdileri göster"
-
-#~ msgid "Edit"
-#~ msgstr "Düzenle"
-
-#~ msgid "Feed group"
-#~ msgstr "Besleme grubu"
-
-#~ msgid "Add feed"
-#~ msgstr "Besleme ekle"
-
-#~ msgid "Add new Feed"
-#~ msgstr "Yeni Besleme ekle"
-
-#~ msgid "Posts"
-#~ msgstr "Mesaj"
-
-#~ msgid "Save"
-#~ msgstr "Kaydet"
