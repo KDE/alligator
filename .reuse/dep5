@@ -6,11 +6,12 @@ Files: src/qtquickcontrols2.conf README.md src/alligatorsettings.kcfgc src/allig
 Copyright: 2020 Tobias Fella <fella@posteo.de>
 License: CC0-1.0
 
-Files: android/res/drawable/splash.xml
+Files: android/res/drawable/splash.xml snapcraft.yaml
 Copyright: 2020 Tobias Fella <fella@posteo.de>
+           2023 Scarlett Moore <sgmoore@kde.org>
 License: BSD-2-Clause
 
-Files: alligator.svg android/res/drawable/alligator.png logo.png android/res/mipmap-xxxhdpi/ic_launcher.png android/res/mipmap-xxhdpi/ic_launcher.png android/res/mipmap-xhdpi/ic_launcher.png android/res/mipmap-hdpi/ic_launcher.png android/res/mipmap-mdpi/ic_launcher.png android/ic_launcher-playstore.png android/res/drawable-v24/*
+Files: alligator.svg android/res/drawable/alligator.png logo.png android/res/mipmap-xxxhdpi/ic_launcher.png android/res/mipmap-xxhdpi/ic_launcher.png android/res/mipmap-xhdpi/ic_launcher.png android/res/mipmap-hdpi/ic_launcher.png android/res/mipmap-mdpi/ic_launcher.png android/ic_launcher-playstore.png android/res/drawable-v24/* snap/gui/logo.png
 Copyright: 2020 Mathis Brüchert <mbblp@protonmail.ch>
 License: CC-BY-SA-4.0
 
