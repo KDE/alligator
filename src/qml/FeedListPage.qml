@@ -35,7 +35,10 @@ Kirigami.ScrollablePage {
             text: i18n("Add Feed…")
             icon.name: "list-add"
             onTriggered: {
-                addDialog.open()
+                pageStack.pushDialogLayer(addDialog, {}, {
+                    title: i18nc("@title", "Add Feed"),
+                    width: Kirigami.Units.gridUnit * 20
+                })
             }
         },
         Kirigami.Action {

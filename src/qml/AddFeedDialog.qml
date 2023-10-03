@@ -9,35 +9,39 @@ import QtQuick.Controls as Controls
 import QtQuick.Layouts
 
 import org.kde.kirigami as Kirigami
+import org.kde.kirigamiaddons.formcard as FormCard
 
 import org.kde.alligator
 
-Kirigami.Dialog {
-    id: addSheet
+FormCard.FormCardPage {
+    id: root
 
     title: i18n("Add Feed")
-    standardButtons: Kirigami.Dialog.Ok | Kirigami.Dialog.Cancel
-    padding: Kirigami.Units.largeSpacing
-    // bottomPadding: Kirigami.Units.largeSpacing + Kirigami.Units.smallSpacing
-    preferredWidth: Kirigami.Units.gridUnit * 20
 
-    onAccepted: {
-        Database.addFeed(urlField.text, "", markFeedAsRead.checked)
-    }
-
-    ColumnLayout {
-        Controls.Label {
-            text: i18n("Url:")
-        }
-        Controls.TextField {
+    FormCard.FormCard {
+        Layout.topMargin: Kirigami.Units.largeSpacing
+        FormCard.FormTextFieldDelegate {
             id: urlField
-            Layout.fillWidth: true
-            text: "https://planet.kde.org/global/atom.xml/"
+            label: i18n("Url")
+            placeholderText: "https://planet.kde.org/global/atom.xml/"
         }
-        Controls.CheckBox {
+        FormCard.FormDelegateSeparator {}
+        FormCard.FormCheckDelegate {
             id: markFeedAsRead
-            checked: false
             text: i18n("Mark entries as read")
+            checked: false
+        }
+        FormCard.FormDelegateSeparator {}
+        FormCard.FormButtonDelegate {
+            text: i18nc("@action:button", "Add Feed")
+            onClicked: {
+                Database.addFeed(urlField.text, "", markFeedAsRead.checked)
+                root.closeDialog()
+            }
+        }
+        FormCard.FormButtonDelegate {
+            text: i18nc("@action:button", "Cancel")
+            onClicked: root.closeDialog()
         }
     }
 }
