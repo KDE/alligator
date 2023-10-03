@@ -92,6 +92,9 @@ Kirigami.GlobalDrawer {
                     pageStack.clear()
                     pageStack.push(root.entriesPage)
                 }
+                Controls.ToolTip.visible: hovered && applicationWindow().sidebarCollapsed
+                Controls.ToolTip.text: text
+                Controls.ToolTip.delay: Kirigami.Units.toolTipDelay
             }
 
             section {
@@ -130,6 +133,9 @@ Kirigami.GlobalDrawer {
                     pageStack.clear();
                     pageStack.push("qrc:/qml/EntryListPage.qml", {feed: feed})
                 }
+                Controls.ToolTip.visible: hovered && applicationWindow().sidebarCollapsed
+                Controls.ToolTip.text: feed.displayName || feed.name
+                Controls.ToolTip.delay: Kirigami.Units.toolTipDelay
             }
         }
 
