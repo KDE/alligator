@@ -21,14 +21,10 @@ Kirigami.GlobalDrawer {
     property var entriesPage
     property var feedsPage
 
-    // updated by allFeedsItem
-    property real iconSizing: 0
-    property real listItemPadding: 0
-
     modal: applicationWindow().width < Kirigami.Units.gridUnit * 40
 
     height: applicationWindow().height
-    width: applicationWindow().sidebarCollapsed ? (iconSizing + listItemPadding * 2) : Kirigami.Units.gridUnit * 15
+    width: applicationWindow().sidebarCollapsed ? Kirigami.Units.iconSizes.medium : Kirigami.Units.gridUnit * 15
 
     Behavior on width {
         NumberAnimation {
