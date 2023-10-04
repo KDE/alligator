@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-14 01:54+0000\n"
+"POT-Creation-Date: 2023-10-04 01:39+0000\n"
 "PO-Revision-Date: 2023-09-15 06:07+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -53,7 +53,7 @@ msgstr "XML-ის დამმუშავებლის გარეშე"
 msgid "Error while parsing feed"
 msgstr "შეცდომა ლენტის დამუშავებისას"
 
-#: main.cpp:79 qml/AlligatorGlobalDrawer.qml:59
+#: main.cpp:79 qml/AlligatorGlobalDrawer.qml:55
 #, kde-format
 msgid "Alligator"
 msgstr "Alligator"
@@ -88,37 +88,52 @@ msgstr "ბაზაში ახალი ლენტის ჩამატე
 msgid "feed URL"
 msgstr "ლენტის URL"
 
-#: qml/AddFeedDialog.qml:18
+#: qml/AddFeedDialog.qml:19
 #, kde-format
 msgid "Add Feed"
 msgstr "ლენტის დამატება"
 
-#: qml/AddFeedDialog.qml:30
-#, kde-format
-msgid "Url:"
+#: qml/AddFeedDialog.qml:25
+#, fuzzy, kde-format
+#| msgid "Url:"
+msgid "Url"
 msgstr "URL:"
 
-#: qml/AddFeedDialog.qml:40
+#: qml/AddFeedDialog.qml:31
 #, kde-format
 msgid "Mark entries as read"
 msgstr "ჩანაწერების წაკითხულად მონიშვნა"
 
-#: qml/AlligatorGlobalDrawer.qml:93
+#: qml/AddFeedDialog.qml:36
+#, fuzzy, kde-format
+#| msgid "Add Feed"
+msgctxt "@action:button"
+msgid "Add Feed"
+msgstr "ლენტის დამატება"
+
+#: qml/AddFeedDialog.qml:43
+#, fuzzy, kde-format
+#| msgid "Cancel"
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "_გაუქმება"
+
+#: qml/AlligatorGlobalDrawer.qml:89
 #, kde-format
 msgid "All Feeds"
 msgstr "ყველა ლენტა"
 
-#: qml/AlligatorGlobalDrawer.qml:149 qml/SettingsPage.qml:21
+#: qml/AlligatorGlobalDrawer.qml:151 qml/SettingsPage.qml:21
 #, kde-format
 msgid "Settings"
 msgstr "მორგება"
 
-#: qml/AlligatorGlobalDrawer.qml:160
+#: qml/AlligatorGlobalDrawer.qml:162
 #, kde-format
 msgid "Manage Feeds"
 msgstr "ლენტების მართვა"
 
-#: qml/AlligatorGlobalDrawer.qml:172
+#: qml/AlligatorGlobalDrawer.qml:174
 #, kde-format
 msgid "About"
 msgstr "შესახებ"
@@ -144,57 +159,57 @@ msgctxt "by <author(s)>"
 msgid "by"
 msgstr "ავტორი"
 
-#: qml/EntryListPage.qml:43
+#: qml/EntryListPage.qml:44
 #, kde-format
 msgid "Refresh"
 msgstr "განახლება"
 
-#: qml/EntryListPage.qml:50
+#: qml/EntryListPage.qml:51
 #, kde-format
 msgid "Details"
 msgstr "დეტალები"
 
-#: qml/EntryListPage.qml:63
+#: qml/EntryListPage.qml:64
 #, kde-format
 msgid "Expand sidebar"
 msgstr "გვერდითი ზოლის გაფართოება"
 
-#: qml/EntryListPage.qml:63
+#: qml/EntryListPage.qml:64
 #, kde-format
 msgid "Collapse sidebar"
 msgstr "გვერდითი ზოლის ჩაკეცვა"
 
-#: qml/EntryListPage.qml:75
+#: qml/EntryListPage.qml:76
 #, kde-format
 msgid "All Entries"
 msgstr "ყველა ჩანაწერი"
 
-#: qml/EntryListPage.qml:83
+#: qml/EntryListPage.qml:84
 #, kde-format
 msgid "Error"
 msgstr "შეცდომა"
 
-#: qml/EntryListPage.qml:84 qml/EntryListPage.qml:96
+#: qml/EntryListPage.qml:85 qml/EntryListPage.qml:97
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "შეცდომა (%1): %2"
 
-#: qml/EntryListPage.qml:94
+#: qml/EntryListPage.qml:95
 #, kde-format
 msgid "No unread entries available"
 msgstr "წაუკითხავი ჩანაწერების გარეშე"
 
-#: qml/EntryListPage.qml:94
+#: qml/EntryListPage.qml:95
 #, kde-format
 msgid "No entries available"
 msgstr "ჩანაწერების გარეშე"
 
-#: qml/EntryListPage.qml:134
+#: qml/EntryListPage.qml:135
 #, kde-format
 msgid "All"
 msgstr "ყველა"
 
-#: qml/EntryListPage.qml:140
+#: qml/EntryListPage.qml:141
 #, kde-format
 msgid "Unread"
 msgstr "წაუკითხავი"
@@ -281,52 +296,59 @@ msgstr "ყველა ლენტის განახლება"
 msgid "Add Feed…"
 msgstr "ლენტის დამატება…"
 
-#: qml/FeedListPage.qml:42
+#: qml/FeedListPage.qml:39
+#, fuzzy, kde-format
+#| msgid "Add Feed"
+msgctxt "@title"
+msgid "Add Feed"
+msgstr "ლენტის დამატება"
+
+#: qml/FeedListPage.qml:45
 #, kde-format
 msgid "Manage Feed Groups"
 msgstr "ლენტის ჯგუფების მართვა"
 
-#: qml/FeedListPage.qml:47
+#: qml/FeedListPage.qml:50
 #, kde-format
 msgid "Import Feeds…"
 msgstr "ლენტების შემოტანა…"
 
-#: qml/FeedListPage.qml:52
+#: qml/FeedListPage.qml:55
 #, kde-format
 msgid "Export Feeds…"
 msgstr "ლენტების გატანა…"
 
-#: qml/FeedListPage.qml:82
+#: qml/FeedListPage.qml:85
 #, kde-format
 msgid "No feeds added yet"
 msgstr "ლენტები ჯერ დამატებული არაა"
 
-#: qml/FeedListPage.qml:119
+#: qml/FeedListPage.qml:122
 #, kde-format
 msgid "Import Feeds"
 msgstr "ლენტების შემოტანა"
 
-#: qml/FeedListPage.qml:121
+#: qml/FeedListPage.qml:124
 #, kde-format
 msgid "All Files (*)"
 msgstr "ყველა ფაილი (*)"
 
-#: qml/FeedListPage.qml:121
+#: qml/FeedListPage.qml:124
 #, kde-format
 msgid "XML Files (*.xml)"
 msgstr "XML ფაილები (*.xml)"
 
-#: qml/FeedListPage.qml:121
+#: qml/FeedListPage.qml:124
 #, kde-format
 msgid "OPML Files (*.opml)"
 msgstr "OPML ფაილები (*.opml)"
 
-#: qml/FeedListPage.qml:127
+#: qml/FeedListPage.qml:130
 #, kde-format
 msgid "Export Feeds"
 msgstr "ლენტების გატანა"
 
-#: qml/FeedListPage.qml:129
+#: qml/FeedListPage.qml:132
 #, kde-format
 msgid "All Files"
 msgstr "ყველა ფაილი"
@@ -420,9 +442,6 @@ msgstr "სისტემის ნაგულისხმების გა�
 
 #~ msgid "OK"
 #~ msgstr "დიახ"
-
-#~ msgid "Cancel"
-#~ msgstr "_გაუქმება"
 
 #~ msgid "Configure Groups"
 #~ msgstr "ჯგუფების მორგება"

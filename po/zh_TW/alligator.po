@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-14 01:54+0000\n"
+"POT-Creation-Date: 2023-10-04 01:39+0000\n"
 "PO-Revision-Date: 2022-12-24 00:46+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@linux.org.tw>\n"
@@ -55,7 +55,7 @@ msgstr "沒有任何剖析器接受該 XML"
 msgid "Error while parsing feed"
 msgstr "剖析 feed 時發生錯誤"
 
-#: main.cpp:79 qml/AlligatorGlobalDrawer.qml:59
+#: main.cpp:79 qml/AlligatorGlobalDrawer.qml:55
 #, kde-format
 msgid "Alligator"
 msgstr "Alligator"
@@ -91,37 +91,51 @@ msgstr "新增一個 feed 到資料庫裡。"
 msgid "feed URL"
 msgstr "feed 網址"
 
-#: qml/AddFeedDialog.qml:18
+#: qml/AddFeedDialog.qml:19
 #, kde-format
 msgid "Add Feed"
 msgstr "新增 feed"
 
-#: qml/AddFeedDialog.qml:30
-#, kde-format
-msgid "Url:"
+#: qml/AddFeedDialog.qml:25
+#, fuzzy, kde-format
+#| msgid "Url:"
+msgid "Url"
 msgstr "網址："
 
-#: qml/AddFeedDialog.qml:40
+#: qml/AddFeedDialog.qml:31
 #, kde-format
 msgid "Mark entries as read"
 msgstr "標記條目為已讀"
 
-#: qml/AlligatorGlobalDrawer.qml:93
+#: qml/AddFeedDialog.qml:36
+#, fuzzy, kde-format
+#| msgid "Add Feed"
+msgctxt "@action:button"
+msgid "Add Feed"
+msgstr "新增 feed"
+
+#: qml/AddFeedDialog.qml:43
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr ""
+
+#: qml/AlligatorGlobalDrawer.qml:89
 #, kde-format
 msgid "All Feeds"
 msgstr "所有 feed"
 
-#: qml/AlligatorGlobalDrawer.qml:149 qml/SettingsPage.qml:21
+#: qml/AlligatorGlobalDrawer.qml:151 qml/SettingsPage.qml:21
 #, kde-format
 msgid "Settings"
 msgstr "設定"
 
-#: qml/AlligatorGlobalDrawer.qml:160
+#: qml/AlligatorGlobalDrawer.qml:162
 #, kde-format
 msgid "Manage Feeds"
 msgstr "管理 feed"
 
-#: qml/AlligatorGlobalDrawer.qml:172
+#: qml/AlligatorGlobalDrawer.qml:174
 #, kde-format
 msgid "About"
 msgstr "關於"
@@ -147,57 +161,57 @@ msgctxt "by <author(s)>"
 msgid "by"
 msgstr "由"
 
-#: qml/EntryListPage.qml:43
+#: qml/EntryListPage.qml:44
 #, kde-format
 msgid "Refresh"
 msgstr "重新整理"
 
-#: qml/EntryListPage.qml:50
+#: qml/EntryListPage.qml:51
 #, kde-format
 msgid "Details"
 msgstr "詳細資料"
 
-#: qml/EntryListPage.qml:63
+#: qml/EntryListPage.qml:64
 #, kde-format
 msgid "Expand sidebar"
 msgstr "展開側邊欄"
 
-#: qml/EntryListPage.qml:63
+#: qml/EntryListPage.qml:64
 #, kde-format
 msgid "Collapse sidebar"
 msgstr "折疊側邊欄"
 
-#: qml/EntryListPage.qml:75
+#: qml/EntryListPage.qml:76
 #, kde-format
 msgid "All Entries"
 msgstr "所有條目"
 
-#: qml/EntryListPage.qml:83
+#: qml/EntryListPage.qml:84
 #, kde-format
 msgid "Error"
 msgstr "錯誤"
 
-#: qml/EntryListPage.qml:84 qml/EntryListPage.qml:96
+#: qml/EntryListPage.qml:85 qml/EntryListPage.qml:97
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "錯誤（%1）：%2"
 
-#: qml/EntryListPage.qml:94
+#: qml/EntryListPage.qml:95
 #, kde-format
 msgid "No unread entries available"
 msgstr "沒有未讀的條目"
 
-#: qml/EntryListPage.qml:94
+#: qml/EntryListPage.qml:95
 #, kde-format
 msgid "No entries available"
 msgstr "沒有條目"
 
-#: qml/EntryListPage.qml:134
+#: qml/EntryListPage.qml:135
 #, kde-format
 msgid "All"
 msgstr "全部"
 
-#: qml/EntryListPage.qml:140
+#: qml/EntryListPage.qml:141
 #, kde-format
 msgid "Unread"
 msgstr "未讀"
@@ -284,54 +298,61 @@ msgstr "重新整理所有 feed"
 msgid "Add Feed…"
 msgstr "新增 feed…"
 
-#: qml/FeedListPage.qml:42
+#: qml/FeedListPage.qml:39
+#, fuzzy, kde-format
+#| msgid "Add Feed"
+msgctxt "@title"
+msgid "Add Feed"
+msgstr "新增 feed"
+
+#: qml/FeedListPage.qml:45
 #, kde-format
 msgid "Manage Feed Groups"
 msgstr "管理 feed 群組"
 
-#: qml/FeedListPage.qml:47
+#: qml/FeedListPage.qml:50
 #, fuzzy, kde-format
 #| msgid "Import Feeds"
 msgid "Import Feeds…"
 msgstr "匯入 feed"
 
-#: qml/FeedListPage.qml:52
+#: qml/FeedListPage.qml:55
 #, fuzzy, kde-format
 #| msgid "Export Feeds"
 msgid "Export Feeds…"
 msgstr "匯出 feed"
 
-#: qml/FeedListPage.qml:82
+#: qml/FeedListPage.qml:85
 #, kde-format
 msgid "No feeds added yet"
 msgstr "還沒有新增 feed"
 
-#: qml/FeedListPage.qml:119
+#: qml/FeedListPage.qml:122
 #, kde-format
 msgid "Import Feeds"
 msgstr "匯入 feed"
 
-#: qml/FeedListPage.qml:121
+#: qml/FeedListPage.qml:124
 #, kde-format
 msgid "All Files (*)"
 msgstr "所有檔案 (*)"
 
-#: qml/FeedListPage.qml:121
+#: qml/FeedListPage.qml:124
 #, kde-format
 msgid "XML Files (*.xml)"
 msgstr "XML 檔案 (*.xml)"
 
-#: qml/FeedListPage.qml:121
+#: qml/FeedListPage.qml:124
 #, kde-format
 msgid "OPML Files (*.opml)"
 msgstr "OPML 檔案 (*.opml)"
 
-#: qml/FeedListPage.qml:127
+#: qml/FeedListPage.qml:130
 #, kde-format
 msgid "Export Feeds"
 msgstr "匯出 feed"
 
-#: qml/FeedListPage.qml:129
+#: qml/FeedListPage.qml:132
 #, kde-format
 msgid "All Files"
 msgstr "所有檔案"

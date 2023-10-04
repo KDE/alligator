@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-14 01:54+0000\n"
+"POT-Creation-Date: 2023-10-04 01:39+0000\n"
 "PO-Revision-Date: 2023-10-01 21:41+0200\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
@@ -52,7 +52,7 @@ msgstr "Necun analysator acceptava le XML"
 msgid "Error while parsing feed"
 msgstr "Error durante que analysava syndication"
 
-#: main.cpp:79 qml/AlligatorGlobalDrawer.qml:59
+#: main.cpp:79 qml/AlligatorGlobalDrawer.qml:55
 #, kde-format
 msgid "Alligator"
 msgstr "Alligator"
@@ -87,37 +87,52 @@ msgstr "Ade un nove syndication al base de datos"
 msgid "feed URL"
 msgstr "Url de syndication"
 
-#: qml/AddFeedDialog.qml:18
+#: qml/AddFeedDialog.qml:19
 #, kde-format
 msgid "Add Feed"
 msgstr "Adde syndication"
 
-#: qml/AddFeedDialog.qml:30
-#, kde-format
-msgid "Url:"
+#: qml/AddFeedDialog.qml:25
+#, fuzzy, kde-format
+#| msgid "Url:"
+msgid "Url"
 msgstr "Url:"
 
-#: qml/AddFeedDialog.qml:40
+#: qml/AddFeedDialog.qml:31
 #, kde-format
 msgid "Mark entries as read"
 msgstr "Marca entratas como legite"
 
-#: qml/AlligatorGlobalDrawer.qml:93
+#: qml/AddFeedDialog.qml:36
+#, fuzzy, kde-format
+#| msgid "Add Feed"
+msgctxt "@action:button"
+msgid "Add Feed"
+msgstr "Adde syndication"
+
+#: qml/AddFeedDialog.qml:43
+#, fuzzy, kde-format
+#| msgid "Cancel"
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "Cancella"
+
+#: qml/AlligatorGlobalDrawer.qml:89
 #, kde-format
 msgid "All Feeds"
 msgstr "Omne syndicationes"
 
-#: qml/AlligatorGlobalDrawer.qml:149 qml/SettingsPage.qml:21
+#: qml/AlligatorGlobalDrawer.qml:151 qml/SettingsPage.qml:21
 #, kde-format
 msgid "Settings"
 msgstr "Preferentias"
 
-#: qml/AlligatorGlobalDrawer.qml:160
+#: qml/AlligatorGlobalDrawer.qml:162
 #, kde-format
 msgid "Manage Feeds"
 msgstr "Gere syndicationes"
 
-#: qml/AlligatorGlobalDrawer.qml:172
+#: qml/AlligatorGlobalDrawer.qml:174
 #, kde-format
 msgid "About"
 msgstr "A proposito"
@@ -143,57 +158,57 @@ msgctxt "by <author(s)>"
 msgid "by"
 msgstr "per"
 
-#: qml/EntryListPage.qml:43
+#: qml/EntryListPage.qml:44
 #, kde-format
 msgid "Refresh"
 msgstr "Refresca"
 
-#: qml/EntryListPage.qml:50
+#: qml/EntryListPage.qml:51
 #, kde-format
 msgid "Details"
 msgstr "Detalios"
 
-#: qml/EntryListPage.qml:63
+#: qml/EntryListPage.qml:64
 #, kde-format
 msgid "Expand sidebar"
 msgstr "Expande barra lateral"
 
-#: qml/EntryListPage.qml:63
+#: qml/EntryListPage.qml:64
 #, kde-format
 msgid "Collapse sidebar"
 msgstr "Plica barra lateral"
 
-#: qml/EntryListPage.qml:75
+#: qml/EntryListPage.qml:76
 #, kde-format
 msgid "All Entries"
 msgstr "Omne entratas"
 
-#: qml/EntryListPage.qml:83
+#: qml/EntryListPage.qml:84
 #, kde-format
 msgid "Error"
 msgstr "Error"
 
-#: qml/EntryListPage.qml:84 qml/EntryListPage.qml:96
+#: qml/EntryListPage.qml:85 qml/EntryListPage.qml:97
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "Error (%1): %2"
 
-#: qml/EntryListPage.qml:94
+#: qml/EntryListPage.qml:95
 #, kde-format
 msgid "No unread entries available"
 msgstr "Necun entratas non legite disponibile."
 
-#: qml/EntryListPage.qml:94
+#: qml/EntryListPage.qml:95
 #, kde-format
 msgid "No entries available"
 msgstr "Necun entratas disponibile."
 
-#: qml/EntryListPage.qml:134
+#: qml/EntryListPage.qml:135
 #, kde-format
 msgid "All"
 msgstr "Toto"
 
-#: qml/EntryListPage.qml:140
+#: qml/EntryListPage.qml:141
 #, kde-format
 msgid "Unread"
 msgstr "Non Legite"
@@ -280,52 +295,59 @@ msgstr "Refresca omne syndicationes"
 msgid "Add Feed…"
 msgstr "Adde syndication ..."
 
-#: qml/FeedListPage.qml:42
+#: qml/FeedListPage.qml:39
+#, fuzzy, kde-format
+#| msgid "Add Feed"
+msgctxt "@title"
+msgid "Add Feed"
+msgstr "Adde syndication"
+
+#: qml/FeedListPage.qml:45
 #, kde-format
 msgid "Manage Feed Groups"
 msgstr "Gere Gruppos de syndication"
 
-#: qml/FeedListPage.qml:47
+#: qml/FeedListPage.qml:50
 #, kde-format
 msgid "Import Feeds…"
 msgstr "Importa syndicationes..."
 
-#: qml/FeedListPage.qml:52
+#: qml/FeedListPage.qml:55
 #, kde-format
 msgid "Export Feeds…"
 msgstr "Exporta syndicationes..."
 
-#: qml/FeedListPage.qml:82
+#: qml/FeedListPage.qml:85
 #, kde-format
 msgid "No feeds added yet"
 msgstr "Necun syndication addite totevia."
 
-#: qml/FeedListPage.qml:119
+#: qml/FeedListPage.qml:122
 #, kde-format
 msgid "Import Feeds"
 msgstr "Importa syndicationes..."
 
-#: qml/FeedListPage.qml:121
+#: qml/FeedListPage.qml:124
 #, kde-format
 msgid "All Files (*)"
 msgstr "Omne files (*)"
 
-#: qml/FeedListPage.qml:121
+#: qml/FeedListPage.qml:124
 #, kde-format
 msgid "XML Files (*.xml)"
 msgstr "Files XML  (*.xml)"
 
-#: qml/FeedListPage.qml:121
+#: qml/FeedListPage.qml:124
 #, kde-format
 msgid "OPML Files (*.opml)"
 msgstr "Files OPML  (*.opml)"
 
-#: qml/FeedListPage.qml:127
+#: qml/FeedListPage.qml:130
 #, kde-format
 msgid "Export Feeds"
 msgstr "Exporta syndicationes..."
 
-#: qml/FeedListPage.qml:129
+#: qml/FeedListPage.qml:132
 #, kde-format
 msgid "All Files"
 msgstr "Omne files"
@@ -419,9 +441,6 @@ msgstr "Usa le predefinite de systema"
 
 #~ msgid "OK"
 #~ msgstr "OK"
-
-#~ msgid "Cancel"
-#~ msgstr "Cancella"
 
 #~ msgid "Configure Groups"
 #~ msgstr "Configura gruppos"

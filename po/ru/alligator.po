@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-14 01:54+0000\n"
+"POT-Creation-Date: 2023-10-04 01:39+0000\n"
 "PO-Revision-Date: 2023-03-01 14:02+0300\n"
 "Last-Translator: Olesya Gerasimenko <translation-team@basealt.ru>\n"
 "Language-Team: Basealt Translation Team\n"
@@ -55,7 +55,7 @@ msgstr "XML не принят анализатором"
 msgid "Error while parsing feed"
 msgstr "Ошибка при разборе ленты"
 
-#: main.cpp:79 qml/AlligatorGlobalDrawer.qml:59
+#: main.cpp:79 qml/AlligatorGlobalDrawer.qml:55
 #, kde-format
 msgid "Alligator"
 msgstr "Alligator"
@@ -91,37 +91,52 @@ msgstr "Добавляет в базу данных новую ленту."
 msgid "feed URL"
 msgstr "URL-адрес ленты новостей"
 
-#: qml/AddFeedDialog.qml:18
+#: qml/AddFeedDialog.qml:19
 #, kde-format
 msgid "Add Feed"
 msgstr "Добавление ленты новостей"
 
-#: qml/AddFeedDialog.qml:30
-#, kde-format
-msgid "Url:"
+#: qml/AddFeedDialog.qml:25
+#, fuzzy, kde-format
+#| msgid "Url:"
+msgid "Url"
 msgstr "URL-адрес:"
 
-#: qml/AddFeedDialog.qml:40
+#: qml/AddFeedDialog.qml:31
 #, kde-format
 msgid "Mark entries as read"
 msgstr "Отметить записи как прочитанные"
 
-#: qml/AlligatorGlobalDrawer.qml:93
+#: qml/AddFeedDialog.qml:36
+#, fuzzy, kde-format
+#| msgid "Add Feed"
+msgctxt "@action:button"
+msgid "Add Feed"
+msgstr "Добавление ленты новостей"
+
+#: qml/AddFeedDialog.qml:43
+#, fuzzy, kde-format
+#| msgid "Cancel"
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "Отмена"
+
+#: qml/AlligatorGlobalDrawer.qml:89
 #, kde-format
 msgid "All Feeds"
 msgstr "Все ленты"
 
-#: qml/AlligatorGlobalDrawer.qml:149 qml/SettingsPage.qml:21
+#: qml/AlligatorGlobalDrawer.qml:151 qml/SettingsPage.qml:21
 #, kde-format
 msgid "Settings"
 msgstr "Параметры"
 
-#: qml/AlligatorGlobalDrawer.qml:160
+#: qml/AlligatorGlobalDrawer.qml:162
 #, kde-format
 msgid "Manage Feeds"
 msgstr "Управление лентами"
 
-#: qml/AlligatorGlobalDrawer.qml:172
+#: qml/AlligatorGlobalDrawer.qml:174
 #, kde-format
 msgid "About"
 msgstr "О программе"
@@ -147,57 +162,57 @@ msgctxt "by <author(s)>"
 msgid "by"
 msgstr " "
 
-#: qml/EntryListPage.qml:43
+#: qml/EntryListPage.qml:44
 #, kde-format
 msgid "Refresh"
 msgstr "Обновить"
 
-#: qml/EntryListPage.qml:50
+#: qml/EntryListPage.qml:51
 #, kde-format
 msgid "Details"
 msgstr "Подробности"
 
-#: qml/EntryListPage.qml:63
+#: qml/EntryListPage.qml:64
 #, kde-format
 msgid "Expand sidebar"
 msgstr "Развернуть боковую панель"
 
-#: qml/EntryListPage.qml:63
+#: qml/EntryListPage.qml:64
 #, kde-format
 msgid "Collapse sidebar"
 msgstr "Свернуть боковую панель"
 
-#: qml/EntryListPage.qml:75
+#: qml/EntryListPage.qml:76
 #, kde-format
 msgid "All Entries"
 msgstr "Все записи"
 
-#: qml/EntryListPage.qml:83
+#: qml/EntryListPage.qml:84
 #, kde-format
 msgid "Error"
 msgstr "Ошибка"
 
-#: qml/EntryListPage.qml:84 qml/EntryListPage.qml:96
+#: qml/EntryListPage.qml:85 qml/EntryListPage.qml:97
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "Ошибка (%1): %2"
 
-#: qml/EntryListPage.qml:94
+#: qml/EntryListPage.qml:95
 #, kde-format
 msgid "No unread entries available"
 msgstr "Нет доступных непрочитанных записей"
 
-#: qml/EntryListPage.qml:94
+#: qml/EntryListPage.qml:95
 #, kde-format
 msgid "No entries available"
 msgstr "Нет доступных записей"
 
-#: qml/EntryListPage.qml:134
+#: qml/EntryListPage.qml:135
 #, kde-format
 msgid "All"
 msgstr "Все"
 
-#: qml/EntryListPage.qml:140
+#: qml/EntryListPage.qml:141
 #, kde-format
 msgid "Unread"
 msgstr "Непрочитанные"
@@ -286,52 +301,59 @@ msgstr "Обновить все ленты"
 msgid "Add Feed…"
 msgstr "Добавить ленту…"
 
-#: qml/FeedListPage.qml:42
+#: qml/FeedListPage.qml:39
+#, fuzzy, kde-format
+#| msgid "Add Feed"
+msgctxt "@title"
+msgid "Add Feed"
+msgstr "Добавление ленты новостей"
+
+#: qml/FeedListPage.qml:45
 #, kde-format
 msgid "Manage Feed Groups"
 msgstr "Группы лент новостей"
 
-#: qml/FeedListPage.qml:47
+#: qml/FeedListPage.qml:50
 #, kde-format
 msgid "Import Feeds…"
 msgstr "Импорт лент…"
 
-#: qml/FeedListPage.qml:52
+#: qml/FeedListPage.qml:55
 #, kde-format
 msgid "Export Feeds…"
 msgstr "Экспорт лент…"
 
-#: qml/FeedListPage.qml:82
+#: qml/FeedListPage.qml:85
 #, kde-format
 msgid "No feeds added yet"
 msgstr "Ленты новостей ещё не добавлены"
 
-#: qml/FeedListPage.qml:119
+#: qml/FeedListPage.qml:122
 #, kde-format
 msgid "Import Feeds"
 msgstr "Импорт лент"
 
-#: qml/FeedListPage.qml:121
+#: qml/FeedListPage.qml:124
 #, kde-format
 msgid "All Files (*)"
 msgstr "Все файлы (*)"
 
-#: qml/FeedListPage.qml:121
+#: qml/FeedListPage.qml:124
 #, kde-format
 msgid "XML Files (*.xml)"
 msgstr "Файлы XML (*.xml)"
 
-#: qml/FeedListPage.qml:121
+#: qml/FeedListPage.qml:124
 #, kde-format
 msgid "OPML Files (*.opml)"
 msgstr "Файлы OPML (*.opml)"
 
-#: qml/FeedListPage.qml:127
+#: qml/FeedListPage.qml:130
 #, kde-format
 msgid "Export Feeds"
 msgstr "Экспорт лент"
 
-#: qml/FeedListPage.qml:129
+#: qml/FeedListPage.qml:132
 #, kde-format
 msgid "All Files"
 msgstr "Все файлы"
@@ -426,9 +448,6 @@ msgstr "Использовать системные параметры по ум
 
 #~ msgid "OK"
 #~ msgstr "OK"
-
-#~ msgid "Cancel"
-#~ msgstr "Отмена"
 
 #~ msgid "Configure Groups"
 #~ msgstr "Настройка групп"
