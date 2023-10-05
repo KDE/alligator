@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-10-04 01:39+0000\n"
-"PO-Revision-Date: 2023-09-14 12:03+0300\n"
+"PO-Revision-Date: 2023-10-04 13:14+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -96,10 +96,9 @@ msgid "Add Feed"
 msgstr "Додати подачу"
 
 #: qml/AddFeedDialog.qml:25
-#, fuzzy, kde-format
-#| msgid "Url:"
+#, kde-format
 msgid "Url"
-msgstr "Адреса:"
+msgstr "Адреса"
 
 #: qml/AddFeedDialog.qml:31
 #, kde-format
@@ -107,15 +106,13 @@ msgid "Mark entries as read"
 msgstr "Позначити записи як прочитані"
 
 #: qml/AddFeedDialog.qml:36
-#, fuzzy, kde-format
-#| msgid "Add Feed"
+#, kde-format
 msgctxt "@action:button"
 msgid "Add Feed"
 msgstr "Додати подачу"
 
 #: qml/AddFeedDialog.qml:43
-#, fuzzy, kde-format
-#| msgid "Cancel"
+#, kde-format
 msgctxt "@action:button"
 msgid "Cancel"
 msgstr "Скасувати"
@@ -301,11 +298,10 @@ msgid "Add Feed…"
 msgstr "Додати подачу…"
 
 #: qml/FeedListPage.qml:39
-#, fuzzy, kde-format
-#| msgid "Add Feed"
+#, kde-format
 msgctxt "@title"
 msgid "Add Feed"
-msgstr "Додати подачу"
+msgstr "Додавання подачі"
 
 #: qml/FeedListPage.qml:45
 #, kde-format

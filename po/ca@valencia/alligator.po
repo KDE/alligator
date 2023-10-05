@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-10-04 01:39+0000\n"
-"PO-Revision-Date: 2023-09-14 19:06+0200\n"
+"PO-Revision-Date: 2023-10-04 11:36+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -97,10 +97,9 @@ msgid "Add Feed"
 msgstr "Afig una font"
 
 #: qml/AddFeedDialog.qml:25
-#, fuzzy, kde-format
-#| msgid "Url:"
+#, kde-format
 msgid "Url"
-msgstr "URL:"
+msgstr "URL"
 
 #: qml/AddFeedDialog.qml:31
 #, kde-format
@@ -108,8 +107,7 @@ msgid "Mark entries as read"
 msgstr "Marca les entrades com a llegides"
 
 #: qml/AddFeedDialog.qml:36
-#, fuzzy, kde-format
-#| msgid "Add Feed"
+#, kde-format
 msgctxt "@action:button"
 msgid "Add Feed"
 msgstr "Afig una font"
@@ -118,7 +116,7 @@ msgstr "Afig una font"
 #, kde-format
 msgctxt "@action:button"
 msgid "Cancel"
-msgstr ""
+msgstr "Cancel·la"
 
 #: qml/AlligatorGlobalDrawer.qml:89
 #, kde-format
@@ -300,8 +298,7 @@ msgid "Add Feed…"
 msgstr "Afig una font…"
 
 #: qml/FeedListPage.qml:39
-#, fuzzy, kde-format
-#| msgid "Add Feed"
+#, kde-format
 msgctxt "@title"
 msgid "Add Feed"
 msgstr "Afig una font"
