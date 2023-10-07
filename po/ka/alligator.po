@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-10-04 01:39+0000\n"
-"PO-Revision-Date: 2023-09-15 06:07+0200\n"
+"PO-Revision-Date: 2023-10-06 05:02+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.3.2\n"
+"X-Generator: Poedit 3.4\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -94,10 +94,9 @@ msgid "Add Feed"
 msgstr "ლენტის დამატება"
 
 #: qml/AddFeedDialog.qml:25
-#, fuzzy, kde-format
-#| msgid "Url:"
+#, kde-format
 msgid "Url"
-msgstr "URL:"
+msgstr "Url"
 
 #: qml/AddFeedDialog.qml:31
 #, kde-format
@@ -105,18 +104,16 @@ msgid "Mark entries as read"
 msgstr "ჩანაწერების წაკითხულად მონიშვნა"
 
 #: qml/AddFeedDialog.qml:36
-#, fuzzy, kde-format
-#| msgid "Add Feed"
+#, kde-format
 msgctxt "@action:button"
 msgid "Add Feed"
 msgstr "ლენტის დამატება"
 
 #: qml/AddFeedDialog.qml:43
-#, fuzzy, kde-format
-#| msgid "Cancel"
+#, kde-format
 msgctxt "@action:button"
 msgid "Cancel"
-msgstr "_გაუქმება"
+msgstr "გაუქმება"
 
 #: qml/AlligatorGlobalDrawer.qml:89
 #, kde-format
@@ -297,8 +294,7 @@ msgid "Add Feed…"
 msgstr "ლენტის დამატება…"
 
 #: qml/FeedListPage.qml:39
-#, fuzzy, kde-format
-#| msgid "Add Feed"
+#, kde-format
 msgctxt "@title"
 msgid "Add Feed"
 msgstr "ლენტის დამატება"
