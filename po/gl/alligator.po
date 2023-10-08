@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-10-04 01:39+0000\n"
-"PO-Revision-Date: 2023-09-17 15:19+0200\n"
+"PO-Revision-Date: 2023-10-07 12:22+0200\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Galician <proxecto@trasno.gal>\n"
 "Language: gl\n"
@@ -93,10 +93,9 @@ msgid "Add Feed"
 msgstr "Engadir unha fonte"
 
 #: qml/AddFeedDialog.qml:25
-#, fuzzy, kde-format
-#| msgid "Url:"
+#, kde-format
 msgid "Url"
-msgstr "URL:"
+msgstr "URL"
 
 #: qml/AddFeedDialog.qml:31
 #, kde-format
@@ -104,8 +103,7 @@ msgid "Mark entries as read"
 msgstr "Marcar as entradas como lidas"
 
 #: qml/AddFeedDialog.qml:36
-#, fuzzy, kde-format
-#| msgid "Add Feed"
+#, kde-format
 msgctxt "@action:button"
 msgid "Add Feed"
 msgstr "Engadir unha fonte"
@@ -114,7 +112,7 @@ msgstr "Engadir unha fonte"
 #, kde-format
 msgctxt "@action:button"
 msgid "Cancel"
-msgstr ""
+msgstr "Cancelar"
 
 #: qml/AlligatorGlobalDrawer.qml:89
 #, kde-format
@@ -175,7 +173,7 @@ msgstr "Expandir barra lateral"
 #: qml/EntryListPage.qml:64
 #, kde-format
 msgid "Collapse sidebar"
-msgstr "Recoller a barra lateral"
+msgstr "Pregar a barra lateral"
 
 #: qml/EntryListPage.qml:76
 #, kde-format
@@ -295,8 +293,7 @@ msgid "Add Feed…"
 msgstr "Engadir unha fonte…"
 
 #: qml/FeedListPage.qml:39
-#, fuzzy, kde-format
-#| msgid "Add Feed"
+#, kde-format
 msgctxt "@title"
 msgid "Add Feed"
 msgstr "Engadir unha fonte"
