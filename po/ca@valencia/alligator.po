@@ -54,7 +54,7 @@ msgstr "Cap analitzador ha acceptat l'XML"
 #: fetcher.cpp:240
 #, kde-format
 msgid "Error while parsing feed"
-msgstr "S'ha produït un error en analitzar la font"
+msgstr "S'ha produït un error en l'anàlisi sintàctica de la font"
 
 #: main.cpp:78 qml/AlligatorGlobalDrawer.qml:57
 #, kde-format
@@ -318,7 +318,7 @@ msgstr "Tots els fitxers (*)"
 #: qml/FeedListPage.qml:122
 #, kde-format
 msgid "XML Files (*.xml)"
-msgstr "Fitxers XML (*.xml)"
+msgstr "Fitxers en XML (*.xml)"
 
 #: qml/FeedListPage.qml:122
 #, kde-format
