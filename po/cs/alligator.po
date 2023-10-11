@@ -93,10 +93,9 @@ msgid "Add Feed"
 msgstr "Přidat kanál"
 
 #: qml/AddFeedDialog.qml:25
-#, fuzzy, kde-format
-#| msgid "Url:"
+#, kde-format
 msgid "Url"
-msgstr "Url:"
+msgstr "Url"
 
 #: qml/AddFeedDialog.qml:31
 #, kde-format
@@ -104,17 +103,16 @@ msgid "Mark entries as read"
 msgstr "Označit položky jako přečtené"
 
 #: qml/AddFeedDialog.qml:36
-#, fuzzy, kde-format
-#| msgid "Add Feed"
+#, kde-format
 msgctxt "@action:button"
 msgid "Add Feed"
-msgstr "Přidat kanál"
+msgstr ""
 
 #: qml/AddFeedDialog.qml:43
 #, kde-format
 msgctxt "@action:button"
 msgid "Cancel"
-msgstr ""
+msgstr "Zrušit"
 
 #: qml/AlligatorGlobalDrawer.qml:89
 #, kde-format
@@ -296,11 +294,10 @@ msgid "Add Feed…"
 msgstr "Přidat kanál..."
 
 #: qml/FeedListPage.qml:39
-#, fuzzy, kde-format
-#| msgid "Add Feed"
+#, kde-format
 msgctxt "@title"
 msgid "Add Feed"
-msgstr "Přidat kanál"
+msgstr ""
 
 #: qml/FeedListPage.qml:45
 #, kde-format

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-10-04 01:39+0000\n"
-"PO-Revision-Date: 2023-09-16 10:06\n"
+"PO-Revision-Date: 2023-10-10 14:25\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -94,10 +94,9 @@ msgid "Add Feed"
 msgstr "添加新闻源"
 
 #: qml/AddFeedDialog.qml:25
-#, fuzzy, kde-format
-#| msgid "Url:"
+#, kde-format
 msgid "Url"
-msgstr "URL："
+msgstr ""
 
 #: qml/AddFeedDialog.qml:31
 #, kde-format
@@ -105,8 +104,7 @@ msgid "Mark entries as read"
 msgstr "标记条目为已读"
 
 #: qml/AddFeedDialog.qml:36
-#, fuzzy, kde-format
-#| msgid "Add Feed"
+#, kde-format
 msgctxt "@action:button"
 msgid "Add Feed"
 msgstr "添加新闻源"
@@ -295,8 +293,7 @@ msgid "Add Feed…"
 msgstr "添加新闻源..."
 
 #: qml/FeedListPage.qml:39
-#, fuzzy, kde-format
-#| msgid "Add Feed"
+#, kde-format
 msgctxt "@title"
 msgid "Add Feed"
 msgstr "添加新闻源"
