@@ -84,10 +84,6 @@ int main(int argc, char *argv[])
     about.addAuthor(i18n("Tobias Fella"), QString(), QStringLiteral("tobias.fella@kde.org"), QStringLiteral("https://tobiasfella.de"));
     KAboutData::setApplicationData(about);
 
-    qmlRegisterSingletonType("org.kde.alligator.about", 1, 0, "About", [](QQmlEngine *engine, QJSEngine *) -> QJSValue {
-        return engine->toScriptValue(KAboutData::applicationData());
-    });
-
     AlligatorSettings settings;
     qmlRegisterSingletonInstance("org.kde.alligator.config", 1, 0, "Config", &settings);
 
