@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-10-04 01:39+0000\n"
+"POT-Creation-Date: 2023-10-14 01:48+0000\n"
 "PO-Revision-Date: 2023-03-06 16:33+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -69,17 +69,17 @@ msgstr "© 2020-2022 da Comunidade do KDE"
 msgid "Tobias Fella"
 msgstr "Tobias Fella"
 
-#: main.cpp:98
+#: main.cpp:94
 #, kde-format
 msgid "RSS/Atom Feed Reader"
 msgstr "Leitor de Fontes RSS/Atom"
 
-#: main.cpp:100
+#: main.cpp:96
 #, kde-format
 msgid "Adds a new feed to database."
 msgstr "Adiciona uma nova fonte à base de dados."
 
-#: main.cpp:101
+#: main.cpp:97
 #, kde-format
 msgid "feed URL"
 msgstr "URL da fonte"

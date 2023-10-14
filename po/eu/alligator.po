@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-10-04 01:39+0000\n"
+"POT-Creation-Date: 2023-10-14 01:48+0000\n"
 "PO-Revision-Date: 2023-10-04 23:17+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -75,17 +75,17 @@ msgstr "© 2020-2023 KDE Komunitatea"
 msgid "Tobias Fella"
 msgstr "Tobias Fella"
 
-#: main.cpp:98
+#: main.cpp:94
 #, kde-format
 msgid "RSS/Atom Feed Reader"
 msgstr "RSS/Atom web-jario irakurlea"
 
-#: main.cpp:100
+#: main.cpp:96
 #, kde-format
 msgid "Adds a new feed to database."
 msgstr "Datu-basera jario berria gehitzen du."
 
-#: main.cpp:101
+#: main.cpp:97
 #, kde-format
 msgid "feed URL"
 msgstr "Jarioaren URL"

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-10-04 01:39+0000\n"
+"POT-Creation-Date: 2023-10-14 01:48+0000\n"
 "PO-Revision-Date: 2023-10-04 12:39+0200\n"
 "Last-Translator: Xavier BESNARD <xavier.besnard@neuf.fr>\n"
 "Language-Team: fr\n"
@@ -70,17 +70,17 @@ msgstr "© 2020 - 2023 Communauté de KDE"
 msgid "Tobias Fella"
 msgstr "Tobias Fella"
 
-#: main.cpp:98
+#: main.cpp:94
 #, kde-format
 msgid "RSS/Atom Feed Reader"
 msgstr "Lecteur de fil d'actualités (RSS)"
 
-#: main.cpp:100
+#: main.cpp:96
 #, kde-format
 msgid "Adds a new feed to database."
 msgstr "Ajoute un nouveau fil de discussions à la base de données."
 
-#: main.cpp:101
+#: main.cpp:97
 #, kde-format
 msgid "feed URL"
 msgstr "URL du fil de discussions"
