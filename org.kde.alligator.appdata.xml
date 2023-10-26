@@ -6,6 +6,7 @@
 <component type="desktop-application">
   <id>org.kde.alligator</id>
   <name>Alligator</name>
+  <name xml:lang="ast">Alligator</name>
   <name xml:lang="ca">Alligator</name>
   <name xml:lang="ca-valencia">Alligator</name>
   <name xml:lang="cs">Alligator</name>
