@@ -1,431 +1,430 @@
 # Copyright (C) 2023 This file is copyright:
 # This file is distributed under the same license as the alligator package.
-# SPDX-FileCopyrightText: 2020, 2021, 2022, 2023 Vit Pelcak <vit@pelcak.org>
 #
+# SPDX-FileCopyrightText: 2023 Enol P. <enolp@softastur.org>
 msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-10-14 01:48+0000\n"
-"PO-Revision-Date: 2023-10-19 14:35+0200\n"
-"Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
-"Language-Team: Czech <kde-i18n-doc@kde.org>\n"
-"Language: cs\n"
+"PO-Revision-Date: 2023-10-25 12:59+0200\n"
+"Last-Translator: Enol P. <enolp@softastur.org>\n"
+"Language-Team: \n"
+"Language: ast_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 23.08.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Vít Pelčák"
+msgstr "Softastur"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "vit@pelcak.org"
+msgstr "alministradores@softastur.org"
 
 #: database.cpp:67 database.cpp:313
 #, kde-format
 msgid "Default"
-msgstr "Výchozí"
+msgstr ""
 
 #: database.cpp:68 database.cpp:314
 #, kde-format
 msgid "Default Feed Group"
-msgstr "Výchozí skupina kanálů"
+msgstr ""
 
 #: fetcher.cpp:241
 #, kde-format
 msgid "Invalid XML"
-msgstr "Neplatné XML"
+msgstr ""
 
 #: fetcher.cpp:243
 #, kde-format
 msgid "No parser accepted the XML"
-msgstr "Žádný analyzátor XML nepřijal"
+msgstr ""
 
 #: fetcher.cpp:245
 #, kde-format
 msgid "Error while parsing feed"
-msgstr "Chyba při zpracování kanálu"
+msgstr ""
 
 #: main.cpp:79 qml/AlligatorGlobalDrawer.qml:55
 #, kde-format
 msgid "Alligator"
-msgstr "Alligator"
+msgstr ""
 
 #: main.cpp:81
 #, kde-format
 msgid "Feed Reader"
-msgstr "Čtečka kanálů"
+msgstr ""
 
 #: main.cpp:83
 #, kde-format
 msgid "© 2020-2023 KDE Community"
-msgstr "© 2020-2023 Komunita KDE"
+msgstr ""
 
 #: main.cpp:84
 #, kde-format
 msgid "Tobias Fella"
-msgstr "Tobias Fella"
+msgstr ""
 
 #: main.cpp:94
 #, kde-format
 msgid "RSS/Atom Feed Reader"
-msgstr "Čtečka kanálů RSS/Atom"
+msgstr ""
 
 #: main.cpp:96
 #, kde-format
 msgid "Adds a new feed to database."
-msgstr "Přidá do databáze nový kanál."
+msgstr ""
 
 #: main.cpp:97
 #, kde-format
 msgid "feed URL"
-msgstr "URL kanálu"
+msgstr ""
 
 #: qml/AddFeedDialog.qml:19
 #, kde-format
 msgid "Add Feed"
-msgstr "Přidat kanál"
+msgstr ""
 
 #: qml/AddFeedDialog.qml:25
 #, kde-format
 msgid "Url"
-msgstr "Url"
+msgstr ""
 
 #: qml/AddFeedDialog.qml:31
 #, kde-format
 msgid "Mark entries as read"
-msgstr "Označit položky jako přečtené"
+msgstr ""
 
 #: qml/AddFeedDialog.qml:36
 #, kde-format
 msgctxt "@action:button"
 msgid "Add Feed"
-msgstr "Přidat kanál"
+msgstr ""
 
 #: qml/AddFeedDialog.qml:43
 #, kde-format
 msgctxt "@action:button"
 msgid "Cancel"
-msgstr "Zrušit"
+msgstr ""
 
 #: qml/AlligatorGlobalDrawer.qml:89
 #, kde-format
 msgid "All Feeds"
-msgstr "Všechny kanály"
+msgstr ""
 
 #: qml/AlligatorGlobalDrawer.qml:151 qml/SettingsPage.qml:21
 #, kde-format
 msgid "Settings"
-msgstr "Nastavení"
+msgstr ""
 
 #: qml/AlligatorGlobalDrawer.qml:162
 #, kde-format
 msgid "Manage Feeds"
-msgstr "Spravovat kanály"
+msgstr ""
 
 #: qml/AlligatorGlobalDrawer.qml:174
 #, kde-format
 msgid "About"
-msgstr "O aplikaci"
+msgstr ""
 
 #: qml/EditFeedDialog.qml:15
 #, kde-format
 msgid "Edit Feed"
-msgstr "Upravit kanál"
+msgstr ""
 
 #: qml/EditFeedDialog.qml:35
 #, kde-format
 msgid "Display Name:"
-msgstr "Zobrazované jméno:"
+msgstr ""
 
 #: qml/EditFeedDialog.qml:45
 #, kde-format
 msgid "Group:"
-msgstr "Skupina:"
+msgstr ""
 
 #: qml/EntryListDelegate.qml:65
 #, kde-format
 msgctxt "by <author(s)>"
 msgid "by"
-msgstr "od"
+msgstr ""
 
 #: qml/EntryListPage.qml:44
 #, kde-format
 msgid "Refresh"
-msgstr "Obnovit"
+msgstr ""
 
 #: qml/EntryListPage.qml:51
 #, kde-format
 msgid "Details"
-msgstr "Podrobnosti"
+msgstr ""
 
 #: qml/EntryListPage.qml:64
 #, kde-format
 msgid "Expand sidebar"
-msgstr "Rozbalit postranní panel"
+msgstr ""
 
 #: qml/EntryListPage.qml:64
 #, kde-format
 msgid "Collapse sidebar"
-msgstr "Svinout postranní panel"
+msgstr ""
 
 #: qml/EntryListPage.qml:76
 #, kde-format
 msgid "All Entries"
-msgstr "Všechny položky"
+msgstr ""
 
 #: qml/EntryListPage.qml:84
 #, kde-format
 msgid "Error"
-msgstr "Chyba"
+msgstr ""
 
 #: qml/EntryListPage.qml:85 qml/EntryListPage.qml:97
 #, kde-format
 msgid "Error (%1): %2"
-msgstr "Chyba (%1): %2"
+msgstr ""
 
 #: qml/EntryListPage.qml:95
 #, kde-format
 msgid "No unread entries available"
-msgstr "Nejsou dostupné žádné nepřečtené záznamy"
+msgstr ""
 
 #: qml/EntryListPage.qml:95
 #, kde-format
 msgid "No entries available"
-msgstr "Nejsou dostupné žádné záznamy"
+msgstr ""
 
 #: qml/EntryListPage.qml:135
 #, kde-format
 msgid "All"
-msgstr "Vše"
+msgstr ""
 
 #: qml/EntryListPage.qml:141
 #, kde-format
 msgid "Unread"
-msgstr "Nepřečteno"
+msgstr ""
 
 #: qml/EntryPage.qml:56
 #, kde-format
 msgid "Open in Browser"
-msgstr "Otevřít v prohlížeči"
+msgstr ""
 
 #: qml/FeedDetailsPage.qml:20
 #, kde-format
 msgctxt "<Feed Name> - Details"
 msgid "%1 - Details"
-msgstr "%1 - Podrobnosti"
+msgstr ""
 
 #: qml/FeedDetailsPage.qml:36
 #, kde-format
 msgctxt "by <author(s)>"
 msgid "by %1"
-msgstr "od %1"
+msgstr ""
 
 #: qml/FeedDetailsPage.qml:44
 #, kde-format
 msgid "Subscribed since: %1"
-msgstr "Přihlášen od: %1"
+msgstr ""
 
 #: qml/FeedDetailsPage.qml:47
 #, kde-format
 msgid "last updated: %1"
-msgstr "naposledy aktualizováno: %1"
+msgstr ""
 
 #: qml/FeedDetailsPage.qml:50
 #, kde-format
 msgid "%1 posts, %2 unread"
-msgstr "%1 příspěvků, %2 nepřečteno"
+msgstr ""
 
 #: qml/FeedGroupDialog.qml:23
 #, kde-format
 msgid "Feed Group"
-msgstr "Skupina kanálů"
+msgstr ""
 
 #: qml/FeedGroupDialog.qml:43
 #, kde-format
 msgid "Name:"
-msgstr "Název:"
+msgstr ""
 
 #: qml/FeedGroupDialog.qml:50
 #, kde-format
 msgid "Description:"
-msgstr "Popis:"
+msgstr ""
 
 #: qml/FeedListDelegate.qml:29
 #, kde-format
 msgid "%1 unread entry"
 msgid_plural "%1 unread entries"
-msgstr[0] "1 nepřečtený záznam"
-msgstr[1] "%1 nepřečtené záznamy"
-msgstr[2] "%1 nepřečtených záznamů"
+msgstr[0] ""
+msgstr[1] ""
 
 #: qml/FeedListDelegate.qml:35
 #, kde-format
 msgctxt "'Feed' is an rss feed"
 msgid "Delete this Feed"
-msgstr "Smazat tento kanál"
+msgstr ""
 
 #: qml/FeedListDelegate.qml:50
 #, kde-format
 msgctxt "'Feed' is an rss feed"
 msgid "Edit this Feed"
-msgstr "Upravit tento kanál"
+msgstr ""
 
 #: qml/FeedListPage.qml:18
 #, kde-format
 msgctxt "'Feeds' as in 'RSS Feeds'"
 msgid "Manage Feeds"
-msgstr "Spravovat kanály"
+msgstr ""
 
 #: qml/FeedListPage.qml:29
 #, kde-format
 msgid "Refresh All Feeds"
-msgstr "Obnovit všechny kanály"
+msgstr ""
 
 #: qml/FeedListPage.qml:35
 #, kde-format
 msgid "Add Feed…"
-msgstr "Přidat kanál..."
+msgstr ""
 
 #: qml/FeedListPage.qml:39
 #, kde-format
 msgctxt "@title"
 msgid "Add Feed"
-msgstr "Přidat kanál"
+msgstr ""
 
 #: qml/FeedListPage.qml:45
 #, kde-format
 msgid "Manage Feed Groups"
-msgstr "Spravovat skupiny kanálů"
+msgstr ""
 
 #: qml/FeedListPage.qml:50
 #, kde-format
 msgid "Import Feeds…"
-msgstr "Importovat kanály…"
+msgstr ""
 
 #: qml/FeedListPage.qml:55
 #, kde-format
 msgid "Export Feeds…"
-msgstr "Exportovat kanály…"
+msgstr ""
 
 #: qml/FeedListPage.qml:85
 #, kde-format
 msgid "No feeds added yet"
-msgstr "Zatím nebyly přidány žádné kanály"
+msgstr ""
 
 #: qml/FeedListPage.qml:122
 #, kde-format
 msgid "Import Feeds"
-msgstr "Importovat kanály"
+msgstr ""
 
 #: qml/FeedListPage.qml:124
 #, kde-format
 msgid "All Files (*)"
-msgstr "Všechny soubory (*)"
+msgstr ""
 
 #: qml/FeedListPage.qml:124
 #, kde-format
 msgid "XML Files (*.xml)"
-msgstr "Soubory XML (*.xml)"
+msgstr ""
 
 #: qml/FeedListPage.qml:124
 #, kde-format
 msgid "OPML Files (*.opml)"
-msgstr "Soubory OPML (*.opml)"
+msgstr ""
 
 #: qml/FeedListPage.qml:130
 #, kde-format
 msgid "Export Feeds"
-msgstr "Exportovat kanály"
+msgstr ""
 
 #: qml/FeedListPage.qml:132
 #, kde-format
 msgid "All Files"
-msgstr "Všechny soubory"
+msgstr ""
 
 #: qml/GroupsListPage.qml:18
 #, kde-format
 msgid "Groups"
-msgstr "Skupiny"
+msgstr ""
 
 #: qml/GroupsListPage.qml:24
 #, kde-format
 msgid "Add Group…"
-msgstr "Přidat skupinu..."
+msgstr ""
 
 #: qml/GroupsListPage.qml:55
 #, kde-format
 msgid "Remove"
-msgstr "Odstranit"
+msgstr ""
 
 #: qml/GroupsListPage.qml:63
 #, kde-format
 msgid "Set as Default"
-msgstr "Nastavit jako výchozí"
+msgstr ""
 
 #: qml/GroupsListPage.qml:72
 #, kde-format
 msgid "No groups created yet"
-msgstr "Žádné skupiny zatím nebyly vytvořeny"
+msgstr ""
 
 #: qml/GroupsListPage.qml:77
 #, kde-format
 msgid "Add Group"
-msgstr "Přidat skupinu"
+msgstr ""
 
 #: qml/SettingsPage.qml:24
 #, kde-format
 msgctxt "@title"
 msgid "Article List"
-msgstr "Seznam článků"
+msgstr ""
 
 #: qml/SettingsPage.qml:33
 #, kde-format
 msgid "Delete after:"
-msgstr "Smazat po:"
+msgstr ""
 
 #: qml/SettingsPage.qml:46
 #, kde-format
 msgid "Never"
-msgstr "Nikdy"
+msgstr ""
 
 #: qml/SettingsPage.qml:46
 #, kde-format
 msgid "Articles"
-msgstr "Členy"
+msgstr ""
 
 #: qml/SettingsPage.qml:46
 #, kde-format
 msgid "Days"
-msgstr "Dnů"
+msgstr ""
 
 #: qml/SettingsPage.qml:46
 #, kde-format
 msgid "Weeks"
-msgstr "Týdnů"
+msgstr ""
 
 #: qml/SettingsPage.qml:46
 #, kde-format
 msgid "Months"
-msgstr "Měsíce"
+msgstr ""
 
 #: qml/SettingsPage.qml:55
 #, kde-format
 msgid "Article"
-msgstr "Článek"
+msgstr ""
 
 #: qml/SettingsPage.qml:62
 #, kde-format
 msgid "Font size:"
-msgstr "Velikost písma:"
+msgstr ""
 
 #: qml/SettingsPage.qml:71
 #, kde-format
 msgid "Use system default"
-msgstr "Použít výchozí systémový"
+msgstr ""
