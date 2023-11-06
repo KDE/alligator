@@ -21,7 +21,7 @@ Delegates.RoundedItemDelegate {
     signal editFeed(var feedObj)
 
     text: feed.displayName || feed.name
-    icon: feed.refreshing ? "view-refresh" : feed.image === "" ? "rss" : Fetcher.image(delegate.feed.image)
+    icon.name: feed.refreshing ? "view-refresh" : feed.image === "" ? "rss" : Fetcher.image(delegate.feed.image)
 
     contentItem: RowLayout {
         Delegates.SubtitleContentItem {
