@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-10-14 01:48+0000\n"
+"POT-Creation-Date: 2023-11-07 02:43+0000\n"
 "PO-Revision-Date: 2021-02-18 21:44+0100\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
@@ -214,7 +214,7 @@ msgstr ""
 msgid "Unread"
 msgstr ""
 
-#: qml/EntryPage.qml:56
+#: qml/EntryPage.qml:57
 #, kde-format
 msgid "Open in Browser"
 msgstr "Opna i nettlesar"

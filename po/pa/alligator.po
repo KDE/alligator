@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-10-14 01:48+0000\n"
+"POT-Creation-Date: 2023-11-07 02:43+0000\n"
 "PO-Revision-Date: 2021-05-01 23:10-0700\n"
 "Last-Translator: A S Alam <aalam@satluj.org>\n"
 "Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
@@ -218,7 +218,7 @@ msgstr ""
 msgid "Unread"
 msgstr ""
 
-#: qml/EntryPage.qml:56
+#: qml/EntryPage.qml:57
 #, kde-format
 msgid "Open in Browser"
 msgstr "ਬਰਾਊਜ਼ਰ 'ਚ ਖੋਲ੍ਹੋ"

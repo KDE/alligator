@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-10-14 01:48+0000\n"
-"PO-Revision-Date: 2023-03-12 15:13+0200\n"
+"POT-Creation-Date: 2023-11-07 02:43+0000\n"
+"PO-Revision-Date: 2023-09-29 09:36+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -63,10 +63,9 @@ msgid "Feed Reader"
 msgstr "Syötteenlukija"
 
 #: main.cpp:83
-#, fuzzy, kde-format
-#| msgid "© 2020-2022 KDE Community"
+#, kde-format
 msgid "© 2020-2023 KDE Community"
-msgstr "© 2020–2022 KDE-yhteisö"
+msgstr "© 2020–2023 KDE-yhteisö"
 
 #: main.cpp:84
 #, kde-format
@@ -214,7 +213,7 @@ msgstr "Kaikki"
 msgid "Unread"
 msgstr "Lukematta"
 
-#: qml/EntryPage.qml:56
+#: qml/EntryPage.qml:57
 #, kde-format
 msgid "Open in Browser"
 msgstr "Avaa selaimeen"
@@ -384,8 +383,7 @@ msgid "Add Group"
 msgstr "Lisää ryhmä"
 
 #: qml/SettingsPage.qml:24
-#, fuzzy, kde-format
-#| msgid "Article List"
+#, kde-format
 msgctxt "@title"
 msgid "Article List"
 msgstr "Artikkeliluettelo"
