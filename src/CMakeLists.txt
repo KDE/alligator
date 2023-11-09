@@ -68,6 +68,7 @@ if(ANDROID)
         arrow-down
         arrow-up
     )
+    ecm_add_android_apk(alligator ANDROID_DIR ${CMAKE_SOURCE_DIR}/android)
 else()
     target_link_libraries(alligator PRIVATE Qt::Widgets)
 endif()

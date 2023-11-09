@@ -25,6 +25,7 @@ include(KDEInstallDirs)
 include(KDEClangFormat)
 include(KDECMakeSettings)
 include(KDEGitCommitHooks)
+include(ECMAddAndroidApk)
 include(KDECompilerSettings NO_POLICY_SCOPE)
 
 ecm_setup_version(${PROJECT_VERSION}
