@@ -22,7 +22,6 @@ apps:
         - opengl
         - wayland
         - x11
-        - audio-playback
         - unity7
         - network
         - network-bind
@@ -56,9 +55,6 @@ plugs:
         target: $SNAP_DATA/foo
 environment:
     SNAP_DESKTOP_RUNTIME: $SNAP/kf5
-    GST_PLUGIN_PATH: "$SNAP/usr/lib/$CRAFT_ARCH_TRIPLET/gstreamer-1.0"
-    GST_PLUGIN_SYSTEM_PATH: "$SNAP/usr/lib/$CRAFT_ARCH_TRIPLET/gstreamer-1.0"
-    GST_PLUGIN_SCANNER: "$SNAP/usr/lib/$CRAFT_ARCH_TRIPLET/gstreamer1.0/gstreamer-1.0/gst-plugin-scanner"
     QT_QUICK_CONTROLS_STYLE: org.kde.desktop
 hooks:
     configure:
@@ -69,12 +65,6 @@ hooks:
 layout:
     "/usr/share/X11":
         symlink: "$SNAP/kf5/usr/share/X11"
-    "/usr/lib/$CRAFT_ARCH_TRIPLET/alsa-lib":
-        bind: "$SNAP/usr/lib/$CRAFT_ARCH_TRIPLET/alsa-lib"
-    "/usr/share/alsa":
-        bind: "$SNAP/usr/share/alsa"
-    "/etc/alsa/conf.d":
-        bind: "$SNAP/etc/alsa/conf.d"
 package-repositories:
 -   type: apt
     components:
@@ -113,17 +103,6 @@ parts:
         - kirigami-addons-dev
         - libkf5syndication-dev
         stage-packages:
-        - libasound2
-        - libasound2-data
-        - libasound2-plugins
-        - phonon4qt5
-        - gstreamer1.0-alsa
-        - gstreamer1.0-pulseaudio
-        - gstreamer1.0-plugins-good
-        - gstreamer1.0-plugins-bad
-        - gstreamer1.0-plugins-ugly
-        - phonon4qt5-backend-gstreamer
-        - oxygen-sounds
         - qml-module-org-kde-kirigami2
         - kirigami-addons-data
         - qml-module-org-kde-kirigami-addons-datetime
@@ -135,8 +114,6 @@ parts:
         - qml-module-qtquick-controls2
         - qml-module-org-kde-qqc2desktopstyle
         - libkf5syndication5
-        stage-snaps:
-        - khelpcenter
         source: .
         source-type: local
         cmake-parameters:
@@ -151,6 +128,7 @@ parts:
         - "-usr/lib/*/cmake/*"
         - "-usr/include/*"
         - "-usr/share/ECM/*"
+        - "-usr/share/docs/*"
         - "-usr/share/man/*"
         - "-usr/share/icons/breeze-dark*"
         - "-usr/bin/X11"
