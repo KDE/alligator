@@ -128,7 +128,6 @@ Kirigami.ScrollablePage {
 
         Kirigami.NavigationTabBar {
             Layout.fillWidth: true
-            shadow: false
             actions: [
                 Kirigami.Action {
                     icon.name: "mail-read"
