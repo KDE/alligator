@@ -40,7 +40,7 @@ find_package(KF6KirigamiAddons 0.6 REQUIRED)
 
 if (ANDROID)
     find_package(Qt6 ${QT_MIN_VERSION} REQUIRED COMPONENTS Svg)
-    find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS Kirigami2)
+    find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS Kirigami)
     find_package(OpenSSL REQUIRED)
     find_package(SQLite3)
 else()
