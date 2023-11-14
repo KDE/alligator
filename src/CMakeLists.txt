@@ -38,7 +38,7 @@ target_link_libraries(alligator PRIVATE Qt::Core Qt::Qml Qt::Quick Qt::QuickCont
 
 if(ANDROID)
     target_link_libraries(alligator PRIVATE
-        KF6::Kirigami2
+        KF6::Kirigami
         Qt::Svg
         OpenSSL::SSL
     )
