@@ -67,6 +67,13 @@ if(ANDROID)
         edit-group
         arrow-down
         arrow-up
+        arrow-right
+        license
+        feed-subscribe
+        documentinfo
+        dialog-ok
+        dialog-cancel
+        editor
     )
     ecm_add_android_apk(alligator ANDROID_DIR ${CMAKE_SOURCE_DIR}/android)
 else()
