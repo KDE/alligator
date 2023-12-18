@@ -103,6 +103,8 @@ int EntriesModel::rowCount(const QModelIndex &parent) const
 void EntriesModel::loadEntries()
 {
     QSqlQuery entryQuery;
+    beginResetModel();
+    m_entries.clear();
     if (m_feedUrl.length() > 0) {
         entryQuery.prepare(QStringLiteral("SELECT * FROM Entries WHERE feed=:feed ORDER BY updated DESC"));
         entryQuery.bindValue(QStringLiteral(":feed"), m_feedUrl);
@@ -137,6 +139,7 @@ void EntriesModel::loadEntries()
 
         m_entries.append(entry);
     }
+    endResetModel();
 }
 
 QString EntriesModel::feedUrl() const
