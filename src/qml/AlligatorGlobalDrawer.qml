@@ -103,6 +103,7 @@ Kirigami.GlobalDrawer {
                 delegate: Kirigami.ListSectionHeader {
                     label: section
                     opacity: applicationWindow().sidebarCollapsed ? 0 : 1
+                    width: parent.width
 
                     Behavior on opacity {
                         NumberAnimation {
