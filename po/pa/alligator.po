@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-14 01:38+0000\n"
+"POT-Creation-Date: 2023-12-19 01:33+0000\n"
 "PO-Revision-Date: 2021-05-01 23:10-0700\n"
 "Last-Translator: A S Alam <aalam@satluj.org>\n"
 "Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
@@ -123,17 +123,17 @@ msgstr "ਰੱਦ ਕਰੋ"
 msgid "All Feeds"
 msgstr "ਸਭ ਫੀਡਾਂ"
 
-#: qml/AlligatorGlobalDrawer.qml:151 qml/SettingsPage.qml:21
+#: qml/AlligatorGlobalDrawer.qml:152 qml/SettingsPage.qml:21
 #, kde-format
 msgid "Settings"
 msgstr "ਸੈਟਿੰਗਾਂ"
 
-#: qml/AlligatorGlobalDrawer.qml:162
+#: qml/AlligatorGlobalDrawer.qml:163
 #, kde-format
 msgid "Manage Feeds"
 msgstr ""
 
-#: qml/AlligatorGlobalDrawer.qml:174
+#: qml/AlligatorGlobalDrawer.qml:175
 #, kde-format
 msgid "About"
 msgstr "ਇਸ ਬਾਰੇ"

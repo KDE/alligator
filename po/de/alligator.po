@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-14 01:38+0000\n"
+"POT-Creation-Date: 2023-12-19 01:33+0000\n"
 "PO-Revision-Date: 2023-03-12 19:45+0100\n"
 "Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -124,17 +124,17 @@ msgstr "Abbrechen"
 msgid "All Feeds"
 msgstr "Alle Nachrichtenquellen"
 
-#: qml/AlligatorGlobalDrawer.qml:151 qml/SettingsPage.qml:21
+#: qml/AlligatorGlobalDrawer.qml:152 qml/SettingsPage.qml:21
 #, kde-format
 msgid "Settings"
 msgstr "Einstellungen"
 
-#: qml/AlligatorGlobalDrawer.qml:162
+#: qml/AlligatorGlobalDrawer.qml:163
 #, kde-format
 msgid "Manage Feeds"
 msgstr "Nachrichtenquellen verwalten"
 
-#: qml/AlligatorGlobalDrawer.qml:174
+#: qml/AlligatorGlobalDrawer.qml:175
 #, kde-format
 msgid "About"
 msgstr "Über"

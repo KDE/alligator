@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-14 01:38+0000\n"
+"POT-Creation-Date: 2023-12-19 01:33+0000\n"
 "PO-Revision-Date: 2023-11-08 18:49+0100\n"
 "Last-Translator: Ferdinand Galko <galko.ferdinand@gmail.com>\n"
 "Language-Team: Slovak <opensuse-translation@opensuse.org>\n"
@@ -118,17 +118,17 @@ msgstr "Zrušiť"
 msgid "All Feeds"
 msgstr "Všetky kanály"
 
-#: qml/AlligatorGlobalDrawer.qml:151 qml/SettingsPage.qml:21
+#: qml/AlligatorGlobalDrawer.qml:152 qml/SettingsPage.qml:21
 #, kde-format
 msgid "Settings"
 msgstr "Nastavenia"
 
-#: qml/AlligatorGlobalDrawer.qml:162
+#: qml/AlligatorGlobalDrawer.qml:163
 #, kde-format
 msgid "Manage Feeds"
 msgstr "Spravovať kanály"
 
-#: qml/AlligatorGlobalDrawer.qml:174
+#: qml/AlligatorGlobalDrawer.qml:175
 #, kde-format
 msgid "About"
 msgstr "O aplikácii"

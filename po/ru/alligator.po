@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-14 01:38+0000\n"
+"POT-Creation-Date: 2023-12-19 01:33+0000\n"
 "PO-Revision-Date: 2023-03-01 14:02+0300\n"
 "Last-Translator: Olesya Gerasimenko <translation-team@basealt.ru>\n"
 "Language-Team: Basealt Translation Team\n"
@@ -126,17 +126,17 @@ msgstr "Отмена"
 msgid "All Feeds"
 msgstr "Все ленты"
 
-#: qml/AlligatorGlobalDrawer.qml:151 qml/SettingsPage.qml:21
+#: qml/AlligatorGlobalDrawer.qml:152 qml/SettingsPage.qml:21
 #, kde-format
 msgid "Settings"
 msgstr "Параметры"
 
-#: qml/AlligatorGlobalDrawer.qml:162
+#: qml/AlligatorGlobalDrawer.qml:163
 #, kde-format
 msgid "Manage Feeds"
 msgstr "Управление лентами"
 
-#: qml/AlligatorGlobalDrawer.qml:174
+#: qml/AlligatorGlobalDrawer.qml:175
 #, kde-format
 msgid "About"
 msgstr "О программе"
