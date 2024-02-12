@@ -1,13 +1,13 @@
 # Copyright (C) 2023 This file is copyright:
 # This file is distributed under the same license as the alligator package.
 #
-# SPDX-FileCopyrightText: 2021, 2023 A S Alam <aalam.yellow@gmail.com>
+# SPDX-FileCopyrightText: 2021, 2023, 2024 A S Alam <aalam.yellow@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-12-19 01:33+0000\n"
-"PO-Revision-Date: 2023-12-31 09:23-0600\n"
+"PO-Revision-Date: 2024-02-11 11:46-0600\n"
 "Last-Translator: A S Alam <aalam@punlinux.org>\n"
 "Language-Team: Punjabi <kde-i18n-doc@kde.org>\n"
 "Language: pa\n"
@@ -299,10 +299,9 @@ msgid "Add Feed"
 msgstr "ਫੀਡ ਜੋੜੋ"
 
 #: qml/FeedListPage.qml:45
-#, fuzzy, kde-format
-#| msgid "Feed Groups"
+#, kde-format
 msgid "Manage Feed Groups"
-msgstr "ਫੀਡ ਦੇ ਗਰੁੱਪ"
+msgstr "ਫੀਡ ਦੇ ਗਰੁੱਪ ਦਾ ਇੰਤਜ਼ਾਮ"
 
 #: qml/FeedListPage.qml:50
 #, kde-format
