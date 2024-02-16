@@ -1,0 +1,435 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the alligator package.
+#
+# SPDX-FileCopyrightText: 2024 Zayed Al-Saidi <zayed.alsaidi@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: alligator\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2023-12-19 01:33+0000\n"
+"PO-Revision-Date: 2024-02-15 18:50+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: ar\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: Lokalize 23.08.1\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "زايد السعيدي"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "zayed.alsaidi@gmail.com"
+
+#: database.cpp:67 database.cpp:313
+#, kde-format
+msgid "Default"
+msgstr "المبدئيّ"
+
+#: database.cpp:68 database.cpp:314
+#, kde-format
+msgid "Default Feed Group"
+msgstr "مجموعة التلقيمات المبدئية"
+
+#: fetcher.cpp:241
+#, kde-format
+msgid "Invalid XML"
+msgstr "مستند XML غير صحيح"
+
+#: fetcher.cpp:243
+#, kde-format
+msgid "No parser accepted the XML"
+msgstr "لم يقبل أي محلل XML"
+
+#: fetcher.cpp:245
+#, kde-format
+msgid "Error while parsing feed"
+msgstr "خطأ أثناء تحليل التلقيم"
+
+#: main.cpp:79 qml/AlligatorGlobalDrawer.qml:55
+#, kde-format
+msgid "Alligator"
+msgstr "قاطور"
+
+#: main.cpp:81
+#, kde-format
+msgid "Feed Reader"
+msgstr "قارئ التّغذيات"
+
+#: main.cpp:83
+#, kde-format
+msgid "© 2020-2023 KDE Community"
+msgstr "© 2020-2023 مجتمع كِيدِي"
+
+#: main.cpp:84
+#, kde-format
+msgid "Tobias Fella"
+msgstr "توبياس فلة"
+
+#: main.cpp:94
+#, kde-format
+msgid "RSS/Atom Feed Reader"
+msgstr "قارئ التّغذيات RSS/Atom"
+
+#: main.cpp:96
+#, kde-format
+msgid "Adds a new feed to database."
+msgstr "يضيف تلقيماً جديداً إلى قاعدة البيانات."
+
+#: main.cpp:97
+#, kde-format
+msgid "feed URL"
+msgstr "مسار التلقيم"
+
+#: qml/AddFeedDialog.qml:19
+#, kde-format
+msgid "Add Feed"
+msgstr "أضف تلقيمًا"
+
+#: qml/AddFeedDialog.qml:25
+#, kde-format
+msgid "Url"
+msgstr "العنوان"
+
+#: qml/AddFeedDialog.qml:31
+#, kde-format
+msgid "Mark entries as read"
+msgstr "علّم المدخلات كمقروءة"
+
+#: qml/AddFeedDialog.qml:36
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Feed"
+msgstr "أضف تلقيمًا"
+
+#: qml/AddFeedDialog.qml:43
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "لا تُلغ"
+
+#: qml/AlligatorGlobalDrawer.qml:89
+#, kde-format
+msgid "All Feeds"
+msgstr "كل التلقيمات"
+
+#: qml/AlligatorGlobalDrawer.qml:152 qml/SettingsPage.qml:21
+#, kde-format
+msgid "Settings"
+msgstr "إعدادات"
+
+#: qml/AlligatorGlobalDrawer.qml:163
+#, kde-format
+msgid "Manage Feeds"
+msgstr "أدِر التلقيمات"
+
+#: qml/AlligatorGlobalDrawer.qml:175
+#, kde-format
+msgid "About"
+msgstr "عن"
+
+#: qml/EditFeedDialog.qml:15
+#, kde-format
+msgid "Edit Feed"
+msgstr "حرّر التلقيم"
+
+#: qml/EditFeedDialog.qml:35
+#, kde-format
+msgid "Display Name:"
+msgstr "اسم العرض:"
+
+#: qml/EditFeedDialog.qml:45
+#, kde-format
+msgid "Group:"
+msgstr "المجموعة:"
+
+#: qml/EntryListDelegate.qml:65
+#, kde-format
+msgctxt "by <author(s)>"
+msgid "by"
+msgstr "حسب"
+
+#: qml/EntryListPage.qml:44
+#, kde-format
+msgid "Refresh"
+msgstr "أنعش"
+
+#: qml/EntryListPage.qml:51
+#, kde-format
+msgid "Details"
+msgstr "التفاصيل"
+
+#: qml/EntryListPage.qml:64
+#, kde-format
+msgid "Expand sidebar"
+msgstr "وسع الشريط الجانبي"
+
+#: qml/EntryListPage.qml:64
+#, kde-format
+msgid "Collapse sidebar"
+msgstr " اطوِ الشريط الجانبي"
+
+#: qml/EntryListPage.qml:76
+#, kde-format
+msgid "All Entries"
+msgstr "كلّ المدخلات"
+
+#: qml/EntryListPage.qml:84
+#, kde-format
+msgid "Error"
+msgstr "خطأ"
+
+#: qml/EntryListPage.qml:85 qml/EntryListPage.qml:97
+#, kde-format
+msgid "Error (%1): %2"
+msgstr "خطأ (%1): %2"
+
+#: qml/EntryListPage.qml:95
+#, kde-format
+msgid "No unread entries available"
+msgstr "لا يوجد مدخلات غير مقروءة"
+
+#: qml/EntryListPage.qml:95
+#, kde-format
+msgid "No entries available"
+msgstr "لا يوجد مدخلات"
+
+#: qml/EntryListPage.qml:134
+#, kde-format
+msgid "All"
+msgstr "الكلّ"
+
+#: qml/EntryListPage.qml:140
+#, kde-format
+msgid "Unread"
+msgstr "غير المقروء"
+
+#: qml/EntryPage.qml:57
+#, kde-format
+msgid "Open in Browser"
+msgstr "افتح في المتصفّح"
+
+#: qml/FeedDetailsPage.qml:20
+#, kde-format
+msgctxt "<Feed Name> - Details"
+msgid "%1 - Details"
+msgstr "%1 - التفاصيل"
+
+#: qml/FeedDetailsPage.qml:36
+#, kde-format
+msgctxt "by <author(s)>"
+msgid "by %1"
+msgstr "بواسطة %1"
+
+#: qml/FeedDetailsPage.qml:44
+#, kde-format
+msgid "Subscribed since: %1"
+msgstr "مشترك منذ: %1"
+
+#: qml/FeedDetailsPage.qml:47
+#, kde-format
+msgid "last updated: %1"
+msgstr "آخر تحديث: %1"
+
+#: qml/FeedDetailsPage.qml:50
+#, kde-format
+msgid "%1 posts, %2 unread"
+msgstr "%1 منشور، %2 غير مقروءة"
+
+#: qml/FeedGroupDialog.qml:23
+#, kde-format
+msgid "Feed Group"
+msgstr "مجموعة تلقيمات"
+
+#: qml/FeedGroupDialog.qml:43
+#, kde-format
+msgid "Name:"
+msgstr "الاسم:"
+
+#: qml/FeedGroupDialog.qml:50
+#, kde-format
+msgid "Description:"
+msgstr "الوصف:"
+
+#: qml/FeedListDelegate.qml:29
+#, kde-format
+msgid "%1 unread entry"
+msgid_plural "%1 unread entries"
+msgstr[0] "لا يوجد"
+msgstr[1] "مدخلة واحدة غير مقروءة"
+msgstr[2] "مدخلتان غير مقروءتان"
+msgstr[3] "%1 مدخلات غير مقروءة"
+msgstr[4] "%1 مدخلة غير مقروءة"
+msgstr[5] "%1 مدخلة غير مقروءة"
+
+#: qml/FeedListDelegate.qml:35
+#, kde-format
+msgctxt "'Feed' is an rss feed"
+msgid "Delete this Feed"
+msgstr "احذف هذا التلقيم"
+
+#: qml/FeedListDelegate.qml:50
+#, kde-format
+msgctxt "'Feed' is an rss feed"
+msgid "Edit this Feed"
+msgstr "حرّر هذا التلقيم"
+
+#: qml/FeedListPage.qml:18
+#, kde-format
+msgctxt "'Feeds' as in 'RSS Feeds'"
+msgid "Manage Feeds"
+msgstr "أدِر التلقيمات"
+
+#: qml/FeedListPage.qml:29
+#, kde-format
+msgid "Refresh All Feeds"
+msgstr "أنعش كل التلقيمات"
+
+#: qml/FeedListPage.qml:35
+#, kde-format
+msgid "Add Feed…"
+msgstr "أضف تلقيمًا…"
+
+#: qml/FeedListPage.qml:39
+#, kde-format
+msgctxt "@title"
+msgid "Add Feed"
+msgstr "أضف تلقيمًا"
+
+#: qml/FeedListPage.qml:45
+#, kde-format
+msgid "Manage Feed Groups"
+msgstr "أدِر مجموعات التلقيمات"
+
+#: qml/FeedListPage.qml:50
+#, kde-format
+msgid "Import Feeds…"
+msgstr "استورد تلقيمات…"
+
+#: qml/FeedListPage.qml:55
+#, kde-format
+msgid "Export Feeds…"
+msgstr "صدر التلقيمات…"
+
+#: qml/FeedListPage.qml:85
+#, kde-format
+msgid "No feeds added yet"
+msgstr "لم تضف أي تلقيم بعد"
+
+#: qml/FeedListPage.qml:122
+#, kde-format
+msgid "Import Feeds"
+msgstr "استورد تلقيمات"
+
+#: qml/FeedListPage.qml:124
+#, kde-format
+msgid "All Files (*)"
+msgstr "كلّ الملفّات (*)"
+
+#: qml/FeedListPage.qml:124
+#, kde-format
+msgid "XML Files (*.xml)"
+msgstr "ملفات XML (*.xml)"
+
+#: qml/FeedListPage.qml:124
+#, kde-format
+msgid "OPML Files (*.opml)"
+msgstr "ملفات OPML (*.opml)"
+
+#: qml/FeedListPage.qml:130
+#, kde-format
+msgid "Export Feeds"
+msgstr "صدر التلقيمات"
+
+#: qml/FeedListPage.qml:132
+#, kde-format
+msgid "All Files"
+msgstr "كلّ الملفّات"
+
+#: qml/GroupsListPage.qml:18
+#, kde-format
+msgid "Groups"
+msgstr "المجموعات"
+
+#: qml/GroupsListPage.qml:24
+#, kde-format
+msgid "Add Group…"
+msgstr "أضف مجموعة…"
+
+#: qml/GroupsListPage.qml:55
+#, kde-format
+msgid "Remove"
+msgstr "أزل"
+
+#: qml/GroupsListPage.qml:63
+#, kde-format
+msgid "Set as Default"
+msgstr "اضبطها كمبدئيّة"
+
+#: qml/GroupsListPage.qml:72
+#, kde-format
+msgid "No groups created yet"
+msgstr "لم تنشئ أي مجموعة بعد"
+
+#: qml/GroupsListPage.qml:77
+#, kde-format
+msgid "Add Group"
+msgstr "أضف مجموعة"
+
+#: qml/SettingsPage.qml:24
+#, kde-format
+msgctxt "@title"
+msgid "Article List"
+msgstr "قائمة المقالات"
+
+#: qml/SettingsPage.qml:33
+#, kde-format
+msgid "Delete after:"
+msgstr "احذف بعد:"
+
+#: qml/SettingsPage.qml:46
+#, kde-format
+msgid "Never"
+msgstr "البتة"
+
+#: qml/SettingsPage.qml:46
+#, kde-format
+msgid "Articles"
+msgstr "المقالات"
+
+#: qml/SettingsPage.qml:46
+#, kde-format
+msgid "Days"
+msgstr "الأيام"
+
+#: qml/SettingsPage.qml:46
+#, kde-format
+msgid "Weeks"
+msgstr "الأسابيع"
+
+#: qml/SettingsPage.qml:46
+#, kde-format
+msgid "Months"
+msgstr "الأشهر"
+
+#: qml/SettingsPage.qml:55
+#, kde-format
+msgid "Article"
+msgstr "المقالة"
+
+#: qml/SettingsPage.qml:62
+#, kde-format
+msgid "Font size:"
+msgstr "حجم الخط:"
+
+#: qml/SettingsPage.qml:71
+#, kde-format
+msgid "Use system default"
+msgstr "استخدام افتراضيات النظام"
