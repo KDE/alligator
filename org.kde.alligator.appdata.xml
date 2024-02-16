@@ -6,6 +6,7 @@
 <component type="desktop-application">
   <id>org.kde.alligator</id>
   <name>Alligator</name>
+  <name xml:lang="ar">قاطور</name>
   <name xml:lang="ast">Alligator</name>
   <name xml:lang="ca">Alligator</name>
   <name xml:lang="ca-valencia">Alligator</name>
@@ -43,6 +44,7 @@
   <name xml:lang="zh-CN">Alligator</name>
   <name xml:lang="zh-TW">Alligator</name>
   <summary>Feed reader for mobile devices</summary>
+  <summary xml:lang="ar">قارئ تغذية لأجهزة المحمولة</summary>
   <summary xml:lang="ca">Lector de fonts per a dispositius mòbils</summary>
   <summary xml:lang="ca-valencia">Lector de fonts per a dispositius mòbils</summary>
   <summary xml:lang="cs">Čtečka kanálů pro mobilní zařízení</summary>
@@ -85,6 +87,7 @@
   <url type="bugtracker">https://bugs.kde.org/enter_bug.cgi?product=Alligator</url>
   <content_rating type="oars-1.1"/>
   <developer_name>KDE Community</developer_name>
+  <developer_name xml:lang="ar">مجتمع كِيدِي</developer_name>
   <developer_name xml:lang="ast">La comunidá KDE</developer_name>
   <developer_name xml:lang="ca">La comunitat KDE</developer_name>
   <developer_name xml:lang="ca-valencia">La comunitat KDE</developer_name>
@@ -123,6 +126,7 @@
   <developer_name xml:lang="zh-TW">KDE 社群</developer_name>
   <description>
     <p>Alligator is a mobile feed reader</p>
+    <p xml:lang="ar">قاطور هو قارئ تغذيات للمحمول</p>
     <p xml:lang="ca">L'Alligator és un lector de fonts per al mòbil</p>
     <p xml:lang="ca-valencia">Alligator és un lector de fonts per al mòbil</p>
     <p xml:lang="cs">Alligator je mobilní čtečka kanálů</p>
@@ -165,6 +169,7 @@
   <screenshots>
     <screenshot type="default">
       <caption>Alligator feed list on the desktop</caption>
+      <caption xml:lang="ar">قائمة تغذية قاطور على سطح المكتب</caption>
       <caption xml:lang="ca">Llista de fonts a l'Alligator a l'escriptori</caption>
       <caption xml:lang="ca-valencia">Llista de fonts d'Alligator en l'escriptori</caption>
       <caption xml:lang="cs">Seznam kanálů Alligatoru na počítači</caption>
@@ -201,6 +206,7 @@
     </screenshot>
     <screenshot type="default">
       <caption>Alligator on a phone</caption>
+      <caption xml:lang="ar">صورة قاطور على الهاتف</caption>
       <caption xml:lang="ca">Alligator a un telèfon</caption>
       <caption xml:lang="ca-valencia">Alligator a un telèfon</caption>
       <caption xml:lang="cs">Alligator na telefonu</caption>
