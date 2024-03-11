@@ -25,6 +25,7 @@ public:
 
     static Database *create(QQmlEngine *, QJSEngine *)
     {
+        QQmlEngine::setObjectOwnership(&instance(), QQmlEngine::CppOwnership);
         return &instance();
     }
     bool execute(QSqlQuery &query);
