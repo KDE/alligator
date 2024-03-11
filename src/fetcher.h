@@ -29,6 +29,7 @@ public:
 
     static Fetcher *create(QQmlEngine *, QJSEngine *)
     {
+        QQmlEngine::setObjectOwnership(&instance(), QQmlEngine::CppOwnership);
         return &instance();
     }
     Q_INVOKABLE void fetch(const QString &url, const bool markEntriesRead = false);
