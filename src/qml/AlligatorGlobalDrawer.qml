@@ -86,7 +86,7 @@ Kirigami.GlobalDrawer {
 
             header: Delegates.RoundedItemDelegate {
                 id: allFeedsItem
-                text: i18n("All Feeds")
+                text: applicationWindow().sidebarCollapsed ? "" : i18n("All Feeds")
                 icon.name: "rss"
                 onClicked: {
                     pageStack.clear()
@@ -149,7 +149,7 @@ Kirigami.GlobalDrawer {
         Delegates.RoundedItemDelegate {
             Layout.fillWidth: true
             Layout.topMargin: Math.round(Kirigami.Units.smallSpacing / 2)
-            text: i18n("Settings")
+            text: applicationWindow().sidebarCollapsed ? "" : i18n("Settings")
             icon.name: "settings-configure"
             onClicked: {
                 pageStack.layers.clear();
@@ -160,7 +160,7 @@ Kirigami.GlobalDrawer {
 
         Delegates.RoundedItemDelegate {
             Layout.fillWidth: true
-            text: i18n("Manage Feeds")
+            text: applicationWindow().sidebarCollapsed ? "" : i18n("Manage Feeds")
             icon.name: "feed-subscribe"
             onClicked: {
                 pageStack.layers.clear();
@@ -172,7 +172,7 @@ Kirigami.GlobalDrawer {
         Delegates.RoundedItemDelegate {
             Layout.fillWidth: true
             Layout.bottomMargin: Math.round(Kirigami.Units.smallSpacing / 2)
-            text: i18n("About")
+            text: applicationWindow().sidebarCollapsed ? "" : i18n("About")
             icon.name: "documentinfo"
             onClicked: {
                 pageStack.layers.clear();
