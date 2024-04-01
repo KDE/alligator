@@ -113,6 +113,7 @@ Kirigami.ScrollablePage {
             criteria: ViewSection.FullString
             delegate: Kirigami.ListSectionHeader {
                 label: section
+                width: ListView.view.width
             }
         }
     }
