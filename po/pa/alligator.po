@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-12-19 01:33+0000\n"
+"POT-Creation-Date: 2024-04-02 00:37+0000\n"
 "PO-Revision-Date: 2024-02-11 11:46-0600\n"
 "Last-Translator: A S Alam <aalam@punlinux.org>\n"
 "Language-Team: Punjabi <kde-i18n-doc@kde.org>\n"
@@ -318,32 +318,32 @@ msgstr "…ਫੀਡ ਬਰਾਮਦ ਕਰੋ"
 msgid "No feeds added yet"
 msgstr "ਹਾਲੇ ਕੋਈ ਫੀਡ ਨਹੀਂ ਹੈ"
 
-#: qml/FeedListPage.qml:122
+#: qml/FeedListPage.qml:123
 #, kde-format
 msgid "Import Feeds"
 msgstr "ਫੀਡ ਦਰਾਮਦ ਕਰੋ"
 
-#: qml/FeedListPage.qml:124
+#: qml/FeedListPage.qml:125
 #, kde-format
 msgid "All Files (*)"
 msgstr "ਸਭ ਫਾਇਲਾਂ (*)"
 
-#: qml/FeedListPage.qml:124
+#: qml/FeedListPage.qml:125
 #, kde-format
 msgid "XML Files (*.xml)"
 msgstr "XML ਫਾਇਲਾਂ (*.xml)"
 
-#: qml/FeedListPage.qml:124
+#: qml/FeedListPage.qml:125
 #, kde-format
 msgid "OPML Files (*.opml)"
 msgstr "OPML ਫਾਇਲਾਂ (*.opml)"
 
-#: qml/FeedListPage.qml:130
+#: qml/FeedListPage.qml:131
 #, kde-format
 msgid "Export Feeds"
 msgstr "ਫੀਡ ਬਰਾਮਦ ਕਰੋ"
 
-#: qml/FeedListPage.qml:132
+#: qml/FeedListPage.qml:133
 #, kde-format
 msgid "All Files"
 msgstr "ਸਭ ਫਾਇਲਾਂ"

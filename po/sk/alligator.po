@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-12-19 01:33+0000\n"
+"POT-Creation-Date: 2024-04-02 00:37+0000\n"
 "PO-Revision-Date: 2023-11-08 18:49+0100\n"
 "Last-Translator: Ferdinand Galko <galko.ferdinand@gmail.com>\n"
 "Language-Team: Slovak <opensuse-translation@opensuse.org>\n"
@@ -318,32 +318,32 @@ msgstr "Exportovať kanály..."
 msgid "No feeds added yet"
 msgstr "Zatiaľ neboli pridané žiadne kanály"
 
-#: qml/FeedListPage.qml:122
+#: qml/FeedListPage.qml:123
 #, kde-format
 msgid "Import Feeds"
 msgstr "Importovať kanály"
 
-#: qml/FeedListPage.qml:124
+#: qml/FeedListPage.qml:125
 #, kde-format
 msgid "All Files (*)"
 msgstr "Všetky súbory (*)"
 
-#: qml/FeedListPage.qml:124
+#: qml/FeedListPage.qml:125
 #, kde-format
 msgid "XML Files (*.xml)"
 msgstr "XML súbory (*.xml)"
 
-#: qml/FeedListPage.qml:124
+#: qml/FeedListPage.qml:125
 #, kde-format
 msgid "OPML Files (*.opml)"
 msgstr "OPML súbory (*.opml)"
 
-#: qml/FeedListPage.qml:130
+#: qml/FeedListPage.qml:131
 #, kde-format
 msgid "Export Feeds"
 msgstr "Exportovať kanály"
 
-#: qml/FeedListPage.qml:132
+#: qml/FeedListPage.qml:133
 #, kde-format
 msgid "All Files"
 msgstr "Všetky súbory"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-12-19 01:33+0000\n"
+"POT-Creation-Date: 2024-04-02 00:37+0000\n"
 "PO-Revision-Date: 2023-10-25 12:59+0200\n"
 "Last-Translator: Enol P. <enolp@softastur.org>\n"
 "Language-Team: \n"
@@ -318,32 +318,32 @@ msgstr ""
 msgid "No feeds added yet"
 msgstr ""
 
-#: qml/FeedListPage.qml:122
+#: qml/FeedListPage.qml:123
 #, kde-format
 msgid "Import Feeds"
 msgstr ""
 
-#: qml/FeedListPage.qml:124
+#: qml/FeedListPage.qml:125
 #, kde-format
 msgid "All Files (*)"
 msgstr ""
 
-#: qml/FeedListPage.qml:124
+#: qml/FeedListPage.qml:125
 #, kde-format
 msgid "XML Files (*.xml)"
 msgstr ""
 
-#: qml/FeedListPage.qml:124
+#: qml/FeedListPage.qml:125
 #, kde-format
 msgid "OPML Files (*.opml)"
 msgstr ""
 
-#: qml/FeedListPage.qml:130
+#: qml/FeedListPage.qml:131
 #, kde-format
 msgid "Export Feeds"
 msgstr ""
 
-#: qml/FeedListPage.qml:132
+#: qml/FeedListPage.qml:133
 #, kde-format
 msgid "All Files"
 msgstr ""
