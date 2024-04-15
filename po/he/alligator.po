@@ -1,0 +1,433 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the alligator package.
+#
+# SPDX-FileCopyrightText: 2024 Yaron Shahrabani <sh.yaron@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: alligator\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-04-02 00:37+0000\n"
+"PO-Revision-Date: 2024-04-12 10:41+0300\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: צוות התרגום של KDE ישראל\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n==2 ? 1 : n>10 && n%10==0 ? "
+"2 : 3);\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "צוות התרגום של KDE ישראל"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-l10n-he@kde.org"
+
+#: database.cpp:67 database.cpp:313
+#, kde-format
+msgid "Default"
+msgstr "ברירת מחדל"
+
+#: database.cpp:68 database.cpp:314
+#, kde-format
+msgid "Default Feed Group"
+msgstr "קבוצת ערוצי עדכונים כברירת מחדל"
+
+#: fetcher.cpp:241
+#, kde-format
+msgid "Invalid XML"
+msgstr "XML שגוי"
+
+#: fetcher.cpp:243
+#, kde-format
+msgid "No parser accepted the XML"
+msgstr "אף מפענח לא אישר את ה־XML"
+
+#: fetcher.cpp:245
+#, kde-format
+msgid "Error while parsing feed"
+msgstr "שגיאה בפענוח ערוץ העדכונים"
+
+#: main.cpp:79 qml/AlligatorGlobalDrawer.qml:55
+#, kde-format
+msgid "Alligator"
+msgstr "תנין"
+
+#: main.cpp:81
+#, kde-format
+msgid "Feed Reader"
+msgstr "מציג ערוצי עדכונים"
+
+#: main.cpp:83
+#, kde-format
+msgid "© 2020-2023 KDE Community"
+msgstr "© 2020‏-2023 קהילת KDE"
+
+#: main.cpp:84
+#, kde-format
+msgid "Tobias Fella"
+msgstr "טוביאס פלה"
+
+#: main.cpp:94
+#, kde-format
+msgid "RSS/Atom Feed Reader"
+msgstr "מציג ערוצי עדכונים ב־RSS/Atom"
+
+#: main.cpp:96
+#, kde-format
+msgid "Adds a new feed to database."
+msgstr "הוספת ערוץ עדכונים חדש למסד הנתונים."
+
+#: main.cpp:97
+#, kde-format
+msgid "feed URL"
+msgstr "כתובת ערוץ"
+
+#: qml/AddFeedDialog.qml:19
+#, kde-format
+msgid "Add Feed"
+msgstr "הוספת ערוץ עדכונים"
+
+#: qml/AddFeedDialog.qml:25
+#, kde-format
+msgid "Url"
+msgstr "כתובת"
+
+#: qml/AddFeedDialog.qml:31
+#, kde-format
+msgid "Mark entries as read"
+msgstr "סימון הרשומות כנקראו"
+
+#: qml/AddFeedDialog.qml:36
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Feed"
+msgstr "הוספת ערוץ עדכונים"
+
+#: qml/AddFeedDialog.qml:43
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "ביטול"
+
+#: qml/AlligatorGlobalDrawer.qml:89
+#, kde-format
+msgid "All Feeds"
+msgstr "כל ערוצי העדכונים"
+
+#: qml/AlligatorGlobalDrawer.qml:152 qml/SettingsPage.qml:21
+#, kde-format
+msgid "Settings"
+msgstr "הגדרות"
+
+#: qml/AlligatorGlobalDrawer.qml:163
+#, kde-format
+msgid "Manage Feeds"
+msgstr "ניהול ערוצי עדכונים"
+
+#: qml/AlligatorGlobalDrawer.qml:175
+#, kde-format
+msgid "About"
+msgstr "על אודות"
+
+#: qml/EditFeedDialog.qml:15
+#, kde-format
+msgid "Edit Feed"
+msgstr "עריכת ערוץ עדכונים"
+
+#: qml/EditFeedDialog.qml:35
+#, kde-format
+msgid "Display Name:"
+msgstr "שם תצוגה:"
+
+#: qml/EditFeedDialog.qml:45
+#, kde-format
+msgid "Group:"
+msgstr "קבוצה:"
+
+#: qml/EntryListDelegate.qml:65
+#, kde-format
+msgctxt "by <author(s)>"
+msgid "by"
+msgstr "מאת"
+
+#: qml/EntryListPage.qml:44
+#, kde-format
+msgid "Refresh"
+msgstr "רענון"
+
+#: qml/EntryListPage.qml:51
+#, kde-format
+msgid "Details"
+msgstr "פרטים"
+
+#: qml/EntryListPage.qml:64
+#, kde-format
+msgid "Expand sidebar"
+msgstr "הרחבת סרגל צד"
+
+#: qml/EntryListPage.qml:64
+#, kde-format
+msgid "Collapse sidebar"
+msgstr "צמצום סרגל צד"
+
+#: qml/EntryListPage.qml:76
+#, kde-format
+msgid "All Entries"
+msgstr "כל הרשומות"
+
+#: qml/EntryListPage.qml:84
+#, kde-format
+msgid "Error"
+msgstr "שגיאה"
+
+#: qml/EntryListPage.qml:85 qml/EntryListPage.qml:97
+#, kde-format
+msgid "Error (%1): %2"
+msgstr "שגיאה (%1): %2"
+
+#: qml/EntryListPage.qml:95
+#, kde-format
+msgid "No unread entries available"
+msgstr "אין כתבות זמינות שלא נקראו"
+
+#: qml/EntryListPage.qml:95
+#, kde-format
+msgid "No entries available"
+msgstr "אין רשומות זמינות"
+
+#: qml/EntryListPage.qml:134
+#, kde-format
+msgid "All"
+msgstr "הכול"
+
+#: qml/EntryListPage.qml:140
+#, kde-format
+msgid "Unread"
+msgstr "לא נקראו"
+
+#: qml/EntryPage.qml:57
+#, kde-format
+msgid "Open in Browser"
+msgstr "פתיחה בדפדפן"
+
+#: qml/FeedDetailsPage.qml:20
+#, kde-format
+msgctxt "<Feed Name> - Details"
+msgid "%1 - Details"
+msgstr "%1 - פרטים"
+
+#: qml/FeedDetailsPage.qml:36
+#, kde-format
+msgctxt "by <author(s)>"
+msgid "by %1"
+msgstr "מאת %1"
+
+#: qml/FeedDetailsPage.qml:44
+#, kde-format
+msgid "Subscribed since: %1"
+msgstr "תחילת מינוי: %1"
+
+#: qml/FeedDetailsPage.qml:47
+#, kde-format
+msgid "last updated: %1"
+msgstr "עדכון אחרון: %1"
+
+#: qml/FeedDetailsPage.qml:50
+#, kde-format
+msgid "%1 posts, %2 unread"
+msgstr "%1 רשומות, %2 לא נקראו"
+
+#: qml/FeedGroupDialog.qml:23
+#, kde-format
+msgid "Feed Group"
+msgstr "קבוצת ערוצי עדכונים"
+
+#: qml/FeedGroupDialog.qml:43
+#, kde-format
+msgid "Name:"
+msgstr "שם:"
+
+#: qml/FeedGroupDialog.qml:50
+#, kde-format
+msgid "Description:"
+msgstr "תיאור:"
+
+#: qml/FeedListDelegate.qml:29
+#, kde-format
+msgid "%1 unread entry"
+msgid_plural "%1 unread entries"
+msgstr[0] "רשומה שלא נקרא"
+msgstr[1] "שתי רשומות שלא נקראו"
+msgstr[2] "%1 רשומות שלא נקראו"
+msgstr[3] "%1 רשומות שלא נקראו"
+
+#: qml/FeedListDelegate.qml:35
+#, kde-format
+msgctxt "'Feed' is an rss feed"
+msgid "Delete this Feed"
+msgstr "מחיקת הערוץ הזה"
+
+#: qml/FeedListDelegate.qml:50
+#, kde-format
+msgctxt "'Feed' is an rss feed"
+msgid "Edit this Feed"
+msgstr "עריכת הערוץ הזה"
+
+#: qml/FeedListPage.qml:18
+#, kde-format
+msgctxt "'Feeds' as in 'RSS Feeds'"
+msgid "Manage Feeds"
+msgstr "ניהול ערוצי עדכונים"
+
+#: qml/FeedListPage.qml:29
+#, kde-format
+msgid "Refresh All Feeds"
+msgstr "רענון כל ערוצי העדכונים"
+
+#: qml/FeedListPage.qml:35
+#, kde-format
+msgid "Add Feed…"
+msgstr "הוספת ערוץ עדכונים…"
+
+#: qml/FeedListPage.qml:39
+#, kde-format
+msgctxt "@title"
+msgid "Add Feed"
+msgstr "הוספת ערוץ עדכונים"
+
+#: qml/FeedListPage.qml:45
+#, kde-format
+msgid "Manage Feed Groups"
+msgstr "ניהול קבוצות ערוצי עדכונים"
+
+#: qml/FeedListPage.qml:50
+#, kde-format
+msgid "Import Feeds…"
+msgstr "ייבוא ערוצי עדכונים…"
+
+#: qml/FeedListPage.qml:55
+#, kde-format
+msgid "Export Feeds…"
+msgstr "ייצוא ערוצי עדכונים…"
+
+#: qml/FeedListPage.qml:85
+#, kde-format
+msgid "No feeds added yet"
+msgstr "עדיין לא נוספו ערוצי עדכונים"
+
+#: qml/FeedListPage.qml:123
+#, kde-format
+msgid "Import Feeds"
+msgstr "ייבוא ערוצי עדכונים"
+
+#: qml/FeedListPage.qml:125
+#, kde-format
+msgid "All Files (*)"
+msgstr "כל הקבצים (*)"
+
+#: qml/FeedListPage.qml:125
+#, kde-format
+msgid "XML Files (*.xml)"
+msgstr "קובצי XML ‏(‎*.xml)"
+
+#: qml/FeedListPage.qml:125
+#, kde-format
+msgid "OPML Files (*.opml)"
+msgstr "קובצי OPML‏ (‎*.opml)"
+
+#: qml/FeedListPage.qml:131
+#, kde-format
+msgid "Export Feeds"
+msgstr "ייצוא ערוצי עדכונים"
+
+#: qml/FeedListPage.qml:133
+#, kde-format
+msgid "All Files"
+msgstr "כל הקבצים"
+
+#: qml/GroupsListPage.qml:18
+#, kde-format
+msgid "Groups"
+msgstr "קבוצות"
+
+#: qml/GroupsListPage.qml:24
+#, kde-format
+msgid "Add Group…"
+msgstr "הוספת קבוצה…"
+
+#: qml/GroupsListPage.qml:55
+#, kde-format
+msgid "Remove"
+msgstr "הסרה"
+
+#: qml/GroupsListPage.qml:63
+#, kde-format
+msgid "Set as Default"
+msgstr "הגדרה כברירת מחדל"
+
+#: qml/GroupsListPage.qml:72
+#, kde-format
+msgid "No groups created yet"
+msgstr "לא נוצרו קבוצות עדיין"
+
+#: qml/GroupsListPage.qml:77
+#, kde-format
+msgid "Add Group"
+msgstr "הוספת קבוצה"
+
+#: qml/SettingsPage.qml:24
+#, kde-format
+msgctxt "@title"
+msgid "Article List"
+msgstr "רשימת כתבות"
+
+#: qml/SettingsPage.qml:33
+#, kde-format
+msgid "Delete after:"
+msgstr "מחיקה לאחר:"
+
+#: qml/SettingsPage.qml:46
+#, kde-format
+msgid "Never"
+msgstr "אף פעם"
+
+#: qml/SettingsPage.qml:46
+#, kde-format
+msgid "Articles"
+msgstr "כתבות"
+
+#: qml/SettingsPage.qml:46
+#, kde-format
+msgid "Days"
+msgstr "ימים"
+
+#: qml/SettingsPage.qml:46
+#, kde-format
+msgid "Weeks"
+msgstr "שבועות"
+
+#: qml/SettingsPage.qml:46
+#, kde-format
+msgid "Months"
+msgstr "חודשים"
+
+#: qml/SettingsPage.qml:55
+#, kde-format
+msgid "Article"
+msgstr "כתבה"
+
+#: qml/SettingsPage.qml:62
+#, kde-format
+msgid "Font size:"
+msgstr "גודל כתב:"
+
+#: qml/SettingsPage.qml:71
+#, kde-format
+msgid "Use system default"
+msgstr "להשתמש בברירת המחדל של המערכת"
