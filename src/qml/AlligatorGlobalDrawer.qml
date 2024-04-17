@@ -93,7 +93,7 @@ Kirigami.GlobalDrawer {
                     pageStack.push(root.entriesPage)
                 }
                 Controls.ToolTip.visible: hovered && applicationWindow().sidebarCollapsed
-                Controls.ToolTip.text: text
+                Controls.ToolTip.text: i18n("All Feeds")
                 Controls.ToolTip.delay: Kirigami.Units.toolTipDelay
             }
 
