@@ -87,6 +87,7 @@
   <url type="homepage">https://apps.kde.org/alligator</url>
   <url type="donation">https://kde.org/community/donations</url>
   <url type="bugtracker">https://bugs.kde.org/enter_bug.cgi?product=Alligator</url>
+  <url type="vcs-browser">https://invent.kde.org/network/alligator</url>
   <content_rating type="oars-1.1"/>
   <developer_name>KDE Community</developer_name>
   <developer_name xml:lang="ar">مجتمع كِيدِي</developer_name>
@@ -170,6 +171,13 @@
   <provides>
     <binary>alligator</binary>
   </provides>
+  <categories>
+    <category>Qt</category>
+    <category>Network</category>
+    <category>KDE</category>
+    <category>Feed</category>
+    <category>News</category>
+  </categories>
   <screenshots>
     <screenshot type="default">
       <caption>Alligator feed list on the desktop</caption>
