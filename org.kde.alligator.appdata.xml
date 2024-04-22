@@ -6,7 +6,6 @@
 <component type="desktop-application">
   <id>org.kde.alligator</id>
   <name>Alligator</name>
-  <name xml:lang="ar">قاطور</name>
   <name xml:lang="ast">Alligator</name>
   <name xml:lang="ca">Alligator</name>
   <name xml:lang="ca-valencia">Alligator</name>
@@ -20,7 +19,6 @@
   <name xml:lang="fi">Alligator</name>
   <name xml:lang="fr">Alligator</name>
   <name xml:lang="gl">Alligator</name>
-  <name xml:lang="he">תנין</name>
   <name xml:lang="hi">एल्लिगेटर (Alligator)</name>
   <name xml:lang="hu">Alligator</name>
   <name xml:lang="ia">Alligator</name>
@@ -45,7 +43,6 @@
   <name xml:lang="zh-CN">Alligator</name>
   <name xml:lang="zh-TW">Alligator</name>
   <summary>Feed reader for mobile devices</summary>
-  <summary xml:lang="ar">قارئ تغذية لأجهزة المحمولة</summary>
   <summary xml:lang="ca">Lector de fonts per a dispositius mòbils</summary>
   <summary xml:lang="ca-valencia">Lector de fonts per a dispositius mòbils</summary>
   <summary xml:lang="cs">Čtečka kanálů pro mobilní zařízení</summary>
@@ -58,7 +55,6 @@
   <summary xml:lang="fi">Syötelukija mobiililaitteille</summary>
   <summary xml:lang="fr">Lecteur de fils d'actualité pour les périphériques mobiles</summary>
   <summary xml:lang="gl">Lector de novas para dispositivos móbiles.</summary>
-  <summary xml:lang="he">מציג ערוצי עדכונים להתקנים ניידים</summary>
   <summary xml:lang="hi">मोबाइल उपकरणो के लिए फ़ीड रीडर</summary>
   <summary xml:lang="hu">Hírolvasó mobil eszközökre</summary>
   <summary xml:lang="ia">Lector de syndication per dispositivos mobile</summary>
@@ -89,7 +85,6 @@
   <url type="bugtracker">https://bugs.kde.org/enter_bug.cgi?product=Alligator</url>
   <content_rating type="oars-1.1"/>
   <developer_name>KDE Community</developer_name>
-  <developer_name xml:lang="ar">مجتمع كِيدِي</developer_name>
   <developer_name xml:lang="ast">La comunidá KDE</developer_name>
   <developer_name xml:lang="ca">La comunitat KDE</developer_name>
   <developer_name xml:lang="ca-valencia">La comunitat KDE</developer_name>
@@ -103,7 +98,6 @@
   <developer_name xml:lang="fi">KDE-yhteisö</developer_name>
   <developer_name xml:lang="fr">Communauté KDE</developer_name>
   <developer_name xml:lang="gl">Comunidade KDE</developer_name>
-  <developer_name xml:lang="he">קהילת KDE</developer_name>
   <developer_name xml:lang="hi">केडीई समुदाय</developer_name>
   <developer_name xml:lang="hu">A KDE Közösség</developer_name>
   <developer_name xml:lang="ia">Communitate de KDE</developer_name>
@@ -129,7 +123,6 @@
   <developer_name xml:lang="zh-TW">KDE 社群</developer_name>
   <description>
     <p>Alligator is a mobile feed reader</p>
-    <p xml:lang="ar">قاطور هو قارئ تغذيات للمحمول</p>
     <p xml:lang="ca">L'Alligator és un lector de fonts per al mòbil</p>
     <p xml:lang="ca-valencia">Alligator és un lector de fonts per al mòbil</p>
     <p xml:lang="cs">Alligator je mobilní čtečka kanálů</p>
@@ -142,7 +135,6 @@
     <p xml:lang="fi">Alligator on mobiilisyötelukija</p>
     <p xml:lang="fr">Alligator est un lecteur nomade de fils d'actualité</p>
     <p xml:lang="gl">Alligator é un lector de novas para móbiles.</p>
-    <p xml:lang="he">תנין הוא מציג ערוצי עדכונים לניידים</p>
     <p xml:lang="hi"> एल्लिगेटर (Alligator) मोबाइल फ़ीड रीडर है</p>
     <p xml:lang="hu">AZ Alligator egy mobilos hírolvasó</p>
     <p xml:lang="ia">Alligator es un lector de syndicationes mobile</p>
@@ -173,7 +165,6 @@
   <screenshots>
     <screenshot type="default">
       <caption>Alligator feed list on the desktop</caption>
-      <caption xml:lang="ar">قائمة تغذية قاطور على سطح المكتب</caption>
       <caption xml:lang="ca">Llista de fonts a l'Alligator a l'escriptori</caption>
       <caption xml:lang="ca-valencia">Llista de fonts d'Alligator en l'escriptori</caption>
       <caption xml:lang="cs">Seznam kanálů Alligatoru na počítači</caption>
@@ -185,7 +176,6 @@
       <caption xml:lang="fi">Alligatorin syöteluettelo työpöydällä</caption>
       <caption xml:lang="fr">Liste de fils d'actualités Alligator sur le bureau</caption>
       <caption xml:lang="gl">Lista de fontes de Alligator no escritorio.</caption>
-      <caption xml:lang="he">רשימת ערוצי עדכונים עם תנין בשולחן העבודה</caption>
       <caption xml:lang="hu">Alligator hírlista az asztalon</caption>
       <caption xml:lang="ia">Lista de syndication de Alligator sur le scriptorio</caption>
       <caption xml:lang="id">Daftar feed Alligator di desktop</caption>
@@ -211,7 +201,6 @@
     </screenshot>
     <screenshot type="default">
       <caption>Alligator on a phone</caption>
-      <caption xml:lang="ar">صورة قاطور على الهاتف</caption>
       <caption xml:lang="ca">Alligator a un telèfon</caption>
       <caption xml:lang="ca-valencia">Alligator a un telèfon</caption>
       <caption xml:lang="cs">Alligator na telefonu</caption>
@@ -223,7 +212,6 @@
       <caption xml:lang="fi">Alligator puhelimessa</caption>
       <caption xml:lang="fr">Alligator sur un téléphone</caption>
       <caption xml:lang="gl">Alligator nun teléfono.</caption>
-      <caption xml:lang="he">תנין בטלפון</caption>
       <caption xml:lang="hu">Alligator telefonon</caption>
       <caption xml:lang="ia">Alligator sur un telephono</caption>
       <caption xml:lang="id">Alligator di sebuah ponsel</caption>
