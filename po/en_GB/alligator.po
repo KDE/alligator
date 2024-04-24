@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-04-02 00:37+0000\n"
+"POT-Creation-Date: 2024-04-24 00:38+0000\n"
 "PO-Revision-Date: 2023-02-26 23:12+0000\n"
 "Last-Translator: Steve Allewell <steve.allewell@gmail.com>\n"
 "Language-Team: British English <kde-l10n-en_gb@kde.org>\n"
@@ -118,7 +118,7 @@ msgctxt "@action:button"
 msgid "Cancel"
 msgstr "Cancel"
 
-#: qml/AlligatorGlobalDrawer.qml:89
+#: qml/AlligatorGlobalDrawer.qml:89 qml/AlligatorGlobalDrawer.qml:96
 #, kde-format
 msgid "All Feeds"
 msgstr "All Feeds"
