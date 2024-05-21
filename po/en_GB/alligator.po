@@ -1,21 +1,21 @@
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the alligator package.
 #
-# Steve Allewell <steve.allewell@gmail.com>, 2020, 2021, 2022, 2023.
+# SPDX-FileCopyrightText: 2020, 2021, 2022, 2023, 2024 Steve Allewell <steve.allewell@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-04-24 00:38+0000\n"
-"PO-Revision-Date: 2023-02-26 23:12+0000\n"
+"PO-Revision-Date: 2024-05-20 19:34+0100\n"
 "Last-Translator: Steve Allewell <steve.allewell@gmail.com>\n"
-"Language-Team: British English <kde-l10n-en_gb@kde.org>\n"
+"Language-Team: British English\n"
 "Language: en_GB\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 21.12.3\n"
+"X-Generator: Lokalize 24.02.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -63,10 +63,9 @@ msgid "Feed Reader"
 msgstr "Feed Reader"
 
 #: main.cpp:83
-#, fuzzy, kde-format
-#| msgid "© 2020-2022 KDE Community"
+#, kde-format
 msgid "© 2020-2023 KDE Community"
-msgstr "© 2020-2022 KDE Community"
+msgstr "© 2020-2023 KDE Community"
 
 #: main.cpp:84
 #, kde-format
@@ -94,10 +93,9 @@ msgid "Add Feed"
 msgstr "Add Feed"
 
 #: qml/AddFeedDialog.qml:25
-#, fuzzy, kde-format
-#| msgid "Url:"
+#, kde-format
 msgid "Url"
-msgstr "URL:"
+msgstr "URL"
 
 #: qml/AddFeedDialog.qml:31
 #, kde-format
@@ -105,15 +103,13 @@ msgid "Mark entries as read"
 msgstr "Mark entries as read"
 
 #: qml/AddFeedDialog.qml:36
-#, fuzzy, kde-format
-#| msgid "Add Feed"
+#, kde-format
 msgctxt "@action:button"
 msgid "Add Feed"
 msgstr "Add Feed"
 
 #: qml/AddFeedDialog.qml:43
-#, fuzzy, kde-format
-#| msgid "Cancel"
+#, kde-format
 msgctxt "@action:button"
 msgid "Cancel"
 msgstr "Cancel"
@@ -297,8 +293,7 @@ msgid "Add Feed…"
 msgstr "Add Feed…"
 
 #: qml/FeedListPage.qml:39
-#, fuzzy, kde-format
-#| msgid "Add Feed"
+#, kde-format
 msgctxt "@title"
 msgid "Add Feed"
 msgstr "Add Feed"
@@ -384,8 +379,7 @@ msgid "Add Group"
 msgstr "Add Group"
 
 #: qml/SettingsPage.qml:24
-#, fuzzy, kde-format
-#| msgid "Article List"
+#, kde-format
 msgctxt "@title"
 msgid "Article List"
 msgstr "Article List"
