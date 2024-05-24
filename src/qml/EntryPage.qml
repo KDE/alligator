@@ -33,6 +33,12 @@ Kirigami.ScrollablePage {
         Database.setRead(page.entryId, true)
     }
 
+    background: Rectangle {
+        color: Kirigami.Theme.backgroundColor
+        Kirigami.Theme.colorSet: Kirigami.Theme.View
+        Kirigami.Theme.inherit: false
+    }
+
     ColumnLayout {
         Kirigami.Heading {
             text: page.entryTitle
