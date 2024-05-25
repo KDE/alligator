@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-04-24 00:38+0000\n"
+"POT-Creation-Date: 2024-05-25 00:38+0000\n"
 "PO-Revision-Date: 2023-10-08 22:27+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -210,7 +210,7 @@ msgstr "모두"
 msgid "Unread"
 msgstr "읽지 않음"
 
-#: qml/EntryPage.qml:57
+#: qml/EntryPage.qml:63
 #, kde-format
 msgid "Open in Browser"
 msgstr "브라우저로 열기"
