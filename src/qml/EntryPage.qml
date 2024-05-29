@@ -30,7 +30,7 @@ Kirigami.ScrollablePage {
     }
 
     onEntryIdChanged: {
-        Database.setRead(page.entryId, true)
+        Database.setRead(page.entryId, true);
     }
 
     background: Rectangle {

@@ -47,6 +47,6 @@ Kirigami.ApplicationWindow {
     Component {
         id: feedList
 
-        FeedListPage  {}
+        FeedListPage {}
     }
 }

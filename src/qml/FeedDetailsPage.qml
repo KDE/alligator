@@ -15,7 +15,7 @@ import org.kde.alligator
 Kirigami.ScrollablePage {
     id: root
 
-    property QtObject feed;
+    property QtObject feed
 
     title: i18nc("<Feed Name> - Details", "%1 - Details", feed.displayName || feed.name)
 
@@ -29,7 +29,7 @@ Kirigami.ScrollablePage {
             text: root.feed.displayName || root.feed.name
         }
         Kirigami.Heading {
-            text: root.feed.description;
+            text: root.feed.description
             level: 3
         }
         Controls.Label {

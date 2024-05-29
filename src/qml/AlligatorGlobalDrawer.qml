@@ -89,8 +89,8 @@ Kirigami.GlobalDrawer {
                 text: AlligatorSettings.sidebarCollapsed ? "" : i18n("All Feeds")
                 icon.name: "rss"
                 onClicked: {
-                    pageStack.clear()
-                    pageStack.push(root.entriesPage)
+                    pageStack.clear();
+                    pageStack.push(root.entriesPage);
                 }
                 Controls.ToolTip.visible: hovered && AlligatorSettings.sidebarCollapsed
                 Controls.ToolTip.text: i18n("All Feeds")
@@ -132,7 +132,9 @@ Kirigami.GlobalDrawer {
                 onClicked: {
                     pageStack.layers.clear();
                     pageStack.clear();
-                    pageStack.push(Qt.resolvedUrl("EntryListPage.qml"), {feed: feed})
+                    pageStack.push(Qt.resolvedUrl("EntryListPage.qml"), {
+                        feed: feed
+                    });
                 }
                 Controls.ToolTip.visible: hovered && AlligatorSettings.sidebarCollapsed
                 Controls.ToolTip.text: feed.displayName || feed.name

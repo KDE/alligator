@@ -51,4 +51,3 @@ Kirigami.Dialog {
         }
     }
 }
-

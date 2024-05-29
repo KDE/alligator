@@ -34,9 +34,9 @@ Delegates.RoundedItemDelegate {
             display: Controls.AbstractButton.IconOnly
             text: i18nc("'Feed' is an rss feed", "Delete this Feed")
             onClicked: {
-                if(pageStack.depth > 1 && delegate.feed.url === lastFeed)
-                    pageStack.pop()
-                feedsModel.removeFeed(delegate.feed.url)
+                if (pageStack.depth > 1 && delegate.feed.url === lastFeed)
+                    pageStack.pop();
+                feedsModel.removeFeed(delegate.feed.url);
             }
 
             Controls.ToolTip.text: text

@@ -21,20 +21,21 @@ Kirigami.ScrollablePage {
 
     supportsRefreshing: true
 
-    onRefreshingChanged:
-        if(refreshing) {
+    onRefreshingChanged: {
+        if (refreshing) {
             if (feed === undefined) {
-                Fetcher.fetchAll()
+                Fetcher.fetchAll();
             } else {
-                feed.refresh()
+                feed.refresh();
             }
         }
+    }
 
     Connections {
         target: page.feed !== undefined ? page.feed : Fetcher
         function onRefreshingChanged(refreshing) {
-            if(!refreshing)
-                page.refreshing = refreshing
+            if (!refreshing)
+                page.refreshing = refreshing;
         }
     }
 
@@ -50,9 +51,11 @@ Kirigami.ScrollablePage {
             icon.name: "help-about-symbolic"
             text: i18n("Details")
             onTriggered: {
-                while(pageStack.depth > 2)
-                    pageStack.pop()
-                pageStack.push(Qt.resolvedUrl("FeedDetailsPage.qml"), {feed: feed})
+                while (pageStack.depth > 2)
+                    pageStack.pop();
+                pageStack.push(Qt.resolvedUrl("FeedDetailsPage.qml"), {
+                    feed: feed
+                });
             }
         }
     ]
@@ -65,9 +68,8 @@ Kirigami.ScrollablePage {
             icon.name: AlligatorSettings.sidebarCollapsed ? "sidebar-expand" : "sidebar-collapse"
             display: Controls.ToolButton.IconOnly
             onClicked: {
-                AlligatorSettings.sidebarCollapsed = !AlligatorSettings.sidebarCollapsed
+                AlligatorSettings.sidebarCollapsed = !AlligatorSettings.sidebarCollapsed;
             }
-
         }
 
         Kirigami.Heading {
@@ -90,10 +92,12 @@ Kirigami.ScrollablePage {
         width: Kirigami.Units.gridUnit * 20
         anchors.centerIn: parent
 
-        text: if(page.feed === undefined || page.feed.errorId === 0) {
-            root.onlyUnread ? i18n("No unread entries available") : i18n("No entries available")
-        } else {
-            i18n("Error (%1): %2", feed.errorId, feed.errorString)
+        text: {
+            if (page.feed === undefined || page.feed.errorId === 0) {
+                root.onlyUnread ? i18n("No unread entries available") : i18n("No entries available");
+            } else {
+                i18n("Error (%1): %2", feed.errorId, feed.errorString);
+            }
         }
         icon.name: page.feed === undefined || page.feed.errorId === 0 ? "" : "data-error"
     }
@@ -106,7 +110,9 @@ Kirigami.ScrollablePage {
         // stop list highlight
         currentIndex: -1
 
-        delegate: EntryListDelegate { feedTitle: (page.feed === undefined ? "" : feed.displayName) || "" }
+        delegate: EntryListDelegate {
+            feedTitle: (page.feed === undefined ? "" : feed.displayName) || ""
+        }
     }
 
     EntriesProxyModel {
@@ -123,7 +129,9 @@ Kirigami.ScrollablePage {
     footer: ColumnLayout {
         spacing: 0
 
-        Kirigami.Separator { Layout.fillWidth: true }
+        Kirigami.Separator {
+            Layout.fillWidth: true
+        }
 
         Kirigami.NavigationTabBar {
             Layout.fillWidth: true
@@ -138,7 +146,7 @@ Kirigami.ScrollablePage {
                     icon.name: "mail-mark-unread"
                     text: i18n("Unread")
                     checked: page.onlyUnread
-                    onTriggered: page.onlyUnread = true;
+                    onTriggered: page.onlyUnread = true
                 }
             ]
         }

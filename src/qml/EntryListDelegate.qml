@@ -31,18 +31,17 @@ Delegates.IndicatorItemDelegate {
     property string feedTitle
 
     onClicked: {
-        while(pageStack.depth > 2) {
-            pageStack.pop()
+        while (pageStack.depth > 2) {
+            pageStack.pop();
         }
-
         pageStack.push(Qt.resolvedUrl("EntryPage.qml"), {
-            feedTitle : feedTitle,
+            feedTitle: feedTitle,
             entryId: delegate.id,
             content: delegate.content,
             entryTitle: delegate.title,
             baseUrl: delegate.baseUrl,
-            link: delegate.link,
-        })
+            link: delegate.link
+        });
     }
 
     contentItem: ColumnLayout {

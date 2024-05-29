@@ -18,11 +18,12 @@ Kirigami.ScrollablePage {
     title: i18nc("'Feeds' as in 'RSS Feeds'", "Manage Feeds")
 
     supportsRefreshing: true
-    onRefreshingChanged:
-        if(refreshing)  {
-            Fetcher.fetchAll()
-            refreshing = false
+    onRefreshingChanged: {
+        if (refreshing) {
+            Fetcher.fetchAll();
+            refreshing = false;
         }
+    }
 
     actions: [
         Kirigami.Action {
@@ -38,7 +39,7 @@ Kirigami.ScrollablePage {
                 pageStack.pushDialogLayer(addDialog, {}, {
                     title: i18nc("@title", "Add Feed"),
                     width: Kirigami.Units.gridUnit * 20
-                })
+                });
             }
         },
         Kirigami.Action {
@@ -99,8 +100,8 @@ Kirigami.ScrollablePage {
 
         delegate: FeedListDelegate {
             onEditFeed: {
-                editDialog.feed = feedObj
-                editDialog.open()
+                editDialog.feed = feedObj;
+                editDialog.open();
             }
         }
 

@@ -35,8 +35,8 @@ FormCard.FormCardPage {
         FormCard.FormButtonDelegate {
             text: i18nc("@action:button", "Add Feed")
             onClicked: {
-                Database.addFeed(urlField.text, "", markFeedAsRead.checked)
-                root.closeDialog()
+                Database.addFeed(urlField.text, "", markFeedAsRead.checked);
+                root.closeDialog();
             }
         }
         FormCard.FormButtonDelegate {
