@@ -11,7 +11,6 @@ import org.kde.kirigamiaddons.formcard as FormCard
 import org.kde.coreaddons
 
 import org.kde.alligator
-import org.kde.alligator.config
 
 Kirigami.ApplicationWindow {
     id: root
