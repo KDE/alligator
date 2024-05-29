@@ -14,7 +14,7 @@ Kirigami.Dialog {
     id: root
     title: i18n("Edit Feed")
 
-    property var feed
+    property Feed feed
     onFeedChanged: groupCombo.currentIndex = (root.feed !== undefined) ? groupCombo.indexOfValue(root.feed.groupName) : groupCombo.indexOfValue("")
 
     standardButtons: Kirigami.Dialog.Ok | Kirigami.Dialog.Cancel
@@ -31,7 +31,7 @@ Kirigami.Dialog {
             id: displayName
             Layout.fillWidth: true
 
-            text: (root.feed !== undefined) ? (root.feed.displayName || feed.name) : ""
+            text: (root.feed !== undefined) ? (root.feed.displayName || root.feed.name) : ""
             Kirigami.FormData.label: i18n("Display Name:")
         }
 

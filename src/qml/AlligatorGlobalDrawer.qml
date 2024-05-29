@@ -125,7 +125,7 @@ Kirigami.GlobalDrawer {
             }
 
             delegate: Delegates.RoundedItemDelegate {
-                required property var feed
+                required property Feed feed
 
                 text: feed.displayName || feed.name
                 icon.name: feed.refreshing ? "view-refresh" : feed.image === "" ? "rss" : Fetcher.image(feed.image)

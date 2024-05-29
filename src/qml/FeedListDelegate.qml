@@ -16,7 +16,7 @@ import org.kde.alligator
 Delegates.RoundedItemDelegate {
     id: delegate
 
-    required property var feed
+    required property Feed feed
 
     signal editFeed(var feedObj)
 

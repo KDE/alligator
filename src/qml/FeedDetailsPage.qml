@@ -15,7 +15,7 @@ import org.kde.alligator
 Kirigami.ScrollablePage {
     id: root
 
-    property QtObject feed
+    property Feed feed
 
     title: i18nc("<Feed Name> - Details", "%1 - Details", feed.displayName || feed.name)
 
@@ -47,7 +47,7 @@ Kirigami.ScrollablePage {
             text: i18n("last updated: %1", root.feed.lastUpdated.toLocaleString(Qt.locale(), Locale.ShortFormat))
         }
         Controls.Label {
-            text: i18n("%1 posts, %2 unread", root.feed.entryCount, feed.unreadEntryCount)
+            text: i18n("%1 posts, %2 unread", root.feed.entryCount, root.feed.unreadEntryCount)
         }
     }
 }

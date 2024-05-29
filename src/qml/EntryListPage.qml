@@ -16,7 +16,7 @@ import org.kde.alligator.config
 Kirigami.ScrollablePage {
     id: page
 
-    property var feed
+    property Feed feed
     property bool onlyUnread: false
 
     supportsRefreshing: true

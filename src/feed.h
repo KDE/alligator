@@ -8,10 +8,13 @@
 
 #include <QDateTime>
 #include <QObject>
+#include <qqmlregistration.h>
 
 class Feed : public QObject
 {
     Q_OBJECT
+    QML_ELEMENT
+    QML_UNCREATABLE("")
 
     Q_PROPERTY(QString url READ url CONSTANT)
     Q_PROPERTY(QString name READ name WRITE setName NOTIFY nameChanged)
@@ -88,7 +91,7 @@ Q_SIGNALS:
     void notifyChanged(bool notify);
     void entryCountChanged();
     void unreadEntryCountChanged();
-    void errorIdChanged(int &errorId);
+    void errorIdChanged(int errorId);
     void errorStringChanged(const QString &errorString);
 
     void refreshingChanged(bool refreshing);
