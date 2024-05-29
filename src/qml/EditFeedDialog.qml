@@ -31,7 +31,7 @@ Kirigami.Dialog {
             id: displayName
             Layout.fillWidth: true
 
-            text: (root.feed !== undefined) ? (feed.displayName || feed.name) : ""
+            text: (root.feed !== undefined) ? (root.feed.displayName || feed.name) : ""
             Kirigami.FormData.label: i18n("Display Name:")
         }
 

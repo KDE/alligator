@@ -29,7 +29,7 @@ Kirigami.ScrollablePage {
 
     ListView {
         id: groupsListView
-        model: feedGroupsModel
+        model: root.feedGroupsModel
 
         currentIndex: -1
 
@@ -83,6 +83,6 @@ Kirigami.ScrollablePage {
     FeedGroupDialog {
         id: feedGroupDialog
 
-        groupsModel: feedGroupsModel
+        groupsModel: root.feedGroupsModel
     }
 }

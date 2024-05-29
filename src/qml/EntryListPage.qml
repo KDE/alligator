@@ -31,7 +31,7 @@ Kirigami.ScrollablePage {
         }
 
     Connections {
-        target: feed !== undefined ? feed : Fetcher
+        target: page.feed !== undefined ? page.feed : Fetcher
         function onRefreshingChanged(refreshing) {
             if(!refreshing)
                 page.refreshing = refreshing
@@ -46,7 +46,7 @@ Kirigami.ScrollablePage {
             visible: !Kirigami.Settings.isMobile
         },
         Kirigami.Action {
-            visible: feed !== undefined
+            visible: page.feed !== undefined
             icon.name: "help-about-symbolic"
             text: i18n("Details")
             onTriggered: {
@@ -72,16 +72,16 @@ Kirigami.ScrollablePage {
 
         Kirigami.Heading {
             Layout.fillWidth: true
-            text: feed === undefined ? i18n("All Entries") : feed.displayName || feed.name
+            text: page.feed === undefined ? i18n("All Entries") : page.feed.displayName || page.feed.name
         }
     }
 
     Kirigami.PromptDialog {
         // Show this dialog only if we can not show the error in the placeholder.
         // This is eg. the case if the feed worked so far, but refreshing fails for some reason
-        visible: entryList.count !== 0 && feed !== undefined && feed.errorId !== 0
+        visible: entryList.count !== 0 && page.feed !== undefined && page.feed.errorId !== 0
         title: i18n("Error")
-        subtitle: i18n("Error (%1): %2", feed ? feed.errorId : "", feed ? feed.errorString : "")
+        subtitle: i18n("Error (%1): %2", page.feed ? page.feed.errorId : "", page.feed ? page.feed.errorString : "")
     }
 
     Kirigami.PlaceholderMessage {
@@ -90,12 +90,12 @@ Kirigami.ScrollablePage {
         width: Kirigami.Units.gridUnit * 20
         anchors.centerIn: parent
 
-        text: if(feed === undefined || feed.errorId === 0) {
+        text: if(page.feed === undefined || page.feed.errorId === 0) {
             root.onlyUnread ? i18n("No unread entries available") : i18n("No entries available")
         } else {
             i18n("Error (%1): %2", feed.errorId, feed.errorString)
         }
-        icon.name: feed === undefined || feed.errorId === 0 ? "" : "data-error"
+        icon.name: page.feed === undefined || page.feed.errorId === 0 ? "" : "data-error"
     }
 
     ListView {
@@ -106,7 +106,7 @@ Kirigami.ScrollablePage {
         // stop list highlight
         currentIndex: -1
 
-        delegate: EntryListDelegate { feedTitle: (feed === undefined ? "" : feed.displayName) || "" }
+        delegate: EntryListDelegate { feedTitle: (page.feed === undefined ? "" : feed.displayName) || "" }
     }
 
     EntriesProxyModel {

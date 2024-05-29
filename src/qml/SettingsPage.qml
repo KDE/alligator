@@ -45,7 +45,7 @@ FormCard.FormCardPage {
                     currentIndex: AlligatorSettings.deleteAfterType
                     model: [i18n("Never"), i18n("Articles"), i18n("Days"), i18n("Weeks"), i18n("Months")]
 
-                    onActivated: AlligatorSettings.deleteAfterType = index
+                    onActivated: index => AlligatorSettings.deleteAfterType = index
                 }
             }
         }

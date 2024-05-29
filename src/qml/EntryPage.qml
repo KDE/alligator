@@ -52,7 +52,7 @@ Kirigami.ScrollablePage {
             textFormat: Text.RichText
             wrapMode: Text.WordWrap
             Layout.fillWidth: true
-            onLinkActivated: contentHelper.openLink(link)
+            onLinkActivated: link => contentHelper.openLink(link)
             onWidthChanged: text = contentHelper.adjustedContent(width, font.pixelSize, page.content)
             font.pointSize: !(AlligatorSettings.articleFontUseSystem) ? AlligatorSettings.articleFontSize : Kirigami.Units.fontMetrics.font.pointSize
         }

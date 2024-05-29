@@ -48,7 +48,7 @@ Delegates.RoundedItemDelegate {
             icon.name: "editor"
             display: Controls.AbstractButton.IconOnly
             text: i18nc("'Feed' is an rss feed", "Edit this Feed")
-            onClicked: editFeed(delegate.feed)
+            onClicked: delegate.editFeed(delegate.feed)
 
             Controls.ToolTip.text: text
             Controls.ToolTip.visible: hovered
