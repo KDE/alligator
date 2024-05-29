@@ -66,7 +66,7 @@ Kirigami.ScrollablePage {
             display: Controls.ToolButton.IconOnly
             onClicked: {
                 applicationWindow().sidebarCollapsed = !applicationWindow().sidebarCollapsed
-                Config.sidebarCollapsed = applicationWindow().sidebarCollapsed
+                AlligatorSettings.sidebarCollapsed = applicationWindow().sidebarCollapsed
             }
 
         }

@@ -85,7 +85,7 @@ int main(int argc, char *argv[])
     KAboutData::setApplicationData(about);
 
     AlligatorSettings settings;
-    qmlRegisterSingletonInstance("org.kde.alligator.config", 1, 0, "Config", &settings);
+    qmlRegisterSingletonInstance("org.kde.alligator.config", 1, 0, "AlligatorSettings", &settings);
 
     QQmlApplicationEngine engine;
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));

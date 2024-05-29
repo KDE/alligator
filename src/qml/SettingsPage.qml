@@ -36,16 +36,16 @@ FormCard.FormCardPage {
                     maximumLineCount: 2
                 }
                 Controls.SpinBox {
-                    value: Config.deleteAfterCount
+                    value: AlligatorSettings.deleteAfterCount
                     enabled: deleteAfterType.currentIndex !== 0
-                    onValueChanged: Config.deleteAfterCount = value
+                    onValueChanged: AlligatorSettings.deleteAfterCount = value
                 }
                 Controls.ComboBox {
                     id: deleteAfterType
-                    currentIndex: Config.deleteAfterType
+                    currentIndex: AlligatorSettings.deleteAfterType
                     model: [i18n("Never"), i18n("Articles"), i18n("Days"), i18n("Weeks"), i18n("Months")]
 
-                    onActivated: Config.deleteAfterType = index
+                    onActivated: AlligatorSettings.deleteAfterType = index
                 }
             }
         }
@@ -58,19 +58,19 @@ FormCard.FormCardPage {
     FormCard.FormCard {
         FormCard.FormSpinBoxDelegate {
             enabled: !useSystemFontCheckBox.checked
-            value: Config.articleFontSize
+            value: AlligatorSettings.articleFontSize
             label: i18n("Font size:")
             from: 6
             to: 20
 
-            onValueChanged: Config.articleFontSize = value
+            onValueChanged: AlligatorSettings.articleFontSize = value
         }
         FormCard.FormCheckDelegate {
             id: useSystemFontCheckBox
-            checked: Config.articleFontUseSystem
+            checked: AlligatorSettings.articleFontUseSystem
             text: i18n("Use system default")
 
-            onToggled: Config.articleFontUseSystem = checked
+            onToggled: AlligatorSettings.articleFontUseSystem = checked
         }
     }
 }

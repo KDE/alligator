@@ -18,7 +18,7 @@ Kirigami.ApplicationWindow {
 
     title: "Alligator"
 
-    property bool sidebarCollapsed: Config.sidebarCollapsed
+    property bool sidebarCollapsed: AlligatorSettings.sidebarCollapsed
 
     pageStack.initialPage: entryList
     pageStack.globalToolBar.style: Kirigami.ApplicationHeaderStyle.ToolBar
