@@ -109,7 +109,7 @@ int main(int argc, char *argv[])
 
     Database::instance();
 
-    engine.load(QUrl(QStringLiteral("qrc:/qml/main.qml")));
+    engine.loadFromModule("org.kde.alligator", "Main");
 
     if (engine.rootObjects().isEmpty()) {
         return -1;

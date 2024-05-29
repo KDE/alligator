@@ -29,6 +29,7 @@ include(KDECMakeSettings)
 include(KDEGitCommitHooks)
 include(ECMAddAndroidApk)
 include(KDECompilerSettings NO_POLICY_SCOPE)
+include(ECMQmlModule)
 
 ecm_setup_version(${PROJECT_VERSION}
     VARIABLE_PREFIX ALLIGATOR

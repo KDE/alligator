@@ -132,7 +132,7 @@ Kirigami.GlobalDrawer {
                 onClicked: {
                     pageStack.layers.clear();
                     pageStack.clear();
-                    pageStack.push("qrc:/qml/EntryListPage.qml", {feed: feed})
+                    pageStack.push(Qt.resolvedUrl("EntryListPage.qml"), {feed: feed})
                 }
                 Controls.ToolTip.visible: hovered && applicationWindow().sidebarCollapsed
                 Controls.ToolTip.text: feed.displayName || feed.name
@@ -154,7 +154,7 @@ Kirigami.GlobalDrawer {
             onClicked: {
                 pageStack.layers.clear();
                 pageStack.clear();
-                pageStack.push("qrc:/qml/SettingsPage.qml");
+                pageStack.push(Qt.resolvedUrl("SettingsPage.qml"));
             }
         }
 

@@ -14,21 +14,23 @@ add_executable(alligator
     contenthelper.cpp
 )
 
-qt_add_qml_module(alligator URI org.kde.alligator NO_RESOURCE_TARGET_PATH
-    QML_FILES
-        qml/AddFeedDialog.qml
-        qml/AlligatorGlobalDrawer.qml
-        qml/EditFeedDialog.qml
-        qml/EntryListDelegate.qml
-        qml/EntryListPage.qml
-        qml/EntryPage.qml
-        qml/FeedDetailsPage.qml
-        qml/FeedGroupDialog.qml
-        qml/FeedListDelegate.qml
-        qml/FeedListPage.qml
-        qml/GroupsListPage.qml
-        qml/SettingsPage.qml
-        qml/main.qml
+ecm_add_qml_module(alligator URI org.kde.alligator)
+
+ecm_target_qml_sources(alligator
+    SOURCES
+    qml/AddFeedDialog.qml
+    qml/AlligatorGlobalDrawer.qml
+    qml/EditFeedDialog.qml
+    qml/EntryListDelegate.qml
+    qml/EntryListPage.qml
+    qml/EntryPage.qml
+    qml/FeedDetailsPage.qml
+    qml/FeedGroupDialog.qml
+    qml/FeedListDelegate.qml
+    qml/FeedListPage.qml
+    qml/GroupsListPage.qml
+    qml/SettingsPage.qml
+    qml/Main.qml
 )
 
 kconfig_add_kcfg_files(alligator alligatorsettings.kcfgc GENERATE_MOC)
