@@ -84,8 +84,7 @@ int main(int argc, char *argv[])
     about.addAuthor(i18n("Tobias Fella"), QString(), QStringLiteral("tobias.fella@kde.org"), QStringLiteral("https://tobiasfella.de"));
     KAboutData::setApplicationData(about);
 
-    AlligatorSettings settings;
-    qmlRegisterSingletonInstance("org.kde.alligator.config", 1, 0, "AlligatorSettings", &settings);
+    qmlRegisterSingletonInstance("org.kde.alligator.config", 1, 0, "AlligatorSettings", AlligatorSettings::self());
 
     QQmlApplicationEngine engine;
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
@@ -105,7 +104,7 @@ int main(int argc, char *argv[])
         Database::instance().addFeed(feedURL);
     about.processCommandLine(&parser);
 
-    QObject::connect(&app, &QCoreApplication::aboutToQuit, &settings, &AlligatorSettings::save);
+    QObject::connect(&app, &QCoreApplication::aboutToQuit, AlligatorSettings::self(), &AlligatorSettings::save);
 
     Database::instance();
 
