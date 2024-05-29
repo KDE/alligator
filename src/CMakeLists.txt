@@ -14,7 +14,7 @@ add_executable(alligator
     contenthelper.cpp
 )
 
-ecm_add_qml_module(alligator URI org.kde.alligator)
+ecm_add_qml_module(alligator URI org.kde.alligator DEPENDENCIES QtCore)
 
 ecm_target_qml_sources(alligator
     SOURCES
