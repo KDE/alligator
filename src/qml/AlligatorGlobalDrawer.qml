@@ -24,7 +24,7 @@ Kirigami.GlobalDrawer {
     modal: applicationWindow().width < Kirigami.Units.gridUnit * 40
 
     height: applicationWindow().height
-    width: applicationWindow().sidebarCollapsed ? Kirigami.Units.iconSizes.medium : Kirigami.Units.gridUnit * 15
+    width: AlligatorSettings.sidebarCollapsed ? Kirigami.Units.iconSizes.medium : Kirigami.Units.gridUnit * 15
 
     Behavior on width {
         NumberAnimation {
@@ -56,7 +56,7 @@ Kirigami.GlobalDrawer {
                     anchors.left: parent.left
                     anchors.leftMargin: Kirigami.Units.largeSpacing + Kirigami.Units.smallSpacing
                     anchors.verticalCenter: parent.verticalCenter
-                    opacity: applicationWindow().sidebarCollapsed ? 0 : 1
+                    opacity: AlligatorSettings.sidebarCollapsed ? 0 : 1
 
                     Behavior on opacity {
                         NumberAnimation {
@@ -86,13 +86,13 @@ Kirigami.GlobalDrawer {
 
             header: Delegates.RoundedItemDelegate {
                 id: allFeedsItem
-                text: applicationWindow().sidebarCollapsed ? "" : i18n("All Feeds")
+                text: AlligatorSettings.sidebarCollapsed ? "" : i18n("All Feeds")
                 icon.name: "rss"
                 onClicked: {
                     pageStack.clear()
                     pageStack.push(root.entriesPage)
                 }
-                Controls.ToolTip.visible: hovered && applicationWindow().sidebarCollapsed
+                Controls.ToolTip.visible: hovered && AlligatorSettings.sidebarCollapsed
                 Controls.ToolTip.text: i18n("All Feeds")
                 Controls.ToolTip.delay: Kirigami.Units.toolTipDelay
             }
@@ -102,7 +102,7 @@ Kirigami.GlobalDrawer {
                 criteria: ViewSection.FullString
                 delegate: Kirigami.ListSectionHeader {
                     label: section
-                    opacity: applicationWindow().sidebarCollapsed ? 0 : 1
+                    opacity: AlligatorSettings.sidebarCollapsed ? 0 : 1
                     width: parent.width
 
                     Behavior on opacity {
@@ -134,7 +134,7 @@ Kirigami.GlobalDrawer {
                     pageStack.clear();
                     pageStack.push(Qt.resolvedUrl("EntryListPage.qml"), {feed: feed})
                 }
-                Controls.ToolTip.visible: hovered && applicationWindow().sidebarCollapsed
+                Controls.ToolTip.visible: hovered && AlligatorSettings.sidebarCollapsed
                 Controls.ToolTip.text: feed.displayName || feed.name
                 Controls.ToolTip.delay: Kirigami.Units.toolTipDelay
             }
@@ -149,7 +149,7 @@ Kirigami.GlobalDrawer {
         Delegates.RoundedItemDelegate {
             Layout.fillWidth: true
             Layout.topMargin: Math.round(Kirigami.Units.smallSpacing / 2)
-            text: applicationWindow().sidebarCollapsed ? "" : i18n("Settings")
+            text: AlligatorSettings.sidebarCollapsed ? "" : i18n("Settings")
             icon.name: "settings-configure"
             onClicked: {
                 pageStack.layers.clear();
@@ -160,7 +160,7 @@ Kirigami.GlobalDrawer {
 
         Delegates.RoundedItemDelegate {
             Layout.fillWidth: true
-            text: applicationWindow().sidebarCollapsed ? "" : i18n("Manage Feeds")
+            text: AlligatorSettings.sidebarCollapsed ? "" : i18n("Manage Feeds")
             icon.name: "feed-subscribe"
             onClicked: {
                 pageStack.layers.clear();
@@ -172,7 +172,7 @@ Kirigami.GlobalDrawer {
         Delegates.RoundedItemDelegate {
             Layout.fillWidth: true
             Layout.bottomMargin: Math.round(Kirigami.Units.smallSpacing / 2)
-            text: applicationWindow().sidebarCollapsed ? "" : i18n("About")
+            text: AlligatorSettings.sidebarCollapsed ? "" : i18n("About")
             icon.name: "documentinfo"
             onClicked: {
                 pageStack.layers.clear();

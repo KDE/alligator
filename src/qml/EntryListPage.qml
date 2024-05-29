@@ -61,12 +61,11 @@ Kirigami.ScrollablePage {
         spacing: Kirigami.Units.smallSpacing
         Controls.ToolButton {
             visible: !applicationWindow().globalDrawer.modal
-            text: applicationWindow().sidebarCollapsed ? i18n("Expand sidebar") : i18n("Collapse sidebar")
-            icon.name: applicationWindow().sidebarCollapsed ? "sidebar-expand" : "sidebar-collapse"
+            text: AlligatorSettings.sidebarCollapsed ? i18n("Expand sidebar") : i18n("Collapse sidebar")
+            icon.name: AlligatorSettings.sidebarCollapsed ? "sidebar-expand" : "sidebar-collapse"
             display: Controls.ToolButton.IconOnly
             onClicked: {
-                applicationWindow().sidebarCollapsed = !applicationWindow().sidebarCollapsed
-                AlligatorSettings.sidebarCollapsed = applicationWindow().sidebarCollapsed
+                AlligatorSettings.sidebarCollapsed = !AlligatorSettings.sidebarCollapsed
             }
 
         }

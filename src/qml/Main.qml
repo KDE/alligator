@@ -18,8 +18,6 @@ Kirigami.ApplicationWindow {
 
     title: "Alligator"
 
-    property bool sidebarCollapsed: AlligatorSettings.sidebarCollapsed
-
     pageStack.initialPage: entryList
     pageStack.globalToolBar.style: Kirigami.ApplicationHeaderStyle.ToolBar
     pageStack.globalToolBar.showNavigationButtons: Kirigami.ApplicationHeaderStyle.ShowBackButton
