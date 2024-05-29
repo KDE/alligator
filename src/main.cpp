@@ -87,8 +87,6 @@ int main(int argc, char *argv[])
     about.addAuthor(i18n("Tobias Fella"), QString(), QStringLiteral("tobias.fella@kde.org"), QStringLiteral("https://tobiasfella.de"));
     KAboutData::setApplicationData(about);
 
-    qmlRegisterSingletonInstance("org.kde.alligator.config", 1, 0, "AlligatorSettings", AlligatorSettings::self());
-
     QQmlApplicationEngine engine;
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
 

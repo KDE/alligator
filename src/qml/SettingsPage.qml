@@ -13,7 +13,6 @@ import org.kde.kirigami as Kirigami
 import org.kde.kirigamiaddons.formcard 1.0 as FormCard
 
 import org.kde.alligator
-import org.kde.alligator.config
 
 FormCard.FormCardPage {
     id: root
