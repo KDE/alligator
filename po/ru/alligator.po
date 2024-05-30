@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-25 00:38+0000\n"
+"POT-Creation-Date: 2024-05-30 00:38+0000\n"
 "PO-Revision-Date: 2024-02-10 12:29+0300\n"
 "Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -30,12 +30,12 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "translation-team@basealt.ru"
 
-#: database.cpp:67 database.cpp:313
+#: database.cpp:67 database.cpp:312
 #, kde-format
 msgid "Default"
 msgstr "По умолчанию"
 
-#: database.cpp:68 database.cpp:314
+#: database.cpp:68 database.cpp:313
 #, kde-format
 msgid "Default Feed Group"
 msgstr "Группа лент по умолчанию"
@@ -75,17 +75,17 @@ msgstr "© Сообщество KDE, 2020-2023"
 msgid "Tobias Fella"
 msgstr "Tobias Fella"
 
-#: main.cpp:94
+#: main.cpp:93
 #, kde-format
 msgid "RSS/Atom Feed Reader"
 msgstr "Чтение лент новостей RSS/Atom"
 
-#: main.cpp:96
+#: main.cpp:95
 #, kde-format
 msgid "Adds a new feed to database."
 msgstr "Добавляет в базу данных новую ленту."
 
-#: main.cpp:97
+#: main.cpp:96
 #, kde-format
 msgid "feed URL"
 msgstr "URL-адрес ленты новостей"

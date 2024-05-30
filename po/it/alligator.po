@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-25 00:38+0000\n"
+"POT-Creation-Date: 2024-05-30 00:38+0000\n"
 "PO-Revision-Date: 2023-10-05 09:52+0200\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
@@ -27,12 +27,12 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "smart2128vr@gmail.com"
 
-#: database.cpp:67 database.cpp:313
+#: database.cpp:67 database.cpp:312
 #, kde-format
 msgid "Default"
 msgstr "Predefinito"
 
-#: database.cpp:68 database.cpp:314
+#: database.cpp:68 database.cpp:313
 #, kde-format
 msgid "Default Feed Group"
 msgstr "Gruppo di fonti predefinito"
@@ -72,17 +72,17 @@ msgstr "© 2020-2023 Comunità KDE"
 msgid "Tobias Fella"
 msgstr "Tobias Fella"
 
-#: main.cpp:94
+#: main.cpp:93
 #, kde-format
 msgid "RSS/Atom Feed Reader"
 msgstr "Lettore di fonti RSS/Atom"
 
-#: main.cpp:96
+#: main.cpp:95
 #, kde-format
 msgid "Adds a new feed to database."
 msgstr "Aggiunge una nuova fonte alla banca dati."
 
-#: main.cpp:97
+#: main.cpp:96
 #, kde-format
 msgid "feed URL"
 msgstr "URL della fonte"

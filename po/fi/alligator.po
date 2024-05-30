@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-25 00:38+0000\n"
+"POT-Creation-Date: 2024-05-30 00:38+0000\n"
 "PO-Revision-Date: 2023-11-22 18:45+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -27,12 +27,12 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "translator@legisign.org"
 
-#: database.cpp:67 database.cpp:313
+#: database.cpp:67 database.cpp:312
 #, kde-format
 msgid "Default"
 msgstr "Oletus"
 
-#: database.cpp:68 database.cpp:314
+#: database.cpp:68 database.cpp:313
 #, kde-format
 msgid "Default Feed Group"
 msgstr "Oletussyöteryhmä"
@@ -72,17 +72,17 @@ msgstr "© 2020–2023 KDE-yhteisö"
 msgid "Tobias Fella"
 msgstr "Tobias Fella"
 
-#: main.cpp:94
+#: main.cpp:93
 #, kde-format
 msgid "RSS/Atom Feed Reader"
 msgstr "RSS/Atom-syötelukija"
 
-#: main.cpp:96
+#: main.cpp:95
 #, kde-format
 msgid "Adds a new feed to database."
 msgstr "Lisää tietokantaan uuden syötteen."
 
-#: main.cpp:97
+#: main.cpp:96
 #, kde-format
 msgid "feed URL"
 msgstr "syötteen verkko-osoite"

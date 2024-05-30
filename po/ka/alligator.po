@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-25 00:38+0000\n"
+"POT-Creation-Date: 2024-05-30 00:38+0000\n"
 "PO-Revision-Date: 2023-10-06 05:02+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -28,12 +28,12 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "Temuri.doghonadze@gmail.com"
 
-#: database.cpp:67 database.cpp:313
+#: database.cpp:67 database.cpp:312
 #, kde-format
 msgid "Default"
 msgstr "ნაგულისხმები"
 
-#: database.cpp:68 database.cpp:314
+#: database.cpp:68 database.cpp:313
 #, kde-format
 msgid "Default Feed Group"
 msgstr "ნაგულისხმებილენტის ჯგუფი"
@@ -73,17 +73,17 @@ msgstr "© 2020-2023 KDE-ის საზოგადოება. ყველ�
 msgid "Tobias Fella"
 msgstr "Tobias Fella"
 
-#: main.cpp:94
+#: main.cpp:93
 #, kde-format
 msgid "RSS/Atom Feed Reader"
 msgstr "RSS/Atom ლენტის მკითხველი"
 
-#: main.cpp:96
+#: main.cpp:95
 #, kde-format
 msgid "Adds a new feed to database."
 msgstr "ბაზაში ახალი ლენტის ჩამატება."
 
-#: main.cpp:97
+#: main.cpp:96
 #, kde-format
 msgid "feed URL"
 msgstr "ლენტის URL"
