@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-30 00:38+0000\n"
+"POT-Creation-Date: 2024-06-02 00:38+0000\n"
 "PO-Revision-Date: 2024-03-13 20:04+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
@@ -121,17 +121,17 @@ msgstr "İptal"
 msgid "All Feeds"
 msgstr "Tüm Beslemeler"
 
-#: qml/AlligatorGlobalDrawer.qml:152 qml/SettingsPage.qml:21
+#: qml/AlligatorGlobalDrawer.qml:154 qml/SettingsPage.qml:21
 #, kde-format
 msgid "Settings"
 msgstr "Ayarlar"
 
-#: qml/AlligatorGlobalDrawer.qml:163
+#: qml/AlligatorGlobalDrawer.qml:165
 #, kde-format
 msgid "Manage Feeds"
 msgstr "Beslemeleri Yönet"
 
-#: qml/AlligatorGlobalDrawer.qml:175
+#: qml/AlligatorGlobalDrawer.qml:177
 #, kde-format
 msgid "About"
 msgstr "Hakkında"
@@ -151,63 +151,63 @@ msgstr "Görüntüleme Adı:"
 msgid "Group:"
 msgstr "Grup:"
 
-#: qml/EntryListDelegate.qml:65
+#: qml/EntryListDelegate.qml:64
 #, kde-format
 msgctxt "by <author(s)>"
 msgid "by"
 msgstr "yazar:"
 
-#: qml/EntryListPage.qml:44
+#: qml/EntryListPage.qml:45
 #, kde-format
 msgid "Refresh"
 msgstr "Yenile"
 
-#: qml/EntryListPage.qml:51
+#: qml/EntryListPage.qml:52
 #, kde-format
 msgid "Details"
 msgstr "Ayrıntılar"
 
-#: qml/EntryListPage.qml:64
+#: qml/EntryListPage.qml:67
 #, kde-format
 msgid "Expand sidebar"
 msgstr "Kenar çubuğunu genişlet"
 
-#: qml/EntryListPage.qml:64
+#: qml/EntryListPage.qml:67
 #, kde-format
 msgid "Collapse sidebar"
 msgstr "Kenar çubuğunu daralt"
 
-#: qml/EntryListPage.qml:76
+#: qml/EntryListPage.qml:77
 #, kde-format
 msgid "All Entries"
 msgstr "Tüm Girdiler"
 
-#: qml/EntryListPage.qml:84
+#: qml/EntryListPage.qml:85
 #, kde-format
 msgid "Error"
 msgstr "Hata"
 
-#: qml/EntryListPage.qml:85 qml/EntryListPage.qml:97
+#: qml/EntryListPage.qml:86 qml/EntryListPage.qml:99
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "Hata (%1): %2"
 
-#: qml/EntryListPage.qml:95
+#: qml/EntryListPage.qml:97
 #, kde-format
 msgid "No unread entries available"
 msgstr "Okunmamış girdi yok"
 
-#: qml/EntryListPage.qml:95
+#: qml/EntryListPage.qml:97
 #, kde-format
 msgid "No entries available"
 msgstr "Kullanılabilir girdi yok"
 
-#: qml/EntryListPage.qml:134
+#: qml/EntryListPage.qml:141
 #, kde-format
 msgid "All"
 msgstr "Tümü"
 
-#: qml/EntryListPage.qml:140
+#: qml/EntryListPage.qml:147
 #, kde-format
 msgid "Unread"
 msgstr "Okunmamış"
@@ -284,68 +284,68 @@ msgctxt "'Feeds' as in 'RSS Feeds'"
 msgid "Manage Feeds"
 msgstr "Beslemeleri Yönet"
 
-#: qml/FeedListPage.qml:29
+#: qml/FeedListPage.qml:30
 #, kde-format
 msgid "Refresh All Feeds"
 msgstr "Tüm Beslemeleri Yenile"
 
-#: qml/FeedListPage.qml:35
+#: qml/FeedListPage.qml:36
 #, kde-format
 msgid "Add Feed…"
 msgstr "Besleme Ekle…"
 
-#: qml/FeedListPage.qml:39
+#: qml/FeedListPage.qml:40
 #, kde-format
 msgctxt "@title"
 msgid "Add Feed"
 msgstr "Besleme Ekle"
 
-#: qml/FeedListPage.qml:45
+#: qml/FeedListPage.qml:46
 #, kde-format
 msgid "Manage Feed Groups"
 msgstr "Besleme Gruplarını Yönet"
 
-#: qml/FeedListPage.qml:50
+#: qml/FeedListPage.qml:51
 #, kde-format
 msgid "Import Feeds…"
 msgstr "Beslemeler İçe Aktar…"
 
-#: qml/FeedListPage.qml:55
+#: qml/FeedListPage.qml:56
 #, kde-format
 msgid "Export Feeds…"
 msgstr "Beslemeleri Dışa Aktar…"
 
-#: qml/FeedListPage.qml:85
+#: qml/FeedListPage.qml:86
 #, kde-format
 msgid "No feeds added yet"
 msgstr "Henüz bir besleme eklenmedi"
 
-#: qml/FeedListPage.qml:123
+#: qml/FeedListPage.qml:124
 #, kde-format
 msgid "Import Feeds"
 msgstr "Beslemeleri İçe Aktar"
 
-#: qml/FeedListPage.qml:125
+#: qml/FeedListPage.qml:126
 #, kde-format
 msgid "All Files (*)"
 msgstr "Tüm Dosyalar (*)"
 
-#: qml/FeedListPage.qml:125
+#: qml/FeedListPage.qml:126
 #, kde-format
 msgid "XML Files (*.xml)"
 msgstr "XML Dosyaları (*.xml)"
 
-#: qml/FeedListPage.qml:125
+#: qml/FeedListPage.qml:126
 #, kde-format
 msgid "OPML Files (*.opml)"
 msgstr "OPML Dosyaları (*.opml)"
 
-#: qml/FeedListPage.qml:131
+#: qml/FeedListPage.qml:132
 #, kde-format
 msgid "Export Feeds"
 msgstr "Beslemeleri Dışa Aktar"
 
-#: qml/FeedListPage.qml:133
+#: qml/FeedListPage.qml:134
 #, kde-format
 msgid "All Files"
 msgstr "Tüm Dosyalar"

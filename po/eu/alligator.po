@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-30 00:38+0000\n"
+"POT-Creation-Date: 2024-06-02 00:38+0000\n"
 "PO-Revision-Date: 2023-10-04 23:17+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -122,17 +122,17 @@ msgstr "Utzi"
 msgid "All Feeds"
 msgstr "Jario denak"
 
-#: qml/AlligatorGlobalDrawer.qml:152 qml/SettingsPage.qml:21
+#: qml/AlligatorGlobalDrawer.qml:154 qml/SettingsPage.qml:21
 #, kde-format
 msgid "Settings"
 msgstr "Ezarpenak"
 
-#: qml/AlligatorGlobalDrawer.qml:163
+#: qml/AlligatorGlobalDrawer.qml:165
 #, kde-format
 msgid "Manage Feeds"
 msgstr "Kudeatu jarioak"
 
-#: qml/AlligatorGlobalDrawer.qml:175
+#: qml/AlligatorGlobalDrawer.qml:177
 #, kde-format
 msgid "About"
 msgstr "Honi buruz"
@@ -152,63 +152,63 @@ msgstr "Azaldu beharreko izena:"
 msgid "Group:"
 msgstr "Taldea:"
 
-#: qml/EntryListDelegate.qml:65
+#: qml/EntryListDelegate.qml:64
 #, kde-format
 msgctxt "by <author(s)>"
 msgid "by"
 msgstr "nork"
 
-#: qml/EntryListPage.qml:44
+#: qml/EntryListPage.qml:45
 #, kde-format
 msgid "Refresh"
 msgstr "Freskatu"
 
-#: qml/EntryListPage.qml:51
+#: qml/EntryListPage.qml:52
 #, kde-format
 msgid "Details"
 msgstr "Zehaztasunak"
 
-#: qml/EntryListPage.qml:64
+#: qml/EntryListPage.qml:67
 #, kde-format
 msgid "Expand sidebar"
 msgstr "Zabaldu alboko-barra"
 
-#: qml/EntryListPage.qml:64
+#: qml/EntryListPage.qml:67
 #, kde-format
 msgid "Collapse sidebar"
 msgstr "Tolestu alboko-barra"
 
-#: qml/EntryListPage.qml:76
+#: qml/EntryListPage.qml:77
 #, kde-format
 msgid "All Entries"
 msgstr "Sarrera guztiak"
 
-#: qml/EntryListPage.qml:84
+#: qml/EntryListPage.qml:85
 #, kde-format
 msgid "Error"
 msgstr "Errorea"
 
-#: qml/EntryListPage.qml:85 qml/EntryListPage.qml:97
+#: qml/EntryListPage.qml:86 qml/EntryListPage.qml:99
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "Errorea (%1): %2"
 
-#: qml/EntryListPage.qml:95
+#: qml/EntryListPage.qml:97
 #, kde-format
 msgid "No unread entries available"
 msgstr "Ez dago irakurri gabeko sarrerarik"
 
-#: qml/EntryListPage.qml:95
+#: qml/EntryListPage.qml:97
 #, kde-format
 msgid "No entries available"
 msgstr "Ez dago sarrera erabilgarririk"
 
-#: qml/EntryListPage.qml:134
+#: qml/EntryListPage.qml:141
 #, kde-format
 msgid "All"
 msgstr "Dena"
 
-#: qml/EntryListPage.qml:140
+#: qml/EntryListPage.qml:147
 #, kde-format
 msgid "Unread"
 msgstr "Irakurri gabea"
@@ -285,68 +285,68 @@ msgctxt "'Feeds' as in 'RSS Feeds'"
 msgid "Manage Feeds"
 msgstr "Kudeatu jarioak"
 
-#: qml/FeedListPage.qml:29
+#: qml/FeedListPage.qml:30
 #, kde-format
 msgid "Refresh All Feeds"
 msgstr "Freskatu jario guztiak"
 
-#: qml/FeedListPage.qml:35
+#: qml/FeedListPage.qml:36
 #, kde-format
 msgid "Add Feed…"
 msgstr "Gehitu jarioa..."
 
-#: qml/FeedListPage.qml:39
+#: qml/FeedListPage.qml:40
 #, kde-format
 msgctxt "@title"
 msgid "Add Feed"
 msgstr "Gehitu jarioa"
 
-#: qml/FeedListPage.qml:45
+#: qml/FeedListPage.qml:46
 #, kde-format
 msgid "Manage Feed Groups"
 msgstr "Kudeatu jario-taldeak"
 
-#: qml/FeedListPage.qml:50
+#: qml/FeedListPage.qml:51
 #, kde-format
 msgid "Import Feeds…"
 msgstr "Inportatu jarioak..."
 
-#: qml/FeedListPage.qml:55
+#: qml/FeedListPage.qml:56
 #, kde-format
 msgid "Export Feeds…"
 msgstr "Esportatu jarioak..."
 
-#: qml/FeedListPage.qml:85
+#: qml/FeedListPage.qml:86
 #, kde-format
 msgid "No feeds added yet"
 msgstr "Oraindik ez da jariorik gehitu"
 
-#: qml/FeedListPage.qml:123
+#: qml/FeedListPage.qml:124
 #, kde-format
 msgid "Import Feeds"
 msgstr "Inportatu jarioak"
 
-#: qml/FeedListPage.qml:125
+#: qml/FeedListPage.qml:126
 #, kde-format
 msgid "All Files (*)"
 msgstr "Fitxategi guztiak (*)"
 
-#: qml/FeedListPage.qml:125
+#: qml/FeedListPage.qml:126
 #, kde-format
 msgid "XML Files (*.xml)"
 msgstr "XML fitxategiak (*.xml)"
 
-#: qml/FeedListPage.qml:125
+#: qml/FeedListPage.qml:126
 #, kde-format
 msgid "OPML Files (*.opml)"
 msgstr "OPML fitxategiak (*.opml)"
 
-#: qml/FeedListPage.qml:131
+#: qml/FeedListPage.qml:132
 #, kde-format
 msgid "Export Feeds"
 msgstr "Esportatu jarioak"
 
-#: qml/FeedListPage.qml:133
+#: qml/FeedListPage.qml:134
 #, kde-format
 msgid "All Files"
 msgstr "Fitxategi guztiak"

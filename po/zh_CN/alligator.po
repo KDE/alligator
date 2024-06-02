@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-30 00:38+0000\n"
+"POT-Creation-Date: 2024-06-02 00:38+0000\n"
 "PO-Revision-Date: 2024-04-22 15:58\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -119,17 +119,17 @@ msgstr "取消"
 msgid "All Feeds"
 msgstr "全部新闻源"
 
-#: qml/AlligatorGlobalDrawer.qml:152 qml/SettingsPage.qml:21
+#: qml/AlligatorGlobalDrawer.qml:154 qml/SettingsPage.qml:21
 #, kde-format
 msgid "Settings"
 msgstr "设置"
 
-#: qml/AlligatorGlobalDrawer.qml:163
+#: qml/AlligatorGlobalDrawer.qml:165
 #, kde-format
 msgid "Manage Feeds"
 msgstr "管理新闻源"
 
-#: qml/AlligatorGlobalDrawer.qml:175
+#: qml/AlligatorGlobalDrawer.qml:177
 #, kde-format
 msgid "About"
 msgstr "关于"
@@ -149,63 +149,63 @@ msgstr "显示名称："
 msgid "Group:"
 msgstr "分组："
 
-#: qml/EntryListDelegate.qml:65
+#: qml/EntryListDelegate.qml:64
 #, kde-format
 msgctxt "by <author(s)>"
 msgid "by"
 msgstr "作者："
 
-#: qml/EntryListPage.qml:44
+#: qml/EntryListPage.qml:45
 #, kde-format
 msgid "Refresh"
 msgstr "刷新"
 
-#: qml/EntryListPage.qml:51
+#: qml/EntryListPage.qml:52
 #, kde-format
 msgid "Details"
 msgstr "详细信息"
 
-#: qml/EntryListPage.qml:64
+#: qml/EntryListPage.qml:67
 #, kde-format
 msgid "Expand sidebar"
 msgstr "展开侧边栏"
 
-#: qml/EntryListPage.qml:64
+#: qml/EntryListPage.qml:67
 #, kde-format
 msgid "Collapse sidebar"
 msgstr "折叠侧边栏"
 
-#: qml/EntryListPage.qml:76
+#: qml/EntryListPage.qml:77
 #, kde-format
 msgid "All Entries"
 msgstr "全部新闻"
 
-#: qml/EntryListPage.qml:84
+#: qml/EntryListPage.qml:85
 #, kde-format
 msgid "Error"
 msgstr "错误"
 
-#: qml/EntryListPage.qml:85 qml/EntryListPage.qml:97
+#: qml/EntryListPage.qml:86 qml/EntryListPage.qml:99
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "错误 (%1)：%2"
 
-#: qml/EntryListPage.qml:95
+#: qml/EntryListPage.qml:97
 #, kde-format
 msgid "No unread entries available"
 msgstr "无未读条目"
 
-#: qml/EntryListPage.qml:95
+#: qml/EntryListPage.qml:97
 #, kde-format
 msgid "No entries available"
 msgstr "无可用条目"
 
-#: qml/EntryListPage.qml:134
+#: qml/EntryListPage.qml:141
 #, kde-format
 msgid "All"
 msgstr "全部"
 
-#: qml/EntryListPage.qml:140
+#: qml/EntryListPage.qml:147
 #, kde-format
 msgid "Unread"
 msgstr "未读"
@@ -281,68 +281,68 @@ msgctxt "'Feeds' as in 'RSS Feeds'"
 msgid "Manage Feeds"
 msgstr "管理新闻源"
 
-#: qml/FeedListPage.qml:29
+#: qml/FeedListPage.qml:30
 #, kde-format
 msgid "Refresh All Feeds"
 msgstr "刷新全部新闻源"
 
-#: qml/FeedListPage.qml:35
+#: qml/FeedListPage.qml:36
 #, kde-format
 msgid "Add Feed…"
 msgstr "添加新闻源..."
 
-#: qml/FeedListPage.qml:39
+#: qml/FeedListPage.qml:40
 #, kde-format
 msgctxt "@title"
 msgid "Add Feed"
 msgstr "添加新闻源"
 
-#: qml/FeedListPage.qml:45
+#: qml/FeedListPage.qml:46
 #, kde-format
 msgid "Manage Feed Groups"
 msgstr "管理新闻源分组"
 
-#: qml/FeedListPage.qml:50
+#: qml/FeedListPage.qml:51
 #, kde-format
 msgid "Import Feeds…"
 msgstr "导入新闻源..."
 
-#: qml/FeedListPage.qml:55
+#: qml/FeedListPage.qml:56
 #, kde-format
 msgid "Export Feeds…"
 msgstr "导出新闻源..."
 
-#: qml/FeedListPage.qml:85
+#: qml/FeedListPage.qml:86
 #, kde-format
 msgid "No feeds added yet"
 msgstr "尚未添加新闻源"
 
-#: qml/FeedListPage.qml:123
+#: qml/FeedListPage.qml:124
 #, kde-format
 msgid "Import Feeds"
 msgstr "导入新闻源"
 
-#: qml/FeedListPage.qml:125
+#: qml/FeedListPage.qml:126
 #, kde-format
 msgid "All Files (*)"
 msgstr "所有文件 (*)"
 
-#: qml/FeedListPage.qml:125
+#: qml/FeedListPage.qml:126
 #, kde-format
 msgid "XML Files (*.xml)"
 msgstr "XML 文件 (*.xml)"
 
-#: qml/FeedListPage.qml:125
+#: qml/FeedListPage.qml:126
 #, kde-format
 msgid "OPML Files (*.opml)"
 msgstr "OPML 文件 (*.opml)"
 
-#: qml/FeedListPage.qml:131
+#: qml/FeedListPage.qml:132
 #, kde-format
 msgid "Export Feeds"
 msgstr "导出新闻源"
 
-#: qml/FeedListPage.qml:133
+#: qml/FeedListPage.qml:134
 #, kde-format
 msgid "All Files"
 msgstr "所有文件"
