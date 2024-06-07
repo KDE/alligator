@@ -14,6 +14,7 @@ import org.kde.kirigami as Kirigami
 import org.kde.kirigamiaddons.delegates as Delegates
 
 import org.kde.alligator
+import org.kde.alligator.config
 
 Kirigami.GlobalDrawer {
     id: root
