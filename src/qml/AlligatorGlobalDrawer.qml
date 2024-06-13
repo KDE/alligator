@@ -92,6 +92,9 @@ Kirigami.GlobalDrawer {
                 onClicked: {
                     pageStack.clear();
                     pageStack.push(root.entriesPage);
+                    if (root.modal) {
+                        root.close();
+                    }
                 }
                 Controls.ToolTip.visible: hovered && AlligatorSettings.sidebarCollapsed
                 Controls.ToolTip.text: i18n("All Feeds")
@@ -136,6 +139,9 @@ Kirigami.GlobalDrawer {
                     pageStack.push(Qt.resolvedUrl("EntryListPage.qml"), {
                         feed: feed
                     });
+                    if (root.modal) {
+                        root.close();
+                    }
                 }
                 Controls.ToolTip.visible: hovered && AlligatorSettings.sidebarCollapsed
                 Controls.ToolTip.text: feed.displayName || feed.name
@@ -158,6 +164,9 @@ Kirigami.GlobalDrawer {
                 pageStack.layers.clear();
                 pageStack.clear();
                 pageStack.push(Qt.resolvedUrl("SettingsPage.qml"));
+                if (root.modal) {
+                    root.close();
+                }
             }
         }
 
@@ -169,6 +178,9 @@ Kirigami.GlobalDrawer {
                 pageStack.layers.clear();
                 pageStack.clear();
                 pageStack.push(root.feedsPage, {});
+                if (root.modal) {
+                    root.close();
+                }
             }
         }
 
@@ -181,6 +193,9 @@ Kirigami.GlobalDrawer {
                 pageStack.layers.clear();
                 pageStack.clear();
                 pageStack.push(aboutPage);
+                if (root.modal) {
+                    root.close();
+                }
             }
         }
     }
