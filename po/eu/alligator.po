@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-02 00:38+0000\n"
+"POT-Creation-Date: 2024-06-14 00:38+0000\n"
 "PO-Revision-Date: 2023-10-04 23:17+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -55,7 +55,7 @@ msgstr "Ez dago XMLa onartu duen aztertzaile sintaktikorik"
 msgid "Error while parsing feed"
 msgstr "Errorea jarioaren sintaxia aztertzean"
 
-#: main.cpp:79 qml/AlligatorGlobalDrawer.qml:55
+#: main.cpp:79 qml/AlligatorGlobalDrawer.qml:56
 #, kde-format
 msgid "Alligator"
 msgstr "Alligator"
@@ -117,22 +117,22 @@ msgctxt "@action:button"
 msgid "Cancel"
 msgstr "Utzi"
 
-#: qml/AlligatorGlobalDrawer.qml:89 qml/AlligatorGlobalDrawer.qml:96
+#: qml/AlligatorGlobalDrawer.qml:90 qml/AlligatorGlobalDrawer.qml:97
 #, kde-format
 msgid "All Feeds"
 msgstr "Jario denak"
 
-#: qml/AlligatorGlobalDrawer.qml:154 qml/SettingsPage.qml:21
+#: qml/AlligatorGlobalDrawer.qml:155 qml/SettingsPage.qml:21
 #, kde-format
 msgid "Settings"
 msgstr "Ezarpenak"
 
-#: qml/AlligatorGlobalDrawer.qml:165
+#: qml/AlligatorGlobalDrawer.qml:166
 #, kde-format
 msgid "Manage Feeds"
 msgstr "Kudeatu jarioak"
 
-#: qml/AlligatorGlobalDrawer.qml:177
+#: qml/AlligatorGlobalDrawer.qml:178
 #, kde-format
 msgid "About"
 msgstr "Honi buruz"

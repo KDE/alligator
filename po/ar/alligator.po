@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-02 00:38+0000\n"
+"POT-Creation-Date: 2024-06-14 00:38+0000\n"
 "PO-Revision-Date: 2024-02-15 18:50+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
@@ -52,7 +52,7 @@ msgstr "لم يقبل أي محلل XML"
 msgid "Error while parsing feed"
 msgstr "خطأ أثناء تحليل التلقيم"
 
-#: main.cpp:79 qml/AlligatorGlobalDrawer.qml:55
+#: main.cpp:79 qml/AlligatorGlobalDrawer.qml:56
 #, kde-format
 msgid "Alligator"
 msgstr "قاطور"
@@ -114,22 +114,22 @@ msgctxt "@action:button"
 msgid "Cancel"
 msgstr "لا تُلغ"
 
-#: qml/AlligatorGlobalDrawer.qml:89 qml/AlligatorGlobalDrawer.qml:96
+#: qml/AlligatorGlobalDrawer.qml:90 qml/AlligatorGlobalDrawer.qml:97
 #, kde-format
 msgid "All Feeds"
 msgstr "كل التلقيمات"
 
-#: qml/AlligatorGlobalDrawer.qml:154 qml/SettingsPage.qml:21
+#: qml/AlligatorGlobalDrawer.qml:155 qml/SettingsPage.qml:21
 #, kde-format
 msgid "Settings"
 msgstr "إعدادات"
 
-#: qml/AlligatorGlobalDrawer.qml:165
+#: qml/AlligatorGlobalDrawer.qml:166
 #, kde-format
 msgid "Manage Feeds"
 msgstr "أدِر التلقيمات"
 
-#: qml/AlligatorGlobalDrawer.qml:177
+#: qml/AlligatorGlobalDrawer.qml:178
 #, kde-format
 msgid "About"
 msgstr "عن"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-02 00:38+0000\n"
+"POT-Creation-Date: 2024-06-14 00:38+0000\n"
 "PO-Revision-Date: 2020-09-28 02:26+0200\n"
 "Last-Translator: Mihkel Tõnnov <mihhkel@gmail.com>\n"
 "Language-Team: Estonian <>\n"
@@ -53,7 +53,7 @@ msgstr ""
 msgid "Error while parsing feed"
 msgstr ""
 
-#: main.cpp:79 qml/AlligatorGlobalDrawer.qml:55
+#: main.cpp:79 qml/AlligatorGlobalDrawer.qml:56
 #, kde-format
 msgid "Alligator"
 msgstr "Alligator"
@@ -118,23 +118,23 @@ msgctxt "@action:button"
 msgid "Cancel"
 msgstr ""
 
-#: qml/AlligatorGlobalDrawer.qml:89 qml/AlligatorGlobalDrawer.qml:96
+#: qml/AlligatorGlobalDrawer.qml:90 qml/AlligatorGlobalDrawer.qml:97
 #, fuzzy, kde-format
 #| msgid "All Files"
 msgid "All Feeds"
 msgstr "Kõik vood"
 
-#: qml/AlligatorGlobalDrawer.qml:154 qml/SettingsPage.qml:21
+#: qml/AlligatorGlobalDrawer.qml:155 qml/SettingsPage.qml:21
 #, kde-format
 msgid "Settings"
 msgstr "Seadistused"
 
-#: qml/AlligatorGlobalDrawer.qml:165
+#: qml/AlligatorGlobalDrawer.qml:166
 #, kde-format
 msgid "Manage Feeds"
 msgstr ""
 
-#: qml/AlligatorGlobalDrawer.qml:177
+#: qml/AlligatorGlobalDrawer.qml:178
 #, kde-format
 msgid "About"
 msgstr "Teave"
