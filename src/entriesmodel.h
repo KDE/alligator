@@ -12,8 +12,6 @@
 #include <QQmlEngine>
 #include <QString>
 
-#include "feed.h"
-
 struct Entry {
     QString feedUrl;
     QString id;
