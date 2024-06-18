@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-14 00:38+0000\n"
+"POT-Creation-Date: 2024-06-18 00:39+0000\n"
 "PO-Revision-Date: 2020-04-23 11:45-0700\n"
 "Last-Translator: Japanese KDE translation team <kde-jp@kde.org>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
@@ -61,7 +61,7 @@ msgstr ""
 
 #: main.cpp:83
 #, kde-format
-msgid "© 2020-2023 KDE Community"
+msgid "© 2020-2024 KDE Community"
 msgstr ""
 
 #: main.cpp:84

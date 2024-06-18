@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-14 00:38+0000\n"
+"POT-Creation-Date: 2024-06-18 00:39+0000\n"
 "PO-Revision-Date: 2023-10-04 12:39+0200\n"
 "Last-Translator: Xavier BESNARD <xavier.besnard@neuf.fr>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
@@ -61,8 +61,9 @@ msgid "Feed Reader"
 msgstr "Lecteur de fil d'actualité"
 
 #: main.cpp:83
-#, kde-format
-msgid "© 2020-2023 KDE Community"
+#, fuzzy, kde-format
+#| msgid "© 2020-2023 KDE Community"
+msgid "© 2020-2024 KDE Community"
 msgstr "© 2020 - 2023 Communauté de KDE"
 
 #: main.cpp:84

@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-14 00:38+0000\n"
+"POT-Creation-Date: 2024-06-18 00:39+0000\n"
 "PO-Revision-Date: 2023-11-08 18:49+0100\n"
 "Last-Translator: Ferdinand Galko <galko.ferdinand@gmail.com>\n"
 "Language-Team: Slovak <opensuse-translation@opensuse.org>\n"
@@ -62,8 +62,9 @@ msgid "Feed Reader"
 msgstr "Čítačka kanálov"
 
 #: main.cpp:83
-#, kde-format
-msgid "© 2020-2023 KDE Community"
+#, fuzzy, kde-format
+#| msgid "© 2020-2023 KDE Community"
+msgid "© 2020-2024 KDE Community"
 msgstr "© 2020-2023 KDE komunita"
 
 #: main.cpp:84

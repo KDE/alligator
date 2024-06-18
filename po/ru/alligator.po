@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-14 00:38+0000\n"
+"POT-Creation-Date: 2024-06-18 00:39+0000\n"
 "PO-Revision-Date: 2024-02-10 12:29+0300\n"
 "Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -66,8 +66,9 @@ msgid "Feed Reader"
 msgstr "Чтение лент новостей"
 
 #: main.cpp:83
-#, kde-format
-msgid "© 2020-2023 KDE Community"
+#, fuzzy, kde-format
+#| msgid "© 2020-2023 KDE Community"
+msgid "© 2020-2024 KDE Community"
 msgstr "© Сообщество KDE, 2020-2023"
 
 #: main.cpp:84
