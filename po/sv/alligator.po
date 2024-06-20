@@ -64,7 +64,6 @@ msgstr "Kanalläsare"
 
 #: main.cpp:83
 #, kde-format
-#| msgid "© 2020-2023 KDE Community"
 msgid "© 2020-2024 KDE Community"
 msgstr "© 2020-2024 KDE-gemenskapen"
 
@@ -484,4 +483,3 @@ msgstr "Använda systemstandard"
 
 #~ msgid "Bookmark"
 #~ msgstr "Bokmärke"
-
