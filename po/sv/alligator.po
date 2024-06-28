@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-18 00:39+0000\n"
+"POT-Creation-Date: 2024-06-28 00:38+0000\n"
 "PO-Revision-Date: 2024-06-18 17:03+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -114,22 +114,22 @@ msgctxt "@action:button"
 msgid "Cancel"
 msgstr "Avbryt"
 
-#: qml/AlligatorGlobalDrawer.qml:90 qml/AlligatorGlobalDrawer.qml:97
+#: qml/AlligatorGlobalDrawer.qml:90 qml/AlligatorGlobalDrawer.qml:100
 #, kde-format
 msgid "All Feeds"
 msgstr "Alla kanaler"
 
-#: qml/AlligatorGlobalDrawer.qml:155 qml/SettingsPage.qml:21
+#: qml/AlligatorGlobalDrawer.qml:161 qml/SettingsPage.qml:21
 #, kde-format
 msgid "Settings"
 msgstr "Inställningar"
 
-#: qml/AlligatorGlobalDrawer.qml:166
+#: qml/AlligatorGlobalDrawer.qml:175
 #, kde-format
 msgid "Manage Feeds"
 msgstr "Hantera kanaler"
 
-#: qml/AlligatorGlobalDrawer.qml:178
+#: qml/AlligatorGlobalDrawer.qml:190
 #, kde-format
 msgid "About"
 msgstr "Om"

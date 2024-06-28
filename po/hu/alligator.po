@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-18 00:39+0000\n"
+"POT-Creation-Date: 2024-06-28 00:38+0000\n"
 "PO-Revision-Date: 2024-01-08 13:47+0100\n"
 "Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -116,22 +116,22 @@ msgctxt "@action:button"
 msgid "Cancel"
 msgstr "Mégse"
 
-#: qml/AlligatorGlobalDrawer.qml:90 qml/AlligatorGlobalDrawer.qml:97
+#: qml/AlligatorGlobalDrawer.qml:90 qml/AlligatorGlobalDrawer.qml:100
 #, kde-format
 msgid "All Feeds"
 msgstr "Minden csatorna"
 
-#: qml/AlligatorGlobalDrawer.qml:155 qml/SettingsPage.qml:21
+#: qml/AlligatorGlobalDrawer.qml:161 qml/SettingsPage.qml:21
 #, kde-format
 msgid "Settings"
 msgstr "Beállítások"
 
-#: qml/AlligatorGlobalDrawer.qml:166
+#: qml/AlligatorGlobalDrawer.qml:175
 #, kde-format
 msgid "Manage Feeds"
 msgstr "Hírforrások kezelése"
 
-#: qml/AlligatorGlobalDrawer.qml:178
+#: qml/AlligatorGlobalDrawer.qml:190
 #, kde-format
 msgid "About"
 msgstr "Névjegy"
