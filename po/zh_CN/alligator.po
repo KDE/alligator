@@ -65,7 +65,7 @@ msgstr "新闻源阅读器"
 #: main.cpp:83
 #, kde-format
 msgid "© 2020-2023 KDE Community"
-msgstr ""
+msgstr "© 2020-2023 KDE Community"
 
 #: main.cpp:84
 #, kde-format
