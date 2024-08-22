@@ -20,6 +20,7 @@
 #endif
 
 #include <KAboutData>
+#include <KColorSchemeManager>
 #include <KLocalizedContext>
 #include <KLocalizedString>
 
@@ -53,6 +54,7 @@ int main(int argc, char *argv[])
         QQuickStyle::setStyle(QStringLiteral("org.kde.desktop"));
     }
 #endif
+    KColorSchemeManager colorMgr;
 
 #ifdef Q_OS_WINDOWS
     if (AttachConsole(ATTACH_PARENT_PROCESS)) {
