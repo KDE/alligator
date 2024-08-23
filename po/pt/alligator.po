@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-28 00:38+0000\n"
+"POT-Creation-Date: 2024-08-23 00:39+0000\n"
 "PO-Revision-Date: 2023-03-06 16:33+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -48,38 +48,38 @@ msgstr "Não foi possível processar o XML de nenhuma forma"
 msgid "Error while parsing feed"
 msgstr "Erro ao processar a fonte"
 
-#: main.cpp:79 qml/AlligatorGlobalDrawer.qml:56
+#: main.cpp:81 qml/AlligatorGlobalDrawer.qml:56
 #, kde-format
 msgid "Alligator"
 msgstr "Alligator"
 
-#: main.cpp:81
+#: main.cpp:83
 #, kde-format
 msgid "Feed Reader"
 msgstr "Leitor de Fontes"
 
-#: main.cpp:83
+#: main.cpp:85
 #, fuzzy, kde-format
 #| msgid "© 2020-2022 KDE Community"
 msgid "© 2020-2024 KDE Community"
 msgstr "© 2020-2022 da Comunidade do KDE"
 
-#: main.cpp:84
+#: main.cpp:86
 #, kde-format
 msgid "Tobias Fella"
 msgstr "Tobias Fella"
 
-#: main.cpp:93
+#: main.cpp:95
 #, kde-format
 msgid "RSS/Atom Feed Reader"
 msgstr "Leitor de Fontes RSS/Atom"
 
-#: main.cpp:95
+#: main.cpp:97
 #, kde-format
 msgid "Adds a new feed to database."
 msgstr "Adiciona uma nova fonte à base de dados."
 
-#: main.cpp:96
+#: main.cpp:98
 #, kde-format
 msgid "feed URL"
 msgstr "URL da fonte"

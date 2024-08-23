@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-28 00:38+0000\n"
+"POT-Creation-Date: 2024-08-23 00:39+0000\n"
 "PO-Revision-Date: 2024-06-26 18:29+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
@@ -53,37 +53,37 @@ msgstr "لم يقبل أي محلل XML"
 msgid "Error while parsing feed"
 msgstr "خطأ أثناء تحليل التلقيم"
 
-#: main.cpp:79 qml/AlligatorGlobalDrawer.qml:56
+#: main.cpp:81 qml/AlligatorGlobalDrawer.qml:56
 #, kde-format
 msgid "Alligator"
 msgstr "قاطور"
 
-#: main.cpp:81
+#: main.cpp:83
 #, kde-format
 msgid "Feed Reader"
 msgstr "قارئ التّغذيات"
 
-#: main.cpp:83
+#: main.cpp:85
 #, kde-format
 msgid "© 2020-2024 KDE Community"
 msgstr "© 2020-2024 مجتمع كِيدِي"
 
-#: main.cpp:84
+#: main.cpp:86
 #, kde-format
 msgid "Tobias Fella"
 msgstr "توبياس فلة"
 
-#: main.cpp:93
+#: main.cpp:95
 #, kde-format
 msgid "RSS/Atom Feed Reader"
 msgstr "قارئ التّغذيات RSS/Atom"
 
-#: main.cpp:95
+#: main.cpp:97
 #, kde-format
 msgid "Adds a new feed to database."
 msgstr "يضيف تلقيماً جديداً إلى قاعدة البيانات."
 
-#: main.cpp:96
+#: main.cpp:98
 #, kde-format
 msgid "feed URL"
 msgstr "مسار التلقيم"

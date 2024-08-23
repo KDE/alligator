@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-28 00:38+0000\n"
+"POT-Creation-Date: 2024-08-23 00:39+0000\n"
 "PO-Revision-Date: 2024-06-18 05:51+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -53,37 +53,37 @@ msgstr "XML-ის დამმუშავებლის გარეშე"
 msgid "Error while parsing feed"
 msgstr "შეცდომა ლენტის დამუშავებისას"
 
-#: main.cpp:79 qml/AlligatorGlobalDrawer.qml:56
+#: main.cpp:81 qml/AlligatorGlobalDrawer.qml:56
 #, kde-format
 msgid "Alligator"
 msgstr "Alligator"
 
-#: main.cpp:81
+#: main.cpp:83
 #, kde-format
 msgid "Feed Reader"
 msgstr "ლენტის მკითხველი"
 
-#: main.cpp:83
+#: main.cpp:85
 #, kde-format
 msgid "© 2020-2024 KDE Community"
 msgstr "© 2020-2024 KDE-ის საზოგადოება. ყველა უფლება დაცულია"
 
-#: main.cpp:84
+#: main.cpp:86
 #, kde-format
 msgid "Tobias Fella"
 msgstr "Tobias Fella"
 
-#: main.cpp:93
+#: main.cpp:95
 #, kde-format
 msgid "RSS/Atom Feed Reader"
 msgstr "RSS/Atom ლენტის მკითხველი"
 
-#: main.cpp:95
+#: main.cpp:97
 #, kde-format
 msgid "Adds a new feed to database."
 msgstr "ბაზაში ახალი ლენტის ჩამატება."
 
-#: main.cpp:96
+#: main.cpp:98
 #, kde-format
 msgid "feed URL"
 msgstr "ლენტის URL"
