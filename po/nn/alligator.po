@@ -96,7 +96,6 @@ msgstr "Legg til kjelde"
 
 #: qml/AddFeedDialog.qml:25
 #, fuzzy, kde-format
-#| msgid "Url:"
 msgid "Url"
 msgstr "Adresse:"
 
@@ -107,7 +106,6 @@ msgstr ""
 
 #: qml/AddFeedDialog.qml:36
 #, fuzzy, kde-format
-#| msgid "Add Feed"
 msgctxt "@action:button"
 msgid "Add Feed"
 msgstr "Legg til kjelde"
@@ -298,7 +296,6 @@ msgstr ""
 
 #: qml/FeedListPage.qml:40
 #, fuzzy, kde-format
-#| msgid "Add Feed"
 msgctxt "@title"
 msgid "Add Feed"
 msgstr "Legg til kjelde"
@@ -385,7 +382,6 @@ msgstr ""
 
 #: qml/SettingsPage.qml:24
 #, fuzzy, kde-format
-#| msgid "Article List"
 msgctxt "@title"
 msgid "Article List"
 msgstr "Artikkelliste"
