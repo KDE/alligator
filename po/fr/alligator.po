@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-28 00:38+0000\n"
-"PO-Revision-Date: 2024-06-20 18:33+0200\n"
+"PO-Revision-Date: 2024-08-27 15:49+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
@@ -23,7 +23,7 @@ msgstr "Xavier Besnard"
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "Xavier.besnard@neuf.fr"
+msgstr "Xavier.besnard@kde.org"
 
 #: database.cpp:67 database.cpp:312
 #, kde-format
