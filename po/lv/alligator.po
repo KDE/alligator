@@ -1,0 +1,432 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the alligator package.
+#
+# SPDX-FileCopyrightText: 2024 Toms Trasuns <toms.trasuns@posteo.net>
+msgid ""
+msgstr ""
+"Project-Id-Version: alligator\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-08-23 00:39+0000\n"
+"PO-Revision-Date: 2024-08-30 11:46+0300\n"
+"Last-Translator: Toms Trasuns <toms.trasuns@posteo.net>\n"
+"Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
+"X-Generator: Lokalize 24.08.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Toms Trasūns"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "toms.trasuns@posteo.net"
+
+#: database.cpp:67 database.cpp:312
+#, kde-format
+msgid "Default"
+msgstr "Noklusējums"
+
+#: database.cpp:68 database.cpp:313
+#, kde-format
+msgid "Default Feed Group"
+msgstr "Noklusējuma plūsmu grupa"
+
+#: fetcher.cpp:241
+#, kde-format
+msgid "Invalid XML"
+msgstr "Nederīgs XML"
+
+#: fetcher.cpp:243
+#, kde-format
+msgid "No parser accepted the XML"
+msgstr "XML nepieņem parsētāju"
+
+#: fetcher.cpp:245
+#, kde-format
+msgid "Error while parsing feed"
+msgstr "Kļūda, parsējot plūsmu"
+
+#: main.cpp:81 qml/AlligatorGlobalDrawer.qml:56
+#, kde-format
+msgid "Alligator"
+msgstr "Alligator"
+
+#: main.cpp:83
+#, kde-format
+msgid "Feed Reader"
+msgstr "RSS plūsmu lasītājs"
+
+#: main.cpp:85
+#, kde-format
+msgid "© 2020-2024 KDE Community"
+msgstr "© 2020—2024 KDE kopiena"
+
+#: main.cpp:86
+#, kde-format
+msgid "Tobias Fella"
+msgstr "Tobias Fella"
+
+#: main.cpp:95
+#, kde-format
+msgid "RSS/Atom Feed Reader"
+msgstr "RSS un „Atom“ plūsmu lasītājs"
+
+#: main.cpp:97
+#, kde-format
+msgid "Adds a new feed to database."
+msgstr "Pievieno datubāzei jaunu plūsmu."
+
+#: main.cpp:98
+#, kde-format
+msgid "feed URL"
+msgstr "plūsmas URL"
+
+#: qml/AddFeedDialog.qml:19
+#, kde-format
+msgid "Add Feed"
+msgstr "Pievienot plūsmu"
+
+#: qml/AddFeedDialog.qml:25
+#, kde-format
+msgid "Url"
+msgstr "URL"
+
+#: qml/AddFeedDialog.qml:31
+#, kde-format
+msgid "Mark entries as read"
+msgstr "Atzīmēt vienumus kā lasītus"
+
+#: qml/AddFeedDialog.qml:36
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Feed"
+msgstr "Pievienot plūsmu"
+
+#: qml/AddFeedDialog.qml:43
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "Atcelt"
+
+#: qml/AlligatorGlobalDrawer.qml:90 qml/AlligatorGlobalDrawer.qml:100
+#, kde-format
+msgid "All Feeds"
+msgstr "Visas plūsmas"
+
+#: qml/AlligatorGlobalDrawer.qml:161 qml/SettingsPage.qml:21
+#, kde-format
+msgid "Settings"
+msgstr "Iestatījumi"
+
+#: qml/AlligatorGlobalDrawer.qml:175
+#, kde-format
+msgid "Manage Feeds"
+msgstr "Pārvaldīt plūsmas"
+
+#: qml/AlligatorGlobalDrawer.qml:190
+#, kde-format
+msgid "About"
+msgstr "Par"
+
+#: qml/EditFeedDialog.qml:15
+#, kde-format
+msgid "Edit Feed"
+msgstr "Rediģēt plūsmu"
+
+#: qml/EditFeedDialog.qml:35
+#, kde-format
+msgid "Display Name:"
+msgstr "Parādāmais nosaukums:"
+
+#: qml/EditFeedDialog.qml:45
+#, kde-format
+msgid "Group:"
+msgstr "Grupa:"
+
+#: qml/EntryListDelegate.qml:64
+#, kde-format
+msgctxt "by <author(s)>"
+msgid "by"
+msgstr "autors"
+
+#: qml/EntryListPage.qml:45
+#, kde-format
+msgid "Refresh"
+msgstr "Pārlādēt"
+
+#: qml/EntryListPage.qml:52
+#, kde-format
+msgid "Details"
+msgstr "Informācija"
+
+#: qml/EntryListPage.qml:67
+#, kde-format
+msgid "Expand sidebar"
+msgstr "Izvērst sānu joslu"
+
+#: qml/EntryListPage.qml:67
+#, kde-format
+msgid "Collapse sidebar"
+msgstr "Sakļaut sānu joslu"
+
+#: qml/EntryListPage.qml:77
+#, kde-format
+msgid "All Entries"
+msgstr "Visi ieraksti"
+
+#: qml/EntryListPage.qml:85
+#, kde-format
+msgid "Error"
+msgstr "Kļūda"
+
+#: qml/EntryListPage.qml:86 qml/EntryListPage.qml:99
+#, kde-format
+msgid "Error (%1): %2"
+msgstr "Kļūda (%1): %2"
+
+#: qml/EntryListPage.qml:97
+#, kde-format
+msgid "No unread entries available"
+msgstr "Nav pieejami nelasīti ieraksti"
+
+#: qml/EntryListPage.qml:97
+#, kde-format
+msgid "No entries available"
+msgstr "Nav pieejami ieraksti"
+
+#: qml/EntryListPage.qml:141
+#, kde-format
+msgid "All"
+msgstr "Visi"
+
+#: qml/EntryListPage.qml:147
+#, kde-format
+msgid "Unread"
+msgstr "Nelasīts"
+
+#: qml/EntryPage.qml:63
+#, kde-format
+msgid "Open in Browser"
+msgstr "Atvērt pārlūkā"
+
+#: qml/FeedDetailsPage.qml:20
+#, kde-format
+msgctxt "<Feed Name> - Details"
+msgid "%1 - Details"
+msgstr "„%1“ — informācija"
+
+#: qml/FeedDetailsPage.qml:36
+#, kde-format
+msgctxt "by <author(s)>"
+msgid "by %1"
+msgstr "autors „%1“"
+
+#: qml/FeedDetailsPage.qml:44
+#, kde-format
+msgid "Subscribed since: %1"
+msgstr "Abonēts kopš: %1"
+
+#: qml/FeedDetailsPage.qml:47
+#, kde-format
+msgid "last updated: %1"
+msgstr "pēdējo reizi atjaunināts: %1"
+
+#: qml/FeedDetailsPage.qml:50
+#, kde-format
+msgid "%1 posts, %2 unread"
+msgstr "%1 ieraksti, %2 nelasīti"
+
+#: qml/FeedGroupDialog.qml:23
+#, kde-format
+msgid "Feed Group"
+msgstr "Plūsmu grupa"
+
+#: qml/FeedGroupDialog.qml:43
+#, kde-format
+msgid "Name:"
+msgstr "Nosaukums:"
+
+#: qml/FeedGroupDialog.qml:50
+#, kde-format
+msgid "Description:"
+msgstr "Apraksts:"
+
+#: qml/FeedListDelegate.qml:29
+#, kde-format
+msgid "%1 unread entry"
+msgid_plural "%1 unread entries"
+msgstr[0] "%1 nelasīts ieraksts"
+msgstr[1] "%1 nelasīti ieraksti"
+msgstr[2] "%1 nelasītu ierakstu"
+
+#: qml/FeedListDelegate.qml:35
+#, kde-format
+msgctxt "'Feed' is an rss feed"
+msgid "Delete this Feed"
+msgstr "Dzēst šo plūsmu"
+
+#: qml/FeedListDelegate.qml:50
+#, kde-format
+msgctxt "'Feed' is an rss feed"
+msgid "Edit this Feed"
+msgstr "Rediģēt šo plūsmu"
+
+#: qml/FeedListPage.qml:18
+#, kde-format
+msgctxt "'Feeds' as in 'RSS Feeds'"
+msgid "Manage Feeds"
+msgstr "Pārvaldīt plūsmas"
+
+#: qml/FeedListPage.qml:30
+#, kde-format
+msgid "Refresh All Feeds"
+msgstr "Pārlādēt visas plūsmas"
+
+#: qml/FeedListPage.qml:36
+#, kde-format
+msgid "Add Feed…"
+msgstr "Pievienot plūsmu…"
+
+#: qml/FeedListPage.qml:40
+#, kde-format
+msgctxt "@title"
+msgid "Add Feed"
+msgstr "Pievienot plūsmu"
+
+#: qml/FeedListPage.qml:46
+#, kde-format
+msgid "Manage Feed Groups"
+msgstr "Pārvaldīt plūsmu grupas"
+
+#: qml/FeedListPage.qml:51
+#, kde-format
+msgid "Import Feeds…"
+msgstr "Importēt plūsmas…"
+
+#: qml/FeedListPage.qml:56
+#, kde-format
+msgid "Export Feeds…"
+msgstr "Eksportēt plūsmas…"
+
+#: qml/FeedListPage.qml:86
+#, kde-format
+msgid "No feeds added yet"
+msgstr "Plūsmas vēl nav pievienotas"
+
+#: qml/FeedListPage.qml:124
+#, kde-format
+msgid "Import Feeds"
+msgstr "Importēt plūsmas"
+
+#: qml/FeedListPage.qml:126
+#, kde-format
+msgid "All Files (*)"
+msgstr "Visas datnes (*)"
+
+#: qml/FeedListPage.qml:126
+#, kde-format
+msgid "XML Files (*.xml)"
+msgstr "XML datnes (*.xml)"
+
+#: qml/FeedListPage.qml:126
+#, kde-format
+msgid "OPML Files (*.opml)"
+msgstr "OPML datnes (*.opml)"
+
+#: qml/FeedListPage.qml:132
+#, kde-format
+msgid "Export Feeds"
+msgstr "Eksportēt plūsmas"
+
+#: qml/FeedListPage.qml:134
+#, kde-format
+msgid "All Files"
+msgstr "Visas datnes"
+
+#: qml/GroupsListPage.qml:18
+#, kde-format
+msgid "Groups"
+msgstr "Grupas"
+
+#: qml/GroupsListPage.qml:24
+#, kde-format
+msgid "Add Group…"
+msgstr "Pievienot grupu…"
+
+#: qml/GroupsListPage.qml:55
+#, kde-format
+msgid "Remove"
+msgstr "Noņemt"
+
+#: qml/GroupsListPage.qml:63
+#, kde-format
+msgid "Set as Default"
+msgstr "Padarīt par noklusējuma"
+
+#: qml/GroupsListPage.qml:72
+#, kde-format
+msgid "No groups created yet"
+msgstr "Grupas vēl nav izveidotas"
+
+#: qml/GroupsListPage.qml:77
+#, kde-format
+msgid "Add Group"
+msgstr "Pievienot grupu"
+
+#: qml/SettingsPage.qml:24
+#, kde-format
+msgctxt "@title"
+msgid "Article List"
+msgstr "Rakstu saraksts"
+
+#: qml/SettingsPage.qml:33
+#, kde-format
+msgid "Delete after:"
+msgstr "Dzēst pēc:"
+
+#: qml/SettingsPage.qml:46
+#, kde-format
+msgid "Never"
+msgstr "Nekad"
+
+#: qml/SettingsPage.qml:46
+#, kde-format
+msgid "Articles"
+msgstr "Raksti"
+
+#: qml/SettingsPage.qml:46
+#, kde-format
+msgid "Days"
+msgstr "Dienas"
+
+#: qml/SettingsPage.qml:46
+#, kde-format
+msgid "Weeks"
+msgstr "Nedēļas"
+
+#: qml/SettingsPage.qml:46
+#, kde-format
+msgid "Months"
+msgstr "Mēneši"
+
+#: qml/SettingsPage.qml:55
+#, kde-format
+msgid "Article"
+msgstr "Raksts"
+
+#: qml/SettingsPage.qml:62
+#, kde-format
+msgid "Font size:"
+msgstr "Fonta izmērs:"
+
+#: qml/SettingsPage.qml:71
+#, kde-format
+msgid "Use system default"
+msgstr "Izmantot sistēmas noklusējumu"
