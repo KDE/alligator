@@ -129,10 +129,6 @@ Kirigami.ScrollablePage {
     footer: ColumnLayout {
         spacing: 0
 
-        Kirigami.Separator {
-            Layout.fillWidth: true
-        }
-
         Kirigami.NavigationTabBar {
             Layout.fillWidth: true
             actions: [
