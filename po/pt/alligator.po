@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-08-23 00:39+0000\n"
+"POT-Creation-Date: 2024-10-26 00:39+0000\n"
 "PO-Revision-Date: 2023-03-06 16:33+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -199,12 +199,12 @@ msgstr "Sem itens não-lidos disponíveis"
 msgid "No entries available"
 msgstr "Sem itens disponíveis"
 
-#: qml/EntryListPage.qml:141
+#: qml/EntryListPage.qml:137
 #, kde-format
 msgid "All"
 msgstr "Tudo"
 
-#: qml/EntryListPage.qml:147
+#: qml/EntryListPage.qml:143
 #, kde-format
 msgid "Unread"
 msgstr "Não Lido"

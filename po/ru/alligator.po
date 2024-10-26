@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-08-23 00:39+0000\n"
+"POT-Creation-Date: 2024-10-26 00:39+0000\n"
 "PO-Revision-Date: 2024-09-20 07:35+0300\n"
 "Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -204,12 +204,12 @@ msgstr "Нет доступных непрочитанных записей"
 msgid "No entries available"
 msgstr "Нет доступных записей"
 
-#: qml/EntryListPage.qml:141
+#: qml/EntryListPage.qml:137
 #, kde-format
 msgid "All"
 msgstr "Все"
 
-#: qml/EntryListPage.qml:147
+#: qml/EntryListPage.qml:143
 #, kde-format
 msgid "Unread"
 msgstr "Непрочитанные"

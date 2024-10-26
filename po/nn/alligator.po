@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-08-23 00:39+0000\n"
+"POT-Creation-Date: 2024-10-26 00:39+0000\n"
 "PO-Revision-Date: 2021-02-18 21:44+0100\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
@@ -202,12 +202,12 @@ msgstr ""
 msgid "No entries available"
 msgstr ""
 
-#: qml/EntryListPage.qml:141
+#: qml/EntryListPage.qml:137
 #, kde-format
 msgid "All"
 msgstr ""
 
-#: qml/EntryListPage.qml:147
+#: qml/EntryListPage.qml:143
 #, kde-format
 msgid "Unread"
 msgstr ""

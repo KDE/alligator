@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-08-23 00:39+0000\n"
+"POT-Creation-Date: 2024-10-26 00:39+0000\n"
 "PO-Revision-Date: 2024-08-30 11:46+0300\n"
 "Last-Translator: Toms Trasuns <toms.trasuns@posteo.net>\n"
 "Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
@@ -201,12 +201,12 @@ msgstr "Nav pieejami nelasīti ieraksti"
 msgid "No entries available"
 msgstr "Nav pieejami ieraksti"
 
-#: qml/EntryListPage.qml:141
+#: qml/EntryListPage.qml:137
 #, kde-format
 msgid "All"
 msgstr "Visi"
 
-#: qml/EntryListPage.qml:147
+#: qml/EntryListPage.qml:143
 #, kde-format
 msgid "Unread"
 msgstr "Nelasīts"

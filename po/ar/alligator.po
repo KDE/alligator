@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-08-23 00:39+0000\n"
+"POT-Creation-Date: 2024-10-26 00:39+0000\n"
 "PO-Revision-Date: 2024-06-26 18:29+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
@@ -201,12 +201,12 @@ msgstr "لا يوجد مدخلات غير مقروءة"
 msgid "No entries available"
 msgstr "لا يوجد مدخلات"
 
-#: qml/EntryListPage.qml:141
+#: qml/EntryListPage.qml:137
 #, kde-format
 msgid "All"
 msgstr "الكلّ"
 
-#: qml/EntryListPage.qml:147
+#: qml/EntryListPage.qml:143
 #, kde-format
 msgid "Unread"
 msgstr "غير المقروء"
