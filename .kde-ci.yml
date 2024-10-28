@@ -13,9 +13,13 @@ Dependencies:
     'frameworks/syndication': '@latest-kf6'
     'libraries/kirigami-addons': '@latest-kf6'
 
-- 'on': ['Linux/Qt6', 'FreeBSD/Qt6', 'Windows/Qt6']
+- 'on': ['Linux/Qt6/Shared', 'FreeBSD/Qt6/Shared', 'Windows/Qt6/Shared']
   'require':
     'frameworks/qqc2-desktop-style': '@latest-kf6'
+
+- 'on': ['Linux/Qt6/Static']
+  'require':
+    'plasma/qqc2-breeze-style': '@latest-kf6'
 
 Options:
   require-passing-tests-on: [ '@all' ]
