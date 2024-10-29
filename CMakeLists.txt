@@ -71,6 +71,7 @@ install(FILES org.kde.alligator.appdata.xml DESTINATION ${KDE_INSTALL_METAINFODI
 install(FILES alligator.svg DESTINATION ${KDE_INSTALL_FULL_ICONDIR}/hicolor/scalable/apps)
 
 add_subdirectory(src)
+add_subdirectory(autotests)
 
 feature_summary(WHAT ALL INCLUDE_QUIET_PACKAGES FATAL_ON_MISSING_REQUIRED_PACKAGES)
 

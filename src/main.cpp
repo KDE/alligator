@@ -12,6 +12,7 @@
 #include <QQuickView>
 #include <QString>
 #include <QStringList>
+#include <QTimer>
 
 #ifdef Q_OS_ANDROID
 #include <QGuiApplication>
@@ -98,6 +99,8 @@ int main(int argc, char *argv[])
                                      i18n("feed URL"),
                                      QStringLiteral("none"));
     parser.addOption(addFeedOption);
+    QCommandLineOption selfTestOpt(QStringLiteral("self-test"), QStringLiteral("internal, for automated testing"));
+    parser.addOption(selfTestOpt);
 
     about.setupCommandLine(&parser);
     parser.process(app);
@@ -114,6 +117,10 @@ int main(int argc, char *argv[])
 
     if (engine.rootObjects().isEmpty()) {
         return -1;
+    }
+
+    if (parser.isSet(selfTestOpt)) {
+        QTimer::singleShot(std::chrono::milliseconds(250), &app, &QCoreApplication::quit);
     }
 
     return app.exec();
