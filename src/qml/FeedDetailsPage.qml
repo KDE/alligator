@@ -19,6 +19,16 @@ Kirigami.ScrollablePage {
 
     title: i18nc("<Feed Name> - Details", "%1 - Details", feed.displayName || feed.name)
 
+    actions: [
+        Kirigami.Action {
+            icon.name: "dialog-close"
+            text: i18n("Close")
+            onTriggered: {
+                pageStack.pop();
+            }
+        }
+    ]
+
     ColumnLayout {
         Kirigami.Icon {
             source: Fetcher.image(root.feed.image)

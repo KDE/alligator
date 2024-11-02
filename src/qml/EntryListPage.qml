@@ -51,8 +51,9 @@ Kirigami.ScrollablePage {
             icon.name: "help-about-symbolic"
             text: i18n("Details")
             onTriggered: {
-                while (pageStack.depth > 2)
+                while (pageStack.depth >= 2)
                     pageStack.pop();
+
                 pageStack.push(Qt.resolvedUrl("FeedDetailsPage.qml"), {
                     feed: feed
                 });
