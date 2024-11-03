@@ -91,7 +91,7 @@
   <url type="bugtracker">https://bugs.kde.org/enter_bug.cgi?product=Alligator</url>
   <url type="vcs-browser">https://invent.kde.org/network/alligator</url>
   <content_rating type="oars-1.1"/>
-  <developer id="kde.org">
+  <developer id="org.kde">
     <name translate="no">KDE</name>
   </developer>
   <description>
