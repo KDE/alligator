@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-10-26 00:39+0000\n"
+"POT-Creation-Date: 2024-11-06 00:39+0000\n"
 "PO-Revision-Date: 2024-06-18 16:11+0200\n"
 "Last-Translator: Vit Pelcak <vpelcak@suse.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
@@ -52,37 +52,37 @@ msgstr "Žádný analyzátor XML nepřijal"
 msgid "Error while parsing feed"
 msgstr "Chyba při zpracování kanálu"
 
-#: main.cpp:81 qml/AlligatorGlobalDrawer.qml:56
+#: main.cpp:82 qml/AlligatorGlobalDrawer.qml:56
 #, kde-format
 msgid "Alligator"
 msgstr "Alligator"
 
-#: main.cpp:83
+#: main.cpp:84
 #, kde-format
 msgid "Feed Reader"
 msgstr "Čtečka kanálů"
 
-#: main.cpp:85
+#: main.cpp:86
 #, kde-format
 msgid "© 2020-2024 KDE Community"
 msgstr "© 2020-2024 Komunita KDE"
 
-#: main.cpp:86
+#: main.cpp:87
 #, kde-format
 msgid "Tobias Fella"
 msgstr "Tobias Fella"
 
-#: main.cpp:95
+#: main.cpp:96
 #, kde-format
 msgid "RSS/Atom Feed Reader"
 msgstr "Čtečka kanálů RSS/Atom"
 
-#: main.cpp:97
+#: main.cpp:98
 #, kde-format
 msgid "Adds a new feed to database."
 msgstr "Přidá do databáze nový kanál."
 
-#: main.cpp:98
+#: main.cpp:99
 #, kde-format
 msgid "feed URL"
 msgstr "URL kanálu"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-10-26 00:39+0000\n"
+"POT-Creation-Date: 2024-11-06 00:39+0000\n"
 "PO-Revision-Date: 2020-09-28 02:26+0200\n"
 "Last-Translator: Mihkel Tõnnov <mihhkel@gmail.com>\n"
 "Language-Team: Estonian <>\n"
@@ -53,38 +53,38 @@ msgstr ""
 msgid "Error while parsing feed"
 msgstr ""
 
-#: main.cpp:81 qml/AlligatorGlobalDrawer.qml:56
+#: main.cpp:82 qml/AlligatorGlobalDrawer.qml:56
 #, kde-format
 msgid "Alligator"
 msgstr "Alligator"
 
-#: main.cpp:83
+#: main.cpp:84
 #, kde-format
 msgid "Feed Reader"
 msgstr "Uudistelugeja"
 
-#: main.cpp:85
+#: main.cpp:86
 #, fuzzy, kde-format
 #| msgid "© 2020 KDE Community"
 msgid "© 2020-2024 KDE Community"
 msgstr "© 2020: KDE kogukond"
 
-#: main.cpp:86
+#: main.cpp:87
 #, kde-format
 msgid "Tobias Fella"
 msgstr "Tobias Fella"
 
-#: main.cpp:95
+#: main.cpp:96
 #, kde-format
 msgid "RSS/Atom Feed Reader"
 msgstr "RSS-voogude uudistelugeja"
 
-#: main.cpp:97
+#: main.cpp:98
 #, kde-format
 msgid "Adds a new feed to database."
 msgstr ""
 
-#: main.cpp:98
+#: main.cpp:99
 #, kde-format
 msgid "feed URL"
 msgstr ""

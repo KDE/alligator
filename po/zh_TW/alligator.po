@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-10-26 00:39+0000\n"
+"POT-Creation-Date: 2024-11-06 00:39+0000\n"
 "PO-Revision-Date: 2024-06-30 11:22+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -55,37 +55,37 @@ msgstr "沒有任何剖析器接受該 XML"
 msgid "Error while parsing feed"
 msgstr "剖析 feed 時發生錯誤"
 
-#: main.cpp:81 qml/AlligatorGlobalDrawer.qml:56
+#: main.cpp:82 qml/AlligatorGlobalDrawer.qml:56
 #, kde-format
 msgid "Alligator"
 msgstr "Alligator"
 
-#: main.cpp:83
+#: main.cpp:84
 #, kde-format
 msgid "Feed Reader"
 msgstr "Feed 閱讀器"
 
-#: main.cpp:85
+#: main.cpp:86
 #, kde-format
 msgid "© 2020-2024 KDE Community"
 msgstr "© 2020-2024 KDE 社群"
 
-#: main.cpp:86
+#: main.cpp:87
 #, kde-format
 msgid "Tobias Fella"
 msgstr "Tobias Fella"
 
-#: main.cpp:95
+#: main.cpp:96
 #, kde-format
 msgid "RSS/Atom Feed Reader"
 msgstr "RSS/Atom Feed 閱讀器"
 
-#: main.cpp:97
+#: main.cpp:98
 #, kde-format
 msgid "Adds a new feed to database."
 msgstr "新增一個 feed 到資料庫裡。"
 
-#: main.cpp:98
+#: main.cpp:99
 #, kde-format
 msgid "feed URL"
 msgstr "feed 網址"
