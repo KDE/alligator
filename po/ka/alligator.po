@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-06 00:39+0000\n"
+"POT-Creation-Date: 2024-11-07 00:39+0000\n"
 "PO-Revision-Date: 2024-06-18 05:51+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -166,47 +166,47 @@ msgstr "განახლება"
 msgid "Details"
 msgstr "დეტალები"
 
-#: qml/EntryListPage.qml:67
+#: qml/EntryListPage.qml:68
 #, kde-format
 msgid "Expand sidebar"
 msgstr "გვერდითი ზოლის გაფართოება"
 
-#: qml/EntryListPage.qml:67
+#: qml/EntryListPage.qml:68
 #, kde-format
 msgid "Collapse sidebar"
 msgstr "გვერდითი ზოლის ჩაკეცვა"
 
-#: qml/EntryListPage.qml:77
+#: qml/EntryListPage.qml:78
 #, kde-format
 msgid "All Entries"
 msgstr "ყველა ჩანაწერი"
 
-#: qml/EntryListPage.qml:85
+#: qml/EntryListPage.qml:86
 #, kde-format
 msgid "Error"
 msgstr "შეცდომა"
 
-#: qml/EntryListPage.qml:86 qml/EntryListPage.qml:99
+#: qml/EntryListPage.qml:87 qml/EntryListPage.qml:100
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "შეცდომა (%1): %2"
 
-#: qml/EntryListPage.qml:97
+#: qml/EntryListPage.qml:98
 #, kde-format
 msgid "No unread entries available"
 msgstr "წაუკითხავი ჩანაწერების გარეშე"
 
-#: qml/EntryListPage.qml:97
+#: qml/EntryListPage.qml:98
 #, kde-format
 msgid "No entries available"
 msgstr "ჩანაწერების გარეშე"
 
-#: qml/EntryListPage.qml:137
+#: qml/EntryListPage.qml:138
 #, kde-format
 msgid "All"
 msgstr "ყველა"
 
-#: qml/EntryListPage.qml:143
+#: qml/EntryListPage.qml:144
 #, kde-format
 msgid "Unread"
 msgstr "წაუკითხავი"
@@ -222,23 +222,28 @@ msgctxt "<Feed Name> - Details"
 msgid "%1 - Details"
 msgstr "%1 - დეტალები"
 
-#: qml/FeedDetailsPage.qml:36
+#: qml/FeedDetailsPage.qml:25
+#, kde-format
+msgid "Close"
+msgstr ""
+
+#: qml/FeedDetailsPage.qml:46
 #, kde-format
 msgctxt "by <author(s)>"
 msgid "by %1"
 msgstr "%1-სგან"
 
-#: qml/FeedDetailsPage.qml:44
+#: qml/FeedDetailsPage.qml:54
 #, kde-format
 msgid "Subscribed since: %1"
 msgstr "გამოწერის საწყისი დრო: %1"
 
-#: qml/FeedDetailsPage.qml:47
+#: qml/FeedDetailsPage.qml:57
 #, kde-format
 msgid "last updated: %1"
 msgstr "უკანასკნელი განახლება: %1"
 
-#: qml/FeedDetailsPage.qml:50
+#: qml/FeedDetailsPage.qml:60
 #, kde-format
 msgid "%1 posts, %2 unread"
 msgstr "%1 პოსტი, %2 წაუკითხავი"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-06 00:39+0000\n"
+"POT-Creation-Date: 2024-11-07 00:39+0000\n"
 "PO-Revision-Date: 2023-10-17 19:53-0300\n"
 "Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
@@ -168,47 +168,47 @@ msgstr "Atualizar"
 msgid "Details"
 msgstr "Detalhes"
 
-#: qml/EntryListPage.qml:67
+#: qml/EntryListPage.qml:68
 #, kde-format
 msgid "Expand sidebar"
 msgstr "Expandir barra lateral"
 
-#: qml/EntryListPage.qml:67
+#: qml/EntryListPage.qml:68
 #, kde-format
 msgid "Collapse sidebar"
 msgstr "Recolher barra lateral"
 
-#: qml/EntryListPage.qml:77
+#: qml/EntryListPage.qml:78
 #, kde-format
 msgid "All Entries"
 msgstr "Todas as entradas"
 
-#: qml/EntryListPage.qml:85
+#: qml/EntryListPage.qml:86
 #, kde-format
 msgid "Error"
 msgstr "Erro"
 
-#: qml/EntryListPage.qml:86 qml/EntryListPage.qml:99
+#: qml/EntryListPage.qml:87 qml/EntryListPage.qml:100
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "Erro (%1): %2"
 
-#: qml/EntryListPage.qml:97
+#: qml/EntryListPage.qml:98
 #, kde-format
 msgid "No unread entries available"
 msgstr "Nenhuma entrada não lida disponível"
 
-#: qml/EntryListPage.qml:97
+#: qml/EntryListPage.qml:98
 #, kde-format
 msgid "No entries available"
 msgstr "Nenhuma entrada disponível"
 
-#: qml/EntryListPage.qml:137
+#: qml/EntryListPage.qml:138
 #, kde-format
 msgid "All"
 msgstr "Todos"
 
-#: qml/EntryListPage.qml:143
+#: qml/EntryListPage.qml:144
 #, kde-format
 msgid "Unread"
 msgstr "Não lida"
@@ -224,23 +224,28 @@ msgctxt "<Feed Name> - Details"
 msgid "%1 - Details"
 msgstr "%1 - Detalhes"
 
-#: qml/FeedDetailsPage.qml:36
+#: qml/FeedDetailsPage.qml:25
+#, kde-format
+msgid "Close"
+msgstr ""
+
+#: qml/FeedDetailsPage.qml:46
 #, kde-format
 msgctxt "by <author(s)>"
 msgid "by %1"
 msgstr "por %1"
 
-#: qml/FeedDetailsPage.qml:44
+#: qml/FeedDetailsPage.qml:54
 #, kde-format
 msgid "Subscribed since: %1"
 msgstr "Inscrito desde: %1"
 
-#: qml/FeedDetailsPage.qml:47
+#: qml/FeedDetailsPage.qml:57
 #, kde-format
 msgid "last updated: %1"
 msgstr "última atualização: %1"
 
-#: qml/FeedDetailsPage.qml:50
+#: qml/FeedDetailsPage.qml:60
 #, kde-format
 msgid "%1 posts, %2 unread"
 msgstr "%1 publicações, %2 não lidas"

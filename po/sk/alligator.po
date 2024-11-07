@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-06 00:39+0000\n"
+"POT-Creation-Date: 2024-11-07 00:39+0000\n"
 "PO-Revision-Date: 2023-11-08 18:49+0100\n"
 "Last-Translator: Ferdinand Galko <galko.ferdinand@gmail.com>\n"
 "Language-Team: Slovak <opensuse-translation@opensuse.org>\n"
@@ -165,47 +165,47 @@ msgstr "Obnoviť"
 msgid "Details"
 msgstr "Podrobnosti"
 
-#: qml/EntryListPage.qml:67
+#: qml/EntryListPage.qml:68
 #, kde-format
 msgid "Expand sidebar"
 msgstr "Rozbaliť bočný panel"
 
-#: qml/EntryListPage.qml:67
+#: qml/EntryListPage.qml:68
 #, kde-format
 msgid "Collapse sidebar"
 msgstr "Zbaliť bočný panel"
 
-#: qml/EntryListPage.qml:77
+#: qml/EntryListPage.qml:78
 #, kde-format
 msgid "All Entries"
 msgstr "Zobraziť položky"
 
-#: qml/EntryListPage.qml:85
+#: qml/EntryListPage.qml:86
 #, kde-format
 msgid "Error"
 msgstr "Chyba"
 
-#: qml/EntryListPage.qml:86 qml/EntryListPage.qml:99
+#: qml/EntryListPage.qml:87 qml/EntryListPage.qml:100
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "Chyba (%1): %2"
 
-#: qml/EntryListPage.qml:97
+#: qml/EntryListPage.qml:98
 #, kde-format
 msgid "No unread entries available"
 msgstr "Nie sú k dispozícii žiadne neprečítané položky"
 
-#: qml/EntryListPage.qml:97
+#: qml/EntryListPage.qml:98
 #, kde-format
 msgid "No entries available"
 msgstr "Nie sú k dispozícii žiadne položky"
 
-#: qml/EntryListPage.qml:137
+#: qml/EntryListPage.qml:138
 #, kde-format
 msgid "All"
 msgstr "Všetky"
 
-#: qml/EntryListPage.qml:143
+#: qml/EntryListPage.qml:144
 #, kde-format
 msgid "Unread"
 msgstr "Neprečítané"
@@ -221,23 +221,28 @@ msgctxt "<Feed Name> - Details"
 msgid "%1 - Details"
 msgstr "%1 - Podrobnosti"
 
-#: qml/FeedDetailsPage.qml:36
+#: qml/FeedDetailsPage.qml:25
+#, kde-format
+msgid "Close"
+msgstr ""
+
+#: qml/FeedDetailsPage.qml:46
 #, kde-format
 msgctxt "by <author(s)>"
 msgid "by %1"
 msgstr "od %1"
 
-#: qml/FeedDetailsPage.qml:44
+#: qml/FeedDetailsPage.qml:54
 #, kde-format
 msgid "Subscribed since: %1"
 msgstr "Prihlásený od: %1"
 
-#: qml/FeedDetailsPage.qml:47
+#: qml/FeedDetailsPage.qml:57
 #, kde-format
 msgid "last updated: %1"
 msgstr "naposledy aktualizované: %1"
 
-#: qml/FeedDetailsPage.qml:50
+#: qml/FeedDetailsPage.qml:60
 #, kde-format
 msgid "%1 posts, %2 unread"
 msgstr "%1 príspevkov, %2 neprečítaných"
