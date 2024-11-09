@@ -2,13 +2,13 @@
 # This file is distributed under the same license as the alligator package.
 #
 # SPDX-FileCopyrightText: 2020, 2021, 2022, 2023, 2024 Giovanni Sora <g.sora@tiscali.it>
-# giovanni <g.sora@tiscali.it>, 2023.
+# giovanni <g.sora@tiscali.it>, 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-11-07 00:39+0000\n"
-"PO-Revision-Date: 2024-06-18 14:48+0200\n"
+"PO-Revision-Date: 2024-11-08 11:51+0100\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.08.5\n"
+"X-Generator: Lokalize 21.12.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -225,7 +225,7 @@ msgstr "%1 - Detalios"
 #: qml/FeedDetailsPage.qml:25
 #, kde-format
 msgid "Close"
-msgstr ""
+msgstr "Claude"
 
 #: qml/FeedDetailsPage.qml:46
 #, kde-format
