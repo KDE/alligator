@@ -24,6 +24,7 @@ FormCard.FormCardPage {
             id: urlField
             label: i18n("Url")
             placeholderText: "https://planet.kde.org/global/atom.xml/"
+            validator: RegularExpressionValidator { regularExpression: /\S+/ }
         }
         FormCard.FormDelegateSeparator {}
         FormCard.FormCheckDelegate {
@@ -34,6 +35,7 @@ FormCard.FormCardPage {
         FormCard.FormDelegateSeparator {}
         FormCard.FormButtonDelegate {
             text: i18nc("@action:button", "Add Feed")
+            enabled: urlField.acceptableInput
             onClicked: {
                 Database.addFeed(urlField.text, "", markFeedAsRead.checked);
                 root.closeDialog();
