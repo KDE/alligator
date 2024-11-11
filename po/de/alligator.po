@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-07 00:39+0000\n"
+"POT-Creation-Date: 2024-11-11 00:40+0000\n"
 "PO-Revision-Date: 2024-08-20 19:39+0200\n"
 "Last-Translator: Johannes Obermayr <johannesobermayr@gmx.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -99,18 +99,18 @@ msgstr "Nachrichtenquelle hinzufügen"
 msgid "Url"
 msgstr "Adresse"
 
-#: qml/AddFeedDialog.qml:31
+#: qml/AddFeedDialog.qml:32
 #, kde-format
 msgid "Mark entries as read"
 msgstr "Einträge als gelesen markieren"
 
-#: qml/AddFeedDialog.qml:36
+#: qml/AddFeedDialog.qml:37
 #, kde-format
 msgctxt "@action:button"
 msgid "Add Feed"
 msgstr "Nachrichtenquelle hinzufügen"
 
-#: qml/AddFeedDialog.qml:43
+#: qml/AddFeedDialog.qml:45
 #, kde-format
 msgctxt "@action:button"
 msgid "Cancel"

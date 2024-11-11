@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-07 00:39+0000\n"
+"POT-Creation-Date: 2024-11-11 00:40+0000\n"
 "PO-Revision-Date: 2024-11-08 09:24+0100\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
@@ -95,18 +95,18 @@ msgstr "Ajouter un flux"
 msgid "Url"
 msgstr "URL"
 
-#: qml/AddFeedDialog.qml:31
+#: qml/AddFeedDialog.qml:32
 #, kde-format
 msgid "Mark entries as read"
 msgstr "Marquer les entrées comme lues"
 
-#: qml/AddFeedDialog.qml:36
+#: qml/AddFeedDialog.qml:37
 #, kde-format
 msgctxt "@action:button"
 msgid "Add Feed"
 msgstr "Ajouter un flux"
 
-#: qml/AddFeedDialog.qml:43
+#: qml/AddFeedDialog.qml:45
 #, kde-format
 msgctxt "@action:button"
 msgid "Cancel"
