@@ -32,6 +32,15 @@ EntriesModel::EntriesModel(QObject *parent)
             }
         }
     });
+    connect(&Database::instance(), &Database::entryFavoriteChanged, this, [this](const QString &entryId, bool favorite) {
+        for (auto i = 0; i < m_entries.size(); i++) {
+            if (m_entries[i].id == entryId) {
+                m_entries[i].favorite = favorite;
+                dataChanged(index(i, 0), index(i, 0), {FavoritesRole});
+                break;
+            }
+        }
+    });
     loadEntries();
 }
 
@@ -65,6 +74,9 @@ QVariant EntriesModel::data(const QModelIndex &index, int role) const
     if (role == BaseUrlRole) {
         return QUrl(entry.link).adjusted(QUrl::RemovePath).toString();
     }
+    if (role == FavoritesRole) {
+        return entry.favorite;
+    }
     return QVariant();
 }
 
@@ -81,6 +93,7 @@ QHash<int, QByteArray> EntriesModel::roleNames() const
         {LinkRole, "link"},
         {BaseUrlRole, "baseUrl"},
         {ReadRole, "read"},
+        {FavoritesRole, "favorite"},
     };
 }
 
@@ -137,6 +150,7 @@ void EntriesModel::loadEntries()
         entry.content = entryQuery.value(QStringLiteral("content")).toString();
         entry.link = entryQuery.value(QStringLiteral("link")).toString();
         entry.read = entryQuery.value(QStringLiteral("read")).toBool();
+        entry.favorite = entryQuery.value((QStringLiteral("favorite"))).toBool();
 
         m_entries.append(entry);
     }

@@ -33,8 +33,8 @@ Database::Database()
         qCCritical(ALLIGATOR) << "Failed to open the database";
     }
 
-    if (!migrateTo(2)) {
-        qCCritical(ALLIGATOR) << "Failed to migrate the database";
+    if (!migrateTo(3)) {
+        qCritical(ALLIGATOR) << "Failed to migrate the database";
     }
 
     cleanup();
@@ -52,9 +52,21 @@ bool Database::migrateTo(const int targetVersion)
         return migrateTo1();
     case 2:
         return migrateTo2();
+    case 3:
+        return migrateTo3();
     default:
         return true;
     }
+}
+
+bool Database::migrateTo3()
+{
+    migrateTo2();
+
+    qDebug() << "Migrating database to version 3";
+    TRUE_OR_RETURN(execute(QStringLiteral("ALTER TABLE Entries ADD COLUMN favorite BOOL DEFAULT FALSE;")));
+    TRUE_OR_RETURN(execute(QStringLiteral("PRAGMA user_version = 3;")));
+    return true;
 }
 
 bool Database::migrateTo2()
@@ -142,7 +154,7 @@ void Database::cleanup()
         qint64 sinceEpoch = dateTime.toSecsSinceEpoch();
 
         QSqlQuery query;
-        query.prepare(QStringLiteral("DELETE FROM Entries WHERE updated < :sinceEpoch;"));
+        query.prepare(QStringLiteral("DELETE FROM Entries WHERE updated < :sinceEpoch AND favorite != 1;"));
         query.bindValue(QStringLiteral(":sinceEpoch"), sinceEpoch);
         execute(query);
     }
@@ -281,6 +293,17 @@ void Database::setRead(const QString &entryId, bool read)
     execute(query);
 
     Q_EMIT entryReadChanged(entryId, read);
+}
+
+void Database::setFavorite(const QString &entryId, bool favorite)
+{
+    QSqlQuery query;
+    query.prepare(QStringLiteral("UPDATE Entries SET favorite=:favorite WHERE id=:id"));
+    query.bindValue(QStringLiteral(":id"), entryId);
+    query.bindValue(QStringLiteral(":favorite"), favorite);
+    execute(query);
+
+    Q_EMIT entryFavoriteChanged(entryId, favorite);
 }
 
 bool Database::feedGroupExists(const QString &name)

@@ -126,7 +126,7 @@ void Fetcher::processEntry(Syndication::ItemPtr entry, const QString &url, const
     }
 
     QDateTime current = QDateTime::currentDateTime();
-    query.prepare(QStringLiteral("INSERT INTO Entries VALUES (:feed, :id, :title, :content, :created, :updated, :link, :read);"));
+    query.prepare(QStringLiteral("INSERT INTO Entries VALUES (:feed, :id, :title, :content, :created, :updated, :link, :read, :favorite);"));
     query.bindValue(QStringLiteral(":feed"), url);
     query.bindValue(QStringLiteral(":id"), entry->id());
     query.bindValue(QStringLiteral(":title"), QTextDocumentFragment::fromHtml(entry->title()).toPlainText());
@@ -151,6 +151,8 @@ void Fetcher::processEntry(Syndication::ItemPtr entry, const QString &url, const
     } else {
         query.bindValue(QStringLiteral(":content"), entry->description());
     }
+
+    query.bindValue(QStringLiteral(":favorite"), false);
 
     Database::instance().execute(query);
 

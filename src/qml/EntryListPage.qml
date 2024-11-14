@@ -17,6 +17,7 @@ Kirigami.ScrollablePage {
 
     property Feed feed
     property bool onlyUnread: false
+    property bool onlyFavorite: false
 
     supportsRefreshing: true
 
@@ -118,6 +119,7 @@ Kirigami.ScrollablePage {
     EntriesProxyModel {
         id: proxyModel
         onlyUnread: page.onlyUnread
+        onlyFavorite: page.onlyFavorite
         sourceModel: entriesModel
     }
 
@@ -135,14 +137,29 @@ Kirigami.ScrollablePage {
                 Kirigami.Action {
                     icon.name: "mail-read"
                     text: i18n("All")
-                    checked: !page.onlyUnread
-                    onTriggered: page.onlyUnread = false
+                    checked: !page.onlyUnread && !page.onlyFavorite
+                    onTriggered: {
+                        page.onlyUnread = false
+                        page.onlyFavorite = false
+                    }
                 },
                 Kirigami.Action {
                     icon.name: "mail-mark-unread"
                     text: i18n("Unread")
                     checked: page.onlyUnread
-                    onTriggered: page.onlyUnread = true
+                    onTriggered: {
+                        page.onlyFavorite = false
+                        page.onlyUnread = true
+                    }
+                },
+                Kirigami.Action {
+                    icon.name: "favorite-symbolic"
+                    text: i18n("Favorites")
+                    checked: page.onlyFavorite
+                    onTriggered: {
+                        page.onlyUnread = false
+                        page.onlyFavorite = true
+                    }
                 }
             ]
         }

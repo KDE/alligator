@@ -11,8 +11,12 @@
 EntriesProxyModel::EntriesProxyModel(QObject *parent)
     : QSortFilterProxyModel(parent)
     , m_onlyUnread(false)
+    , m_onlyFavorite(false)
 {
     connect(&Database::instance(), &Database::entryReadChanged, this, [this]() {
+        invalidateFilter();
+    });
+    connect(&Database::instance(), &Database::entryFavoriteChanged, this, [this]() {
         invalidateFilter();
     });
 }
@@ -30,6 +34,21 @@ void EntriesProxyModel::setOnlyUnread(bool onlyUnread)
     }
 }
 
+void EntriesProxyModel::setOnlyFavorite(bool onlyFavorite)
+{
+    if (m_onlyFavorite == onlyFavorite) {
+        return;
+    }
+    m_onlyFavorite = onlyFavorite;
+    invalidateFilter();
+    Q_EMIT onlyFavoriteChanged();
+}
+
+bool EntriesProxyModel::onlyFavorite() const
+{
+    return m_onlyFavorite;
+}
+
 bool EntriesProxyModel::onlyUnread() const
 {
     return m_onlyUnread;
@@ -43,9 +62,13 @@ bool EntriesProxyModel::filterAcceptsRow(int source_row, const QModelIndex &sour
         return false;
     }
 
-    if (!m_onlyUnread) {
-        return true;
+    if (m_onlyUnread) {
+        return !idx.data(EntriesModel::ReadRole).value<bool>();
     }
 
-    return !idx.data(EntriesModel::ReadRole).value<bool>();
+    if (m_onlyFavorite) {
+        return idx.data(EntriesModel::FavoritesRole).value<bool>();
+    }
+
+    return true;
 }

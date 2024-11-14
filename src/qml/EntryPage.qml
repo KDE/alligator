@@ -21,6 +21,7 @@ Kirigami.ScrollablePage {
     property string entryId
     property string baseUrl
     property string link
+    property bool favorite
 
     title: feedTitle
 
@@ -64,6 +65,14 @@ Kirigami.ScrollablePage {
     onWidthChanged: contentLabel.text = contentHelper.adjustedContent(layout.width, font.pixelSize, page.content)
 
     actions: [
+        Kirigami.Action {
+            text: page.favorite ? i18nc("@action:button", "Remove from Favorites") : i18nc("@action:button", "Add to Favorites")
+            icon.name: page.favorite ? "bookmarks-bookmarked" : "bookmarks"
+            onTriggered: {
+                Database.setFavorite(page.entryId, !page.favorite);
+                page.favorite = !page.favorite;
+            }
+        },
         Kirigami.Action {
             text: i18n("Open in Browser")
             icon.name: "globe"

@@ -22,6 +22,7 @@ struct Entry {
     QDateTime updated;
     QString link;
     bool read;
+    bool favorite;
 };
 
 class EntriesModel : public QAbstractListModel
@@ -42,6 +43,7 @@ public:
         LinkRole,
         BaseUrlRole,
         ReadRole,
+        FavoritesRole,
     };
     Q_ENUM(Roles);
     explicit EntriesModel(QObject *parent = nullptr);

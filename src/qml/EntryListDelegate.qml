@@ -25,6 +25,7 @@ Delegates.IndicatorItemDelegate {
     required property var authors
     required property date updated
     required property bool read
+    required property bool favorite
 
     unread: !read
 
@@ -40,7 +41,8 @@ Delegates.IndicatorItemDelegate {
             content: delegate.content,
             entryTitle: delegate.title,
             baseUrl: delegate.baseUrl,
-            link: delegate.link
+            link: delegate.link,
+            favorite: delegate.favorite
         });
     }
 
