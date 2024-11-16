@@ -8,6 +8,7 @@
 #include <QVector>
 
 #include "database.h"
+#include "debug.h"
 #include "entriesmodel.h"
 #include "fetcher.h"
 
@@ -95,7 +96,7 @@ int EntriesModel::rowCount(const QModelIndex &parent) const
     }
     Database::instance().execute(query);
     if (!query.next()) {
-        qWarning() << "Failed to query feed count";
+        qCWarning(ALLIGATOR) << "Failed to query feed count";
     }
     return query.value(0).toInt();
 }

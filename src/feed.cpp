@@ -7,6 +7,7 @@
 #include <QVariant>
 
 #include "database.h"
+#include "debug.h"
 #include "feed.h"
 #include "fetcher.h"
 
@@ -20,7 +21,7 @@ Feed::Feed(int index)
     query.bindValue(QStringLiteral(":index"), index);
     Database::instance().execute(query);
     if (!query.next()) {
-        qWarning() << "Failed to load feed" << index;
+        qCWarning(ALLIGATOR) << "Failed to load feed" << index;
         return;
     }
 

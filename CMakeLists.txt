@@ -30,6 +30,7 @@ include(KDEGitCommitHooks)
 include(ECMAddAndroidApk)
 include(KDECompilerSettings NO_POLICY_SCOPE)
 include(ECMQmlModule)
+include(ECMQtDeclareLoggingCategory)
 
 ecm_setup_version(${PROJECT_VERSION}
     VARIABLE_PREFIX ALLIGATOR
@@ -72,6 +73,13 @@ install(FILES alligator.svg DESTINATION ${KDE_INSTALL_FULL_ICONDIR}/hicolor/scal
 
 add_subdirectory(src)
 add_subdirectory(autotests)
+
+ecm_qt_install_logging_categories(
+    EXPORT ALLIGATOR
+    FILE alligator.categories
+    DESTINATION ${KDE_INSTALL_LOGGINGCATEGORIESDIR}
+)
+
 
 feature_summary(WHAT ALL INCLUDE_QUIET_PACKAGES FATAL_ON_MISSING_REQUIRED_PACKAGES)
 

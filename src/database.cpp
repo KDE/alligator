@@ -16,6 +16,7 @@
 
 #include "alligatorsettings.h"
 #include "database.h"
+#include "debug.h"
 #include "fetcher.h"
 
 #define TRUE_OR_RETURN(x)                                                                                                                                      \
@@ -29,11 +30,11 @@ Database::Database()
     QDir(databasePath).mkpath(databasePath);
     db.setDatabaseName(databasePath + QStringLiteral("/database.db3"));
     if (!db.open()) {
-        qCritical() << "Failed to open the database";
+        qCCritical(ALLIGATOR) << "Failed to open the database";
     }
 
     if (!migrateTo(2)) {
-        qCritical() << "Failed to migrate the database";
+        qCCritical(ALLIGATOR) << "Failed to migrate the database";
     }
 
     cleanup();
@@ -42,7 +43,7 @@ Database::Database()
 bool Database::migrateTo(const int targetVersion)
 {
     if (version() >= targetVersion) {
-        qDebug() << "Database already in version" << targetVersion;
+        qCDebug(ALLIGATOR) << "Database already in version" << targetVersion;
         return true;
     }
 
@@ -60,7 +61,7 @@ bool Database::migrateTo2()
 {
     migrateTo(1);
 
-    qDebug() << "Migrating database to version 2";
+    qCDebug(ALLIGATOR) << "Migrating database to version 2";
     TRUE_OR_RETURN(execute(QStringLiteral("CREATE TABLE IF NOT EXISTS FeedGroups (name TEXT NOT NULL, description TEXT, defaultGroup INTEGER);")));
     TRUE_OR_RETURN(execute(QStringLiteral("ALTER TABLE Feeds ADD COLUMN groupName TEXT;")));
     TRUE_OR_RETURN(execute(QStringLiteral("ALTER TABLE Feeds ADD COLUMN displayName TEXT;")));
@@ -74,7 +75,7 @@ bool Database::migrateTo2()
 
 bool Database::migrateTo1()
 {
-    qDebug() << "Migrating database to version 1";
+    qCDebug(ALLIGATOR) << "Migrating database to version 1";
     TRUE_OR_RETURN(
         execute(QStringLiteral("CREATE TABLE IF NOT EXISTS Feeds (name TEXT, url TEXT, image TEXT, link TEXT, description TEXT, deleteAfterCount INTEGER, "
                                "deleteAfterType INTEGER, subscribed INTEGER, lastUpdated INTEGER, notify BOOL);")));
@@ -97,9 +98,9 @@ bool Database::execute(const QString &query)
 bool Database::execute(QSqlQuery &query)
 {
     if (!query.exec()) {
-        qWarning() << "Failed to execute SQL Query";
-        qWarning() << query.lastQuery();
-        qWarning() << query.lastError();
+        qCWarning(ALLIGATOR) << "Failed to execute SQL Query";
+        qCWarning(ALLIGATOR) << query.lastQuery();
+        qCWarning(ALLIGATOR) << query.lastError();
         return false;
     }
     return true;
@@ -114,7 +115,7 @@ int Database::version()
         return -1;
     }
     int value = query.value(0).toInt();
-    qDebug() << "Database version " << value;
+    qCDebug(ALLIGATOR) << "Database version " << value;
     return value;
 }
 
@@ -159,12 +160,12 @@ bool Database::feedExists(const QString &url)
 
 void Database::addFeed(const QString &url, const QString &groupName, const bool markEntriesRead)
 {
-    qDebug() << "Adding feed";
+    qCDebug(ALLIGATOR) << "Adding feed";
     if (feedExists(url)) {
-        qDebug() << "Feed already exists";
+        qCDebug(ALLIGATOR) << "Feed already exists";
         return;
     }
-    qDebug() << "Feed does not yet exist";
+    qCDebug(ALLIGATOR) << "Feed does not yet exist";
 
     QUrl urlFromInput = QUrl::fromUserInput(url);
     QSqlQuery query;
@@ -233,7 +234,7 @@ void Database::exportFeeds(const QString &path)
 void Database::addFeedGroup(const QString &name, const QString &description, const int isDefault)
 {
     if (feedGroupExists(name)) {
-        qDebug() << "Feed group already exists, nothing to add";
+        qCDebug(ALLIGATOR) << "Feed group already exists, nothing to add";
         return;
     }
 

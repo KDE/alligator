@@ -10,6 +10,7 @@
 #include <QVariant>
 
 #include "database.h"
+#include "debug.h"
 #include "feedsmodel.h"
 #include "fetcher.h"
 
@@ -75,7 +76,7 @@ int FeedsModel::rowCount(const QModelIndex &parent) const
     query.prepare(QStringLiteral("SELECT COUNT() FROM Feeds;"));
     Database::instance().execute(query);
     if (!query.next()) {
-        qWarning() << "Failed to query feed count";
+        qCWarning(ALLIGATOR) << "Failed to query feed count";
     }
     return query.value(0).toInt();
 }

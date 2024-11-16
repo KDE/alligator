@@ -16,6 +16,7 @@
 #include <Syndication/Syndication>
 
 #include "database.h"
+#include "debug.h"
 #include "fetcher.h"
 
 Fetcher::Fetcher()
@@ -29,7 +30,7 @@ Fetcher::Fetcher()
 
 void Fetcher::fetch(const QString &url, const bool markEntriesRead)
 {
-    qDebug() << "Starting to fetch" << url;
+    qCDebug(ALLIGATOR) << "Starting to fetch" << url;
 
     Q_EMIT startedFetchingFeed(url);
     setFetchCount(m_fetchCount + 1);
@@ -39,8 +40,8 @@ void Fetcher::fetch(const QString &url, const bool markEntriesRead)
     connect(reply, &QNetworkReply::finished, this, [this, url, reply, markEntriesRead]() {
         setFetchCount(m_fetchCount - 1);
         if (reply->error()) {
-            qWarning() << "Error fetching feed";
-            qWarning() << reply->errorString();
+            qCWarning(ALLIGATOR) << "Error fetching feed";
+            qCWarning(ALLIGATOR) << reply->errorString();
             Q_EMIT error(url, reply->error(), reply->errorString());
         } else {
             QByteArray data = reply->readAll();
@@ -100,7 +101,7 @@ void Fetcher::processFeed(Syndication::FeedPtr feed, const QString &url, const b
     query.bindValue(QStringLiteral(":image"), imagePath);
     Database::instance().execute(query);
 
-    qDebug() << "Updated feed title:" << feed->title();
+    qCDebug(ALLIGATOR) << "Updated feed title:" << feed->title();
 
     Q_EMIT feedDetailsUpdated(url, feed->title(), imagePath, feed->link(), feed->description(), current);
 
@@ -113,7 +114,7 @@ void Fetcher::processFeed(Syndication::FeedPtr feed, const QString &url, const b
 
 void Fetcher::processEntry(Syndication::ItemPtr entry, const QString &url, const bool markEntriesRead)
 {
-    qDebug() << "Processing" << entry->title();
+    qCDebug(ALLIGATOR) << "Processing" << entry->title();
     QSqlQuery query;
     query.prepare(QStringLiteral("SELECT COUNT (id) FROM Entries WHERE id=:id;"));
     query.bindValue(QStringLiteral(":id"), entry->id());
@@ -218,7 +219,7 @@ void Fetcher::download(const QString &url)
 
 void Fetcher::removeImage(const QString &url)
 {
-    qDebug() << filePath(url);
+    qCDebug(ALLIGATOR) << filePath(url);
     QFile(filePath(url)).remove();
 }
 

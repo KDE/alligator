@@ -61,10 +61,10 @@ int main(int argc, char *argv[])
     if (AttachConsole(ATTACH_PARENT_PROCESS)) {
         FILE *outFile = freopen("CONOUT$", "w", stdout);
         if (!outFile)
-            qWarning() << "Failed to reopen stdout";
+            qCWarning(ALLIGATOR) << "Failed to reopen stdout";
         FILE *errFile = freopen("CONOUT$", "w", stderr);
         if (!errFile)
-            qWarning() << "Failed to reopen stderr";
+            qCWarning(ALLIGATOR) << "Failed to reopen stderr";
     }
 
     QApplication::setStyle(QStringLiteral("breeze"));
