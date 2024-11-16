@@ -31,7 +31,11 @@ class FeedGroupsModel : public QAbstractListModel
 public:
     explicit FeedGroupsModel(QObject *parent = nullptr);
 
-    enum RoleNames { GroupName = Qt::UserRole + 1, GroupDescription, IsDefault };
+    enum RoleNames {
+        GroupName = Qt::UserRole + 1,
+        GroupDescription,
+        IsDefault
+    };
 
     QVariant data(const QModelIndex &index, int role = Qt::DisplayRole) const override;
     QHash<int, QByteArray> roleNames() const override;
