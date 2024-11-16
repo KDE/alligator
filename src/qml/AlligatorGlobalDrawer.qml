@@ -85,13 +85,21 @@ Kirigami.GlobalDrawer {
                 }
             }
 
+            Controls.ButtonGroup {
+                id: pageButtonGroup
+            }
+
             header: Delegates.RoundedItemDelegate {
                 id: allFeedsItem
+                Controls.ButtonGroup.group: pageButtonGroup
                 text: AlligatorSettings.sidebarCollapsed ? "" : i18n("All Feeds")
                 icon.name: "rss"
+                checkable: true
+                checked: true
                 onClicked: {
                     pageStack.clear();
                     pageStack.push(root.entriesPage);
+                    checked = true;
                     if (root.modal) {
                         root.close();
                     }
@@ -131,14 +139,17 @@ Kirigami.GlobalDrawer {
             delegate: Delegates.RoundedItemDelegate {
                 required property Feed feed
 
+                Controls.ButtonGroup.group: pageButtonGroup
                 text: feed.displayName || feed.name
                 icon.name: feed.refreshing ? "view-refresh" : feed.image === "" ? "rss" : Fetcher.image(feed.image)
+                checkable: true
                 onClicked: {
                     pageStack.layers.clear();
                     pageStack.clear();
                     pageStack.push(Qt.resolvedUrl("EntryListPage.qml"), {
                         feed: feed
                     });
+                    checked: true
                     if (root.modal) {
                         root.close();
                     }
