@@ -27,14 +27,7 @@
 
 #include "alligator-version.h"
 #include "alligatorsettings.h"
-#include "contenthelper.h"
 #include "database.h"
-#include "entriesmodel.h"
-#include "entriesproxymodel.h"
-#include "feedgroupsmodel.h"
-#include "feedsmodel.h"
-#include "feedsproxymodel.h"
-#include "fetcher.h"
 
 #ifdef Q_OS_WINDOWS
 #include "debug.h"
