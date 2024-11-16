@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-11 00:40+0000\n"
+"POT-Creation-Date: 2024-11-16 00:40+0000\n"
 "PO-Revision-Date: 2024-11-07 14:51+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
@@ -117,22 +117,22 @@ msgctxt "@action:button"
 msgid "Cancel"
 msgstr "Скасувати"
 
-#: qml/AlligatorGlobalDrawer.qml:90 qml/AlligatorGlobalDrawer.qml:100
+#: qml/AlligatorGlobalDrawer.qml:95 qml/AlligatorGlobalDrawer.qml:108
 #, kde-format
 msgid "All Feeds"
 msgstr "Всі подачі"
 
-#: qml/AlligatorGlobalDrawer.qml:161 qml/SettingsPage.qml:21
+#: qml/AlligatorGlobalDrawer.qml:172 qml/SettingsPage.qml:21
 #, kde-format
 msgid "Settings"
 msgstr "Параметри"
 
-#: qml/AlligatorGlobalDrawer.qml:175
+#: qml/AlligatorGlobalDrawer.qml:186
 #, kde-format
 msgid "Manage Feeds"
 msgstr "Керування подачами"
 
-#: qml/AlligatorGlobalDrawer.qml:190
+#: qml/AlligatorGlobalDrawer.qml:201
 #, kde-format
 msgid "About"
 msgstr "Про програму"
