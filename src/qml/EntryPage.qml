@@ -39,6 +39,8 @@ Kirigami.ScrollablePage {
     }
 
     ColumnLayout {
+        id: layout
+
         Kirigami.SelectableLabel {
             text: page.entryTitle
             wrapMode: Text.WordWrap
@@ -47,16 +49,19 @@ Kirigami.ScrollablePage {
         }
 
         Kirigami.SelectableLabel {
+            id: contentLabel
+
             text: page.content
             baseUrl: page.baseUrl
             textFormat: Text.RichText
             wrapMode: Text.WordWrap
             Layout.fillWidth: true
             onLinkActivated: link => contentHelper.openLink(link)
-            onWidthChanged: text = contentHelper.adjustedContent(width, font.pixelSize, page.content)
             font.pointSize: !(AlligatorSettings.articleFontUseSystem) ? AlligatorSettings.articleFontSize : Kirigami.Units.fontMetrics.font.pointSize
         }
     }
+
+    onWidthChanged: contentLabel.text = contentHelper.adjustedContent(layout.width, font.pixelSize, page.content)
 
     actions: [
         Kirigami.Action {
