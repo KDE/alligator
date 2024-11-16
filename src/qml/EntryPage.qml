@@ -40,13 +40,14 @@ Kirigami.ScrollablePage {
     }
 
     ColumnLayout {
-        Kirigami.Heading {
+        Kirigami.SelectableLabel {
             text: page.entryTitle
             wrapMode: Text.WordWrap
             Layout.fillWidth: true
+            font.pointSize: Kirigami.Theme.defaultFont.pointSize * 1.35
         }
 
-        Controls.Label {
+        Kirigami.SelectableLabel {
             text: page.content
             baseUrl: page.baseUrl
             textFormat: Text.RichText
