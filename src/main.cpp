@@ -37,6 +37,7 @@
 #include "fetcher.h"
 
 #ifdef Q_OS_WINDOWS
+#include "debug.h"
 #include <windows.h>
 #endif
 
