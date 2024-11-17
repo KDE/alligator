@@ -45,7 +45,7 @@
   <name xml:lang="x-test">xxAlligatorxx</name>
   <name xml:lang="zh-CN">Alligator</name>
   <name xml:lang="zh-TW">Alligator</name>
-  <summary>Feed reader for mobile devices</summary>
+  <summary>RSS feed reader</summary>
   <summary xml:lang="ar">قارئ تغذية لأجهزة المحمولة</summary>
   <summary xml:lang="ca">Lector de fonts per a dispositius mòbils</summary>
   <summary xml:lang="ca-valencia">Lector de fonts per a dispositius mòbils</summary>
@@ -95,7 +95,7 @@
     <name translate="no">KDE</name>
   </developer>
   <description>
-    <p>Alligator is a mobile feed reader</p>
+    <p>Alligator is a convergent, cross-platform feed reader, supporting standard RSS/Atom feeds</p>
     <p xml:lang="ar">قاطور هو قارئ تغذيات للمحمول</p>
     <p xml:lang="ca">L'Alligator és un lector de fonts per al mòbil</p>
     <p xml:lang="ca-valencia">Alligator és un lector de fonts per al mòbil</p>
