@@ -60,8 +60,8 @@ if(ANDROID)
     endif()
 
     kirigami_package_breeze_icons(ICONS
-        bookmark-remove
-        bookmark-new
+        bookmarks
+        bookmarks-bookmarked
         delete
         settings-configure
         help-about-symbolic
@@ -87,6 +87,7 @@ if(ANDROID)
         dialog-ok
         dialog-cancel
         editor
+        favorite-symbolic
     )
     ecm_add_android_apk(alligator ANDROID_DIR ${CMAKE_SOURCE_DIR}/android)
 else()
