@@ -87,26 +87,32 @@ Kirigami.ScrollablePage {
         subtitle: i18n("Error (%1): %2", page.feed ? page.feed.errorId : "", page.feed ? page.feed.errorString : "")
     }
 
-    Kirigami.PlaceholderMessage {
-        visible: entryList.count === 0
-
-        width: Kirigami.Units.gridUnit * 20
-        anchors.centerIn: parent
-
-        text: {
-            if (page.feed === null || page.feed.errorId === 0) {
-                root.onlyUnread ? i18n("No unread entries available") : i18n("No entries available");
-            } else {
-                i18n("Error (%1): %2", feed.errorId, feed.errorString);
-            }
-        }
-        icon.name: page.feed === null || page.feed.errorId === 0 ? "data-error" : ""
-    }
-
     ListView {
         id: entryList
-        visible: count !== 0
         model: proxyModel
+
+        Kirigami.PlaceholderMessage {
+            anchors.centerIn: parent
+            width: parent.width - (Kirigami.Units.largeSpacing * 4)
+
+            visible: entryList.count === 0
+
+            text: {
+                if (page.feed === null || page.feed.errorId === 0) {
+                    if (page.onlyUnread) {
+                        i18n("No unread entries available")
+                    } else if (page.onlyFavorite) {
+                        i18n("No favorite entries available")
+                    } else {
+                        i18n("No entries available")
+                    }
+                } else {
+                    i18n("Error (%1): %2", feed.errorId, feed.errorString);
+                }
+            }
+
+            icon.name: (page.feed === null || page.feed.errorId === 0) ? "" : "data-error"
+        }
 
         // stop list highlight
         currentIndex: -1
