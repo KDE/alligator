@@ -17,10 +17,7 @@ EntriesModel::EntriesModel(QObject *parent)
 {
     connect(&Fetcher::instance(), &Fetcher::feedUpdated, this, [this](const QString &url) {
         if (m_feedUrl.isEmpty() || m_feedUrl == url) {
-            beginResetModel();
-            m_entries.clear();
             loadEntries();
-            endResetModel();
         }
     });
     connect(&Database::instance(), &Database::entryReadChanged, this, [this](const QString &entryId, bool read) {
