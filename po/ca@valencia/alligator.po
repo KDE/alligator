@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-16 00:40+0000\n"
+"POT-Creation-Date: 2024-11-18 00:39+0000\n"
 "PO-Revision-Date: 2024-11-07 09:24+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -31,62 +31,62 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "txemaq@gmail.com"
 
-#: database.cpp:67 database.cpp:312
+#: database.cpp:80 database.cpp:336
 #, kde-format
 msgid "Default"
 msgstr "Predeterminat"
 
-#: database.cpp:68 database.cpp:313
+#: database.cpp:81 database.cpp:337
 #, kde-format
 msgid "Default Feed Group"
 msgstr "Grup predeterminat de fonts"
 
-#: fetcher.cpp:241
+#: fetcher.cpp:244
 #, kde-format
 msgid "Invalid XML"
 msgstr "XML no vàlid"
 
-#: fetcher.cpp:243
+#: fetcher.cpp:246
 #, kde-format
 msgid "No parser accepted the XML"
 msgstr "Cap analitzador ha acceptat l'XML"
 
-#: fetcher.cpp:245
+#: fetcher.cpp:248
 #, kde-format
 msgid "Error while parsing feed"
 msgstr "S'ha produït un error en l'anàlisi sintàctica de la font"
 
-#: main.cpp:82 qml/AlligatorGlobalDrawer.qml:56
+#: main.cpp:76 qml/AlligatorGlobalDrawer.qml:55
 #, kde-format
 msgid "Alligator"
 msgstr "Alligator"
 
-#: main.cpp:84
+#: main.cpp:78
 #, kde-format
 msgid "Feed Reader"
 msgstr "Lector de fonts"
 
-#: main.cpp:86
+#: main.cpp:80
 #, kde-format
 msgid "© 2020-2024 KDE Community"
 msgstr "© 2020-2024 Comunitat KDE"
 
-#: main.cpp:87
+#: main.cpp:81
 #, kde-format
 msgid "Tobias Fella"
 msgstr "Tobias Fella"
 
-#: main.cpp:96
+#: main.cpp:88
 #, kde-format
 msgid "RSS/Atom Feed Reader"
 msgstr "Lector de fonts RSS/Atom"
 
-#: main.cpp:98
+#: main.cpp:90
 #, kde-format
 msgid "Adds a new feed to database."
 msgstr "Afig una font nova a la base de dades."
 
-#: main.cpp:99
+#: main.cpp:91
 #, kde-format
 msgid "feed URL"
 msgstr "URL de la font"
@@ -118,23 +118,23 @@ msgctxt "@action:button"
 msgid "Cancel"
 msgstr "Cancel·la"
 
-#: qml/AlligatorGlobalDrawer.qml:95 qml/AlligatorGlobalDrawer.qml:108
+#: qml/AlligatorGlobalDrawer.qml:94 qml/AlligatorGlobalDrawer.qml:107
 #, kde-format
 msgid "All Feeds"
 msgstr "Totes les fonts"
 
-#: qml/AlligatorGlobalDrawer.qml:172 qml/SettingsPage.qml:21
+#: qml/AlligatorGlobalDrawer.qml:171 qml/SettingsPage.qml:20
 #, kde-format
 msgid "Settings"
 msgstr "Configuració"
 
-#: qml/AlligatorGlobalDrawer.qml:186
+#: qml/AlligatorGlobalDrawer.qml:185
 #, kde-format
 msgid "Manage Feeds"
 msgstr "Gestiona les fonts"
 
 # skip-rule: t-apo_fim
-#: qml/AlligatorGlobalDrawer.qml:201
+#: qml/AlligatorGlobalDrawer.qml:200
 #, kde-format
 msgid "About"
 msgstr "Quant a l'"
@@ -154,7 +154,7 @@ msgstr "Nom que s'ha de mostrar:"
 msgid "Group:"
 msgstr "Grup:"
 
-#: qml/EntryListDelegate.qml:64
+#: qml/EntryListDelegate.qml:66
 #, kde-format
 msgctxt "by <author(s)>"
 msgid "by"
@@ -190,32 +190,55 @@ msgstr "Totes les entrades"
 msgid "Error"
 msgstr "S'ha produït un error"
 
-#: qml/EntryListPage.qml:87 qml/EntryListPage.qml:100
+#: qml/EntryListPage.qml:87 qml/EntryListPage.qml:110
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "S'ha produït un error (%1): %2"
 
-#: qml/EntryListPage.qml:98
+#: qml/EntryListPage.qml:103
 #, kde-format
 msgid "No unread entries available"
 msgstr "No hi ha disponible cap entrada sense llegir"
 
-#: qml/EntryListPage.qml:98
+#: qml/EntryListPage.qml:105
+#, fuzzy, kde-format
+#| msgid "No unread entries available"
+msgid "No favorite entries available"
+msgstr "No hi ha disponible cap entrada sense llegir"
+
+#: qml/EntryListPage.qml:107
 #, kde-format
 msgid "No entries available"
 msgstr "No hi ha cap entrada disponible"
 
-#: qml/EntryListPage.qml:138
+#: qml/EntryListPage.qml:145
 #, kde-format
 msgid "All"
 msgstr "Tot"
 
-#: qml/EntryListPage.qml:144
+#: qml/EntryListPage.qml:154
 #, kde-format
 msgid "Unread"
 msgstr "Sense llegir"
 
-#: qml/EntryPage.qml:63
+#: qml/EntryListPage.qml:163
+#, kde-format
+msgid "Favorites"
+msgstr ""
+
+#: qml/EntryPage.qml:69
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove from Favorites"
+msgstr ""
+
+#: qml/EntryPage.qml:69
+#, kde-format
+msgctxt "@action:button"
+msgid "Add to Favorites"
+msgstr ""
+
+#: qml/EntryPage.qml:77
 #, kde-format
 msgid "Open in Browser"
 msgstr "Obri en un navegador"
@@ -388,53 +411,53 @@ msgstr "Encara no s'ha afegit cap grup"
 msgid "Add Group"
 msgstr "Afig un grup"
 
-#: qml/SettingsPage.qml:24
+#: qml/SettingsPage.qml:23
 #, kde-format
 msgctxt "@title"
 msgid "Article List"
 msgstr "Llista d'articles"
 
-#: qml/SettingsPage.qml:33
+#: qml/SettingsPage.qml:32
 #, kde-format
 msgid "Delete after:"
 msgstr "Suprimix després:"
 
-#: qml/SettingsPage.qml:46
+#: qml/SettingsPage.qml:45
 #, kde-format
 msgid "Never"
 msgstr "Mai"
 
-#: qml/SettingsPage.qml:46
+#: qml/SettingsPage.qml:45
 #, kde-format
 msgid "Articles"
 msgstr "Articles"
 
-#: qml/SettingsPage.qml:46
+#: qml/SettingsPage.qml:45
 #, kde-format
 msgid "Days"
 msgstr "Dies"
 
-#: qml/SettingsPage.qml:46
+#: qml/SettingsPage.qml:45
 #, kde-format
 msgid "Weeks"
 msgstr "Setmanes"
 
-#: qml/SettingsPage.qml:46
+#: qml/SettingsPage.qml:45
 #, kde-format
 msgid "Months"
 msgstr "Mesos"
 
-#: qml/SettingsPage.qml:55
+#: qml/SettingsPage.qml:54
 #, kde-format
 msgid "Article"
 msgstr "Article"
 
-#: qml/SettingsPage.qml:62
+#: qml/SettingsPage.qml:61
 #, kde-format
 msgid "Font size:"
 msgstr "Mida de la lletra:"
 
-#: qml/SettingsPage.qml:71
+#: qml/SettingsPage.qml:70
 #, kde-format
 msgid "Use system default"
 msgstr "Utilitza la predeterminada del sistema"

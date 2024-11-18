@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-16 00:40+0000\n"
+"POT-Creation-Date: 2024-11-18 00:39+0000\n"
 "PO-Revision-Date: 2023-11-22 18:45+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -27,63 +27,63 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "translator@legisign.org"
 
-#: database.cpp:67 database.cpp:312
+#: database.cpp:80 database.cpp:336
 #, kde-format
 msgid "Default"
 msgstr "Oletus"
 
-#: database.cpp:68 database.cpp:313
+#: database.cpp:81 database.cpp:337
 #, kde-format
 msgid "Default Feed Group"
 msgstr "Oletussyöteryhmä"
 
-#: fetcher.cpp:241
+#: fetcher.cpp:244
 #, kde-format
 msgid "Invalid XML"
 msgstr "Virheellistä XML:ää"
 
-#: fetcher.cpp:243
+#: fetcher.cpp:246
 #, kde-format
 msgid "No parser accepted the XML"
 msgstr "Jäsentimet eivät hyväksyneet XML:ää"
 
-#: fetcher.cpp:245
+#: fetcher.cpp:248
 #, kde-format
 msgid "Error while parsing feed"
 msgstr "Virhe syötettä jäsennettäessä"
 
-#: main.cpp:82 qml/AlligatorGlobalDrawer.qml:56
+#: main.cpp:76 qml/AlligatorGlobalDrawer.qml:55
 #, kde-format
 msgid "Alligator"
 msgstr "Alligator"
 
-#: main.cpp:84
+#: main.cpp:78
 #, kde-format
 msgid "Feed Reader"
 msgstr "Syötteenlukija"
 
-#: main.cpp:86
+#: main.cpp:80
 #, fuzzy, kde-format
 #| msgid "© 2020-2023 KDE Community"
 msgid "© 2020-2024 KDE Community"
 msgstr "© 2020–2023 KDE-yhteisö"
 
-#: main.cpp:87
+#: main.cpp:81
 #, kde-format
 msgid "Tobias Fella"
 msgstr "Tobias Fella"
 
-#: main.cpp:96
+#: main.cpp:88
 #, kde-format
 msgid "RSS/Atom Feed Reader"
 msgstr "RSS/Atom-syötelukija"
 
-#: main.cpp:98
+#: main.cpp:90
 #, kde-format
 msgid "Adds a new feed to database."
 msgstr "Lisää tietokantaan uuden syötteen."
 
-#: main.cpp:99
+#: main.cpp:91
 #, kde-format
 msgid "feed URL"
 msgstr "syötteen verkko-osoite"
@@ -115,22 +115,22 @@ msgctxt "@action:button"
 msgid "Cancel"
 msgstr "Peru"
 
-#: qml/AlligatorGlobalDrawer.qml:95 qml/AlligatorGlobalDrawer.qml:108
+#: qml/AlligatorGlobalDrawer.qml:94 qml/AlligatorGlobalDrawer.qml:107
 #, kde-format
 msgid "All Feeds"
 msgstr "Kaikki syötteet"
 
-#: qml/AlligatorGlobalDrawer.qml:172 qml/SettingsPage.qml:21
+#: qml/AlligatorGlobalDrawer.qml:171 qml/SettingsPage.qml:20
 #, kde-format
 msgid "Settings"
 msgstr "Asetukset"
 
-#: qml/AlligatorGlobalDrawer.qml:186
+#: qml/AlligatorGlobalDrawer.qml:185
 #, kde-format
 msgid "Manage Feeds"
 msgstr "Hallinnoi syötteitä"
 
-#: qml/AlligatorGlobalDrawer.qml:201
+#: qml/AlligatorGlobalDrawer.qml:200
 #, kde-format
 msgid "About"
 msgstr "Tietoa"
@@ -150,7 +150,7 @@ msgstr "Näyttönimi:"
 msgid "Group:"
 msgstr "Ryhmä:"
 
-#: qml/EntryListDelegate.qml:64
+#: qml/EntryListDelegate.qml:66
 #, kde-format
 msgctxt "by <author(s)>"
 msgid "by"
@@ -186,32 +186,55 @@ msgstr "Kaikki kohteet"
 msgid "Error"
 msgstr "Virhe"
 
-#: qml/EntryListPage.qml:87 qml/EntryListPage.qml:100
+#: qml/EntryListPage.qml:87 qml/EntryListPage.qml:110
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "Virhe (%1): %2"
 
-#: qml/EntryListPage.qml:98
+#: qml/EntryListPage.qml:103
 #, kde-format
 msgid "No unread entries available"
 msgstr "Ei kohteita lukematta"
 
-#: qml/EntryListPage.qml:98
+#: qml/EntryListPage.qml:105
+#, fuzzy, kde-format
+#| msgid "No unread entries available"
+msgid "No favorite entries available"
+msgstr "Ei kohteita lukematta"
+
+#: qml/EntryListPage.qml:107
 #, kde-format
 msgid "No entries available"
 msgstr "Ei kohteita saatavilla"
 
-#: qml/EntryListPage.qml:138
+#: qml/EntryListPage.qml:145
 #, kde-format
 msgid "All"
 msgstr "Kaikki"
 
-#: qml/EntryListPage.qml:144
+#: qml/EntryListPage.qml:154
 #, kde-format
 msgid "Unread"
 msgstr "Lukematta"
 
-#: qml/EntryPage.qml:63
+#: qml/EntryListPage.qml:163
+#, kde-format
+msgid "Favorites"
+msgstr ""
+
+#: qml/EntryPage.qml:69
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove from Favorites"
+msgstr ""
+
+#: qml/EntryPage.qml:69
+#, kde-format
+msgctxt "@action:button"
+msgid "Add to Favorites"
+msgstr ""
+
+#: qml/EntryPage.qml:77
 #, kde-format
 msgid "Open in Browser"
 msgstr "Avaa selaimeen"
@@ -384,53 +407,53 @@ msgstr "Ryhmiä ei toistaiseksi ole"
 msgid "Add Group"
 msgstr "Lisää ryhmä"
 
-#: qml/SettingsPage.qml:24
+#: qml/SettingsPage.qml:23
 #, kde-format
 msgctxt "@title"
 msgid "Article List"
 msgstr "Artikkeliluettelo"
 
-#: qml/SettingsPage.qml:33
+#: qml/SettingsPage.qml:32
 #, kde-format
 msgid "Delete after:"
 msgstr "Poista ajassa:"
 
-#: qml/SettingsPage.qml:46
+#: qml/SettingsPage.qml:45
 #, kde-format
 msgid "Never"
 msgstr "Ei koskaan"
 
-#: qml/SettingsPage.qml:46
+#: qml/SettingsPage.qml:45
 #, kde-format
 msgid "Articles"
 msgstr "Artikkelit"
 
-#: qml/SettingsPage.qml:46
+#: qml/SettingsPage.qml:45
 #, kde-format
 msgid "Days"
 msgstr "päivää"
 
-#: qml/SettingsPage.qml:46
+#: qml/SettingsPage.qml:45
 #, kde-format
 msgid "Weeks"
 msgstr "viikkoa"
 
-#: qml/SettingsPage.qml:46
+#: qml/SettingsPage.qml:45
 #, kde-format
 msgid "Months"
 msgstr "kuukautta"
 
-#: qml/SettingsPage.qml:55
+#: qml/SettingsPage.qml:54
 #, kde-format
 msgid "Article"
 msgstr "Artikkeli"
 
-#: qml/SettingsPage.qml:62
+#: qml/SettingsPage.qml:61
 #, kde-format
 msgid "Font size:"
 msgstr "Fonttikoko:"
 
-#: qml/SettingsPage.qml:71
+#: qml/SettingsPage.qml:70
 #, kde-format
 msgid "Use system default"
 msgstr "Käytä järjestelmän oletusta"
