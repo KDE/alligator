@@ -46,44 +46,6 @@
   <name xml:lang="zh-CN">Alligator</name>
   <name xml:lang="zh-TW">Alligator</name>
   <summary>RSS feed reader</summary>
-  <summary xml:lang="ar">قارئ تغذية لأجهزة المحمولة</summary>
-  <summary xml:lang="ca">Lector de fonts per a dispositius mòbils</summary>
-  <summary xml:lang="ca-valencia">Lector de fonts per a dispositius mòbils</summary>
-  <summary xml:lang="cs">Čtečka kanálů pro mobilní zařízení</summary>
-  <summary xml:lang="de">Nachrichtenbetrachter für Mobilgeräte</summary>
-  <summary xml:lang="en-GB">Feed reader for mobile devices</summary>
-  <summary xml:lang="eo">Flulegilo</summary>
-  <summary xml:lang="es">Lector de emisiones web para dispositivos móviles</summary>
-  <summary xml:lang="et">Mobiilseadmete uudistelugeja</summary>
-  <summary xml:lang="eu">Gailu mugikorretarako web-jario irakurlea</summary>
-  <summary xml:lang="fi">Syötelukija mobiililaitteille</summary>
-  <summary xml:lang="fr">Lecteur de fils d'actualité pour les périphériques mobiles</summary>
-  <summary xml:lang="gl">Lector de novas para dispositivos móbiles.</summary>
-  <summary xml:lang="he">מציג ערוצי עדכונים להתקנים ניידים</summary>
-  <summary xml:lang="hi">मोबाइल उपकरणो के लिए फ़ीड रीडर</summary>
-  <summary xml:lang="hu">Hírolvasó mobil eszközökre</summary>
-  <summary xml:lang="ia">Lector de syndication per dispositivos mobile</summary>
-  <summary xml:lang="id">Feed reader untuk peranti-peranti ponsel</summary>
-  <summary xml:lang="it">Lettore di fonti per dispositivi mobili</summary>
-  <summary xml:lang="ka">სიახლეების ლენტის მკითხველი მობილური მოწყობილობებისთვის</summary>
-  <summary xml:lang="ko">모바일 장치용 피드 리더</summary>
-  <summary xml:lang="lv">Plūsmu lasītājs mobilajām ierīcēm</summary>
-  <summary xml:lang="nl">Feedlezer voor mobiele apparaten</summary>
-  <summary xml:lang="nn">Kjeldelesar for mobile einingar</summary>
-  <summary xml:lang="pa">ਮੋਬਾਈਲ ਡਿਵਾਈਸਾਂ ਲਈ ਫੀਡ ਰੀਡਰ</summary>
-  <summary xml:lang="pl">Darmowy czytnik kanałów dla urządzeń przenośnych</summary>
-  <summary xml:lang="pt">Leitor de fontes para dispositivos móveis</summary>
-  <summary xml:lang="pt-BR">Leitor de fonte de notícias para dispositivos móveis</summary>
-  <summary xml:lang="ro">Cititor de fluxuri pentru dispozitive mobile</summary>
-  <summary xml:lang="ru">Чтение лент новостей для мобильных устройств</summary>
-  <summary xml:lang="sk">Čítačka kanálov pre mobilné zariadenia</summary>
-  <summary xml:lang="sl">Bralnik novic za mobilne naprave</summary>
-  <summary xml:lang="sv">Kanalläsare för mobila apparater</summary>
-  <summary xml:lang="tr">Taşınabilir aygıtlar için besleme okuyucusu</summary>
-  <summary xml:lang="uk">Програма для читання подач на мобільних пристроях</summary>
-  <summary xml:lang="x-test">xxFeed reader for mobile devicesxx</summary>
-  <summary xml:lang="zh-CN">针对移动设备设计的新闻源阅读器</summary>
-  <summary xml:lang="zh-TW">行動裝置用的 feed 閱讀器</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0-or-later</project_license>
   <url type="homepage">https://apps.kde.org/alligator</url>
@@ -96,44 +58,6 @@
   </developer>
   <description>
     <p>Alligator is a convergent, cross-platform feed reader, supporting standard RSS/Atom feeds</p>
-    <p xml:lang="ar">قاطور هو قارئ تغذيات للمحمول</p>
-    <p xml:lang="ca">L'Alligator és un lector de fonts per al mòbil</p>
-    <p xml:lang="ca-valencia">Alligator és un lector de fonts per al mòbil</p>
-    <p xml:lang="cs">Alligator je mobilní čtečka kanálů</p>
-    <p xml:lang="de">Alligator ist ein mobiler Nachrichtenbetrachter</p>
-    <p xml:lang="en-GB">Alligator is a mobile feed reader</p>
-    <p xml:lang="eo">Alligator estas poŝtelefona flulegilo</p>
-    <p xml:lang="es">Alligator es un lector móvil de emisiones web</p>
-    <p xml:lang="et">Alligator on mobiilide uudistelugeja</p>
-    <p xml:lang="eu">Alligator mugikorrerako web-jario irakurle bat da</p>
-    <p xml:lang="fi">Alligator on mobiilisyötelukija</p>
-    <p xml:lang="fr">Alligator est un lecteur nomade de fils d'actualité</p>
-    <p xml:lang="gl">Alligator é un lector de novas para móbiles.</p>
-    <p xml:lang="he">תנין הוא מציג ערוצי עדכונים לניידים</p>
-    <p xml:lang="hi"> एल्लिगेटर (Alligator) मोबाइल फ़ीड रीडर है</p>
-    <p xml:lang="hu">AZ Alligator egy mobilos hírolvasó</p>
-    <p xml:lang="ia">Alligator es un lector de syndicationes mobile</p>
-    <p xml:lang="id">Alligator adalah sebuah feed reader ponsel</p>
-    <p xml:lang="it">Alligator è un lettore di fonti mobile</p>
-    <p xml:lang="ka">Alligator სიახლეების ლენტის მკითხველია მობილურისთვის</p>
-    <p xml:lang="ko">Alligator는 모바일 피드 리더입니다</p>
-    <p xml:lang="lv">„Alligator“ ir plūsmu lasītājs mobilajām ierīcēm</p>
-    <p xml:lang="nl">Alligator is een mobiele feedlezer</p>
-    <p xml:lang="nn">Alligator er ein kjeldelesar for mobile einingar</p>
-    <p xml:lang="pa">ਐਲੀਗੇਟਰ ਮੋਬਾਈਲ ਫੀਡਰ ਰੀਡਰ ਹੈ</p>
-    <p xml:lang="pl">Alligator jest przenośnym czytnikiem kanałów</p>
-    <p xml:lang="pt">O Alligator é um leitor móvel de fontes de notícias</p>
-    <p xml:lang="pt-BR">O Alligator é um leitor de fonte de notícias móvel</p>
-    <p xml:lang="ro">Alligator e un cititor mobil de fluxuri</p>
-    <p xml:lang="ru">Alligator — программа чтения лент новостей для мобильных устройств</p>
-    <p xml:lang="sk">Alligator je mobilná čítačka kanálov</p>
-    <p xml:lang="sl">Alligator je mobilni bralnik novic</p>
-    <p xml:lang="sv">Alligator är en mobil kanalläsare</p>
-    <p xml:lang="tr">Aligatör bir taşınabilir besleme okuyucusudur</p>
-    <p xml:lang="uk">Alligator — програма для читання подач на мобільних пристроях</p>
-    <p xml:lang="x-test">xxAlligator is a mobile feed readerxx</p>
-    <p xml:lang="zh-CN">Alligator 是一款手机新闻源阅读器</p>
-    <p xml:lang="zh-TW">Alligator 是一個行動裝置用的 feed 閱讀器</p>
   </description>
   <provides>
     <binary>alligator</binary>
