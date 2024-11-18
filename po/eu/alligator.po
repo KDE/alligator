@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-07 00:39+0000\n"
+"POT-Creation-Date: 2024-11-18 02:38+0000\n"
 "PO-Revision-Date: 2024-11-09 08:03+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -117,22 +117,22 @@ msgctxt "@action:button"
 msgid "Cancel"
 msgstr "Utzi"
 
-#: qml/AlligatorGlobalDrawer.qml:90 qml/AlligatorGlobalDrawer.qml:100
+#: qml/AlligatorGlobalDrawer.qml:95 qml/AlligatorGlobalDrawer.qml:108
 #, kde-format
 msgid "All Feeds"
 msgstr "Jario denak"
 
-#: qml/AlligatorGlobalDrawer.qml:161 qml/SettingsPage.qml:21
+#: qml/AlligatorGlobalDrawer.qml:172 qml/SettingsPage.qml:21
 #, kde-format
 msgid "Settings"
 msgstr "Ezarpenak"
 
-#: qml/AlligatorGlobalDrawer.qml:175
+#: qml/AlligatorGlobalDrawer.qml:186
 #, kde-format
 msgid "Manage Feeds"
 msgstr "Kudeatu jarioak"
 
-#: qml/AlligatorGlobalDrawer.qml:190
+#: qml/AlligatorGlobalDrawer.qml:201
 #, kde-format
 msgid "About"
 msgstr "Honi buruz"
@@ -213,7 +213,7 @@ msgstr "Dena"
 msgid "Unread"
 msgstr "Irakurri gabea"
 
-#: qml/EntryPage.qml:63
+#: qml/EntryPage.qml:64
 #, kde-format
 msgid "Open in Browser"
 msgstr "Ireki arakatzailean"

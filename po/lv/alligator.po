@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-07 00:39+0000\n"
+"POT-Creation-Date: 2024-11-18 02:38+0000\n"
 "PO-Revision-Date: 2024-08-30 11:46+0300\n"
 "Last-Translator: Toms Trasuns <toms.trasuns@posteo.net>\n"
 "Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
@@ -115,22 +115,22 @@ msgctxt "@action:button"
 msgid "Cancel"
 msgstr "Atcelt"
 
-#: qml/AlligatorGlobalDrawer.qml:90 qml/AlligatorGlobalDrawer.qml:100
+#: qml/AlligatorGlobalDrawer.qml:95 qml/AlligatorGlobalDrawer.qml:108
 #, kde-format
 msgid "All Feeds"
 msgstr "Visas plūsmas"
 
-#: qml/AlligatorGlobalDrawer.qml:161 qml/SettingsPage.qml:21
+#: qml/AlligatorGlobalDrawer.qml:172 qml/SettingsPage.qml:21
 #, kde-format
 msgid "Settings"
 msgstr "Iestatījumi"
 
-#: qml/AlligatorGlobalDrawer.qml:175
+#: qml/AlligatorGlobalDrawer.qml:186
 #, kde-format
 msgid "Manage Feeds"
 msgstr "Pārvaldīt plūsmas"
 
-#: qml/AlligatorGlobalDrawer.qml:190
+#: qml/AlligatorGlobalDrawer.qml:201
 #, kde-format
 msgid "About"
 msgstr "Par"
@@ -211,7 +211,7 @@ msgstr "Visi"
 msgid "Unread"
 msgstr "Nelasīts"
 
-#: qml/EntryPage.qml:63
+#: qml/EntryPage.qml:64
 #, kde-format
 msgid "Open in Browser"
 msgstr "Atvērt pārlūkā"

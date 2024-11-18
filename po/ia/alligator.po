@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-07 00:39+0000\n"
+"POT-Creation-Date: 2024-11-18 02:38+0000\n"
 "PO-Revision-Date: 2024-11-08 11:51+0100\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
@@ -115,22 +115,22 @@ msgctxt "@action:button"
 msgid "Cancel"
 msgstr "Cancella"
 
-#: qml/AlligatorGlobalDrawer.qml:90 qml/AlligatorGlobalDrawer.qml:100
+#: qml/AlligatorGlobalDrawer.qml:95 qml/AlligatorGlobalDrawer.qml:108
 #, kde-format
 msgid "All Feeds"
 msgstr "Omne syndicationes"
 
-#: qml/AlligatorGlobalDrawer.qml:161 qml/SettingsPage.qml:21
+#: qml/AlligatorGlobalDrawer.qml:172 qml/SettingsPage.qml:21
 #, kde-format
 msgid "Settings"
 msgstr "Preferentias"
 
-#: qml/AlligatorGlobalDrawer.qml:175
+#: qml/AlligatorGlobalDrawer.qml:186
 #, kde-format
 msgid "Manage Feeds"
 msgstr "Gere syndicationes"
 
-#: qml/AlligatorGlobalDrawer.qml:190
+#: qml/AlligatorGlobalDrawer.qml:201
 #, kde-format
 msgid "About"
 msgstr "A proposito"
@@ -211,7 +211,7 @@ msgstr "Toto"
 msgid "Unread"
 msgstr "Non Legite"
 
-#: qml/EntryPage.qml:63
+#: qml/EntryPage.qml:64
 #, kde-format
 msgid "Open in Browser"
 msgstr "Aperi con navigator"

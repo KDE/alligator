@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-07 00:39+0000\n"
-"PO-Revision-Date: 2024-07-14 13:45+0200\n"
+"POT-Creation-Date: 2024-11-18 02:38+0000\n"
+"PO-Revision-Date: 2024-11-16 10:50+0100\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 23.08.5\n"
+"X-Generator: Lokalize 24.08.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -116,22 +116,22 @@ msgctxt "@action:button"
 msgid "Cancel"
 msgstr "Anuluj"
 
-#: qml/AlligatorGlobalDrawer.qml:90 qml/AlligatorGlobalDrawer.qml:100
+#: qml/AlligatorGlobalDrawer.qml:95 qml/AlligatorGlobalDrawer.qml:108
 #, kde-format
 msgid "All Feeds"
 msgstr "Wszystkie kanały RSS"
 
-#: qml/AlligatorGlobalDrawer.qml:161 qml/SettingsPage.qml:21
+#: qml/AlligatorGlobalDrawer.qml:172 qml/SettingsPage.qml:21
 #, kde-format
 msgid "Settings"
 msgstr "Ustawienia"
 
-#: qml/AlligatorGlobalDrawer.qml:175
+#: qml/AlligatorGlobalDrawer.qml:186
 #, kde-format
 msgid "Manage Feeds"
 msgstr "Zarządzaj kanałami"
 
-#: qml/AlligatorGlobalDrawer.qml:190
+#: qml/AlligatorGlobalDrawer.qml:201
 #, kde-format
 msgid "About"
 msgstr "O programie"
@@ -212,7 +212,7 @@ msgstr "Wszystkie"
 msgid "Unread"
 msgstr "Nieprzeczytana"
 
-#: qml/EntryPage.qml:63
+#: qml/EntryPage.qml:64
 #, kde-format
 msgid "Open in Browser"
 msgstr "Otwórz w przeglądarce"
@@ -226,7 +226,7 @@ msgstr "%1 - Szczegóły"
 #: qml/FeedDetailsPage.qml:25
 #, kde-format
 msgid "Close"
-msgstr ""
+msgstr "Zamknij"
 
 #: qml/FeedDetailsPage.qml:46
 #, kde-format
