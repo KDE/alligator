@@ -46,6 +46,15 @@
   <name xml:lang="zh-CN">Alligator</name>
   <name xml:lang="zh-TW">Alligator</name>
   <summary>RSS feed reader</summary>
+  <summary xml:lang="ca">Lector de fonts RSS</summary>
+  <summary xml:lang="eu">RSS jario irakurlea</summary>
+  <summary xml:lang="he">קורא ערוצי RSS</summary>
+  <summary xml:lang="hu">RSS hírolvasó</summary>
+  <summary xml:lang="ka">RSS ლენტების მკითხველი</summary>
+  <summary xml:lang="nl">Lezer van RSS-feed</summary>
+  <summary xml:lang="sl">bralnik virov RSS</summary>
+  <summary xml:lang="uk">Програма для читання подач RSS</summary>
+  <summary xml:lang="x-test">xxRSS feed readerxx</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0-or-later</project_license>
   <url type="homepage">https://apps.kde.org/alligator</url>
@@ -58,6 +67,15 @@
   </developer>
   <description>
     <p>Alligator is a convergent, cross-platform feed reader, supporting standard RSS/Atom feeds</p>
+    <p xml:lang="ca">Alligator és un lector de fonts convergent i multiplataforma, que admet canals RSS/Atom estàndard</p>
+    <p xml:lang="eu">Alligator, RSS estandarreko/Atom-eko jarioetarako euskarria duen jario irakurle konbergente, plataforma-anitzekoa da</p>
+    <p xml:lang="he">Alligator הוא קורא חדשות משתלב, חוצה פלטפורמות שתומך בערוצי RSS/Atom רגילים</p>
+    <p xml:lang="hu">Az Alligator egy konvergens, keresztplatformos hírolvasó, amely támogatja a szabányos RSS/Atom hírcsatornákat</p>
+    <p xml:lang="ka">Alligator კონვერგენტული, პლატფორმათაშორისი ლენტმკითხველია RSS/Atom ტიპის ლენტების მხარდაჭერით</p>
+    <p xml:lang="nl">Alligator is een convergente, cross-platform lezer van feed, ondersteunt standaard RSS/Atom feeds</p>
+    <p xml:lang="sl">Alligator je konvergenten bralnik virov za več platform, ki podpira standardne vire RSS/Atom</p>
+    <p xml:lang="uk">Alligator — гнучка, багатоплатформова програма для читання подач з підтримкою стандартів RSS/Atom</p>
+    <p xml:lang="x-test">xxAlligator is a convergent, cross-platform feed reader, supporting standard RSS/Atom feedsxx</p>
   </description>
   <provides>
     <binary>alligator</binary>
