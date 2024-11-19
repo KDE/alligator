@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-11-18 00:39+0000\n"
-"PO-Revision-Date: 2024-11-07 04:07+0100\n"
+"PO-Revision-Date: 2024-11-18 04:02+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -197,10 +197,9 @@ msgid "No unread entries available"
 msgstr "წაუკითხავი ჩანაწერების გარეშე"
 
 #: qml/EntryListPage.qml:105
-#, fuzzy, kde-format
-#| msgid "No unread entries available"
+#, kde-format
 msgid "No favorite entries available"
-msgstr "წაუკითხავი ჩანაწერების გარეშე"
+msgstr "რჩეული ჩანაწერების გარეშე"
 
 #: qml/EntryListPage.qml:107
 #, kde-format
@@ -220,19 +219,19 @@ msgstr "წაუკითხავი"
 #: qml/EntryListPage.qml:163
 #, kde-format
 msgid "Favorites"
-msgstr ""
+msgstr "სანიშნეები"
 
 #: qml/EntryPage.qml:69
 #, kde-format
 msgctxt "@action:button"
 msgid "Remove from Favorites"
-msgstr ""
+msgstr "რჩეულებიდან წაშლა"
 
 #: qml/EntryPage.qml:69
 #, kde-format
 msgctxt "@action:button"
 msgid "Add to Favorites"
-msgstr ""
+msgstr "რჩეულებში დამატება"
 
 #: qml/EntryPage.qml:77
 #, kde-format

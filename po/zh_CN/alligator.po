@@ -196,10 +196,9 @@ msgid "No unread entries available"
 msgstr "无未读条目"
 
 #: qml/EntryListPage.qml:105
-#, fuzzy, kde-format
-#| msgid "No unread entries available"
+#, kde-format
 msgid "No favorite entries available"
-msgstr "无未读条目"
+msgstr ""
 
 #: qml/EntryListPage.qml:107
 #, kde-format
