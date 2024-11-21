@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-11-18 00:39+0000\n"
-"PO-Revision-Date: 2024-11-07 02:21+0100\n"
+"PO-Revision-Date: 2024-11-20 19:52+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.08.2\n"
+"X-Generator: Lokalize 24.08.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -198,10 +198,9 @@ msgid "No unread entries available"
 msgstr "No hay entradas sin leer"
 
 #: qml/EntryListPage.qml:105
-#, fuzzy, kde-format
-#| msgid "No unread entries available"
+#, kde-format
 msgid "No favorite entries available"
-msgstr "No hay entradas sin leer"
+msgstr "No hay entradas favoritas"
 
 #: qml/EntryListPage.qml:107
 #, kde-format
@@ -221,19 +220,19 @@ msgstr "Sin leer"
 #: qml/EntryListPage.qml:163
 #, kde-format
 msgid "Favorites"
-msgstr ""
+msgstr "Favoritas"
 
 #: qml/EntryPage.qml:69
 #, kde-format
 msgctxt "@action:button"
 msgid "Remove from Favorites"
-msgstr ""
+msgstr "Eliminar de favoritas"
 
 #: qml/EntryPage.qml:69
 #, kde-format
 msgctxt "@action:button"
 msgid "Add to Favorites"
-msgstr ""
+msgstr "Añadir a favoritas"
 
 #: qml/EntryPage.qml:77
 #, kde-format
