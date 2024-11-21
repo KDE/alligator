@@ -48,7 +48,9 @@
   <summary>RSS feed reader</summary>
   <summary xml:lang="ca">Lector de fonts RSS</summary>
   <summary xml:lang="ca-valencia">Lector de fonts RSS</summary>
+  <summary xml:lang="es">Lector de fuentes RSS</summary>
   <summary xml:lang="eu">RSS jario irakurlea</summary>
+  <summary xml:lang="fr">Lecteur de fil d'actualités « RSS »</summary>
   <summary xml:lang="he">קורא ערוצי RSS</summary>
   <summary xml:lang="hu">RSS hírolvasó</summary>
   <summary xml:lang="ia">Lector de syndication RSS/Atom</summary>
@@ -73,7 +75,9 @@
     <p>Alligator is a convergent, cross-platform feed reader, supporting standard RSS/Atom feeds</p>
     <p xml:lang="ca">Alligator és un lector de fonts convergent i multiplataforma, que admet canals RSS/Atom estàndard</p>
     <p xml:lang="ca-valencia">Alligator és un lector de fonts convergent i multiplataforma, que admet canals RSS/Atom estàndard</p>
+    <p xml:lang="es">Alligator es un lector de fuentes convergente y multiplataforma compatible con fuentes RSS/Atom estándar</p>
     <p xml:lang="eu">Alligator, RSS estandarreko/Atom-eko jarioetarako euskarria duen jario irakurle konbergente, plataforma-anitzekoa da</p>
+    <p xml:lang="fr">Alligator est un lecteur de flux convergent multi-plate-forme, prenant en charge les flux standards RSS / Atom</p>
     <p xml:lang="he">Alligator הוא קורא חדשות משתלב, חוצה פלטפורמות שתומך בערוצי RSS/Atom רגילים</p>
     <p xml:lang="hu">Az Alligator egy konvergens, keresztplatformos hírolvasó, amely támogatja a szabányos RSS/Atom hírcsatornákat</p>
     <p xml:lang="ia">Alligator es un lector de syndicationesinter platteforma convergente, supportante syndicationes de standard RSS/Atom</p>
