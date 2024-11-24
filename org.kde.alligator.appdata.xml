@@ -48,6 +48,7 @@
   <summary>RSS feed reader</summary>
   <summary xml:lang="ca">Lector de fonts RSS</summary>
   <summary xml:lang="ca-valencia">Lector de fonts RSS</summary>
+  <summary xml:lang="en-GB">RSS feed reader</summary>
   <summary xml:lang="es">Lector de fuentes RSS</summary>
   <summary xml:lang="eu">RSS jario irakurlea</summary>
   <summary xml:lang="fr">Lecteur de fil d'actualités « RSS »</summary>
@@ -57,6 +58,7 @@
   <summary xml:lang="it">Lettore di fonti RSS</summary>
   <summary xml:lang="ka">RSS ლენტების მკითხველი</summary>
   <summary xml:lang="nl">Lezer van RSS-feed</summary>
+  <summary xml:lang="pl">Czytnik kanałów RSS</summary>
   <summary xml:lang="sl">bralnik virov RSS</summary>
   <summary xml:lang="tr">RSS Beslemesi Okuyucusu</summary>
   <summary xml:lang="uk">Програма для читання подач RSS</summary>
@@ -75,6 +77,7 @@
     <p>Alligator is a convergent, cross-platform feed reader, supporting standard RSS/Atom feeds</p>
     <p xml:lang="ca">Alligator és un lector de fonts convergent i multiplataforma, que admet canals RSS/Atom estàndard</p>
     <p xml:lang="ca-valencia">Alligator és un lector de fonts convergent i multiplataforma, que admet canals RSS/Atom estàndard</p>
+    <p xml:lang="en-GB">Alligator is a convergent, cross-platform feed reader, supporting standard RSS/Atom feeds</p>
     <p xml:lang="es">Alligator es un lector de fuentes convergente y multiplataforma compatible con fuentes RSS/Atom estándar</p>
     <p xml:lang="eu">Alligator, RSS estandarreko/Atom-eko jarioetarako euskarria duen jario irakurle konbergente, plataforma-anitzekoa da</p>
     <p xml:lang="fr">Alligator est un lecteur de flux convergent multi-plate-forme, prenant en charge les flux standards RSS / Atom</p>
@@ -84,6 +87,7 @@
     <p xml:lang="it">Alligator è un lettore di fonti convergente e multipiattaforma che supporta fonti RSS/Atom standard</p>
     <p xml:lang="ka">Alligator კონვერგენტული, პლატფორმათაშორისი ლენტმკითხველია RSS/Atom ტიპის ლენტების მხარდაჭერით</p>
     <p xml:lang="nl">Alligator is een convergente, cross-platform lezer van feed, ondersteunt standaard RSS/Atom feeds</p>
+    <p xml:lang="pl">Alligator jest dostosowującym się, wieloplatformowym czytnikiem kanałów RSS/Atom</p>
     <p xml:lang="sl">Alligator je konvergenten bralnik virov za več platform, ki podpira standardne vire RSS/Atom</p>
     <p xml:lang="tr">Aligatör, standart RSS/Atom beslemelerini destekleyen; yakınsak, çapraz platform bir besleme okuyucusudur.</p>
     <p xml:lang="uk">Alligator — гнучка, багатоплатформова програма для читання подач з підтримкою стандартів RSS/Atom</p>
