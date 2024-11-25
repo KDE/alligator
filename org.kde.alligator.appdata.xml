@@ -60,6 +60,7 @@
   <summary xml:lang="nl">Lezer van RSS-feed</summary>
   <summary xml:lang="pl">Czytnik kanałów RSS</summary>
   <summary xml:lang="sl">bralnik virov RSS</summary>
+  <summary xml:lang="sv">RSS-kanalläsare</summary>
   <summary xml:lang="tr">RSS Beslemesi Okuyucusu</summary>
   <summary xml:lang="uk">Програма для читання подач RSS</summary>
   <summary xml:lang="x-test">xxRSS feed readerxx</summary>
@@ -89,6 +90,7 @@
     <p xml:lang="nl">Alligator is een convergente, cross-platform lezer van feed, ondersteunt standaard RSS/Atom feeds</p>
     <p xml:lang="pl">Alligator jest dostosowującym się, wieloplatformowym czytnikiem kanałów RSS/Atom</p>
     <p xml:lang="sl">Alligator je konvergenten bralnik virov za več platform, ki podpira standardne vire RSS/Atom</p>
+    <p xml:lang="sv">Alligator är en konvergent, plattformsoberoende kanalläsare som stöder RSS/Atom-standardkanaler</p>
     <p xml:lang="tr">Aligatör, standart RSS/Atom beslemelerini destekleyen; yakınsak, çapraz platform bir besleme okuyucusudur.</p>
     <p xml:lang="uk">Alligator — гнучка, багатоплатформова програма для читання подач з підтримкою стандартів RSS/Atom</p>
     <p xml:lang="x-test">xxAlligator is a convergent, cross-platform feed reader, supporting standard RSS/Atom feedsxx</p>
