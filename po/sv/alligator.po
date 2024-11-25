@@ -7,15 +7,15 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-11-18 00:39+0000\n"
-"PO-Revision-Date: 2024-06-18 17:03+0200\n"
-"Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
+"PO-Revision-Date: 2024-11-24 17:41+0100\n"
+"Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.08.5\n"
+"X-Generator: Lokalize 24.08.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -196,10 +196,9 @@ msgid "No unread entries available"
 msgstr "Inga olästa poster tillgängliga"
 
 #: qml/EntryListPage.qml:105
-#, fuzzy, kde-format
-#| msgid "No unread entries available"
+#, kde-format
 msgid "No favorite entries available"
-msgstr "Inga olästa poster tillgängliga"
+msgstr "Inga favoritposter tillgängliga"
 
 #: qml/EntryListPage.qml:107
 #, kde-format
@@ -219,19 +218,19 @@ msgstr "Oläst"
 #: qml/EntryListPage.qml:163
 #, kde-format
 msgid "Favorites"
-msgstr ""
+msgstr "Favoriter"
 
 #: qml/EntryPage.qml:69
 #, kde-format
 msgctxt "@action:button"
 msgid "Remove from Favorites"
-msgstr ""
+msgstr "Ta bort från favoriter"
 
 #: qml/EntryPage.qml:69
 #, kde-format
 msgctxt "@action:button"
 msgid "Add to Favorites"
-msgstr ""
+msgstr "Lägg till i favoriter"
 
 #: qml/EntryPage.qml:77
 #, kde-format
@@ -247,7 +246,7 @@ msgstr "%1 - Detaljinformation"
 #: qml/FeedDetailsPage.qml:25
 #, kde-format
 msgid "Close"
-msgstr ""
+msgstr "Stäng"
 
 #: qml/FeedDetailsPage.qml:46
 #, kde-format
