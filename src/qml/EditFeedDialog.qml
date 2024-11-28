@@ -27,6 +27,12 @@ Kirigami.Dialog {
     }
 
     Kirigami.FormLayout {
+        Controls.Label {
+            Layout.fillWidth: true
+            text: root.feed.url
+            Kirigami.FormData.label: i18n("Feed URL:")
+        }
+
         Controls.TextField {
             id: displayName
             Layout.fillWidth: true
