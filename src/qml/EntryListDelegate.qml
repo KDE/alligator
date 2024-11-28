@@ -51,6 +51,12 @@ Delegates.IndicatorItemDelegate {
 
         Controls.Label {
             Layout.fillWidth: true
+            elide: Text.ElideRight
+            text: delegate.feedTitle
+        }
+
+        Controls.Label {
+            Layout.fillWidth: true
             text: delegate.title
             font.weight: Font.Medium
             wrapMode: Text.Wrap
