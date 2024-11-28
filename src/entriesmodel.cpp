@@ -56,6 +56,9 @@ QVariant EntriesModel::data(const QModelIndex &index, int role) const
     if (role == ContentRole) {
         return entry.content;
     }
+    if (role == FeedTitleRole) {
+        return entry.feedTitle;
+    }
     if (role == AuthorsRole) {
         return entry.authors;
     }
@@ -84,6 +87,7 @@ QHash<int, QByteArray> EntriesModel::roleNames() const
         {ReadRole, "read"},
         {TitleRole, "title"},
         {ContentRole, "content"},
+        {FeedTitleRole, "feedTitle"},
         {AuthorsRole, "authors"},
         {CreatedRole, "created"},
         {UpdatedRole, "updated"},
@@ -139,6 +143,15 @@ void EntriesModel::loadEntries()
         if (authorList.size() > 0) {
             entry.authors = authorList[0];
         }
+
+        QSqlQuery feedQuery;
+        feedQuery.prepare(QStringLiteral("SELECT * FROM Feeds WHERE url=:feed"));
+        feedQuery.bindValue(QStringLiteral(":feed"), entryQuery.value(QStringLiteral("feed")).toString());
+        Database::instance().execute(feedQuery);
+        feedQuery.next();
+        QString name = feedQuery.value(QStringLiteral("name")).toString();
+        QString displayName = feedQuery.value(QStringLiteral("displayName")).toString();
+        entry.feedTitle = !displayName.isEmpty() ? displayName : name;
 
         entry.created.setSecsSinceEpoch(entryQuery.value(QStringLiteral("created")).toInt());
         entry.updated.setSecsSinceEpoch(entryQuery.value(QStringLiteral("updated")).toInt());

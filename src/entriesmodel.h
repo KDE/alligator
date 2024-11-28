@@ -17,6 +17,7 @@ struct Entry {
     QString id;
     QString title;
     QString content;
+    QString feedTitle;
     QString authors;
     QDateTime created;
     QDateTime updated;
@@ -37,6 +38,7 @@ public:
         IdRole = Qt::DisplayRole,
         TitleRole,
         ContentRole,
+        FeedTitleRole,
         AuthorsRole,
         CreatedRole,
         UpdatedRole,

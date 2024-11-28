@@ -22,6 +22,7 @@ Delegates.IndicatorItemDelegate {
     required property string title
     required property string baseUrl
     required property string link
+    required property string feedTitle
     required property var authors
     required property date updated
     required property bool read
@@ -29,7 +30,6 @@ Delegates.IndicatorItemDelegate {
 
     unread: !read
 
-    property string feedTitle
 
     onClicked: {
         while (pageStack.depth > 2) {
