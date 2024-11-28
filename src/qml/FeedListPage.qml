@@ -99,7 +99,7 @@ Kirigami.ScrollablePage {
         }
 
         delegate: FeedListDelegate {
-            onEditFeed: {
+            onEditFeed: feedObj => {
                 editDialog.feed = feedObj;
                 editDialog.open();
             }
