@@ -44,7 +44,7 @@ Kirigami.ScrollablePage {
             icon.name: "view-refresh"
             text: i18n("Refresh")
             onTriggered: page.refreshing = true
-            visible: !Kirigami.Settings.isMobile
+            visible: true
         },
         Kirigami.Action {
             visible: page.feed !== null
