@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-18 00:39+0000\n"
+"POT-Creation-Date: 2024-12-01 00:39+0000\n"
 "PO-Revision-Date: 2024-09-20 07:35+0300\n"
 "Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -143,12 +143,18 @@ msgstr "О программе"
 msgid "Edit Feed"
 msgstr "Редактирование ленты"
 
-#: qml/EditFeedDialog.qml:35
+#: qml/EditFeedDialog.qml:33
+#, fuzzy, kde-format
+#| msgid "feed URL"
+msgid "Feed URL:"
+msgstr "URL-адрес ленты новостей"
+
+#: qml/EditFeedDialog.qml:41
 #, kde-format
 msgid "Display Name:"
 msgstr "Отображаемое имя:"
 
-#: qml/EditFeedDialog.qml:45
+#: qml/EditFeedDialog.qml:51
 #, kde-format
 msgid "Group:"
 msgstr "Группа:"

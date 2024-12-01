@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-18 00:39+0000\n"
+"POT-Creation-Date: 2024-12-01 00:39+0000\n"
 "PO-Revision-Date: 2021-02-18 21:44+0100\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
@@ -141,12 +141,18 @@ msgstr "Om"
 msgid "Edit Feed"
 msgstr ""
 
-#: qml/EditFeedDialog.qml:35
+#: qml/EditFeedDialog.qml:33
+#, fuzzy, kde-format
+#| msgid "Feed Reader"
+msgid "Feed URL:"
+msgstr "Kjeldelesar"
+
+#: qml/EditFeedDialog.qml:41
 #, kde-format
 msgid "Display Name:"
 msgstr ""
 
-#: qml/EditFeedDialog.qml:45
+#: qml/EditFeedDialog.qml:51
 #, kde-format
 msgid "Group:"
 msgstr ""
