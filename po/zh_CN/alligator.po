@@ -140,10 +140,9 @@ msgid "Edit Feed"
 msgstr "编辑新闻源"
 
 #: qml/EditFeedDialog.qml:33
-#, fuzzy, kde-format
-#| msgid "feed URL"
+#, kde-format
 msgid "Feed URL:"
-msgstr "新闻源 URL"
+msgstr ""
 
 #: qml/EditFeedDialog.qml:41
 #, kde-format

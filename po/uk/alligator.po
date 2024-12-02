@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-01 00:39+0000\n"
-"PO-Revision-Date: 2024-11-18 08:47+0200\n"
+"PO-Revision-Date: 2024-12-01 14:44+0200\n"
 "Last-Translator: Fracture dept <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -143,10 +143,9 @@ msgid "Edit Feed"
 msgstr "Редагування подачі"
 
 #: qml/EditFeedDialog.qml:33
-#, fuzzy, kde-format
-#| msgid "feed URL"
+#, kde-format
 msgid "Feed URL:"
-msgstr "адреса подачі"
+msgstr "Адреса подачі:"
 
 #: qml/EditFeedDialog.qml:41
 #, kde-format

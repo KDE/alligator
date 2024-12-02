@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-01 00:39+0000\n"
-"PO-Revision-Date: 2024-11-18 08:57+0100\n"
+"PO-Revision-Date: 2024-12-01 09:58+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -145,10 +145,9 @@ msgid "Edit Feed"
 msgstr "Edita la font"
 
 #: qml/EditFeedDialog.qml:33
-#, fuzzy, kde-format
-#| msgid "feed URL"
+#, kde-format
 msgid "Feed URL:"
-msgstr "URL de la font"
+msgstr "URL de la font:"
 
 #: qml/EditFeedDialog.qml:41
 #, kde-format

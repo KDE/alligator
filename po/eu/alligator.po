@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-01 00:39+0000\n"
-"PO-Revision-Date: 2024-11-18 23:41+0100\n"
+"PO-Revision-Date: 2024-12-01 09:16+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -143,10 +143,9 @@ msgid "Edit Feed"
 msgstr "Editatu jarioa"
 
 #: qml/EditFeedDialog.qml:33
-#, fuzzy, kde-format
-#| msgid "feed URL"
+#, kde-format
 msgid "Feed URL:"
-msgstr "Jarioaren URL"
+msgstr "Jarioaren URLa:"
 
 #: qml/EditFeedDialog.qml:41
 #, kde-format

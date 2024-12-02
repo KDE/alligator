@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-01 00:39+0000\n"
-"PO-Revision-Date: 2024-11-18 08:19+0200\n"
+"PO-Revision-Date: 2024-12-01 08:46+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -141,10 +141,9 @@ msgid "Edit Feed"
 msgstr "עריכת ערוץ עדכונים"
 
 #: qml/EditFeedDialog.qml:33
-#, fuzzy, kde-format
-#| msgid "feed URL"
+#, kde-format
 msgid "Feed URL:"
-msgstr "כתובת ערוץ"
+msgstr "כתובת ערוץ:"
 
 #: qml/EditFeedDialog.qml:41
 #, kde-format
