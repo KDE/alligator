@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-01 00:39+0000\n"
-"PO-Revision-Date: 2024-11-20 19:52+0100\n"
+"PO-Revision-Date: 2024-12-02 02:52+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -142,10 +142,9 @@ msgid "Edit Feed"
 msgstr "Editar emisión web"
 
 #: qml/EditFeedDialog.qml:33
-#, fuzzy, kde-format
-#| msgid "feed URL"
+#, kde-format
 msgid "Feed URL:"
-msgstr "URL de la emisión web"
+msgstr "URL de la emisión web:"
 
 #: qml/EditFeedDialog.qml:41
 #, kde-format
