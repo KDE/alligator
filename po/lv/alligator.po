@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-01 00:39+0000\n"
-"PO-Revision-Date: 2024-08-30 11:46+0300\n"
+"PO-Revision-Date: 2024-12-01 16:05+0200\n"
 "Last-Translator: Toms Trasuns <toms.trasuns@posteo.net>\n"
 "Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
 "Language: lv\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
 "2);\n"
-"X-Generator: Lokalize 24.08.0\n"
+"X-Generator: Lokalize 24.08.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -141,10 +141,9 @@ msgid "Edit Feed"
 msgstr "Rediģēt plūsmu"
 
 #: qml/EditFeedDialog.qml:33
-#, fuzzy, kde-format
-#| msgid "feed URL"
+#, kde-format
 msgid "Feed URL:"
-msgstr "plūsmas URL"
+msgstr "Plūsmas URL:"
 
 #: qml/EditFeedDialog.qml:41
 #, kde-format
@@ -203,8 +202,7 @@ msgid "No unread entries available"
 msgstr "Nav pieejami nelasīti ieraksti"
 
 #: qml/EntryListPage.qml:105
-#, fuzzy, kde-format
-#| msgid "No unread entries available"
+#, kde-format
 msgid "No favorite entries available"
 msgstr "Nav pieejami nelasīti ieraksti"
 
@@ -226,19 +224,19 @@ msgstr "Nelasīts"
 #: qml/EntryListPage.qml:163
 #, kde-format
 msgid "Favorites"
-msgstr ""
+msgstr "Iecienītākie"
 
 #: qml/EntryPage.qml:69
 #, kde-format
 msgctxt "@action:button"
 msgid "Remove from Favorites"
-msgstr ""
+msgstr "Izņemt no iecienītajiem"
 
 #: qml/EntryPage.qml:69
 #, kde-format
 msgctxt "@action:button"
 msgid "Add to Favorites"
-msgstr ""
+msgstr "Pievienot iecienītajiem"
 
 #: qml/EntryPage.qml:77
 #, kde-format
@@ -254,7 +252,7 @@ msgstr "„%1“ — informācija"
 #: qml/FeedDetailsPage.qml:25
 #, kde-format
 msgid "Close"
-msgstr ""
+msgstr "Aizvērt"
 
 #: qml/FeedDetailsPage.qml:46
 #, kde-format

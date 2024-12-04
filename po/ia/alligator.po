@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-01 00:39+0000\n"
-"PO-Revision-Date: 2024-11-19 10:41+0100\n"
+"PO-Revision-Date: 2024-12-03 16:37+0100\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -141,10 +141,9 @@ msgid "Edit Feed"
 msgstr "Modifica syndication"
 
 #: qml/EditFeedDialog.qml:33
-#, fuzzy, kde-format
-#| msgid "feed URL"
+#, kde-format
 msgid "Feed URL:"
-msgstr "Url de syndication"
+msgstr "URL de syndication:"
 
 #: qml/EditFeedDialog.qml:41
 #, kde-format
