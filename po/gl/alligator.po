@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-01 00:39+0000\n"
-"PO-Revision-Date: 2024-11-09 15:55+0100\n"
+"PO-Revision-Date: 2024-12-04 09:51+0100\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Proxecto Trasno (proxecto@trasno.gal)\n"
 "Language: gl\n"
@@ -140,10 +140,9 @@ msgid "Edit Feed"
 msgstr "Editar a fonte"
 
 #: qml/EditFeedDialog.qml:33
-#, fuzzy, kde-format
-#| msgid "feed URL"
+#, kde-format
 msgid "Feed URL:"
-msgstr "URL da fonte"
+msgstr "URL da fonte:"
 
 #: qml/EditFeedDialog.qml:41
 #, kde-format
@@ -202,10 +201,9 @@ msgid "No unread entries available"
 msgstr "Non hai entradas sen ler."
 
 #: qml/EntryListPage.qml:105
-#, fuzzy, kde-format
-#| msgid "No unread entries available"
+#, kde-format
 msgid "No favorite entries available"
-msgstr "Non hai entradas sen ler."
+msgstr "Non hai entradas favoritas."
 
 #: qml/EntryListPage.qml:107
 #, kde-format
@@ -225,19 +223,19 @@ msgstr "Sen ler"
 #: qml/EntryListPage.qml:163
 #, kde-format
 msgid "Favorites"
-msgstr ""
+msgstr "Favoritas"
 
 #: qml/EntryPage.qml:69
 #, kde-format
 msgctxt "@action:button"
 msgid "Remove from Favorites"
-msgstr ""
+msgstr "Retirar das favoritas"
 
 #: qml/EntryPage.qml:69
 #, kde-format
 msgctxt "@action:button"
 msgid "Add to Favorites"
-msgstr ""
+msgstr "Engadir ás favoritas"
 
 #: qml/EntryPage.qml:77
 #, kde-format
