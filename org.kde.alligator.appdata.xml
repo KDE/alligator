@@ -277,4 +277,7 @@
     </release>
     <release version="21.05" date="2021-05-10"/>
   </releases>
+  <custom>
+    <value key="KDE::supporters">Ian Nicholson</value>
+  </custom>
 </component>
