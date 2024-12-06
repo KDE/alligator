@@ -30,6 +30,7 @@ Delegates.IndicatorItemDelegate {
 
     unread: !read
 
+    property bool showingAll
 
     onClicked: {
         while (pageStack.depth > 2) {
@@ -53,6 +54,7 @@ Delegates.IndicatorItemDelegate {
             Layout.fillWidth: true
             elide: Text.ElideRight
             text: delegate.feedTitle
+            visible: delegate.showingAll
         }
 
         Controls.Label {

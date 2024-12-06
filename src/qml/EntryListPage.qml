@@ -117,7 +117,9 @@ Kirigami.ScrollablePage {
         // stop list highlight
         currentIndex: -1
 
-        delegate: EntryListDelegate {}
+        delegate: EntryListDelegate {
+            showingAll: page.feed === null
+        }
     }
 
     EntriesProxyModel {
