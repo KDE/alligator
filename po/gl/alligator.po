@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-01 00:39+0000\n"
+"POT-Creation-Date: 2024-12-08 00:40+0000\n"
 "PO-Revision-Date: 2024-12-04 09:51+0100\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Proxecto Trasno (proxecto@trasno.gal)\n"
@@ -154,7 +154,7 @@ msgstr "Nome visual:"
 msgid "Group:"
 msgstr "Grupo:"
 
-#: qml/EntryListDelegate.qml:66
+#: qml/EntryListDelegate.qml:74
 #, kde-format
 msgctxt "by <author(s)>"
 msgid "by"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-01 00:39+0000\n"
+"POT-Creation-Date: 2024-12-08 00:40+0000\n"
 "PO-Revision-Date: 2024-12-01 06:22+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -155,7 +155,7 @@ msgstr "ნაჩვენები სახელი:"
 msgid "Group:"
 msgstr "ჯგუფი:"
 
-#: qml/EntryListDelegate.qml:66
+#: qml/EntryListDelegate.qml:74
 #, kde-format
 msgctxt "by <author(s)>"
 msgid "by"

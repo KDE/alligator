@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-01 00:39+0000\n"
-"PO-Revision-Date: 2024-11-23 13:40+0100\n"
+"POT-Creation-Date: 2024-12-08 00:40+0000\n"
+"PO-Revision-Date: 2024-12-07 12:16+0100\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
@@ -142,10 +142,9 @@ msgid "Edit Feed"
 msgstr "Edytuj kanał"
 
 #: qml/EditFeedDialog.qml:33
-#, fuzzy, kde-format
-#| msgid "feed URL"
+#, kde-format
 msgid "Feed URL:"
-msgstr "adres URL kanału"
+msgstr "Adres URL kanału:"
 
 #: qml/EditFeedDialog.qml:41
 #, kde-format
@@ -157,7 +156,7 @@ msgstr "Wyświetlana nazwa:"
 msgid "Group:"
 msgstr "Grupa:"
 
-#: qml/EntryListDelegate.qml:66
+#: qml/EntryListDelegate.qml:74
 #, kde-format
 msgctxt "by <author(s)>"
 msgid "by"
