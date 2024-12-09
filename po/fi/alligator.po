@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-11-18 02:38+0000\n"
-"PO-Revision-Date: 2024-10-19 09:28+0300\n"
+"PO-Revision-Date: 2024-12-01 14:23+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -224,7 +224,7 @@ msgstr "%1 – yksityiskohdat"
 #: qml/FeedDetailsPage.qml:25
 #, kde-format
 msgid "Close"
-msgstr ""
+msgstr "Sulje"
 
 #: qml/FeedDetailsPage.qml:46
 #, kde-format
