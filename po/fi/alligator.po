@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-08 00:40+0000\n"
-"PO-Revision-Date: 2024-10-19 09:28+0300\n"
+"PO-Revision-Date: 2024-12-01 14:23+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -202,10 +202,9 @@ msgid "No unread entries available"
 msgstr "Ei kohteita lukematta"
 
 #: qml/EntryListPage.qml:105
-#, fuzzy, kde-format
-#| msgid "No unread entries available"
+#, kde-format
 msgid "No favorite entries available"
-msgstr "Ei kohteita lukematta"
+msgstr "Ei suosikkikohteita tarjolla"
 
 #: qml/EntryListPage.qml:107
 #, kde-format
@@ -225,19 +224,19 @@ msgstr "Lukematta"
 #: qml/EntryListPage.qml:163
 #, kde-format
 msgid "Favorites"
-msgstr ""
+msgstr "Suosikit"
 
 #: qml/EntryPage.qml:69
 #, kde-format
 msgctxt "@action:button"
 msgid "Remove from Favorites"
-msgstr ""
+msgstr "Poista suosikeista"
 
 #: qml/EntryPage.qml:69
 #, kde-format
 msgctxt "@action:button"
 msgid "Add to Favorites"
-msgstr ""
+msgstr "Lisää suosikkeihin"
 
 #: qml/EntryPage.qml:77
 #, kde-format
@@ -253,7 +252,7 @@ msgstr "%1 – yksityiskohdat"
 #: qml/FeedDetailsPage.qml:25
 #, kde-format
 msgid "Close"
-msgstr ""
+msgstr "Sulje"
 
 #: qml/FeedDetailsPage.qml:46
 #, kde-format
