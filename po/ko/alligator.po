@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-08 00:40+0000\n"
-"PO-Revision-Date: 2024-08-19 21:40+0200\n"
+"PO-Revision-Date: 2024-12-09 22:35+0100\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
@@ -202,10 +202,9 @@ msgid "No unread entries available"
 msgstr "읽지 않은 항목 없음"
 
 #: qml/EntryListPage.qml:105
-#, fuzzy, kde-format
-#| msgid "No unread entries available"
+#, kde-format
 msgid "No favorite entries available"
-msgstr "읽지 않은 항목 없음"
+msgstr "책갈피에 추가한 항목 없음"
 
 #: qml/EntryListPage.qml:107
 #, kde-format
@@ -225,19 +224,19 @@ msgstr "읽지 않음"
 #: qml/EntryListPage.qml:163
 #, kde-format
 msgid "Favorites"
-msgstr ""
+msgstr "책갈피"
 
 #: qml/EntryPage.qml:69
 #, kde-format
 msgctxt "@action:button"
 msgid "Remove from Favorites"
-msgstr ""
+msgstr "책갈피에서 삭제"
 
 #: qml/EntryPage.qml:69
 #, kde-format
 msgctxt "@action:button"
 msgid "Add to Favorites"
-msgstr ""
+msgstr "책갈피에 추가"
 
 #: qml/EntryPage.qml:77
 #, kde-format
@@ -253,7 +252,7 @@ msgstr "%1 - 자세한 정보"
 #: qml/FeedDetailsPage.qml:25
 #, kde-format
 msgid "Close"
-msgstr ""
+msgstr "닫기"
 
 #: qml/FeedDetailsPage.qml:46
 #, kde-format
