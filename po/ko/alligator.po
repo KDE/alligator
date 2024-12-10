@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-11-18 02:38+0000\n"
-"PO-Revision-Date: 2024-08-19 21:40+0200\n"
+"PO-Revision-Date: 2024-12-09 22:35+0100\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
@@ -224,7 +224,7 @@ msgstr "%1 - 자세한 정보"
 #: qml/FeedDetailsPage.qml:25
 #, kde-format
 msgid "Close"
-msgstr ""
+msgstr "닫기"
 
 #: qml/FeedDetailsPage.qml:46
 #, kde-format
