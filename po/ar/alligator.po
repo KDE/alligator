@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-08 00:40+0000\n"
-"PO-Revision-Date: 2024-06-26 18:29+0400\n"
+"PO-Revision-Date: 2024-12-12 08:35+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -141,10 +141,9 @@ msgid "Edit Feed"
 msgstr "حرّر التلقيم"
 
 #: qml/EditFeedDialog.qml:33
-#, fuzzy, kde-format
-#| msgid "feed URL"
+#, kde-format
 msgid "Feed URL:"
-msgstr "مسار التلقيم"
+msgstr "رابط التلقيم:"
 
 #: qml/EditFeedDialog.qml:41
 #, kde-format
@@ -203,10 +202,9 @@ msgid "No unread entries available"
 msgstr "لا يوجد مدخلات غير مقروءة"
 
 #: qml/EntryListPage.qml:105
-#, fuzzy, kde-format
-#| msgid "No unread entries available"
+#, kde-format
 msgid "No favorite entries available"
-msgstr "لا يوجد مدخلات غير مقروءة"
+msgstr "لا يوجد مدخلات مفضلة"
 
 #: qml/EntryListPage.qml:107
 #, kde-format
@@ -226,19 +224,19 @@ msgstr "غير المقروء"
 #: qml/EntryListPage.qml:163
 #, kde-format
 msgid "Favorites"
-msgstr ""
+msgstr "المفضّلة"
 
 #: qml/EntryPage.qml:69
 #, kde-format
 msgctxt "@action:button"
 msgid "Remove from Favorites"
-msgstr ""
+msgstr "أزل من المفضّلة"
 
 #: qml/EntryPage.qml:69
 #, kde-format
 msgctxt "@action:button"
 msgid "Add to Favorites"
-msgstr ""
+msgstr "أضف إلى المفضّلة"
 
 #: qml/EntryPage.qml:77
 #, kde-format
@@ -254,7 +252,7 @@ msgstr "%1 - التفاصيل"
 #: qml/FeedDetailsPage.qml:25
 #, kde-format
 msgid "Close"
-msgstr ""
+msgstr "أغلق"
 
 #: qml/FeedDetailsPage.qml:46
 #, kde-format
