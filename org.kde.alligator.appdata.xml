@@ -46,6 +46,7 @@
   <name xml:lang="zh-CN">Alligator</name>
   <name xml:lang="zh-TW">Alligator</name>
   <summary>RSS feed reader</summary>
+  <summary xml:lang="ar">قارئ التّغذيات RSS</summary>
   <summary xml:lang="ca">Lector de fonts RSS</summary>
   <summary xml:lang="ca-valencia">Lector de fonts RSS</summary>
   <summary xml:lang="en-GB">RSS feed reader</summary>
@@ -80,6 +81,7 @@
   </developer>
   <description>
     <p>Alligator is a convergent, cross-platform feed reader, supporting standard RSS/Atom feeds</p>
+    <p xml:lang="ar">قاطور هو قارئ موجزات متقارب ومتعدد الأنظمة، ويدعم موجزات RSS/Atom القياسية</p>
     <p xml:lang="ca">Alligator és un lector de fonts convergent i multiplataforma, que admet canals RSS/Atom estàndard</p>
     <p xml:lang="ca-valencia">Alligator és un lector de fonts convergent i multiplataforma, que admet canals RSS/Atom estàndard</p>
     <p xml:lang="en-GB">Alligator is a convergent, cross-platform feed reader, supporting standard RSS/Atom feeds</p>
