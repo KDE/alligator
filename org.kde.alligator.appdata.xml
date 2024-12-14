@@ -37,6 +37,7 @@
   <name xml:lang="pt-BR">Alligator</name>
   <name xml:lang="ro">Alligator</name>
   <name xml:lang="ru">Alligator</name>
+  <name xml:lang="sa">मगरमच्छ</name>
   <name xml:lang="sk">Alligator</name>
   <name xml:lang="sl">Alligator</name>
   <name xml:lang="sv">Alligator</name>
@@ -64,6 +65,7 @@
   <summary xml:lang="lv">RSS plūsmu lasītājs</summary>
   <summary xml:lang="nl">Lezer van RSS-feed</summary>
   <summary xml:lang="pl">Czytnik kanałów RSS</summary>
+  <summary xml:lang="sa">आरएसएस फीड रीडर</summary>
   <summary xml:lang="sl">bralnik virov RSS</summary>
   <summary xml:lang="sv">RSS-kanalläsare</summary>
   <summary xml:lang="tr">RSS Beslemesi Okuyucusu</summary>
@@ -99,6 +101,7 @@
     <p xml:lang="lv">„Alligator“ ir konverģents plūsmu lasītājs vairākām platformām, kas atbalsta standarta RSS/„Atom“ plūsmas</p>
     <p xml:lang="nl">Alligator is een convergente, cross-platform lezer van feed, ondersteunt standaard RSS/Atom feeds</p>
     <p xml:lang="pl">Alligator jest dostosowującym się, wieloplatformowym czytnikiem kanałów RSS/Atom</p>
+    <p xml:lang="sa">एलिगेटर् एकः अभिसरणीयः, पार-मञ्च-फीड्-रीडरः अस्ति, यः मानक-आरएसएस/एटम्-फीड्-समर्थनं करोति</p>
     <p xml:lang="sl">Alligator je konvergenten bralnik virov za več platform, ki podpira standardne vire RSS/Atom</p>
     <p xml:lang="sv">Alligator är en konvergent, plattformsoberoende kanalläsare som stöder RSS/Atom-standardkanaler</p>
     <p xml:lang="tr">Aligatör, standart RSS/Atom beslemelerini destekleyen; yakınsak, çapraz platform bir besleme okuyucusudur.</p>
@@ -145,6 +148,7 @@
       <caption xml:lang="pt">A lista de fontes do Alligator num computador</caption>
       <caption xml:lang="pt-BR">Lista de fontes do Alligator na área de trabalho</caption>
       <caption xml:lang="ru">Список лент новостей Alligator на рабочем столе</caption>
+      <caption xml:lang="sa">डेस्कटॉप् मध्ये एलिगेटर् फीड् सूची</caption>
       <caption xml:lang="sk">Zoznam kanálov Alligator na pracovnej ploche</caption>
       <caption xml:lang="sl">Alligator seznam virov na namizju</caption>
       <caption xml:lang="sv">Alligator kanallista på skrivbordet</caption>
@@ -184,6 +188,7 @@
       <caption xml:lang="pt">O Alligator no telefone</caption>
       <caption xml:lang="pt-BR">Alligator no celular</caption>
       <caption xml:lang="ru">Alligator на телефоне</caption>
+      <caption xml:lang="sa">एकस्मिन् दूरभाषे मगरमच्छ</caption>
       <caption xml:lang="sk">Alligator na telefóne</caption>
       <caption xml:lang="sl">Alligator na telefonu</caption>
       <caption xml:lang="sv">Alligator på en telefon</caption>
