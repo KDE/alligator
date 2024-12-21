@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-08 00:40+0000\n"
-"PO-Revision-Date: 2024-12-14 01:48+0530\n"
+"PO-Revision-Date: 2024-12-20 21:51+0530\n"
 "Last-Translator: kali <skkalwar999@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
@@ -149,7 +149,7 @@ msgstr "फीड् URL: 1.1."
 #: qml/EditFeedDialog.qml:41
 #, kde-format
 msgid "Display Name:"
-msgstr "प्रदर्शननाम : १."
+msgstr "प्रदर्शननाम :"
 
 #: qml/EditFeedDialog.qml:51
 #, kde-format
@@ -365,12 +365,12 @@ msgstr "सर्वाणि सञ्चिकाः (*) ."
 #: qml/FeedListPage.qml:126
 #, kde-format
 msgid "XML Files (*.xml)"
-msgstr "XML सञ्चिकाः (*.xml) २."
+msgstr "XML सञ्चिकाः (*.xml)"
 
 #: qml/FeedListPage.qml:126
 #, kde-format
 msgid "OPML Files (*.opml)"
-msgstr "ओपीएमएल सञ्चिकाः (*.opml) २."
+msgstr "ओपीएमएल सञ्चिकाः (*.opml)"
 
 #: qml/FeedListPage.qml:132
 #, kde-format
@@ -421,7 +421,7 @@ msgstr "लेखसूची"
 #: qml/SettingsPage.qml:32
 #, kde-format
 msgid "Delete after:"
-msgstr "ततः परं विलोपयन्तु : १."
+msgstr "ततः परं विलोपयन्तु :"
 
 #: qml/SettingsPage.qml:45
 #, kde-format
@@ -456,7 +456,7 @@ msgstr "आलेख"
 #: qml/SettingsPage.qml:61
 #, kde-format
 msgid "Font size:"
-msgstr "फ़ॉन्ट् आकारः : १."
+msgstr "फ़ॉन्ट् आकारः :"
 
 #: qml/SettingsPage.qml:70
 #, kde-format
