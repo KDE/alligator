@@ -17,3 +17,8 @@ License: CC-BY-SA-4.0
 Files: android/res/mipmap-anydpi-v26/ic_launcher.xml
 Copyright: None
 License: CC0-1.0
+
+Files: fastlane/metadata/org.kde.alligator/en-US/images/featureGraphic.svg fastlane/metadata/org.kde.alligator/en-US/images/featureGraphic.png
+Copyright: Alois Spitzbart <spitz234@hotmail.com>
+License: CC-BY-SA-4.0
+
