@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-08 00:40+0000\n"
-"PO-Revision-Date: 2024-12-09 22:35+0100\n"
+"PO-Revision-Date: 2024-12-24 15:58+0100\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
@@ -140,10 +140,9 @@ msgid "Edit Feed"
 msgstr "피드 편집"
 
 #: qml/EditFeedDialog.qml:33
-#, fuzzy, kde-format
-#| msgid "feed URL"
+#, kde-format
 msgid "Feed URL:"
-msgstr "피드 URL"
+msgstr "피드 URL:"
 
 #: qml/EditFeedDialog.qml:41
 #, kde-format
