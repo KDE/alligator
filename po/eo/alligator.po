@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-08 00:40+0000\n"
-"PO-Revision-Date: 2024-06-19 23:49+0200\n"
+"PO-Revision-Date: 2024-12-26 21:43+0100\n"
 "Last-Translator: Oliver Kellogg <olivermkellogg@gmail.com>\n"
 "Language-Team: Esperanto <kde-i18n-eo@kde.org>\n"
 "Language: eo\n"
@@ -141,10 +141,9 @@ msgid "Edit Feed"
 msgstr "Redakti Fluon"
 
 #: qml/EditFeedDialog.qml:33
-#, fuzzy, kde-format
-#| msgid "feed URL"
+#, kde-format
 msgid "Feed URL:"
-msgstr "feed URL"
+msgstr "URL de fluo:"
 
 #: qml/EditFeedDialog.qml:41
 #, kde-format
@@ -203,10 +202,9 @@ msgid "No unread entries available"
 msgstr "Neniuj nelegitaj enskriboj haveblaj"
 
 #: qml/EntryListPage.qml:105
-#, fuzzy, kde-format
-#| msgid "No unread entries available"
+#, kde-format
 msgid "No favorite entries available"
-msgstr "Neniuj nelegitaj enskriboj haveblaj"
+msgstr "Neniuj plej ŝatataj enskriboj haveblaj"
 
 #: qml/EntryListPage.qml:107
 #, kde-format
