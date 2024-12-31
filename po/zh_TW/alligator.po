@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-08 00:40+0000\n"
-"PO-Revision-Date: 2024-06-30 11:22+0900\n"
+"PO-Revision-Date: 2024-12-30 17:14+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
 "Language: zh_TW\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 24.04.70\n"
+"X-Generator: Lokalize 24.12.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -143,10 +143,9 @@ msgid "Edit Feed"
 msgstr "編輯 feed"
 
 #: qml/EditFeedDialog.qml:33
-#, fuzzy, kde-format
-#| msgid "feed URL"
+#, kde-format
 msgid "Feed URL:"
-msgstr "feed 網址"
+msgstr "Feed 網址："
 
 #: qml/EditFeedDialog.qml:41
 #, kde-format
@@ -205,10 +204,9 @@ msgid "No unread entries available"
 msgstr "沒有未讀的條目"
 
 #: qml/EntryListPage.qml:105
-#, fuzzy, kde-format
-#| msgid "No unread entries available"
+#, kde-format
 msgid "No favorite entries available"
-msgstr "沒有未讀的條目"
+msgstr "沒有最愛的條目"
 
 #: qml/EntryListPage.qml:107
 #, kde-format
@@ -228,19 +226,19 @@ msgstr "未讀"
 #: qml/EntryListPage.qml:163
 #, kde-format
 msgid "Favorites"
-msgstr ""
+msgstr "最愛"
 
 #: qml/EntryPage.qml:69
 #, kde-format
 msgctxt "@action:button"
 msgid "Remove from Favorites"
-msgstr ""
+msgstr "從最愛中移除"
 
 #: qml/EntryPage.qml:69
 #, kde-format
 msgctxt "@action:button"
 msgid "Add to Favorites"
-msgstr ""
+msgstr "加入最愛"
 
 #: qml/EntryPage.qml:77
 #, kde-format
@@ -256,7 +254,7 @@ msgstr "%1 - 詳細資料"
 #: qml/FeedDetailsPage.qml:25
 #, kde-format
 msgid "Close"
-msgstr ""
+msgstr "關閉"
 
 #: qml/FeedDetailsPage.qml:46
 #, kde-format
