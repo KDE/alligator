@@ -82,6 +82,7 @@ Feed::Feed(int index)
         }
     });
     connect(&Database::instance(), &Database::entryReadChanged, this, &Feed::unreadEntryCountChanged);
+    connect(&Database::instance(), &Database::feedReadChanged, this, &Feed::unreadEntryCountChanged);
 }
 
 QString Feed::url() const

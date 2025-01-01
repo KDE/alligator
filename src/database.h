@@ -38,6 +38,8 @@ public:
     Q_INVOKABLE void setDefaultGroup(const QString &name);
     Q_INVOKABLE void editFeed(const QString &url, const QString &displayName, const QString &groupName);
     Q_INVOKABLE void setRead(const QString &entryId, bool read);
+    Q_INVOKABLE void setFeedRead(const QString &url, bool read);
+    Q_INVOKABLE void setAllRead(bool read);
     Q_INVOKABLE void setFavorite(const QString &entryId, bool favorite);
 
 Q_SIGNALS:
@@ -46,6 +48,7 @@ Q_SIGNALS:
     void feedGroupsUpdated();
     void feedGroupRemoved(const QString &groupName);
     void entryReadChanged(const QString &entryId, bool read);
+    void feedReadChanged();
     void entryFavoriteChanged(const QString &entryId, bool favorite);
 
 private:
