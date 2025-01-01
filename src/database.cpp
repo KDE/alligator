@@ -295,6 +295,27 @@ void Database::setRead(const QString &entryId, bool read)
     Q_EMIT entryReadChanged(entryId, read);
 }
 
+void Database::setFeedRead(const QString &url, bool read)
+{
+    QSqlQuery query;
+    query.prepare(QStringLiteral("UPDATE Entries SET read=:read WHERE feed=:url"));
+    query.bindValue(QStringLiteral(":url"), url);
+    query.bindValue(QStringLiteral(":read"), read);
+    execute(query);
+
+    Q_EMIT feedReadChanged();
+}
+
+void Database::setAllRead(bool read)
+{
+    QSqlQuery query;
+    query.prepare(QStringLiteral("UPDATE Entries SET read=:read"));
+    query.bindValue(QStringLiteral(":read"), read);
+    execute(query);
+
+    Q_EMIT feedReadChanged();
+}
+
 void Database::setFavorite(const QString &entryId, bool favorite)
 {
     QSqlQuery query;

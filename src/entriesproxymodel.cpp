@@ -16,6 +16,9 @@ EntriesProxyModel::EntriesProxyModel(QObject *parent)
     connect(&Database::instance(), &Database::entryReadChanged, this, [this]() {
         invalidateFilter();
     });
+    connect(&Database::instance(), &Database::feedReadChanged, this, [this]() {
+        invalidateFilter();
+    });
     connect(&Database::instance(), &Database::entryFavoriteChanged, this, [this]() {
         invalidateFilter();
     });

@@ -29,6 +29,9 @@ EntriesModel::EntriesModel(QObject *parent)
             }
         }
     });
+    connect(&Database::instance(), &Database::feedReadChanged, this, [this]() {
+        loadEntries();
+    });
     connect(&Database::instance(), &Database::entryFavoriteChanged, this, [this](const QString &entryId, bool favorite) {
         for (auto i = 0; i < m_entries.size(); i++) {
             if (m_entries[i].id == entryId) {

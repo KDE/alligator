@@ -47,6 +47,18 @@ Kirigami.ScrollablePage {
             visible: true
         },
         Kirigami.Action {
+            visible: true
+            icon.name: "mail-mark-read"
+            text: i18n("Mark all read")
+            onTriggered: {
+                if (page.feed === null) {
+                    Database.setAllRead(true);
+                } else {
+                    Database.setFeedRead(page.feed.url, true);
+                }
+            }
+        },
+        Kirigami.Action {
             visible: page.feed !== null
             icon.name: "help-about-symbolic"
             text: i18n("Details")
