@@ -102,6 +102,10 @@ int main(int argc, char *argv[])
     about.processCommandLine(&parser);
 
     QObject::connect(&app, &QCoreApplication::aboutToQuit, AlligatorSettings::self(), &AlligatorSettings::save);
+    QObject::connect(&app, &QGuiApplication::applicationStateChanged, AlligatorSettings::self(), [](Qt::ApplicationState state) {
+        if (state == Qt::ApplicationSuspended)
+            AlligatorSettings::self()->save();
+    });
 
     Database::instance();
 
