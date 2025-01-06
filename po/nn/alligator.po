@@ -143,7 +143,6 @@ msgstr ""
 
 #: qml/EditFeedDialog.qml:33
 #, fuzzy, kde-format
-#| msgid "Feed Reader"
 msgid "Feed URL:"
 msgstr "Kjeldelesar"
 
