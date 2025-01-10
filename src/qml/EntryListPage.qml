@@ -49,7 +49,7 @@ Kirigami.ScrollablePage {
         Kirigami.Action {
             visible: true
             icon.name: "mail-mark-read"
-            text: i18n("Mark all read")
+            text: i18nc("@action:button", "Mark all read")
             onTriggered: {
                 if (page.feed === null) {
                     Database.setAllRead(true);
