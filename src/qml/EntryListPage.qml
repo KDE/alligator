@@ -46,9 +46,8 @@ Kirigami.ScrollablePage {
             onTriggered: page.refreshing = true
             visible: true
         },
-        Kirigami.Action {
-            visible: true
-            icon.name: "mail-mark-read"
+        Controls.Action {
+            icon.name: "mail-mark-read-symbolic"
             text: i18nc("@action:button", "Mark all read")
             onTriggered: {
                 if (page.feed === null) {
