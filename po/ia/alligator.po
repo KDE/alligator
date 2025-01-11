@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-08 00:40+0000\n"
+"POT-Creation-Date: 2025-01-11 00:40+0000\n"
 "PO-Revision-Date: 2024-12-03 16:37+0100\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
@@ -28,12 +28,12 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "g.sora@tiscali.it"
 
-#: database.cpp:80 database.cpp:336
+#: database.cpp:80 database.cpp:357
 #, kde-format
 msgid "Default"
 msgstr "Predefinite"
 
-#: database.cpp:81 database.cpp:337
+#: database.cpp:81 database.cpp:358
 #, kde-format
 msgid "Default Feed Group"
 msgstr "Gruppo predefinite de syndication"
@@ -166,62 +166,69 @@ msgstr "per"
 msgid "Refresh"
 msgstr "Refresca"
 
-#: qml/EntryListPage.qml:52
+#: qml/EntryListPage.qml:51
+#, fuzzy, kde-format
+#| msgid "Mark as read"
+msgctxt "@action:button"
+msgid "Mark all read"
+msgstr "Marca como legite"
+
+#: qml/EntryListPage.qml:63
 #, kde-format
 msgid "Details"
 msgstr "Detalios"
 
-#: qml/EntryListPage.qml:68
+#: qml/EntryListPage.qml:79
 #, kde-format
 msgid "Expand sidebar"
 msgstr "Expande barra lateral"
 
-#: qml/EntryListPage.qml:68
+#: qml/EntryListPage.qml:79
 #, kde-format
 msgid "Collapse sidebar"
 msgstr "Plica barra lateral"
 
-#: qml/EntryListPage.qml:78
+#: qml/EntryListPage.qml:89
 #, kde-format
 msgid "All Entries"
 msgstr "Omne entratas"
 
-#: qml/EntryListPage.qml:86
+#: qml/EntryListPage.qml:97
 #, kde-format
 msgid "Error"
 msgstr "Error"
 
-#: qml/EntryListPage.qml:87 qml/EntryListPage.qml:110
+#: qml/EntryListPage.qml:98 qml/EntryListPage.qml:121
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "Error (%1): %2"
 
-#: qml/EntryListPage.qml:103
+#: qml/EntryListPage.qml:114
 #, kde-format
 msgid "No unread entries available"
 msgstr "Necun entratas non legite disponibile."
 
-#: qml/EntryListPage.qml:105
+#: qml/EntryListPage.qml:116
 #, kde-format
 msgid "No favorite entries available"
 msgstr "Necun entratas  favorite disponibile."
 
-#: qml/EntryListPage.qml:107
+#: qml/EntryListPage.qml:118
 #, kde-format
 msgid "No entries available"
 msgstr "Necun entratas disponibile."
 
-#: qml/EntryListPage.qml:145
+#: qml/EntryListPage.qml:156
 #, kde-format
 msgid "All"
 msgstr "Toto"
 
-#: qml/EntryListPage.qml:154
+#: qml/EntryListPage.qml:165
 #, kde-format
 msgid "Unread"
 msgstr "Non Legite"
 
-#: qml/EntryListPage.qml:163
+#: qml/EntryListPage.qml:174
 #, kde-format
 msgid "Favorites"
 msgstr "Favoritos"
@@ -476,9 +483,6 @@ msgstr "Usa le predefinite de systema"
 
 #~ msgid "Mark as unread"
 #~ msgstr "Marca como non legite"
-
-#~ msgid "Mark as read"
-#~ msgstr "Marca como legite"
 
 #~ msgid "Show all entries"
 #~ msgstr "Monstra omne entratas"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-08 00:40+0000\n"
+"POT-Creation-Date: 2025-01-11 00:40+0000\n"
 "PO-Revision-Date: 2024-12-24 20:39+0530\n"
 "Last-Translator: kali <shreekantkalwar@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -29,12 +29,12 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "skkalwar999@gmail.com"
 
-#: database.cpp:80 database.cpp:336
+#: database.cpp:80 database.cpp:357
 #, kde-format
 msgid "Default"
 msgstr "मूलभूतम्‌"
 
-#: database.cpp:81 database.cpp:337
+#: database.cpp:81 database.cpp:358
 #, kde-format
 msgid "Default Feed Group"
 msgstr "पूर्वनिर्धारित फीड समूह"
@@ -167,62 +167,69 @@ msgstr "इत्यनेन"
 msgid "Refresh"
 msgstr "ताजगी"
 
-#: qml/EntryListPage.qml:52
+#: qml/EntryListPage.qml:51
+#, fuzzy, kde-format
+#| msgid "Mark entries as read"
+msgctxt "@action:button"
+msgid "Mark all read"
+msgstr "प्रविष्टीनां पठितरूपेण चिह्नं कुर्वन्तु"
+
+#: qml/EntryListPage.qml:63
 #, kde-format
 msgid "Details"
 msgstr "वर्णन"
 
-#: qml/EntryListPage.qml:68
+#: qml/EntryListPage.qml:79
 #, kde-format
 msgid "Expand sidebar"
 msgstr "पार्श्वपट्टिकां विस्तारयन्तु"
 
-#: qml/EntryListPage.qml:68
+#: qml/EntryListPage.qml:79
 #, kde-format
 msgid "Collapse sidebar"
 msgstr "पार्श्वपट्टिकां संकुचितं कुर्वन्तु"
 
-#: qml/EntryListPage.qml:78
+#: qml/EntryListPage.qml:89
 #, kde-format
 msgid "All Entries"
 msgstr "सर्वाणि प्रविष्टयः"
 
-#: qml/EntryListPage.qml:86
+#: qml/EntryListPage.qml:97
 #, kde-format
 msgid "Error"
 msgstr "त्रुटि"
 
-#: qml/EntryListPage.qml:87 qml/EntryListPage.qml:110
+#: qml/EntryListPage.qml:98 qml/EntryListPage.qml:121
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "त्रुटि (%1): %2"
 
-#: qml/EntryListPage.qml:103
+#: qml/EntryListPage.qml:114
 #, kde-format
 msgid "No unread entries available"
 msgstr "अपठितप्रविष्टयः उपलब्धाः नास्ति"
 
-#: qml/EntryListPage.qml:105
+#: qml/EntryListPage.qml:116
 #, kde-format
 msgid "No favorite entries available"
 msgstr "प्रियप्रविष्टयः उपलब्धाः नास्ति"
 
-#: qml/EntryListPage.qml:107
+#: qml/EntryListPage.qml:118
 #, kde-format
 msgid "No entries available"
 msgstr "प्रविष्टयः उपलब्धाः न सन्ति"
 
-#: qml/EntryListPage.qml:145
+#: qml/EntryListPage.qml:156
 #, kde-format
 msgid "All"
 msgstr "सर्वे"
 
-#: qml/EntryListPage.qml:154
+#: qml/EntryListPage.qml:165
 #, kde-format
 msgid "Unread"
 msgstr "अपठित"
 
-#: qml/EntryListPage.qml:163
+#: qml/EntryListPage.qml:174
 #, kde-format
 msgid "Favorites"
 msgstr "प्रियाः"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-08 00:40+0000\n"
+"POT-Creation-Date: 2025-01-11 00:40+0000\n"
 "PO-Revision-Date: 2024-12-01 07:32+0100\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -28,12 +28,12 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "matjaz.jeran@amis.net"
 
-#: database.cpp:80 database.cpp:336
+#: database.cpp:80 database.cpp:357
 #, kde-format
 msgid "Default"
 msgstr "Privzeto"
 
-#: database.cpp:81 database.cpp:337
+#: database.cpp:81 database.cpp:358
 #, kde-format
 msgid "Default Feed Group"
 msgstr "Privzeta grupa virov"
@@ -166,62 +166,69 @@ msgstr "od"
 msgid "Refresh"
 msgstr "Osveži"
 
-#: qml/EntryListPage.qml:52
+#: qml/EntryListPage.qml:51
+#, fuzzy, kde-format
+#| msgid "Mark as read"
+msgctxt "@action:button"
+msgid "Mark all read"
+msgstr "Označi kot prebrano"
+
+#: qml/EntryListPage.qml:63
 #, kde-format
 msgid "Details"
 msgstr "Podrobnosti"
 
-#: qml/EntryListPage.qml:68
+#: qml/EntryListPage.qml:79
 #, kde-format
 msgid "Expand sidebar"
 msgstr "Razširi stransko letvico"
 
-#: qml/EntryListPage.qml:68
+#: qml/EntryListPage.qml:79
 #, kde-format
 msgid "Collapse sidebar"
 msgstr "Strni stransko letvico"
 
-#: qml/EntryListPage.qml:78
+#: qml/EntryListPage.qml:89
 #, kde-format
 msgid "All Entries"
 msgstr "Vsi vnosi"
 
-#: qml/EntryListPage.qml:86
+#: qml/EntryListPage.qml:97
 #, kde-format
 msgid "Error"
 msgstr "Napaka"
 
-#: qml/EntryListPage.qml:87 qml/EntryListPage.qml:110
+#: qml/EntryListPage.qml:98 qml/EntryListPage.qml:121
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "Napaka (%1): %2"
 
-#: qml/EntryListPage.qml:103
+#: qml/EntryListPage.qml:114
 #, kde-format
 msgid "No unread entries available"
 msgstr "Nobenega neprebranega vnosa ni na voljo"
 
-#: qml/EntryListPage.qml:105
+#: qml/EntryListPage.qml:116
 #, kde-format
 msgid "No favorite entries available"
 msgstr "Nobenega priljubljenega vnosa ni na voljo"
 
-#: qml/EntryListPage.qml:107
+#: qml/EntryListPage.qml:118
 #, kde-format
 msgid "No entries available"
 msgstr "Nobenega vnosa ni na voljo"
 
-#: qml/EntryListPage.qml:145
+#: qml/EntryListPage.qml:156
 #, kde-format
 msgid "All"
 msgstr "Vse"
 
-#: qml/EntryListPage.qml:154
+#: qml/EntryListPage.qml:165
 #, kde-format
 msgid "Unread"
 msgstr "Neprebrano"
 
-#: qml/EntryListPage.qml:163
+#: qml/EntryListPage.qml:174
 #, kde-format
 msgid "Favorites"
 msgstr "Priljubljeni"
@@ -478,9 +485,6 @@ msgstr "Uporabi sistemsko privzeto"
 
 #~ msgid "Mark as unread"
 #~ msgstr "Označi kot neprebrano"
-
-#~ msgid "Mark as read"
-#~ msgstr "Označi kot prebrano"
 
 #~ msgid "Show all entries"
 #~ msgstr "Prikaži vse vnose"

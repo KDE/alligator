@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-08 00:40+0000\n"
+"POT-Creation-Date: 2025-01-11 00:40+0000\n"
 "PO-Revision-Date: 2024-04-22 15:58\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -27,12 +27,12 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ratizux@kde.org, sd369888@kde.org, tds00@qq.com, deconf@kde.org"
 
-#: database.cpp:80 database.cpp:336
+#: database.cpp:80 database.cpp:357
 #, kde-format
 msgid "Default"
 msgstr "默认"
 
-#: database.cpp:81 database.cpp:337
+#: database.cpp:81 database.cpp:358
 #, kde-format
 msgid "Default Feed Group"
 msgstr "默认源分组"
@@ -165,62 +165,69 @@ msgstr "作者："
 msgid "Refresh"
 msgstr "刷新"
 
-#: qml/EntryListPage.qml:52
+#: qml/EntryListPage.qml:51
+#, fuzzy, kde-format
+#| msgid "Mark entries as read"
+msgctxt "@action:button"
+msgid "Mark all read"
+msgstr "标记条目为已读"
+
+#: qml/EntryListPage.qml:63
 #, kde-format
 msgid "Details"
 msgstr "详细信息"
 
-#: qml/EntryListPage.qml:68
+#: qml/EntryListPage.qml:79
 #, kde-format
 msgid "Expand sidebar"
 msgstr "展开侧边栏"
 
-#: qml/EntryListPage.qml:68
+#: qml/EntryListPage.qml:79
 #, kde-format
 msgid "Collapse sidebar"
 msgstr "折叠侧边栏"
 
-#: qml/EntryListPage.qml:78
+#: qml/EntryListPage.qml:89
 #, kde-format
 msgid "All Entries"
 msgstr "全部新闻"
 
-#: qml/EntryListPage.qml:86
+#: qml/EntryListPage.qml:97
 #, kde-format
 msgid "Error"
 msgstr "错误"
 
-#: qml/EntryListPage.qml:87 qml/EntryListPage.qml:110
+#: qml/EntryListPage.qml:98 qml/EntryListPage.qml:121
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "错误 (%1)：%2"
 
-#: qml/EntryListPage.qml:103
+#: qml/EntryListPage.qml:114
 #, kde-format
 msgid "No unread entries available"
 msgstr "无未读条目"
 
-#: qml/EntryListPage.qml:105
+#: qml/EntryListPage.qml:116
 #, kde-format
 msgid "No favorite entries available"
 msgstr ""
 
-#: qml/EntryListPage.qml:107
+#: qml/EntryListPage.qml:118
 #, kde-format
 msgid "No entries available"
 msgstr "没有可用的条目"
 
-#: qml/EntryListPage.qml:145
+#: qml/EntryListPage.qml:156
 #, kde-format
 msgid "All"
 msgstr "全部"
 
-#: qml/EntryListPage.qml:154
+#: qml/EntryListPage.qml:165
 #, kde-format
 msgid "Unread"
 msgstr "未读"
 
-#: qml/EntryListPage.qml:163
+#: qml/EntryListPage.qml:174
 #, kde-format
 msgid "Favorites"
 msgstr ""

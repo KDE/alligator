@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-08 00:40+0000\n"
+"POT-Creation-Date: 2025-01-11 00:40+0000\n"
 "PO-Revision-Date: 2023-03-06 16:33+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -23,12 +23,12 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "zepires@gmail.com"
 
-#: database.cpp:80 database.cpp:336
+#: database.cpp:80 database.cpp:357
 #, kde-format
 msgid "Default"
 msgstr "Predefinição"
 
-#: database.cpp:81 database.cpp:337
+#: database.cpp:81 database.cpp:358
 #, kde-format
 msgid "Default Feed Group"
 msgstr "Grupo de Fontes Predefinido"
@@ -165,63 +165,70 @@ msgstr "de"
 msgid "Refresh"
 msgstr "Actualizar"
 
-#: qml/EntryListPage.qml:52
+#: qml/EntryListPage.qml:51
+#, fuzzy, kde-format
+#| msgid "Mark entries as read"
+msgctxt "@action:button"
+msgid "Mark all read"
+msgstr "Marcar os itens como lidos"
+
+#: qml/EntryListPage.qml:63
 #, kde-format
 msgid "Details"
 msgstr "Detalhes"
 
-#: qml/EntryListPage.qml:68
+#: qml/EntryListPage.qml:79
 #, kde-format
 msgid "Expand sidebar"
 msgstr "Expandir a barra lateral"
 
-#: qml/EntryListPage.qml:68
+#: qml/EntryListPage.qml:79
 #, kde-format
 msgid "Collapse sidebar"
 msgstr "Recolher a barra lateral"
 
-#: qml/EntryListPage.qml:78
+#: qml/EntryListPage.qml:89
 #, kde-format
 msgid "All Entries"
 msgstr "Todos os Itens"
 
-#: qml/EntryListPage.qml:86
+#: qml/EntryListPage.qml:97
 #, kde-format
 msgid "Error"
 msgstr "Erro"
 
-#: qml/EntryListPage.qml:87 qml/EntryListPage.qml:110
+#: qml/EntryListPage.qml:98 qml/EntryListPage.qml:121
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "Erro (%1): %2"
 
-#: qml/EntryListPage.qml:103
+#: qml/EntryListPage.qml:114
 #, kde-format
 msgid "No unread entries available"
 msgstr "Sem itens não-lidos disponíveis"
 
-#: qml/EntryListPage.qml:105
+#: qml/EntryListPage.qml:116
 #, fuzzy, kde-format
 #| msgid "No unread entries available"
 msgid "No favorite entries available"
 msgstr "Sem itens não-lidos disponíveis"
 
-#: qml/EntryListPage.qml:107
+#: qml/EntryListPage.qml:118
 #, kde-format
 msgid "No entries available"
 msgstr "Sem itens disponíveis"
 
-#: qml/EntryListPage.qml:145
+#: qml/EntryListPage.qml:156
 #, kde-format
 msgid "All"
 msgstr "Tudo"
 
-#: qml/EntryListPage.qml:154
+#: qml/EntryListPage.qml:165
 #, kde-format
 msgid "Unread"
 msgstr "Não Lido"
 
-#: qml/EntryListPage.qml:163
+#: qml/EntryListPage.qml:174
 #, kde-format
 msgid "Favorites"
 msgstr ""
