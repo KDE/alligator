@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-01-11 00:40+0000\n"
-"PO-Revision-Date: 2024-12-29 12:45+0100\n"
+"PO-Revision-Date: 2025-01-11 22:49+0100\n"
 "Last-Translator: Oliver Kellogg <olivermkellogg@gmail.com>\n"
 "Language-Team: Esperanto <kde-i18n-eo@kde.org>\n"
 "Language: eo\n"
@@ -167,11 +167,10 @@ msgid "Refresh"
 msgstr "Refreŝigi"
 
 #: qml/EntryListPage.qml:51
-#, fuzzy, kde-format
-#| msgid "Mark entries as read"
+#, kde-format
 msgctxt "@action:button"
 msgid "Mark all read"
-msgstr "Marki enskribojn kiel legitajn"
+msgstr "Marki ĉiujn kiel legite"
 
 #: qml/EntryListPage.qml:63
 #, kde-format

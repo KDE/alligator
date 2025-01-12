@@ -166,11 +166,10 @@ msgid "Refresh"
 msgstr "刷新"
 
 #: qml/EntryListPage.qml:51
-#, fuzzy, kde-format
-#| msgid "Mark entries as read"
+#, kde-format
 msgctxt "@action:button"
 msgid "Mark all read"
-msgstr "标记条目为已读"
+msgstr ""
 
 #: qml/EntryListPage.qml:63
 #, kde-format

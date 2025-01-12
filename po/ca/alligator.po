@@ -1,16 +1,16 @@
 # Translation of alligator.po to Catalan
-# Copyright (C) 2020-2024 This_file_is_part_of_KDE
+# Copyright (C) 2020-2025 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
 #
-# Josep M. Ferrer <txemaq@gmail.com>, 2020, 2022, 2023, 2024.
+# Josep M. Ferrer <txemaq@gmail.com>, 2020, 2022, 2023, 2024, 2025.
 # Antoni Bella Pérez <antonibella5@yahoo.com>, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-01-11 00:40+0000\n"
-"PO-Revision-Date: 2024-12-01 09:58+0100\n"
+"PO-Revision-Date: 2025-01-11 10:31+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -171,11 +171,10 @@ msgid "Refresh"
 msgstr "Actualitza"
 
 #: qml/EntryListPage.qml:51
-#, fuzzy, kde-format
-#| msgid "Mark entries as read"
+#, kde-format
 msgctxt "@action:button"
 msgid "Mark all read"
-msgstr "Marca les entrades com a llegides"
+msgstr "Marca-ho tot com a llegit"
 
 #: qml/EntryListPage.qml:63
 #, kde-format
