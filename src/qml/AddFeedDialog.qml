@@ -22,7 +22,7 @@ FormCard.FormCardPage {
         Layout.topMargin: Kirigami.Units.largeSpacing
         FormCard.FormTextFieldDelegate {
             id: urlField
-            label: i18n("Url")
+            label: i18n("URL")
             placeholderText: "https://planet.kde.org/global/atom.xml/"
             validator: RegularExpressionValidator { regularExpression: /\S+/ }
         }
