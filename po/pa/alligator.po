@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-11 00:40+0000\n"
+"POT-Creation-Date: 2025-01-16 00:40+0000\n"
 "PO-Revision-Date: 2024-02-11 11:46-0600\n"
 "Last-Translator: A S Alam <aalam@punlinux.org>\n"
 "Language-Team: Punjabi <kde-i18n-doc@kde.org>\n"
@@ -95,8 +95,8 @@ msgstr "ਫੀਡ ਜੋੜੋ"
 
 #: qml/AddFeedDialog.qml:25
 #, kde-format
-msgid "Url"
-msgstr "Url"
+msgid "URL"
+msgstr ""
 
 #: qml/AddFeedDialog.qml:32
 #, kde-format
@@ -469,6 +469,9 @@ msgstr "ਫੋਂਟ ਦਾ ਆਕਾਰ:"
 #, kde-format
 msgid "Use system default"
 msgstr "ਸਿਸਟਮ ਦੇ ਮੂਲ ਵਰਤੋਂ"
+
+#~ msgid "Url"
+#~ msgstr "Url"
 
 #~ msgid "Import Feeds..."
 #~ msgstr "ਫੀਡ ਦਰਾਮਦ ਕਰੋ..."

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-11 00:40+0000\n"
+"POT-Creation-Date: 2025-01-16 00:40+0000\n"
 "PO-Revision-Date: 2024-08-20 19:39+0200\n"
 "Last-Translator: Johannes Obermayr <johannesobermayr@gmx.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -96,8 +96,8 @@ msgstr "Nachrichtenquelle hinzufügen"
 
 #: qml/AddFeedDialog.qml:25
 #, kde-format
-msgid "Url"
-msgstr "Adresse"
+msgid "URL"
+msgstr ""
 
 #: qml/AddFeedDialog.qml:32
 #, kde-format
@@ -471,6 +471,9 @@ msgstr "Schriftgröße:"
 #, kde-format
 msgid "Use system default"
 msgstr "Voreinstellungen des Systems verwenden"
+
+#~ msgid "Url"
+#~ msgstr "Adresse"
 
 #~ msgid "Import Feeds..."
 #~ msgstr "Nachrichtenquellen importieren ..."

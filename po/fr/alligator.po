@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-11 00:40+0000\n"
+"POT-Creation-Date: 2025-01-16 00:40+0000\n"
 "PO-Revision-Date: 2025-01-12 09:37+0100\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
@@ -92,8 +92,8 @@ msgstr "Ajouter un flux"
 
 #: qml/AddFeedDialog.qml:25
 #, kde-format
-msgid "Url"
-msgstr "URL"
+msgid "URL"
+msgstr ""
 
 #: qml/AddFeedDialog.qml:32
 #, kde-format
@@ -464,6 +464,9 @@ msgstr "Taille de la police :"
 #, kde-format
 msgid "Use system default"
 msgstr "Utiliser la valeur par défaut du système"
+
+#~ msgid "Url"
+#~ msgstr "URL"
 
 #~ msgid "Import Feeds..."
 #~ msgstr "Importer des flux..."

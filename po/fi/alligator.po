@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-11 00:40+0000\n"
+"POT-Creation-Date: 2025-01-16 00:40+0000\n"
 "PO-Revision-Date: 2024-12-09 21:01+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -95,8 +95,8 @@ msgstr "Lisää syöte"
 
 #: qml/AddFeedDialog.qml:25
 #, kde-format
-msgid "Url"
-msgstr "Verkko-osoite"
+msgid "URL"
+msgstr ""
 
 #: qml/AddFeedDialog.qml:32
 #, kde-format
@@ -468,6 +468,9 @@ msgstr "Fonttikoko:"
 #, kde-format
 msgid "Use system default"
 msgstr "Käytä järjestelmän oletusta"
+
+#~ msgid "Url"
+#~ msgstr "Verkko-osoite"
 
 #~ msgid "Import Feeds..."
 #~ msgstr "Tuo syötteitä…"

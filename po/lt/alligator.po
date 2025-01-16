@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-11 00:40+0000\n"
+"POT-Creation-Date: 2025-01-16 00:40+0000\n"
 "PO-Revision-Date: 2020-10-23 02:33+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -95,7 +95,7 @@ msgstr ""
 
 #: qml/AddFeedDialog.qml:25
 #, kde-format
-msgid "Url"
+msgid "URL"
 msgstr ""
 
 #: qml/AddFeedDialog.qml:32

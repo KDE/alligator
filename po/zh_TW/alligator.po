@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-11 00:40+0000\n"
+"POT-Creation-Date: 2025-01-16 00:40+0000\n"
 "PO-Revision-Date: 2024-12-30 17:14+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -97,8 +97,8 @@ msgstr "新增 feed"
 
 #: qml/AddFeedDialog.qml:25
 #, kde-format
-msgid "Url"
-msgstr "網址"
+msgid "URL"
+msgstr ""
 
 #: qml/AddFeedDialog.qml:32
 #, kde-format
@@ -469,6 +469,9 @@ msgstr "字型大小："
 #, kde-format
 msgid "Use system default"
 msgstr "使用系統預設"
+
+#~ msgid "Url"
+#~ msgstr "網址"
 
 #~ msgid "Import Feeds..."
 #~ msgstr "匯入 feed…"

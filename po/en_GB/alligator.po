@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-11 00:40+0000\n"
+"POT-Creation-Date: 2025-01-16 00:40+0000\n"
 "PO-Revision-Date: 2024-11-23 12:08+0000\n"
 "Last-Translator: Steve Allewell <steve.allewell@gmail.com>\n"
 "Language-Team: British English\n"
@@ -94,8 +94,8 @@ msgstr "Add Feed"
 
 #: qml/AddFeedDialog.qml:25
 #, kde-format
-msgid "Url"
-msgstr "URL"
+msgid "URL"
+msgstr ""
 
 #: qml/AddFeedDialog.qml:32
 #, kde-format
@@ -468,6 +468,9 @@ msgstr "Font size:"
 #, kde-format
 msgid "Use system default"
 msgstr "Use system default"
+
+#~ msgid "Url"
+#~ msgstr "URL"
 
 #~ msgid "Import Feeds..."
 #~ msgstr "Import Feeds..."
