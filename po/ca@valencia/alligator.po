@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-01-16 00:40+0000\n"
-"PO-Revision-Date: 2025-01-11 10:31+0100\n"
+"PO-Revision-Date: 2025-01-16 10:39+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -99,7 +99,7 @@ msgstr "Afig una font"
 #: qml/AddFeedDialog.qml:25
 #, kde-format
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: qml/AddFeedDialog.qml:32
 #, kde-format
@@ -471,6 +471,3 @@ msgstr "Mida de la lletra:"
 #, kde-format
 msgid "Use system default"
 msgstr "Utilitza la predeterminada del sistema"
-
-#~ msgid "Url"
-#~ msgstr "URL"
