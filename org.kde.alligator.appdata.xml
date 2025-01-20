@@ -72,6 +72,7 @@
   <summary xml:lang="tr">RSS Beslemesi Okuyucusu</summary>
   <summary xml:lang="uk">Програма для читання подач RSS</summary>
   <summary xml:lang="x-test">xxRSS feed readerxx</summary>
+  <summary xml:lang="zh-CN">RSS 订阅阅读器</summary>
   <summary xml:lang="zh-TW">RSS Feed 閱讀器</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0-or-later</project_license>
@@ -110,6 +111,7 @@
     <p xml:lang="tr">Aligatör, standart RSS/Atom beslemelerini destekleyen; yakınsak, çapraz platform bir besleme okuyucusudur.</p>
     <p xml:lang="uk">Alligator — гнучка, багатоплатформова програма для читання подач з підтримкою стандартів RSS/Atom</p>
     <p xml:lang="x-test">xxAlligator is a convergent, cross-platform feed reader, supporting standard RSS/Atom feedsxx</p>
+    <p xml:lang="zh-CN">Alligator 是一款融合型、跨平台的订阅源阅读器，支持标准的 RSS/Atom 订阅源。</p>
     <p xml:lang="zh-TW">Alligator 是一個跨平台、響應式的 feed 閱讀器，支援標準的 RSS/Atom 訂閱來源</p>
   </description>
   <provides>
