@@ -65,7 +65,7 @@ msgstr "新闻源阅读器"
 #: main.cpp:80
 #, kde-format
 msgid "© 2020-2024 KDE Community"
-msgstr ""
+msgstr "© 2020-2024 KDE Community"
 
 #: main.cpp:81
 #, kde-format
@@ -95,7 +95,7 @@ msgstr "添加新闻源"
 #: qml/AddFeedDialog.qml:25
 #, kde-format
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: qml/AddFeedDialog.qml:32
 #, kde-format
@@ -142,7 +142,7 @@ msgstr "编辑新闻源"
 #: qml/EditFeedDialog.qml:33
 #, kde-format
 msgid "Feed URL:"
-msgstr ""
+msgstr "订阅源 URL ："
 
 #: qml/EditFeedDialog.qml:41
 #, kde-format
@@ -169,7 +169,7 @@ msgstr "刷新"
 #, kde-format
 msgctxt "@action:button"
 msgid "Mark all read"
-msgstr ""
+msgstr "全部标记为已读"
 
 #: qml/EntryListPage.qml:63
 #, kde-format
@@ -209,7 +209,7 @@ msgstr "无未读条目"
 #: qml/EntryListPage.qml:116
 #, kde-format
 msgid "No favorite entries available"
-msgstr ""
+msgstr "没有收藏条目。"
 
 #: qml/EntryListPage.qml:118
 #, kde-format
@@ -229,19 +229,19 @@ msgstr "未读"
 #: qml/EntryListPage.qml:174
 #, kde-format
 msgid "Favorites"
-msgstr ""
+msgstr "收藏"
 
 #: qml/EntryPage.qml:69
 #, kde-format
 msgctxt "@action:button"
 msgid "Remove from Favorites"
-msgstr ""
+msgstr "从收藏中移除"
 
 #: qml/EntryPage.qml:69
 #, kde-format
 msgctxt "@action:button"
 msgid "Add to Favorites"
-msgstr ""
+msgstr "添加到收藏"
 
 #: qml/EntryPage.qml:77
 #, kde-format
@@ -257,7 +257,7 @@ msgstr "%1 - 详细信息"
 #: qml/FeedDetailsPage.qml:25
 #, kde-format
 msgid "Close"
-msgstr ""
+msgstr "关闭"
 
 #: qml/FeedDetailsPage.qml:46
 #, kde-format
