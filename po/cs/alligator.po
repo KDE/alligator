@@ -95,7 +95,7 @@ msgstr "Přidat kanál"
 #: qml/AddFeedDialog.qml:25
 #, kde-format
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: qml/AddFeedDialog.qml:32
 #, kde-format
