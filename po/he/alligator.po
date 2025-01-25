@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-01-16 00:40+0000\n"
-"PO-Revision-Date: 2025-01-17 09:48+0200\n"
+"PO-Revision-Date: 2025-01-24 09:20+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -164,7 +164,7 @@ msgstr "מאת"
 #: qml/EntryListPage.qml:45
 #, kde-format
 msgid "Refresh"
-msgstr "רענון"
+msgstr "ריענון"
 
 #: qml/EntryListPage.qml:51
 #, kde-format
@@ -326,7 +326,7 @@ msgstr "ניהול ערוצי עדכונים"
 #: qml/FeedListPage.qml:30
 #, kde-format
 msgid "Refresh All Feeds"
-msgstr "רענון כל ערוצי העדכונים"
+msgstr "ריענון כל ערוצי העדכונים"
 
 #: qml/FeedListPage.qml:36
 #, kde-format
