@@ -295,6 +295,9 @@
     </release>
     <release version="21.05" date="2021-05-10"/>
   </releases>
+  <requires>
+    <display_length compare="ge">360</display_length>
+  </requires>
   <custom>
     <value key="KDE::supporters">Ian Nicholson;Psyhackological;Roguefort;[JayVii](https://social.jayvii.de/@jayvii)</value>
   </custom>
