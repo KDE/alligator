@@ -468,7 +468,3 @@ msgstr "Skriftstorleik:"
 #, kde-format
 msgid "Use system default"
 msgstr "Bruk systemstandard"
-
-#, fuzzy
-#~ msgid "Url"
-#~ msgstr "Adresse:"
