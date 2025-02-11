@@ -140,10 +140,9 @@ msgid "Edit Feed"
 msgstr "Upravit kanál"
 
 #: qml/EditFeedDialog.qml:33
-#, fuzzy, kde-format
-#| msgid "feed URL"
+#, kde-format
 msgid "Feed URL:"
-msgstr "URL kanálu"
+msgstr ""
 
 #: qml/EditFeedDialog.qml:41
 #, kde-format
@@ -167,11 +166,10 @@ msgid "Refresh"
 msgstr "Obnovit"
 
 #: qml/EntryListPage.qml:51
-#, fuzzy, kde-format
-#| msgid "Mark entries as read"
+#, kde-format
 msgctxt "@action:button"
 msgid "Mark all read"
-msgstr "Označit položky jako přečtené"
+msgstr ""
 
 #: qml/EntryListPage.qml:63
 #, kde-format
@@ -209,10 +207,9 @@ msgid "No unread entries available"
 msgstr "Nejsou dostupné žádné nepřečtené záznamy"
 
 #: qml/EntryListPage.qml:116
-#, fuzzy, kde-format
-#| msgid "No unread entries available"
+#, kde-format
 msgid "No favorite entries available"
-msgstr "Nejsou dostupné žádné nepřečtené záznamy"
+msgstr ""
 
 #: qml/EntryListPage.qml:118
 #, kde-format
@@ -470,6 +467,3 @@ msgstr "Velikost písma:"
 #, kde-format
 msgid "Use system default"
 msgstr "Použít výchozí systémový"
-
-#~ msgid "Url"
-#~ msgstr "Url"
