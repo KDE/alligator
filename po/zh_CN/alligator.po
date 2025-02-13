@@ -142,7 +142,7 @@ msgstr "编辑新闻源"
 #: qml/EditFeedDialog.qml:33
 #, kde-format
 msgid "Feed URL:"
-msgstr "订阅源 URL ："
+msgstr "订阅源 URL："
 
 #: qml/EditFeedDialog.qml:41
 #, kde-format
@@ -209,7 +209,7 @@ msgstr "无未读条目"
 #: qml/EntryListPage.qml:116
 #, kde-format
 msgid "No favorite entries available"
-msgstr "没有收藏条目。"
+msgstr "没有收藏条目"
 
 #: qml/EntryListPage.qml:118
 #, kde-format
