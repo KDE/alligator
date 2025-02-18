@@ -74,6 +74,13 @@ Kirigami.ScrollablePage {
 
     titleDelegate: RowLayout {
         spacing: Kirigami.Units.smallSpacing
+
+        Layout.fillWidth: true
+        Layout.maximumWidth: implicitWidth
+
+        implicitWidth: heading.implicitWidth
+        implicitHeight: heading.implicitHeight
+
         Controls.ToolButton {
             visible: !applicationWindow().globalDrawer.modal
             text: AlligatorSettings.sidebarCollapsed ? i18n("Expand sidebar") : i18n("Collapse sidebar")
@@ -85,8 +92,12 @@ Kirigami.ScrollablePage {
         }
 
         Kirigami.Heading {
+            id: heading
             Layout.fillWidth: true
             text: page.feed === null ? i18n("All Entries") : page.feed.displayName || page.feed.name
+            maximumLineCount: 1
+            elide: Text.ElideRight
+            textFormat: Text.PlainText
         }
     }
 
