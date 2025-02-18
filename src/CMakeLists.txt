@@ -88,6 +88,8 @@ if(ANDROID)
         dialog-cancel
         editor
         favorite-symbolic
+        sidebar-collapse
+        sidebar-expand
     )
     ecm_add_android_apk(alligator ANDROID_DIR ${CMAKE_SOURCE_DIR}/android)
 else()
