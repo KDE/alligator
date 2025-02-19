@@ -49,7 +49,7 @@ int main(int argc, char *argv[])
         QQuickStyle::setStyle(QStringLiteral("org.kde.desktop"));
     }
 #endif
-    KColorSchemeManager colorMgr;
+    KColorSchemeManager::instance();
 
 #ifdef Q_OS_WINDOWS
     if (AttachConsole(ATTACH_PARENT_PROCESS)) {
