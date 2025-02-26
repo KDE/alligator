@@ -81,6 +81,10 @@ int main(int argc, char *argv[])
     about.addAuthor(i18n("Tobias Fella"), QString(), QStringLiteral("tobias.fella@kde.org"), QStringLiteral("https://tobiasfella.de"));
     KAboutData::setApplicationData(about);
 
+#ifndef Q_OS_ANDROID
+    QApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("alligator")));
+#endif
+
     QQmlApplicationEngine engine;
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
 
