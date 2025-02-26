@@ -123,7 +123,7 @@ Kirigami.ScrollablePage {
         id: importDialog
         title: i18n("Import Feeds")
         folder: StandardPaths.writableLocation(StandardPaths.HomeLocation)
-        nameFilters: [i18n("All Files (*)"), i18n("XML Files (*.xml)"), i18n("OPML Files (*.opml)")]
+        nameFilters: [i18n("OPML Files (*.opml)"), i18n("XML Files (*.xml)"), i18n("All Files (*)")]
         onAccepted: Database.importFeeds(file)
     }
 
@@ -131,7 +131,7 @@ Kirigami.ScrollablePage {
         id: exportDialog
         title: i18n("Export Feeds")
         folder: StandardPaths.writableLocation(StandardPaths.HomeLocation)
-        nameFilters: [i18n("All Files")]
+        nameFilters: [i18n("OPML Files (*.opml)"), i18n("All Files")]
         onAccepted: Database.exportFeeds(file)
         fileMode: FileDialog.SaveFile
     }
