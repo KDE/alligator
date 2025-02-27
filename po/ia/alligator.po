@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-16 00:40+0000\n"
+"POT-Creation-Date: 2025-02-27 00:40+0000\n"
 "PO-Revision-Date: 2025-01-17 12:10+0100\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
@@ -73,17 +73,17 @@ msgstr "© 2020-2024 Communitate de KDE"
 msgid "Tobias Fella"
 msgstr "Tobias Fella"
 
-#: main.cpp:88
+#: main.cpp:92
 #, kde-format
 msgid "RSS/Atom Feed Reader"
 msgstr "Lector de syndication RSS/Atom"
 
-#: main.cpp:90
+#: main.cpp:94
 #, kde-format
 msgid "Adds a new feed to database."
 msgstr "Ade un nove syndication al base de datos"
 
-#: main.cpp:91
+#: main.cpp:95
 #, kde-format
 msgid "feed URL"
 msgstr "Url de syndication"
@@ -362,10 +362,10 @@ msgstr "Necun syndication addite totevia."
 msgid "Import Feeds"
 msgstr "Importa syndicationes..."
 
-#: qml/FeedListPage.qml:126
+#: qml/FeedListPage.qml:126 qml/FeedListPage.qml:134
 #, kde-format
-msgid "All Files (*)"
-msgstr "Omne files (*)"
+msgid "OPML Files (*.opml)"
+msgstr "Files OPML  (*.opml)"
 
 #: qml/FeedListPage.qml:126
 #, kde-format
@@ -374,8 +374,8 @@ msgstr "Files XML  (*.xml)"
 
 #: qml/FeedListPage.qml:126
 #, kde-format
-msgid "OPML Files (*.opml)"
-msgstr "Files OPML  (*.opml)"
+msgid "All Files (*)"
+msgstr "Omne files (*)"
 
 #: qml/FeedListPage.qml:132
 #, kde-format

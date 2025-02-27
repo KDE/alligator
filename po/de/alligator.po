@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-16 00:40+0000\n"
+"POT-Creation-Date: 2025-02-27 00:40+0000\n"
 "PO-Revision-Date: 2024-08-20 19:39+0200\n"
 "Last-Translator: Johannes Obermayr <johannesobermayr@gmx.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -74,17 +74,17 @@ msgstr "© 2020-2024 KDE-Gemeinschaft"
 msgid "Tobias Fella"
 msgstr "Tobias Fella"
 
-#: main.cpp:88
+#: main.cpp:92
 #, kde-format
 msgid "RSS/Atom Feed Reader"
 msgstr "Anzeigeprogramm für RSS/Atom-Nachrichtenquellen"
 
-#: main.cpp:90
+#: main.cpp:94
 #, kde-format
 msgid "Adds a new feed to database."
 msgstr "Fügt eine neue Nachrichtenquelle zur Datenbank hinzu."
 
-#: main.cpp:91
+#: main.cpp:95
 #, kde-format
 msgid "feed URL"
 msgstr "Adresse der Nachrichtenquelle"
@@ -366,10 +366,10 @@ msgstr "Noch keine Nachrichtenquellen hinzugefügt"
 msgid "Import Feeds"
 msgstr "Nachrichtenquellen importieren"
 
-#: qml/FeedListPage.qml:126
+#: qml/FeedListPage.qml:126 qml/FeedListPage.qml:134
 #, kde-format
-msgid "All Files (*)"
-msgstr "Alle Dateien (*)"
+msgid "OPML Files (*.opml)"
+msgstr "OPML-Dateien (*.opml)"
 
 #: qml/FeedListPage.qml:126
 #, kde-format
@@ -378,8 +378,8 @@ msgstr "XML-Dateien (*.xml)"
 
 #: qml/FeedListPage.qml:126
 #, kde-format
-msgid "OPML Files (*.opml)"
-msgstr "OPML-Dateien (*.opml)"
+msgid "All Files (*)"
+msgstr "Alle Dateien (*)"
 
 #: qml/FeedListPage.qml:132
 #, kde-format

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-16 00:40+0000\n"
+"POT-Creation-Date: 2025-02-27 00:40+0000\n"
 "PO-Revision-Date: 2025-01-16 10:39+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -76,17 +76,17 @@ msgstr "© 2020-2024 Comunitat KDE"
 msgid "Tobias Fella"
 msgstr "Tobias Fella"
 
-#: main.cpp:88
+#: main.cpp:92
 #, kde-format
 msgid "RSS/Atom Feed Reader"
 msgstr "Lector de fonts RSS/Atom"
 
-#: main.cpp:90
+#: main.cpp:94
 #, kde-format
 msgid "Adds a new feed to database."
 msgstr "Afig una font nova a la base de dades."
 
-#: main.cpp:91
+#: main.cpp:95
 #, kde-format
 msgid "feed URL"
 msgstr "URL de la font"
@@ -366,10 +366,10 @@ msgstr "Encara no s'ha afegit cap font"
 msgid "Import Feeds"
 msgstr "Importa fonts"
 
-#: qml/FeedListPage.qml:126
+#: qml/FeedListPage.qml:126 qml/FeedListPage.qml:134
 #, kde-format
-msgid "All Files (*)"
-msgstr "Tots els fitxers (*)"
+msgid "OPML Files (*.opml)"
+msgstr "Fitxers OPML (*.opml)"
 
 #: qml/FeedListPage.qml:126
 #, kde-format
@@ -378,8 +378,8 @@ msgstr "Fitxers en XML (*.xml)"
 
 #: qml/FeedListPage.qml:126
 #, kde-format
-msgid "OPML Files (*.opml)"
-msgstr "Fitxers OPML (*.opml)"
+msgid "All Files (*)"
+msgstr "Tots els fitxers (*)"
 
 #: qml/FeedListPage.qml:132
 #, kde-format

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-16 00:40+0000\n"
+"POT-Creation-Date: 2025-02-27 00:40+0000\n"
 "PO-Revision-Date: 2024-12-24 20:39+0530\n"
 "Last-Translator: kali <shreekantkalwar@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -74,17 +74,17 @@ msgstr "© 2020-2024 केडीई समुदाय"
 msgid "Tobias Fella"
 msgstr "टोबियास फेला"
 
-#: main.cpp:88
+#: main.cpp:92
 #, kde-format
 msgid "RSS/Atom Feed Reader"
 msgstr "आर एस एस/परमाणु फीड रीडर"
 
-#: main.cpp:90
+#: main.cpp:94
 #, kde-format
 msgid "Adds a new feed to database."
 msgstr "दत्तांशकोशे नूतनं फीड् योजयति ।"
 
-#: main.cpp:91
+#: main.cpp:95
 #, kde-format
 msgid "feed URL"
 msgstr "फीड् URL"
@@ -364,10 +364,10 @@ msgstr "अद्यापि कोऽपि फीड् न योजित�
 msgid "Import Feeds"
 msgstr "आयात फीड्स"
 
-#: qml/FeedListPage.qml:126
+#: qml/FeedListPage.qml:126 qml/FeedListPage.qml:134
 #, kde-format
-msgid "All Files (*)"
-msgstr "सर्वाणि सञ्चिकाः (*) ."
+msgid "OPML Files (*.opml)"
+msgstr "ओपीएमएल सञ्चिकाः (*.opml)"
 
 #: qml/FeedListPage.qml:126
 #, kde-format
@@ -376,8 +376,8 @@ msgstr "XML सञ्चिकाः (*.xml)"
 
 #: qml/FeedListPage.qml:126
 #, kde-format
-msgid "OPML Files (*.opml)"
-msgstr "ओपीएमएल सञ्चिकाः (*.opml)"
+msgid "All Files (*)"
+msgstr "सर्वाणि सञ्चिकाः (*) ."
 
 #: qml/FeedListPage.qml:132
 #, kde-format

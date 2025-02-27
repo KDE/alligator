@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-16 00:40+0000\n"
+"POT-Creation-Date: 2025-02-27 00:40+0000\n"
 "PO-Revision-Date: 2025-01-16 07:30+0100\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -73,17 +73,17 @@ msgstr "© 2020-2024 skupnost KDE"
 msgid "Tobias Fella"
 msgstr "Tobias Fella"
 
-#: main.cpp:88
+#: main.cpp:92
 #, kde-format
 msgid "RSS/Atom Feed Reader"
 msgstr "Bralnik novic RSS/Atom"
 
-#: main.cpp:90
+#: main.cpp:94
 #, kde-format
 msgid "Adds a new feed to database."
 msgstr "Dodaj nov vir v podatkovno bazo."
 
-#: main.cpp:91
+#: main.cpp:95
 #, kde-format
 msgid "feed URL"
 msgstr "naslov vira"
@@ -364,10 +364,10 @@ msgstr "Ni dodanih nobenih virov"
 msgid "Import Feeds"
 msgstr "Uvoz virov"
 
-#: qml/FeedListPage.qml:126
+#: qml/FeedListPage.qml:126 qml/FeedListPage.qml:134
 #, kde-format
-msgid "All Files (*)"
-msgstr "Vse datoteke (*)"
+msgid "OPML Files (*.opml)"
+msgstr "Datoteke OPML (*.opml)"
 
 #: qml/FeedListPage.qml:126
 #, kde-format
@@ -376,8 +376,8 @@ msgstr "Datoteke XML (*.xml)"
 
 #: qml/FeedListPage.qml:126
 #, kde-format
-msgid "OPML Files (*.opml)"
-msgstr "Datoteke OPML (*.opml)"
+msgid "All Files (*)"
+msgstr "Vse datoteke (*)"
 
 #: qml/FeedListPage.qml:132
 #, kde-format

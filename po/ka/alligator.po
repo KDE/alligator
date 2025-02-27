@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-16 00:40+0000\n"
+"POT-Creation-Date: 2025-02-27 00:40+0000\n"
 "PO-Revision-Date: 2025-01-16 02:47+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -73,17 +73,17 @@ msgstr "© 2020-2024 KDE-ის საზოგადოება. ყველ�
 msgid "Tobias Fella"
 msgstr "Tobias Fella"
 
-#: main.cpp:88
+#: main.cpp:92
 #, kde-format
 msgid "RSS/Atom Feed Reader"
 msgstr "RSS/Atom ლენტის მკითხველი"
 
-#: main.cpp:90
+#: main.cpp:94
 #, kde-format
 msgid "Adds a new feed to database."
 msgstr "ბაზაში ახალი ლენტის ჩამატება."
 
-#: main.cpp:91
+#: main.cpp:95
 #, kde-format
 msgid "feed URL"
 msgstr "ლენტის URL"
@@ -362,10 +362,10 @@ msgstr "ლენტები ჯერ დამატებული არა
 msgid "Import Feeds"
 msgstr "ლენტების შემოტანა"
 
-#: qml/FeedListPage.qml:126
+#: qml/FeedListPage.qml:126 qml/FeedListPage.qml:134
 #, kde-format
-msgid "All Files (*)"
-msgstr "ყველა ფაილი (*)"
+msgid "OPML Files (*.opml)"
+msgstr "OPML ფაილები (*.opml)"
 
 #: qml/FeedListPage.qml:126
 #, kde-format
@@ -374,8 +374,8 @@ msgstr "XML ფაილები (*.xml)"
 
 #: qml/FeedListPage.qml:126
 #, kde-format
-msgid "OPML Files (*.opml)"
-msgstr "OPML ფაილები (*.opml)"
+msgid "All Files (*)"
+msgstr "ყველა ფაილი (*)"
 
 #: qml/FeedListPage.qml:132
 #, kde-format
