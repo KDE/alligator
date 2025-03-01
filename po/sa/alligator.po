@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-02-27 00:40+0000\n"
+"POT-Creation-Date: 2025-03-01 00:46+0000\n"
 "PO-Revision-Date: 2024-12-24 20:39+0530\n"
 "Last-Translator: kali <shreekantkalwar@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -179,57 +179,57 @@ msgstr "प्रविष्टीनां पठितरूपेण चि�
 msgid "Details"
 msgstr "वर्णन"
 
-#: qml/EntryListPage.qml:79
+#: qml/EntryListPage.qml:86
 #, kde-format
 msgid "Expand sidebar"
 msgstr "पार्श्वपट्टिकां विस्तारयन्तु"
 
-#: qml/EntryListPage.qml:79
+#: qml/EntryListPage.qml:86
 #, kde-format
 msgid "Collapse sidebar"
 msgstr "पार्श्वपट्टिकां संकुचितं कुर्वन्तु"
 
-#: qml/EntryListPage.qml:89
+#: qml/EntryListPage.qml:97
 #, kde-format
 msgid "All Entries"
 msgstr "सर्वाणि प्रविष्टयः"
 
-#: qml/EntryListPage.qml:97
+#: qml/EntryListPage.qml:108
 #, kde-format
 msgid "Error"
 msgstr "त्रुटि"
 
-#: qml/EntryListPage.qml:98 qml/EntryListPage.qml:121
+#: qml/EntryListPage.qml:109 qml/EntryListPage.qml:132
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "त्रुटि (%1): %2"
 
-#: qml/EntryListPage.qml:114
+#: qml/EntryListPage.qml:125
 #, kde-format
 msgid "No unread entries available"
 msgstr "अपठितप्रविष्टयः उपलब्धाः नास्ति"
 
-#: qml/EntryListPage.qml:116
+#: qml/EntryListPage.qml:127
 #, kde-format
 msgid "No favorite entries available"
 msgstr "प्रियप्रविष्टयः उपलब्धाः नास्ति"
 
-#: qml/EntryListPage.qml:118
+#: qml/EntryListPage.qml:129
 #, kde-format
 msgid "No entries available"
 msgstr "प्रविष्टयः उपलब्धाः न सन्ति"
 
-#: qml/EntryListPage.qml:156
+#: qml/EntryListPage.qml:167
 #, kde-format
 msgid "All"
 msgstr "सर्वे"
 
-#: qml/EntryListPage.qml:165
+#: qml/EntryListPage.qml:176
 #, kde-format
 msgid "Unread"
 msgstr "अपठित"
 
-#: qml/EntryListPage.qml:174
+#: qml/EntryListPage.qml:185
 #, kde-format
 msgid "Favorites"
 msgstr "प्रियाः"

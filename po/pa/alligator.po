@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-02-27 00:40+0000\n"
+"POT-Creation-Date: 2025-03-01 00:46+0000\n"
 "PO-Revision-Date: 2024-02-11 11:46-0600\n"
 "Last-Translator: A S Alam <aalam@punlinux.org>\n"
 "Language-Team: Punjabi <kde-i18n-doc@kde.org>\n"
@@ -178,58 +178,58 @@ msgstr ""
 msgid "Details"
 msgstr "ਵੇਰਵੇ"
 
-#: qml/EntryListPage.qml:79
+#: qml/EntryListPage.qml:86
 #, kde-format
 msgid "Expand sidebar"
 msgstr "ਬਾਹੀ ਨੂੰ ਫੈਲਾਓ"
 
-#: qml/EntryListPage.qml:79
+#: qml/EntryListPage.qml:86
 #, kde-format
 msgid "Collapse sidebar"
 msgstr "ਬਾਹੀ ਨੂੰ ਸਮੇਟੋ"
 
-#: qml/EntryListPage.qml:89
+#: qml/EntryListPage.qml:97
 #, kde-format
 msgid "All Entries"
 msgstr "ਸਭ ਐੰਟਰੀਆਂ"
 
-#: qml/EntryListPage.qml:97
+#: qml/EntryListPage.qml:108
 #, kde-format
 msgid "Error"
 msgstr "ਗਲਤੀ"
 
-#: qml/EntryListPage.qml:98 qml/EntryListPage.qml:121
+#: qml/EntryListPage.qml:109 qml/EntryListPage.qml:132
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "ਗ਼ਲਤੀ (%1): %2"
 
-#: qml/EntryListPage.qml:114
+#: qml/EntryListPage.qml:125
 #, kde-format
 msgid "No unread entries available"
 msgstr "ਕੋਈ ਨਾ-ਪੜ੍ਹੀ ਐਂਟਰੀ ਮੌਜੂਦ ਨਹੀਂ ਹੈ"
 
-#: qml/EntryListPage.qml:116
+#: qml/EntryListPage.qml:127
 #, fuzzy, kde-format
 #| msgid "No unread entries available"
 msgid "No favorite entries available"
 msgstr "ਕੋਈ ਨਾ-ਪੜ੍ਹੀ ਐਂਟਰੀ ਮੌਜੂਦ ਨਹੀਂ ਹੈ"
 
-#: qml/EntryListPage.qml:118
+#: qml/EntryListPage.qml:129
 #, kde-format
 msgid "No entries available"
 msgstr "ਕੋਈ ਐਂਟਰੀ ਮੌਜੂਦ ਨਹੀਂ ਹੈ"
 
-#: qml/EntryListPage.qml:156
+#: qml/EntryListPage.qml:167
 #, kde-format
 msgid "All"
 msgstr "ਸਭ"
 
-#: qml/EntryListPage.qml:165
+#: qml/EntryListPage.qml:176
 #, kde-format
 msgid "Unread"
 msgstr "ਨਾ-ਪੜ੍ਹੇ"
 
-#: qml/EntryListPage.qml:174
+#: qml/EntryListPage.qml:185
 #, kde-format
 msgid "Favorites"
 msgstr ""

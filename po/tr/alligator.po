@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-02-27 00:40+0000\n"
+"POT-Creation-Date: 2025-03-01 00:46+0000\n"
 "PO-Revision-Date: 2025-01-16 15:57+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
@@ -178,57 +178,57 @@ msgstr "Tümünü Okundu Olarak İmle"
 msgid "Details"
 msgstr "Ayrıntılar"
 
-#: qml/EntryListPage.qml:79
+#: qml/EntryListPage.qml:86
 #, kde-format
 msgid "Expand sidebar"
 msgstr "Kenar çubuğunu genişlet"
 
-#: qml/EntryListPage.qml:79
+#: qml/EntryListPage.qml:86
 #, kde-format
 msgid "Collapse sidebar"
 msgstr "Kenar çubuğunu daralt"
 
-#: qml/EntryListPage.qml:89
+#: qml/EntryListPage.qml:97
 #, kde-format
 msgid "All Entries"
 msgstr "Tüm Girdiler"
 
-#: qml/EntryListPage.qml:97
+#: qml/EntryListPage.qml:108
 #, kde-format
 msgid "Error"
 msgstr "Hata"
 
-#: qml/EntryListPage.qml:98 qml/EntryListPage.qml:121
+#: qml/EntryListPage.qml:109 qml/EntryListPage.qml:132
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "Hata (%1): %2"
 
-#: qml/EntryListPage.qml:114
+#: qml/EntryListPage.qml:125
 #, kde-format
 msgid "No unread entries available"
 msgstr "Okunmamış girdi yok"
 
-#: qml/EntryListPage.qml:116
+#: qml/EntryListPage.qml:127
 #, kde-format
 msgid "No favorite entries available"
 msgstr "Sık kullanılan girdisi yok"
 
-#: qml/EntryListPage.qml:118
+#: qml/EntryListPage.qml:129
 #, kde-format
 msgid "No entries available"
 msgstr "Kullanılabilir girdi yok"
 
-#: qml/EntryListPage.qml:156
+#: qml/EntryListPage.qml:167
 #, kde-format
 msgid "All"
 msgstr "Tümü"
 
-#: qml/EntryListPage.qml:165
+#: qml/EntryListPage.qml:176
 #, kde-format
 msgid "Unread"
 msgstr "Okunmamış"
 
-#: qml/EntryListPage.qml:174
+#: qml/EntryListPage.qml:185
 #, kde-format
 msgid "Favorites"
 msgstr "Sık Kullanılanlar"

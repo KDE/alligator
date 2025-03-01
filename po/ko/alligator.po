@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-02-27 00:40+0000\n"
+"POT-Creation-Date: 2025-03-01 00:46+0000\n"
 "PO-Revision-Date: 2024-12-24 15:58+0100\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -177,57 +177,57 @@ msgstr "읽은 상태로 표시"
 msgid "Details"
 msgstr "자세히"
 
-#: qml/EntryListPage.qml:79
+#: qml/EntryListPage.qml:86
 #, kde-format
 msgid "Expand sidebar"
 msgstr "사이드바 펴기"
 
-#: qml/EntryListPage.qml:79
+#: qml/EntryListPage.qml:86
 #, kde-format
 msgid "Collapse sidebar"
 msgstr "사이드바 접기"
 
-#: qml/EntryListPage.qml:89
+#: qml/EntryListPage.qml:97
 #, kde-format
 msgid "All Entries"
 msgstr "모든 항목"
 
-#: qml/EntryListPage.qml:97
+#: qml/EntryListPage.qml:108
 #, kde-format
 msgid "Error"
 msgstr "오류"
 
-#: qml/EntryListPage.qml:98 qml/EntryListPage.qml:121
+#: qml/EntryListPage.qml:109 qml/EntryListPage.qml:132
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "오류 (%1): %2"
 
-#: qml/EntryListPage.qml:114
+#: qml/EntryListPage.qml:125
 #, kde-format
 msgid "No unread entries available"
 msgstr "읽지 않은 항목 없음"
 
-#: qml/EntryListPage.qml:116
+#: qml/EntryListPage.qml:127
 #, kde-format
 msgid "No favorite entries available"
 msgstr "책갈피에 추가한 항목 없음"
 
-#: qml/EntryListPage.qml:118
+#: qml/EntryListPage.qml:129
 #, kde-format
 msgid "No entries available"
 msgstr "항목 없음"
 
-#: qml/EntryListPage.qml:156
+#: qml/EntryListPage.qml:167
 #, kde-format
 msgid "All"
 msgstr "모두"
 
-#: qml/EntryListPage.qml:165
+#: qml/EntryListPage.qml:176
 #, kde-format
 msgid "Unread"
 msgstr "읽지 않음"
 
-#: qml/EntryListPage.qml:174
+#: qml/EntryListPage.qml:185
 #, kde-format
 msgid "Favorites"
 msgstr "책갈피"
