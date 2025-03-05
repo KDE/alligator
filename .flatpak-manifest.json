@@ -3,28 +3,38 @@
     "branch": "master",
     "rename-icon": "alligator",
     "runtime": "org.kde.Platform",
-    "runtime-version": "6.7",
+    "runtime-version": "6.8",
     "sdk": "org.kde.Sdk",
     "command": "alligator",
     "tags": ["nightly"],
     "desktop-file-name-suffix": " (Nightly)",
     "finish-args": [
+        "--device=dri",
         "--share=ipc",
         "--share=network",
         "--socket=fallback-x11",
-        "--socket=wayland",
-        "--device=dri"
+        "--socket=wayland"
     ],
     "modules": [
         {
             "name": "kirigamiaddons",
-            "config-opts": [ "-DBUILD_TESTING=OFF" ],
             "buildsystem": "cmake-ninja",
-            "sources": [ { "type": "git", "url": "https://invent.kde.org/libraries/kirigami-addons.git" } ]
+            "config-opts": [
+              "-DBUILD_TESTING=OFF"
+            ],
+            "sources": [
+              {
+                "type": "git",
+                "url": "https://invent.kde.org/libraries/kirigami-addons.git"
+              }
+            ]
         },
         {
             "name": "alligator",
             "buildsystem": "cmake-ninja",
+            "config-opts": [
+              "-DBUILD_TESTING=OFF"
+            ],
             "sources": [
                 {
                     "type": "dir",
