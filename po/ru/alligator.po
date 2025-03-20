@@ -3,23 +3,23 @@
 #
 # SPDX-FileCopyrightText: 2020, 2022, 2024 Alexander Yavorsky <kekcuha@gmail.com>
 # Alexander Potashev <aspotashev@gmail.com>, 2020.
-# Olesya Gerasimenko <translation-team@basealt.ru>, 2022, 2023.
+# SPDX-FileCopyrightText: 2022, 2023, 2025 Olesya Gerasimenko <translation-team@basealt.ru>
 # Alexander Yavorsky <kekcuha@gmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-03-01 00:46+0000\n"
-"PO-Revision-Date: 2024-09-20 07:35+0300\n"
-"Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
-"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"PO-Revision-Date: 2025-03-19 09:26+0300\n"
+"Last-Translator: Olesya Gerasimenko <translation-team@basealt.ru>\n"
+"Language-Team: Basealt Translation Team\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 21.08.3\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -99,7 +99,7 @@ msgstr "Добавление ленты новостей"
 #: qml/AddFeedDialog.qml:25
 #, kde-format
 msgid "URL"
-msgstr ""
+msgstr "URL-адрес"
 
 #: qml/AddFeedDialog.qml:32
 #, kde-format
@@ -144,10 +144,9 @@ msgid "Edit Feed"
 msgstr "Редактирование ленты"
 
 #: qml/EditFeedDialog.qml:33
-#, fuzzy, kde-format
-#| msgid "feed URL"
+#, kde-format
 msgid "Feed URL:"
-msgstr "URL-адрес ленты новостей"
+msgstr "URL-адрес ленты новостей:"
 
 #: qml/EditFeedDialog.qml:41
 #, kde-format
@@ -171,11 +170,10 @@ msgid "Refresh"
 msgstr "Обновить"
 
 #: qml/EntryListPage.qml:51
-#, fuzzy, kde-format
-#| msgid "Mark as read"
+#, kde-format
 msgctxt "@action:button"
 msgid "Mark all read"
-msgstr "Отметить как прочитанное"
+msgstr "Отметить все как прочитанные"
 
 #: qml/EntryListPage.qml:63
 #, kde-format
@@ -213,10 +211,9 @@ msgid "No unread entries available"
 msgstr "Нет доступных непрочитанных записей"
 
 #: qml/EntryListPage.qml:127
-#, fuzzy, kde-format
-#| msgid "No unread entries available"
+#, kde-format
 msgid "No favorite entries available"
-msgstr "Нет доступных непрочитанных записей"
+msgstr "Нет доступных избранных записей"
 
 #: qml/EntryListPage.qml:129
 #, kde-format
@@ -236,19 +233,19 @@ msgstr "Непрочитанные"
 #: qml/EntryListPage.qml:185
 #, kde-format
 msgid "Favorites"
-msgstr ""
+msgstr "Избранное"
 
 #: qml/EntryPage.qml:69
 #, kde-format
 msgctxt "@action:button"
 msgid "Remove from Favorites"
-msgstr ""
+msgstr "Удалить из избранного"
 
 #: qml/EntryPage.qml:69
 #, kde-format
 msgctxt "@action:button"
 msgid "Add to Favorites"
-msgstr ""
+msgstr "Добавить в избранное"
 
 #: qml/EntryPage.qml:77
 #, kde-format
@@ -264,7 +261,7 @@ msgstr "%1 — Подробности"
 #: qml/FeedDetailsPage.qml:25
 #, kde-format
 msgid "Close"
-msgstr ""
+msgstr "Закрыть"
 
 #: qml/FeedDetailsPage.qml:46
 #, kde-format
@@ -495,12 +492,10 @@ msgstr "Использовать системные параметры по ум
 #~ msgstr "Отметить как непрочитанное"
 
 #, fuzzy
-#~| msgid "All Entries"
 #~ msgid "Show all entries"
 #~ msgstr "Все записи"
 
 #, fuzzy
-#~| msgid "No unread entries available"
 #~ msgid "Show only unread entries"
 #~ msgstr "Нет доступных непрочитанных записей"
 
