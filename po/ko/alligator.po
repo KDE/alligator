@@ -1,13 +1,13 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the alligator package.
-# SPDX-FileCopyrightText: 2020, 2021, 2022, 2023, 2024 Shinjo Park <kde@peremen.name>
+# SPDX-FileCopyrightText: 2020, 2021, 2022, 2023, 2024, 2025 Shinjo Park <kde@peremen.name>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-03-01 00:46+0000\n"
-"PO-Revision-Date: 2024-12-24 15:58+0100\n"
+"PO-Revision-Date: 2025-04-06 21:08+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
@@ -95,7 +95,7 @@ msgstr "피드 추가"
 #: qml/AddFeedDialog.qml:25
 #, kde-format
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: qml/AddFeedDialog.qml:32
 #, kde-format
@@ -166,11 +166,10 @@ msgid "Refresh"
 msgstr "새로 고침"
 
 #: qml/EntryListPage.qml:51
-#, fuzzy, kde-format
-#| msgid "Mark as read"
+#, kde-format
 msgctxt "@action:button"
 msgid "Mark all read"
-msgstr "읽은 상태로 표시"
+msgstr "모두 읽은 것으로 표시"
 
 #: qml/EntryListPage.qml:63
 #, kde-format
