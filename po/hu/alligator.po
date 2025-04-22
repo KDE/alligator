@@ -2,13 +2,13 @@
 # This file is distributed under the same license as the alligator package.
 #
 # Kristóf Kiszel <kiszel.kristof@gmail.com>, 2020, 2021.
-# SPDX-FileCopyrightText: 2021, 2022, 2024 Kristof Kiszel <ulysses@fsf.hu>
+# SPDX-FileCopyrightText: 2021, 2022, 2024, 2025 Kristof Kiszel <ulysses@fsf.hu>
 msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-03-01 00:46+0000\n"
-"PO-Revision-Date: 2024-11-18 22:17+0100\n"
+"PO-Revision-Date: 2025-04-21 22:18+0200\n"
 "Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "Language: hu\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 24.08.3\n"
+"X-Generator: Lokalize 25.04.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -96,7 +96,7 @@ msgstr "Hírcsatorna hozzáadása"
 #: qml/AddFeedDialog.qml:25
 #, kde-format
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: qml/AddFeedDialog.qml:32
 #, kde-format
@@ -141,10 +141,9 @@ msgid "Edit Feed"
 msgstr "Csatorna szerkesztése"
 
 #: qml/EditFeedDialog.qml:33
-#, fuzzy, kde-format
-#| msgid "feed URL"
+#, kde-format
 msgid "Feed URL:"
-msgstr "Csatorna URL"
+msgstr "Csatorna URL:"
 
 #: qml/EditFeedDialog.qml:41
 #, kde-format
@@ -168,11 +167,10 @@ msgid "Refresh"
 msgstr "Frissítés"
 
 #: qml/EntryListPage.qml:51
-#, fuzzy, kde-format
-#| msgid "Mark entries as read"
+#, kde-format
 msgctxt "@action:button"
 msgid "Mark all read"
-msgstr "Bejegyzések megjelölése olvasottként"
+msgstr "Összes megjelölése olvasottként"
 
 #: qml/EntryListPage.qml:63
 #, kde-format
