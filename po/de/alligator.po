@@ -3,21 +3,22 @@
 # Burkhard Lück <lueck@hube-lueck.de>, 2020, 2021.
 # Frederik Schwarzer <schwarzer@kde.org>, 2022, 2023.
 # SPDX-FileCopyrightText: 2024 Johannes Obermayr <johannesobermayr@gmx.de>
+# SPDX-FileCopyrightText: 2025 Flori G <Renner03@protonmail.com>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-03-01 00:46+0000\n"
-"PO-Revision-Date: 2024-08-20 19:39+0200\n"
-"Last-Translator: Johannes Obermayr <johannesobermayr@gmx.de>\n"
+"PO-Revision-Date: 2025-03-26 16:49+0100\n"
+"Last-Translator: Flori G <Renner03@protonmail.com>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 24.05.2\n"
+"X-Generator: Lokalize 24.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -97,7 +98,7 @@ msgstr "Nachrichtenquelle hinzufügen"
 #: qml/AddFeedDialog.qml:25
 #, kde-format
 msgid "URL"
-msgstr ""
+msgstr "Adresse"
 
 #: qml/AddFeedDialog.qml:32
 #, kde-format
@@ -142,10 +143,9 @@ msgid "Edit Feed"
 msgstr "Nachrichtenquelle bearbeiten"
 
 #: qml/EditFeedDialog.qml:33
-#, fuzzy, kde-format
-#| msgid "feed URL"
+#, kde-format
 msgid "Feed URL:"
-msgstr "Adresse der Nachrichtenquelle"
+msgstr "Adresse der Nachrichtenquelle:"
 
 #: qml/EditFeedDialog.qml:41
 #, kde-format
@@ -169,11 +169,10 @@ msgid "Refresh"
 msgstr "Aktualisieren"
 
 #: qml/EntryListPage.qml:51
-#, fuzzy, kde-format
-#| msgid "Mark as read"
+#, kde-format
 msgctxt "@action:button"
 msgid "Mark all read"
-msgstr "Als gelesen markieren"
+msgstr "Alle als gelesen markieren"
 
 #: qml/EntryListPage.qml:63
 #, kde-format
@@ -211,10 +210,9 @@ msgid "No unread entries available"
 msgstr "Keine ungelesenen Einträge verfügbar"
 
 #: qml/EntryListPage.qml:127
-#, fuzzy, kde-format
-#| msgid "No unread entries available"
+#, kde-format
 msgid "No favorite entries available"
-msgstr "Keine ungelesenen Einträge verfügbar"
+msgstr "Keine Favoriteneinträge verfügbar"
 
 #: qml/EntryListPage.qml:129
 #, kde-format
@@ -234,19 +232,19 @@ msgstr "Ungelesen"
 #: qml/EntryListPage.qml:185
 #, kde-format
 msgid "Favorites"
-msgstr ""
+msgstr "Favoriten"
 
 #: qml/EntryPage.qml:69
 #, kde-format
 msgctxt "@action:button"
 msgid "Remove from Favorites"
-msgstr ""
+msgstr "Aus Favoriten entfernen"
 
 #: qml/EntryPage.qml:69
 #, kde-format
 msgctxt "@action:button"
 msgid "Add to Favorites"
-msgstr ""
+msgstr "Zu Favoriten hinzufügen"
 
 #: qml/EntryPage.qml:77
 #, kde-format
@@ -262,7 +260,7 @@ msgstr "%1 - Details"
 #: qml/FeedDetailsPage.qml:25
 #, kde-format
 msgid "Close"
-msgstr ""
+msgstr "Schließen"
 
 #: qml/FeedDetailsPage.qml:46
 #, kde-format
