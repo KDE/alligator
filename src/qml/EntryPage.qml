@@ -53,7 +53,7 @@ Kirigami.ScrollablePage {
             id: contentLabel
 
             text: page.content
-            baseUrl: page.baseUrl
+            baseUrl: page.link
             textFormat: Text.RichText
             wrapMode: Text.WordWrap
             Layout.fillWidth: true
