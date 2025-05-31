@@ -12,12 +12,18 @@ ContentHelper::ContentHelper(QObject *parent)
 {
 }
 
-void ContentHelper::openLink(const QString &link)
+void ContentHelper::openLink(const QString &link, const QString &baseUrl)
 {
     QUrl url(link);
     if (link.startsWith(QStringLiteral("//"))) {
         // we a protocol-relative, see https://en.wikipedia.org/wiki/Wikipedia:Protocol-relative_URL
         url.setScheme(QUrl(link).scheme());
+    }
+
+    if (url.isRelative()) {
+        QUrl articleUrl(baseUrl);
+        url.setHost(articleUrl.host());
+        url.setScheme(articleUrl.scheme());
     }
     QDesktopServices::openUrl(url);
 }
