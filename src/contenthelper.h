@@ -15,6 +15,6 @@ class ContentHelper : public QObject
 public:
     explicit ContentHelper(QObject *parent = nullptr);
 
-    Q_INVOKABLE void openLink(const QString &link);
+    Q_INVOKABLE void openLink(const QString &link, const QString &baseUrl);
     Q_INVOKABLE QString adjustedContent(int width, int fontSize, const QString &content);
 };
