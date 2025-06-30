@@ -1,15 +1,15 @@
 # Spanish translations for alligator.po package.
-# Copyright (C) 2020 This file is copyright:
+# Copyright (C) 2020-2025 This file is copyright:
 # This file is distributed under the same license as the alligator package.
-#
 # Automatically generated, 2020.
+#
 # SPDX-FileCopyrightText: 2020, 2021, 2022, 2023, 2024, 2025 Eloy Cuadra <ecuadra@eloihr.net>
 msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-03-01 00:46+0000\n"
-"PO-Revision-Date: 2025-01-16 07:51+0100\n"
+"PO-Revision-Date: 2025-06-29 14:00+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -330,7 +330,7 @@ msgstr "Refrescar todas las emisiones web"
 #: qml/FeedListPage.qml:36
 #, kde-format
 msgid "Add Feed…"
-msgstr "Añadir emisión web..."
+msgstr "Añadir emisión web…"
 
 #: qml/FeedListPage.qml:40
 #, kde-format
@@ -346,12 +346,12 @@ msgstr "Gestión de grupos de emisiones web"
 #: qml/FeedListPage.qml:51
 #, kde-format
 msgid "Import Feeds…"
-msgstr "Importar emisiones web..."
+msgstr "Importar emisiones web…"
 
 #: qml/FeedListPage.qml:56
 #, kde-format
 msgid "Export Feeds…"
-msgstr "Exportar emisiones web..."
+msgstr "Exportar emisiones web…"
 
 #: qml/FeedListPage.qml:86
 #, kde-format
@@ -396,7 +396,7 @@ msgstr "Grupos"
 #: qml/GroupsListPage.qml:24
 #, kde-format
 msgid "Add Group…"
-msgstr "Añadir grupo..."
+msgstr "Añadir grupo…"
 
 #: qml/GroupsListPage.qml:55
 #, kde-format
@@ -468,45 +468,3 @@ msgstr "Tamaño del tipo de letra:"
 #, kde-format
 msgid "Use system default"
 msgstr "Usar el predeterminado del sistema"
-
-#~ msgid "Url"
-#~ msgstr "URL"
-
-#~ msgid "Import Feeds..."
-#~ msgstr "Importar emisiones web..."
-
-#~ msgid "Export Feeds..."
-#~ msgstr "Exportar emisiones web..."
-
-#~ msgid "OK"
-#~ msgstr "Aceptar"
-
-#~ msgid "Configure Groups"
-#~ msgstr "Configurar grupos"
-
-#~ msgid "Mark as unread"
-#~ msgstr "Marcar como no leído"
-
-#~ msgid "Show all entries"
-#~ msgstr "Mostrar todas las entradas"
-
-#~ msgid "Show only unread entries"
-#~ msgstr "Mostrar solo las entradas sin leer"
-
-#~ msgid "Edit"
-#~ msgstr "Editar"
-
-#~ msgid "Feed group"
-#~ msgstr "Grupo de emisiones web"
-
-#~ msgid "Add feed"
-#~ msgstr "Añadir emisión web"
-
-#~ msgid "Add new Feed"
-#~ msgstr "Añadir nueva emisión web"
-
-#~ msgid "Posts"
-#~ msgstr "Publicaciones"
-
-#~ msgid "Save"
-#~ msgstr "Guardar"
