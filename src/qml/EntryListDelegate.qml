@@ -33,7 +33,7 @@ Delegates.IndicatorItemDelegate {
     property bool showingAll
 
     onClicked: {
-        while (pageStack.depth > 2) {
+        while (pageStack.depth > 1) {
             pageStack.pop();
         }
         pageStack.push(Qt.resolvedUrl("EntryPage.qml"), {
