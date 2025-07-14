@@ -9,11 +9,7 @@ Alligator is a convergent RSS/Atom feed reader.
 ## Get It
 
 Details on where to find stable releases of Alligator can be found on its
-[homepage](https://apps.kde.org/alligator). Nightly Android APKs are available at [KDE's Binary Factory](https://kfunk.org/2017/11/17/kde-binary-factory/):
-- [Android ARM](https://binary-factory.kde.org/view/Android/job/Alligator_Nightly_android-arm/)
-- [Android ARM64](https://binary-factory.kde.org/view/Android/job/Alligator_Nightly_android-arm64/)
-- [Android x86](https://binary-factory.kde.org/view/Android/job/Alligator_Nightly_android-x86/)
-- [Android x86_64](https://binary-factory.kde.org/view/Android/job/Alligator_Nightly_android-x86_64/)
+[homepage](https://apps.kde.org/alligator). Nightly Android APKs are available in KDE's [F-Droid repositories](https://community.kde.org/Android/F-Droid).
 
 ## Building
 
