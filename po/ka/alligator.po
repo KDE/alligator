@@ -31,12 +31,12 @@ msgstr "Temuri.doghonadze@gmail.com"
 #: database.cpp:80 database.cpp:357
 #, kde-format
 msgid "Default"
-msgstr "ნაგულისხმები"
+msgstr "ნაგულისხმევი"
 
 #: database.cpp:81 database.cpp:358
 #, kde-format
 msgid "Default Feed Group"
-msgstr "ნაგულისხმებილენტის ჯგუფი"
+msgstr "ნაგულისხმევილენტის ჯგუფი"
 
 #: fetcher.cpp:244
 #, kde-format
@@ -405,7 +405,7 @@ msgstr "წაშლა"
 #: qml/GroupsListPage.qml:63
 #, kde-format
 msgid "Set as Default"
-msgstr "ნაგულისხმებად დაყენება"
+msgstr "ნაგულისხმევად დაყენება"
 
 #: qml/GroupsListPage.qml:72
 #, kde-format
@@ -466,7 +466,7 @@ msgstr "ფონტის ზომა:"
 #: qml/SettingsPage.qml:70
 #, kde-format
 msgid "Use system default"
-msgstr "სისტემის ნაგულისხმების გამოყენება"
+msgstr "სისტემის ნაგულისხმევის გამოყენება"
 
 #~ msgid "Url"
 #~ msgstr "Url"
