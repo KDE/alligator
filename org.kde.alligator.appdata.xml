@@ -67,6 +67,7 @@
   <summary xml:lang="lv">RSS plūsmu lasītājs</summary>
   <summary xml:lang="nl">Lezer van RSS-feed</summary>
   <summary xml:lang="pl">Czytnik kanałów RSS</summary>
+  <summary xml:lang="pt-BR">Leitor de feed RSS</summary>
   <summary xml:lang="ru">Программа чтения лент новостей в формате RSS</summary>
   <summary xml:lang="sa">आरएसएस फीड रीडर</summary>
   <summary xml:lang="sl">bralnik virov RSS</summary>
@@ -108,6 +109,7 @@
     <p xml:lang="lv">„Alligator“ ir konverģents plūsmu lasītājs vairākām platformām, kas atbalsta standarta RSS/„Atom“ plūsmas</p>
     <p xml:lang="nl">Alligator is een convergente, cross-platform lezer van feed, ondersteunt standaard RSS/Atom feeds</p>
     <p xml:lang="pl">Alligator jest dostosowującym się, wieloplatformowym czytnikiem kanałów RSS/Atom</p>
+    <p xml:lang="pt-BR">O Alligator é um leitor de feed multi-plataforma  e convergente, suportando feeds RSS/Atom padrão</p>
     <p xml:lang="ru">Alligator — кроссплатформенная программа для чтения лент новостей, предусматривающая поддержку стандартных лент новостей RSS/Atom</p>
     <p xml:lang="sa">एलिगेटर् एकः अभिसरणीयः, पार-मञ्च-फीड्-रीडरः अस्ति, यः मानक-आरएसएस/एटम्-फीड्-समर्थनं करोति</p>
     <p xml:lang="sl">Alligator je konvergenten bralnik virov za več platform, ki podpira standardne vire RSS/Atom</p>
