@@ -5,20 +5,21 @@
 # Thiago Masato Costa Sueto <herzenschein@gmail.com>, 2021.
 # Geraldo Simiao <geraldosimiao@fedoraproject.org>, 2023.
 # SPDX-FileCopyrightText: 2025 Guilherme Marçal Silva <guimarcalsilva@gmail.com>
+# SPDX-FileCopyrightText: 2025 Marcus Gama <marcus.gama@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-03-01 00:46+0000\n"
-"PO-Revision-Date: 2025-02-12 23:57-0300\n"
-"Last-Translator: Guilherme Marçal Silva <guimarcalsilva@gmail.com>\n"
+"PO-Revision-Date: 2025-07-28 12:10-0300\n"
+"Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 24.12.2\n"
+"X-Generator: Lokalize 25.04.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -98,7 +99,7 @@ msgstr "Adicionar fonte de notícias"
 #: qml/AddFeedDialog.qml:25
 #, kde-format
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: qml/AddFeedDialog.qml:32
 #, kde-format
@@ -143,10 +144,9 @@ msgid "Edit Feed"
 msgstr "Editar fonte de notícias"
 
 #: qml/EditFeedDialog.qml:33
-#, fuzzy, kde-format
-#| msgid "feed URL"
+#, kde-format
 msgid "Feed URL:"
-msgstr "URL da fonte de notícias"
+msgstr "URL da fonte de notícias:"
 
 #: qml/EditFeedDialog.qml:41
 #, kde-format
@@ -170,11 +170,10 @@ msgid "Refresh"
 msgstr "Atualizar"
 
 #: qml/EntryListPage.qml:51
-#, fuzzy, kde-format
-#| msgid "Mark as read"
+#, kde-format
 msgctxt "@action:button"
 msgid "Mark all read"
-msgstr "Marcar como lida"
+msgstr "Marcar todas como lidas"
 
 #: qml/EntryListPage.qml:63
 #, kde-format
@@ -212,10 +211,9 @@ msgid "No unread entries available"
 msgstr "Nenhuma entrada não lida disponível"
 
 #: qml/EntryListPage.qml:127
-#, fuzzy, kde-format
-#| msgid "No unread entries available"
+#, kde-format
 msgid "No favorite entries available"
-msgstr "Nenhuma entrada não lida disponível"
+msgstr "Nenhuma entrada favorita disponível"
 
 #: qml/EntryListPage.qml:129
 #, kde-format
@@ -235,19 +233,19 @@ msgstr "Não lida"
 #: qml/EntryListPage.qml:185
 #, kde-format
 msgid "Favorites"
-msgstr ""
+msgstr "Favoritos"
 
 #: qml/EntryPage.qml:69
 #, kde-format
 msgctxt "@action:button"
 msgid "Remove from Favorites"
-msgstr ""
+msgstr "Remover dos Favoritos"
 
 #: qml/EntryPage.qml:69
 #, kde-format
 msgctxt "@action:button"
 msgid "Add to Favorites"
-msgstr ""
+msgstr "Adicionar aos Favoritos"
 
 #: qml/EntryPage.qml:77
 #, kde-format
