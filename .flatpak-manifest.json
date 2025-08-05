@@ -6,7 +6,9 @@
     "runtime-version": "6.9",
     "sdk": "org.kde.Sdk",
     "command": "alligator",
-    "tags": ["nightly"],
+    "tags": [
+        "nightly"
+    ],
     "desktop-file-name-suffix": " (Nightly)",
     "finish-args": [
         "--device=dri",
@@ -20,20 +22,20 @@
             "name": "kirigamiaddons",
             "buildsystem": "cmake-ninja",
             "config-opts": [
-              "-DBUILD_TESTING=OFF"
+                "-DBUILD_TESTING=OFF"
             ],
             "sources": [
-              {
-                "type": "git",
-                "url": "https://invent.kde.org/libraries/kirigami-addons.git"
-              }
+                {
+                    "type": "git",
+                    "url": "https://invent.kde.org/libraries/kirigami-addons.git"
+                }
             ]
         },
         {
             "name": "alligator",
             "buildsystem": "cmake-ninja",
             "config-opts": [
-              "-DBUILD_TESTING=OFF"
+                "-DBUILD_TESTING=OFF"
             ],
             "sources": [
                 {
