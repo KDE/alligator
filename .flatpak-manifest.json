@@ -9,6 +9,10 @@
     "tags": [
         "nightly"
     ],
+    "cleanup": [
+        "/include",
+        "/lib/cmake"
+    ],
     "desktop-file-name-suffix": " (Nightly)",
     "finish-args": [
         "--device=dri",
