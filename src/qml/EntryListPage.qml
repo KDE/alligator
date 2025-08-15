@@ -156,40 +156,35 @@ Kirigami.ScrollablePage {
         feedUrl: page.feed ? page.feed.url : ""
     }
 
-    footer: ColumnLayout {
-        spacing: 0
-
-        Kirigami.NavigationTabBar {
-            Layout.fillWidth: true
-            actions: [
-                Kirigami.Action {
-                    icon.name: "mail-read"
-                    text: i18n("All")
-                    checked: !page.onlyUnread && !page.onlyFavorite
-                    onTriggered: {
-                        page.onlyUnread = false
-                        page.onlyFavorite = false
-                    }
-                },
-                Kirigami.Action {
-                    icon.name: "mail-mark-unread"
-                    text: i18n("Unread")
-                    checked: page.onlyUnread
-                    onTriggered: {
-                        page.onlyFavorite = false
-                        page.onlyUnread = true
-                    }
-                },
-                Kirigami.Action {
-                    icon.name: "favorite-symbolic"
-                    text: i18n("Favorites")
-                    checked: page.onlyFavorite
-                    onTriggered: {
-                        page.onlyUnread = false
-                        page.onlyFavorite = true
-                    }
+    footer: Kirigami.NavigationTabBar {
+        actions: [
+            Kirigami.Action {
+                icon.name: "mail-read"
+                text: i18n("All")
+                checked: !page.onlyUnread && !page.onlyFavorite
+                onTriggered: {
+                    page.onlyUnread = false
+                    page.onlyFavorite = false
                 }
-            ]
-        }
+            },
+            Kirigami.Action {
+                icon.name: "mail-mark-unread"
+                text: i18n("Unread")
+                checked: page.onlyUnread
+                onTriggered: {
+                    page.onlyFavorite = false
+                    page.onlyUnread = true
+                }
+            },
+            Kirigami.Action {
+                icon.name: "favorite-symbolic"
+                text: i18n("Favorites")
+                checked: page.onlyFavorite
+                onTriggered: {
+                    page.onlyUnread = false
+                    page.onlyFavorite = true
+                }
+            }
+        ]
     }
 }
