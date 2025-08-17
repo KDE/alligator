@@ -76,16 +76,6 @@ Kirigami.ScrollablePage {
         id: editDialog
     }
 
-    Kirigami.PlaceholderMessage {
-        visible: feedList.count === 0
-
-        width: Kirigami.Units.gridUnit * 20
-        icon.name: "rss"
-        anchors.centerIn: parent
-
-        text: i18n("No feeds added yet")
-    }
-
     ListView {
         id: feedList
         currentIndex: -1
@@ -113,9 +103,28 @@ Kirigami.ScrollablePage {
             property: "feed.groupName"
             criteria: ViewSection.FullString
             delegate: Kirigami.ListSectionHeader {
-                label: section
+                text: section
                 width: ListView.view.width
             }
+        }
+
+        Kirigami.PlaceholderMessage {
+            visible: feedList.count === 0
+
+            width: Kirigami.Units.gridUnit * 20
+            icon.name: "rss"
+            anchors.centerIn: parent
+            helpfulAction: Kirigami.Action {
+                text: i18n("Add Feed…")
+                icon.name: "list-add"
+                onTriggered: {
+                    pageStack.pushDialogLayer(addDialog, {}, {
+                        title: i18nc("@title", "Add Feed"),
+                                              width: Kirigami.Units.gridUnit * 20
+                    });
+                }
+            }
+            text: i18n("No feeds added yet")
         }
     }
 
