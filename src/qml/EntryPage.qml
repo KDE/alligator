@@ -77,6 +77,11 @@ Kirigami.ScrollablePage {
             text: i18n("Open in Browser")
             icon.name: "globe"
             onTriggered: Qt.openUrlExternally(page.link)
+        },
+        Kirigami.Action {
+            text: i18nc("@action:inmenu", "Copy Link")
+            icon.name: "edit-copy-symbolic"
+            onTriggered: Clipboard.copy(page.link)
         }
     ]
 }

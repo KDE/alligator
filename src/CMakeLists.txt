@@ -12,6 +12,7 @@ add_executable(alligator
     feedgroupsmodel.cpp
     feedsproxymodel.cpp
     contenthelper.cpp
+    clipboard.cpp
 )
 
 ecm_add_qml_module(alligator URI org.kde.alligator DEPENDENCIES QtCore)
