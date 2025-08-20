@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-01 00:46+0000\n"
+"POT-Creation-Date: 2025-08-20 00:42+0000\n"
 "PO-Revision-Date: 2025-07-28 12:10-0300\n"
 "Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
@@ -220,17 +220,17 @@ msgstr "Nenhuma entrada favorita disponível"
 msgid "No entries available"
 msgstr "Nenhuma entrada disponível"
 
-#: qml/EntryListPage.qml:167
+#: qml/EntryListPage.qml:163
 #, kde-format
 msgid "All"
 msgstr "Todos"
 
-#: qml/EntryListPage.qml:176
+#: qml/EntryListPage.qml:172
 #, kde-format
 msgid "Unread"
 msgstr "Não lida"
 
-#: qml/EntryListPage.qml:185
+#: qml/EntryListPage.qml:181
 #, kde-format
 msgid "Favorites"
 msgstr "Favoritos"
@@ -251,6 +251,12 @@ msgstr "Adicionar aos Favoritos"
 #, kde-format
 msgid "Open in Browser"
 msgstr "Abrir no navegador"
+
+#: qml/EntryPage.qml:82
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy Link"
+msgstr ""
 
 #: qml/FeedDetailsPage.qml:20
 #, kde-format
@@ -329,12 +335,12 @@ msgstr "Gerenciar fontes de notícias"
 msgid "Refresh All Feeds"
 msgstr "Atualizar todas as fontes de notícias"
 
-#: qml/FeedListPage.qml:36
+#: qml/FeedListPage.qml:36 qml/FeedListPage.qml:118
 #, kde-format
 msgid "Add Feed…"
 msgstr "Adicionar fonte de notícias..."
 
-#: qml/FeedListPage.qml:40
+#: qml/FeedListPage.qml:40 qml/FeedListPage.qml:122
 #, kde-format
 msgctxt "@title"
 msgid "Add Feed"
@@ -355,37 +361,37 @@ msgstr "Importar fontes de notícias..."
 msgid "Export Feeds…"
 msgstr "Exportar fontes de notícias..."
 
-#: qml/FeedListPage.qml:86
+#: qml/FeedListPage.qml:127
 #, kde-format
 msgid "No feeds added yet"
 msgstr "Nenhuma fonte de notícia adicionada ainda"
 
-#: qml/FeedListPage.qml:124
+#: qml/FeedListPage.qml:133
 #, kde-format
 msgid "Import Feeds"
 msgstr "Importar fontes de notícias"
 
-#: qml/FeedListPage.qml:126 qml/FeedListPage.qml:134
+#: qml/FeedListPage.qml:135 qml/FeedListPage.qml:143
 #, kde-format
 msgid "OPML Files (*.opml)"
 msgstr "Arquivos OPML (*.opml)"
 
-#: qml/FeedListPage.qml:126
+#: qml/FeedListPage.qml:135
 #, kde-format
 msgid "XML Files (*.xml)"
 msgstr "Arquivos XML (*.xml)"
 
-#: qml/FeedListPage.qml:126
+#: qml/FeedListPage.qml:135
 #, kde-format
 msgid "All Files (*)"
 msgstr "Todos os arquivos (*)"
 
-#: qml/FeedListPage.qml:132
+#: qml/FeedListPage.qml:141
 #, kde-format
 msgid "Export Feeds"
 msgstr "Exportar fontes de notícias"
 
-#: qml/FeedListPage.qml:134
+#: qml/FeedListPage.qml:143
 #, kde-format
 msgid "All Files"
 msgstr "Todos os arquivos"

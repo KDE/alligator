@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-01 00:46+0000\n"
+"POT-Creation-Date: 2025-08-20 00:42+0000\n"
 "PO-Revision-Date: 2025-01-17 12:10+0100\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
@@ -217,17 +217,17 @@ msgstr "Necun entratas  favorite disponibile."
 msgid "No entries available"
 msgstr "Necun entratas disponibile."
 
-#: qml/EntryListPage.qml:167
+#: qml/EntryListPage.qml:163
 #, kde-format
 msgid "All"
 msgstr "Toto"
 
-#: qml/EntryListPage.qml:176
+#: qml/EntryListPage.qml:172
 #, kde-format
 msgid "Unread"
 msgstr "Non Legite"
 
-#: qml/EntryListPage.qml:185
+#: qml/EntryListPage.qml:181
 #, kde-format
 msgid "Favorites"
 msgstr "Favoritos"
@@ -248,6 +248,12 @@ msgstr "Adde a favoritos"
 #, kde-format
 msgid "Open in Browser"
 msgstr "Aperi con navigator"
+
+#: qml/EntryPage.qml:82
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy Link"
+msgstr ""
 
 #: qml/FeedDetailsPage.qml:20
 #, kde-format
@@ -326,12 +332,12 @@ msgstr "Gere syndicationes"
 msgid "Refresh All Feeds"
 msgstr "Refresca omne syndicationes"
 
-#: qml/FeedListPage.qml:36
+#: qml/FeedListPage.qml:36 qml/FeedListPage.qml:118
 #, kde-format
 msgid "Add Feed…"
 msgstr "Adde syndication ..."
 
-#: qml/FeedListPage.qml:40
+#: qml/FeedListPage.qml:40 qml/FeedListPage.qml:122
 #, kde-format
 msgctxt "@title"
 msgid "Add Feed"
@@ -352,37 +358,37 @@ msgstr "Importa syndicationes..."
 msgid "Export Feeds…"
 msgstr "Exporta syndicationes..."
 
-#: qml/FeedListPage.qml:86
+#: qml/FeedListPage.qml:127
 #, kde-format
 msgid "No feeds added yet"
 msgstr "Necun syndication addite totevia."
 
-#: qml/FeedListPage.qml:124
+#: qml/FeedListPage.qml:133
 #, kde-format
 msgid "Import Feeds"
 msgstr "Importa syndicationes..."
 
-#: qml/FeedListPage.qml:126 qml/FeedListPage.qml:134
+#: qml/FeedListPage.qml:135 qml/FeedListPage.qml:143
 #, kde-format
 msgid "OPML Files (*.opml)"
 msgstr "Files OPML  (*.opml)"
 
-#: qml/FeedListPage.qml:126
+#: qml/FeedListPage.qml:135
 #, kde-format
 msgid "XML Files (*.xml)"
 msgstr "Files XML  (*.xml)"
 
-#: qml/FeedListPage.qml:126
+#: qml/FeedListPage.qml:135
 #, kde-format
 msgid "All Files (*)"
 msgstr "Omne files (*)"
 
-#: qml/FeedListPage.qml:132
+#: qml/FeedListPage.qml:141
 #, kde-format
 msgid "Export Feeds"
 msgstr "Exporta syndicationes..."
 
-#: qml/FeedListPage.qml:134
+#: qml/FeedListPage.qml:143
 #, kde-format
 msgid "All Files"
 msgstr "Omne files"

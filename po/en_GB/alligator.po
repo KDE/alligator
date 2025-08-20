@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-01 00:46+0000\n"
+"POT-Creation-Date: 2025-08-20 00:42+0000\n"
 "PO-Revision-Date: 2024-11-23 12:08+0000\n"
 "Last-Translator: Steve Allewell <steve.allewell@gmail.com>\n"
 "Language-Team: British English\n"
@@ -218,17 +218,17 @@ msgstr "No favourite entries available"
 msgid "No entries available"
 msgstr "No entries available"
 
-#: qml/EntryListPage.qml:167
+#: qml/EntryListPage.qml:163
 #, kde-format
 msgid "All"
 msgstr "All"
 
-#: qml/EntryListPage.qml:176
+#: qml/EntryListPage.qml:172
 #, kde-format
 msgid "Unread"
 msgstr "Unread"
 
-#: qml/EntryListPage.qml:185
+#: qml/EntryListPage.qml:181
 #, kde-format
 msgid "Favorites"
 msgstr "Favourites"
@@ -249,6 +249,12 @@ msgstr "Add to Favourites"
 #, kde-format
 msgid "Open in Browser"
 msgstr "Open in Browser"
+
+#: qml/EntryPage.qml:82
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy Link"
+msgstr ""
 
 #: qml/FeedDetailsPage.qml:20
 #, kde-format
@@ -327,12 +333,12 @@ msgstr "Manage Feeds"
 msgid "Refresh All Feeds"
 msgstr "Refresh All Feeds"
 
-#: qml/FeedListPage.qml:36
+#: qml/FeedListPage.qml:36 qml/FeedListPage.qml:118
 #, kde-format
 msgid "Add Feed…"
 msgstr "Add Feed…"
 
-#: qml/FeedListPage.qml:40
+#: qml/FeedListPage.qml:40 qml/FeedListPage.qml:122
 #, kde-format
 msgctxt "@title"
 msgid "Add Feed"
@@ -353,37 +359,37 @@ msgstr "Import Feeds…"
 msgid "Export Feeds…"
 msgstr "Export Feeds…"
 
-#: qml/FeedListPage.qml:86
+#: qml/FeedListPage.qml:127
 #, kde-format
 msgid "No feeds added yet"
 msgstr "No feeds added yet"
 
-#: qml/FeedListPage.qml:124
+#: qml/FeedListPage.qml:133
 #, kde-format
 msgid "Import Feeds"
 msgstr "Import Feeds"
 
-#: qml/FeedListPage.qml:126 qml/FeedListPage.qml:134
+#: qml/FeedListPage.qml:135 qml/FeedListPage.qml:143
 #, kde-format
 msgid "OPML Files (*.opml)"
 msgstr "OPML Files (*.opml)"
 
-#: qml/FeedListPage.qml:126
+#: qml/FeedListPage.qml:135
 #, kde-format
 msgid "XML Files (*.xml)"
 msgstr "XML Files (*.xml)"
 
-#: qml/FeedListPage.qml:126
+#: qml/FeedListPage.qml:135
 #, kde-format
 msgid "All Files (*)"
 msgstr "All Files (*)"
 
-#: qml/FeedListPage.qml:132
+#: qml/FeedListPage.qml:141
 #, kde-format
 msgid "Export Feeds"
 msgstr "Export Feeds"
 
-#: qml/FeedListPage.qml:134
+#: qml/FeedListPage.qml:143
 #, kde-format
 msgid "All Files"
 msgstr "All Files"
