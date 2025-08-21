@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-08-20 00:42+0000\n"
-"PO-Revision-Date: 2025-01-16 14:23+0100\n"
+"PO-Revision-Date: 2025-08-20 11:49+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.12.1\n"
+"X-Generator: Lokalize 25.08.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -252,7 +252,7 @@ msgstr "In browser openen"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Link"
-msgstr ""
+msgstr "Koppeling kopiëren"
 
 #: qml/FeedDetailsPage.qml:20
 #, kde-format

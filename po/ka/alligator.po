@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-08-20 00:42+0000\n"
-"PO-Revision-Date: 2025-01-16 02:47+0100\n"
+"PO-Revision-Date: 2025-08-20 08:01+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.6\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -253,7 +253,7 @@ msgstr "ბრაუზერში გახსნა"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Link"
-msgstr ""
+msgstr "ბმულის კოპირება"
 
 #: qml/FeedDetailsPage.qml:20
 #, kde-format

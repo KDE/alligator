@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-08-20 00:42+0000\n"
-"PO-Revision-Date: 2025-01-16 08:48+0200\n"
+"PO-Revision-Date: 2025-08-20 09:28+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -255,7 +255,7 @@ msgstr "Відкрити у браузері"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Link"
-msgstr ""
+msgstr "Копіювати посилання"
 
 #: qml/FeedDetailsPage.qml:20
 #, kde-format
