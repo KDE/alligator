@@ -252,7 +252,7 @@ msgstr "Otevřít v prohlížeči"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Link"
-msgstr ""
+msgstr "Kopírovat odkaz"
 
 #: qml/FeedDetailsPage.qml:20
 #, kde-format
