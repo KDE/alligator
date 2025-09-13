@@ -4,7 +4,7 @@ Alligator is a convergent RSS/Atom feed reader.
 
 <a href='https://flathub.org/apps/details/org.kde.alligator'><img width='190px' alt='Download on Flathub' src='https://flathub.org/assets/badges/flathub-badge-i-en.png'/></a>
 
-![Screnshot of a feed](https://cdn.kde.org/screenshots/alligator/alligator-desktop.png)
+![Screenshot of a feed](https://cdn.kde.org/screenshots/alligator/alligator-desktop.png)
 
 ## Get It
 
