@@ -20,6 +20,7 @@ Kirigami.GlobalDrawer {
 
     property var entriesPage
     property var feedsPage
+    required property FeedsModel feedsModel
 
     modal: applicationWindow().width < Kirigami.Units.gridUnit * 40
 
@@ -128,11 +129,7 @@ Kirigami.GlobalDrawer {
             model: FeedsProxyModel {
                 id: proxyModel
                 groupName: ""
-                sourceModel: feedsModel
-            }
-
-            FeedsModel {
-                id: feedsModel
+                sourceModel: root.feedsModel
             }
 
             delegate: Delegates.RoundedItemDelegate {
