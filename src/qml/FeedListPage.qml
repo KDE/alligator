@@ -17,6 +17,8 @@ Kirigami.ScrollablePage {
     id: root
     title: i18nc("'Feeds' as in 'RSS Feeds'", "Manage Feeds")
 
+    required property FeedsModel feedsModel
+
     supportsRefreshing: true
     onRefreshingChanged: {
         if (refreshing) {
@@ -85,7 +87,7 @@ Kirigami.ScrollablePage {
         model: FeedsProxyModel {
             id: proxyModel
             groupName: ""
-            sourceModel: feedsModel
+            sourceModel: root.feedsModel
         }
 
         delegate: FeedListDelegate {
@@ -93,10 +95,6 @@ Kirigami.ScrollablePage {
                 editDialog.feed = feedObj;
                 editDialog.open();
             }
-        }
-
-        FeedsModel {
-            id: feedsModel
         }
 
         section {

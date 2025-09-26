@@ -21,9 +21,15 @@ Kirigami.ApplicationWindow {
     pageStack.globalToolBar.style: Kirigami.ApplicationHeaderStyle.ToolBar
     pageStack.globalToolBar.showNavigationButtons: Kirigami.ApplicationHeaderStyle.ShowBackButton
 
+    FeedsModel {
+        id: feedsModelId
+        objectName: "MainPageModel"
+    }
+
     globalDrawer: AlligatorGlobalDrawer {
         entriesPage: entryList
         feedsPage: feedList
+        feedsModel: feedsModelId
     }
 
     Component {
@@ -46,6 +52,8 @@ Kirigami.ApplicationWindow {
     Component {
         id: feedList
 
-        FeedListPage {}
+        FeedListPage {
+            feedsModel: feedsModelId
+        }
     }
 }
