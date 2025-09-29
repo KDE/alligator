@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-20 00:42+0000\n"
+"POT-Creation-Date: 2025-09-29 00:42+0000\n"
 "PO-Revision-Date: 2025-08-20 18:38+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
@@ -53,7 +53,7 @@ msgstr "لم يقبل أي محلل XML"
 msgid "Error while parsing feed"
 msgstr "خطأ أثناء تحليل التلقيم"
 
-#: main.cpp:76 qml/AlligatorGlobalDrawer.qml:55
+#: main.cpp:76 qml/AlligatorGlobalDrawer.qml:56
 #, kde-format
 msgid "Alligator"
 msgstr "قاطور"
@@ -115,22 +115,22 @@ msgctxt "@action:button"
 msgid "Cancel"
 msgstr "لا تُلغ"
 
-#: qml/AlligatorGlobalDrawer.qml:94 qml/AlligatorGlobalDrawer.qml:107
+#: qml/AlligatorGlobalDrawer.qml:95 qml/AlligatorGlobalDrawer.qml:108
 #, kde-format
 msgid "All Feeds"
 msgstr "كل التلقيمات"
 
-#: qml/AlligatorGlobalDrawer.qml:171 qml/SettingsPage.qml:20
+#: qml/AlligatorGlobalDrawer.qml:168 qml/SettingsPage.qml:20
 #, kde-format
 msgid "Settings"
 msgstr "إعدادات"
 
-#: qml/AlligatorGlobalDrawer.qml:185
+#: qml/AlligatorGlobalDrawer.qml:182
 #, kde-format
 msgid "Manage Feeds"
 msgstr "أدِر التلقيمات"
 
-#: qml/AlligatorGlobalDrawer.qml:200
+#: qml/AlligatorGlobalDrawer.qml:197
 #, kde-format
 msgid "About"
 msgstr "عن"
@@ -331,68 +331,68 @@ msgctxt "'Feeds' as in 'RSS Feeds'"
 msgid "Manage Feeds"
 msgstr "أدِر التلقيمات"
 
-#: qml/FeedListPage.qml:30
+#: qml/FeedListPage.qml:32
 #, kde-format
 msgid "Refresh All Feeds"
 msgstr "حدّث كل التلقيمات"
 
-#: qml/FeedListPage.qml:36 qml/FeedListPage.qml:118
+#: qml/FeedListPage.qml:38 qml/FeedListPage.qml:116
 #, kde-format
 msgid "Add Feed…"
 msgstr "أضف تلقيمًا…"
 
-#: qml/FeedListPage.qml:40 qml/FeedListPage.qml:122
+#: qml/FeedListPage.qml:42 qml/FeedListPage.qml:120
 #, kde-format
 msgctxt "@title"
 msgid "Add Feed"
 msgstr "أضف تلقيمًا"
 
-#: qml/FeedListPage.qml:46
+#: qml/FeedListPage.qml:48
 #, kde-format
 msgid "Manage Feed Groups"
 msgstr "أدِر مجموعات التلقيمات"
 
-#: qml/FeedListPage.qml:51
+#: qml/FeedListPage.qml:53
 #, kde-format
 msgid "Import Feeds…"
 msgstr "استورد تلقيمات…"
 
-#: qml/FeedListPage.qml:56
+#: qml/FeedListPage.qml:58
 #, kde-format
 msgid "Export Feeds…"
 msgstr "صدر التلقيمات…"
 
-#: qml/FeedListPage.qml:127
+#: qml/FeedListPage.qml:125
 #, kde-format
 msgid "No feeds added yet"
 msgstr "لم تضف أي تلقيم بعد"
 
-#: qml/FeedListPage.qml:133
+#: qml/FeedListPage.qml:131
 #, kde-format
 msgid "Import Feeds"
 msgstr "استورد تلقيمات"
 
-#: qml/FeedListPage.qml:135 qml/FeedListPage.qml:143
+#: qml/FeedListPage.qml:133 qml/FeedListPage.qml:141
 #, kde-format
 msgid "OPML Files (*.opml)"
 msgstr "ملفات OPML (*.opml)"
 
-#: qml/FeedListPage.qml:135
+#: qml/FeedListPage.qml:133
 #, kde-format
 msgid "XML Files (*.xml)"
 msgstr "ملفات XML (*.xml)"
 
-#: qml/FeedListPage.qml:135
+#: qml/FeedListPage.qml:133
 #, kde-format
 msgid "All Files (*)"
 msgstr "كلّ الملفّات (*)"
 
-#: qml/FeedListPage.qml:141
+#: qml/FeedListPage.qml:139
 #, kde-format
 msgid "Export Feeds"
 msgstr "صدر التلقيمات"
 
-#: qml/FeedListPage.qml:143
+#: qml/FeedListPage.qml:141
 #, kde-format
 msgid "All Files"
 msgstr "كلّ الملفّات"

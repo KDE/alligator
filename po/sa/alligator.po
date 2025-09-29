@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-20 00:42+0000\n"
+"POT-Creation-Date: 2025-09-29 00:42+0000\n"
 "PO-Revision-Date: 2024-12-24 20:39+0530\n"
 "Last-Translator: kali <shreekantkalwar@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -54,7 +54,7 @@ msgstr "कोऽपि पार्सरः XML न स्वीकृतव�
 msgid "Error while parsing feed"
 msgstr "फीड् विश्लेषणं कुर्वन् त्रुटिः"
 
-#: main.cpp:76 qml/AlligatorGlobalDrawer.qml:55
+#: main.cpp:76 qml/AlligatorGlobalDrawer.qml:56
 #, kde-format
 msgid "Alligator"
 msgstr "मगरमच्छ"
@@ -116,22 +116,22 @@ msgctxt "@action:button"
 msgid "Cancel"
 msgstr "निरसयतु"
 
-#: qml/AlligatorGlobalDrawer.qml:94 qml/AlligatorGlobalDrawer.qml:107
+#: qml/AlligatorGlobalDrawer.qml:95 qml/AlligatorGlobalDrawer.qml:108
 #, kde-format
 msgid "All Feeds"
 msgstr "सर्वे फीड्स्"
 
-#: qml/AlligatorGlobalDrawer.qml:171 qml/SettingsPage.qml:20
+#: qml/AlligatorGlobalDrawer.qml:168 qml/SettingsPage.qml:20
 #, kde-format
 msgid "Settings"
 msgstr "सेटिंग्स्"
 
-#: qml/AlligatorGlobalDrawer.qml:185
+#: qml/AlligatorGlobalDrawer.qml:182
 #, kde-format
 msgid "Manage Feeds"
 msgstr "फीड्स् प्रबन्धयन्तु"
 
-#: qml/AlligatorGlobalDrawer.qml:200
+#: qml/AlligatorGlobalDrawer.qml:197
 #, kde-format
 msgid "About"
 msgstr "विषये"
@@ -329,68 +329,68 @@ msgctxt "'Feeds' as in 'RSS Feeds'"
 msgid "Manage Feeds"
 msgstr "फीड्स् प्रबन्धयन्तु"
 
-#: qml/FeedListPage.qml:30
+#: qml/FeedListPage.qml:32
 #, kde-format
 msgid "Refresh All Feeds"
 msgstr "सर्वाणि फीड्स् ताजगीं कुर्वन्तु"
 
-#: qml/FeedListPage.qml:36 qml/FeedListPage.qml:118
+#: qml/FeedListPage.qml:38 qml/FeedListPage.qml:116
 #, kde-format
 msgid "Add Feed…"
 msgstr "फीड् योजयतु…"
 
-#: qml/FeedListPage.qml:40 qml/FeedListPage.qml:122
+#: qml/FeedListPage.qml:42 qml/FeedListPage.qml:120
 #, kde-format
 msgctxt "@title"
 msgid "Add Feed"
 msgstr "फीड् योजयतु"
 
-#: qml/FeedListPage.qml:46
+#: qml/FeedListPage.qml:48
 #, kde-format
 msgid "Manage Feed Groups"
 msgstr "फीड् समूहानां प्रबन्धनं कुर्वन्तु"
 
-#: qml/FeedListPage.qml:51
+#: qml/FeedListPage.qml:53
 #, kde-format
 msgid "Import Feeds…"
 msgstr "आयात फीड्स्…"
 
-#: qml/FeedListPage.qml:56
+#: qml/FeedListPage.qml:58
 #, kde-format
 msgid "Export Feeds…"
 msgstr "निर्यात फीड्स्…"
 
-#: qml/FeedListPage.qml:127
+#: qml/FeedListPage.qml:125
 #, kde-format
 msgid "No feeds added yet"
 msgstr "अद्यापि कोऽपि फीड् न योजितः"
 
-#: qml/FeedListPage.qml:133
+#: qml/FeedListPage.qml:131
 #, kde-format
 msgid "Import Feeds"
 msgstr "आयात फीड्स"
 
-#: qml/FeedListPage.qml:135 qml/FeedListPage.qml:143
+#: qml/FeedListPage.qml:133 qml/FeedListPage.qml:141
 #, kde-format
 msgid "OPML Files (*.opml)"
 msgstr "ओपीएमएल सञ्चिकाः (*.opml)"
 
-#: qml/FeedListPage.qml:135
+#: qml/FeedListPage.qml:133
 #, kde-format
 msgid "XML Files (*.xml)"
 msgstr "XML सञ्चिकाः (*.xml)"
 
-#: qml/FeedListPage.qml:135
+#: qml/FeedListPage.qml:133
 #, kde-format
 msgid "All Files (*)"
 msgstr "सर्वाणि सञ्चिकाः (*) ."
 
-#: qml/FeedListPage.qml:141
+#: qml/FeedListPage.qml:139
 #, kde-format
 msgid "Export Feeds"
 msgstr "निर्यात फीड्स"
 
-#: qml/FeedListPage.qml:143
+#: qml/FeedListPage.qml:141
 #, kde-format
 msgid "All Files"
 msgstr "सर्वाणि सञ्चिकाः"
