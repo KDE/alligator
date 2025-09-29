@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-01 00:46+0000\n"
+"POT-Creation-Date: 2025-09-29 02:37+0000\n"
 "PO-Revision-Date: 2023-03-06 16:33+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -48,7 +48,7 @@ msgstr "Não foi possível processar o XML de nenhuma forma"
 msgid "Error while parsing feed"
 msgstr "Erro ao processar a fonte"
 
-#: main.cpp:76 qml/AlligatorGlobalDrawer.qml:55
+#: main.cpp:76 qml/AlligatorGlobalDrawer.qml:56
 #, kde-format
 msgid "Alligator"
 msgstr "Alligator"
@@ -112,22 +112,22 @@ msgctxt "@action:button"
 msgid "Cancel"
 msgstr ""
 
-#: qml/AlligatorGlobalDrawer.qml:94 qml/AlligatorGlobalDrawer.qml:107
+#: qml/AlligatorGlobalDrawer.qml:95 qml/AlligatorGlobalDrawer.qml:108
 #, kde-format
 msgid "All Feeds"
 msgstr "Todas as Fontes"
 
-#: qml/AlligatorGlobalDrawer.qml:171 qml/SettingsPage.qml:20
+#: qml/AlligatorGlobalDrawer.qml:168 qml/SettingsPage.qml:20
 #, kde-format
 msgid "Settings"
 msgstr "Configuração"
 
-#: qml/AlligatorGlobalDrawer.qml:185
+#: qml/AlligatorGlobalDrawer.qml:182
 #, kde-format
 msgid "Manage Feeds"
 msgstr "Gerir as Fontes"
 
-#: qml/AlligatorGlobalDrawer.qml:200
+#: qml/AlligatorGlobalDrawer.qml:197
 #, kde-format
 msgid "About"
 msgstr "Acerca"
@@ -321,69 +321,69 @@ msgctxt "'Feeds' as in 'RSS Feeds'"
 msgid "Manage Feeds"
 msgstr "Gerir as Fontes"
 
-#: qml/FeedListPage.qml:30
+#: qml/FeedListPage.qml:32
 #, kde-format
 msgid "Refresh All Feeds"
 msgstr "Actualizar Todas as Fontes"
 
-#: qml/FeedListPage.qml:36
+#: qml/FeedListPage.qml:38
 #, kde-format
 msgid "Add Feed…"
 msgstr "Adicionar uma Fonte…"
 
-#: qml/FeedListPage.qml:40
+#: qml/FeedListPage.qml:42
 #, fuzzy, kde-format
 #| msgid "Add Feed"
 msgctxt "@title"
 msgid "Add Feed"
 msgstr "Adicionar uma Fonte"
 
-#: qml/FeedListPage.qml:46
+#: qml/FeedListPage.qml:48
 #, kde-format
 msgid "Manage Feed Groups"
 msgstr "Gerir os Grupos de Fontes"
 
-#: qml/FeedListPage.qml:51
+#: qml/FeedListPage.qml:53
 #, kde-format
 msgid "Import Feeds…"
 msgstr "Importar Fontes…"
 
-#: qml/FeedListPage.qml:56
+#: qml/FeedListPage.qml:58
 #, kde-format
 msgid "Export Feeds…"
 msgstr "Exportar as Fontes…"
 
-#: qml/FeedListPage.qml:86
+#: qml/FeedListPage.qml:88
 #, kde-format
 msgid "No feeds added yet"
 msgstr "Nenhuma fonte ainda adicionada"
 
-#: qml/FeedListPage.qml:124
+#: qml/FeedListPage.qml:122
 #, kde-format
 msgid "Import Feeds"
 msgstr "Importar Fontes"
 
-#: qml/FeedListPage.qml:126 qml/FeedListPage.qml:134
+#: qml/FeedListPage.qml:124 qml/FeedListPage.qml:132
 #, kde-format
 msgid "OPML Files (*.opml)"
 msgstr "Ficheiros OPML (*.opml)"
 
-#: qml/FeedListPage.qml:126
+#: qml/FeedListPage.qml:124
 #, kde-format
 msgid "XML Files (*.xml)"
 msgstr "Ficheiros XML (*.xml)"
 
-#: qml/FeedListPage.qml:126
+#: qml/FeedListPage.qml:124
 #, kde-format
 msgid "All Files (*)"
 msgstr "Todos os Ficheiros (*)"
 
-#: qml/FeedListPage.qml:132
+#: qml/FeedListPage.qml:130
 #, kde-format
 msgid "Export Feeds"
 msgstr "Exportar as Fontes"
 
-#: qml/FeedListPage.qml:134
+#: qml/FeedListPage.qml:132
 #, kde-format
 msgid "All Files"
 msgstr "Todos os Ficheiros"

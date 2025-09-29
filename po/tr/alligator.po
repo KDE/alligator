@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-01 00:46+0000\n"
+"POT-Creation-Date: 2025-09-29 02:37+0000\n"
 "PO-Revision-Date: 2025-01-16 15:57+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
@@ -54,7 +54,7 @@ msgstr "XML’yi hiçbir ayrıştırıcı kabul etmedi"
 msgid "Error while parsing feed"
 msgstr "Besleme ayrıştırılırken hata"
 
-#: main.cpp:76 qml/AlligatorGlobalDrawer.qml:55
+#: main.cpp:76 qml/AlligatorGlobalDrawer.qml:56
 #, kde-format
 msgid "Alligator"
 msgstr "Aligatör"
@@ -116,22 +116,22 @@ msgctxt "@action:button"
 msgid "Cancel"
 msgstr "İptal"
 
-#: qml/AlligatorGlobalDrawer.qml:94 qml/AlligatorGlobalDrawer.qml:107
+#: qml/AlligatorGlobalDrawer.qml:95 qml/AlligatorGlobalDrawer.qml:108
 #, kde-format
 msgid "All Feeds"
 msgstr "Tüm Beslemeler"
 
-#: qml/AlligatorGlobalDrawer.qml:171 qml/SettingsPage.qml:20
+#: qml/AlligatorGlobalDrawer.qml:168 qml/SettingsPage.qml:20
 #, kde-format
 msgid "Settings"
 msgstr "Ayarlar"
 
-#: qml/AlligatorGlobalDrawer.qml:185
+#: qml/AlligatorGlobalDrawer.qml:182
 #, kde-format
 msgid "Manage Feeds"
 msgstr "Beslemeleri Yönet"
 
-#: qml/AlligatorGlobalDrawer.qml:200
+#: qml/AlligatorGlobalDrawer.qml:197
 #, kde-format
 msgid "About"
 msgstr "Hakkında"
@@ -322,68 +322,68 @@ msgctxt "'Feeds' as in 'RSS Feeds'"
 msgid "Manage Feeds"
 msgstr "Beslemeleri Yönet"
 
-#: qml/FeedListPage.qml:30
+#: qml/FeedListPage.qml:32
 #, kde-format
 msgid "Refresh All Feeds"
 msgstr "Tüm Beslemeleri Yenile"
 
-#: qml/FeedListPage.qml:36
+#: qml/FeedListPage.qml:38
 #, kde-format
 msgid "Add Feed…"
 msgstr "Besleme Ekle…"
 
-#: qml/FeedListPage.qml:40
+#: qml/FeedListPage.qml:42
 #, kde-format
 msgctxt "@title"
 msgid "Add Feed"
 msgstr "Besleme Ekle"
 
-#: qml/FeedListPage.qml:46
+#: qml/FeedListPage.qml:48
 #, kde-format
 msgid "Manage Feed Groups"
 msgstr "Besleme Gruplarını Yönet"
 
-#: qml/FeedListPage.qml:51
+#: qml/FeedListPage.qml:53
 #, kde-format
 msgid "Import Feeds…"
 msgstr "Beslemeler İçe Aktar…"
 
-#: qml/FeedListPage.qml:56
+#: qml/FeedListPage.qml:58
 #, kde-format
 msgid "Export Feeds…"
 msgstr "Beslemeleri Dışa Aktar…"
 
-#: qml/FeedListPage.qml:86
+#: qml/FeedListPage.qml:88
 #, kde-format
 msgid "No feeds added yet"
 msgstr "Henüz bir besleme eklenmedi"
 
-#: qml/FeedListPage.qml:124
+#: qml/FeedListPage.qml:122
 #, kde-format
 msgid "Import Feeds"
 msgstr "Beslemeleri İçe Aktar"
 
-#: qml/FeedListPage.qml:126 qml/FeedListPage.qml:134
+#: qml/FeedListPage.qml:124 qml/FeedListPage.qml:132
 #, kde-format
 msgid "OPML Files (*.opml)"
 msgstr "OPML Dosyaları (*.opml)"
 
-#: qml/FeedListPage.qml:126
+#: qml/FeedListPage.qml:124
 #, kde-format
 msgid "XML Files (*.xml)"
 msgstr "XML Dosyaları (*.xml)"
 
-#: qml/FeedListPage.qml:126
+#: qml/FeedListPage.qml:124
 #, kde-format
 msgid "All Files (*)"
 msgstr "Tüm Dosyalar (*)"
 
-#: qml/FeedListPage.qml:132
+#: qml/FeedListPage.qml:130
 #, kde-format
 msgid "Export Feeds"
 msgstr "Beslemeleri Dışa Aktar"
 
-#: qml/FeedListPage.qml:134
+#: qml/FeedListPage.qml:132
 #, kde-format
 msgid "All Files"
 msgstr "Tüm Dosyalar"

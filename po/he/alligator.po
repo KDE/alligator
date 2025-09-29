@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-01 00:46+0000\n"
+"POT-Creation-Date: 2025-09-29 02:37+0000\n"
 "PO-Revision-Date: 2025-01-24 09:20+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
@@ -53,7 +53,7 @@ msgstr "אף מפענח לא אישר את ה־XML"
 msgid "Error while parsing feed"
 msgstr "שגיאה בפענוח ערוץ העדכונים"
 
-#: main.cpp:76 qml/AlligatorGlobalDrawer.qml:55
+#: main.cpp:76 qml/AlligatorGlobalDrawer.qml:56
 #, kde-format
 msgid "Alligator"
 msgstr "תנין"
@@ -115,22 +115,22 @@ msgctxt "@action:button"
 msgid "Cancel"
 msgstr "ביטול"
 
-#: qml/AlligatorGlobalDrawer.qml:94 qml/AlligatorGlobalDrawer.qml:107
+#: qml/AlligatorGlobalDrawer.qml:95 qml/AlligatorGlobalDrawer.qml:108
 #, kde-format
 msgid "All Feeds"
 msgstr "כל ערוצי העדכונים"
 
-#: qml/AlligatorGlobalDrawer.qml:171 qml/SettingsPage.qml:20
+#: qml/AlligatorGlobalDrawer.qml:168 qml/SettingsPage.qml:20
 #, kde-format
 msgid "Settings"
 msgstr "הגדרות"
 
-#: qml/AlligatorGlobalDrawer.qml:185
+#: qml/AlligatorGlobalDrawer.qml:182
 #, kde-format
 msgid "Manage Feeds"
 msgstr "ניהול ערוצי עדכונים"
 
-#: qml/AlligatorGlobalDrawer.qml:200
+#: qml/AlligatorGlobalDrawer.qml:197
 #, kde-format
 msgid "About"
 msgstr "על אודות"
@@ -323,68 +323,68 @@ msgctxt "'Feeds' as in 'RSS Feeds'"
 msgid "Manage Feeds"
 msgstr "ניהול ערוצי עדכונים"
 
-#: qml/FeedListPage.qml:30
+#: qml/FeedListPage.qml:32
 #, kde-format
 msgid "Refresh All Feeds"
 msgstr "ריענון כל ערוצי העדכונים"
 
-#: qml/FeedListPage.qml:36
+#: qml/FeedListPage.qml:38
 #, kde-format
 msgid "Add Feed…"
 msgstr "הוספת ערוץ עדכונים…"
 
-#: qml/FeedListPage.qml:40
+#: qml/FeedListPage.qml:42
 #, kde-format
 msgctxt "@title"
 msgid "Add Feed"
 msgstr "הוספת ערוץ עדכונים"
 
-#: qml/FeedListPage.qml:46
+#: qml/FeedListPage.qml:48
 #, kde-format
 msgid "Manage Feed Groups"
 msgstr "ניהול קבוצות ערוצי עדכונים"
 
-#: qml/FeedListPage.qml:51
+#: qml/FeedListPage.qml:53
 #, kde-format
 msgid "Import Feeds…"
 msgstr "ייבוא ערוצי עדכונים…"
 
-#: qml/FeedListPage.qml:56
+#: qml/FeedListPage.qml:58
 #, kde-format
 msgid "Export Feeds…"
 msgstr "ייצוא ערוצי עדכונים…"
 
-#: qml/FeedListPage.qml:86
+#: qml/FeedListPage.qml:88
 #, kde-format
 msgid "No feeds added yet"
 msgstr "עדיין לא נוספו ערוצי עדכונים"
 
-#: qml/FeedListPage.qml:124
+#: qml/FeedListPage.qml:122
 #, kde-format
 msgid "Import Feeds"
 msgstr "ייבוא ערוצי עדכונים"
 
-#: qml/FeedListPage.qml:126 qml/FeedListPage.qml:134
+#: qml/FeedListPage.qml:124 qml/FeedListPage.qml:132
 #, kde-format
 msgid "OPML Files (*.opml)"
 msgstr "קובצי OPML‏ (‎*.opml)"
 
-#: qml/FeedListPage.qml:126
+#: qml/FeedListPage.qml:124
 #, kde-format
 msgid "XML Files (*.xml)"
 msgstr "קובצי XML ‏(‎*.xml)"
 
-#: qml/FeedListPage.qml:126
+#: qml/FeedListPage.qml:124
 #, kde-format
 msgid "All Files (*)"
 msgstr "כל הקבצים (*)"
 
-#: qml/FeedListPage.qml:132
+#: qml/FeedListPage.qml:130
 #, kde-format
 msgid "Export Feeds"
 msgstr "ייצוא ערוצי עדכונים"
 
-#: qml/FeedListPage.qml:134
+#: qml/FeedListPage.qml:132
 #, kde-format
 msgid "All Files"
 msgstr "כל הקבצים"
