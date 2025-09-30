@@ -252,7 +252,7 @@ msgstr "在浏览器中打开"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Link"
-msgstr ""
+msgstr "复制链接"
 
 #: qml/FeedDetailsPage.qml:20
 #, kde-format
