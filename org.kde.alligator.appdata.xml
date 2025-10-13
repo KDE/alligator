@@ -309,6 +309,6 @@
     <display_length compare="ge">360</display_length>
   </requires>
   <custom>
-    <value key="KDE::supporters">Ian Nicholson;Psyhackological;Roguefort;[JayVii](https://social.jayvii.de/@jayvii)</value>
+    <value key="KDE::supporters">.</value>
   </custom>
 </component>
