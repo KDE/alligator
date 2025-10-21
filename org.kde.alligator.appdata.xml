@@ -28,6 +28,7 @@
   <name xml:lang="it">Alligator</name>
   <name xml:lang="ka">Alligator</name>
   <name xml:lang="ko">Alligator</name>
+  <name xml:lang="lt">Alligator</name>
   <name xml:lang="lv">Alligator</name>
   <name xml:lang="nl">Alligator</name>
   <name xml:lang="nn">Alligator</name>
@@ -63,6 +64,7 @@
   <summary xml:lang="it">Lettore di fonti RSS</summary>
   <summary xml:lang="ka">RSS ლენტების მკითხველი</summary>
   <summary xml:lang="ko">RSS 피드 리더</summary>
+  <summary xml:lang="lt">RSS kanalų skaitytuvė</summary>
   <summary xml:lang="lv">RSS plūsmu lasītājs</summary>
   <summary xml:lang="nl">Lezer van RSS-feed</summary>
   <summary xml:lang="pl">Czytnik kanałów RSS</summary>
@@ -104,6 +106,7 @@
     <p xml:lang="it">Alligator è un lettore di fonti convergente e multipiattaforma che supporta fonti RSS/Atom standard</p>
     <p xml:lang="ka">Alligator კონვერგენტული, პლატფორმათაშორისი ლენტმკითხველია RSS/Atom ტიპის ლენტების მხარდაჭერით</p>
     <p xml:lang="ko">Alligator는 표준 RSS/Atom 피드를 지원하는 크로스 플랫폼 피드 리더입니다.</p>
+    <p xml:lang="lt">Alligator yra konverguojanti, daugiaplatformė sklaidos kanalų skaitytuvė, palaikanti standartinius RSS/Atom kanalus</p>
     <p xml:lang="lv">„Alligator“ ir konverģents plūsmu lasītājs vairākām platformām, kas atbalsta standarta RSS/„Atom“ plūsmas</p>
     <p xml:lang="nl">Alligator is een convergente, cross-platform lezer van feed, ondersteunt standaard RSS/Atom feeds</p>
     <p xml:lang="pl">Alligator jest dostosowującym się, wieloplatformowym czytnikiem kanałów RSS/Atom</p>
@@ -149,6 +152,7 @@
       <caption xml:lang="it">Elenco delle fonti di Alligator sul desktop </caption>
       <caption xml:lang="ka">Alligator -ის ლენტის სია სამუშაო მაგიდაზე</caption>
       <caption xml:lang="ko">데스크톱에서의 Alligator 피드 목록</caption>
+      <caption xml:lang="lt">Alligator kanalų sąrašas darbalaukyje</caption>
       <caption xml:lang="lv">„Alligator“ plūsmu saraksts datorā</caption>
       <caption xml:lang="nl">Alligator feed-lijst op het bureaublad</caption>
       <caption xml:lang="nn">Kjeldelista i Alligator på ein PC</caption>
@@ -188,6 +192,7 @@
       <caption xml:lang="it">Alligator su un telefono</caption>
       <caption xml:lang="ka">Alligator ტელელფონზე</caption>
       <caption xml:lang="ko">휴대폰에서의 Alligator</caption>
+      <caption xml:lang="lt">Alligator telefone</caption>
       <caption xml:lang="lv">„Alligator“ tālrunī</caption>
       <caption xml:lang="nl">Alligator op een telefoon</caption>
       <caption xml:lang="nn">Alligator på ein telefon</caption>
