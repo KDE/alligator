@@ -11,15 +11,15 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-09-29 00:42+0000\n"
-"PO-Revision-Date: 2025-08-22 12:24-0300\n"
-"Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
+"PO-Revision-Date: 2025-11-08 21:10-0300\n"
+"Last-Translator: Guilherme Marçal Silva <guimarcalsilva@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 25.08.0\n"
+"X-Generator: Lokalize 25.08.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -338,7 +338,7 @@ msgstr "Atualizar todas as fontes de notícias"
 #: qml/FeedListPage.qml:38 qml/FeedListPage.qml:116
 #, kde-format
 msgid "Add Feed…"
-msgstr "Adicionar fonte de notícias..."
+msgstr "Adicionar fonte de notícias…"
 
 #: qml/FeedListPage.qml:42 qml/FeedListPage.qml:120
 #, kde-format
@@ -354,12 +354,12 @@ msgstr "Gerenciar grupos de fontes de notícias"
 #: qml/FeedListPage.qml:53
 #, kde-format
 msgid "Import Feeds…"
-msgstr "Importar fontes de notícias..."
+msgstr "Importar fontes de notícias…"
 
 #: qml/FeedListPage.qml:58
 #, kde-format
 msgid "Export Feeds…"
-msgstr "Exportar fontes de notícias..."
+msgstr "Exportar fontes de notícias…"
 
 #: qml/FeedListPage.qml:125
 #, kde-format
@@ -404,7 +404,7 @@ msgstr "Grupos"
 #: qml/GroupsListPage.qml:24
 #, kde-format
 msgid "Add Group…"
-msgstr "Adicionar grupo..."
+msgstr "Adicionar grupo…"
 
 #: qml/GroupsListPage.qml:55
 #, kde-format
