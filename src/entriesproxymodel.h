@@ -37,6 +37,7 @@ Q_SIGNALS:
     void onlyFavoriteChanged();
 
 private:
+    void slotInvalidateFilter();
     bool m_onlyUnread;
     bool m_onlyFavorite;
 };

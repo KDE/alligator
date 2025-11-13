@@ -27,8 +27,15 @@ FeedsProxyModel::~FeedsProxyModel()
 void FeedsProxyModel::setGroupName(const QString &name)
 {
     if (m_group_name != name) {
+#if QT_VERSION >= QT_VERSION_CHECK(6, 10, 0)
+        beginFilterChange();
+#endif
         m_group_name = name;
+#if QT_VERSION >= QT_VERSION_CHECK(6, 10, 0)
+        endFilterChange(QSortFilterProxyModel::Direction::Rows);
+#else
         invalidateFilter();
+#endif
         Q_EMIT groupNameChanged();
     }
 }

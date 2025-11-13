@@ -14,13 +14,13 @@ EntriesProxyModel::EntriesProxyModel(QObject *parent)
     , m_onlyFavorite(false)
 {
     connect(&Database::instance(), &Database::entryReadChanged, this, [this]() {
-        invalidateFilter();
+        slotInvalidateFilter();
     });
     connect(&Database::instance(), &Database::feedReadChanged, this, [this]() {
-        invalidateFilter();
+        slotInvalidateFilter();
     });
     connect(&Database::instance(), &Database::entryFavoriteChanged, this, [this]() {
-        invalidateFilter();
+        slotInvalidateFilter();
     });
 }
 
@@ -28,11 +28,28 @@ EntriesProxyModel::~EntriesProxyModel()
 {
 }
 
+void EntriesProxyModel::slotInvalidateFilter()
+{
+#if QT_VERSION >= QT_VERSION_CHECK(6, 10, 0)
+    beginFilterChange();
+    endFilterChange(QSortFilterProxyModel::Direction::Rows);
+#else
+    invalidateFilter();
+#endif
+}
+
 void EntriesProxyModel::setOnlyUnread(bool onlyUnread)
 {
     if (m_onlyUnread != onlyUnread) {
+#if QT_VERSION >= QT_VERSION_CHECK(6, 10, 0)
+        beginFilterChange();
+#endif
         m_onlyUnread = onlyUnread;
+#if QT_VERSION >= QT_VERSION_CHECK(6, 10, 0)
+        endFilterChange(QSortFilterProxyModel::Direction::Rows);
+#else
         invalidateFilter();
+#endif
         Q_EMIT onlyUnreadChanged();
     }
 }
@@ -42,8 +59,16 @@ void EntriesProxyModel::setOnlyFavorite(bool onlyFavorite)
     if (m_onlyFavorite == onlyFavorite) {
         return;
     }
+
+#if QT_VERSION >= QT_VERSION_CHECK(6, 10, 0)
+    beginFilterChange();
+#endif
     m_onlyFavorite = onlyFavorite;
+#if QT_VERSION >= QT_VERSION_CHECK(6, 10, 0)
+    endFilterChange(QSortFilterProxyModel::Direction::Rows);
+#else
     invalidateFilter();
+#endif
     Q_EMIT onlyFavoriteChanged();
 }
 
