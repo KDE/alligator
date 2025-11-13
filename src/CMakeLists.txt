@@ -4,15 +4,25 @@
 add_executable(alligator
     main.cpp
     feedsmodel.cpp
+    feedsmodel.h
     entriesmodel.cpp
+    entriesmodel.h
     entriesproxymodel.cpp
+    entriesproxymodel.h
     fetcher.cpp
+    fetcher.h
     database.cpp
+    database.h
     feed.cpp
+    feed.h
     feedgroupsmodel.cpp
+    feedgroupsmodel.h
     feedsproxymodel.cpp
+    feedsproxymodel.h
     contenthelper.cpp
+    contenthelper.h
     clipboard.cpp
+    clipboard.h
 )
 
 ecm_add_qml_module(alligator URI org.kde.alligator DEPENDENCIES QtCore)
