@@ -13,37 +13,38 @@ import org.kde.kirigamiaddons.formcard as FormCard
 
 import org.kde.alligator
 
-FormCard.FormCardPage {
+Kirigami.PromptDialog {
     id: root
 
     title: i18n("Add Feed")
+    preferredWidth: Kirigami.Units.gridUnit * 20
 
-    FormCard.FormCard {
-        Layout.topMargin: Kirigami.Units.largeSpacing
-        FormCard.FormTextFieldDelegate {
+    standardButtons: Kirigami.Dialog.Ok | Kirigami.Dialog.Cancel
+
+    Component.onCompleted: {
+        standardButton(Kirigami.Dialog.Ok).enabled = Qt.binding(function() { return urlField.acceptableInput && urlField.text.trim() != "" });
+    }
+
+
+    onAccepted: {
+        if (urlField.text.trim().length > 0) {
+            Database.addFeed(urlField.text, "", markFeedAsRead.checked);
+        }
+    }
+
+    Kirigami.FormLayout {
+        Controls.TextField {
             id: urlField
-            label: i18n("URL")
+            implicitWidth: Kirigami.Units.gridUnit * 16
+            Layout.fillWidth: true
+            Kirigami.FormData.label: i18n("URL:")
             placeholderText: "https://planet.kde.org/global/atom.xml/"
             validator: RegularExpressionValidator { regularExpression: /\S+/ }
         }
-        FormCard.FormDelegateSeparator {}
-        FormCard.FormCheckDelegate {
+        Controls.CheckBox {
             id: markFeedAsRead
             text: i18n("Mark entries as read")
             checked: false
-        }
-        FormCard.FormDelegateSeparator {}
-        FormCard.FormButtonDelegate {
-            text: i18nc("@action:button", "Add Feed")
-            enabled: urlField.acceptableInput
-            onClicked: {
-                Database.addFeed(urlField.text, "", markFeedAsRead.checked);
-                root.closeDialog();
-            }
-        }
-        FormCard.FormButtonDelegate {
-            text: i18nc("@action:button", "Cancel")
-            onClicked: root.closeDialog()
         }
     }
 }

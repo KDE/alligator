@@ -38,10 +38,7 @@ Kirigami.ScrollablePage {
             text: i18n("Add Feed…")
             icon.name: "list-add"
             onTriggered: {
-                pageStack.pushDialogLayer(addDialog, {}, {
-                    title: i18nc("@title", "Add Feed"),
-                    width: Kirigami.Units.gridUnit * 20
-                });
+                addFeedDialog.open();
             }
         },
         Kirigami.Action {
@@ -71,7 +68,7 @@ Kirigami.ScrollablePage {
     }
 
     AddFeedDialog {
-        id: addDialog
+        id: addFeedDialog
     }
 
     EditFeedDialog {
@@ -116,10 +113,7 @@ Kirigami.ScrollablePage {
                 text: i18n("Add Feed…")
                 icon.name: "list-add"
                 onTriggered: {
-                    pageStack.pushDialogLayer(addDialog, {}, {
-                        title: i18nc("@title", "Add Feed"),
-                                              width: Kirigami.Units.gridUnit * 20
-                    });
+                    addFeedDialog.open();
                 }
             }
             text: i18n("No feeds added yet")
