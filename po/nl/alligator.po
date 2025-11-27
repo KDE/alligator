@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 14:40+0000\n"
+"POT-Creation-Date: 2025-11-27 02:36+0000\n"
 "PO-Revision-Date: 2025-08-20 11:49+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
@@ -92,27 +92,16 @@ msgstr "Feed-URL"
 msgid "Add Feed"
 msgstr "Feed toevoegen"
 
-#: qml/AddFeedDialog.qml:25
-#, kde-format
-msgid "URL"
-msgstr "URL"
+#: qml/AddFeedDialog.qml:40
+#, fuzzy, kde-format
+#| msgid "Feed URL:"
+msgid "URL:"
+msgstr "Feed-URL:"
 
-#: qml/AddFeedDialog.qml:32
+#: qml/AddFeedDialog.qml:46
 #, kde-format
 msgid "Mark entries as read"
 msgstr "Items markeren als gelezen"
-
-#: qml/AddFeedDialog.qml:37
-#, kde-format
-msgctxt "@action:button"
-msgid "Add Feed"
-msgstr "Feed toevoegen"
-
-#: qml/AddFeedDialog.qml:45
-#, kde-format
-msgctxt "@action:button"
-msgid "Cancel"
-msgstr "Annuleren"
 
 #: qml/AlligatorGlobalDrawer.qml:95 qml/AlligatorGlobalDrawer.qml:108
 #, kde-format
@@ -331,63 +320,57 @@ msgstr "Feeds beheren"
 msgid "Refresh All Feeds"
 msgstr "Alle feeds vernieuwen"
 
-#: qml/FeedListPage.qml:38 qml/FeedListPage.qml:116
+#: qml/FeedListPage.qml:38 qml/FeedListPage.qml:113
 #, kde-format
 msgid "Add Feed…"
 msgstr "Feed toevoegen…"
 
-#: qml/FeedListPage.qml:42 qml/FeedListPage.qml:120
-#, kde-format
-msgctxt "@title"
-msgid "Add Feed"
-msgstr "Feed toevoegen"
-
-#: qml/FeedListPage.qml:48
+#: qml/FeedListPage.qml:45
 #, kde-format
 msgid "Manage Feed Groups"
 msgstr "Feed-groepen beheren"
 
-#: qml/FeedListPage.qml:53
+#: qml/FeedListPage.qml:50
 #, kde-format
 msgid "Import Feeds…"
 msgstr "Feeds importeren…"
 
-#: qml/FeedListPage.qml:58
+#: qml/FeedListPage.qml:55
 #, kde-format
 msgid "Export Feeds…"
 msgstr "Feeds exporteren…"
 
-#: qml/FeedListPage.qml:125
+#: qml/FeedListPage.qml:119
 #, kde-format
 msgid "No feeds added yet"
 msgstr "Nog geen feeds toegevoegd"
 
-#: qml/FeedListPage.qml:131
+#: qml/FeedListPage.qml:125
 #, kde-format
 msgid "Import Feeds"
 msgstr "Feeds importeren"
 
-#: qml/FeedListPage.qml:133 qml/FeedListPage.qml:141
+#: qml/FeedListPage.qml:127 qml/FeedListPage.qml:135
 #, kde-format
 msgid "OPML Files (*.opml)"
 msgstr "OPML-bestanden (*.opml)"
 
-#: qml/FeedListPage.qml:133
+#: qml/FeedListPage.qml:127
 #, kde-format
 msgid "XML Files (*.xml)"
 msgstr "XML-bestanden (*.xml)"
 
-#: qml/FeedListPage.qml:133
+#: qml/FeedListPage.qml:127
 #, kde-format
 msgid "All Files (*)"
 msgstr "Alle bestanden (*)"
 
-#: qml/FeedListPage.qml:139
+#: qml/FeedListPage.qml:133
 #, kde-format
 msgid "Export Feeds"
 msgstr "Feeds exporteren"
 
-#: qml/FeedListPage.qml:141
+#: qml/FeedListPage.qml:135
 #, kde-format
 msgid "All Files"
 msgstr "Alle bestanden"
@@ -472,6 +455,21 @@ msgstr "Tekengrootte:"
 #, kde-format
 msgid "Use system default"
 msgstr "Systeemstandaard gebruiken"
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#~ msgctxt "@action:button"
+#~ msgid "Add Feed"
+#~ msgstr "Feed toevoegen"
+
+#~ msgctxt "@action:button"
+#~ msgid "Cancel"
+#~ msgstr "Annuleren"
+
+#~ msgctxt "@title"
+#~ msgid "Add Feed"
+#~ msgstr "Feed toevoegen"
 
 #~ msgid "Url"
 #~ msgstr "Url"
