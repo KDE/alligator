@@ -13,9 +13,7 @@ FeedsProxyModel::FeedsProxyModel(QObject *parent)
     : QSortFilterProxyModel(parent)
     , m_group_name{}
 {
-    connect(&Database::instance(), &Database::feedDetailsUpdated, [this]() {
-        invalidate();
-    });
+    connect(&Database::instance(), &Database::feedDetailsUpdated, this, &FeedsProxyModel::invalidate);
     setSortRole(0);
     sort(0);
 }
