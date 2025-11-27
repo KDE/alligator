@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:51+0000\n"
+"POT-Creation-Date: 2025-11-27 00:43+0000\n"
 "PO-Revision-Date: 2024-04-22 15:58\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -233,20 +233,20 @@ msgstr "收藏"
 
 #: qml/EntryPage.qml:69
 #, kde-format
+msgid "Open in Browser"
+msgstr "在浏览器中打开"
+
+#: qml/EntryPage.qml:74
+#, kde-format
 msgctxt "@action:button"
 msgid "Remove from Favorites"
 msgstr "从收藏中移除"
 
-#: qml/EntryPage.qml:69
+#: qml/EntryPage.qml:74
 #, kde-format
 msgctxt "@action:button"
 msgid "Add to Favorites"
 msgstr "添加到收藏"
-
-#: qml/EntryPage.qml:77
-#, kde-format
-msgid "Open in Browser"
-msgstr "在浏览器中打开"
 
 #: qml/EntryPage.qml:82
 #, kde-format

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:51+0000\n"
+"POT-Creation-Date: 2025-11-27 00:43+0000\n"
 "PO-Revision-Date: 2025-08-30 07:41+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: pl\n"
@@ -235,20 +235,20 @@ msgstr "Ulubione"
 
 #: qml/EntryPage.qml:69
 #, kde-format
+msgid "Open in Browser"
+msgstr "Otwórz w przeglądarce"
+
+#: qml/EntryPage.qml:74
+#, kde-format
 msgctxt "@action:button"
 msgid "Remove from Favorites"
 msgstr "Usuń z ulubionych"
 
-#: qml/EntryPage.qml:69
+#: qml/EntryPage.qml:74
 #, kde-format
 msgctxt "@action:button"
 msgid "Add to Favorites"
 msgstr "Dodaj do ulubionych"
-
-#: qml/EntryPage.qml:77
-#, kde-format
-msgid "Open in Browser"
-msgstr "Otwórz w przeglądarce"
 
 #: qml/EntryPage.qml:82
 #, kde-format
