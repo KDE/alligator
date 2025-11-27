@@ -17,7 +17,8 @@ Kirigami.Dialog {
 
     function clearFields() {
         name.text = "";
-        desc.text = "";
+        description.text = "";
+        setAsDefault.checked = false;
     }
 
     title: i18n("Feed Group")
@@ -26,28 +27,47 @@ Kirigami.Dialog {
     bottomPadding: Kirigami.Units.largeSpacing + Kirigami.Units.smallSpacing
     preferredWidth: Kirigami.Units.gridUnit * 20
 
+    Component.onCompleted: {
+        standardButton(Kirigami.Dialog.Ok).enabled = Qt.binding(function() { return !nameInUseWarning.visible && name.text.trim() != "" });
+    }
+
     onAccepted: {
-        Database.addFeedGroup(name.text, desc.text);
+        Database.addFeedGroup(name.text.trim(), description.text.trim());
+
+        if (setAsDefault.checked) {
+            Database.setDefaultGroup(name.text.trim());
+        }
+
         clearFields();
     }
 
-    onRejected: {
-        clearFields();
-    }
+    onRejected: clearFields();
 
     Kirigami.FormLayout {
         Controls.TextField {
             id: name
-
             Layout.fillWidth: true
-            Kirigami.FormData.label: i18n("Name:")
+            Kirigami.FormData.label: i18nc("@label:textbox", "Name:")
+        }
+
+        Kirigami.InlineMessage {
+            id: nameInUseWarning
+            text: i18n("A group with that name already exists.")
+            type: Kirigami.MessageType.Warning
+            visible: root.groupsModel.contains(name.text.trim())
+            Layout.fillWidth: true
         }
 
         Controls.TextField {
-            id: desc
-
+            id: description
             Layout.fillWidth: true
-            Kirigami.FormData.label: i18n("Description:")
+            Kirigami.FormData.label: i18nc("@label:textbox", "Description:")
+        }
+
+        Controls.CheckBox {
+            id: setAsDefault
+            Layout.fillWidth: true
+            Kirigami.FormData.label: i18nc("@option:check", "Set as default:")
         }
     }
 }

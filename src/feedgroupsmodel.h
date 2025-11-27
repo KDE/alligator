@@ -14,7 +14,6 @@
  *
  */
 struct FeedGroup {
-    QString name;
     QString description;
     bool isDefault;
 };
@@ -41,7 +40,9 @@ public:
     QHash<int, QByteArray> roleNames() const override;
     int rowCount(const QModelIndex &parent) const override;
 
+    Q_INVOKABLE bool contains(const QString &name) const;
+
 private:
     void loadFromDatabase();
-    QVector<FeedGroup> m_feed_groups;
+    QHash<QString, FeedGroup> m_feed_groups;
 };

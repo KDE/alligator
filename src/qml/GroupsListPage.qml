@@ -8,6 +8,7 @@ import QtQuick
 import QtQuick.Controls as Controls
 import QtQuick.Layouts
 import org.kde.kirigami as Kirigami
+import org.kde.kirigamiaddons.delegates as Delegates
 import org.kde.alligator
 
 Kirigami.ScrollablePage {
@@ -20,8 +21,8 @@ Kirigami.ScrollablePage {
     globalToolBarStyle: Kirigami.ApplicationHeaderStyle.ToolBar
     actions: [
         Kirigami.Action {
+            text: i18nc("@action:intoolbar", "Add Group…")
             icon.name: "list-add"
-            text: i18n("Add Group…")
 
             onTriggered: feedGroupDialog.open()
         }
@@ -30,51 +31,63 @@ Kirigami.ScrollablePage {
     ListView {
         id: groupsListView
         model: root.feedGroupsModel
-
         currentIndex: -1
 
-        delegate: Kirigami.SwipeListItem {
-            font.bold: model.isDefault
-            activeBackgroundColor: "transparent"
-            activeTextColor: Kirigami.Theme.textColor
-            contentItem: ColumnLayout {
-                Controls.Label {
-                    text: model.name
-                    wrapMode: Text.WordWrap
+        delegate: Delegates.RoundedItemDelegate {
+            id: delegate
+
+            required property var model
+
+            width: ListView.view.width
+
+            contentItem: RowLayout {
+                Kirigami.TitleSubtitle {
+                    title: delegate.model.name
+                    font.bold: delegate.model.isDefault
+                    subtitle: delegate.model.description
                 }
 
-                Controls.Label {
-                    text: model.description
-                    font: Kirigami.Theme.smallFont
-                    wrapMode: Text.WordWrap
+                RowLayout {
+                    Layout.alignment: Qt.AlignRight
+
+                    Controls.ToolButton {
+                        text: i18nc("@action:button", "Set as Default")
+                        icon.name: "emblem-default-symbolic"
+                        visible: !delegate.model.isDefault
+                        display: Controls.Button.IconOnly
+
+                        onClicked: Database.setDefaultGroup(delegate.model.name)
+
+                        Controls.ToolTip.text: text
+                        Controls.ToolTip.visible: hovered && enabled && visible
+                        Controls.ToolTip.delay: Kirigami.Units.toolTipDelay
+                    }
+
+                    Controls.ToolButton {
+                        text: i18nc("@action:button", "Remove")
+                        icon.name: "delete"
+                        enabled: !delegate.model.isDefault
+                        display: Controls.Button.IconOnly
+
+                        onClicked: Database.removeFeedGroup(delegate.model.name)
+
+                        Controls.ToolTip.text: text
+                        Controls.ToolTip.visible: hovered && enabled && visible
+                        Controls.ToolTip.delay: Kirigami.Units.toolTipDelay
+                    }
                 }
             }
-
-            actions: [
-                Kirigami.Action {
-                    text: i18n("Remove")
-                    icon.name: "delete"
-                    enabled: !model.isDefault
-
-                    onTriggered: Database.removeFeedGroup(model.name)
-                },
-                Kirigami.Action {
-                    icon.name: "emblem-default-symbolic"
-                    text: i18n("Set as Default")
-                    enabled: !model.isDefault
-                    onTriggered: Database.setDefaultGroup(model.name)
-                }
-            ]
         }
 
         Kirigami.PlaceholderMessage {
-            anchors.centerIn: parent
-            text: i18n("No groups created yet")
+            text: i18nc("@info:placeholder", "No groups created yet")
             visible: groupsListView.count === 0
+            anchors.centerIn: parent
 
             helpfulAction: Kirigami.Action {
+                text: i18nc("@action:button", "Add Group…")
                 icon.name: "list-add"
-                text: i18n("Add Group")
+
                 onTriggered: feedGroupDialog.open()
             }
         }

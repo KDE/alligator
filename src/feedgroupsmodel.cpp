@@ -43,20 +43,25 @@ QVariant FeedGroupsModel::data(const QModelIndex &index, int role) const
         return QVariant();
     }
 
-    auto row = index.row();
+    auto it = std::next(m_feed_groups.begin(), index.row());
 
     switch (role) {
     case GroupName: {
-        return m_feed_groups.at(row).name;
+        return it.key();
     }
     case GroupDescription: {
-        return m_feed_groups.at(row).description;
+        return it->description;
     }
     case IsDefault:
-        return m_feed_groups.at(row).isDefault;
+        return it->isDefault;
     }
 
     return QVariant();
+}
+
+bool FeedGroupsModel::contains(const QString &name) const
+{
+    return m_feed_groups.contains(name);
 }
 
 void FeedGroupsModel::loadFromDatabase()
@@ -69,10 +74,10 @@ void FeedGroupsModel::loadFromDatabase()
     Database::instance().execute(q);
     while (q.next()) {
         FeedGroup group{};
-        group.name = q.value(QStringLiteral("name")).toString();
+        const QString &name = q.value(QStringLiteral("name")).toString();
         group.description = q.value(QStringLiteral("description")).toString();
         group.isDefault = (q.value(QStringLiteral("defaultGroup")).toInt() == 1);
-        m_feed_groups << group;
+        m_feed_groups.insert(name, group);
     }
 
     endResetModel();
