@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-27 00:43+0000\n"
+"POT-Creation-Date: 2025-11-28 00:42+0000\n"
 "PO-Revision-Date: 2025-08-20 06:12+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -93,27 +93,16 @@ msgstr "naslov vira"
 msgid "Add Feed"
 msgstr "Dodaj vir"
 
-#: qml/AddFeedDialog.qml:25
-#, kde-format
-msgid "URL"
-msgstr "URL"
+#: qml/AddFeedDialog.qml:40
+#, fuzzy, kde-format
+#| msgid "Feed URL:"
+msgid "URL:"
+msgstr "URL vira:"
 
-#: qml/AddFeedDialog.qml:32
+#: qml/AddFeedDialog.qml:46
 #, kde-format
 msgid "Mark entries as read"
 msgstr "Označi vnose kot prebrane"
-
-#: qml/AddFeedDialog.qml:37
-#, kde-format
-msgctxt "@action:button"
-msgid "Add Feed"
-msgstr "Dodaj vir"
-
-#: qml/AddFeedDialog.qml:45
-#, kde-format
-msgctxt "@action:button"
-msgid "Cancel"
-msgstr "Prekliči"
 
 #: qml/AlligatorGlobalDrawer.qml:95 qml/AlligatorGlobalDrawer.qml:108
 #, kde-format
@@ -287,20 +276,36 @@ msgstr "zadnjič osveženo: %1"
 msgid "%1 posts, %2 unread"
 msgstr "%1 objav, %2 neprebranih"
 
-#: qml/FeedGroupDialog.qml:23
+#: qml/FeedGroupDialog.qml:24
 #, kde-format
 msgid "Feed Group"
 msgstr "Vir grupe"
 
-#: qml/FeedGroupDialog.qml:43
-#, kde-format
+#: qml/FeedGroupDialog.qml:50
+#, fuzzy, kde-format
+#| msgid "Name:"
+msgctxt "@label:textbox"
 msgid "Name:"
 msgstr "Ime:"
 
-#: qml/FeedGroupDialog.qml:50
+#: qml/FeedGroupDialog.qml:55
 #, kde-format
+msgid "A group with that name already exists."
+msgstr ""
+
+#: qml/FeedGroupDialog.qml:64
+#, fuzzy, kde-format
+#| msgid "Description:"
+msgctxt "@label:textbox"
 msgid "Description:"
 msgstr "Opis:"
+
+#: qml/FeedGroupDialog.qml:70
+#, fuzzy, kde-format
+#| msgid "Set as Default"
+msgctxt "@option:check"
+msgid "Set as default:"
+msgstr "Nastavi kot privzeto"
 
 #: qml/FeedListDelegate.qml:29
 #, kde-format
@@ -334,96 +339,100 @@ msgstr "Upravljaj vire"
 msgid "Refresh All Feeds"
 msgstr "Osveži vse vire"
 
-#: qml/FeedListPage.qml:38 qml/FeedListPage.qml:116
+#: qml/FeedListPage.qml:38 qml/FeedListPage.qml:113
 #, kde-format
 msgid "Add Feed…"
 msgstr "Dodaj vir…"
 
-#: qml/FeedListPage.qml:42 qml/FeedListPage.qml:120
-#, kde-format
-msgctxt "@title"
-msgid "Add Feed"
-msgstr "Dodaj vir"
-
-#: qml/FeedListPage.qml:48
+#: qml/FeedListPage.qml:45
 #, kde-format
 msgid "Manage Feed Groups"
 msgstr "Upravljaj skupine virov"
 
-#: qml/FeedListPage.qml:53
+#: qml/FeedListPage.qml:50
 #, kde-format
 msgid "Import Feeds…"
 msgstr "Uvoz virov…"
 
-#: qml/FeedListPage.qml:58
+#: qml/FeedListPage.qml:55
 #, kde-format
 msgid "Export Feeds…"
 msgstr "Izvoz virov…"
 
-#: qml/FeedListPage.qml:125
+#: qml/FeedListPage.qml:119
 #, kde-format
 msgid "No feeds added yet"
 msgstr "Ni dodanih nobenih virov"
 
-#: qml/FeedListPage.qml:131
+#: qml/FeedListPage.qml:125
 #, kde-format
 msgid "Import Feeds"
 msgstr "Uvoz virov"
 
-#: qml/FeedListPage.qml:133 qml/FeedListPage.qml:141
+#: qml/FeedListPage.qml:127 qml/FeedListPage.qml:135
 #, kde-format
 msgid "OPML Files (*.opml)"
 msgstr "Datoteke OPML (*.opml)"
 
-#: qml/FeedListPage.qml:133
+#: qml/FeedListPage.qml:127
 #, kde-format
 msgid "XML Files (*.xml)"
 msgstr "Datoteke XML (*.xml)"
 
-#: qml/FeedListPage.qml:133
+#: qml/FeedListPage.qml:127
 #, kde-format
 msgid "All Files (*)"
 msgstr "Vse datoteke (*)"
 
-#: qml/FeedListPage.qml:139
+#: qml/FeedListPage.qml:133
 #, kde-format
 msgid "Export Feeds"
 msgstr "Izvoz virov"
 
-#: qml/FeedListPage.qml:141
+#: qml/FeedListPage.qml:135
 #, kde-format
 msgid "All Files"
 msgstr "Vse datoteke"
 
-#: qml/GroupsListPage.qml:18
+#: qml/GroupsListPage.qml:19
 #, kde-format
 msgid "Groups"
 msgstr "Skupine"
 
 #: qml/GroupsListPage.qml:24
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Add Group…"
+msgctxt "@action:intoolbar"
 msgid "Add Group…"
 msgstr "Dodaj grupo…"
 
-#: qml/GroupsListPage.qml:55
-#, kde-format
-msgid "Remove"
-msgstr "Odstrani"
-
-#: qml/GroupsListPage.qml:63
-#, kde-format
+#: qml/GroupsListPage.qml:54
+#, fuzzy, kde-format
+#| msgid "Set as Default"
+msgctxt "@action:button"
 msgid "Set as Default"
 msgstr "Nastavi kot privzeto"
 
-#: qml/GroupsListPage.qml:72
-#, kde-format
+#: qml/GroupsListPage.qml:67
+#, fuzzy, kde-format
+#| msgid "Remove"
+msgctxt "@action:button"
+msgid "Remove"
+msgstr "Odstrani"
+
+#: qml/GroupsListPage.qml:83
+#, fuzzy, kde-format
+#| msgid "No groups created yet"
+msgctxt "@info:placeholder"
 msgid "No groups created yet"
 msgstr "Še ni ustvarjene nobene skupine"
 
-#: qml/GroupsListPage.qml:77
-#, kde-format
-msgid "Add Group"
-msgstr "Dodaj skupino"
+#: qml/GroupsListPage.qml:88
+#, fuzzy, kde-format
+#| msgid "Add Group…"
+msgctxt "@action:button"
+msgid "Add Group…"
+msgstr "Dodaj grupo…"
 
 #: qml/SettingsPage.qml:23
 #, kde-format
@@ -475,6 +484,24 @@ msgstr "Velikost pisave:"
 #, kde-format
 msgid "Use system default"
 msgstr "Uporabi sistemsko privzeto"
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#~ msgctxt "@action:button"
+#~ msgid "Add Feed"
+#~ msgstr "Dodaj vir"
+
+#~ msgctxt "@action:button"
+#~ msgid "Cancel"
+#~ msgstr "Prekliči"
+
+#~ msgctxt "@title"
+#~ msgid "Add Feed"
+#~ msgstr "Dodaj vir"
+
+#~ msgid "Add Group"
+#~ msgstr "Dodaj skupino"
 
 #~ msgid "Url"
 #~ msgstr "Url"

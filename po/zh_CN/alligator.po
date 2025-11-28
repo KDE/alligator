@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-27 00:43+0000\n"
+"POT-Creation-Date: 2025-11-28 00:42+0000\n"
 "PO-Revision-Date: 2024-04-22 15:58\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -92,27 +92,16 @@ msgstr "新闻源 URL"
 msgid "Add Feed"
 msgstr "添加新闻源"
 
-#: qml/AddFeedDialog.qml:25
-#, kde-format
-msgid "URL"
-msgstr "URL"
+#: qml/AddFeedDialog.qml:40
+#, fuzzy, kde-format
+#| msgid "Feed URL:"
+msgid "URL:"
+msgstr "订阅源 URL："
 
-#: qml/AddFeedDialog.qml:32
+#: qml/AddFeedDialog.qml:46
 #, kde-format
 msgid "Mark entries as read"
 msgstr "标记条目为已读"
-
-#: qml/AddFeedDialog.qml:37
-#, kde-format
-msgctxt "@action:button"
-msgid "Add Feed"
-msgstr "添加新闻源"
-
-#: qml/AddFeedDialog.qml:45
-#, kde-format
-msgctxt "@action:button"
-msgid "Cancel"
-msgstr "取消"
 
 #: qml/AlligatorGlobalDrawer.qml:95 qml/AlligatorGlobalDrawer.qml:108
 #, kde-format
@@ -286,20 +275,36 @@ msgstr "上次更新时间：%1"
 msgid "%1 posts, %2 unread"
 msgstr "%1 篇文章，%2 篇未读"
 
-#: qml/FeedGroupDialog.qml:23
+#: qml/FeedGroupDialog.qml:24
 #, kde-format
 msgid "Feed Group"
 msgstr "新闻源分组"
 
-#: qml/FeedGroupDialog.qml:43
-#, kde-format
+#: qml/FeedGroupDialog.qml:50
+#, fuzzy, kde-format
+#| msgid "Name:"
+msgctxt "@label:textbox"
 msgid "Name:"
 msgstr "名称："
 
-#: qml/FeedGroupDialog.qml:50
+#: qml/FeedGroupDialog.qml:55
 #, kde-format
+msgid "A group with that name already exists."
+msgstr ""
+
+#: qml/FeedGroupDialog.qml:64
+#, fuzzy, kde-format
+#| msgid "Description:"
+msgctxt "@label:textbox"
 msgid "Description:"
 msgstr "描述："
+
+#: qml/FeedGroupDialog.qml:70
+#, fuzzy, kde-format
+#| msgid "Set as Default"
+msgctxt "@option:check"
+msgid "Set as default:"
+msgstr "设为默认"
 
 #: qml/FeedListDelegate.qml:29
 #, kde-format
@@ -330,96 +335,100 @@ msgstr "管理新闻源"
 msgid "Refresh All Feeds"
 msgstr "刷新全部新闻源"
 
-#: qml/FeedListPage.qml:38 qml/FeedListPage.qml:116
+#: qml/FeedListPage.qml:38 qml/FeedListPage.qml:113
 #, kde-format
 msgid "Add Feed…"
 msgstr "添加新闻源..."
 
-#: qml/FeedListPage.qml:42 qml/FeedListPage.qml:120
-#, kde-format
-msgctxt "@title"
-msgid "Add Feed"
-msgstr "添加新闻源"
-
-#: qml/FeedListPage.qml:48
+#: qml/FeedListPage.qml:45
 #, kde-format
 msgid "Manage Feed Groups"
 msgstr "管理新闻源分组"
 
-#: qml/FeedListPage.qml:53
+#: qml/FeedListPage.qml:50
 #, kde-format
 msgid "Import Feeds…"
 msgstr "导入新闻源..."
 
-#: qml/FeedListPage.qml:58
+#: qml/FeedListPage.qml:55
 #, kde-format
 msgid "Export Feeds…"
 msgstr "导出新闻源..."
 
-#: qml/FeedListPage.qml:125
+#: qml/FeedListPage.qml:119
 #, kde-format
 msgid "No feeds added yet"
 msgstr "尚未添加新闻源"
 
-#: qml/FeedListPage.qml:131
+#: qml/FeedListPage.qml:125
 #, kde-format
 msgid "Import Feeds"
 msgstr "导入新闻源"
 
-#: qml/FeedListPage.qml:133 qml/FeedListPage.qml:141
+#: qml/FeedListPage.qml:127 qml/FeedListPage.qml:135
 #, kde-format
 msgid "OPML Files (*.opml)"
 msgstr "OPML 文件 (*.opml)"
 
-#: qml/FeedListPage.qml:133
+#: qml/FeedListPage.qml:127
 #, kde-format
 msgid "XML Files (*.xml)"
 msgstr "XML 文件 (*.xml)"
 
-#: qml/FeedListPage.qml:133
+#: qml/FeedListPage.qml:127
 #, kde-format
 msgid "All Files (*)"
 msgstr "所有文件 (*)"
 
-#: qml/FeedListPage.qml:139
+#: qml/FeedListPage.qml:133
 #, kde-format
 msgid "Export Feeds"
 msgstr "导出新闻源"
 
-#: qml/FeedListPage.qml:141
+#: qml/FeedListPage.qml:135
 #, kde-format
 msgid "All Files"
 msgstr "所有文件"
 
-#: qml/GroupsListPage.qml:18
+#: qml/GroupsListPage.qml:19
 #, kde-format
 msgid "Groups"
 msgstr "分组"
 
 #: qml/GroupsListPage.qml:24
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Add Group…"
+msgctxt "@action:intoolbar"
 msgid "Add Group…"
 msgstr "添加分组..."
 
-#: qml/GroupsListPage.qml:55
-#, kde-format
-msgid "Remove"
-msgstr "移除"
-
-#: qml/GroupsListPage.qml:63
-#, kde-format
+#: qml/GroupsListPage.qml:54
+#, fuzzy, kde-format
+#| msgid "Set as Default"
+msgctxt "@action:button"
 msgid "Set as Default"
 msgstr "设为默认"
 
-#: qml/GroupsListPage.qml:72
-#, kde-format
+#: qml/GroupsListPage.qml:67
+#, fuzzy, kde-format
+#| msgid "Remove"
+msgctxt "@action:button"
+msgid "Remove"
+msgstr "移除"
+
+#: qml/GroupsListPage.qml:83
+#, fuzzy, kde-format
+#| msgid "No groups created yet"
+msgctxt "@info:placeholder"
 msgid "No groups created yet"
 msgstr "尚未创建分组"
 
-#: qml/GroupsListPage.qml:77
-#, kde-format
-msgid "Add Group"
-msgstr "添加分组"
+#: qml/GroupsListPage.qml:88
+#, fuzzy, kde-format
+#| msgid "Add Group…"
+msgctxt "@action:button"
+msgid "Add Group…"
+msgstr "添加分组..."
 
 #: qml/SettingsPage.qml:23
 #, kde-format
@@ -471,3 +480,21 @@ msgstr "字体大小："
 #, kde-format
 msgid "Use system default"
 msgstr "使用系统默认值"
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#~ msgctxt "@action:button"
+#~ msgid "Add Feed"
+#~ msgstr "添加新闻源"
+
+#~ msgctxt "@action:button"
+#~ msgid "Cancel"
+#~ msgstr "取消"
+
+#~ msgctxt "@title"
+#~ msgid "Add Feed"
+#~ msgstr "添加新闻源"
+
+#~ msgid "Add Group"
+#~ msgstr "添加分组"

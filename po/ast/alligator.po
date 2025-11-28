@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-27 00:43+0000\n"
+"POT-Creation-Date: 2025-11-28 00:42+0000\n"
 "PO-Revision-Date: 2023-10-25 12:59+0200\n"
 "Last-Translator: Enol P. <enolp@softastur.org>\n"
 "Language-Team: \n"
@@ -92,26 +92,14 @@ msgstr ""
 msgid "Add Feed"
 msgstr ""
 
-#: qml/AddFeedDialog.qml:25
+#: qml/AddFeedDialog.qml:40
 #, kde-format
-msgid "URL"
+msgid "URL:"
 msgstr ""
 
-#: qml/AddFeedDialog.qml:32
+#: qml/AddFeedDialog.qml:46
 #, kde-format
 msgid "Mark entries as read"
-msgstr ""
-
-#: qml/AddFeedDialog.qml:37
-#, kde-format
-msgctxt "@action:button"
-msgid "Add Feed"
-msgstr ""
-
-#: qml/AddFeedDialog.qml:45
-#, kde-format
-msgctxt "@action:button"
-msgid "Cancel"
 msgstr ""
 
 #: qml/AlligatorGlobalDrawer.qml:95 qml/AlligatorGlobalDrawer.qml:108
@@ -286,19 +274,32 @@ msgstr ""
 msgid "%1 posts, %2 unread"
 msgstr ""
 
-#: qml/FeedGroupDialog.qml:23
+#: qml/FeedGroupDialog.qml:24
 #, kde-format
 msgid "Feed Group"
 msgstr ""
 
-#: qml/FeedGroupDialog.qml:43
+#: qml/FeedGroupDialog.qml:50
 #, kde-format
+msgctxt "@label:textbox"
 msgid "Name:"
 msgstr ""
 
-#: qml/FeedGroupDialog.qml:50
+#: qml/FeedGroupDialog.qml:55
 #, kde-format
+msgid "A group with that name already exists."
+msgstr ""
+
+#: qml/FeedGroupDialog.qml:64
+#, kde-format
+msgctxt "@label:textbox"
 msgid "Description:"
+msgstr ""
+
+#: qml/FeedGroupDialog.qml:70
+#, kde-format
+msgctxt "@option:check"
+msgid "Set as default:"
 msgstr ""
 
 #: qml/FeedListDelegate.qml:29
@@ -331,95 +332,94 @@ msgstr ""
 msgid "Refresh All Feeds"
 msgstr ""
 
-#: qml/FeedListPage.qml:38 qml/FeedListPage.qml:116
+#: qml/FeedListPage.qml:38 qml/FeedListPage.qml:113
 #, kde-format
 msgid "Add Feed…"
 msgstr ""
 
-#: qml/FeedListPage.qml:42 qml/FeedListPage.qml:120
-#, kde-format
-msgctxt "@title"
-msgid "Add Feed"
-msgstr ""
-
-#: qml/FeedListPage.qml:48
+#: qml/FeedListPage.qml:45
 #, kde-format
 msgid "Manage Feed Groups"
 msgstr ""
 
-#: qml/FeedListPage.qml:53
+#: qml/FeedListPage.qml:50
 #, kde-format
 msgid "Import Feeds…"
 msgstr ""
 
-#: qml/FeedListPage.qml:58
+#: qml/FeedListPage.qml:55
 #, kde-format
 msgid "Export Feeds…"
 msgstr ""
 
-#: qml/FeedListPage.qml:125
+#: qml/FeedListPage.qml:119
 #, kde-format
 msgid "No feeds added yet"
 msgstr ""
 
-#: qml/FeedListPage.qml:131
+#: qml/FeedListPage.qml:125
 #, kde-format
 msgid "Import Feeds"
 msgstr ""
 
-#: qml/FeedListPage.qml:133 qml/FeedListPage.qml:141
+#: qml/FeedListPage.qml:127 qml/FeedListPage.qml:135
 #, kde-format
 msgid "OPML Files (*.opml)"
 msgstr ""
 
-#: qml/FeedListPage.qml:133
+#: qml/FeedListPage.qml:127
 #, kde-format
 msgid "XML Files (*.xml)"
 msgstr ""
 
-#: qml/FeedListPage.qml:133
+#: qml/FeedListPage.qml:127
 #, kde-format
 msgid "All Files (*)"
 msgstr ""
 
-#: qml/FeedListPage.qml:139
+#: qml/FeedListPage.qml:133
 #, kde-format
 msgid "Export Feeds"
 msgstr ""
 
-#: qml/FeedListPage.qml:141
+#: qml/FeedListPage.qml:135
 #, kde-format
 msgid "All Files"
 msgstr ""
 
-#: qml/GroupsListPage.qml:18
+#: qml/GroupsListPage.qml:19
 #, kde-format
 msgid "Groups"
 msgstr ""
 
 #: qml/GroupsListPage.qml:24
 #, kde-format
+msgctxt "@action:intoolbar"
 msgid "Add Group…"
 msgstr ""
 
-#: qml/GroupsListPage.qml:55
+#: qml/GroupsListPage.qml:54
 #, kde-format
-msgid "Remove"
-msgstr ""
-
-#: qml/GroupsListPage.qml:63
-#, kde-format
+msgctxt "@action:button"
 msgid "Set as Default"
 msgstr ""
 
-#: qml/GroupsListPage.qml:72
+#: qml/GroupsListPage.qml:67
 #, kde-format
+msgctxt "@action:button"
+msgid "Remove"
+msgstr ""
+
+#: qml/GroupsListPage.qml:83
+#, kde-format
+msgctxt "@info:placeholder"
 msgid "No groups created yet"
 msgstr ""
 
-#: qml/GroupsListPage.qml:77
+#: qml/GroupsListPage.qml:88
 #, kde-format
-msgid "Add Group"
+msgctxt "@action:button"
+msgid "Add Group…"
 msgstr ""
 
 #: qml/SettingsPage.qml:23
