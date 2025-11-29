@@ -227,9 +227,9 @@ void Database::exportFeeds(const QString &path)
     xmlWriter.setAutoFormatting(true);
     xmlWriter.writeStartDocument(QStringLiteral("1.0"));
     xmlWriter.writeStartElement(QStringLiteral("opml"));
+    xmlWriter.writeAttribute(QStringLiteral("version"), QStringLiteral("1.0"));
     xmlWriter.writeEmptyElement(QStringLiteral("head"));
     xmlWriter.writeStartElement(QStringLiteral("body"));
-    xmlWriter.writeAttribute(QStringLiteral("version"), QStringLiteral("1.0"));
     QSqlQuery query;
     query.prepare(QStringLiteral("SELECT url, name FROM Feeds;"));
     execute(query);
