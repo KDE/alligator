@@ -93,10 +93,9 @@ msgid "Add Feed"
 msgstr "添加新闻源"
 
 #: qml/AddFeedDialog.qml:40
-#, fuzzy, kde-format
-#| msgid "Feed URL:"
+#, kde-format
 msgid "URL:"
-msgstr "订阅源 URL："
+msgstr ""
 
 #: qml/AddFeedDialog.qml:46
 #, kde-format
@@ -281,11 +280,10 @@ msgid "Feed Group"
 msgstr "新闻源分组"
 
 #: qml/FeedGroupDialog.qml:50
-#, fuzzy, kde-format
-#| msgid "Name:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Name:"
-msgstr "名称："
+msgstr ""
 
 #: qml/FeedGroupDialog.qml:55
 #, kde-format
@@ -293,18 +291,16 @@ msgid "A group with that name already exists."
 msgstr ""
 
 #: qml/FeedGroupDialog.qml:64
-#, fuzzy, kde-format
-#| msgid "Description:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Description:"
-msgstr "描述："
+msgstr ""
 
 #: qml/FeedGroupDialog.qml:70
-#, fuzzy, kde-format
-#| msgid "Set as Default"
+#, kde-format
 msgctxt "@option:check"
 msgid "Set as default:"
-msgstr "设为默认"
+msgstr ""
 
 #: qml/FeedListDelegate.qml:29
 #, kde-format
@@ -396,39 +392,34 @@ msgid "Groups"
 msgstr "分组"
 
 #: qml/GroupsListPage.qml:24
-#, fuzzy, kde-format
-#| msgid "Add Group…"
+#, kde-format
 msgctxt "@action:intoolbar"
 msgid "Add Group…"
-msgstr "添加分组..."
+msgstr ""
 
 #: qml/GroupsListPage.qml:54
-#, fuzzy, kde-format
-#| msgid "Set as Default"
+#, kde-format
 msgctxt "@action:button"
 msgid "Set as Default"
-msgstr "设为默认"
+msgstr ""
 
 #: qml/GroupsListPage.qml:67
-#, fuzzy, kde-format
-#| msgid "Remove"
+#, kde-format
 msgctxt "@action:button"
 msgid "Remove"
-msgstr "移除"
+msgstr ""
 
 #: qml/GroupsListPage.qml:83
-#, fuzzy, kde-format
-#| msgid "No groups created yet"
+#, kde-format
 msgctxt "@info:placeholder"
 msgid "No groups created yet"
-msgstr "尚未创建分组"
+msgstr ""
 
 #: qml/GroupsListPage.qml:88
-#, fuzzy, kde-format
-#| msgid "Add Group…"
+#, kde-format
 msgctxt "@action:button"
 msgid "Add Group…"
-msgstr "添加分组..."
+msgstr ""
 
 #: qml/SettingsPage.qml:23
 #, kde-format
@@ -480,21 +471,3 @@ msgstr "字体大小："
 #, kde-format
 msgid "Use system default"
 msgstr "使用系统默认值"
-
-#~ msgid "URL"
-#~ msgstr "URL"
-
-#~ msgctxt "@action:button"
-#~ msgid "Add Feed"
-#~ msgstr "添加新闻源"
-
-#~ msgctxt "@action:button"
-#~ msgid "Cancel"
-#~ msgstr "取消"
-
-#~ msgctxt "@title"
-#~ msgid "Add Feed"
-#~ msgstr "添加新闻源"
-
-#~ msgid "Add Group"
-#~ msgstr "添加分组"
