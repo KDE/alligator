@@ -93,10 +93,9 @@ msgid "Add Feed"
 msgstr "添加新闻源"
 
 #: qml/AddFeedDialog.qml:40
-#, fuzzy, kde-format
-#| msgid "Feed URL:"
+#, kde-format
 msgid "URL:"
-msgstr "订阅源 URL："
+msgstr ""
 
 #: qml/AddFeedDialog.qml:46
 #, kde-format
@@ -283,12 +282,12 @@ msgstr "新闻源分组"
 #: qml/FeedGroupDialog.qml:43
 #, kde-format
 msgid "Name:"
-msgstr "名称："
+msgstr ""
 
 #: qml/FeedGroupDialog.qml:50
 #, kde-format
 msgid "Description:"
-msgstr "描述："
+msgstr ""
 
 #: qml/FeedListDelegate.qml:29
 #, kde-format
@@ -382,22 +381,22 @@ msgstr "分组"
 #: qml/GroupsListPage.qml:24
 #, kde-format
 msgid "Add Group…"
-msgstr "添加分组..."
+msgstr ""
 
 #: qml/GroupsListPage.qml:55
 #, kde-format
 msgid "Remove"
-msgstr "移除"
+msgstr ""
 
 #: qml/GroupsListPage.qml:63
 #, kde-format
 msgid "Set as Default"
-msgstr "设为默认"
+msgstr ""
 
 #: qml/GroupsListPage.qml:72
 #, kde-format
 msgid "No groups created yet"
-msgstr "尚未创建分组"
+msgstr ""
 
 #: qml/GroupsListPage.qml:77
 #, kde-format
@@ -454,18 +453,3 @@ msgstr "字体大小："
 #, kde-format
 msgid "Use system default"
 msgstr "使用系统默认值"
-
-#~ msgid "URL"
-#~ msgstr "URL"
-
-#~ msgctxt "@action:button"
-#~ msgid "Add Feed"
-#~ msgstr "添加新闻源"
-
-#~ msgctxt "@action:button"
-#~ msgid "Cancel"
-#~ msgstr "取消"
-
-#~ msgctxt "@title"
-#~ msgid "Add Feed"
-#~ msgstr "添加新闻源"

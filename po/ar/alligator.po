@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-27 02:36+0000\n"
-"PO-Revision-Date: 2025-08-20 18:38+0400\n"
+"PO-Revision-Date: 2025-11-29 21:39+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -94,10 +94,9 @@ msgid "Add Feed"
 msgstr "أضف تلقيمًا"
 
 #: qml/AddFeedDialog.qml:40
-#, fuzzy, kde-format
-#| msgid "Feed URL:"
+#, kde-format
 msgid "URL:"
-msgstr "رابط التلقيم:"
+msgstr "الرابط:"
 
 #: qml/AddFeedDialog.qml:46
 #, kde-format
