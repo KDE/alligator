@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-28 00:42+0000\n"
-"PO-Revision-Date: 2025-08-20 18:56+0200\n"
+"PO-Revision-Date: 2025-11-28 14:23+0100\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 25.08.0\n"
+"X-Generator: Lokalize 25.08.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -93,10 +93,9 @@ msgid "Add Feed"
 msgstr "Aggiungi fonte"
 
 #: qml/AddFeedDialog.qml:40
-#, fuzzy, kde-format
-#| msgid "Feed URL:"
+#, kde-format
 msgid "URL:"
-msgstr "URL della fonte:"
+msgstr "URL:"
 
 #: qml/AddFeedDialog.qml:46
 #, kde-format
@@ -281,8 +280,7 @@ msgid "Feed Group"
 msgstr "Gruppo di fonti"
 
 #: qml/FeedGroupDialog.qml:50
-#, fuzzy, kde-format
-#| msgid "Name:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Name:"
 msgstr "Nome:"
@@ -290,21 +288,19 @@ msgstr "Nome:"
 #: qml/FeedGroupDialog.qml:55
 #, kde-format
 msgid "A group with that name already exists."
-msgstr ""
+msgstr "Esiste già un gruppo con quel nome."
 
 #: qml/FeedGroupDialog.qml:64
-#, fuzzy, kde-format
-#| msgid "Description:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Description:"
 msgstr "Descrizione:"
 
 #: qml/FeedGroupDialog.qml:70
-#, fuzzy, kde-format
-#| msgid "Set as Default"
+#, kde-format
 msgctxt "@option:check"
 msgid "Set as default:"
-msgstr "Imposta come predefinito"
+msgstr "Imposta come predefinito:"
 
 #: qml/FeedListDelegate.qml:29
 #, kde-format
@@ -397,36 +393,31 @@ msgid "Groups"
 msgstr "Gruppi"
 
 #: qml/GroupsListPage.qml:24
-#, fuzzy, kde-format
-#| msgid "Add Group…"
+#, kde-format
 msgctxt "@action:intoolbar"
 msgid "Add Group…"
 msgstr "Aggiungi gruppo…"
 
 #: qml/GroupsListPage.qml:54
-#, fuzzy, kde-format
-#| msgid "Set as Default"
+#, kde-format
 msgctxt "@action:button"
 msgid "Set as Default"
 msgstr "Imposta come predefinito"
 
 #: qml/GroupsListPage.qml:67
-#, fuzzy, kde-format
-#| msgid "Remove"
+#, kde-format
 msgctxt "@action:button"
 msgid "Remove"
 msgstr "Rimuovi"
 
 #: qml/GroupsListPage.qml:83
-#, fuzzy, kde-format
-#| msgid "No groups created yet"
+#, kde-format
 msgctxt "@info:placeholder"
 msgid "No groups created yet"
 msgstr "Ancora nessun gruppo creato"
 
 #: qml/GroupsListPage.qml:88
-#, fuzzy, kde-format
-#| msgid "Add Group…"
+#, kde-format
 msgctxt "@action:button"
 msgid "Add Group…"
 msgstr "Aggiungi gruppo…"
