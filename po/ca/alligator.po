@@ -459,18 +459,3 @@ msgstr "Mida de la lletra:"
 #, kde-format
 msgid "Use system default"
 msgstr "Usa la predeterminada del sistema"
-
-#~ msgid "URL"
-#~ msgstr "URL"
-
-#~ msgctxt "@action:button"
-#~ msgid "Add Feed"
-#~ msgstr "Afegeix una font"
-
-#~ msgctxt "@action:button"
-#~ msgid "Cancel"
-#~ msgstr "Cancel·la"
-
-#~ msgctxt "@title"
-#~ msgid "Add Feed"
-#~ msgstr "Afegeix una font"
