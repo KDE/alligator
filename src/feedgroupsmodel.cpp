@@ -14,13 +14,9 @@ FeedGroupsModel::FeedGroupsModel(QObject *parent)
 {
     loadFromDatabase();
 
-    connect(&Database::instance(), &Database::feedGroupsUpdated, [this]() {
-        loadFromDatabase();
-    });
+    connect(&Database::instance(), &Database::feedGroupsUpdated, this, &FeedGroupsModel::loadFromDatabase);
 
-    connect(&Database::instance(), &Database::feedGroupRemoved, [this]() {
-        loadFromDatabase();
-    });
+    connect(&Database::instance(), &Database::feedGroupRemoved, this, &FeedGroupsModel::loadFromDatabase);
 }
 
 QHash<int, QByteArray> FeedGroupsModel::roleNames() const
