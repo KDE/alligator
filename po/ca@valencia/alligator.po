@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-27 02:36+0000\n"
-"PO-Revision-Date: 2025-08-20 10:31+0200\n"
+"POT-Creation-Date: 2025-12-03 02:40+0000\n"
+"PO-Revision-Date: 2025-11-27 09:27+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: &\n"
-"X-Generator: Lokalize 25.08.0\n"
+"X-Generator: Lokalize 25.04.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -54,7 +54,7 @@ msgstr "Cap analitzador ha acceptat l'XML"
 #: fetcher.cpp:248
 #, kde-format
 msgid "Error while parsing feed"
-msgstr "S'ha produït un error en l'anàlisi sintàctica de la font"
+msgstr "S'ha produït un error durant l'anàlisi la font"
 
 #: main.cpp:76 qml/AlligatorGlobalDrawer.qml:56
 #, kde-format
@@ -97,10 +97,9 @@ msgid "Add Feed"
 msgstr "Afig una font"
 
 #: qml/AddFeedDialog.qml:40
-#, fuzzy, kde-format
-#| msgid "Feed URL:"
+#, kde-format
 msgid "URL:"
-msgstr "URL de la font:"
+msgstr "URL:"
 
 #: qml/AddFeedDialog.qml:46
 #, kde-format
@@ -227,20 +226,20 @@ msgstr "Preferits"
 
 #: qml/EntryPage.qml:69
 #, kde-format
+msgid "Open in Browser"
+msgstr "Obri en un navegador"
+
+#: qml/EntryPage.qml:74
+#, kde-format
 msgctxt "@action:button"
 msgid "Remove from Favorites"
 msgstr "Elimina dels preferits"
 
-#: qml/EntryPage.qml:69
+#: qml/EntryPage.qml:74
 #, kde-format
 msgctxt "@action:button"
 msgid "Add to Favorites"
 msgstr "Afig als preferits"
-
-#: qml/EntryPage.qml:77
-#, kde-format
-msgid "Open in Browser"
-msgstr "Obri en un navegador"
 
 #: qml/EntryPage.qml:82
 #, kde-format
@@ -460,18 +459,3 @@ msgstr "Mida de la lletra:"
 #, kde-format
 msgid "Use system default"
 msgstr "Utilitza la predeterminada del sistema"
-
-#~ msgid "URL"
-#~ msgstr "URL"
-
-#~ msgctxt "@action:button"
-#~ msgid "Add Feed"
-#~ msgstr "Afig una font"
-
-#~ msgctxt "@action:button"
-#~ msgid "Cancel"
-#~ msgstr "Cancel·la"
-
-#~ msgctxt "@title"
-#~ msgid "Add Feed"
-#~ msgstr "Afig una font"
