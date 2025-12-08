@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-12-03 02:40+0000\n"
-"PO-Revision-Date: 2025-08-20 14:48+0200\n"
+"PO-Revision-Date: 2025-12-07 11:38+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 25.08.0\n"
+"X-Generator: Lokalize 25.08.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -96,10 +96,9 @@ msgid "Add Feed"
 msgstr "Gehitu jarioa"
 
 #: qml/AddFeedDialog.qml:40
-#, fuzzy, kde-format
-#| msgid "Feed URL:"
+#, kde-format
 msgid "URL:"
-msgstr "Jarioaren URLa:"
+msgstr "URLa:"
 
 #: qml/AddFeedDialog.qml:46
 #, kde-format
