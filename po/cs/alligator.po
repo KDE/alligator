@@ -1,13 +1,13 @@
 # Copyright (C) 2023 This file is copyright:
 # This file is distributed under the same license as the alligator package.
-# SPDX-FileCopyrightText: 2020, 2021, 2022, 2023, 2024 Vit Pelcak <vit@pelcak.org>
+# SPDX-FileCopyrightText: 2020, 2021, 2022, 2023, 2024, 2025 Vit Pelcak <vit@pelcak.org>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-28 00:42+0000\n"
-"PO-Revision-Date: 2024-06-18 16:11+0200\n"
+"PO-Revision-Date: 2025-12-02 11:47+0100\n"
 "Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 24.05.1\n"
+"X-Generator: Lokalize 25.08.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -95,7 +95,7 @@ msgstr "Přidat kanál"
 #: qml/AddFeedDialog.qml:40
 #, kde-format
 msgid "URL:"
-msgstr ""
+msgstr "URL:"
 
 #: qml/AddFeedDialog.qml:46
 #, kde-format
@@ -130,7 +130,7 @@ msgstr "Upravit kanál"
 #: qml/EditFeedDialog.qml:33
 #, kde-format
 msgid "Feed URL:"
-msgstr ""
+msgstr "URL kanálu:"
 
 #: qml/EditFeedDialog.qml:41
 #, kde-format
@@ -157,7 +157,7 @@ msgstr "Obnovit"
 #, kde-format
 msgctxt "@action:button"
 msgid "Mark all read"
-msgstr ""
+msgstr "Označit vše za přečtené"
 
 #: qml/EntryListPage.qml:63
 #, kde-format
@@ -197,7 +197,7 @@ msgstr "Nejsou dostupné žádné nepřečtené záznamy"
 #: qml/EntryListPage.qml:127
 #, kde-format
 msgid "No favorite entries available"
-msgstr ""
+msgstr "Nejsou dostupné žádné oblíbené záznamy"
 
 #: qml/EntryListPage.qml:129
 #, kde-format
@@ -228,13 +228,13 @@ msgstr "Otevřít v prohlížeči"
 #, kde-format
 msgctxt "@action:button"
 msgid "Remove from Favorites"
-msgstr ""
+msgstr "Odstranit z oblíbených"
 
 #: qml/EntryPage.qml:74
 #, kde-format
 msgctxt "@action:button"
 msgid "Add to Favorites"
-msgstr ""
+msgstr "Přidat do oblíbených"
 
 #: qml/EntryPage.qml:82
 #, kde-format
@@ -280,8 +280,7 @@ msgid "Feed Group"
 msgstr "Skupina kanálů"
 
 #: qml/FeedGroupDialog.qml:50
-#, fuzzy, kde-format
-#| msgid "Name:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Name:"
 msgstr "Název:"
@@ -289,21 +288,19 @@ msgstr "Název:"
 #: qml/FeedGroupDialog.qml:55
 #, kde-format
 msgid "A group with that name already exists."
-msgstr ""
+msgstr "Skupina s tímto názvem už existuje."
 
 #: qml/FeedGroupDialog.qml:64
-#, fuzzy, kde-format
-#| msgid "Description:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Description:"
 msgstr "Popis:"
 
 #: qml/FeedGroupDialog.qml:70
-#, fuzzy, kde-format
-#| msgid "Set as Default"
+#, kde-format
 msgctxt "@option:check"
 msgid "Set as default:"
-msgstr "Nastavit jako výchozí"
+msgstr "Nastavit jako výchozí:"
 
 #: qml/FeedListDelegate.qml:29
 #, kde-format
@@ -397,36 +394,31 @@ msgid "Groups"
 msgstr "Skupiny"
 
 #: qml/GroupsListPage.qml:24
-#, fuzzy, kde-format
-#| msgid "Add Group…"
+#, kde-format
 msgctxt "@action:intoolbar"
 msgid "Add Group…"
-msgstr "Přidat skupinu..."
+msgstr "Přidat skupinu…"
 
 #: qml/GroupsListPage.qml:54
-#, fuzzy, kde-format
-#| msgid "Set as Default"
+#, kde-format
 msgctxt "@action:button"
 msgid "Set as Default"
 msgstr "Nastavit jako výchozí"
 
 #: qml/GroupsListPage.qml:67
-#, fuzzy, kde-format
-#| msgid "Remove"
+#, kde-format
 msgctxt "@action:button"
 msgid "Remove"
 msgstr "Odstranit"
 
 #: qml/GroupsListPage.qml:83
-#, fuzzy, kde-format
-#| msgid "No groups created yet"
+#, kde-format
 msgctxt "@info:placeholder"
 msgid "No groups created yet"
 msgstr "Žádné skupiny zatím nebyly vytvořeny"
 
 #: qml/GroupsListPage.qml:88
-#, fuzzy, kde-format
-#| msgid "Add Group…"
+#, kde-format
 msgctxt "@action:button"
 msgid "Add Group…"
 msgstr "Přidat skupinu..."
