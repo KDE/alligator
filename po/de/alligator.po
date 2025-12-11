@@ -3,22 +3,23 @@
 # SPDX-FileCopyrightText: 2020, 2021 Burkhard Lück <lueck@hube-lueck.de>
 # SPDX-FileCopyrightText: 2022, 2023 Frederik Schwarzer <schwarzer@kde.org>
 # SPDX-FileCopyrightText: 2024 Johannes Obermayr <johannesobermayr@gmx.de>
-# SPDX-FileCopyrightText: 2025 Flori G <Renner03@protonmail.com>
 # SPDX-FileCopyrightText: 2025 Alois Spitzbart <spitz234@hotmail.com>
+# SPDX-FileCopyrightText: 2025 Flori G <Renner03@protonmail.com>
+# SPDX-FileCopyrightText: 2025 Philipp Kiemle <l10n.daphipz@fastmail.de>
 msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-12-03 02:40+0000\n"
-"PO-Revision-Date: 2025-10-26 19:58+0100\n"
-"Last-Translator: Alois Spitzbart <spitz234@hotmail.com>\n"
+"PO-Revision-Date: 2025-12-03 20:15+0100\n"
+"Last-Translator: Philipp Kiemle <l10n.daphipz@fastmail.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 25.08.1\n"
+"X-Generator: Lokalize 25.08.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -38,7 +39,7 @@ msgstr "Standard"
 #: database.cpp:81 database.cpp:358
 #, kde-format
 msgid "Default Feed Group"
-msgstr "Standard-Nachrichtenquelle"
+msgstr "Standard-Nachrichtenquellengruppe"
 
 #: fetcher.cpp:244
 #, kde-format
@@ -68,7 +69,7 @@ msgstr "Anzeige von RSS-Nachrichtenquellen"
 #: main.cpp:80
 #, kde-format
 msgid "© 2020-2024 KDE Community"
-msgstr "© 2020-2024 KDE-Gemeinschaft"
+msgstr "© 2020–2024 KDE-Gemeinschaft"
 
 #: main.cpp:81
 #, kde-format
@@ -96,10 +97,9 @@ msgid "Add Feed"
 msgstr "Nachrichtenquelle hinzufügen"
 
 #: qml/AddFeedDialog.qml:40
-#, fuzzy, kde-format
-#| msgid "Feed URL:"
+#, kde-format
 msgid "URL:"
-msgstr "Adresse der Nachrichtenquelle:"
+msgstr "URL:"
 
 #: qml/AddFeedDialog.qml:46
 #, kde-format
@@ -201,7 +201,7 @@ msgstr "Keine ungelesenen Einträge verfügbar"
 #: qml/EntryListPage.qml:127
 #, kde-format
 msgid "No favorite entries available"
-msgstr "Keine Favoriteneinträge verfügbar"
+msgstr "Keine favorisierten Einträge verfügbar"
 
 #: qml/EntryListPage.qml:129
 #, kde-format
@@ -250,7 +250,7 @@ msgstr "Verknüpfung kopieren"
 #, kde-format
 msgctxt "<Feed Name> - Details"
 msgid "%1 - Details"
-msgstr "%1 - Details"
+msgstr "%1 – Details"
 
 #: qml/FeedDetailsPage.qml:25
 #, kde-format
@@ -281,7 +281,7 @@ msgstr "%1 Artikel, %2 ungelesen"
 #: qml/FeedGroupDialog.qml:23
 #, kde-format
 msgid "Feed Group"
-msgstr "Nachrichtenquellen-Gruppen"
+msgstr "Nachrichtenquellen-Gruppe"
 
 #: qml/FeedGroupDialog.qml:43
 #, kde-format
@@ -326,7 +326,7 @@ msgstr "Alle Nachrichtenquellen aktualisieren"
 #: qml/FeedListPage.qml:38 qml/FeedListPage.qml:113
 #, kde-format
 msgid "Add Feed…"
-msgstr "Nachrichtenquelle hinzufügen ..."
+msgstr "Nachrichtenquelle hinzufügen …"
 
 #: qml/FeedListPage.qml:45
 #, kde-format
@@ -336,12 +336,12 @@ msgstr "Nachrichtenquellen-Gruppen verwalten"
 #: qml/FeedListPage.qml:50
 #, kde-format
 msgid "Import Feeds…"
-msgstr "Nachrichtenquellen importieren ..."
+msgstr "Nachrichtenquellen importieren …"
 
 #: qml/FeedListPage.qml:55
 #, kde-format
 msgid "Export Feeds…"
-msgstr "Nachrichtenquellen exportieren ..."
+msgstr "Nachrichtenquellen exportieren …"
 
 #: qml/FeedListPage.qml:119
 #, kde-format
@@ -386,7 +386,7 @@ msgstr "Gruppen"
 #: qml/GroupsListPage.qml:24
 #, kde-format
 msgid "Add Group…"
-msgstr "Gruppe hinzufügen ..."
+msgstr "Gruppe hinzufügen …"
 
 #: qml/GroupsListPage.qml:55
 #, kde-format
@@ -396,7 +396,7 @@ msgstr "Entfernen"
 #: qml/GroupsListPage.qml:63
 #, kde-format
 msgid "Set as Default"
-msgstr "Als Standard verwenden"
+msgstr "Als Standard festlegen"
 
 #: qml/GroupsListPage.qml:72
 #, kde-format
@@ -457,7 +457,7 @@ msgstr "Schriftgröße:"
 #: qml/SettingsPage.qml:70
 #, kde-format
 msgid "Use system default"
-msgstr "Voreinstellungen des Systems verwenden"
+msgstr "Voreinstellung des Systems verwenden"
 
 #~ msgid "URL"
 #~ msgstr "Adresse"
