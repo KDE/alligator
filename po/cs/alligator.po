@@ -473,21 +473,3 @@ msgstr "Velikost písma:"
 #, kde-format
 msgid "Use system default"
 msgstr "Použít výchozí systémový"
-
-#~ msgid "URL"
-#~ msgstr "URL"
-
-#~ msgctxt "@action:button"
-#~ msgid "Add Feed"
-#~ msgstr "Přidat kanál"
-
-#~ msgctxt "@action:button"
-#~ msgid "Cancel"
-#~ msgstr "Zrušit"
-
-#~ msgctxt "@title"
-#~ msgid "Add Feed"
-#~ msgstr "Přidat kanál"
-
-#~ msgid "Add Group"
-#~ msgstr "Přidat skupinu"

@@ -70,6 +70,7 @@
   <summary xml:lang="nl">Lezer van RSS-feed</summary>
   <summary xml:lang="pl">Czytnik kanałów RSS</summary>
   <summary xml:lang="pt-BR">Leitor de fontes de notícias RSS</summary>
+  <summary xml:lang="ro">Cititor de fluxuri RSS</summary>
   <summary xml:lang="ru">Программа чтения лент новостей в формате RSS</summary>
   <summary xml:lang="sa">आरएसएस फीड रीडर</summary>
   <summary xml:lang="sl">bralnik virov RSS</summary>
@@ -112,6 +113,7 @@
     <p xml:lang="nl">Alligator is een convergente, cross-platform lezer van feed, ondersteunt standaard RSS/Atom feeds</p>
     <p xml:lang="pl">Alligator jest dostosowującym się, wieloplatformowym czytnikiem kanałów RSS/Atom</p>
     <p xml:lang="pt-BR">O Alligator é um leitor de fontes de notícias multi-plataforma e convergente, suportando fontes RSS/Atom padrão</p>
+    <p xml:lang="ro">Alligator e un cititor de fluxuri convergent, multiplatformă, ce susține fluxurile RSS/Atom</p>
     <p xml:lang="ru">Alligator — кроссплатформенная программа для чтения лент новостей, предусматривающая поддержку стандартных лент новостей RSS/Atom</p>
     <p xml:lang="sa">एलिगेटर् एकः अभिसरणीयः, पार-मञ्च-फीड्-रीडरः अस्ति, यः मानक-आरएसएस/एटम्-फीड्-समर्थनं करोति</p>
     <p xml:lang="sl">Alligator je konvergenten bralnik virov za več platform, ki podpira standardne vire RSS/Atom</p>
@@ -161,6 +163,7 @@
       <caption xml:lang="pl">Lista kanałów Alligator na pulpicie</caption>
       <caption xml:lang="pt">A lista de fontes do Alligator num computador</caption>
       <caption xml:lang="pt-BR">Lista de fontes do Alligator na área de trabalho</caption>
+      <caption xml:lang="ro">Lista de fluxuri Alligator pe calculator de birou</caption>
       <caption xml:lang="ru">Список лент новостей Alligator на рабочем столе</caption>
       <caption xml:lang="sa">डेस्कटॉप् मध्ये एलिगेटर् फीड् सूची</caption>
       <caption xml:lang="sk">Zoznam kanálov Alligator na pracovnej ploche</caption>
@@ -201,6 +204,7 @@
       <caption xml:lang="pl">Alligator na telefonie</caption>
       <caption xml:lang="pt">O Alligator no telefone</caption>
       <caption xml:lang="pt-BR">Alligator no celular</caption>
+      <caption xml:lang="ro">Alligator pe telefon</caption>
       <caption xml:lang="ru">Alligator на телефоне</caption>
       <caption xml:lang="sa">एकस्मिन् दूरभाषे मगरमच्छ</caption>
       <caption xml:lang="sk">Alligator na telefóne</caption>
