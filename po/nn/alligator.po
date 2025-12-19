@@ -456,13 +456,3 @@ msgstr "Skriftstorleik:"
 #, kde-format
 msgid "Use system default"
 msgstr "Bruk systemstandard"
-
-#, fuzzy
-#~ msgctxt "@action:button"
-#~ msgid "Add Feed"
-#~ msgstr "Legg til kjelde"
-
-#, fuzzy
-#~ msgctxt "@title"
-#~ msgid "Add Feed"
-#~ msgstr "Legg til kjelde"
