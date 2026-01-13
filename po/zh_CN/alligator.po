@@ -95,7 +95,7 @@ msgstr "添加新闻源"
 #: qml/AddFeedDialog.qml:40
 #, kde-format
 msgid "URL:"
-msgstr ""
+msgstr "URL："
 
 #: qml/AddFeedDialog.qml:46
 #, kde-format
