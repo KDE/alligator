@@ -1,14 +1,14 @@
 # Copyright (C) 2023 This file is copyright:
 # This file is distributed under the same license as the alligator package.
 #
-# SPDX-FileCopyrightText: 2020, 2021, 2022, 2023, 2024, 2025 Giovanni Sora <g.sora@tiscali.it>
+# SPDX-FileCopyrightText: 2020, 2021, 2022, 2023, 2024, 2025, 2026 Giovanni Sora <g.sora@tiscali.it>
 # giovanni <g.sora@tiscali.it>, 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-12-03 02:40+0000\n"
-"PO-Revision-Date: 2025-09-24 17:25+0200\n"
+"PO-Revision-Date: 2026-01-16 12:01+0100\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -94,10 +94,9 @@ msgid "Add Feed"
 msgstr "Adde syndication"
 
 #: qml/AddFeedDialog.qml:40
-#, fuzzy, kde-format
-#| msgid "Feed URL:"
+#, kde-format
 msgid "URL:"
-msgstr "URL de syndication:"
+msgstr "URL:"
 
 #: qml/AddFeedDialog.qml:46
 #, kde-format
