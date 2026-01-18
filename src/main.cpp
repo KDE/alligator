@@ -22,7 +22,7 @@
 
 #include <KAboutData>
 #include <KColorSchemeManager>
-#include <KLocalizedContext>
+#include <KLocalizedQmlContext>
 #include <KLocalizedString>
 
 #include "alligator-version.h"
@@ -86,7 +86,7 @@ int main(int argc, char *argv[])
 #endif
 
     QQmlApplicationEngine engine;
-    engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
+    KLocalization::setupLocalizedContext(&engine);
 
     QCommandLineParser parser;
     parser.setApplicationDescription(i18n("RSS/Atom Feed Reader"));

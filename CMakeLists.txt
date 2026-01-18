@@ -20,7 +20,7 @@ find_package(ECM ${KF_MIN_VERSION} REQUIRED NO_MODULE)
 
 set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH})
 
-set(KDE_COMPILERSETTINGS_LEVEL 6.0.0)
+set(KDE_COMPILERSETTINGS_LEVEL 6.12.0)
 
 include(FeatureSummary)
 include(ECMSetupVersion)
@@ -29,9 +29,12 @@ include(KDEClangFormat)
 include(KDECMakeSettings)
 include(KDEGitCommitHooks)
 include(ECMAddAndroidApk)
+include(ECMDeprecationSettings)
 include(KDECompilerSettings NO_POLICY_SCOPE)
 include(ECMQmlModule)
 include(ECMQtDeclareLoggingCategory)
+
+ecm_set_disabled_deprecation_versions(Qt 6.5.0 KF 6.12.0)
 
 ecm_setup_version(${PROJECT_VERSION}
     VARIABLE_PREFIX ALLIGATOR
@@ -53,14 +56,6 @@ if (ANDROID)
 else()
     find_package(Qt6 ${QT_MIN_VERSION} REQUIRED COMPONENTS Widgets)
 endif()
-
-add_definitions(-DQT_NO_CAST_FROM_ASCII
-                -DQT_NO_CAST_TO_ASCII
-                -DQT_NO_URL_CAST_FROM_STRING
-                -DQT_NO_NARROWING_CONVERSIONS_IN_CONNECT
-                -DQT_USE_QSTRINGBUILDER
-                -DQT_DISABLE_DEPRECATED_BEFORE=0x050d00
-)
 
 ki18n_install(po)
 

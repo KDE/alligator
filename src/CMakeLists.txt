@@ -55,7 +55,7 @@ ecm_qt_declare_logging_category(alligator
 )
 
 target_include_directories(alligator PRIVATE ${CMAKE_BINARY_DIR})
-target_link_libraries(alligator PRIVATE Qt::Core Qt::Qml Qt::Quick Qt::QuickControls2 Qt::Sql KF6::Syndication KF6::CoreAddons KF6::ConfigGui KF6::I18n KF6::ColorScheme)
+target_link_libraries(alligator PRIVATE Qt::Core Qt::Qml Qt::Quick Qt::QuickControls2 Qt::Sql KF6::Syndication KF6::CoreAddons KF6::ConfigGui KF6::I18n KF6::ColorScheme KF6::I18nQml)
 if (NOT QT6_IS_SHARED_LIBS_BUILD)
     qt6_import_qml_plugins(alligator)
 endif()
