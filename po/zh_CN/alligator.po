@@ -192,7 +192,7 @@ msgstr "错误 (%1)：%2"
 #: qml/EntryListPage.qml:125
 #, kde-format
 msgid "No unread entries available"
-msgstr "无未读条目"
+msgstr "没有未读的条目"
 
 #: qml/EntryListPage.qml:127
 #, kde-format
@@ -283,24 +283,24 @@ msgstr "新闻源分组"
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Name:"
-msgstr ""
+msgstr "名称："
 
 #: qml/FeedGroupDialog.qml:55
 #, kde-format
 msgid "A group with that name already exists."
-msgstr ""
+msgstr "此组名已被使用。"
 
 #: qml/FeedGroupDialog.qml:64
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Description:"
-msgstr ""
+msgstr "描述："
 
 #: qml/FeedGroupDialog.qml:70
 #, kde-format
 msgctxt "@option:check"
 msgid "Set as default:"
-msgstr ""
+msgstr "设为默认："
 
 #: qml/FeedListDelegate.qml:29
 #, kde-format
@@ -395,31 +395,31 @@ msgstr "分组"
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Add Group…"
-msgstr ""
+msgstr "添加分组..."
 
 #: qml/GroupsListPage.qml:54
 #, kde-format
 msgctxt "@action:button"
 msgid "Set as Default"
-msgstr ""
+msgstr "设为默认"
 
 #: qml/GroupsListPage.qml:67
 #, kde-format
 msgctxt "@action:button"
 msgid "Remove"
-msgstr ""
+msgstr "移除"
 
 #: qml/GroupsListPage.qml:83
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "No groups created yet"
-msgstr ""
+msgstr "尚未创建分组"
 
 #: qml/GroupsListPage.qml:88
 #, kde-format
 msgctxt "@action:button"
 msgid "Add Group…"
-msgstr ""
+msgstr "添加分组..."
 
 #: qml/SettingsPage.qml:23
 #, kde-format

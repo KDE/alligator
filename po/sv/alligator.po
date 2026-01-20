@@ -1,13 +1,13 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the alligator package.
 #
-# SPDX-FileCopyrightText: 2020, 2021, 2022, 2023, 2024, 2025 Stefan Asserhäll <stefan.asserhall@gmail.com>
+# SPDX-FileCopyrightText: 2020, 2021, 2022, 2023, 2024, 2025, 2026 Stefan Asserhäll <stefan.asserhall@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-28 00:42+0000\n"
-"PO-Revision-Date: 2025-08-20 08:35+0200\n"
+"PO-Revision-Date: 2026-01-19 21:54+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 25.08.0\n"
+"X-Generator: Lokalize 25.12.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -93,10 +93,9 @@ msgid "Add Feed"
 msgstr "Lägg till kanal"
 
 #: qml/AddFeedDialog.qml:40
-#, fuzzy, kde-format
-#| msgid "Feed URL:"
+#, kde-format
 msgid "URL:"
-msgstr "Kanalens webbadress:"
+msgstr "Webbadress:"
 
 #: qml/AddFeedDialog.qml:46
 #, kde-format
@@ -281,8 +280,7 @@ msgid "Feed Group"
 msgstr "Kanalgrupp"
 
 #: qml/FeedGroupDialog.qml:50
-#, fuzzy, kde-format
-#| msgid "Name:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Name:"
 msgstr "Namn:"
@@ -290,21 +288,19 @@ msgstr "Namn:"
 #: qml/FeedGroupDialog.qml:55
 #, kde-format
 msgid "A group with that name already exists."
-msgstr ""
+msgstr "En grupp med det namnet finns redan."
 
 #: qml/FeedGroupDialog.qml:64
-#, fuzzy, kde-format
-#| msgid "Description:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Description:"
 msgstr "Beskrivning:"
 
 #: qml/FeedGroupDialog.qml:70
-#, fuzzy, kde-format
-#| msgid "Set as Default"
+#, kde-format
 msgctxt "@option:check"
 msgid "Set as default:"
-msgstr "Använd som förval"
+msgstr "Använd som förval:"
 
 #: qml/FeedListDelegate.qml:29
 #, kde-format
@@ -397,36 +393,31 @@ msgid "Groups"
 msgstr "Grupper"
 
 #: qml/GroupsListPage.qml:24
-#, fuzzy, kde-format
-#| msgid "Add Group…"
+#, kde-format
 msgctxt "@action:intoolbar"
 msgid "Add Group…"
 msgstr "Lägg till grupp…"
 
 #: qml/GroupsListPage.qml:54
-#, fuzzy, kde-format
-#| msgid "Set as Default"
+#, kde-format
 msgctxt "@action:button"
 msgid "Set as Default"
 msgstr "Använd som förval"
 
 #: qml/GroupsListPage.qml:67
-#, fuzzy, kde-format
-#| msgid "Remove"
+#, kde-format
 msgctxt "@action:button"
 msgid "Remove"
 msgstr "Ta bort"
 
 #: qml/GroupsListPage.qml:83
-#, fuzzy, kde-format
-#| msgid "No groups created yet"
+#, kde-format
 msgctxt "@info:placeholder"
 msgid "No groups created yet"
 msgstr "Inga grupper skapade ännu"
 
 #: qml/GroupsListPage.qml:88
-#, fuzzy, kde-format
-#| msgid "Add Group…"
+#, kde-format
 msgctxt "@action:button"
 msgid "Add Group…"
 msgstr "Lägg till grupp…"
