@@ -192,7 +192,7 @@ msgstr "错误 (%1)：%2"
 #: qml/EntryListPage.qml:125
 #, kde-format
 msgid "No unread entries available"
-msgstr "无未读条目"
+msgstr "没有未读的条目"
 
 #: qml/EntryListPage.qml:127
 #, kde-format
@@ -282,12 +282,12 @@ msgstr "新闻源分组"
 #: qml/FeedGroupDialog.qml:43
 #, kde-format
 msgid "Name:"
-msgstr ""
+msgstr "名称："
 
 #: qml/FeedGroupDialog.qml:50
 #, kde-format
 msgid "Description:"
-msgstr ""
+msgstr "描述："
 
 #: qml/FeedListDelegate.qml:29
 #, kde-format
@@ -381,22 +381,22 @@ msgstr "分组"
 #: qml/GroupsListPage.qml:24
 #, kde-format
 msgid "Add Group…"
-msgstr ""
+msgstr "添加分组..."
 
 #: qml/GroupsListPage.qml:55
 #, kde-format
 msgid "Remove"
-msgstr ""
+msgstr "移除"
 
 #: qml/GroupsListPage.qml:63
 #, kde-format
 msgid "Set as Default"
-msgstr ""
+msgstr "设为默认"
 
 #: qml/GroupsListPage.qml:72
 #, kde-format
 msgid "No groups created yet"
-msgstr ""
+msgstr "尚未创建分组"
 
 #: qml/GroupsListPage.qml:77
 #, kde-format
