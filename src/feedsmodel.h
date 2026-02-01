@@ -14,6 +14,8 @@
 
 #include "feed.h"
 
+#include <memory>
+
 class FeedsModel : public QAbstractListModel
 {
     Q_OBJECT
@@ -30,5 +32,5 @@ public:
 private:
     void loadFeed(int index) const;
 
-    mutable QVector<Feed *> m_feeds;
+    mutable std::vector<std::unique_ptr<Feed>> m_feeds;
 };

@@ -27,7 +27,7 @@ FeedsModel::FeedsModel(QObject *parent)
         &Fetcher::feedDetailsUpdated,
         this,
         [this](const QString &url, const QString &name, const QString &image, const QString &link, const QString &description, const QDateTime &lastUpdated) {
-            for (int i = 0; i < m_feeds.length(); i++) {
+            for (size_t i = 0; i < m_feeds.size(); i++) {
                 if (m_feeds[i]->url() == url) {
                     m_feeds[i]->setName(name);
                     m_feeds[i]->setImage(image);
@@ -41,7 +41,7 @@ FeedsModel::FeedsModel(QObject *parent)
         });
 
     connect(&Database::instance(), &Database::feedDetailsUpdated, [this](const QString &url, const QString &displayName, const QString &groupName) {
-        for (int i = 0; i < m_feeds.length(); i++) {
+        for (size_t i = 0; i < m_feeds.size(); i++) {
             if (m_feeds[i]->url() == url) {
                 m_feeds[i]->setDisplayName(displayName);
                 m_feeds[i]->setGroupName(groupName);
@@ -52,7 +52,7 @@ FeedsModel::FeedsModel(QObject *parent)
     });
 
     connect(&Database::instance(), &Database::feedGroupRemoved, [this](const QString &groupName) {
-        for (int i = 0; i < m_feeds.length(); i++) {
+        for (size_t i = 0; i < m_feeds.size(); i++) {
             if (m_feeds[i]->groupName() == groupName) {
                 m_feeds[i]->setGroupName(QString());
                 Q_EMIT dataChanged(createIndex(i, 0), createIndex(i, 0));
@@ -87,25 +87,24 @@ QVariant FeedsModel::data(const QModelIndex &index, int role) const
         return QVariant();
     }
 
-    while (m_feeds.length() <= index.row()) {
-        loadFeed(m_feeds.length());
+    while (m_feeds.size() <= index.row()) {
+        loadFeed(m_feeds.size());
     }
-    return QVariant::fromValue(m_feeds[index.row()]);
+    return QVariant::fromValue(m_feeds[index.row()].get());
 }
 
 void FeedsModel::loadFeed(int index) const
 {
-    m_feeds += new Feed(index);
+    m_feeds.push_back(std::make_unique<Feed>(index));
 }
 
 void FeedsModel::removeFeed(const QString &url)
 {
-    for (int i = 0; i < m_feeds.length(); i++) {
+    for (size_t i = 0; i < m_feeds.size(); i++) {
         if (m_feeds[i]->url() == url) {
             m_feeds[i]->remove();
-            delete m_feeds[i];
             beginRemoveRows(QModelIndex(), i, i);
-            m_feeds.removeAt(i);
+            m_feeds.erase(m_feeds.cbegin() + i);
             endRemoveRows();
         }
     }
