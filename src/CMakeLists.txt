@@ -104,7 +104,7 @@ if(ANDROID)
     )
     ecm_add_android_apk(alligator ANDROID_DIR ${CMAKE_SOURCE_DIR}/android)
 else()
-    target_link_libraries(alligator PRIVATE Qt::Widgets)
+    target_link_libraries(alligator PRIVATE Qt::Widgets KF6::Crash)
 endif()
 
 install(TARGETS alligator ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})

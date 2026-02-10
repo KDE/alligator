@@ -55,6 +55,7 @@ if (ANDROID)
     find_package(SQLite3)
 else()
     find_package(Qt6 ${QT_MIN_VERSION} REQUIRED COMPONENTS Widgets)
+    find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS Crash)
 endif()
 
 ki18n_install(po)

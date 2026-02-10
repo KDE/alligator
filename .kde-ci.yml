@@ -16,6 +16,7 @@ Dependencies:
 - 'on': ['Linux/Qt6/Shared', 'Linux/Qt6Next/Shared', 'FreeBSD/Qt6/Shared', 'Windows/Qt6/Shared']
   'require':
     'frameworks/qqc2-desktop-style': '@latest-kf6'
+    'frameworks/kcrash': '@latest-kf6'
 
 - 'on': ['Linux/Qt6/Static']
   'require':

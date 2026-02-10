@@ -18,6 +18,8 @@
 #include <QGuiApplication>
 #else
 #include <QApplication>
+
+#include <KCrash>
 #endif
 
 #include <KAboutData>
@@ -83,6 +85,8 @@ int main(int argc, char *argv[])
 
 #ifndef Q_OS_ANDROID
     QApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("alligator")));
+
+    KCrash::initialize();
 #endif
 
     QQmlApplicationEngine engine;
