@@ -102,8 +102,8 @@ void FeedsModel::removeFeed(const QString &url)
 {
     for (size_t i = 0; i < m_feeds.size(); i++) {
         if (m_feeds[i]->url() == url) {
-            m_feeds[i]->remove();
             beginRemoveRows(QModelIndex(), i, i);
+            m_feeds[i]->remove();
             m_feeds.erase(m_feeds.cbegin() + i);
             endRemoveRows();
         }
