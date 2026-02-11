@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-28 00:42+0000\n"
+"POT-Creation-Date: 2026-02-11 00:44+0000\n"
 "PO-Revision-Date: 2025-11-28 23:08+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
@@ -53,37 +53,37 @@ msgstr "אף מפענח לא אישר את ה־XML"
 msgid "Error while parsing feed"
 msgstr "שגיאה בפענוח ערוץ העדכונים"
 
-#: main.cpp:76 qml/AlligatorGlobalDrawer.qml:56
+#: main.cpp:78 qml/AlligatorGlobalDrawer.qml:56
 #, kde-format
 msgid "Alligator"
 msgstr "תנין"
 
-#: main.cpp:78
+#: main.cpp:80
 #, kde-format
 msgid "Feed Reader"
 msgstr "מציג ערוצי עדכונים"
 
-#: main.cpp:80
+#: main.cpp:82
 #, kde-format
 msgid "© 2020-2024 KDE Community"
 msgstr "© 2020‏-2024 קהילת KDE"
 
-#: main.cpp:81
+#: main.cpp:83
 #, kde-format
 msgid "Tobias Fella"
 msgstr "טוביאס פלה"
 
-#: main.cpp:92
+#: main.cpp:96
 #, kde-format
 msgid "RSS/Atom Feed Reader"
 msgstr "מציג ערוצי עדכונים ב־RSS/Atom"
 
-#: main.cpp:94
+#: main.cpp:98
 #, kde-format
 msgid "Adds a new feed to database."
 msgstr "הוספת ערוץ עדכונים חדש למסד הנתונים."
 
-#: main.cpp:95
+#: main.cpp:99
 #, kde-format
 msgid "feed URL"
 msgstr "כתובת ערוץ"
