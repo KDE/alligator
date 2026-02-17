@@ -258,10 +258,13 @@
       <url>https://plasma-mobile.org/2023/01/30/january-blog-post/</url>
       <description>
         <p>Translations update</p>
+        <p xml:lang="ar">حُدثت الترجمات</p>
         <p xml:lang="ca">Actualització de les traduccions</p>
+        <p xml:lang="ca-valencia">Actualització de les traduccions</p>
         <p xml:lang="es">Actualización de las traducciones</p>
         <p xml:lang="he">תרגומים עדכניים</p>
         <p xml:lang="ka">თარგმანების განახლება</p>
+        <p xml:lang="nl">Bijgewerkte vertalingen</p>
         <p xml:lang="pt-BR">Atualização de tradução</p>
         <p xml:lang="ru">Обновление переводов</p>
         <p xml:lang="sl">Posodobitev prevodov</p>
@@ -278,10 +281,13 @@
       <description>
         <ul>
           <li>Support for Qt6 based build</li>
+          <li xml:lang="ar">دعم البناء القائم على Qt6</li>
           <li xml:lang="ca">Implementació de la construcció basada en les Qt6</li>
+          <li xml:lang="ca-valencia">Implementació de la construcció basada en les Qt6</li>
           <li xml:lang="es">Compatibilidad con la compilación basada en Qt6</li>
           <li xml:lang="he">תמיכה במהדורה מבוססת Qt6</li>
           <li xml:lang="ka">Qt6-ზე აგების მხარდაჭერა</li>
+          <li xml:lang="nl">Ondersteuning voor op Qt6 gebouwd</li>
           <li xml:lang="pt-BR">Suporte para compilação baseada em Qt6</li>
           <li xml:lang="ru">Поддержка сборки на основе Qt6</li>
           <li xml:lang="sl">Podpora za gradnjo na osnovi Qt6</li>
@@ -293,10 +299,13 @@
       <description>
         <ul>
           <li>General code-refactoring and translations updates</li>
+          <li xml:lang="ar">إعادة صياغة عامة للكود وتحديثات للترجمات</li>
           <li xml:lang="ca">Actualitzacions generals de reestructuració de codi i traduccions</li>
+          <li xml:lang="ca-valencia">Actualitzacions generals de reestructuració de codi i traduccions</li>
           <li xml:lang="es">Refactorización general del código y actualización de las traducciones</li>
           <li xml:lang="he">שכתוב קוד כללי ועדכוני תרגומים</li>
           <li xml:lang="ka">კოდის რეფაქტორინგი და თარგმანის გაუმჯობესებები</li>
+          <li xml:lang="nl">Algemene herziening van de code en bijgewerkte vertalingen</li>
           <li xml:lang="pt-BR">Atualizações gerais de refatoração de código e traduções</li>
           <li xml:lang="ru">Общий рефакторинг кода и обновления переводов</li>
           <li xml:lang="sl">Splošne posodobitve preoblikovanja kode in prevodov</li>
@@ -308,37 +317,52 @@
       <description>
         <ul>
           <li>Wrap entry title</li>
+          <li xml:lang="ar">لف عنوان الإدخال</li>
           <li xml:lang="ca">Ajusta el títol de les entrades</li>
+          <li xml:lang="ca-valencia">Ajusta el títol de les entrades</li>
           <li xml:lang="he">כותרת רשומה גולשת</li>
           <li xml:lang="ka">ჩანაწერის სათაურის გადატანა</li>
+          <li xml:lang="nl">Gehele titel laten omlopen</li>
           <li xml:lang="pt-BR">Quebra do título da entrada</li>
           <li xml:lang="ru">Перенос заголовков записей</li>
           <li xml:lang="sl">Prelom vnosa naslova</li>
           <li>Refresh all feeds on startup, and do not require manual refresh</li>
+          <li xml:lang="ar">تُحدث كل التغذيات آليًا عند بدء التشغيل، ولا تتطلب تحديثًا يدويًا</li>
           <li xml:lang="ca">Actualitza totes les fonts en iniciar i no cal l'actualització manual</li>
+          <li xml:lang="ca-valencia">Actualitza totes les fonts en iniciar i no cal l'actualització manual</li>
           <li xml:lang="he">כל הערוצים מתרעננים עם ההפעלה, ולא דורשים ריענון ידני</li>
           <li xml:lang="ka">ყველა ლენტის განახლება გაშვებისას და არ სჭირდება ხელით განახლება</li>
+          <li xml:lang="nl">Alle feeds bij opstarten vernieuwen en vereist geen handmatige vernieuwing</li>
           <li xml:lang="pt-BR">Atualizar todos os feeds na inicialização e não requerer atualização manual</li>
           <li xml:lang="ru">Обновление всех каналов при запуске, не требуя ручного обновления</li>
           <li xml:lang="sl">Osveži vse vire ob zagonu in ne zahteva ročnega osveževanja</li>
           <li>Add page to view all entries in one list</li>
+          <li xml:lang="ar">أُضيفت صفحة لعرض كل الإدخالات في قائمة واحدة</li>
           <li xml:lang="ca">Afegeix una pàgina per a veure totes les entrades en una llista</li>
+          <li xml:lang="ca-valencia">Afig una pàgina per a veure totes les entrades en una llista</li>
           <li xml:lang="he">נוסף עמוד להצגת כל הרשומות ברשימה אחת</li>
           <li xml:lang="ka">დაემატა გვერდი სიის ყველა ჩანაწერის სანახავად</li>
+          <li xml:lang="nl">Pagina toegevoegd om alle items in één lijst te bekijken</li>
           <li xml:lang="pt-BR">Adicionar página para visualizar todas as entradas em uma única lista</li>
           <li xml:lang="ru">Добавлена страница для просмотра всех записей в одном списке</li>
           <li xml:lang="sl">Doda stran za ogled vseh vnosov na enem seznamu</li>
           <li>Fix crash on refreshing</li>
+          <li xml:lang="ar">أُصلح الانهيار عند التحديث</li>
           <li xml:lang="ca">Correcció de fallada en actualitzar</li>
+          <li xml:lang="ca-valencia">Correcció de fallada en actualitzar</li>
           <li xml:lang="he">תוקנה קריסה בעת ריענון</li>
           <li xml:lang="ka">გასწორდა ავარიული დასრულება განახლებისას</li>
+          <li xml:lang="nl">Crash bij vernieuwen opgelost</li>
           <li xml:lang="pt-BR">Corrigido o problema que causava o fechamento inesperado do aplicativo ao atualizar</li>
           <li xml:lang="ru">Исправлен сбой при обновлении</li>
           <li xml:lang="sl">Odpravi sesutje ob osvežitvi</li>
           <li>Allow to filter read entries</li>
+          <li xml:lang="ar">السماح بمرشح للإدخالات المقروءة</li>
           <li xml:lang="ca">Permet filtrar les entrades llegides</li>
+          <li xml:lang="ca-valencia">Permet filtrar les entrades llegides</li>
           <li xml:lang="he">נוספה אפשרות לניפוי רשומות שנקראו</li>
           <li xml:lang="ka">წაკითხული ჩანაწერების გაფილტვრის დაშვება</li>
+          <li xml:lang="nl">Filteren van gelezen items toestaan</li>
           <li xml:lang="pt-BR">Permitir filtrar entradas de leitura</li>
           <li xml:lang="ru">Возможность фильтрации прочитанных записей</li>
           <li xml:lang="sl">Dovoli filtriranje prebranih vnosov</li>
@@ -350,9 +374,12 @@
       <description>
         <ul>
           <li>Fix memory leak when fetching feeds</li>
+          <li xml:lang="ar">أُصلح تسرب الذاكرة عند جلب التغذيات</li>
           <li xml:lang="ca">Corregeix una fuita de memòria en recuperar les fonts</li>
+          <li xml:lang="ca-valencia">Corregix una fuita de memòria en recuperar les fonts</li>
           <li xml:lang="he">תוקנה זליגת זיכרון במשיכת ערוצים</li>
           <li xml:lang="ka">გასწორდა მეხსიერების გაჟონვა ლენტების გამოთხოვისას</li>
+          <li xml:lang="nl">Los het geheugenlek op bij het ophalen van feeds</li>
           <li xml:lang="pt-BR">Corrigido vazamento de memória ao buscar feeds</li>
           <li xml:lang="ru">Исправлена утечка памяти при получении лент</li>
           <li xml:lang="sl">Popravi puščanje pomnilnika pri pridobivanju virov</li>
@@ -368,18 +395,24 @@
     <release version="21.06" date="2021-06-10">
       <description>
         <p>Plasma Mobile Gear 21.06 release</p>
+        <p xml:lang="ar">إصدار عتاد بلازما الجوال 21.06</p>
         <p xml:lang="ca">Llançament del Plasma Mobile Gear 21.06</p>
+        <p xml:lang="ca-valencia">Llançament de Plasma Mobile Gear 21.06</p>
         <p xml:lang="he">מהדורת 21.06 של Plasma Mobile Gear</p>
         <p xml:lang="ka">გამოშვება Plasma Mobile Gear 21.06</p>
+        <p xml:lang="nl">Plasma Mobile Gear 21.06 uitgave</p>
         <p xml:lang="pt-BR">Lançamento do Plasma Mobile Gear 21.06</p>
         <p xml:lang="ru">Выпуск Plasma Mobile Gear 21.06</p>
         <p xml:lang="sl">Izdaja Plasma Mobile Gear 21.06</p>
         <ul>
           <li>Fix height of resized images</li>
+          <li xml:lang="ar">أُصلح ارتفاع الصور التي غُير حجمها</li>
           <li xml:lang="ca">Corregeix l'alçada de les imatges redimensionades</li>
+          <li xml:lang="ca-valencia">Corregix l'alçària de les imatges redimensionades</li>
           <li xml:lang="es">Se ha corregido la altura de las imágenes cuyo tamaño se ha cambiado</li>
           <li xml:lang="he">תוקן הגובה של תמונות שגודלן השתנה</li>
           <li xml:lang="ka">გასწორდა ზომაშეცვლილი გამოსახულებების სიმაღლე</li>
+          <li xml:lang="nl">De hoogte van verkleinde afbeeldingen corrigeren</li>
           <li xml:lang="pt-BR">Corrigida a altura das imagens redimensionadas</li>
           <li xml:lang="ru">Исправлена высота изменённых изображений</li>
           <li xml:lang="sl">Popravi višino slik spremenjenih belikosti</li>
