@@ -32,6 +32,10 @@ Kirigami.PromptDialog {
         }
     }
 
+    onClosed: {
+        urlField.text = "";
+    }
+
     Kirigami.FormLayout {
         Controls.TextField {
             id: urlField
