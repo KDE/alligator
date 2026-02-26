@@ -320,6 +320,7 @@
           <li xml:lang="ia">Re-factorisation de codice general e actualistiones de traductiones</li>
           <li xml:lang="it">Revisione generale del codice e aggiornamenti delle traduzioni</li>
           <li xml:lang="ka">კოდის რეფაქტორინგი და თარგმანის გაუმჯობესებები</li>
+          <li xml:lang="lt">Bendri kodo pertvarkymo ir vertimų atnaujinimai</li>
           <li xml:lang="nl">Algemene herziening van de code en bijgewerkte vertalingen</li>
           <li xml:lang="pt-BR">Atualizações gerais de refatoração de código e traduções</li>
           <li xml:lang="ru">Общий рефакторинг кода и обновления переводов</li>
@@ -343,6 +344,7 @@
           <li xml:lang="ia">Inveloppa tutilo de entrata</li>
           <li xml:lang="it">Titolo su più righe</li>
           <li xml:lang="ka">ჩანაწერის სათაურის გადატანა</li>
+          <li xml:lang="lt">Skaidyti įrašo pavadinimą</li>
           <li xml:lang="nl">Gehele titel laten omlopen</li>
           <li xml:lang="pt-BR">Quebra do título da entrada</li>
           <li xml:lang="ru">Перенос заголовков записей</li>
@@ -359,6 +361,7 @@
           <li xml:lang="ia">Refresca omne syndicationes al startar, e non require refrescamento manual</li>
           <li xml:lang="it">Aggiorna tutte le fonti all'avvio e non richiede l'aggiornamento manuale</li>
           <li xml:lang="ka">ყველა ლენტის განახლება გაშვებისას და არ სჭირდება ხელით განახლება</li>
+          <li xml:lang="lt">Programos paleidimo metu įkelti iš naujo visus kanalus ir nereikalauti įkėlimo iš naujo rankiniu būdu</li>
           <li xml:lang="nl">Alle feeds bij opstarten vernieuwen en vereist geen handmatige vernieuwing</li>
           <li xml:lang="pt-BR">Atualizar todos os feeds na inicialização e não requerer atualização manual</li>
           <li xml:lang="ru">Обновление всех каналов при запуске, не требуя ручного обновления</li>
@@ -375,6 +378,7 @@
           <li xml:lang="ia">Adde pagina per vider tote entratas in un lista</li>
           <li xml:lang="it">Aggiunge una pagina per visualizzare tutte le voci in un elenco</li>
           <li xml:lang="ka">დაემატა გვერდი სიის ყველა ჩანაწერის სანახავად</li>
+          <li xml:lang="lt">Pridėtas puslapis, skirtas peržiūrėti visus įrašus viename sąraše</li>
           <li xml:lang="nl">Pagina toegevoegd om alle items in één lijst te bekijken</li>
           <li xml:lang="pt-BR">Adicionar página para visualizar todas as entradas em uma única lista</li>
           <li xml:lang="ru">Добавлена страница для просмотра всех записей в одном списке</li>
@@ -391,6 +395,7 @@
           <li xml:lang="ia">Corrige fracasso quando il refresca</li>
           <li xml:lang="it">Corregge l'arresto anomalo durante l'aggiornamento</li>
           <li xml:lang="ka">გასწორდა ავარიული დასრულება განახლებისას</li>
+          <li xml:lang="lt">Ištaisyta strigtis įkeliant iš naujo</li>
           <li xml:lang="nl">Crash bij vernieuwen opgelost</li>
           <li xml:lang="pt-BR">Corrigido o problema que causava o fechamento inesperado do aplicativo ao atualizar</li>
           <li xml:lang="ru">Исправлен сбой при обновлении</li>
@@ -407,6 +412,7 @@
           <li xml:lang="ia">Permitte filtrar entratas de lectura</li>
           <li xml:lang="it">Consente di filtrare le voci lette</li>
           <li xml:lang="ka">წაკითხული ჩანაწერების გაფილტვრის დაშვება</li>
+          <li xml:lang="lt">Leidžiama filtruoti skaitytus įrašus</li>
           <li xml:lang="nl">Filteren van gelezen items toestaan</li>
           <li xml:lang="pt-BR">Permitir filtrar entradas de leitura</li>
           <li xml:lang="ru">Возможность фильтрации прочитанных записей</li>
@@ -430,6 +436,7 @@
           <li xml:lang="ia">Corrige perdita de memoria quando il cerca syndicationes</li>
           <li xml:lang="it">Corregge il memory leak durante il recupero delle fonti</li>
           <li xml:lang="ka">გასწორდა მეხსიერების გაჟონვა ლენტების გამოთხოვისას</li>
+          <li xml:lang="lt">Ištaisytas atminties nutekėjimas gaunant kanalus</li>
           <li xml:lang="nl">Los het geheugenlek op bij het ophalen van feeds</li>
           <li xml:lang="pt-BR">Corrigido vazamento de memória ao buscar feeds</li>
           <li xml:lang="ru">Исправлена утечка памяти при получении лент</li>
@@ -457,6 +464,7 @@
         <p xml:lang="ia">Plasma Mobile Gear version 21.06</p>
         <p xml:lang="it">Rilascio di Plasma Mobile Gear 21.06</p>
         <p xml:lang="ka">გამოშვება Plasma Mobile Gear 21.06</p>
+        <p xml:lang="lt">Plasma Mobile Gear 21.06 laida</p>
         <p xml:lang="nl">Plasma Mobile Gear 21.06 uitgave</p>
         <p xml:lang="pt-BR">Lançamento do Plasma Mobile Gear 21.06</p>
         <p xml:lang="ru">Выпуск Plasma Mobile Gear 21.06</p>
@@ -474,6 +482,7 @@
           <li xml:lang="ia">Corrige altessa de imagines redimensionate</li>
           <li xml:lang="it">Corregge l'altezza delle immagini ridimensionate</li>
           <li xml:lang="ka">გასწორდა ზომაშეცვლილი გამოსახულებების სიმაღლე</li>
+          <li xml:lang="lt">Ištaisytas pakeisto dydžio paveikslų aukštis</li>
           <li xml:lang="nl">De hoogte van verkleinde afbeeldingen corrigeren</li>
           <li xml:lang="pt-BR">Corrigida a altura das imagens redimensionadas</li>
           <li xml:lang="ru">Исправлена высота изменённых изображений</li>
