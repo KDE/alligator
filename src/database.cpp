@@ -141,7 +141,12 @@ void Database::cleanup()
     }
 
     if (type == 1) { // Delete after <count> posts per feed
-        // TODO
+        QSqlQuery query;
+        query.prepare(
+            QStringLiteral("DELETE FROM Entries WHERE id NOT IN (SELECT id FROM Entries AS keep_list WHERE keep_list.feed = Entries.feed ORDER BY created DESC "
+                           "LIMIT :limit) AND favorite != 1;"));
+        query.bindValue(QStringLiteral(":limit"), count);
+        execute(query);
     } else {
         QDateTime dateTime = QDateTime::currentDateTime();
         if (type == 2) {
