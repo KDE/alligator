@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-11 00:44+0000\n"
+"POT-Creation-Date: 2026-02-27 00:43+0000\n"
 "PO-Revision-Date: 2026-01-05 15:37+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -93,12 +93,12 @@ msgstr "syötteen verkko-osoite"
 msgid "Add Feed"
 msgstr "Lisää syöte"
 
-#: qml/AddFeedDialog.qml:40
+#: qml/AddFeedDialog.qml:44
 #, kde-format
 msgid "URL:"
 msgstr "Verkko-osoite:"
 
-#: qml/AddFeedDialog.qml:46
+#: qml/AddFeedDialog.qml:50
 #, kde-format
 msgid "Mark entries as read"
 msgstr "Merkitse kohteet luetuiksi"

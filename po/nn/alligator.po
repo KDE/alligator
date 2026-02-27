@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-11 00:44+0000\n"
+"POT-Creation-Date: 2026-02-27 00:43+0000\n"
 "PO-Revision-Date: 2021-02-18 21:44+0100\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
@@ -94,12 +94,12 @@ msgstr ""
 msgid "Add Feed"
 msgstr "Legg til kjelde"
 
-#: qml/AddFeedDialog.qml:40
+#: qml/AddFeedDialog.qml:44
 #, fuzzy, kde-format
 msgid "URL:"
 msgstr "Kjeldelesar"
 
-#: qml/AddFeedDialog.qml:46
+#: qml/AddFeedDialog.qml:50
 #, kde-format
 msgid "Mark entries as read"
 msgstr ""

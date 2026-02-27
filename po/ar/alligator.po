@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-11 00:44+0000\n"
+"POT-Creation-Date: 2026-02-27 00:43+0000\n"
 "PO-Revision-Date: 2025-11-29 21:39+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
@@ -93,12 +93,12 @@ msgstr "مسار التلقيم"
 msgid "Add Feed"
 msgstr "أضف تلقيمًا"
 
-#: qml/AddFeedDialog.qml:40
+#: qml/AddFeedDialog.qml:44
 #, kde-format
 msgid "URL:"
 msgstr "الرابط:"
 
-#: qml/AddFeedDialog.qml:46
+#: qml/AddFeedDialog.qml:50
 #, kde-format
 msgid "Mark entries as read"
 msgstr "علّم المدخلات كمقروءة"

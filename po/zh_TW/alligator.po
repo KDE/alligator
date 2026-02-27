@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-11 00:44+0000\n"
+"POT-Creation-Date: 2026-02-27 00:43+0000\n"
 "PO-Revision-Date: 2026-01-05 03:02+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -95,12 +95,12 @@ msgstr "feed 網址"
 msgid "Add Feed"
 msgstr "新增 feed"
 
-#: qml/AddFeedDialog.qml:40
+#: qml/AddFeedDialog.qml:44
 #, kde-format
 msgid "URL:"
 msgstr "網址："
 
-#: qml/AddFeedDialog.qml:46
+#: qml/AddFeedDialog.qml:50
 #, kde-format
 msgid "Mark entries as read"
 msgstr "標記條目為已讀"
