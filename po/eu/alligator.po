@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-27 00:43+0000\n"
+"POT-Creation-Date: 2026-03-08 00:44+0000\n"
 "PO-Revision-Date: 2025-12-07 11:40+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -30,12 +30,12 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "xalba@ni.eus"
 
-#: database.cpp:80 database.cpp:357
+#: database.cpp:80 database.cpp:362
 #, kde-format
 msgid "Default"
 msgstr "Lehenetsia"
 
-#: database.cpp:81 database.cpp:358
+#: database.cpp:81 database.cpp:363
 #, kde-format
 msgid "Default Feed Group"
 msgstr "Jario-talde lehenetsia"
