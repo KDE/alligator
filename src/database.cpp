@@ -37,7 +37,11 @@ Database::Database()
         qCritical(ALLIGATOR) << "Failed to migrate the database";
     }
 
-    cleanup();
+    connect(&Fetcher::instance(), &Fetcher::feedUpdated, this, [this](const QString &url) {
+        cleanupFeed(url);
+    });
+
+    cleanupAll();
 }
 
 bool Database::migrateTo(const int targetVersion)
@@ -131,7 +135,7 @@ int Database::version()
     return value;
 }
 
-void Database::cleanup()
+void Database::cleanupFeed(const QString &url)
 {
     int count = AlligatorSettings::self()->deleteAfterCount();
     int type = AlligatorSettings::self()->deleteAfterType();
@@ -143,8 +147,9 @@ void Database::cleanup()
     if (type == 1) { // Delete after <count> posts per feed
         QSqlQuery query;
         query.prepare(
-            QStringLiteral("DELETE FROM Entries WHERE id NOT IN (SELECT id FROM Entries AS keep_list WHERE keep_list.feed = Entries.feed ORDER BY created DESC "
-                           "LIMIT :limit) AND favorite != 1;"));
+            QStringLiteral("DELETE FROM Entries WHERE feed = :url AND id NOT IN (SELECT id FROM Entries WHERE feed = :url ORDER BY created DESC LIMIT :limit) "
+                           "AND favorite != 1;"));
+        query.bindValue(QStringLiteral(":url"), url);
         query.bindValue(QStringLiteral(":limit"), count);
         execute(query);
     } else {
@@ -159,9 +164,20 @@ void Database::cleanup()
         qint64 sinceEpoch = dateTime.toSecsSinceEpoch();
 
         QSqlQuery query;
-        query.prepare(QStringLiteral("DELETE FROM Entries WHERE updated < :sinceEpoch AND favorite != 1;"));
+        query.prepare(QStringLiteral("DELETE FROM Entries WHERE feed = :url AND updated < :sinceEpoch AND favorite != 1;"));
         query.bindValue(QStringLiteral(":sinceEpoch"), sinceEpoch);
         execute(query);
+    }
+}
+
+void Database::cleanupAll()
+{
+    QSqlQuery query;
+    query.prepare(QStringLiteral("SELECT url FROM Feeds;"));
+    execute(query);
+    while (query.next()) {
+        cleanupFeed(query.value(0).toString());
+
     }
 }
 

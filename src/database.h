@@ -62,6 +62,7 @@ private:
     bool migrateTo1();
     bool migrateTo2();
     bool migrateTo3();
-    void cleanup();
+    void cleanupFeed(const QString &url);
+    void cleanupAll();
     bool feedExists(const QString &url);
 };
