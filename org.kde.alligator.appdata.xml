@@ -265,6 +265,7 @@
         <p xml:lang="ca-valencia">Actualització de les traduccions</p>
         <p xml:lang="cs">Aktualizace překladů</p>
         <p xml:lang="es">Actualización de las traducciones</p>
+        <p xml:lang="fi">käännösten päivitys</p>
         <p xml:lang="fr">Mise à jour des traductions</p>
         <p xml:lang="he">תרגומים עדכניים</p>
         <p xml:lang="ia">Actualisation de traductiones</p>
@@ -296,6 +297,7 @@
           <li xml:lang="ca-valencia">Implementació de la construcció basada en les Qt6</li>
           <li xml:lang="cs">Podpora sestavení založeného na Qt6</li>
           <li xml:lang="es">Compatibilidad con la compilación basada en Qt6</li>
+          <li xml:lang="fi">tuki Qt6-pohjaiselle koosteelle</li>
           <li xml:lang="fr">Prise en charge des compilations reposant sur Qt6</li>
           <li xml:lang="he">תמיכה במהדורה מבוססת Qt6</li>
           <li xml:lang="ia">Supporto per construction  (build) basate sur Qt6</li>
@@ -322,6 +324,7 @@
           <li xml:lang="ca-valencia">Actualitzacions generals de reestructuració de codi i traduccions</li>
           <li xml:lang="cs">Obecná refaktorizace kódu a aktualizace překladů</li>
           <li xml:lang="es">Refactorización general del código y actualización de las traducciones</li>
+          <li xml:lang="fi">yleistä koodin uudistusta ja käännösten päivityksiä</li>
           <li xml:lang="fr">Ré-agencement général du code et mises à jour des traductions</li>
           <li xml:lang="he">שכתוב קוד כללי ועדכוני תרגומים</li>
           <li xml:lang="ia">Re-factorisation de codice general e actualistiones de traductiones</li>
@@ -348,6 +351,7 @@
           <li xml:lang="ca-valencia">Ajusta el títol de les entrades</li>
           <li xml:lang="cs">Sbalení názvu položky</li>
           <li xml:lang="es">Ajustar el título de la entrada.</li>
+          <li xml:lang="fi">rivitetään tietueen otsikko</li>
           <li xml:lang="fr">Faire revenir  le titre de l'entrée à la ligne</li>
           <li xml:lang="he">כותרת רשומה גולשת</li>
           <li xml:lang="ia">Inveloppa tutilo de entrata</li>
@@ -367,6 +371,7 @@
           <li xml:lang="ca-valencia">Actualitza totes les fonts en iniciar i no cal l'actualització manual</li>
           <li xml:lang="cs">Při spuštění se obnoví všechny kanály a nevyžadují ruční obnovení</li>
           <li xml:lang="es">Actualizar todas las fuentes durante el inicio y no solicitar actualización manual.</li>
+          <li xml:lang="fi">virkistetään kaikki syötteet käynnistettäessä ilman että käyttäjän tarvitsee tehdä sitä</li>
           <li xml:lang="fr">Actualiser tous les flux au démarrage et ne pas avoir besoin d'un rafraîchissement manuel</li>
           <li xml:lang="he">כל הערוצים מתרעננים עם ההפעלה, ולא דורשים ריענון ידני</li>
           <li xml:lang="ia">Refresca omne syndicationes al startar, e non require refrescamento manual</li>
@@ -386,6 +391,7 @@
           <li xml:lang="ca-valencia">Afig una pàgina per a veure totes les entrades en una llista</li>
           <li xml:lang="cs">Přidána stránka pro zobrazení všech záznamů v jednom seznamu</li>
           <li xml:lang="es">Se ha añadido una página para ver todas las entradas en una lista.</li>
+          <li xml:lang="fi">lisätty sivu, jossa kaikki tietueet näkee yhtenä luettelona</li>
           <li xml:lang="fr">Ajout d'une page pour l'affichage de toutes les entrées dans une seule liste</li>
           <li xml:lang="he">נוסף עמוד להצגת כל הרשומות ברשימה אחת</li>
           <li xml:lang="ia">Adde pagina per vider tote entratas in un lista</li>
@@ -405,6 +411,7 @@
           <li xml:lang="ca-valencia">Correcció de fallada en actualitzar</li>
           <li xml:lang="cs">Oprava pádu při obnovování</li>
           <li xml:lang="es">Se ha corregido un fallo durante la actualización.</li>
+          <li xml:lang="fi">korjattu kaatuminen virkistettäessä</li>
           <li xml:lang="fr">Correction du plantage lors du rafraîchissement</li>
           <li xml:lang="he">תוקנה קריסה בעת ריענון</li>
           <li xml:lang="ia">Corrige fracasso quando il refresca</li>
@@ -424,6 +431,7 @@
           <li xml:lang="ca-valencia">Permet filtrar les entrades llegides</li>
           <li xml:lang="cs">Povoleno filtrování přečtených položek</li>
           <li xml:lang="es">Permitir filtrar las entradas leídas.</li>
+          <li xml:lang="fi">sallitaan luettujen tietueiden suodatus</li>
           <li xml:lang="fr">Permettre le filtrage des entrées lues</li>
           <li xml:lang="he">נוספה אפשרות לניפוי רשומות שנקראו</li>
           <li xml:lang="ia">Permitte filtrar entratas de lectura</li>
@@ -450,6 +458,7 @@
           <li xml:lang="ca-valencia">Corregix una fuita de memòria en recuperar les fonts</li>
           <li xml:lang="cs">Oprava úniku paměti při načítání kanálů</li>
           <li xml:lang="es">Se ha corregido una fuga de memoria al obtener las emisiones.</li>
+          <li xml:lang="fi">korjattu muistivuoto syötteitä noudettaessa</li>
           <li xml:lang="fr">Correction de la fuite de mémoire lors de la récupération de flux</li>
           <li xml:lang="he">תוקנה זליגת זיכרון במשיכת ערוצים</li>
           <li xml:lang="ia">Corrige perdita de memoria quando il cerca syndicationes</li>
@@ -480,6 +489,7 @@
         <p xml:lang="ca-valencia">Llançament de Plasma Mobile Gear 21.06</p>
         <p xml:lang="cs">Vydání Plasma Mobile Gear 21.06</p>
         <p xml:lang="es">Versión para Plasma Mobile Gear 21.06</p>
+        <p xml:lang="fi">Plasma Mobile Gear 21.06:n julkaisu</p>
         <p xml:lang="fr">Publication de Plasma Mobile Gear 21.06</p>
         <p xml:lang="he">מהדורת 21.06 של Plasma Mobile Gear</p>
         <p xml:lang="ia">Plasma Mobile Gear version 21.06</p>
@@ -500,6 +510,7 @@
           <li xml:lang="ca-valencia">Corregix l'alçària de les imatges redimensionades</li>
           <li xml:lang="cs">Opravena výška změněných obrázků</li>
           <li xml:lang="es">Se ha corregido la altura de las imágenes cuyo tamaño se ha cambiado</li>
+          <li xml:lang="fi">korjattu korkeus kuvilta, joiden koko on muutettu</li>
           <li xml:lang="fr">Correction de la hauteur des images redimensionnées</li>
           <li xml:lang="he">תוקן הגובה של תמונות שגודלן השתנה</li>
           <li xml:lang="ia">Corrige altessa de imagines redimensionate</li>
