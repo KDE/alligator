@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-08 00:44+0000\n"
+"POT-Creation-Date: 2026-04-08 00:45+0000\n"
 "PO-Revision-Date: 2021-02-18 21:44+0100\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
@@ -29,12 +29,12 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "karl@huftis.org"
 
-#: database.cpp:80 database.cpp:362
+#: database.cpp:84 database.cpp:378
 #, kde-format
 msgid "Default"
 msgstr ""
 
-#: database.cpp:81 database.cpp:363
+#: database.cpp:85 database.cpp:379
 #, kde-format
 msgid "Default Feed Group"
 msgstr ""

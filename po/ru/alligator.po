@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-08 00:44+0000\n"
+"POT-Creation-Date: 2026-04-08 00:45+0000\n"
 "PO-Revision-Date: 2026-02-13 21:37+0200\n"
 "Last-Translator: Alexander Yavorskiy <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -31,12 +31,12 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "translation-team@basealt.ru"
 
-#: database.cpp:80 database.cpp:362
+#: database.cpp:84 database.cpp:378
 #, kde-format
 msgid "Default"
 msgstr "По умолчанию"
 
-#: database.cpp:81 database.cpp:363
+#: database.cpp:85 database.cpp:379
 #, kde-format
 msgid "Default Feed Group"
 msgstr "Группа лент по умолчанию"
