@@ -13,8 +13,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 21.12.3\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Lokalize 21.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -62,10 +62,9 @@ msgid "Feed Reader"
 msgstr "Čítačka kanálov"
 
 #: main.cpp:82
-#, fuzzy, kde-format
-#| msgid "© 2020-2023 KDE Community"
+#, kde-format
 msgid "© 2020-2024 KDE Community"
-msgstr "© 2020-2023 KDE komunita"
+msgstr "© 2020-2024 KDE komunita"
 
 #: main.cpp:83
 #, kde-format
@@ -93,10 +92,9 @@ msgid "Add Feed"
 msgstr "Pridať kanál"
 
 #: qml/AddFeedDialog.qml:44
-#, fuzzy, kde-format
-#| msgid "feed URL"
+#, kde-format
 msgid "URL:"
-msgstr "URL kanálu"
+msgstr "URL:"
 
 #: qml/AddFeedDialog.qml:50
 #, kde-format
@@ -129,8 +127,7 @@ msgid "Edit Feed"
 msgstr "Upraviť kanál"
 
 #: qml/EditFeedDialog.qml:33
-#, fuzzy, kde-format
-#| msgid "feed URL"
+#, kde-format
 msgid "Feed URL:"
 msgstr "URL kanálu"
 
@@ -156,8 +153,7 @@ msgid "Refresh"
 msgstr "Obnoviť"
 
 #: qml/EntryListPage.qml:51
-#, fuzzy, kde-format
-#| msgid "Mark entries as read"
+#, kde-format
 msgctxt "@action:button"
 msgid "Mark all read"
 msgstr "Označiť položky ako prečítané"
@@ -198,10 +194,9 @@ msgid "No unread entries available"
 msgstr "Nie sú k dispozícii žiadne neprečítané položky"
 
 #: qml/EntryListPage.qml:127
-#, fuzzy, kde-format
-#| msgid "No unread entries available"
+#, kde-format
 msgid "No favorite entries available"
-msgstr "Nie sú k dispozícii žiadne neprečítané položky"
+msgstr "Nie sú dostupné žiadne obľúbené položky"
 
 #: qml/EntryListPage.qml:129
 #, kde-format
@@ -221,7 +216,7 @@ msgstr "Neprečítané"
 #: qml/EntryListPage.qml:181
 #, kde-format
 msgid "Favorites"
-msgstr ""
+msgstr "Obľúbené"
 
 #: qml/EntryPage.qml:69
 #, kde-format
@@ -232,19 +227,19 @@ msgstr "Otvoriť v prehliadači"
 #, kde-format
 msgctxt "@action:button"
 msgid "Remove from Favorites"
-msgstr ""
+msgstr "Odstrániť z obľúbených"
 
 #: qml/EntryPage.qml:74
 #, kde-format
 msgctxt "@action:button"
 msgid "Add to Favorites"
-msgstr ""
+msgstr "Pridať do obľúbených"
 
 #: qml/EntryPage.qml:82
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Link"
-msgstr ""
+msgstr "Kopírovať odkaz"
 
 #: qml/FeedDetailsPage.qml:20
 #, kde-format
@@ -255,7 +250,7 @@ msgstr "%1 - Podrobnosti"
 #: qml/FeedDetailsPage.qml:25
 #, kde-format
 msgid "Close"
-msgstr ""
+msgstr "Zavrieť"
 
 #: qml/FeedDetailsPage.qml:46
 #, kde-format
@@ -284,8 +279,7 @@ msgid "Feed Group"
 msgstr "Skupina kanálov"
 
 #: qml/FeedGroupDialog.qml:50
-#, fuzzy, kde-format
-#| msgid "Name:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Name:"
 msgstr "Názov:"
@@ -293,18 +287,16 @@ msgstr "Názov:"
 #: qml/FeedGroupDialog.qml:55
 #, kde-format
 msgid "A group with that name already exists."
-msgstr ""
+msgstr "Skupina s týmto názvom už existuje."
 
 #: qml/FeedGroupDialog.qml:64
-#, fuzzy, kde-format
-#| msgid "Description:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Description:"
 msgstr "Popis:"
 
 #: qml/FeedGroupDialog.qml:70
-#, fuzzy, kde-format
-#| msgid "Set as Default"
+#, kde-format
 msgctxt "@option:check"
 msgid "Set as default:"
 msgstr "Nastaviť ako predvolené"
@@ -401,36 +393,31 @@ msgid "Groups"
 msgstr "Skupiny"
 
 #: qml/GroupsListPage.qml:24
-#, fuzzy, kde-format
-#| msgid "Add Group…"
+#, kde-format
 msgctxt "@action:intoolbar"
 msgid "Add Group…"
 msgstr "Pridať skupinu…"
 
 #: qml/GroupsListPage.qml:54
-#, fuzzy, kde-format
-#| msgid "Set as Default"
+#, kde-format
 msgctxt "@action:button"
 msgid "Set as Default"
 msgstr "Nastaviť ako predvolené"
 
 #: qml/GroupsListPage.qml:67
-#, fuzzy, kde-format
-#| msgid "Remove"
+#, kde-format
 msgctxt "@action:button"
 msgid "Remove"
 msgstr "Odstrániť"
 
 #: qml/GroupsListPage.qml:83
-#, fuzzy, kde-format
-#| msgid "No groups created yet"
+#, kde-format
 msgctxt "@info:placeholder"
 msgid "No groups created yet"
 msgstr "Zatiaľ neboli vytvorené žiadne skupiny"
 
 #: qml/GroupsListPage.qml:88
-#, fuzzy, kde-format
-#| msgid "Add Group…"
+#, kde-format
 msgctxt "@action:button"
 msgid "Add Group…"
 msgstr "Pridať skupinu…"
@@ -516,7 +503,6 @@ msgstr "Použiť systémovú predvolenú hodnotu"
 #~ msgstr "OK"
 
 #, fuzzy
-#~| msgid "All Entries"
 #~ msgid "Show all entries"
 #~ msgstr "Zobraziť položky"
 
@@ -528,7 +514,6 @@ msgstr "Použiť systémovú predvolenú hodnotu"
 #~ msgstr "Pridať kanál"
 
 #, fuzzy
-#~| msgid "Add feed"
 #~ msgid "Add new Feed"
 #~ msgstr "Pridať kanál"
 
