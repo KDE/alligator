@@ -73,6 +73,7 @@
   <summary xml:lang="ro">Cititor de fluxuri RSS</summary>
   <summary xml:lang="ru">Программа чтения лент новостей в формате RSS</summary>
   <summary xml:lang="sa">आरएसएस फीड रीडर</summary>
+  <summary xml:lang="sk">Čítačka RSS kanálov</summary>
   <summary xml:lang="sl">bralnik virov RSS</summary>
   <summary xml:lang="sv">RSS-kanalläsare</summary>
   <summary xml:lang="tr">RSS Beslemesi Okuyucusu</summary>
@@ -117,6 +118,7 @@
     <p xml:lang="ro">Alligator e un cititor de fluxuri convergent, multiplatformă, ce susține fluxurile RSS/Atom</p>
     <p xml:lang="ru">Alligator — кроссплатформенная программа для чтения лент новостей, предусматривающая поддержку стандартных лент новостей RSS/Atom</p>
     <p xml:lang="sa">एलिगेटर् एकः अभिसरणीयः, पार-मञ्च-फीड्-रीडरः अस्ति, यः मानक-आरएसएस/एटम्-फीड्-समर्थनं करोति</p>
+    <p xml:lang="sk">Alligator je konvergentná, multiplatformová čítačka kanálov, podporujúca štandardné RSS/Atom kanály</p>
     <p xml:lang="sl">Alligator je konvergenten bralnik virov za več platform, ki podpira standardne vire RSS/Atom</p>
     <p xml:lang="sv">Alligator är en konvergent, plattformsoberoende kanalläsare som stöder RSS/Atom-standardkanaler</p>
     <p xml:lang="tr">Aligatör, standart RSS/Atom beslemelerini destekleyen; yakınsak, çapraz platform bir besleme okuyucusudur.</p>
@@ -276,6 +278,7 @@
         <p xml:lang="nl">Bijgewerkte vertalingen</p>
         <p xml:lang="pt-BR">Atualização de tradução</p>
         <p xml:lang="ru">Обновление переводов</p>
+        <p xml:lang="sk">Aktualizácia prekladov</p>
         <p xml:lang="sl">Posodobitev prevodov</p>
         <p xml:lang="tr">Çeviri güncellemeleri</p>
         <p xml:lang="uk">Оновлення перекладів</p>
@@ -308,6 +311,7 @@
           <li xml:lang="nl">Ondersteuning voor op Qt6 gebouwd</li>
           <li xml:lang="pt-BR">Suporte para compilação baseada em Qt6</li>
           <li xml:lang="ru">Поддержка сборки на основе Qt6</li>
+          <li xml:lang="sk">Podpora zostavenia na báze Qt6</li>
           <li xml:lang="sl">Podpora za gradnjo na osnovi Qt6</li>
           <li xml:lang="tr">Qt6 tabanlı yapı desteği</li>
           <li xml:lang="uk">Підтримка збирання на основі Qt6</li>
@@ -335,6 +339,7 @@
           <li xml:lang="nl">Algemene herziening van de code en bijgewerkte vertalingen</li>
           <li xml:lang="pt-BR">Atualizações gerais de refatoração de código e traduções</li>
           <li xml:lang="ru">Общий рефакторинг кода и обновления переводов</li>
+          <li xml:lang="sk">Všeobecný refaktoring kódu a aktualizácia prekladov</li>
           <li xml:lang="sl">Splošne posodobitve preoblikovanja kode in prevodov</li>
           <li xml:lang="tr">Kod düzenlemesi ve çeviri güncellemeleri</li>
           <li xml:lang="uk">Загальне переформатування програмного коду та оновлення перекладів</li>
@@ -362,6 +367,7 @@
           <li xml:lang="nl">Gehele titel laten omlopen</li>
           <li xml:lang="pt-BR">Quebra do título da entrada</li>
           <li xml:lang="ru">Перенос заголовков записей</li>
+          <li xml:lang="sk">Zalamovanie nadpisu záznamu</li>
           <li xml:lang="sl">Prelom vnosa naslova</li>
           <li xml:lang="tr">Girdi başlığını kaydır</li>
           <li xml:lang="uk">Перенесення заголовка запису</li>
@@ -382,6 +388,7 @@
           <li xml:lang="nl">Alle feeds bij opstarten vernieuwen en vereist geen handmatige vernieuwing</li>
           <li xml:lang="pt-BR">Atualizar todos os feeds na inicialização e não requerer atualização manual</li>
           <li xml:lang="ru">Обновление всех каналов при запуске, не требуя ручного обновления</li>
+          <li xml:lang="sk">Obnoviť všetky kanály pri spustení, bez potreby manuálneho obnovenia</li>
           <li xml:lang="sl">Osveži vse vire ob zagonu in ne zahteva ročnega osveževanja</li>
           <li xml:lang="tr">Tüm beslemeleri başlangıçta yenile ve elle yenilemeye gereksinim duyma</li>
           <li xml:lang="uk">Оновлення усіх подач під час запуску, без потреби у оновленні вручну</li>
@@ -402,6 +409,7 @@
           <li xml:lang="nl">Pagina toegevoegd om alle items in één lijst te bekijken</li>
           <li xml:lang="pt-BR">Adicionar página para visualizar todas as entradas em uma única lista</li>
           <li xml:lang="ru">Добавлена страница для просмотра всех записей в одном списке</li>
+          <li xml:lang="sk">Pridať stránku na zobrazenie všetkých záznamov v jednom zozname</li>
           <li xml:lang="sl">Doda stran za ogled vseh vnosov na enem seznamu</li>
           <li xml:lang="tr">Tüm girdileri tek bir sayfada görüntüleme sayfası</li>
           <li xml:lang="uk">Додано сторінку перегляду усіх записів в одному списку</li>
@@ -422,6 +430,7 @@
           <li xml:lang="nl">Crash bij vernieuwen opgelost</li>
           <li xml:lang="pt-BR">Corrigido o problema que causava o fechamento inesperado do aplicativo ao atualizar</li>
           <li xml:lang="ru">Исправлен сбой при обновлении</li>
+          <li xml:lang="sk">Opravenie pádu pri obnovení</li>
           <li xml:lang="sl">Odpravi sesutje ob osvežitvi</li>
           <li xml:lang="tr">Yenileme sırasındaki çökmeyi onar</li>
           <li xml:lang="uk">Усунено аварійне завершення роботи при оновленні даних</li>
@@ -442,6 +451,7 @@
           <li xml:lang="nl">Filteren van gelezen items toestaan</li>
           <li xml:lang="pt-BR">Permitir filtrar entradas de leitura</li>
           <li xml:lang="ru">Возможность фильтрации прочитанных записей</li>
+          <li xml:lang="sk">Možnosť filtrovania prečítaných záznamov</li>
           <li xml:lang="sl">Dovoli filtriranje prebranih vnosov</li>
           <li xml:lang="tr">Okunmuş girdileri süzmeye olanak tanı</li>
           <li xml:lang="uk">Уможливлено фільтрування прочитаних записів</li>
@@ -469,6 +479,7 @@
           <li xml:lang="nl">Los het geheugenlek op bij het ophalen van feeds</li>
           <li xml:lang="pt-BR">Corrigido vazamento de memória ao buscar feeds</li>
           <li xml:lang="ru">Исправлена утечка памяти при получении лент</li>
+          <li xml:lang="sk">Opravenie úniku pamäte pri načítavaní kanálov</li>
           <li xml:lang="sl">Popravi puščanje pomnilnika pri pridobivanju virov</li>
           <li xml:lang="tr">Beslemeleri getirirken oluşan bellek sızıntısını önle</li>
           <li xml:lang="uk">Виправлено виток пам'яті при отриманні подач</li>
@@ -500,6 +511,7 @@
         <p xml:lang="nl">Plasma Mobile Gear 21.06 uitgave</p>
         <p xml:lang="pt-BR">Lançamento do Plasma Mobile Gear 21.06</p>
         <p xml:lang="ru">Выпуск Plasma Mobile Gear 21.06</p>
+        <p xml:lang="sk">Plasma Mobile Gear 21.06 release</p>
         <p xml:lang="sl">Izdaja Plasma Mobile Gear 21.06</p>
         <p xml:lang="tr">Plasma Cep Gear 21.06 yayımı</p>
         <p xml:lang="uk">Випуск Plasma Mobile Gear 21.06</p>
@@ -521,6 +533,7 @@
           <li xml:lang="nl">De hoogte van verkleinde afbeeldingen corrigeren</li>
           <li xml:lang="pt-BR">Corrigida a altura das imagens redimensionadas</li>
           <li xml:lang="ru">Исправлена высота изменённых изображений</li>
+          <li xml:lang="sk">Opravenie výšky zmenenej veľkosti obrázkov</li>
           <li xml:lang="sl">Popravi višino slik spremenjenih belikosti</li>
           <li xml:lang="tr">Yeniden boyutlandırılmış görsellerin yüksekliğini düzelt</li>
           <li xml:lang="uk">Виправлено висоту зображень зі зміненими розмірами</li>
