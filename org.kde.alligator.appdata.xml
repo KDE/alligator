@@ -282,6 +282,7 @@
         <p xml:lang="sl">Posodobitev prevodov</p>
         <p xml:lang="tr">Çeviri güncellemeleri</p>
         <p xml:lang="uk">Оновлення перекладів</p>
+        <p xml:lang="zh-CN">译文更新</p>
         <p xml:lang="zh-TW">翻譯更新</p>
       </description>
     </release>
@@ -315,6 +316,7 @@
           <li xml:lang="sl">Podpora za gradnjo na osnovi Qt6</li>
           <li xml:lang="tr">Qt6 tabanlı yapı desteği</li>
           <li xml:lang="uk">Підтримка збирання на основі Qt6</li>
+          <li xml:lang="zh-CN">基于 Qt6 的版本的支持</li>
           <li xml:lang="zh-TW">支援 Qt6 編譯</li>
         </ul>
       </description>
@@ -343,6 +345,7 @@
           <li xml:lang="sl">Splošne posodobitve preoblikovanja kode in prevodov</li>
           <li xml:lang="tr">Kod düzenlemesi ve çeviri güncellemeleri</li>
           <li xml:lang="uk">Загальне переформатування програмного коду та оновлення перекладів</li>
+          <li xml:lang="zh-CN">常规代码重构和翻译更新</li>
           <li xml:lang="zh-TW">一些程式碼重構與翻譯更新</li>
         </ul>
       </description>
@@ -371,6 +374,7 @@
           <li xml:lang="sl">Prelom vnosa naslova</li>
           <li xml:lang="tr">Girdi başlığını kaydır</li>
           <li xml:lang="uk">Перенесення заголовка запису</li>
+          <li xml:lang="zh-CN">标题自动换行</li>
           <li xml:lang="zh-TW">讓項目標題自動換行</li>
           <li>Refresh all feeds on startup, and do not require manual refresh</li>
           <li xml:lang="ar">تُحدث كل التغذيات آليًا عند بدء التشغيل، ولا تتطلب تحديثًا يدويًا</li>
@@ -392,6 +396,7 @@
           <li xml:lang="sl">Osveži vse vire ob zagonu in ne zahteva ročnega osveževanja</li>
           <li xml:lang="tr">Tüm beslemeleri başlangıçta yenile ve elle yenilemeye gereksinim duyma</li>
           <li xml:lang="uk">Оновлення усіх подач під час запуску, без потреби у оновленні вручну</li>
+          <li xml:lang="zh-CN">启动时刷新所有订阅，不需要手动刷新</li>
           <li xml:lang="zh-TW">啟動時重新整理所有 feed，不再要求手動重新整理</li>
           <li>Add page to view all entries in one list</li>
           <li xml:lang="ar">أُضيفت صفحة لعرض كل الإدخالات في قائمة واحدة</li>
@@ -413,6 +418,7 @@
           <li xml:lang="sl">Doda stran za ogled vseh vnosov na enem seznamu</li>
           <li xml:lang="tr">Tüm girdileri tek bir sayfada görüntüleme sayfası</li>
           <li xml:lang="uk">Додано сторінку перегляду усіх записів в одному списку</li>
+          <li xml:lang="zh-CN">添加页面以查看一个列表中的所有条目</li>
           <li xml:lang="zh-TW">新增以統一清單檢視所有項目的頁面</li>
           <li>Fix crash on refreshing</li>
           <li xml:lang="ar">أُصلح الانهيار عند التحديث</li>
@@ -434,6 +440,7 @@
           <li xml:lang="sl">Odpravi sesutje ob osvežitvi</li>
           <li xml:lang="tr">Yenileme sırasındaki çökmeyi onar</li>
           <li xml:lang="uk">Усунено аварійне завершення роботи при оновленні даних</li>
+          <li xml:lang="zh-CN">修复刷新时崩溃的问题</li>
           <li xml:lang="zh-TW">修正重新整理時可能會發生的崩潰</li>
           <li>Allow to filter read entries</li>
           <li xml:lang="ar">السماح بمرشح للإدخالات المقروءة</li>
@@ -455,6 +462,7 @@
           <li xml:lang="sl">Dovoli filtriranje prebranih vnosov</li>
           <li xml:lang="tr">Okunmuş girdileri süzmeye olanak tanı</li>
           <li xml:lang="uk">Уможливлено фільтрування прочитаних записів</li>
+          <li xml:lang="zh-CN">现可过滤掉已读条目</li>
           <li xml:lang="zh-TW">允許過濾已讀項目</li>
         </ul>
       </description>
@@ -483,6 +491,7 @@
           <li xml:lang="sl">Popravi puščanje pomnilnika pri pridobivanju virov</li>
           <li xml:lang="tr">Beslemeleri getirirken oluşan bellek sızıntısını önle</li>
           <li xml:lang="uk">Виправлено виток пам'яті при отриманні подач</li>
+          <li xml:lang="zh-CN">修复获取订阅时内存泄漏的问题</li>
           <li xml:lang="zh-TW">修正抓取 feed 時的記憶體滴漏</li>
         </ul>
       </description>
@@ -515,6 +524,7 @@
         <p xml:lang="sl">Izdaja Plasma Mobile Gear 21.06</p>
         <p xml:lang="tr">Plasma Cep Gear 21.06 yayımı</p>
         <p xml:lang="uk">Випуск Plasma Mobile Gear 21.06</p>
+        <p xml:lang="zh-CN">Plasma Mobile Gear 21.06</p>
         <p xml:lang="zh-TW">Plasma 行動 Gear 21.06 釋出</p>
         <ul>
           <li>Fix height of resized images</li>
@@ -537,6 +547,7 @@
           <li xml:lang="sl">Popravi višino slik spremenjenih belikosti</li>
           <li xml:lang="tr">Yeniden boyutlandırılmış görsellerin yüksekliğini düzelt</li>
           <li xml:lang="uk">Виправлено висоту зображень зі зміненими розмірами</li>
+          <li xml:lang="zh-CN">修复缩放图像的高度问题</li>
           <li xml:lang="zh-TW">修正調整大小後影像的高度</li>
         </ul>
       </description>
