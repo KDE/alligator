@@ -34,7 +34,7 @@ include(KDECompilerSettings NO_POLICY_SCOPE)
 include(ECMQmlModule)
 include(ECMQtDeclareLoggingCategory)
 
-ecm_set_disabled_deprecation_versions(Qt 6.5.0 KF 6.12.0)
+ecm_set_disabled_deprecation_versions(Qt 6.11.0 KF 6.26.0)
 
 ecm_setup_version(${PROJECT_VERSION}
     VARIABLE_PREFIX ALLIGATOR
