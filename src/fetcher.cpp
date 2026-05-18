@@ -63,6 +63,17 @@ void Fetcher::fetchAll()
     }
 }
 
+void Fetcher::fetchGroup(const QString &groupName)
+{
+    QSqlQuery query;
+    query.prepare(QStringLiteral("SELECT url FROM Feeds WHERE groupName=:groupName"));
+    query.bindValue(QStringLiteral(":groupName"), groupName);
+    Database::instance().execute(query);
+    while (query.next()) {
+        fetch(query.value(0).toString());
+    }
+}
+
 void Fetcher::setFetchCount(int count)
 {
     m_fetchCount = count;

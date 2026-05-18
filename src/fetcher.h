@@ -34,6 +34,7 @@ public:
     }
     Q_INVOKABLE void fetch(const QString &url, const bool markEntriesRead = false);
     Q_INVOKABLE void fetchAll();
+    Q_INVOKABLE void fetchGroup(const QString &groupName);
     Q_INVOKABLE QString image(const QString &url);
     void removeImage(const QString &url);
     Q_INVOKABLE void download(const QString &url);

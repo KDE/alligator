@@ -101,16 +101,40 @@ QHash<int, QByteArray> EntriesModel::roleNames() const
     };
 }
 
+QStringList EntriesModel::getFeeds() const
+{
+    QStringList feedList;
+    if (m_feedUrl.length() > 0) {
+        feedList += m_feedUrl;
+        return feedList;
+    }
+
+    QSqlQuery feedQuery;
+    if (m_groupName.length() > 0) {
+        feedQuery.prepare(QStringLiteral("SELECT url FROM Feeds WHERE groupName=:groupName;"));
+        feedQuery.bindValue(QStringLiteral(":groupName"), m_groupName);
+    } else {
+        feedQuery.prepare(QStringLiteral("SELECT url FROM Feeds;"));
+    }
+    Database::instance().execute(feedQuery);
+    while (feedQuery.next()) {
+        feedList += feedQuery.value(QStringLiteral("url")).toString();
+    }
+
+    return feedList;
+}
+
 int EntriesModel::rowCount(const QModelIndex &parent) const
 {
     Q_UNUSED(parent)
     QSqlQuery query;
-    if (m_feedUrl.length() > 0) {
-        query.prepare(QStringLiteral("SELECT COUNT() FROM Entries WHERE feed=:feed;"));
-        query.bindValue(QStringLiteral(":feed"), m_feedUrl);
-    } else {
-        query.prepare(QStringLiteral("SELECT COUNT() FROM Entries;"));
+    QStringList feedList = getFeeds();
+    QStringList questionmarks(feedList.size(), QStringLiteral("?"));
+    query.prepare(QStringLiteral("SELECT COUNT() FROM Entries WHERE feed IN (%1);").arg(questionmarks.join(QStringLiteral(","))));
+    for (QString feed : feedList) {
+        query.addBindValue(feed);
     }
+
     Database::instance().execute(query);
     if (!query.next()) {
         qCWarning(ALLIGATOR) << "Failed to query feed count";
@@ -123,19 +147,21 @@ void EntriesModel::loadEntries()
     QSqlQuery entryQuery;
     beginResetModel();
     m_entries.clear();
-    if (m_feedUrl.length() > 0) {
-        entryQuery.prepare(QStringLiteral("SELECT * FROM Entries WHERE feed=:feed ORDER BY updated DESC"));
-        entryQuery.bindValue(QStringLiteral(":feed"), m_feedUrl);
-    } else {
-        entryQuery.prepare(QStringLiteral("SELECT * FROM Entries ORDER BY updated DESC"));
-    }
-    Database::instance().execute(entryQuery);
 
+    QStringList feedList = getFeeds();
+    QStringList questionmarks(feedList.size(), QStringLiteral("?"));
+
+    entryQuery.prepare(QStringLiteral("SELECT * FROM Entries WHERE feed IN (%1) ORDER BY updated DESC;").arg(questionmarks.join(QStringLiteral(","))));
+    for (QString feed : feedList) {
+        entryQuery.addBindValue(feed);
+    }
+
+    Database::instance().execute(entryQuery);
     while (entryQuery.next()) {
         Entry entry;
         QSqlQuery authorQuery;
         QStringList authorList;
-        authorQuery.prepare(QStringLiteral("SELECT * FROM Authors WHERE id=:id"));
+        authorQuery.prepare(QStringLiteral("SELECT * FROM Authors WHERE id=:id;"));
         authorQuery.bindValue(QStringLiteral(":id"), entryQuery.value(QStringLiteral("id")).toString());
         Database::instance().execute(authorQuery);
 
@@ -182,5 +208,20 @@ void EntriesModel::setFeedUrl(const QString &feedUrl)
     }
     m_feedUrl = feedUrl;
     Q_EMIT feedUrlChanged();
+    loadEntries();
+}
+
+QString EntriesModel::groupName() const
+{
+    return m_groupName;
+}
+
+void EntriesModel::setGroupName(const QString &groupName)
+{
+    if (groupName == m_groupName) {
+        return;
+    }
+    m_groupName = groupName;
+    Q_EMIT groupNameChanged();
     loadEntries();
 }

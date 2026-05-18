@@ -116,6 +116,19 @@ Kirigami.GlobalDrawer {
                     label: section
                     opacity: AlligatorSettings.sidebarCollapsed ? 0 : 1
                     width: parent.width
+		    checkable: true
+                    onClicked: {
+                      	pageStack.layers.clear();
+			pageStack.clear();
+                   	pageStack.push(Qt.resolvedUrl("EntryListPage.qml"), {
+			    feed: null,
+                            groupName: section
+			});
+		     	checked = true;
+              		if (root.modal) {
+                       	    root.close();
+                       	}
+		    }
 
                     Behavior on opacity {
                         NumberAnimation {

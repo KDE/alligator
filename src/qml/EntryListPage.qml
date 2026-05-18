@@ -16,6 +16,7 @@ Kirigami.ScrollablePage {
     id: page
 
     property Feed feed
+    property string groupName
     property bool onlyUnread: false
     property bool onlyFavorite: false
 
@@ -23,11 +24,13 @@ Kirigami.ScrollablePage {
 
     onRefreshingChanged: {
         if (refreshing) {
-            if (feed === null) {
+	    if (groupName !== null) {
+		Fetcher.fetchGroup(groupName);
+	    } else if (feed === null) {
                 Fetcher.fetchAll();
-            } else {
+	    } else {
                 feed.refresh();
-            }
+	    }
         }
     }
 
@@ -94,7 +97,7 @@ Kirigami.ScrollablePage {
         Kirigami.Heading {
             id: heading
             Layout.fillWidth: true
-            text: page.feed === null ? i18n("All Entries") : page.feed.displayName || page.feed.name
+            text: (page.feed === null) & (page.groupName == "") ? i18n("All Entries") : page.groupName || page.feed.displayName || page.feed.name
             maximumLineCount: 1
             elide: Text.ElideRight
             textFormat: Text.PlainText
@@ -154,6 +157,7 @@ Kirigami.ScrollablePage {
     EntriesModel {
         id: entriesModel
         feedUrl: page.feed ? page.feed.url : ""
+	groupName: page.groupName ? page.groupName : ""
     }
 
     footer: Kirigami.NavigationTabBar {

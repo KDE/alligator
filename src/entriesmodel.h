@@ -32,6 +32,7 @@ class EntriesModel : public QAbstractListModel
     QML_ELEMENT
 
     Q_PROPERTY(QString feedUrl READ feedUrl WRITE setFeedUrl NOTIFY feedUrlChanged)
+    Q_PROPERTY(QString groupName READ groupName WRITE setGroupName NOTIFY groupNameChanged)
 
 public:
     enum Roles {
@@ -55,12 +56,16 @@ public:
 
     QString feedUrl() const;
     void setFeedUrl(const QString &feedUrl);
-
+    QString groupName() const;
+    void setGroupName(const QString &groupName);
+    QStringList getFeeds() const;
 Q_SIGNALS:
     void feedUrlChanged();
+    void groupNameChanged();
 
 private:
     void loadEntries();
     QString m_feedUrl;
+    QString m_groupName;
     QList<Entry> m_entries;
 };
