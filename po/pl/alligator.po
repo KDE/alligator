@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-08 00:45+0000\n"
+"POT-Creation-Date: 2026-05-19 00:44+0000\n"
 "PO-Revision-Date: 2025-08-30 07:41+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: pl\n"
@@ -39,17 +39,17 @@ msgstr "Domyślna"
 msgid "Default Feed Group"
 msgstr "Domyślna grupa kanałów"
 
-#: fetcher.cpp:244
+#: fetcher.cpp:255
 #, kde-format
 msgid "Invalid XML"
 msgstr "Nieprawidłowy XML"
 
-#: fetcher.cpp:246
+#: fetcher.cpp:257
 #, kde-format
 msgid "No parser accepted the XML"
 msgstr "Żaden z programów przetwarzających nie był w stanie obsłużyć XML"
 
-#: fetcher.cpp:248
+#: fetcher.cpp:259
 #, kde-format
 msgid "Error while parsing feed"
 msgstr "Błąd podczas przetwarzania kanału"
@@ -110,17 +110,17 @@ msgstr "Oznacz wpisy jako przeczytane"
 msgid "All Feeds"
 msgstr "Wszystkie kanały RSS"
 
-#: qml/AlligatorGlobalDrawer.qml:168 qml/SettingsPage.qml:20
+#: qml/AlligatorGlobalDrawer.qml:181 qml/SettingsPage.qml:20
 #, kde-format
 msgid "Settings"
 msgstr "Ustawienia"
 
-#: qml/AlligatorGlobalDrawer.qml:182
+#: qml/AlligatorGlobalDrawer.qml:195
 #, kde-format
 msgid "Manage Feeds"
 msgstr "Zarządzaj kanałami"
 
-#: qml/AlligatorGlobalDrawer.qml:197
+#: qml/AlligatorGlobalDrawer.qml:210
 #, kde-format
 msgid "About"
 msgstr "O programie"
@@ -151,73 +151,73 @@ msgctxt "by <author(s)>"
 msgid "by"
 msgstr "przez"
 
-#: qml/EntryListPage.qml:45
+#: qml/EntryListPage.qml:48
 #, kde-format
 msgid "Refresh"
 msgstr "Odśwież"
 
-#: qml/EntryListPage.qml:51
+#: qml/EntryListPage.qml:54
 #, kde-format
 msgctxt "@action:button"
 msgid "Mark all read"
 msgstr "Oznacz wszystkie jako przeczytane"
 
-#: qml/EntryListPage.qml:63
+#: qml/EntryListPage.qml:66
 #, kde-format
 msgid "Details"
 msgstr "Szczegóły"
 
-#: qml/EntryListPage.qml:86
+#: qml/EntryListPage.qml:89
 #, kde-format
 msgid "Expand sidebar"
 msgstr "Rozwiń pasek boczny"
 
-#: qml/EntryListPage.qml:86
+#: qml/EntryListPage.qml:89
 #, kde-format
 msgid "Collapse sidebar"
 msgstr "Zwiń pasek boczny"
 
-#: qml/EntryListPage.qml:97
+#: qml/EntryListPage.qml:100
 #, kde-format
 msgid "All Entries"
 msgstr "Wszystkie wpisy"
 
-#: qml/EntryListPage.qml:108
+#: qml/EntryListPage.qml:111
 #, kde-format
 msgid "Error"
 msgstr "Błąd"
 
-#: qml/EntryListPage.qml:109 qml/EntryListPage.qml:132
+#: qml/EntryListPage.qml:112 qml/EntryListPage.qml:135
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "Błąd (%1): %2"
 
-#: qml/EntryListPage.qml:125
+#: qml/EntryListPage.qml:128
 #, kde-format
 msgid "No unread entries available"
 msgstr "Nie ma żadnych nieprzeczytanych wpisów"
 
-#: qml/EntryListPage.qml:127
+#: qml/EntryListPage.qml:130
 #, kde-format
 msgid "No favorite entries available"
 msgstr "Nie ma żadnych ulubionych wpisów"
 
-#: qml/EntryListPage.qml:129
+#: qml/EntryListPage.qml:132
 #, kde-format
 msgid "No entries available"
 msgstr "Nie ma jeszcze żadnych wpisów"
 
-#: qml/EntryListPage.qml:163
+#: qml/EntryListPage.qml:167
 #, kde-format
 msgid "All"
 msgstr "Wszystkie"
 
-#: qml/EntryListPage.qml:172
+#: qml/EntryListPage.qml:176
 #, kde-format
 msgid "Unread"
 msgstr "Nieprzeczytana"
 
-#: qml/EntryListPage.qml:181
+#: qml/EntryListPage.qml:185
 #, kde-format
 msgid "Favorites"
 msgstr "Ulubione"

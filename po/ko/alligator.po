@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-08 00:45+0000\n"
+"POT-Creation-Date: 2026-05-19 00:44+0000\n"
 "PO-Revision-Date: 2025-10-09 00:07+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -37,17 +37,17 @@ msgstr "기본값"
 msgid "Default Feed Group"
 msgstr "기본 피드 그룹"
 
-#: fetcher.cpp:244
+#: fetcher.cpp:255
 #, kde-format
 msgid "Invalid XML"
 msgstr "잘못된 XML"
 
-#: fetcher.cpp:246
+#: fetcher.cpp:257
 #, kde-format
 msgid "No parser accepted the XML"
 msgstr "XML 파서에서 거부됨"
 
-#: fetcher.cpp:248
+#: fetcher.cpp:259
 #, kde-format
 msgid "Error while parsing feed"
 msgstr "피드 처리 중 오류 발생"
@@ -108,17 +108,17 @@ msgstr "항목을 읽은 상태로 표시"
 msgid "All Feeds"
 msgstr "모든 피드"
 
-#: qml/AlligatorGlobalDrawer.qml:168 qml/SettingsPage.qml:20
+#: qml/AlligatorGlobalDrawer.qml:181 qml/SettingsPage.qml:20
 #, kde-format
 msgid "Settings"
 msgstr "설정"
 
-#: qml/AlligatorGlobalDrawer.qml:182
+#: qml/AlligatorGlobalDrawer.qml:195
 #, kde-format
 msgid "Manage Feeds"
 msgstr "피드 관리"
 
-#: qml/AlligatorGlobalDrawer.qml:197
+#: qml/AlligatorGlobalDrawer.qml:210
 #, kde-format
 msgid "About"
 msgstr "정보"
@@ -149,73 +149,73 @@ msgctxt "by <author(s)>"
 msgid "by"
 msgstr "작성:"
 
-#: qml/EntryListPage.qml:45
+#: qml/EntryListPage.qml:48
 #, kde-format
 msgid "Refresh"
 msgstr "새로 고침"
 
-#: qml/EntryListPage.qml:51
+#: qml/EntryListPage.qml:54
 #, kde-format
 msgctxt "@action:button"
 msgid "Mark all read"
 msgstr "모두 읽은 것으로 표시"
 
-#: qml/EntryListPage.qml:63
+#: qml/EntryListPage.qml:66
 #, kde-format
 msgid "Details"
 msgstr "자세히"
 
-#: qml/EntryListPage.qml:86
+#: qml/EntryListPage.qml:89
 #, kde-format
 msgid "Expand sidebar"
 msgstr "사이드바 펴기"
 
-#: qml/EntryListPage.qml:86
+#: qml/EntryListPage.qml:89
 #, kde-format
 msgid "Collapse sidebar"
 msgstr "사이드바 접기"
 
-#: qml/EntryListPage.qml:97
+#: qml/EntryListPage.qml:100
 #, kde-format
 msgid "All Entries"
 msgstr "모든 항목"
 
-#: qml/EntryListPage.qml:108
+#: qml/EntryListPage.qml:111
 #, kde-format
 msgid "Error"
 msgstr "오류"
 
-#: qml/EntryListPage.qml:109 qml/EntryListPage.qml:132
+#: qml/EntryListPage.qml:112 qml/EntryListPage.qml:135
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "오류 (%1): %2"
 
-#: qml/EntryListPage.qml:125
+#: qml/EntryListPage.qml:128
 #, kde-format
 msgid "No unread entries available"
 msgstr "읽지 않은 항목 없음"
 
-#: qml/EntryListPage.qml:127
+#: qml/EntryListPage.qml:130
 #, kde-format
 msgid "No favorite entries available"
 msgstr "책갈피에 추가한 항목 없음"
 
-#: qml/EntryListPage.qml:129
+#: qml/EntryListPage.qml:132
 #, kde-format
 msgid "No entries available"
 msgstr "항목 없음"
 
-#: qml/EntryListPage.qml:163
+#: qml/EntryListPage.qml:167
 #, kde-format
 msgid "All"
 msgstr "모두"
 
-#: qml/EntryListPage.qml:172
+#: qml/EntryListPage.qml:176
 #, kde-format
 msgid "Unread"
 msgstr "읽지 않음"
 
-#: qml/EntryListPage.qml:181
+#: qml/EntryListPage.qml:185
 #, kde-format
 msgid "Favorites"
 msgstr "책갈피"

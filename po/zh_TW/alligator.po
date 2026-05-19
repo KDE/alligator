@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-08 00:45+0000\n"
+"POT-Creation-Date: 2026-05-19 00:44+0000\n"
 "PO-Revision-Date: 2026-01-05 03:02+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -40,17 +40,17 @@ msgstr "預設"
 msgid "Default Feed Group"
 msgstr "預設 feed 群組"
 
-#: fetcher.cpp:244
+#: fetcher.cpp:255
 #, kde-format
 msgid "Invalid XML"
 msgstr "無效的 XML"
 
-#: fetcher.cpp:246
+#: fetcher.cpp:257
 #, kde-format
 msgid "No parser accepted the XML"
 msgstr "沒有任何剖析器接受該 XML"
 
-#: fetcher.cpp:248
+#: fetcher.cpp:259
 #, kde-format
 msgid "Error while parsing feed"
 msgstr "剖析 feed 時發生錯誤"
@@ -110,17 +110,17 @@ msgstr "標記條目為已讀"
 msgid "All Feeds"
 msgstr "所有 feed"
 
-#: qml/AlligatorGlobalDrawer.qml:168 qml/SettingsPage.qml:20
+#: qml/AlligatorGlobalDrawer.qml:181 qml/SettingsPage.qml:20
 #, kde-format
 msgid "Settings"
 msgstr "設定"
 
-#: qml/AlligatorGlobalDrawer.qml:182
+#: qml/AlligatorGlobalDrawer.qml:195
 #, kde-format
 msgid "Manage Feeds"
 msgstr "管理 feed"
 
-#: qml/AlligatorGlobalDrawer.qml:197
+#: qml/AlligatorGlobalDrawer.qml:210
 #, kde-format
 msgid "About"
 msgstr "關於"
@@ -151,73 +151,73 @@ msgctxt "by <author(s)>"
 msgid "by"
 msgstr "由"
 
-#: qml/EntryListPage.qml:45
+#: qml/EntryListPage.qml:48
 #, kde-format
 msgid "Refresh"
 msgstr "重新整理"
 
-#: qml/EntryListPage.qml:51
+#: qml/EntryListPage.qml:54
 #, kde-format
 msgctxt "@action:button"
 msgid "Mark all read"
 msgstr "將全部標為已讀"
 
-#: qml/EntryListPage.qml:63
+#: qml/EntryListPage.qml:66
 #, kde-format
 msgid "Details"
 msgstr "詳細資料"
 
-#: qml/EntryListPage.qml:86
+#: qml/EntryListPage.qml:89
 #, kde-format
 msgid "Expand sidebar"
 msgstr "展開側邊欄"
 
-#: qml/EntryListPage.qml:86
+#: qml/EntryListPage.qml:89
 #, kde-format
 msgid "Collapse sidebar"
 msgstr "折疊側邊欄"
 
-#: qml/EntryListPage.qml:97
+#: qml/EntryListPage.qml:100
 #, kde-format
 msgid "All Entries"
 msgstr "所有條目"
 
-#: qml/EntryListPage.qml:108
+#: qml/EntryListPage.qml:111
 #, kde-format
 msgid "Error"
 msgstr "錯誤"
 
-#: qml/EntryListPage.qml:109 qml/EntryListPage.qml:132
+#: qml/EntryListPage.qml:112 qml/EntryListPage.qml:135
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "錯誤（%1）：%2"
 
-#: qml/EntryListPage.qml:125
+#: qml/EntryListPage.qml:128
 #, kde-format
 msgid "No unread entries available"
 msgstr "沒有未讀的條目"
 
-#: qml/EntryListPage.qml:127
+#: qml/EntryListPage.qml:130
 #, kde-format
 msgid "No favorite entries available"
 msgstr "沒有最愛的條目"
 
-#: qml/EntryListPage.qml:129
+#: qml/EntryListPage.qml:132
 #, kde-format
 msgid "No entries available"
 msgstr "沒有條目"
 
-#: qml/EntryListPage.qml:163
+#: qml/EntryListPage.qml:167
 #, kde-format
 msgid "All"
 msgstr "全部"
 
-#: qml/EntryListPage.qml:172
+#: qml/EntryListPage.qml:176
 #, kde-format
 msgid "Unread"
 msgstr "未讀"
 
-#: qml/EntryListPage.qml:181
+#: qml/EntryListPage.qml:185
 #, kde-format
 msgid "Favorites"
 msgstr "最愛"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-08 00:45+0000\n"
+"POT-Creation-Date: 2026-05-19 00:44+0000\n"
 "PO-Revision-Date: 2025-12-20 21:26+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -39,17 +39,17 @@ msgstr "Numatytoji"
 msgid "Default Feed Group"
 msgstr "Numatytoji kanalų grupė"
 
-#: fetcher.cpp:244
+#: fetcher.cpp:255
 #, kde-format
 msgid "Invalid XML"
 msgstr "Neteisingas XML"
 
-#: fetcher.cpp:246
+#: fetcher.cpp:257
 #, kde-format
 msgid "No parser accepted the XML"
 msgstr "Joks analizatorius nepriėmė XML"
 
-#: fetcher.cpp:248
+#: fetcher.cpp:259
 #, kde-format
 msgid "Error while parsing feed"
 msgstr "Klaida analizuojant kanalą"
@@ -109,17 +109,17 @@ msgstr "Žymėti įrašus kaip skaitytus"
 msgid "All Feeds"
 msgstr "Visi kanalai"
 
-#: qml/AlligatorGlobalDrawer.qml:168 qml/SettingsPage.qml:20
+#: qml/AlligatorGlobalDrawer.qml:181 qml/SettingsPage.qml:20
 #, kde-format
 msgid "Settings"
 msgstr "Nuostatos"
 
-#: qml/AlligatorGlobalDrawer.qml:182
+#: qml/AlligatorGlobalDrawer.qml:195
 #, kde-format
 msgid "Manage Feeds"
 msgstr "Tvarkyti kanalus"
 
-#: qml/AlligatorGlobalDrawer.qml:197
+#: qml/AlligatorGlobalDrawer.qml:210
 #, kde-format
 msgid "About"
 msgstr "Apie"
@@ -150,73 +150,73 @@ msgctxt "by <author(s)>"
 msgid "by"
 msgstr "parašė"
 
-#: qml/EntryListPage.qml:45
+#: qml/EntryListPage.qml:48
 #, kde-format
 msgid "Refresh"
 msgstr "Įkelti iš naujo"
 
-#: qml/EntryListPage.qml:51
+#: qml/EntryListPage.qml:54
 #, kde-format
 msgctxt "@action:button"
 msgid "Mark all read"
 msgstr "Žymėti visus kaip skaitytus"
 
-#: qml/EntryListPage.qml:63
+#: qml/EntryListPage.qml:66
 #, kde-format
 msgid "Details"
 msgstr "Išsamiau"
 
-#: qml/EntryListPage.qml:86
+#: qml/EntryListPage.qml:89
 #, kde-format
 msgid "Expand sidebar"
 msgstr "Išskleisti šoninę juostą"
 
-#: qml/EntryListPage.qml:86
+#: qml/EntryListPage.qml:89
 #, kde-format
 msgid "Collapse sidebar"
 msgstr "Suskleisti šoninę juostą"
 
-#: qml/EntryListPage.qml:97
+#: qml/EntryListPage.qml:100
 #, kde-format
 msgid "All Entries"
 msgstr "Visi įrašai"
 
-#: qml/EntryListPage.qml:108
+#: qml/EntryListPage.qml:111
 #, kde-format
 msgid "Error"
 msgstr "Klaida"
 
-#: qml/EntryListPage.qml:109 qml/EntryListPage.qml:132
+#: qml/EntryListPage.qml:112 qml/EntryListPage.qml:135
 #, kde-format
 msgid "Error (%1): %2"
 msgstr "Klaida (%1): %2"
 
-#: qml/EntryListPage.qml:125
+#: qml/EntryListPage.qml:128
 #, kde-format
 msgid "No unread entries available"
 msgstr "Nėra neskaitytų įrašų"
 
-#: qml/EntryListPage.qml:127
+#: qml/EntryListPage.qml:130
 #, kde-format
 msgid "No favorite entries available"
 msgstr "Nėra mėgstamų įrašų"
 
-#: qml/EntryListPage.qml:129
+#: qml/EntryListPage.qml:132
 #, kde-format
 msgid "No entries available"
 msgstr "Nėra jokių įrašų"
 
-#: qml/EntryListPage.qml:163
+#: qml/EntryListPage.qml:167
 #, kde-format
 msgid "All"
 msgstr "Visi"
 
-#: qml/EntryListPage.qml:172
+#: qml/EntryListPage.qml:176
 #, kde-format
 msgid "Unread"
 msgstr "Neskaityti"
 
-#: qml/EntryListPage.qml:181
+#: qml/EntryListPage.qml:185
 #, kde-format
 msgid "Favorites"
 msgstr "Mėgstami"
