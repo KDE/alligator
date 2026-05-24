@@ -71,6 +71,7 @@ if(ANDROID)
     endif()
 
     kirigami_package_breeze_icons(ICONS
+        ${KIRIGAMI_ADDONS_ICONS}
         bookmarks
         bookmarks-bookmarked
         delete
