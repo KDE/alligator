@@ -34,10 +34,10 @@ Kirigami.GlobalDrawer {
         }
     }
 
-    leftPadding: 0
-    rightPadding: 0
-    topPadding: 0
-    bottomPadding: 0
+    leftPadding: parent.SafeArea.margins.left
+    rightPadding: parent.SafeArea.margins.right
+    topPadding: parent.SafeArea.margins.top
+    bottomPadding: parent.SafeArea.margins.bottom
 
     Kirigami.Theme.colorSet: Kirigami.Theme.View
     Kirigami.Theme.inherit: false
