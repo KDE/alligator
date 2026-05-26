@@ -1,13 +1,13 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the alligator package.
-# SPDX-FileCopyrightText: 2020, 2021, 2022, 2023, 2024, 2025 Shinjo Park <kde@peremen.name>
+# SPDX-FileCopyrightText: 2020, 2021, 2022, 2023, 2024, 2025, 2026 Shinjo Park <kde@peremen.name>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-02-27 00:43+0000\n"
-"PO-Revision-Date: 2025-10-09 00:07+0200\n"
+"PO-Revision-Date: 2026-05-25 18:24+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 24.12.3\n"
+"X-Generator: Lokalize 25.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -93,10 +93,9 @@ msgid "Add Feed"
 msgstr "피드 추가"
 
 #: qml/AddFeedDialog.qml:44
-#, fuzzy, kde-format
-#| msgid "Feed URL:"
+#, kde-format
 msgid "URL:"
-msgstr "피드 URL:"
+msgstr "URL:"
 
 #: qml/AddFeedDialog.qml:50
 #, kde-format
@@ -281,8 +280,7 @@ msgid "Feed Group"
 msgstr "피드 그룹"
 
 #: qml/FeedGroupDialog.qml:50
-#, fuzzy, kde-format
-#| msgid "Name:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Name:"
 msgstr "이름:"
@@ -290,21 +288,19 @@ msgstr "이름:"
 #: qml/FeedGroupDialog.qml:55
 #, kde-format
 msgid "A group with that name already exists."
-msgstr ""
+msgstr "이름이 같은 그룹이 이미 존재합니다."
 
 #: qml/FeedGroupDialog.qml:64
-#, fuzzy, kde-format
-#| msgid "Description:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Description:"
 msgstr "설명:"
 
 #: qml/FeedGroupDialog.qml:70
-#, fuzzy, kde-format
-#| msgid "Set as Default"
+#, kde-format
 msgctxt "@option:check"
 msgid "Set as default:"
-msgstr "기본값으로 설정"
+msgstr "기본값으로 설정:"
 
 #: qml/FeedListDelegate.qml:29
 #, kde-format
@@ -396,36 +392,31 @@ msgid "Groups"
 msgstr "그룹"
 
 #: qml/GroupsListPage.qml:24
-#, fuzzy, kde-format
-#| msgid "Add Group…"
+#, kde-format
 msgctxt "@action:intoolbar"
 msgid "Add Group…"
 msgstr "그룹 추가…"
 
 #: qml/GroupsListPage.qml:54
-#, fuzzy, kde-format
-#| msgid "Set as Default"
+#, kde-format
 msgctxt "@action:button"
 msgid "Set as Default"
 msgstr "기본값으로 설정"
 
 #: qml/GroupsListPage.qml:67
-#, fuzzy, kde-format
-#| msgid "Remove"
+#, kde-format
 msgctxt "@action:button"
 msgid "Remove"
 msgstr "삭제"
 
 #: qml/GroupsListPage.qml:83
-#, fuzzy, kde-format
-#| msgid "No groups created yet"
+#, kde-format
 msgctxt "@info:placeholder"
 msgid "No groups created yet"
 msgstr "생성한 그룹이 없음"
 
 #: qml/GroupsListPage.qml:88
-#, fuzzy, kde-format
-#| msgid "Add Group…"
+#, kde-format
 msgctxt "@action:button"
 msgid "Add Group…"
 msgstr "그룹 추가…"
