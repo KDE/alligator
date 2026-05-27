@@ -274,6 +274,7 @@
         <p xml:lang="ia">Actualisation de traductiones</p>
         <p xml:lang="it">Aggiornamento delle traduzioni</p>
         <p xml:lang="ka">თარგმანების განახლება</p>
+        <p xml:lang="ko">번역 업데이트</p>
         <p xml:lang="lt">Vertimų atnaujinimas</p>
         <p xml:lang="nl">Bijgewerkte vertalingen</p>
         <p xml:lang="pt-BR">Atualização de tradução</p>
@@ -307,6 +308,7 @@
           <li xml:lang="ia">Supporto per construction  (build) basate sur Qt6</li>
           <li xml:lang="it">Supporto per la compilazione con Qt6</li>
           <li xml:lang="ka">Qt6-ზე აგების მხარდაჭერა</li>
+          <li xml:lang="ko">Qt6 기반 빌드 지원</li>
           <li xml:lang="lt">Qt6 pagrįsto darinio palaikymas</li>
           <li xml:lang="nl">Ondersteuning voor op Qt6 gebouwd</li>
           <li xml:lang="pt-BR">Suporte para compilação baseada em Qt6</li>
@@ -335,6 +337,7 @@
           <li xml:lang="ia">Re-factorisation de codice general e actualistiones de traductiones</li>
           <li xml:lang="it">Revisione generale del codice e aggiornamenti delle traduzioni</li>
           <li xml:lang="ka">კოდის რეფაქტორინგი და თარგმანის გაუმჯობესებები</li>
+          <li xml:lang="ko">일반 코드 리팩토링 및 번역 업데이트</li>
           <li xml:lang="lt">Bendri kodo pertvarkymo ir vertimų atnaujinimai</li>
           <li xml:lang="nl">Algemene herziening van de code en bijgewerkte vertalingen</li>
           <li xml:lang="pt-BR">Atualizações gerais de refatoração de código e traduções</li>
@@ -363,6 +366,7 @@
           <li xml:lang="ia">Inveloppa tutilo de entrata</li>
           <li xml:lang="it">Titolo su più righe</li>
           <li xml:lang="ka">ჩანაწერის სათაურის გადატანა</li>
+          <li xml:lang="ko">항목의 제목 둘러싸기</li>
           <li xml:lang="lt">Skaidyti įrašo pavadinimą</li>
           <li xml:lang="nl">Gehele titel laten omlopen</li>
           <li xml:lang="pt-BR">Quebra do título da entrada</li>
@@ -384,6 +388,7 @@
           <li xml:lang="ia">Refresca omne syndicationes al startar, e non require refrescamento manual</li>
           <li xml:lang="it">Aggiorna tutte le fonti all'avvio e non richiede l'aggiornamento manuale</li>
           <li xml:lang="ka">ყველა ლენტის განახლება გაშვებისას და არ სჭირდება ხელით განახლება</li>
+          <li xml:lang="ko">시작할 때 모든 피드를 새로 고쳐서 수동 새로 고침이 필요하지 않음</li>
           <li xml:lang="lt">Programos paleidimo metu įkelti iš naujo visus kanalus ir nereikalauti įkėlimo iš naujo rankiniu būdu</li>
           <li xml:lang="nl">Alle feeds bij opstarten vernieuwen en vereist geen handmatige vernieuwing</li>
           <li xml:lang="pt-BR">Atualizar todos os feeds na inicialização e não requerer atualização manual</li>
@@ -405,6 +410,7 @@
           <li xml:lang="ia">Adde pagina per vider tote entratas in un lista</li>
           <li xml:lang="it">Aggiunge una pagina per visualizzare tutte le voci in un elenco</li>
           <li xml:lang="ka">დაემატა გვერდი სიის ყველა ჩანაწერის სანახავად</li>
+          <li xml:lang="ko">모든 항목을 하나의 목록으로 볼 수 있는 페이지 추가</li>
           <li xml:lang="lt">Pridėtas puslapis, skirtas peržiūrėti visus įrašus viename sąraše</li>
           <li xml:lang="nl">Pagina toegevoegd om alle items in één lijst te bekijken</li>
           <li xml:lang="pt-BR">Adicionar página para visualizar todas as entradas em uma única lista</li>
@@ -426,6 +432,7 @@
           <li xml:lang="ia">Corrige fracasso quando il refresca</li>
           <li xml:lang="it">Corregge l'arresto anomalo durante l'aggiornamento</li>
           <li xml:lang="ka">გასწორდა ავარიული დასრულება განახლებისას</li>
+          <li xml:lang="ko">새로 고침 시 충돌 해결</li>
           <li xml:lang="lt">Ištaisyta strigtis įkeliant iš naujo</li>
           <li xml:lang="nl">Crash bij vernieuwen opgelost</li>
           <li xml:lang="pt-BR">Corrigido o problema que causava o fechamento inesperado do aplicativo ao atualizar</li>
@@ -447,6 +454,7 @@
           <li xml:lang="ia">Permitte filtrar entratas de lectura</li>
           <li xml:lang="it">Consente di filtrare le voci lette</li>
           <li xml:lang="ka">წაკითხული ჩანაწერების გაფილტვრის დაშვება</li>
+          <li xml:lang="ko">읽은 항목 필터 허용</li>
           <li xml:lang="lt">Leidžiama filtruoti skaitytus įrašus</li>
           <li xml:lang="nl">Filteren van gelezen items toestaan</li>
           <li xml:lang="pt-BR">Permitir filtrar entradas de leitura</li>
@@ -475,6 +483,7 @@
           <li xml:lang="ia">Corrige perdita de memoria quando il cerca syndicationes</li>
           <li xml:lang="it">Corregge il memory leak durante il recupero delle fonti</li>
           <li xml:lang="ka">გასწორდა მეხსიერების გაჟონვა ლენტების გამოთხოვისას</li>
+          <li xml:lang="ko">피드 가져올 때 메모리 누수 해결</li>
           <li xml:lang="lt">Ištaisytas atminties nutekėjimas gaunant kanalus</li>
           <li xml:lang="nl">Los het geheugenlek op bij het ophalen van feeds</li>
           <li xml:lang="pt-BR">Corrigido vazamento de memória ao buscar feeds</li>
@@ -507,6 +516,7 @@
         <p xml:lang="ia">Plasma Mobile Gear version 21.06</p>
         <p xml:lang="it">Rilascio di Plasma Mobile Gear 21.06</p>
         <p xml:lang="ka">გამოშვება Plasma Mobile Gear 21.06</p>
+        <p xml:lang="ko">Plasma 모바일 기어 21.06 릴리스</p>
         <p xml:lang="lt">Plasma Mobile Gear 21.06 laida</p>
         <p xml:lang="nl">Plasma Mobile Gear 21.06 uitgave</p>
         <p xml:lang="pt-BR">Lançamento do Plasma Mobile Gear 21.06</p>
@@ -529,6 +539,7 @@
           <li xml:lang="ia">Corrige altessa de imagines redimensionate</li>
           <li xml:lang="it">Corregge l'altezza delle immagini ridimensionate</li>
           <li xml:lang="ka">გასწორდა ზომაშეცვლილი გამოსახულებების სიმაღლე</li>
+          <li xml:lang="ko">크기 조정된 그림의 높이 수정</li>
           <li xml:lang="lt">Ištaisytas pakeisto dydžio paveikslų aukštis</li>
           <li xml:lang="nl">De hoogte van verkleinde afbeeldingen corrigeren</li>
           <li xml:lang="pt-BR">Corrigida a altura das imagens redimensionadas</li>
