@@ -29,19 +29,6 @@
     ],
     "modules": [
         {
-            "name": "kirigamiaddons",
-            "buildsystem": "cmake-ninja",
-            "config-opts": [
-                "-DBUILD_TESTING=OFF"
-            ],
-            "sources": [
-                {
-                    "type": "git",
-                    "url": "https://invent.kde.org/libraries/kirigami-addons.git"
-                }
-            ]
-        },
-        {
             "name": "alligator",
             "buildsystem": "cmake-ninja",
             "config-opts": [
