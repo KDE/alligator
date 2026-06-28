@@ -251,7 +251,7 @@ msgstr "Copia l'enllaç"
 #, kde-format
 msgctxt "<Feed Name> - Details"
 msgid "%1 - Details"
-msgstr "%1 - Detalls"
+msgstr "%1 – Detalls"
 
 #: qml/FeedDetailsPage.qml:25
 #, kde-format
