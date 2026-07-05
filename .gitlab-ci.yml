@@ -2,6 +2,9 @@
 # SPDX-FileCopyrightText: 2020 Tobias Fella <tobias.fella@kde.org>
 # SPDX-License-Identifier: BSD-2-Clause
 
+variables:
+  KDE_FLATPAK_TEST_COMMAND: "flatpak run org.kde.alligator --self-test"
+
 include:
   - project: sysadmin/ci-utilities
     file:
