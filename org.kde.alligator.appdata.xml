@@ -287,6 +287,7 @@
         <p xml:lang="ru">Обновление переводов</p>
         <p xml:lang="sk">Aktualizácia prekladov</p>
         <p xml:lang="sl">Posodobitev prevodov</p>
+        <p xml:lang="sv">Översättningsuppdatering</p>
         <p xml:lang="tr">Çeviri güncellemeleri</p>
         <p xml:lang="uk">Оновлення перекладів</p>
         <p xml:lang="zh-CN">译文更新</p>
@@ -323,6 +324,7 @@
           <li xml:lang="ru">Поддержка сборки на основе Qt6</li>
           <li xml:lang="sk">Podpora zostavenia na báze Qt6</li>
           <li xml:lang="sl">Podpora za gradnjo na osnovi Qt6</li>
+          <li xml:lang="sv">Stöd för Qt6-baserat bygge</li>
           <li xml:lang="tr">Qt6 tabanlı yapı desteği</li>
           <li xml:lang="uk">Підтримка збирання на основі Qt6</li>
           <li xml:lang="zh-CN">基于 Qt6 的版本的支持</li>
@@ -354,6 +356,7 @@
           <li xml:lang="ru">Общий рефакторинг кода и обновления переводов</li>
           <li xml:lang="sk">Všeobecný refaktoring kódu a aktualizácia prekladov</li>
           <li xml:lang="sl">Splošne posodobitve preoblikovanja kode in prevodov</li>
+          <li xml:lang="sv">Allmän omstrukturering av kod och översättningsuppdateringar</li>
           <li xml:lang="tr">Kod düzenlemesi ve çeviri güncellemeleri</li>
           <li xml:lang="uk">Загальне переформатування програмного коду та оновлення перекладів</li>
           <li xml:lang="zh-CN">常规代码重构和翻译更新</li>
@@ -385,6 +388,7 @@
           <li xml:lang="ru">Перенос заголовков записей</li>
           <li xml:lang="sk">Zalamovanie nadpisu záznamu</li>
           <li xml:lang="sl">Prelom vnosa naslova</li>
+          <li xml:lang="sv">Radbryt posttitel</li>
           <li xml:lang="tr">Girdi başlığını kaydır</li>
           <li xml:lang="uk">Перенесення заголовка запису</li>
           <li xml:lang="zh-CN">标题自动换行</li>
@@ -409,6 +413,7 @@
           <li xml:lang="ru">Обновление всех каналов при запуске, не требуя ручного обновления</li>
           <li xml:lang="sk">Obnoviť všetky kanály pri spustení, bez potreby manuálneho obnovenia</li>
           <li xml:lang="sl">Osveži vse vire ob zagonu in ne zahteva ročnega osveževanja</li>
+          <li xml:lang="sv">Uppdatera alla kanaler vid start och kräv ingen manuell uppdatering</li>
           <li xml:lang="tr">Tüm beslemeleri başlangıçta yenile ve elle yenilemeye gereksinim duyma</li>
           <li xml:lang="uk">Оновлення усіх подач під час запуску, без потреби у оновленні вручну</li>
           <li xml:lang="zh-CN">启动时刷新所有订阅，不需要手动刷新</li>
@@ -433,6 +438,7 @@
           <li xml:lang="ru">Добавлена страница для просмотра всех записей в одном списке</li>
           <li xml:lang="sk">Pridať stránku na zobrazenie všetkých záznamov v jednom zozname</li>
           <li xml:lang="sl">Doda stran za ogled vseh vnosov na enem seznamu</li>
+          <li xml:lang="sv">Lägg till sida för att visa alla poster i en lista</li>
           <li xml:lang="tr">Tüm girdileri tek bir sayfada görüntüleme sayfası</li>
           <li xml:lang="uk">Додано сторінку перегляду усіх записів в одному списку</li>
           <li xml:lang="zh-CN">添加页面以查看一个列表中的所有条目</li>
@@ -457,6 +463,7 @@
           <li xml:lang="ru">Исправлен сбой при обновлении</li>
           <li xml:lang="sk">Opravenie pádu pri obnovení</li>
           <li xml:lang="sl">Odpravi sesutje ob osvežitvi</li>
+          <li xml:lang="sv">Rätta krasch vid uppdatering</li>
           <li xml:lang="tr">Yenileme sırasındaki çökmeyi onar</li>
           <li xml:lang="uk">Усунено аварійне завершення роботи при оновленні даних</li>
           <li xml:lang="zh-CN">修复刷新时崩溃的问题</li>
@@ -481,6 +488,7 @@
           <li xml:lang="ru">Возможность фильтрации прочитанных записей</li>
           <li xml:lang="sk">Možnosť filtrovania prečítaných záznamov</li>
           <li xml:lang="sl">Dovoli filtriranje prebranih vnosov</li>
+          <li xml:lang="sv">Tillåt filtrering av lästa poster</li>
           <li xml:lang="tr">Okunmuş girdileri süzmeye olanak tanı</li>
           <li xml:lang="uk">Уможливлено фільтрування прочитаних записів</li>
           <li xml:lang="zh-CN">现可过滤掉已读条目</li>
@@ -512,6 +520,7 @@
           <li xml:lang="ru">Исправлена утечка памяти при получении лент</li>
           <li xml:lang="sk">Opravenie úniku pamäte pri načítavaní kanálov</li>
           <li xml:lang="sl">Popravi puščanje pomnilnika pri pridobivanju virov</li>
+          <li xml:lang="sv">Rätta minnesläcka när kanaler hämtas</li>
           <li xml:lang="tr">Beslemeleri getirirken oluşan bellek sızıntısını önle</li>
           <li xml:lang="uk">Виправлено виток пам'яті при отриманні подач</li>
           <li xml:lang="zh-CN">修复获取订阅时内存泄漏的问题</li>
@@ -547,6 +556,7 @@
         <p xml:lang="ru">Выпуск Plasma Mobile Gear 21.06</p>
         <p xml:lang="sk">Plasma Mobile Gear 21.06 release</p>
         <p xml:lang="sl">Izdaja Plasma Mobile Gear 21.06</p>
+        <p xml:lang="sv">Plasma Mobile Gear 21.06 utgåva</p>
         <p xml:lang="tr">Plasma Cep Gear 21.06 yayımı</p>
         <p xml:lang="uk">Випуск Plasma Mobile Gear 21.06</p>
         <p xml:lang="zh-CN">Plasma Mobile Gear 21.06</p>
@@ -572,6 +582,7 @@
           <li xml:lang="ru">Исправлена высота изменённых изображений</li>
           <li xml:lang="sk">Opravenie výšky zmenenej veľkosti obrázkov</li>
           <li xml:lang="sl">Popravi višino slik spremenjenih belikosti</li>
+          <li xml:lang="sv">Rätta höjd på storleksändrade bilder</li>
           <li xml:lang="tr">Yeniden boyutlandırılmış görsellerin yüksekliğini düzelt</li>
           <li xml:lang="uk">Виправлено висоту зображень зі зміненими розмірами</li>
           <li xml:lang="zh-CN">修复缩放图像的高度问题</li>
