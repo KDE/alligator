@@ -69,7 +69,7 @@ msgstr "Lector de fonts"
 #: main.cpp:82
 #, kde-format
 msgid "© 2020-2024 KDE Community"
-msgstr "© 2020-2024 Comunitat KDE"
+msgstr "© 2020-2024 La comunitat KDE"
 
 #: main.cpp:83
 #, kde-format
