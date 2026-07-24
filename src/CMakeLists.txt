@@ -109,3 +109,4 @@ else()
 endif()
 
 install(TARGETS alligator ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
+install(FILES alligatorsettings.kcfg DESTINATION ${KDE_INSTALL_KCFGDIR})
