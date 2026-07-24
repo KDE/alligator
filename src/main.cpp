@@ -26,6 +26,7 @@
 #include <KColorSchemeManager>
 #include <KLocalizedQmlContext>
 #include <KLocalizedString>
+#include <KirigamiAddons/App/KirigamiAppDefaults>
 
 #include "alligator-version.h"
 #include "alligatorsettings.h"
@@ -44,30 +45,10 @@ int main(int argc, char *argv[])
 {
 #ifdef Q_OS_ANDROID
     QGuiApplication app(argc, argv);
-    QQuickStyle::setStyle(QStringLiteral("org.kde.breeze"));
 #else
     QApplication app(argc, argv);
-    if (qEnvironmentVariableIsEmpty("QT_QUICK_CONTROLS_STYLE")) {
-        QQuickStyle::setStyle(QStringLiteral("org.kde.desktop"));
-    }
 #endif
-    KColorSchemeManager::instance();
 
-#ifdef Q_OS_WINDOWS
-    if (AttachConsole(ATTACH_PARENT_PROCESS)) {
-        FILE *outFile = freopen("CONOUT$", "w", stdout);
-        if (!outFile)
-            qCWarning(ALLIGATOR) << "Failed to reopen stdout";
-        FILE *errFile = freopen("CONOUT$", "w", stderr);
-        if (!errFile)
-            qCWarning(ALLIGATOR) << "Failed to reopen stderr";
-    }
-
-    QApplication::setStyle(QStringLiteral("breeze"));
-    auto font = app.font();
-    font.setPointSize(10);
-    app.setFont(font);
-#endif
     KLocalizedString::setApplicationDomain("alligator");
 
     QCoreApplication::setOrganizationName(QStringLiteral("KDE"));
@@ -85,9 +66,9 @@ int main(int argc, char *argv[])
 
 #ifndef Q_OS_ANDROID
     QApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("alligator")));
-
-    KCrash::initialize();
 #endif
+
+    KirigamiAppDefaults::apply(&app);
 
     QQmlApplicationEngine engine;
     KLocalization::setupLocalizedContext(&engine);
