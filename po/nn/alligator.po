@@ -1,12 +1,12 @@
 # Translation of alligator to Norwegian Nynorsk
 #
-# Karl Ove Hufthammer <karl@huftis.org>, 2020, 2021.
+# Karl Ove Hufthammer <karl@huftis.org>, 2020, 2021, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-07-26 00:43+0000\n"
-"PO-Revision-Date: 2021-02-18 21:44+0100\n"
+"PO-Revision-Date: 2026-08-02 19:14+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@nuug.no>\n"
 "Language: nn\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 20.12.2\n"
+"X-Generator: Lokalize 26.11.70\n"
 "X-Environment: kde\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
@@ -32,7 +32,7 @@ msgstr "karl@huftis.org"
 #: database.cpp:84 database.cpp:378
 #, kde-format
 msgid "Default"
-msgstr ""
+msgstr "Standard"
 
 #: database.cpp:85 database.cpp:379
 #, kde-format
@@ -42,7 +42,7 @@ msgstr ""
 #: fetcher.cpp:255
 #, kde-format
 msgid "Invalid XML"
-msgstr ""
+msgstr "Ugyldig XML"
 
 #: fetcher.cpp:257
 #, kde-format
@@ -52,7 +52,7 @@ msgstr ""
 #: fetcher.cpp:259
 #, kde-format
 msgid "Error while parsing feed"
-msgstr ""
+msgstr "Feil ved tolking av kjelda"
 
 #: main.cpp:59 qml/AlligatorGlobalDrawer.qml:56
 #, kde-format
@@ -67,7 +67,7 @@ msgstr "Kjeldelesar"
 #: main.cpp:63
 #, kde-format
 msgid "© 2020-2024 KDE Community"
-msgstr ""
+msgstr "© 2020–2024 KDE-fellesskapet"
 
 #: main.cpp:64
 #, kde-format
@@ -87,7 +87,7 @@ msgstr ""
 #: main.cpp:80
 #, kde-format
 msgid "feed URL"
-msgstr ""
+msgstr "Kjelde&adresse"
 
 #: qml/AddFeedDialog.qml:19
 #, kde-format
@@ -95,19 +95,19 @@ msgid "Add Feed"
 msgstr "Legg til kjelde"
 
 #: qml/AddFeedDialog.qml:44
-#, fuzzy, kde-format
+#, kde-format
 msgid "URL:"
-msgstr "Kjeldelesar"
+msgstr "Adresse:"
 
 #: qml/AddFeedDialog.qml:50
 #, kde-format
 msgid "Mark entries as read"
-msgstr ""
+msgstr "Merk oppføringane som lesne"
 
 #: qml/AlligatorGlobalDrawer.qml:95 qml/AlligatorGlobalDrawer.qml:108
 #, kde-format
 msgid "All Feeds"
-msgstr ""
+msgstr "Alle kjelder"
 
 #: qml/AlligatorGlobalDrawer.qml:181 qml/SettingsPage.qml:20
 #, kde-format
@@ -117,7 +117,7 @@ msgstr "Innstillingar"
 #: qml/AlligatorGlobalDrawer.qml:195
 #, kde-format
 msgid "Manage Feeds"
-msgstr ""
+msgstr "Handsam kjelder"
 
 #: qml/AlligatorGlobalDrawer.qml:210
 #, kde-format
@@ -127,22 +127,22 @@ msgstr "Om"
 #: qml/EditFeedDialog.qml:15
 #, kde-format
 msgid "Edit Feed"
-msgstr ""
+msgstr "Rediger kjelde"
 
 #: qml/EditFeedDialog.qml:33
-#, fuzzy, kde-format
+#, kde-format
 msgid "Feed URL:"
-msgstr "Kjeldelesar"
+msgstr "Kjelde&adresse:"
 
 #: qml/EditFeedDialog.qml:41
 #, kde-format
 msgid "Display Name:"
-msgstr ""
+msgstr "Visingsnamn:"
 
 #: qml/EditFeedDialog.qml:51
 #, kde-format
 msgid "Group:"
-msgstr ""
+msgstr "Gruppe:"
 
 #: qml/EntryListDelegate.qml:74
 #, kde-format
@@ -153,13 +153,13 @@ msgstr "av"
 #: qml/EntryListPage.qml:48
 #, kde-format
 msgid "Refresh"
-msgstr ""
+msgstr "Last om att"
 
 #: qml/EntryListPage.qml:54
 #, kde-format
 msgctxt "@action:button"
 msgid "Mark all read"
-msgstr ""
+msgstr "Merk alle som lesne"
 
 #: qml/EntryListPage.qml:66
 #, kde-format
@@ -169,22 +169,22 @@ msgstr "Detaljar"
 #: qml/EntryListPage.qml:89
 #, kde-format
 msgid "Expand sidebar"
-msgstr ""
+msgstr "Utvid sidestolpen"
 
 #: qml/EntryListPage.qml:89
 #, kde-format
 msgid "Collapse sidebar"
-msgstr ""
+msgstr "Fald saman sidestolpen"
 
 #: qml/EntryListPage.qml:100
 #, kde-format
 msgid "All Entries"
-msgstr ""
+msgstr "Alle oppføringar"
 
 #: qml/EntryListPage.qml:111
 #, kde-format
 msgid "Error"
-msgstr ""
+msgstr "Feil"
 
 #: qml/EntryListPage.qml:112 qml/EntryListPage.qml:135
 #, kde-format
@@ -194,32 +194,32 @@ msgstr "Feil (%1): %2"
 #: qml/EntryListPage.qml:128
 #, kde-format
 msgid "No unread entries available"
-msgstr ""
+msgstr "Finst ingen ulesne oppføringar"
 
 #: qml/EntryListPage.qml:130
 #, kde-format
 msgid "No favorite entries available"
-msgstr ""
+msgstr "Finst ingen favorittoppføringar"
 
 #: qml/EntryListPage.qml:132
 #, kde-format
 msgid "No entries available"
-msgstr ""
+msgstr "Finst ingen oppføringar"
 
 #: qml/EntryListPage.qml:167
 #, kde-format
 msgid "All"
-msgstr ""
+msgstr "Alle"
 
 #: qml/EntryListPage.qml:176
 #, kde-format
 msgid "Unread"
-msgstr ""
+msgstr "Ulesne"
 
 #: qml/EntryListPage.qml:185
 #, kde-format
 msgid "Favorites"
-msgstr ""
+msgstr "Favorittar"
 
 #: qml/EntryPage.qml:69
 #, kde-format
@@ -230,19 +230,19 @@ msgstr "Opna i nettlesar"
 #, kde-format
 msgctxt "@action:button"
 msgid "Remove from Favorites"
-msgstr ""
+msgstr "Fjern frå favorittar"
 
 #: qml/EntryPage.qml:74
 #, kde-format
 msgctxt "@action:button"
 msgid "Add to Favorites"
-msgstr ""
+msgstr "Legg til favorittar"
 
 #: qml/EntryPage.qml:82
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Link"
-msgstr ""
+msgstr "Kopier lenkje"
 
 #: qml/FeedDetailsPage.qml:20
 #, kde-format
@@ -253,7 +253,7 @@ msgstr "%1 – detaljar"
 #: qml/FeedDetailsPage.qml:25
 #, kde-format
 msgid "Close"
-msgstr ""
+msgstr "Lukk"
 
 #: qml/FeedDetailsPage.qml:46
 #, kde-format
@@ -279,13 +279,13 @@ msgstr "%1 innlegg, %2 ulesne"
 #: qml/FeedGroupDialog.qml:24
 #, kde-format
 msgid "Feed Group"
-msgstr ""
+msgstr "Kjeldegruppe"
 
 #: qml/FeedGroupDialog.qml:50
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Name:"
-msgstr ""
+msgstr "Namn:"
 
 #: qml/FeedGroupDialog.qml:55
 #, kde-format
@@ -296,14 +296,13 @@ msgstr ""
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Description:"
-msgstr ""
+msgstr "Skildring:"
 
 #: qml/FeedGroupDialog.qml:70
-#, fuzzy, kde-format
-#| msgid "Use system default"
+#, kde-format
 msgctxt "@option:check"
 msgid "Set as default:"
-msgstr "Bruk systemstandard"
+msgstr "Bruk som standard:"
 
 #: qml/FeedListDelegate.qml:29
 #, kde-format
@@ -316,44 +315,44 @@ msgstr[1] "%1 ulesne oppføringar"
 #, kde-format
 msgctxt "'Feed' is an rss feed"
 msgid "Delete this Feed"
-msgstr ""
+msgstr "Slett kjelda"
 
 #: qml/FeedListDelegate.qml:50
 #, kde-format
 msgctxt "'Feed' is an rss feed"
 msgid "Edit this Feed"
-msgstr ""
+msgstr "Rediger kjelda"
 
 #: qml/FeedListPage.qml:18
 #, kde-format
 msgctxt "'Feeds' as in 'RSS Feeds'"
 msgid "Manage Feeds"
-msgstr ""
+msgstr "Handsam kjelder"
 
 #: qml/FeedListPage.qml:32
 #, kde-format
 msgid "Refresh All Feeds"
-msgstr ""
+msgstr "Oppdater aller kjelder"
 
 #: qml/FeedListPage.qml:38 qml/FeedListPage.qml:113
 #, kde-format
 msgid "Add Feed…"
-msgstr ""
+msgstr "Legg til kjelde …"
 
 #: qml/FeedListPage.qml:45
 #, kde-format
 msgid "Manage Feed Groups"
-msgstr ""
+msgstr "Handsam kjeldegrupper"
 
 #: qml/FeedListPage.qml:50
 #, kde-format
 msgid "Import Feeds…"
-msgstr ""
+msgstr "Importer kjelder …"
 
 #: qml/FeedListPage.qml:55
 #, kde-format
 msgid "Export Feeds…"
-msgstr ""
+msgstr "Eksporter kjelder …"
 
 #: qml/FeedListPage.qml:119
 #, kde-format
@@ -393,26 +392,25 @@ msgstr "Alle filer"
 #: qml/GroupsListPage.qml:19
 #, kde-format
 msgid "Groups"
-msgstr ""
+msgstr "Grupper"
 
 #: qml/GroupsListPage.qml:24
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Add Group…"
-msgstr ""
+msgstr "Legg til gruppe …"
 
 #: qml/GroupsListPage.qml:54
-#, fuzzy, kde-format
-#| msgid "Use system default"
+#, kde-format
 msgctxt "@action:button"
 msgid "Set as Default"
-msgstr "Bruk systemstandard"
+msgstr "Bruk som standard"
 
 #: qml/GroupsListPage.qml:67
 #, kde-format
 msgctxt "@action:button"
 msgid "Remove"
-msgstr ""
+msgstr "Fjern"
 
 #: qml/GroupsListPage.qml:83
 #, kde-format
@@ -424,10 +422,10 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Add Group…"
-msgstr ""
+msgstr "Legg til gruppe …"
 
 #: qml/SettingsPage.qml:23
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@title"
 msgid "Article List"
 msgstr "Artikkelliste"
