@@ -1,16 +1,22 @@
 # Translation for alligator.po to Euskara/Basque (eu).
-# Copyright (C) 2020-2025 This file is copyright:
+# Copyright (C) 2020-2026 This file is copyright:
 # This file is distributed under the same license as the alligator package.
-# SPDX-FileCopyrightText: 2023, 2024, 2025 KDE euskaratzeko proiektuko arduraduna <xalba@ni.eus>
+# SPDX-FileCopyrightText: 2023-2026 KDE euskaratzeko proiektuaren arduraduna <xalba@ni.eus>
 #
 # Translators:
-# Iñigo Salvador Azurmendi <xalba@ni.eus>, 2020, 2021, 2022, 2023, 2024, 2025.
+# Iñigo Salvador Azurmendi <xalba@ni.eus>, 2020, 2021, 2022, 2023, 2024, 2025, 2026.
+#
+# Egoera:
+# Proiektu osoaren berrikuspen integrala: 2026-08-03.
+# Terminologia, estiloa, ortotipografia, koherentzia eta kohesioa berrikusi dira.
+# Erreferentzia-gida: kde-rss-eta-atom-jario-irakurleen_eu-itzulpen-gida.md
+# Ikus, halaber: KDE-eu-berrikuspen-integralen-erregistroa.md
 msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-19 00:44+0000\n"
-"PO-Revision-Date: 2025-12-07 11:40+0100\n"
+"PO-Revision-Date: 2026-08-03 13:13+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -18,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 25.08.3\n"
+"X-Generator: Lokalize 26.04.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -63,12 +69,12 @@ msgstr "Alligator"
 #: main.cpp:80
 #, kde-format
 msgid "Feed Reader"
-msgstr "Web-jario irakurlea"
+msgstr "Jario-irakurlea"
 
 #: main.cpp:82
 #, kde-format
 msgid "© 2020-2024 KDE Community"
-msgstr "© 2020-2024 KDE Komunitatea"
+msgstr "© 2020-2024 KDE komunitatea"
 
 #: main.cpp:83
 #, kde-format
@@ -78,7 +84,7 @@ msgstr "Tobias Fella"
 #: main.cpp:96
 #, kde-format
 msgid "RSS/Atom Feed Reader"
-msgstr "RSS/Atom web-jario irakurlea"
+msgstr "RSS/Atom jario-irakurlea"
 
 #: main.cpp:98
 #, kde-format
@@ -88,12 +94,12 @@ msgstr "Datu-basera jario berria gehitzen du."
 #: main.cpp:99
 #, kde-format
 msgid "feed URL"
-msgstr "Jarioaren URL"
+msgstr "Jarioaren URLa"
 
 #: qml/AddFeedDialog.qml:19
 #, kde-format
 msgid "Add Feed"
-msgstr "Gehitu jarioa"
+msgstr "Jarioa gehitu"
 
 #: qml/AddFeedDialog.qml:44
 #, kde-format
@@ -103,7 +109,7 @@ msgstr "URLa:"
 #: qml/AddFeedDialog.qml:50
 #, kde-format
 msgid "Mark entries as read"
-msgstr "Markatu sarrerak irakurritako gisa"
+msgstr "Sarrerak irakurritako gisa markatu"
 
 #: qml/AlligatorGlobalDrawer.qml:95 qml/AlligatorGlobalDrawer.qml:108
 #, kde-format
@@ -118,7 +124,7 @@ msgstr "Ezarpenak"
 #: qml/AlligatorGlobalDrawer.qml:195
 #, kde-format
 msgid "Manage Feeds"
-msgstr "Kudeatu jarioak"
+msgstr "Jarioak kudeatu"
 
 #: qml/AlligatorGlobalDrawer.qml:210
 #, kde-format
@@ -128,7 +134,7 @@ msgstr "Honi buruz"
 #: qml/EditFeedDialog.qml:15
 #, kde-format
 msgid "Edit Feed"
-msgstr "Editatu jarioa"
+msgstr "Jarioa editatu"
 
 #: qml/EditFeedDialog.qml:33
 #, kde-format
@@ -138,7 +144,7 @@ msgstr "Jarioaren URLa:"
 #: qml/EditFeedDialog.qml:41
 #, kde-format
 msgid "Display Name:"
-msgstr "Azaldu beharreko izena:"
+msgstr "Bistaratzeko izena:"
 
 #: qml/EditFeedDialog.qml:51
 #, kde-format
@@ -149,7 +155,7 @@ msgstr "Taldea:"
 #, kde-format
 msgctxt "by <author(s)>"
 msgid "by"
-msgstr "nork"
+msgstr "—"
 
 #: qml/EntryListPage.qml:48
 #, kde-format
@@ -160,22 +166,22 @@ msgstr "Freskatu"
 #, kde-format
 msgctxt "@action:button"
 msgid "Mark all read"
-msgstr "Markatu dena irakurrita"
+msgstr "Dena irakurrita markatu"
 
 #: qml/EntryListPage.qml:66
 #, kde-format
 msgid "Details"
-msgstr "Zehaztasunak"
+msgstr "Xehetasunak"
 
 #: qml/EntryListPage.qml:89
 #, kde-format
 msgid "Expand sidebar"
-msgstr "Zabaldu alboko-barra"
+msgstr "Alboko-barra zabaldu"
 
 #: qml/EntryListPage.qml:89
 #, kde-format
 msgid "Collapse sidebar"
-msgstr "Tolestu alboko-barra"
+msgstr "Alboko-barra tolestu"
 
 #: qml/EntryListPage.qml:100
 #, kde-format
@@ -231,25 +237,25 @@ msgstr "Ireki arakatzailean"
 #, kde-format
 msgctxt "@action:button"
 msgid "Remove from Favorites"
-msgstr "Kendu gogokoetatik"
+msgstr "Gogokoetatik kendu"
 
 #: qml/EntryPage.qml:74
 #, kde-format
 msgctxt "@action:button"
 msgid "Add to Favorites"
-msgstr "Gehitu gogokoetara"
+msgstr "Gogokoetara gehitu"
 
 #: qml/EntryPage.qml:82
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Link"
-msgstr "Kopiatu esteka"
+msgstr "Esteka kopiatu"
 
 #: qml/FeedDetailsPage.qml:20
 #, kde-format
 msgctxt "<Feed Name> - Details"
 msgid "%1 - Details"
-msgstr "%1 - Zehaztasunak"
+msgstr "%1 - Xehetasunak"
 
 #: qml/FeedDetailsPage.qml:25
 #, kde-format
@@ -275,7 +281,7 @@ msgstr "azken eguneratzea: %1"
 #: qml/FeedDetailsPage.qml:60
 #, kde-format
 msgid "%1 posts, %2 unread"
-msgstr "%1 posta, %2 irakurri gabe"
+msgstr "%1 sarrera, %2 irakurri gabe"
 
 #: qml/FeedGroupDialog.qml:24
 #, kde-format
@@ -303,57 +309,57 @@ msgstr "Deskribapena:"
 #, kde-format
 msgctxt "@option:check"
 msgid "Set as default:"
-msgstr "Ezarri lehenetsi gisa:"
+msgstr "Lehenetsi gisa ezarri:"
 
 #: qml/FeedListDelegate.qml:29
 #, kde-format
 msgid "%1 unread entry"
 msgid_plural "%1 unread entries"
-msgstr[0] "irakurri gabeko sarrera %1"
-msgstr[1] "irakurri gabeko %1 sarrera"
+msgstr[0] "Irakurri gabeko sarrera %1"
+msgstr[1] "Irakurri gabeko %1 sarrera"
 
 #: qml/FeedListDelegate.qml:35
 #, kde-format
 msgctxt "'Feed' is an rss feed"
 msgid "Delete this Feed"
-msgstr "Ezabatu web-jario hori"
+msgstr "Jario hau ezabatu"
 
 #: qml/FeedListDelegate.qml:50
 #, kde-format
 msgctxt "'Feed' is an rss feed"
 msgid "Edit this Feed"
-msgstr "Editatu web-jario hori"
+msgstr "Jario hau editatu"
 
 #: qml/FeedListPage.qml:18
 #, kde-format
 msgctxt "'Feeds' as in 'RSS Feeds'"
 msgid "Manage Feeds"
-msgstr "Kudeatu jarioak"
+msgstr "Jarioak kudeatu"
 
 #: qml/FeedListPage.qml:32
 #, kde-format
 msgid "Refresh All Feeds"
-msgstr "Freskatu jario guztiak"
+msgstr "Jario guztiak freskatu"
 
 #: qml/FeedListPage.qml:38 qml/FeedListPage.qml:113
 #, kde-format
 msgid "Add Feed…"
-msgstr "Gehitu jarioa..."
+msgstr "Jarioa gehitu…"
 
 #: qml/FeedListPage.qml:45
 #, kde-format
 msgid "Manage Feed Groups"
-msgstr "Kudeatu jario-taldeak"
+msgstr "Jario-taldeak kudeatu"
 
 #: qml/FeedListPage.qml:50
 #, kde-format
 msgid "Import Feeds…"
-msgstr "Inportatu jarioak..."
+msgstr "Jarioak inportatu…"
 
 #: qml/FeedListPage.qml:55
 #, kde-format
 msgid "Export Feeds…"
-msgstr "Esportatu jarioak..."
+msgstr "Jarioak esportatu…"
 
 #: qml/FeedListPage.qml:119
 #, kde-format
@@ -363,7 +369,7 @@ msgstr "Oraindik ez da jariorik gehitu"
 #: qml/FeedListPage.qml:125
 #, kde-format
 msgid "Import Feeds"
-msgstr "Inportatu jarioak"
+msgstr "Jarioak inportatu"
 
 #: qml/FeedListPage.qml:127 qml/FeedListPage.qml:135
 #, kde-format
@@ -383,7 +389,7 @@ msgstr "Fitxategi guztiak (*)"
 #: qml/FeedListPage.qml:133
 #, kde-format
 msgid "Export Feeds"
-msgstr "Esportatu jarioak"
+msgstr "Jarioak esportatu"
 
 #: qml/FeedListPage.qml:135
 #, kde-format
@@ -399,13 +405,13 @@ msgstr "Taldeak"
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Add Group…"
-msgstr "Gehitu taldea…"
+msgstr "Taldea gehitu…"
 
 #: qml/GroupsListPage.qml:54
 #, kde-format
 msgctxt "@action:button"
 msgid "Set as Default"
-msgstr "Ezarri lehenetsi gisa"
+msgstr "Lehenetsi gisa ezarri"
 
 #: qml/GroupsListPage.qml:67
 #, kde-format
@@ -423,7 +429,7 @@ msgstr "Oraindik ez da talderik sortu"
 #, kde-format
 msgctxt "@action:button"
 msgid "Add Group…"
-msgstr "Gehitu taldea…"
+msgstr "Taldea gehitu…"
 
 #: qml/SettingsPage.qml:23
 #, kde-format

@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-19 00:44+0000\n"
-"PO-Revision-Date: 2026-08-02 19:14+0200\n"
+"PO-Revision-Date: 2026-08-03 19:37+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@nuug.no>\n"
 "Language: nn\n"
@@ -37,7 +37,7 @@ msgstr "Standard"
 #: database.cpp:85 database.cpp:379
 #, kde-format
 msgid "Default Feed Group"
-msgstr ""
+msgstr "Standard kjeldegruppe"
 
 #: fetcher.cpp:255
 #, kde-format
@@ -47,7 +47,7 @@ msgstr "Ugyldig XML"
 #: fetcher.cpp:257
 #, kde-format
 msgid "No parser accepted the XML"
-msgstr ""
+msgstr "Inge tolkar godtok XML-en"
 
 #: fetcher.cpp:259
 #, kde-format
@@ -82,7 +82,7 @@ msgstr "RSS- og Atom-kjeldelesar"
 #: main.cpp:98
 #, kde-format
 msgid "Adds a new feed to database."
-msgstr ""
+msgstr "Legg til ei ny kjelde til databasen."
 
 #: main.cpp:99
 #, kde-format
@@ -290,7 +290,7 @@ msgstr "Namn:"
 #: qml/FeedGroupDialog.qml:55
 #, kde-format
 msgid "A group with that name already exists."
-msgstr ""
+msgstr "Det finst alt ei gruppe med dette namnet."
 
 #: qml/FeedGroupDialog.qml:64
 #, kde-format
@@ -357,7 +357,7 @@ msgstr "Eksporter kjelder …"
 #: qml/FeedListPage.qml:119
 #, kde-format
 msgid "No feeds added yet"
-msgstr ""
+msgstr "Ingen kjelder er lagde til"
 
 #: qml/FeedListPage.qml:125
 #, kde-format
@@ -416,7 +416,7 @@ msgstr "Fjern"
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "No groups created yet"
-msgstr ""
+msgstr "Ingen grupper er oppretta"
 
 #: qml/GroupsListPage.qml:88
 #, kde-format
