@@ -56,7 +56,7 @@
   <summary xml:lang="en-GB">RSS feed reader</summary>
   <summary xml:lang="eo">RSS-flua legilo</summary>
   <summary xml:lang="es">Lector de fuentes RSS</summary>
-  <summary xml:lang="eu">RSS jario irakurlea</summary>
+  <summary xml:lang="eu">RSS jario-irakurlea</summary>
   <summary xml:lang="fi">RSS-syötelukija</summary>
   <summary xml:lang="fr">Lecteur de fil d'actualités « RSS »</summary>
   <summary xml:lang="gl">Lector de novas RSS</summary>
@@ -69,6 +69,7 @@
   <summary xml:lang="lt">RSS kanalų skaitytuvė</summary>
   <summary xml:lang="lv">RSS plūsmu lasītājs</summary>
   <summary xml:lang="nl">Lezer van RSS-feed</summary>
+  <summary xml:lang="nn">Lesar for RSS-kjelder</summary>
   <summary xml:lang="pl">Czytnik kanałów RSS</summary>
   <summary xml:lang="pt-BR">Leitor de fontes de notícias RSS</summary>
   <summary xml:lang="ro">Cititor de fluxuri RSS</summary>
@@ -102,7 +103,7 @@
     <p xml:lang="en-GB">Alligator is a convergent, cross-platform feed reader, supporting standard RSS/Atom feeds</p>
     <p xml:lang="eo">Aligatoro estas konverĝa, plurplatforma leganto, subtenanta normajn RSS/Atom-fluojn</p>
     <p xml:lang="es">Alligator es un lector de fuentes convergente y multiplataforma compatible con fuentes RSS/Atom estándar</p>
-    <p xml:lang="eu">Alligator, RSS estandarreko/Atom-eko jarioetarako euskarria duen jario irakurle konbergente, plataforma-anitzekoa da</p>
+    <p xml:lang="eu">Alligator plataforma anitzeko jario-irakurle konbergentea da, RSS eta Atom jario estandarrak onartzen dituena</p>
     <p xml:lang="fi">Alligator on mukautuva monialustainen syötelukija, joka tukee RSS- ja Atom-syötestandardeja</p>
     <p xml:lang="fr">Alligator est un lecteur de flux convergent multi-plate-forme, prenant en charge les flux standards RSS / Atom</p>
     <p xml:lang="gl">Alligator é un lector de novas converxente multiplataforma compatíbel coas fontes estándar RSS e Atom.</p>
@@ -115,6 +116,7 @@
     <p xml:lang="lt">Alligator yra konverguojanti, daugiaplatformė sklaidos kanalų skaitytuvė, palaikanti standartinius RSS/Atom kanalus</p>
     <p xml:lang="lv">„Alligator“ ir konverģents plūsmu lasītājs vairākām platformām, kas atbalsta standarta RSS/„Atom“ plūsmas</p>
     <p xml:lang="nl">Alligator is een convergente, cross-platform lezer van feed, ondersteunt standaard RSS/Atom feeds</p>
+    <p xml:lang="nn">Alligator er ein kjeldelesar tilpassa ulike typar brukarflater, med støtte for RSS- og Atom-kjelder</p>
     <p xml:lang="pl">Alligator jest dostosowującym się, wieloplatformowym czytnikiem kanałów RSS/Atom</p>
     <p xml:lang="pt-BR">O Alligator é um leitor de fontes de notícias multi-plataforma e convergente, suportando fontes RSS/Atom padrão</p>
     <p xml:lang="ro">Alligator e un cititor de fluxuri convergent, multiplatformă, ce susține fluxurile RSS/Atom</p>
@@ -273,6 +275,7 @@
         <p xml:lang="ca-valencia">Actualització de les traduccions</p>
         <p xml:lang="cs">Aktualizace překladů</p>
         <p xml:lang="es">Actualización de las traducciones</p>
+        <p xml:lang="eu">Itzulpenen eguneraketa</p>
         <p xml:lang="fi">käännösten päivitys</p>
         <p xml:lang="fr">Mise à jour des traductions</p>
         <p xml:lang="he">תרגומים עדכניים</p>
@@ -311,6 +314,7 @@
           <li xml:lang="ca-valencia">Implementació de la construcció basada en les Qt6</li>
           <li xml:lang="cs">Podpora sestavení založeného na Qt6</li>
           <li xml:lang="es">Compatibilidad con la compilación basada en Qt6</li>
+          <li xml:lang="eu">Qt6n oinarritutako eraikuntzarako euskarria</li>
           <li xml:lang="fi">tuki Qt6-pohjaiselle koosteelle</li>
           <li xml:lang="fr">Prise en charge des compilations reposant sur Qt6</li>
           <li xml:lang="he">תמיכה במהדורה מבוססת Qt6</li>
@@ -321,6 +325,7 @@
           <li xml:lang="ko">Qt6 기반 빌드 지원</li>
           <li xml:lang="lt">Qt6 pagrįsto darinio palaikymas</li>
           <li xml:lang="nl">Ondersteuning voor op Qt6 gebouwd</li>
+          <li xml:lang="nn">Støtte for Qt6-basert kompilering</li>
           <li xml:lang="pt-BR">Suporte para compilação baseada em Qt6</li>
           <li xml:lang="ru">Поддержка сборки на основе Qt6</li>
           <li xml:lang="sk">Podpora zostavenia na báze Qt6</li>
@@ -343,6 +348,7 @@
           <li xml:lang="ca-valencia">Actualitzacions generals de reestructuració de codi i traduccions</li>
           <li xml:lang="cs">Obecná refaktorizace kódu a aktualizace překladů</li>
           <li xml:lang="es">Refactorización general del código y actualización de las traducciones</li>
+          <li xml:lang="eu">Kodearen berregituraketa orokorra eta itzulpenen eguneraketak</li>
           <li xml:lang="fi">yleistä koodin uudistusta ja käännösten päivityksiä</li>
           <li xml:lang="fr">Ré-agencement général du code et mises à jour des traductions</li>
           <li xml:lang="he">שכתוב קוד כללי ועדכוני תרגומים</li>
@@ -353,6 +359,7 @@
           <li xml:lang="ko">일반 코드 리팩토링 및 번역 업데이트</li>
           <li xml:lang="lt">Bendri kodo pertvarkymo ir vertimų atnaujinimai</li>
           <li xml:lang="nl">Algemene herziening van de code en bijgewerkte vertalingen</li>
+          <li xml:lang="nn">Generell kode­refaktorering og oppdaterte omsetjingar</li>
           <li xml:lang="pt-BR">Atualizações gerais de refatoração de código e traduções</li>
           <li xml:lang="ru">Общий рефакторинг кода и обновления переводов</li>
           <li xml:lang="sk">Všeobecný refaktoring kódu a aktualizácia prekladov</li>
@@ -375,6 +382,7 @@
           <li xml:lang="ca-valencia">Ajusta el títol de les entrades</li>
           <li xml:lang="cs">Sbalení názvu položky</li>
           <li xml:lang="es">Ajustar el título de la entrada.</li>
+          <li xml:lang="eu">Sarreren izenburuak lerro anitzetan banatzea</li>
           <li xml:lang="fi">rivitetään tietueen otsikko</li>
           <li xml:lang="fr">Faire revenir  le titre de l'entrée à la ligne</li>
           <li xml:lang="he">כותרת רשומה גולשת</li>
@@ -385,6 +393,7 @@
           <li xml:lang="ko">항목의 제목 둘러싸기</li>
           <li xml:lang="lt">Skaidyti įrašo pavadinimą</li>
           <li xml:lang="nl">Gehele titel laten omlopen</li>
+          <li xml:lang="nn">Automatisk linjebryting for titlar</li>
           <li xml:lang="pt-BR">Quebra do título da entrada</li>
           <li xml:lang="ru">Перенос заголовков записей</li>
           <li xml:lang="sk">Zalamovanie nadpisu záznamu</li>
@@ -400,6 +409,7 @@
           <li xml:lang="ca-valencia">Actualitza totes les fonts en iniciar i no cal l'actualització manual</li>
           <li xml:lang="cs">Při spuštění se obnoví všechny kanály a nevyžadují ruční obnovení</li>
           <li xml:lang="es">Actualizar todas las fuentes durante el inicio y no solicitar actualización manual.</li>
+          <li xml:lang="eu">Eskuz freskatu beharrik gabe, abioan jario guztiak freskatzea</li>
           <li xml:lang="fi">virkistetään kaikki syötteet käynnistettäessä ilman että käyttäjän tarvitsee tehdä sitä</li>
           <li xml:lang="fr">Actualiser tous les flux au démarrage et ne pas avoir besoin d'un rafraîchissement manuel</li>
           <li xml:lang="he">כל הערוצים מתרעננים עם ההפעלה, ולא דורשים ריענון ידני</li>
@@ -410,6 +420,7 @@
           <li xml:lang="ko">시작할 때 모든 피드를 새로 고쳐서 수동 새로 고침이 필요하지 않음</li>
           <li xml:lang="lt">Programos paleidimo metu įkelti iš naujo visus kanalus ir nereikalauti įkėlimo iš naujo rankiniu būdu</li>
           <li xml:lang="nl">Alle feeds bij opstarten vernieuwen en vereist geen handmatige vernieuwing</li>
+          <li xml:lang="nn">Oppdater alle kjeldene ved oppstart, og ikkje krev manuell oppdatering</li>
           <li xml:lang="pt-BR">Atualizar todos os feeds na inicialização e não requerer atualização manual</li>
           <li xml:lang="ru">Обновление всех каналов при запуске, не требуя ручного обновления</li>
           <li xml:lang="sk">Obnoviť všetky kanály pri spustení, bez potreby manuálneho obnovenia</li>
@@ -425,6 +436,7 @@
           <li xml:lang="ca-valencia">Afig una pàgina per a veure totes les entrades en una llista</li>
           <li xml:lang="cs">Přidána stránka pro zobrazení všech záznamů v jednom seznamu</li>
           <li xml:lang="es">Se ha añadido una página para ver todas las entradas en una lista.</li>
+          <li xml:lang="eu">Sarrera guztiak zerrenda bakarrean ikusteko orrialdea gehitzea</li>
           <li xml:lang="fi">lisätty sivu, jossa kaikki tietueet näkee yhtenä luettelona</li>
           <li xml:lang="fr">Ajout d'une page pour l'affichage de toutes les entrées dans une seule liste</li>
           <li xml:lang="he">נוסף עמוד להצגת כל הרשומות ברשימה אחת</li>
@@ -435,6 +447,7 @@
           <li xml:lang="ko">모든 항목을 하나의 목록으로 볼 수 있는 페이지 추가</li>
           <li xml:lang="lt">Pridėtas puslapis, skirtas peržiūrėti visus įrašus viename sąraše</li>
           <li xml:lang="nl">Pagina toegevoegd om alle items in één lijst te bekijken</li>
+          <li xml:lang="nn">Legg til side for å visa alle oppføringar i éi liste</li>
           <li xml:lang="pt-BR">Adicionar página para visualizar todas as entradas em uma única lista</li>
           <li xml:lang="ru">Добавлена страница для просмотра всех записей в одном списке</li>
           <li xml:lang="sk">Pridať stránku na zobrazenie všetkých záznamov v jednom zozname</li>
@@ -450,6 +463,7 @@
           <li xml:lang="ca-valencia">Correcció de fallada en actualitzar</li>
           <li xml:lang="cs">Oprava pádu při obnovování</li>
           <li xml:lang="es">Se ha corregido un fallo durante la actualización.</li>
+          <li xml:lang="eu">Freskatzean gertatzen zen kraskadura konpontzea</li>
           <li xml:lang="fi">korjattu kaatuminen virkistettäessä</li>
           <li xml:lang="fr">Correction du plantage lors du rafraîchissement</li>
           <li xml:lang="he">תוקנה קריסה בעת ריענון</li>
@@ -460,6 +474,7 @@
           <li xml:lang="ko">새로 고침 시 충돌 해결</li>
           <li xml:lang="lt">Ištaisyta strigtis įkeliant iš naujo</li>
           <li xml:lang="nl">Crash bij vernieuwen opgelost</li>
+          <li xml:lang="nn">Retta krasj ved oppfrisking</li>
           <li xml:lang="pt-BR">Corrigido o problema que causava o fechamento inesperado do aplicativo ao atualizar</li>
           <li xml:lang="ru">Исправлен сбой при обновлении</li>
           <li xml:lang="sk">Opravenie pádu pri obnovení</li>
@@ -475,6 +490,7 @@
           <li xml:lang="ca-valencia">Permet filtrar les entrades llegides</li>
           <li xml:lang="cs">Povoleno filtrování přečtených položek</li>
           <li xml:lang="es">Permitir filtrar las entradas leídas.</li>
+          <li xml:lang="eu">Irakurritako sarrerak iragazteko aukera</li>
           <li xml:lang="fi">sallitaan luettujen tietueiden suodatus</li>
           <li xml:lang="fr">Permettre le filtrage des entrées lues</li>
           <li xml:lang="he">נוספה אפשרות לניפוי רשומות שנקראו</li>
@@ -485,6 +501,7 @@
           <li xml:lang="ko">읽은 항목 필터 허용</li>
           <li xml:lang="lt">Leidžiama filtruoti skaitytus įrašus</li>
           <li xml:lang="nl">Filteren van gelezen items toestaan</li>
+          <li xml:lang="nn">Støtte for filtrering av lesne element</li>
           <li xml:lang="pt-BR">Permitir filtrar entradas de leitura</li>
           <li xml:lang="ru">Возможность фильтрации прочитанных записей</li>
           <li xml:lang="sk">Možnosť filtrovania prečítaných záznamov</li>
@@ -507,6 +524,7 @@
           <li xml:lang="ca-valencia">Corregix una fuita de memòria en recuperar les fonts</li>
           <li xml:lang="cs">Oprava úniku paměti při načítání kanálů</li>
           <li xml:lang="es">Se ha corregido una fuga de memoria al obtener las emisiones.</li>
+          <li xml:lang="eu">Jarioak eskuratzean gertatzen zen memoria-ihesa konpontzea</li>
           <li xml:lang="fi">korjattu muistivuoto syötteitä noudettaessa</li>
           <li xml:lang="fr">Correction de la fuite de mémoire lors de la récupération de flux</li>
           <li xml:lang="he">תוקנה זליגת זיכרון במשיכת ערוצים</li>
@@ -517,6 +535,7 @@
           <li xml:lang="ko">피드 가져올 때 메모리 누수 해결</li>
           <li xml:lang="lt">Ištaisytas atminties nutekėjimas gaunant kanalus</li>
           <li xml:lang="nl">Los het geheugenlek op bij het ophalen van feeds</li>
+          <li xml:lang="nn">Retta minnelekkasje ved henting av kjelder</li>
           <li xml:lang="pt-BR">Corrigido vazamento de memória ao buscar feeds</li>
           <li xml:lang="ru">Исправлена утечка памяти при получении лент</li>
           <li xml:lang="sk">Opravenie úniku pamäte pri načítavaní kanálov</li>
@@ -543,6 +562,7 @@
         <p xml:lang="ca-valencia">Llançament de Plasma Mobile Gear 21.06</p>
         <p xml:lang="cs">Vydání Plasma Mobile Gear 21.06</p>
         <p xml:lang="es">Versión para Plasma Mobile Gear 21.06</p>
+        <p xml:lang="eu">Plasma Mobile Gear 21.06 argitalpena</p>
         <p xml:lang="fi">Plasma Mobile Gear 21.06:n julkaisu</p>
         <p xml:lang="fr">Publication de Plasma Mobile Gear 21.06</p>
         <p xml:lang="he">מהדורת 21.06 של Plasma Mobile Gear</p>
@@ -553,6 +573,7 @@
         <p xml:lang="ko">Plasma 모바일 기어 21.06 릴리스</p>
         <p xml:lang="lt">Plasma Mobile Gear 21.06 laida</p>
         <p xml:lang="nl">Plasma Mobile Gear 21.06 uitgave</p>
+        <p xml:lang="nn">Plasma Mobile Gear 21.06-utgåve</p>
         <p xml:lang="pt-BR">Lançamento do Plasma Mobile Gear 21.06</p>
         <p xml:lang="ru">Выпуск Plasma Mobile Gear 21.06</p>
         <p xml:lang="sk">Plasma Mobile Gear 21.06 release</p>
@@ -569,6 +590,7 @@
           <li xml:lang="ca-valencia">Corregix l'alçària de les imatges redimensionades</li>
           <li xml:lang="cs">Opravena výška změněných obrázků</li>
           <li xml:lang="es">Se ha corregido la altura de las imágenes cuyo tamaño se ha cambiado</li>
+          <li xml:lang="eu">Tamainaz aldatutako irudien altuera zuzentzea</li>
           <li xml:lang="fi">korjattu korkeus kuvilta, joiden koko on muutettu</li>
           <li xml:lang="fr">Correction de la hauteur des images redimensionnées</li>
           <li xml:lang="he">תוקן הגובה של תמונות שגודלן השתנה</li>
@@ -579,6 +601,7 @@
           <li xml:lang="ko">크기 조정된 그림의 높이 수정</li>
           <li xml:lang="lt">Ištaisytas pakeisto dydžio paveikslų aukštis</li>
           <li xml:lang="nl">De hoogte van verkleinde afbeeldingen corrigeren</li>
+          <li xml:lang="nn">Retta høgd på reskalerte bilete</li>
           <li xml:lang="pt-BR">Corrigida a altura das imagens redimensionadas</li>
           <li xml:lang="ru">Исправлена высота изменённых изображений</li>
           <li xml:lang="sk">Opravenie výšky zmenenej veľkosti obrázkov</li>
