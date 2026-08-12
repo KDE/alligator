@@ -81,7 +81,7 @@ msgstr "قارئ التّغذيات RSS/Atom"
 #: main.cpp:98
 #, kde-format
 msgid "Adds a new feed to database."
-msgstr "يضيف تلقيماً جديداً إلى قاعدة البيانات."
+msgstr "يضيف تلقيمًا جديدًا إلى قاعدة البيانات."
 
 #: main.cpp:99
 #, kde-format
