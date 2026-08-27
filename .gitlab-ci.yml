@@ -8,5 +8,3 @@ include:
       - /gitlab-templates/reuse-lint.yml
       - /gitlab-templates/linux-qt6-lts.yml
       # - /gitlab-templates/linux-qt6-static.yml
-      - /gitlab-templates/flatpak.yml
-      - /gitlab-templates/craft-android-qt6-apks.yml
