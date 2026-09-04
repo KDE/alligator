@@ -54,13 +54,18 @@ int main(int argc, char *argv[])
     QCoreApplication::setOrganizationName(QStringLiteral("KDE"));
     QCoreApplication::setOrganizationDomain(QStringLiteral("kde.org"));
     QCoreApplication::setApplicationName(QStringLiteral("Alligator"));
+    QCoreApplication::setApplicationVersion(QStringLiteral(ALLIGATOR_VERSION_STRING));
+    QGuiApplication::setApplicationDisplayName(i18n("Alligator"));
+    QGuiApplication::setDesktopFileName(QStringLiteral("org.kde.alligator"));
 
-    KAboutData about(QStringLiteral("alligator"),
-                     i18n("Alligator"),
-                     QStringLiteral(ALLIGATOR_VERSION_STRING),
-                     i18n("Feed Reader"),
-                     KAboutLicense::GPL,
-                     i18n("© 2020-2024 KDE Community"));
+#if KCOREADDONS_VERSION >= QT_VERSION_CHECK(6, 28, 0)
+    auto about = KAboutData::fromAppStreamForApplication();
+#else
+    auto about = KAboutData::applicationData();
+    about.setShortDescription(i18n("Feed Reader"));
+#endif
+    about.setLicense(KAboutLicense::GPL);
+    about.setCopyrightStatement(i18n("© 2020-2024 KDE Community"));
     about.addAuthor(i18n("Tobias Fella"), QString(), QStringLiteral("tobias.fella@kde.org"), QStringLiteral("https://tobiasfella.de"));
     KAboutData::setApplicationData(about);
 
