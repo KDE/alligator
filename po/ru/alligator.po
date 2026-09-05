@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-26 00:43+0000\n"
+"POT-Creation-Date: 2026-09-05 00:44+0000\n"
 "PO-Revision-Date: 2026-02-13 21:37+0200\n"
 "Last-Translator: Alexander Yavorskiy <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -56,37 +56,37 @@ msgstr "XML не принят анализатором"
 msgid "Error while parsing feed"
 msgstr "Ошибка при разборе ленты"
 
-#: main.cpp:59 qml/AlligatorGlobalDrawer.qml:56
+#: main.cpp:58 qml/AlligatorGlobalDrawer.qml:56
 #, kde-format
 msgid "Alligator"
 msgstr "Alligator"
 
-#: main.cpp:61
+#: main.cpp:65
 #, kde-format
 msgid "Feed Reader"
 msgstr "Чтение лент новостей"
 
-#: main.cpp:63
+#: main.cpp:68
 #, kde-format
 msgid "© 2020-2024 KDE Community"
 msgstr "© Сообщество KDE, 2020-2024"
 
-#: main.cpp:64
+#: main.cpp:69
 #, kde-format
 msgid "Tobias Fella"
 msgstr "Tobias Fella"
 
-#: main.cpp:77
+#: main.cpp:82
 #, kde-format
 msgid "RSS/Atom Feed Reader"
 msgstr "Чтение лент новостей RSS/Atom"
 
-#: main.cpp:79
+#: main.cpp:84
 #, kde-format
 msgid "Adds a new feed to database."
 msgstr "Добавляет в базу данных новую ленту."
 
-#: main.cpp:80
+#: main.cpp:85
 #, kde-format
 msgid "feed URL"
 msgstr "URL-адрес ленты новостей"

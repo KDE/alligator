@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-26 00:43+0000\n"
+"POT-Creation-Date: 2026-09-05 00:44+0000\n"
 "PO-Revision-Date: 2024-12-24 20:39+0530\n"
 "Last-Translator: kali <shreekantkalwar@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -54,37 +54,37 @@ msgstr "कोऽपि पार्सरः XML न स्वीकृतव�
 msgid "Error while parsing feed"
 msgstr "फीड् विश्लेषणं कुर्वन् त्रुटिः"
 
-#: main.cpp:59 qml/AlligatorGlobalDrawer.qml:56
+#: main.cpp:58 qml/AlligatorGlobalDrawer.qml:56
 #, kde-format
 msgid "Alligator"
 msgstr "मगरमच्छ"
 
-#: main.cpp:61
+#: main.cpp:65
 #, kde-format
 msgid "Feed Reader"
 msgstr "फीड रीडर"
 
-#: main.cpp:63
+#: main.cpp:68
 #, kde-format
 msgid "© 2020-2024 KDE Community"
 msgstr "© 2020-2024 केडीई समुदाय"
 
-#: main.cpp:64
+#: main.cpp:69
 #, kde-format
 msgid "Tobias Fella"
 msgstr "टोबियास फेला"
 
-#: main.cpp:77
+#: main.cpp:82
 #, kde-format
 msgid "RSS/Atom Feed Reader"
 msgstr "आर एस एस/परमाणु फीड रीडर"
 
-#: main.cpp:79
+#: main.cpp:84
 #, kde-format
 msgid "Adds a new feed to database."
 msgstr "दत्तांशकोशे नूतनं फीड् योजयति ।"
 
-#: main.cpp:80
+#: main.cpp:85
 #, kde-format
 msgid "feed URL"
 msgstr "फीड् URL"
