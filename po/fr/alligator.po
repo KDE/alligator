@@ -149,7 +149,7 @@ msgstr "par"
 #: qml/EntryListPage.qml:48
 #, kde-format
 msgid "Refresh"
-msgstr "Rafraîchir"
+msgstr "Rafraichir"
 
 #: qml/EntryListPage.qml:54
 #, kde-format
