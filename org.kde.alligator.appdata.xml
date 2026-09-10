@@ -413,7 +413,7 @@
           <li xml:lang="es">Actualizar todas las fuentes durante el inicio y no solicitar actualización manual.</li>
           <li xml:lang="eu">Eskuz freskatu beharrik gabe, abioan jario guztiak freskatzea</li>
           <li xml:lang="fi">virkistetään kaikki syötteet käynnistettäessä ilman että käyttäjän tarvitsee tehdä sitä</li>
-          <li xml:lang="fr">Actualiser tous les flux au démarrage et ne pas avoir besoin d'un rafraîchissement manuel</li>
+          <li xml:lang="fr">Actualiser tous les flux au démarrage et ne pas avoir besoin d'un rafraichissement manuel</li>
           <li xml:lang="he">כל הערוצים מתרעננים עם ההפעלה, ולא דורשים ריענון ידני</li>
           <li xml:lang="hu">Összes hírcsatorna frissítése induláskor, nincs szükség kézi frissítésre</li>
           <li xml:lang="ia">Refresca omne syndicationes al startar, e non require refrescamento manual</li>
@@ -467,7 +467,7 @@
           <li xml:lang="es">Se ha corregido un fallo durante la actualización.</li>
           <li xml:lang="eu">Freskatzean gertatzen zen kraskadura konpontzea</li>
           <li xml:lang="fi">korjattu kaatuminen virkistettäessä</li>
-          <li xml:lang="fr">Correction du plantage lors du rafraîchissement</li>
+          <li xml:lang="fr">Correction du plantage lors du rafraichissement</li>
           <li xml:lang="he">תוקנה קריסה בעת ריענון</li>
           <li xml:lang="hu">Frissítéskor jelentkező összeomlás javítása</li>
           <li xml:lang="ia">Corrige fracasso quando il refresca</li>
