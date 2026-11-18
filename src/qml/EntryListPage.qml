@@ -24,13 +24,13 @@ Kirigami.ScrollablePage {
 
     onRefreshingChanged: {
         if (refreshing) {
-	    if (groupName !== null) {
-		Fetcher.fetchGroup(groupName);
-	    } else if (feed === null) {
+            if (groupName) {
+                Fetcher.fetchGroup(groupName);
+            } else if (feed === null) {
                 Fetcher.fetchAll();
-	    } else {
+            } else {
                 feed.refresh();
-	    }
+            }
         }
     }
 
