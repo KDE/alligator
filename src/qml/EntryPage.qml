@@ -49,9 +49,10 @@ Kirigami.ScrollablePage {
             font.pointSize: Kirigami.Theme.defaultFont.pointSize * 1.35
         }
 
-        Kirigami.SelectableLabel {
+        TextEdit {
             id: contentLabel
 
+            readOnly: true
             text: page.content
             baseUrl: page.link
             textFormat: Text.RichText
