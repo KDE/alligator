@@ -24,7 +24,7 @@ Kirigami.ScrollablePage {
 
     onRefreshingChanged: {
         if (refreshing) {
-	    if (groupName !== null) {
+	    if (groupName) {
 		Fetcher.fetchGroup(groupName);
 	    } else if (feed === null) {
                 Fetcher.fetchAll();
