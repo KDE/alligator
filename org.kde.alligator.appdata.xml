@@ -8,6 +8,7 @@
   <name>Alligator</name>
   <name xml:lang="ar">قاطور</name>
   <name xml:lang="ast">Alligator</name>
+  <name xml:lang="bg">Alligator</name>
   <name xml:lang="ca">Alligator</name>
   <name xml:lang="ca-valencia">Alligator</name>
   <name xml:lang="cs">Alligator</name>
@@ -41,6 +42,10 @@
   <name xml:lang="sa">मगरमच्छ</name>
   <name xml:lang="sk">Alligator</name>
   <name xml:lang="sl">Alligator</name>
+  <name xml:lang="sr">Alligator</name>
+  <name xml:lang="sr-Latn">Alligator</name>
+  <name xml:lang="sr-ijekavian">Alligator</name>
+  <name xml:lang="sr-ijekavianlatin">Alligator</name>
   <name xml:lang="sv">Alligator</name>
   <name xml:lang="tr">Aligatör</name>
   <name xml:lang="ug">تىمساھ</name>
@@ -49,6 +54,7 @@
   <name xml:lang="zh-TW">Alligator</name>
   <summary>RSS feed reader</summary>
   <summary xml:lang="ar">قارئ التّغذيات RSS</summary>
+  <summary xml:lang="bg">Чeтец на RSS канали</summary>
   <summary xml:lang="ca">Lector de fonts RSS</summary>
   <summary xml:lang="ca-valencia">Lector de fonts RSS</summary>
   <summary xml:lang="cs">Čtečka kanálů RSS</summary>
@@ -77,6 +83,10 @@
   <summary xml:lang="sa">आरएसएस फीड रीडर</summary>
   <summary xml:lang="sk">Čítačka RSS kanálov</summary>
   <summary xml:lang="sl">bralnik virov RSS</summary>
+  <summary xml:lang="sr">Читач РСС довода</summary>
+  <summary xml:lang="sr-Latn">Čitač RSS dovoda</summary>
+  <summary xml:lang="sr-ijekavian">Читач РСС довода</summary>
+  <summary xml:lang="sr-ijekavianlatin">Čitač RSS dovoda</summary>
   <summary xml:lang="sv">RSS-kanalläsare</summary>
   <summary xml:lang="tr">RSS Beslemesi Okuyucusu</summary>
   <summary xml:lang="ug">RSS مەنبە ئوقۇغۇچ</summary>
@@ -96,6 +106,7 @@
   <description>
     <p>Alligator is a convergent, cross-platform feed reader, supporting standard RSS/Atom feeds</p>
     <p xml:lang="ar">قاطور هو قارئ موجزات متقارب ومتعدد الأنظمة، ويدعم موجزات RSS/Atom القياسية</p>
+    <p xml:lang="bg">Alligator е конвергентен, четец на новини, поддържащ стандартни RSS/Atom канали разработен за различни платформи</p>
     <p xml:lang="ca">Alligator és un lector de fonts convergent i multiplataforma, que admet canals RSS/Atom estàndard</p>
     <p xml:lang="ca-valencia">Alligator és un lector de fonts convergent i multiplataforma, que admet canals RSS/Atom estàndard</p>
     <p xml:lang="cs">Alligator je konvergentní, multiplatformní čtečka kanálů, podporující standardní kanály RSS/Atom</p>
@@ -124,6 +135,10 @@
     <p xml:lang="sa">एलिगेटर् एकः अभिसरणीयः, पार-मञ्च-फीड्-रीडरः अस्ति, यः मानक-आरएसएस/एटम्-फीड्-समर्थनं करोति</p>
     <p xml:lang="sk">Alligator je konvergentná, multiplatformová čítačka kanálov, podporujúca štandardné RSS/Atom kanály</p>
     <p xml:lang="sl">Alligator je konvergenten bralnik virov za več platform, ki podpira standardne vire RSS/Atom</p>
+    <p xml:lang="sr">Alligator је конвергентни вишеплатформски читач довода, који подржава стандардне РСС/атом доводе</p>
+    <p xml:lang="sr-Latn">Alligator je konvergentni višeplatformski čitač dovoda, koji podržava standardne RSS/Atom dovode</p>
+    <p xml:lang="sr-ijekavian">Alligator је конвергентни вишеплатформски читач довода, који подржава стандардне РСС/атом доводе</p>
+    <p xml:lang="sr-ijekavianlatin">Alligator je konvergentni višeplatformski čitač dovoda, koji podržava standardne RSS/Atom dovode</p>
     <p xml:lang="sv">Alligator är en konvergent, plattformsoberoende kanalläsare som stöder RSS/Atom-standardkanaler</p>
     <p xml:lang="tr">Aligatör, standart RSS/Atom beslemelerini destekleyen; yakınsak, çapraz platform bir besleme okuyucusudur.</p>
     <p xml:lang="uk">Alligator — гнучка, багатоплатформова програма для читання подач з підтримкою стандартів RSS/Atom</p>
@@ -144,6 +159,7 @@
     <screenshot type="default">
       <caption>Alligator feed list on the desktop</caption>
       <caption xml:lang="ar">قائمة تغذية قاطور على سطح المكتب</caption>
+      <caption xml:lang="bg">Списък с канали на Alligator на работния плот</caption>
       <caption xml:lang="ca">Llista de fonts a l'Alligator a l'escriptori</caption>
       <caption xml:lang="ca-valencia">Llista de fonts d'Alligator en l'escriptori</caption>
       <caption xml:lang="cs">Seznam kanálů Alligatoru na počítači</caption>
@@ -175,6 +191,10 @@
       <caption xml:lang="sa">डेस्कटॉप् मध्ये एलिगेटर् फीड् सूची</caption>
       <caption xml:lang="sk">Zoznam kanálov Alligator na pracovnej ploche</caption>
       <caption xml:lang="sl">Alligator seznam virov na namizju</caption>
+      <caption xml:lang="sr">Alligator: списак довода на површи</caption>
+      <caption xml:lang="sr-Latn">Alligator: spisak dovoda na površi</caption>
+      <caption xml:lang="sr-ijekavian">Alligator: списак довода на површи</caption>
+      <caption xml:lang="sr-ijekavianlatin">Alligator: spisak dovoda na površi</caption>
       <caption xml:lang="sv">Alligator kanallista på skrivbordet</caption>
       <caption xml:lang="tr">Masaüstünde Aligatör besleme listesi</caption>
       <caption xml:lang="uk">Список подач Alligator на стільниці</caption>
@@ -185,6 +205,7 @@
     <screenshot type="default">
       <caption>Alligator on a phone</caption>
       <caption xml:lang="ar">صورة قاطور على الهاتف</caption>
+      <caption xml:lang="bg">Alligator на телефон</caption>
       <caption xml:lang="ca">Alligator a un telèfon</caption>
       <caption xml:lang="ca-valencia">Alligator a un telèfon</caption>
       <caption xml:lang="cs">Alligator na telefonu</caption>
@@ -216,6 +237,10 @@
       <caption xml:lang="sa">एकस्मिन् दूरभाषे मगरमच्छ</caption>
       <caption xml:lang="sk">Alligator na telefóne</caption>
       <caption xml:lang="sl">Alligator na telefonu</caption>
+      <caption xml:lang="sr">Alligator на телефону</caption>
+      <caption xml:lang="sr-Latn">Alligator na telefonu</caption>
+      <caption xml:lang="sr-ijekavian">Alligator на телефону</caption>
+      <caption xml:lang="sr-ijekavianlatin">Alligator na telefonu</caption>
       <caption xml:lang="sv">Alligator på en telefon</caption>
       <caption xml:lang="tr">Telefonda Aligatör</caption>
       <caption xml:lang="uk">Alligator на телефоні</caption>
@@ -275,6 +300,7 @@
       <description>
         <p>Translations update</p>
         <p xml:lang="ar">حُدثت الترجمات</p>
+        <p xml:lang="bg">Обновяване на преводите</p>
         <p xml:lang="ca">Actualització de les traduccions</p>
         <p xml:lang="ca-valencia">Actualització de les traduccions</p>
         <p xml:lang="cs">Aktualizace překladů</p>
@@ -296,6 +322,10 @@
         <p xml:lang="ru">Обновление переводов</p>
         <p xml:lang="sk">Aktualizácia prekladov</p>
         <p xml:lang="sl">Posodobitev prevodov</p>
+        <p xml:lang="sr">Ажурирани преводи</p>
+        <p xml:lang="sr-Latn">Ažurirani prevodi</p>
+        <p xml:lang="sr-ijekavian">Ажурирани преводи</p>
+        <p xml:lang="sr-ijekavianlatin">Ažurirani prevodi</p>
         <p xml:lang="sv">Översättningsuppdatering</p>
         <p xml:lang="tr">Çeviri güncellemeleri</p>
         <p xml:lang="uk">Оновлення перекладів</p>
@@ -315,6 +345,7 @@
         <ul>
           <li>Support for Qt6 based build</li>
           <li xml:lang="ar">دعم البناء القائم على Qt6</li>
+          <li xml:lang="bg">Поддръжка за компилация, базирана на Qt6</li>
           <li xml:lang="ca">Implementació de la construcció basada en les Qt6</li>
           <li xml:lang="ca-valencia">Implementació de la construcció basada en les Qt6</li>
           <li xml:lang="cs">Podpora sestavení založeného na Qt6</li>
@@ -336,6 +367,10 @@
           <li xml:lang="ru">Поддержка сборки на основе Qt6</li>
           <li xml:lang="sk">Podpora zostavenia na báze Qt6</li>
           <li xml:lang="sl">Podpora za gradnjo na osnovi Qt6</li>
+          <li xml:lang="sr">Подршка за градњу засновану на КуТ‑у 6</li>
+          <li xml:lang="sr-Latn">Podrška za gradnju zasnovanu na Qt‑u 6</li>
+          <li xml:lang="sr-ijekavian">Подршка за градњу засновану на КуТ‑у 6</li>
+          <li xml:lang="sr-ijekavianlatin">Podrška za gradnju zasnovanu na Qt‑u 6</li>
           <li xml:lang="sv">Stöd för Qt6-baserat bygge</li>
           <li xml:lang="tr">Qt6 tabanlı yapı desteği</li>
           <li xml:lang="uk">Підтримка збирання на основі Qt6</li>
@@ -350,6 +385,7 @@
         <ul>
           <li>General code-refactoring and translations updates</li>
           <li xml:lang="ar">إعادة صياغة عامة للكود وتحديثات للترجمات</li>
+          <li xml:lang="bg">Общо рефакториране на кода и актуализации на преводите</li>
           <li xml:lang="ca">Actualitzacions generals de reestructuració de codi i traduccions</li>
           <li xml:lang="ca-valencia">Actualitzacions generals de reestructuració de codi i traduccions</li>
           <li xml:lang="cs">Obecná refaktorizace kódu a aktualizace překladů</li>
@@ -371,6 +407,10 @@
           <li xml:lang="ru">Общий рефакторинг кода и обновления переводов</li>
           <li xml:lang="sk">Všeobecný refaktoring kódu a aktualizácia prekladov</li>
           <li xml:lang="sl">Splošne posodobitve preoblikovanja kode in prevodov</li>
+          <li xml:lang="sr">Опште рефакторисање кода и ажурирани преводи</li>
+          <li xml:lang="sr-Latn">Opšte refaktorisanje koda i ažurirani prevodi</li>
+          <li xml:lang="sr-ijekavian">Опште рефакторисање кода и ажурирани преводи</li>
+          <li xml:lang="sr-ijekavianlatin">Opšte refaktorisanje koda i ažurirani prevodi</li>
           <li xml:lang="sv">Allmän omstrukturering av kod och översättningsuppdateringar</li>
           <li xml:lang="tr">Kod düzenlemesi ve çeviri güncellemeleri</li>
           <li xml:lang="uk">Загальне переформатування програмного коду та оновлення перекладів</li>
@@ -385,6 +425,7 @@
         <ul>
           <li>Wrap entry title</li>
           <li xml:lang="ar">لف عنوان الإدخال</li>
+          <li xml:lang="bg">Пренос на заглавието на записа</li>
           <li xml:lang="ca">Ajusta el títol de les entrades</li>
           <li xml:lang="ca-valencia">Ajusta el títol de les entrades</li>
           <li xml:lang="cs">Sbalení názvu položky</li>
@@ -406,6 +447,10 @@
           <li xml:lang="ru">Перенос заголовков записей</li>
           <li xml:lang="sk">Zalamovanie nadpisu záznamu</li>
           <li xml:lang="sl">Prelom vnosa naslova</li>
+          <li xml:lang="sr">Преламање наслова уноса</li>
+          <li xml:lang="sr-Latn">Prelamanje naslova unosa</li>
+          <li xml:lang="sr-ijekavian">Преламање наслова уноса</li>
+          <li xml:lang="sr-ijekavianlatin">Prelamanje naslova unosa</li>
           <li xml:lang="sv">Radbryt posttitel</li>
           <li xml:lang="tr">Girdi başlığını kaydır</li>
           <li xml:lang="uk">Перенесення заголовка запису</li>
@@ -413,6 +458,7 @@
           <li xml:lang="zh-TW">讓項目標題自動換行</li>
           <li>Refresh all feeds on startup, and do not require manual refresh</li>
           <li xml:lang="ar">تُحدث كل التغذيات آليًا عند بدء التشغيل، ولا تتطلب تحديثًا يدويًا</li>
+          <li xml:lang="bg">Обновяване на всички канали при стартиране без изискване за ръчно обновяване</li>
           <li xml:lang="ca">Actualitza totes les fonts en iniciar i no cal l'actualització manual</li>
           <li xml:lang="ca-valencia">Actualitza totes les fonts en iniciar i no cal l'actualització manual</li>
           <li xml:lang="cs">Při spuštění se obnoví všechny kanály a nevyžadují ruční obnovení</li>
@@ -434,6 +480,10 @@
           <li xml:lang="ru">Обновление всех каналов при запуске, не требуя ручного обновления</li>
           <li xml:lang="sk">Obnoviť všetky kanály pri spustení, bez potreby manuálneho obnovenia</li>
           <li xml:lang="sl">Osveži vse vire ob zagonu in ne zahteva ročnega osveževanja</li>
+          <li xml:lang="sr">Освежавање свих довода при покретању, без потребе за ручним освежавањем</li>
+          <li xml:lang="sr-Latn">Osvežavanje svih dovoda pri pokretanju, bez potrebe za ručnim osvežavanjem</li>
+          <li xml:lang="sr-ijekavian">Освјежавање свих довода при покретању, без потребе за ручним освјежавањем</li>
+          <li xml:lang="sr-ijekavianlatin">Osvježavanje svih dovoda pri pokretanju, bez potrebe za ručnim osvježavanjem</li>
           <li xml:lang="sv">Uppdatera alla kanaler vid start och kräv ingen manuell uppdatering</li>
           <li xml:lang="tr">Tüm beslemeleri başlangıçta yenile ve elle yenilemeye gereksinim duyma</li>
           <li xml:lang="uk">Оновлення усіх подач під час запуску, без потреби у оновленні вручну</li>
@@ -441,6 +491,7 @@
           <li xml:lang="zh-TW">啟動時重新整理所有 feed，不再要求手動重新整理</li>
           <li>Add page to view all entries in one list</li>
           <li xml:lang="ar">أُضيفت صفحة لعرض كل الإدخالات في قائمة واحدة</li>
+          <li xml:lang="bg">Добавяне на страница за преглед на всички записи в един списък</li>
           <li xml:lang="ca">Afegeix una pàgina per a veure totes les entrades en una llista</li>
           <li xml:lang="ca-valencia">Afig una pàgina per a veure totes les entrades en una llista</li>
           <li xml:lang="cs">Přidána stránka pro zobrazení všech záznamů v jednom seznamu</li>
@@ -462,6 +513,10 @@
           <li xml:lang="ru">Добавлена страница для просмотра всех записей в одном списке</li>
           <li xml:lang="sk">Pridať stránku na zobrazenie všetkých záznamov v jednom zozname</li>
           <li xml:lang="sl">Doda stran za ogled vseh vnosov na enem seznamu</li>
+          <li xml:lang="sr">Додата страница за приказ свих уноса у једном списку</li>
+          <li xml:lang="sr-Latn">Dodata stranica za prikaz svih unosa u jednom spisku</li>
+          <li xml:lang="sr-ijekavian">Додата страница за приказ свих уноса у једном списку</li>
+          <li xml:lang="sr-ijekavianlatin">Dodata stranica za prikaz svih unosa u jednom spisku</li>
           <li xml:lang="sv">Lägg till sida för att visa alla poster i en lista</li>
           <li xml:lang="tr">Tüm girdileri tek bir sayfada görüntüleme sayfası</li>
           <li xml:lang="uk">Додано сторінку перегляду усіх записів в одному списку</li>
@@ -469,6 +524,7 @@
           <li xml:lang="zh-TW">新增以統一清單檢視所有項目的頁面</li>
           <li>Fix crash on refreshing</li>
           <li xml:lang="ar">أُصلح الانهيار عند التحديث</li>
+          <li xml:lang="bg">Поправка на срив при опресняване</li>
           <li xml:lang="ca">Correcció de fallada en actualitzar</li>
           <li xml:lang="ca-valencia">Correcció de fallada en actualitzar</li>
           <li xml:lang="cs">Oprava pádu při obnovování</li>
@@ -490,6 +546,10 @@
           <li xml:lang="ru">Исправлен сбой при обновлении</li>
           <li xml:lang="sk">Opravenie pádu pri obnovení</li>
           <li xml:lang="sl">Odpravi sesutje ob osvežitvi</li>
+          <li xml:lang="sr">Поправљен пад при освежавању</li>
+          <li xml:lang="sr-Latn">Popravljen pad pri osvežavanju</li>
+          <li xml:lang="sr-ijekavian">Поправљен пад при освјежавању</li>
+          <li xml:lang="sr-ijekavianlatin">Popravljen pad pri osvježavanju</li>
           <li xml:lang="sv">Rätta krasch vid uppdatering</li>
           <li xml:lang="tr">Yenileme sırasındaki çökmeyi onar</li>
           <li xml:lang="uk">Усунено аварійне завершення роботи при оновленні даних</li>
@@ -497,6 +557,7 @@
           <li xml:lang="zh-TW">修正重新整理時可能會發生的崩潰</li>
           <li>Allow to filter read entries</li>
           <li xml:lang="ar">السماح بمرشح للإدخالات المقروءة</li>
+          <li xml:lang="bg">Филтриране на прочетени записи</li>
           <li xml:lang="ca">Permet filtrar les entrades llegides</li>
           <li xml:lang="ca-valencia">Permet filtrar les entrades llegides</li>
           <li xml:lang="cs">Povoleno filtrování přečtených položek</li>
@@ -518,6 +579,10 @@
           <li xml:lang="ru">Возможность фильтрации прочитанных записей</li>
           <li xml:lang="sk">Možnosť filtrovania prečítaných záznamov</li>
           <li xml:lang="sl">Dovoli filtriranje prebranih vnosov</li>
+          <li xml:lang="sr">Омогућено филтрирање прочитаних уноса</li>
+          <li xml:lang="sr-Latn">Omogućeno filtriranje pročitanih unosa</li>
+          <li xml:lang="sr-ijekavian">Омогућено филтрирање прочитаних уноса</li>
+          <li xml:lang="sr-ijekavianlatin">Omogućeno filtriranje pročitanih unosa</li>
           <li xml:lang="sv">Tillåt filtrering av lästa poster</li>
           <li xml:lang="tr">Okunmuş girdileri süzmeye olanak tanı</li>
           <li xml:lang="uk">Уможливлено фільтрування прочитаних записів</li>
@@ -532,6 +597,7 @@
         <ul>
           <li>Fix memory leak when fetching feeds</li>
           <li xml:lang="ar">أُصلح تسرب الذاكرة عند جلب التغذيات</li>
+          <li xml:lang="bg">Поправка на изтичане на памет при изтегляне на канали</li>
           <li xml:lang="ca">Corregeix una fuita de memòria en recuperar les fonts</li>
           <li xml:lang="ca-valencia">Corregix una fuita de memòria en recuperar les fonts</li>
           <li xml:lang="cs">Oprava úniku paměti při načítání kanálů</li>
@@ -553,6 +619,10 @@
           <li xml:lang="ru">Исправлена утечка памяти при получении лент</li>
           <li xml:lang="sk">Opravenie úniku pamäte pri načítavaní kanálov</li>
           <li xml:lang="sl">Popravi puščanje pomnilnika pri pridobivanju virov</li>
+          <li xml:lang="sr">Поправљено цурење меморије при очитавању довода</li>
+          <li xml:lang="sr-Latn">Popravljeno curenje memorije pri očitavanju dovoda</li>
+          <li xml:lang="sr-ijekavian">Поправљено цурење меморије при очитавању довода</li>
+          <li xml:lang="sr-ijekavianlatin">Popravljeno curenje memorije pri očitavanju dovoda</li>
           <li xml:lang="sv">Rätta minnesläcka när kanaler hämtas</li>
           <li xml:lang="tr">Beslemeleri getirirken oluşan bellek sızıntısını önle</li>
           <li xml:lang="uk">Виправлено виток пам'яті при отриманні подач</li>
@@ -571,6 +641,7 @@
       <description>
         <p>Plasma Mobile Gear 21.06 release</p>
         <p xml:lang="ar">إصدار عتاد بلازما الجوال 21.06</p>
+        <p xml:lang="bg">Версия 21.06 на Plasma Mobile Gear</p>
         <p xml:lang="ca">Llançament del Plasma Mobile Gear 21.06</p>
         <p xml:lang="ca-valencia">Llançament de Plasma Mobile Gear 21.06</p>
         <p xml:lang="cs">Vydání Plasma Mobile Gear 21.06</p>
@@ -592,6 +663,10 @@
         <p xml:lang="ru">Выпуск Plasma Mobile Gear 21.06</p>
         <p xml:lang="sk">Plasma Mobile Gear 21.06 release</p>
         <p xml:lang="sl">Izdaja Plasma Mobile Gear 21.06</p>
+        <p xml:lang="sr">Издање мобилне Плазме Gear 21.06</p>
+        <p xml:lang="sr-Latn">Izdanje mobilne Plasme Gear 21.06</p>
+        <p xml:lang="sr-ijekavian">Издање мобилне Плазме Gear 21.06</p>
+        <p xml:lang="sr-ijekavianlatin">Izdanje mobilne Plasme Gear 21.06</p>
         <p xml:lang="sv">Plasma Mobile Gear 21.06 utgåva</p>
         <p xml:lang="tr">Plasma Cep Gear 21.06 yayımı</p>
         <p xml:lang="uk">Випуск Plasma Mobile Gear 21.06</p>
@@ -600,6 +675,7 @@
         <ul>
           <li>Fix height of resized images</li>
           <li xml:lang="ar">أُصلح ارتفاع الصور التي غُير حجمها</li>
+          <li xml:lang="bg">Фиксиране на височината на преоразмерените изображения</li>
           <li xml:lang="ca">Corregeix l'altura de les imatges redimensionades</li>
           <li xml:lang="ca-valencia">Corregix l'alçària de les imatges redimensionades</li>
           <li xml:lang="cs">Opravena výška změněných obrázků</li>
@@ -621,6 +697,10 @@
           <li xml:lang="ru">Исправлена высота изменённых изображений</li>
           <li xml:lang="sk">Opravenie výšky zmenenej veľkosti obrázkov</li>
           <li xml:lang="sl">Popravi višino slik spremenjenih belikosti</li>
+          <li xml:lang="sr">Поправљена висина слика промењене величине</li>
+          <li xml:lang="sr-Latn">Popravljena visina slika promenjene veličine</li>
+          <li xml:lang="sr-ijekavian">Поправљена висина слика промијењене величине</li>
+          <li xml:lang="sr-ijekavianlatin">Popravljena visina slika promijenjene veličine</li>
           <li xml:lang="sv">Rätta höjd på storleksändrade bilder</li>
           <li xml:lang="tr">Yeniden boyutlandırılmış görsellerin yüksekliğini düzelt</li>
           <li xml:lang="uk">Виправлено висоту зображень зі зміненими розмірами</li>
