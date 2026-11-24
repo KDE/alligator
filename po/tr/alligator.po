@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: alligator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-09-05 00:44+0000\n"
-"PO-Revision-Date: 2026-11-15 19:00+0300\n"
+"PO-Revision-Date: 2026-11-23 18:02+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -32,12 +32,12 @@ msgstr ""
 #: database.cpp:84 database.cpp:378
 #, kde-format
 msgid "Default"
-msgstr "Öntanımlı"
+msgstr "Varsayılan"
 
 #: database.cpp:85 database.cpp:379
 #, kde-format
 msgid "Default Feed Group"
-msgstr "Öntanımlı Besleme Grubu"
+msgstr "Varsayılan Besleme Grubu"
 
 #: fetcher.cpp:255
 #, kde-format
@@ -302,7 +302,7 @@ msgstr "Açıklama:"
 #, kde-format
 msgctxt "@option:check"
 msgid "Set as default:"
-msgstr "Öntanımlı olarak ayarla"
+msgstr "Varsayılan olarak ayarla"
 
 #: qml/FeedListDelegate.qml:29
 #, kde-format
@@ -404,7 +404,7 @@ msgstr "Grup Ekle…"
 #, kde-format
 msgctxt "@action:button"
 msgid "Set as Default"
-msgstr "Öntanımlı Olarak Ayarla"
+msgstr "Varsayılan Olarak Ayarla"
 
 #: qml/GroupsListPage.qml:67
 #, kde-format
@@ -473,7 +473,7 @@ msgstr "Yazı tipi puntosu:"
 #: qml/SettingsPage.qml:70
 #, kde-format
 msgid "Use system default"
-msgstr "Sistem öntanımlısını kullan"
+msgstr "Sistem varsayılanını kullan"
 
 #~ msgid "URL"
 #~ msgstr "URL"
